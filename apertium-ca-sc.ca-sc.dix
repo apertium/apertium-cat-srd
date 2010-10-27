@@ -1,0 +1,39 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="mf"      c="Masculine / feminine"/>
+  </sdefs>
+  <section id="main" type="standard">
+
+    <!-- SECTION:  Nouns -->
+
+    <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>clau<s n="n"/><s n="f"/></l><r>crae<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>clau<s n="n"/><s n="f"/></l><r>crai<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>clau<s n="n"/><s n="f"/></l><r>jae<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>nit<s n="n"/><s n="f"/></l><r>notte<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>nit<s n="n"/><s n="f"/></l><r>notti<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cabra<s n="n"/><s n="f"/></l><r>cabra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>llengua<s n="n"/><s n="f"/></l><r>limba<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>llengua<s n="n"/><s n="f"/></l><r>lingua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>plaça<s n="n"/><s n="f"/></l><r>pratha<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>plaça<s n="n"/><s n="f"/></l><r>pratza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pont<s n="n"/><s n="m"/></l><r>ponte<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>pont<s n="n"/><s n="m"/></l><r>ponti<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>església<s n="n"/><s n="f"/></l><r>creia<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>església<s n="n"/><s n="f"/></l><r>cresia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>hospital<s n="n"/><s n="m"/></l><r>ispidale<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>hospital<s n="n"/><s n="m"/></l><r>spidali<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>formatge<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fill<s n="n"/><s n="m"/></l><r>fidzu<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- SECTION:  Verbs -->
+
+    <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>
