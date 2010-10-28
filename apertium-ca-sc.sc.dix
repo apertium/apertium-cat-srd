@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXkqyx</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -142,8 +142,13 @@
 
     <!-- SECTION: Congiunzioni -->
 
-    <pardef n="e__cnjcoo" c="p.32">
+    <pardef n="o__cnjcoo" c="p.32">
       <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="/e__cnjcoo" c="p.32">
+      <e r="LR"><p><l>e</l><r>e<s n="cnjcoo"/></r></p></e>
+      <e r="RL"><p><l><a/>e</l><r>e<s n="cnjcoo"/></r></p></e>
     </pardef>
 
     <pardef n="/ne__cnjcoo" c="p.32">
@@ -334,7 +339,11 @@
       <e>       <p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
- 
+
+    <pardef n="anarchismu__n">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+  
     <pardef n="temp/us__n">
       <e>       <p><l>us</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1069,23 +1078,23 @@
   <section id="main" type="standard">
     <!-- SECTION: Conjunctions -->
 
-    <e lm="e"><i>e</i><par n="e__cnjcoo"/></e>
-    <e lm="finas"><i>finas</i><par n="e__cnjcoo"/></e>
-    <e lm="fintzas"><i>fintzas</i><par n="e__cnjcoo"/></e>
-    <e lm="nemmancu"><i>nemmancu</i><par n="e__cnjcoo"/></e>
-    <e lm="in prus"><i>in<b/>prus</i><par n="e__cnjcoo"/></e>
+    <e lm="e"><i></i><par n="/e__cnjcoo"/></e>
+    <e lm="finas"><i>finas</i><par n="o__cnjcoo"/></e>
+    <e lm="fintzas"><i>fintzas</i><par n="o__cnjcoo"/></e>
+    <e lm="nemmancu"><i>nemmancu</i><par n="o__cnjcoo"/></e>
+    <e lm="in prus"><i>in<b/>prus</i><par n="o__cnjcoo"/></e>
     <e lm="ne"><i></i><par n="/ne__cnjcoo"/></e>
-    <e lm="o"><i>o</i><par n="e__cnjcoo"/></e>
+    <e lm="o"><i>o</i><par n="o__cnjcoo"/></e>
 
-    <e lm="ma"><i>ma</i><par n="e__cnjcoo"/></e>
-    <e lm="però"><i>però</i><par n="e__cnjcoo"/></e>
-    <e lm="prus a prestu"><i>prus<b/>a<b/>prestu</i><par n="e__cnjcoo"/></e>
-    <e lm="sende gasi"><i>sende<b/>gasi</i><par n="e__cnjcoo"/></e>
-    <e lm="de su restu"><i>de<b/>su<b/>restu</i><par n="e__cnjcoo"/></e>
-    <e lm="antis"><i>antis</i><par n="e__cnjcoo"/></e>
-    <e lm="imbetzes"><i>imbetzes</i><par n="e__cnjcoo"/></e>
-    <e lm="cando chi"><i>cando<b/>chi</i><par n="e__cnjcoo"/></e>
-    <e lm="in càmbiu"><i>in<b/>càmbiu</i><par n="e__cnjcoo"/></e>
+    <e lm="ma"><i>ma</i><par n="o__cnjcoo"/></e>
+    <e lm="però"><i>però</i><par n="o__cnjcoo"/></e>
+    <e lm="prus a prestu"><i>prus<b/>a<b/>prestu</i><par n="o__cnjcoo"/></e>
+    <e lm="sende gasi"><i>sende<b/>gasi</i><par n="o__cnjcoo"/></e>
+    <e lm="de su restu"><i>de<b/>su<b/>restu</i><par n="o__cnjcoo"/></e>
+    <e lm="antis"><i>antis</i><par n="o__cnjcoo"/></e>
+    <e lm="imbetzes"><i>imbetzes</i><par n="o__cnjcoo"/></e>
+    <e lm="cando chi"><i>cando<b/>chi</i><par n="o__cnjcoo"/></e>
+    <e lm="in càmbiu"><i>in<b/>càmbiu</i><par n="o__cnjcoo"/></e>
 
     <e lm="chi"><i>chi</i><par n="chi__cnjsub"/></e>
     <e lm="che"><i>che</i><par n="chi__cnjsub"/></e>
@@ -1239,6 +1248,8 @@
     <e lm="duca"><i>duca</i><par n="pane__n"/></e>
     <e lm="ferreri"><i>ferreri</i><par n="pane__n"/></e>
     <e lm="continente"><i>continente</i><par n="pane__n"/></e>
+    <e lm="nòmene"><i>nòmene</i><par n="pane__n"/></e>
+    <e lm="nòmene" r="LR"><p><l>nomene</l><r>nòmene</r></p><par n="pane__n"/></e>
     <e lm="sero"><i>sero</i><par n="pane__n"/></e>
     <e lm="canale"><i>canale</i><par n="pane__n"/></e>
 
@@ -1288,12 +1299,21 @@
     <e lm="sorre"><i>sorre</i><par n="mesa__n"/></e>
     <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
     <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
+    <e lm="epoca"><i>epoca</i><par n="mesa__n"/></e>
     <e lm="paraula"><i>paraula</i><par n="mesa__n"/></e>
+    <e lm="paraula" r="LR"><p><l>peraula</l><r>paraula</r></p><par n="mesa__n"/></e>
     <e lm="tzitade"><i>tzitade</i><par n="mesa__n"/></e>
 
     <e lm="regione"><i>regione</i><par n="mesa__n"/></e>
     <e lm="sub-regione"><i>sub-regione</i><par n="mesa__n"/></e>
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
+    <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
+    <e lm="presentzia"><i>presentzia</i><par n="mesa__n"/></e>
+    <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
+    <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
+    <e lm="maturidade"><i>maturidade</i><par n="mesa__n"/></e>
+    <e lm="versione"><i>versione</i><par n="mesa__n"/></e>
+    <e lm="composizione"><i>composizione</i><par n="mesa__n"/></e>
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -1457,6 +1477,7 @@
     <e lm="afirmatzione"><i>afirmatzione</i><par n="mesa__n"/></e>
     <e lm="affermazione"><i>affermazione</i><par n="mesa__n"/></e>
     <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
+    <e lm="estensione"><i>estensione</i><par n="mesa__n"/></e>
 
     <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
     <e lm="zona"><i>zona</i><par n="mesa__n"/></e>
@@ -1471,6 +1492,12 @@
     <e lm="localidade"><i>localidade</i><par n="mesa__n"/></e>
     <e lm="parte"><i>parte</i><par n="mesa__n"/></e>
     <e lm="ufitzialidade"><i>ufitzialidade</i><par n="mesa__n"/></e>
+    <e lm="biblioteca"><i>biblioteca</i><par n="mesa__n"/></e>
+    <e lm="mente"><i>mente</i><par n="mesa__n"/></e>
+    <e lm="lega"><i>lega</i><par n="mesa__n"/></e>
+    <e lm="filosofia"><i>filosofia</i><par n="mesa__n"/></e>
+    <e lm="gherra"><i>gherra</i><par n="mesa__n"/></e>
+    <e lm="mùsica"><i>mùsica</i><par n="mesa__n"/></e>
 
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
     <e lm="chitarrista"><i>chitarrista</i><par n="dentista__n"/></e>
@@ -1504,11 +1531,43 @@
     <e lm="ullierista"><i>ullierista</i><par n="dentista__n"/></e>
     <e lm="umorista"><i>umorista</i><par n="dentista__n"/></e>
     <e lm="violinista"><i>violinista</i><par n="dentista__n"/></e>
+    <e lm="protagonista"><i>protagonista</i><par n="dentista__n"/></e>
     <e lm="comunista"><i>comunista</i><par n="dentista__n"/></e>
     <e lm="capitalista"><i>capitalista</i><par n="dentista__n"/></e>
     <e lm="camionista"><i>camionista</i><par n="dentista__n"/></e>
     <e lm="tziclista"><i>tziclista</i><par n="dentista__n"/></e>
     <e lm="anestesista"><i>anestesista</i><par n="dentista__n"/></e>
+    <e lm="giornalista"><i>giornalista</i><par n="dentista__n"/></e>
+
+    <e lm="buddhismu"><i>buddhismu</i><par n="anarchismu__n"/></e>
+    <e lm="buddismu" r="LR"><p><l>buddismu</l><r>buddhismu</r></p><par n="anarchismu__n"/></e>
+    <e lm="induismu"><i>induismu</i><par n="anarchismu__n"/></e>
+    <e lm="turismu"><i>turismu</i><par n="anarchismu__n"/></e>
+    <e lm="neoplasticismu"><i>neoplasticismu</i><par n="anarchismu__n"/></e>
+    <e lm="modernismu"><i>modernismu</i><par n="anarchismu__n"/></e>
+    <e lm="costruttivismu"><i>costruttivismu</i><par n="anarchismu__n"/></e>
+    <e lm="anarchismu"><i>anarchismu</i><par n="anarchismu__n"/></e>
+    <e lm="vegetarianismu"><i>vegetarianismu</i><par n="anarchismu__n"/></e>
+    <e lm="taoismu"><i>taoismu</i><par n="anarchismu__n"/></e>
+    <e lm="surrealismu"><i>surrealismu</i><par n="anarchismu__n"/></e>
+    <e lm="suprematismu"><i>suprematismu</i><par n="anarchismu__n"/></e>
+    <e lm="socialismu"><i>socialismu</i><par n="anarchismu__n"/></e>
+    <e lm="simbolismu"><i>simbolismu</i><par n="anarchismu__n"/></e>
+    <e lm="razionalismu"><i>razionalismu</i><par n="anarchismu__n"/></e>
+    <e lm="politeismu"><i>politeismu</i><par n="anarchismu__n"/></e>
+    <e lm="pendolarismu"><i>pendolarismu</i><par n="anarchismu__n"/></e>
+    <e lm="mototziclismu"><i>mototziclismu</i><par n="anarchismu__n"/></e>
+    <e lm="lastimismu"><i>lastimismu</i><par n="anarchismu__n"/></e>
+    <e lm="illuminismu"><i>illuminismu</i><par n="anarchismu__n"/></e>
+    <e lm="giornalismu"><i>giornalismu</i><par n="anarchismu__n"/></e>
+    <e lm="feudalismu"><i>feudalismu</i><par n="anarchismu__n"/></e>
+    <e lm="fascismu"><i>fascismu</i><par n="anarchismu__n"/></e>
+    <e lm="epicureismu"><i>epicureismu</i><par n="anarchismu__n"/></e>
+    <e lm="eclettismu"><i>eclettismu</i><par n="anarchismu__n"/></e>
+    <e lm="dadaismu"><i>dadaismu</i><par n="anarchismu__n"/></e>
+    <e lm="colonialismu"><i>colonialismu</i><par n="anarchismu__n"/></e>
+    <e lm="assolutismu"><i>assolutismu</i><par n="anarchismu__n"/></e>
+
 
     <e lm="macu"><i>mac</i><par n="mac/u__n"/></e>
     <e lm="maridu"><i>marid</i><par n="mac/u__n"/></e>
@@ -1557,6 +1616,11 @@
     <e lm="territoriu"><i>territori</i><par n="mac/u__n"/></e>
     <e lm="cabu"><i>cab</i><par n="mac/u__n"/></e>
     <e lm="calendàriu"><i>calendàri</i><par n="mac/u__n"/></e>
+    <e lm="arcipelagu"><i>arcipelag</i><par n="mac/u__n"/></e>
+    <e lm="edificiu"><i>edifici</i><par n="mac/u__n"/></e>
+    <e lm="santu"><i>sant</i><par n="mac/u__n"/></e>
+    <e lm="ispiritu"><i>ispirit</i><par n="mac/u__n"/></e>
+    <e lm="terrinu"><i>terrin</i><par n="mac/u__n"/></e>
 
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
@@ -1580,7 +1644,10 @@
 
     <e lm="Asia"><i>Asia</i><par n="Etiòpia__np"/></e>
     <e lm="Russia"><i>Russia</i><par n="Etiòpia__np"/></e>
-    <e lm="Isvitzera"><i>Isvitzera</i><par n="Etiòpia__np"/></e>
+
+    <e lm="Isvìtzera"><i>Isvìtzera</i><par n="Etiòpia__np"/></e>
+    <e lm="Isvìtzera" r="LR"><p><l>Isvitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Isvìtzera" r="LR"><p><l>Svitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Tanzània"><i>Tanzània</i><par n="Etiòpia__np"/></e>
     <e lm="Tanzània" r="LR"><p><l>Tanzania</l><r>Tanzània</r></p><par n="Etiòpia__np"/></e>
@@ -1635,6 +1702,12 @@
     <e lm="Mosca"><i>Mosca</i><par n="Etiòpia__np"/></e>
     <e lm="Frantza"><i>Frantza</i><par n="Etiòpia__np"/></e>
     <e lm="Inghilterra"><i>Inghilterra</i><par n="Etiòpia__np"/></e>
+    <e lm="Pennsylvania"><i>Pennsylvania</i><par n="Etiòpia__np"/></e>
+    <e lm="Filadelfia"><i>Filadelfia</i><par n="Etiòpia__np"/></e>
+    <e lm="Carbònia"><i>Carbònia</i><par n="Etiòpia__np"/></e>
+    <e lm="Dalmazia"><i>Dalmazia</i><par n="Etiòpia__np"/></e>
+    <e lm="Prussia"><i>Prussia</i><par n="Etiòpia__np"/></e>
+    <e lm="Tracia"><i>Tracia</i><par n="Etiòpia__np"/></e>
 
     <e lm="Afganistàn"><i>Afganistàn</i><par n="Afganistàn__np"/></e>
     <e lm="Regnu Unidu"><i>Regnu<b/>Unidu</i><par n="Afganistàn__np"/></e>
@@ -1651,10 +1724,13 @@
     <e lm="Puru"><i>Puru</i><par n="Afganistàn__np"/></e>
     <e lm="Chicago"><i>Chicago</i><par n="Afganistàn__np"/></e>
     <e lm="Cannes"><i>Cannes</i><par n="Afganistàn__np"/></e>
+    <e lm="Liechtenstein"><i>Liechtenstein</i><par n="Afganistàn__np"/></e>
     <e lm="Vietnam"><i>Vietnam</i><par n="Afganistàn__np"/></e>
     <e lm="Teheran"><i>Teheran</i><par n="Afganistàn__np"/></e>
     <e lm="Stanford"><i>Stanford</i><par n="Afganistàn__np"/></e>
     <e lm="San Marino"><i>San<b/>Marino</i><par n="Afganistàn__np"/></e>
+    <e lm="Santu Frantziscu"><i>Santu<b/>Frantziscu</i><par n="Afganistàn__np"/></e>
+    <e lm="Santu Miali"><i>Santu<b/>Miali</i><par n="Afganistàn__np"/></e>
 
     <e lm="Casteddu"><i>Casteddu</i><par n="Afganistàn__np"/></e>
     <e lm="Vaticanu"><i>Vaticanu</i><par n="Afganistàn__np"/></e>
@@ -1703,17 +1779,22 @@
     <e lm="Francisco"><i>Francisco</i><par n="Antoni__np"/></e>
     <e lm="Federico"><i>Federico</i><par n="Antoni__np"/></e>
     <e lm="Ernest"><i>Ernest</i><par n="Antoni__np"/></e>
+    <e lm="Carl"><i>Carl</i><par n="Antoni__np"/></e>
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Teresa"><i>Teresa</i><par n="Maria__np"/></e>
     <e lm="Lucia"><i>Lucia</i><par n="Maria__np"/></e>
     <e lm="Anna"><i>Anna</i><par n="Maria__np"/></e>
+    <e lm="Carmen"><i>Carmen</i><par n="Maria__np"/></e>
     <e lm="Pandora"><i>Pandora</i><par n="Maria__np"/></e>
     <e lm="Eleonora"><i>Eleonora</i><par n="Maria__np"/></e>
 
+    <e lm="Franklin"><i>Franklin</i><par n="Saussure__np"/></e>
     <e lm="Gandhi"><i>Gandhi</i><par n="Saussure__np"/></e>
+    <e lm="Dostoevskij"><i>Dostoevskij</i><par n="Saussure__np"/></e>
     <e lm="Nobel"><i>Nobel</i><par n="Saussure__np"/></e>
     <e lm="Saussure"><i>Saussure</i><par n="Saussure__np"/></e>
+    <e lm="Schmitt"><i>Schmitt</i><par n="Saussure__np"/></e>
     <e lm="Olivetti"><i>Olivetti</i><par n="Saussure__np"/></e>
     <e lm="Eisenman"><i>Eisenman</i><par n="Saussure__np"/></e>
     <e lm="Garibaldi"><i>Garibaldi</i><par n="Saussure__np"/></e>
@@ -1787,6 +1868,10 @@
     <e lm="romanzu"><i>romanz</i><par n="frantzes/u__adj"/></e>
     <e lm="arromanzu"><i>arromanz</i><par n="frantzes/u__adj"/></e>
     <e lm="economicu"><i>economic</i><par n="frantzes/u__adj"/></e>
+    <e lm="distintu"><i>distint</i><par n="frantzes/u__adj"/></e>
+    <e lm="santu"><i>sant</i><par n="frantzes/u__adj"/></e>
+    <e lm="musicu"><i>music</i><par n="frantzes/u__adj"/></e>
+    <e lm="sinistru"><i>sinistr</i><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
 
@@ -1805,6 +1890,8 @@
     <e lm="ufitziale"><i>ufitziale</i><par n="triste__adj"/></e>
     <e lm="ufitziale" r="LR"><p><l>uffitziale</l><r>ufitziale</r></p><par n="triste__adj"/></e>
 
+    <e lm="natzionale"><i>natzionale</i><par n="triste__adj"/></e>
+    <e lm="nazionale" r="LR"><p><l>nazionale</l><r>natzionale</r></p><par n="triste__adj"/></e>
     <e lm="internatzionale"><i>internatzionale</i><par n="triste__adj"/></e>
     <e lm="internazionale" r="LR"><p><l>internazionale</l><r>internatzionale</r></p><par n="triste__adj"/></e>
 
@@ -1820,6 +1907,7 @@
     <e lm="tantu"><i>tantu</i><par n="bene__adv"/></e>
     <e lm="cantu"><i>cantu</i><par n="bene__adv"/></e>
     <e lm="prus"><i>prus</i><par n="bene__adv"/></e>
+    <e lm="pius" r="LR"><p><l>pius</l><r>prus</r></p><par n="bene__adv"/></e>
     <e lm="meda"><i>meda</i><par n="bene__adv"/></e>
     <e lm="a beru"><i>a<b/>beru</i><par n="bene__adv"/></e>
 
@@ -1955,6 +2043,10 @@
     <e lm="partecipare"><i>partecip</i><par n="cant/are__vblex"/></e>
     <e lm="passare"><i>pass</i><par n="cant/are__vblex"/></e>
     <e lm="disterrare"><i>disterr</i><par n="cant/are__vblex"/></e>
+    <e lm="educare"><i>educ</i><par n="cant/are__vblex"/></e>
+    <e lm="realizare"><i>realiz</i><par n="cant/are__vblex"/></e>
+    <e lm="caraterizzare"><i>caraterizz</i><par n="cant/are__vblex"/></e>
+    <e lm="accumpagnare"><i>accumpagn</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
@@ -2018,6 +2110,7 @@
   <section id="apostrophe" type="postblank">
     <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="edd’"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
