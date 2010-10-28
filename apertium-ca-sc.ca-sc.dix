@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="det"     c="Determiner"/>
+    <sdef n="predet"  c="Pre-determiner"/>
     <sdef n="vblex"   c="Verb"/>
     <sdef n="vbmod"   c="Modal verb"/>
     <sdef n="vbhaver" c="Verb 'to have'"/>
@@ -86,29 +87,26 @@
     <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="mf"/></l><r>unu<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/></l><r>unu<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
 
+    <e><p><l>tot<s n="predet"/></l><r>totu<s n="det"/><s n="ind"/></r></p></e>
+
     <!-- SECTION:  Nouns -->
 
+    <e><p><l>força<s n="n"/><s n="f"/></l><r>fortza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>clau<s n="n"/><s n="f"/></l><r>crae<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>clau<s n="n"/><s n="f"/></l><r>crai<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>clau<s n="n"/><s n="f"/></l><r>jae<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nit<s n="n"/><s n="f"/></l><r>notte<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>nit<s n="n"/><s n="f"/></l><r>notti<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cabra<s n="n"/><s n="f"/></l><r>cabra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>llengua<s n="n"/><s n="f"/></l><r>limba<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>llengua<s n="n"/><s n="f"/></l><r>lingua<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plaça<s n="n"/><s n="f"/></l><r>pratha<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>plaça<s n="n"/><s n="f"/></l><r>pratza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pont<s n="n"/><s n="m"/></l><r>ponte<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>pont<s n="n"/><s n="m"/></l><r>ponti<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>església<s n="n"/><s n="f"/></l><r>creia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>església<s n="n"/><s n="f"/></l><r>cresia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hospital<s n="n"/><s n="m"/></l><r>ispidale<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>hospital<s n="n"/><s n="m"/></l><r>spidali<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>formatge<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fill<s n="n"/><s n="m"/></l><r>fidzu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>alquimista<s n="n"/><s n="mf"/></l><r>alchimista<s n="n"/><s n="mf"/></r></p></e>
@@ -142,6 +140,8 @@
 
     <e><p><l>nació<s n="n"/><s n="f"/></l><r>natzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>part<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>estat<s n="n"/><s n="m"/></l><r>istadu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>democràcia<s n="n"/><s n="f"/></l><r>democratzia<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION:  Proper noun -->
 
@@ -153,7 +153,15 @@
     <!-- SECTION:  Adjectives -->
 
     <e><p><l>nostre<s n="adj"/><s n="pos"/></l><r>nostru<s n="adj"/><s n="pos"/></r></p></e>
+    <e><p><l>meu<s n="adj"/><s n="pos"/></l><r>meo<s n="adj"/><s n="pos"/></r></p></e>
+    <e><p><l>teu<s n="adj"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
+    <e><p><l>seu<s n="adj"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
 
+    <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
+    <e><p><l>europeu<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
+    <e><p><l>nacional<s n="adj"/></l><r>natzionale<s n="adj"/></r></p></e>
+    <e><p><l>polític<s n="adj"/></l><r>polìticu<s n="adj"/></r></p></e>
+    <e><p><l>espanyol<s n="adj"/></l><r>ispagnolu<s n="adj"/></r></p></e>
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
@@ -179,6 +187,7 @@
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>
     <e><p><l>portar<s n="vblex"/></l><r>batire<s n="vblex"/></r></p></e>
+    <e><p><l>recuperar<s n="vblex"/></l><r>recuberare<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 

@@ -149,6 +149,7 @@
 
     <pardef n="/e__cnjcoo" c="p.32">
       <e r="LR"><p><l>e</l><r>e<s n="cnjcoo"/></r></p></e>
+      <e r="LR"><p><l>et</l><r>e<s n="cnjcoo"/></r></p></e> <!-- @!LSC -->
       <e r="RL"><p><l><a/>e</l><r>e<s n="cnjcoo"/></r></p></e>
     </pardef>
 
@@ -1554,6 +1555,8 @@
     <e lm="teoria"><i>teoria</i><par n="mesa__n"/></e>
     <e lm="serie"><i>serie</i><par n="mesa__n"/></e>
     <e lm="esperièntzia"><i>esperièntzia</i><par n="mesa__n"/></e>
+    <e lm="democratzia"><i>democratzia</i><par n="mesa__n"/></e>
+    <e lm="fortza"><i>fortza</i><par n="mesa__n"/></e>
     <e lm="violèntzia"><i>violèntzia</i><par n="mesa__n"/></e>
     <e lm="règula"><i>règula</i><par n="mesa__n"/></e>
     <e lm="carriera"><i>carriera</i><par n="mesa__n"/></e>
@@ -1995,6 +1998,9 @@
     <e lm="famosu"><i>famos</i><par n="frantzes/u__adj"/></e>
     <e lm="milanesu"><i>milanes</i><par n="frantzes/u__adj"/></e>
     <e lm="saharianu"><i>saharian</i><par n="frantzes/u__adj"/></e>
+    <e lm="europeu"><i>europe</i><par n="frantzes/u__adj"/></e>
+    <e lm="polìticu"><i>polìtic</i><par n="frantzes/u__adj"/></e>
+    <e lm="polìticu" r="LR"><p><l>polìtig</l><r>polìtic</r></p><par n="frantzes/u__adj"/></e>
     <e lm="sud-saharianu"><i>sud-saharian</i><par n="frantzes/u__adj"/></e>
 
     <e lm="democràticu"><i>democràtic</i><par n="frantzes/u__adj"/></e>
@@ -2006,6 +2012,7 @@
     <e lm="forte"><i>forte</i><par n="triste__adj"/></e>
     <e lm="importante"><i>importante</i><par n="triste__adj"/></e>
     <e lm="federale"><i>federale</i><par n="triste__adj"/></e>
+    <e lm="istatale"><i>istatale</i><par n="triste__adj"/></e>
     <e lm="indipendentista"><i>indipendentista</i><par n="triste__adj"/></e>
     <e lm="mundiale"><i>mundiale</i><par n="triste__adj"/></e>
     <e lm="musicale"><i>musicale</i><par n="triste__adj"/></e>
@@ -2255,6 +2262,7 @@
     <e lm="organizare"><i>organiz</i><par n="cant/are__vblex"/></e>
     <e lm="frommare"><i>fromm</i><par n="cant/are__vblex"/></e>
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
+    <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
