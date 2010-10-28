@@ -1262,6 +1262,7 @@
     <e lm="partida"><i>partida</i><par n="mesa__n"/></e>
     <e lm="domo"><i>domo</i><par n="mesa__n"/></e>
     <e lm="mama"><i>mama</i><par n="mesa__n"/></e>
+    <e lm="cultura"><i>cultura</i><par n="mesa__n"/></e>
     <e lm="die"><i>die</i><par n="mesa__n"/></e>
     <e lm="capitale" r="LR"><p><l>capitali</l><r>capitale</r></p><par n="mesa__n"/></e>
     <e lm="capitale"><i>capitale</i><par n="mesa__n"/></e>
@@ -1280,6 +1281,8 @@
     <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
     <e lm="paraula"><i>paraula</i><par n="mesa__n"/></e>
     <e lm="tzitade"><i>tzitade</i><par n="mesa__n"/></e>
+
+    <e lm="regione"><i>regione</i><par n="mesa__n"/></e>
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -1445,6 +1448,11 @@
     <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
 
     <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
+    <e lm="zona"><i>zona</i><par n="mesa__n"/></e>
+    <e lm="istòria"><i>istòria</i><par n="mesa__n"/></e>
+    <e lm="rivista"><i>rivista</i><par n="mesa__n"/></e>
+    <e lm="attividade"><i>attividade</i><par n="mesa__n"/></e>
+    <e lm="persona"><i>persona</i><par n="mesa__n"/></e>
 
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
     <e lm="chitarrista"><i>chitarrista</i><par n="dentista__n"/></e>
@@ -1524,6 +1532,10 @@
     <e lm="sarbamentu"><i>sarbament</i><par n="mac/u__n"/></e>
     <e lm="sighimentu"><i>sighiment</i><par n="mac/u__n"/></e>
     <e lm="tratamentu"><i>tratament</i><par n="mac/u__n"/></e>
+    <e lm="artìculu"><i>artìcul</i><par n="mac/u__n"/></e>
+    <e lm="guvernu"><i>guvern</i><par n="mac/u__n"/></e>
+    <e lm="grupu"><i>grup</i><par n="mac/u__n"/></e>
+    <e lm="premiu"><i>premi</i><par n="mac/u__n"/></e>
 
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
@@ -1724,6 +1736,7 @@
     <e lm="complessu"><i>compless</i><par n="frantzes/u__adj"/></e>
     <e lm="tedescu"><i>tedesc</i><par n="frantzes/u__adj"/></e>
     <e lm="arabu"><i>arab</i><par n="frantzes/u__adj"/></e>
+    <e lm="napuletanu"><i>napuletan</i><par n="frantzes/u__adj"/></e>
     <e lm="africanu"><i>african</i><par n="frantzes/u__adj"/></e>
     <e lm="turcu"><i>turc</i><par n="frantzes/u__adj"/></e>
     <e lm="ebraicu"><i>ebraic</i><par n="frantzes/u__adj"/></e>
@@ -1731,6 +1744,9 @@
     <e lm="gregu"><i>greg</i><par n="frantzes/u__adj"/></e>
     <e lm="mandarinu"><i>mandarin</i><par n="frantzes/u__adj"/></e>
     <e lm="olandesu"><i>olandes</i><par n="frantzes/u__adj"/></e>
+    <e lm="cristianu"><i>cristian</i><par n="frantzes/u__adj"/></e>
+    <e lm="diversu"><i>divers</i><par n="frantzes/u__adj"/></e>
+    <e lm="religiosu"><i>religios</i><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
 
@@ -1739,6 +1755,9 @@
     <e lm="importante"><i>importante</i><par n="triste__adj"/></e>
     <e lm="federale"><i>federale</i><par n="triste__adj"/></e>
     <e lm="indipendentista"><i>indipendentista</i><par n="triste__adj"/></e>
+    <e lm="mundiale"><i>mundiale</i><par n="triste__adj"/></e>
+    <e lm="musicale"><i>musicale</i><par n="triste__adj"/></e>
+    <e lm="printzipale"><i>printzipale</i><par n="triste__adj"/></e>
 
     <e lm="internatzionale"><i>internatzionale</i><par n="triste__adj"/></e>
     <e lm="internazionale" r="LR"><p><l>internazionale</l><r>internatzionale</r></p><par n="triste__adj"/></e>
@@ -1884,6 +1903,7 @@
     <e lm="compilare"><i>compil</i><par n="cant/are__vblex"/></e>
     <e lm="usare"><i>us</i><par n="cant/are__vblex"/></e>
     <e lm="perfezionare"><i>perfezion</i><par n="cant/are__vblex"/></e>
+    <e lm="trabagliare"><i>trabagli</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
