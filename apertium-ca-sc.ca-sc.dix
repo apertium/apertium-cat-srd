@@ -10,25 +10,77 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="num"     c="Numeral"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="cnjcoo"  c="Coordinating conjunction"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular / plural"/>
 
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
+    <sdef n="nt"      c="Neuter"/>
     <sdef n="mf"      c="Masculine / feminine"/>
+
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
+
+    <sdef n="top"     c="Toponym"/>
+    <sdef n="ant"     c="Antroponym"/>
+
+    <sdef n="tn"      c="Tónico"/>
+    <sdef n="pro"     c="Proclitic"/>
+    <sdef n="enc"     c="Enclitic"/>
 
     <sdef n="def"     c="Definite"/>
     <sdef n="ind"     c="Indefinite"/>
+
+    <sdef n="GD"      c="Gender to be determined"/>
 
     <sdef n="cm"      c="Coma"/>
     <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <section id="main" type="standard">
+
+
+    <!-- SECTION:  Conjunctions -->
+
+    <e><p><l>i<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>que<s n="cnjsub"/></l><r>chi<s n="cnjsub"/></r></p></e>
+
+    <!-- SECTION:  Prepositions -->
+
+    <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e><p><l>amb<s n="pr"/></l><r>cun<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+
+    <!-- SECTION:  Determiners -->
+
+    <e><p><l>em<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+
+    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
     <!-- SECTION:  Determiners -->
 
     <e><p><l>el<s n="det"/><s n="def"/></l><r>su<s n="det"/><s n="def"/></r></p></e>
+
     <e><p><l>un<s n="det"/><s n="ind"/></l><r>unu<s n="det"/><s n="ind"/></r></p></e>
+    <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="mf"/></l><r>unu<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/></l><r>unu<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
 
     <!-- SECTION:  Nouns -->
 
+    <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>clau<s n="n"/><s n="f"/></l><r>crae<s n="n"/><s n="f"/></r></p></e>
@@ -78,11 +130,26 @@
     <e><p><l>humorista<s n="n"/><s n="mf"/></l><r>umorista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>violinista<s n="n"/><s n="mf"/></l><r>violinista<s n="n"/><s n="mf"/></r></p></e>
 
+    <e><p><l>nació<s n="n"/><s n="f"/></l><r>natzione<s n="n"/><s n="f"/></r></p></e>
+
+    <!-- SECTION:  Proper noun -->
+
+    <e><p><l>Anglaterra<s n="np"/><s n="top"/></l><r>Inghilterra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+
+    <e><p><l>Mario<s n="np"/><s n="ant"/></l><r>Mario<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <!-- SECTION:  Adjectives -->
 
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
+    <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
+
+    <!-- SECTION:  Adverbs -->
+
+    <e><p><l>millor<s n="adv"/></l><r>mègius<s n="adv"/></r></p></e>
+
+    <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
+    <!--<e><p><l>a<b/>la<b/>vesprada<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>-->
 
     <!-- SECTION:  Verbs -->
 
@@ -92,6 +159,10 @@
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
 
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
+    <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
+    <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
+    <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
+    <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
