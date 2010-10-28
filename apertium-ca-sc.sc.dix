@@ -29,6 +29,9 @@
     <sdef n="ind"    c="Indefinite"/> 
     <sdef n="itg"    c="Interrogative"/> 
     <sdef n="pos"    c="Possessive"/> 
+    <sdef n="ord"    c="ord"/> 
+    <sdef n="pro"    c="Proclitic"/> 
+    <sdef n="enc"    c="Enclitic"/> 
     <sdef n="dem"    c="Demonstrative"/> 
     <sdef n="tn"     c="Tónico"/> 
 
@@ -40,13 +43,33 @@
     <sdef n="ger"    c="Gerund"/> 
     <sdef n="inf"    c="Infinitive"/> 
     <sdef n="imp"    c="Imperative"/> 
+
+    <sdef n="sent"   c="Sentence marker"/> 
+    <sdef n="cm"     c="Comma"/> 
   </sdefs>
   <pardefs>
+    <!-- SECTION: Punctuation -->
+
+    <pardef n="separa">
+      <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <pardef n="coma">
+      <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+    </pardef>
 
     <!-- SECTION: Congiunzioni -->
 
     <pardef n="e__cnjcoo" c="p.32">
       <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
+    </pardef>
+
+    <pardef n="chi__cnjsub" c="p.40 / 105">
+      <e>       <p><l></l><r><s n="cnjsub"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Preposizioni -->
@@ -97,12 +120,41 @@
       <e>       <p><l></l><r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="mi__prn" c="p.18 / 105">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="ti__prn" c="p.18 / 105">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="nos__prn" c="p.18 / 105">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="bos__prn" c="p.18 / 105">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="cant/u__prn" c="p.30">
       <e>       <p><l>u</l><r>u<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>u<s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>u<s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+    <pardef n="cale__prn">
+      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="àter/u__prn" c="p.27 /105">
+      <e>       <p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
     <!-- SECTION: Determiners -->
 
@@ -140,9 +192,47 @@
       <e>       <p><l>s</l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
  
+    <pardef n="lapis__n">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="dentista__n">
+      <e>       <p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="poet/a__n">
+      <e>       <p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>as</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>essa</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>essas</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="cont/e__n">
+      <e>       <p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>es</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>esse</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>esses</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
     <pardef n="mesa__n">
       <e>       <p><l></l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="mac/u__n">
+      <e>       <p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="temp/us__n">
+      <e>       <p><l>us</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="man/u__n">
+      <e>       <p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Adjectives -->
@@ -159,6 +249,33 @@
       <e>       <p><l>a</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="prim/u__adj" c="p.44 / 105">
+      <e>       <p><l>u</l><r>u<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="frantzes/u__adj" c="p.10 / 105">
+      <e>       <p><l>u</l><r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="banduler/i__adj" c="p.15 / 105">
+      <e>       <p><l>i</l><r>i<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>i<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>is</l><r>i<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as</l><r>i<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="trist/e__adj" c="p.10 / 105">
+      <e>       <p><l>e</l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>es</l><r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
  
     <!-- SECTION: Adverbs -->
@@ -452,6 +569,8 @@
     <e lm="e"><i>e</i><par n="e__cnjcoo"/></e>
     <e lm="finas"><i>finas</i><par n="e__cnjcoo"/></e>
     <e lm="fintzas"><i>fintzas</i><par n="e__cnjcoo"/></e>
+    <e lm="nemmancu"><i>nemmancu</i><par n="e__cnjcoo"/></e>
+    <e lm="in prus"><i>in<b/>prus</i><par n="e__cnjcoo"/></e>
     <e lm="ne"><i>ne</i><par n="e__cnjcoo"/></e>
     <e lm="ne" r="LR"><p><l>nen</l><r>ne</r></p><par n="e__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="e__cnjcoo"/></e>
@@ -466,6 +585,21 @@
     <e lm="cando chi"><i>cando<b/>chi</i><par n="e__cnjcoo"/></e>
     <e lm="in càmbiu"><i>in<b/>càmbiu</i><par n="e__cnjcoo"/></e>
 
+    <e lm="chi"><i>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="che"><i>che</i><par n="chi__cnjsub"/></e>
+    <e lm="comente chi"><i>comente<b/>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="comente"><i>comente</i><par n="chi__cnjsub"/></e>
+    <e lm="cando"><i>cando</i><par n="chi__cnjsub"/></e>
+    <e lm="pro ite"><i>pro<b/>ite</i><par n="chi__cnjsub"/></e>
+    <e lm="cantu"><i>cantu</i><par n="chi__cnjsub"/></e>
+    <e lm="ca"><i>ca</i><par n="chi__cnjsub"/></e>
+    <e lm="sigomente"><i>sigomente</i><par n="chi__cnjsub"/></e>
+    <e lm="bidu chi"><i>bidu<b/>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="a tales chi"><i>a<b/>tales<b/>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="pro chi"><i>pro<b/>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="sende chi"><i>sende<b/>chi</i><par n="chi__cnjsub"/></e>
+    <e lm="mancari"><i>mancari</i><par n="chi__cnjsub"/></e>
+
     <!-- SECTION: Prepositions -->
 
     <e lm="a"><i>a</i><par n="a__pr"/></e>
@@ -476,6 +610,7 @@
     <e lm="pro"><i>pro</i><par n="a__pr"/></e>
     <e lm="intre"><i>intre</i><par n="a__pr"/></e>
     <e lm="tra"><i>tra</i><par n="a__pr"/></e>
+
     <e lm="suta"><i>suta</i><par n="a__pr"/></e>
     <e lm="subra"><i>subra</i><par n="a__pr"/></e>
     <e lm="a pustis"><i>a<b/>pustis</i><par n="a__pr"/></e>
@@ -514,12 +649,29 @@
     <!-- SECTION: Pronomi -->
 
     <e lm="deo"><i>deo</i><par n="deo__prn"/></e>
+    <e lm="mene"><i>mene</i><par n="deo__prn"/></e>
+    <e lm="mie"><i>mie</i><par n="deo__prn"/></e>
+    <e lm="megus"><i>megus</i><par n="deo__prn"/></e>
+
     <e lm="tue"><i>tue</i><par n="tue__prn"/></e>
+    <e lm="tene"><i>tene</i><par n="tue__prn"/></e>
+    <e lm="tie"><i>tie</i><par n="tue__prn"/></e>
+    <e lm="tegus"><i>tegus</i><par n="tue__prn"/></e>
+
     <e lm="issu"><i>iss</i><par n="iss/u__prn"/></e>
     <e lm="nois"><i>nois</i><par n="nois__prn"/></e>
     <e lm="bois"><i>bois</i><par n="bois__prn"/></e>
 
+    <e lm="mi"><i>mi</i><par n="mi__prn"/></e>
+    <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
+
+    <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
+    <e lm="bos"><i>bos</i><par n="bos__prn"/></e>
+
     <e lm="cantu"><i>cant</i><par n="cant/u__prn"/></e>
+    <e lm="cale"><i>cale</i><par n="cale__prn"/></e>
+
+    <e lm="àteru"><i>àter</i><par n="àter/u__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -566,9 +718,50 @@
 
     <!-- SECTION: Nouns -->
 
-    <e lm="pane"><i>pane</i><par n="mesa__n"/></e>
+    <e lm="pane"><i>pane</i><par n="pane__n"/></e>
+    <e lm="coro"><i>coro</i><par n="pane__n"/></e>
+    <e lm="òmine"><i>òmine</i><par n="pane__n"/></e>
+    <e lm="paneteri"><i>paneteri</i><par n="pane__n"/></e>
+    <e lm="nebode"><i>nebode</i><par n="pane__n"/></e>
+    <e lm="frade"><i>frade</i><par n="pane__n"/></e>
+    <e lm="duca"><i>duca</i><par n="pane__n"/></e>
+    <e lm="ferreri"><i>ferreri</i><par n="pane__n"/></e>
+    <e lm="sero"><i>sero</i><par n="pane__n"/></e>
+    <e lm="canale"><i>canale</i><par n="pane__n"/></e>
+    <e lm="tzìnema"><i>tzìnema</i><par n="pane__n"/></e>
+
+    <e lm="poeta"><i>poet</i><par n="poet/a__n"/></e>
+    <e lm="conte"><i>cont</i><par n="cont/e__n"/></e>
+
+    <e lm="lapis"><i>lapis</i><par n="lapis__n"/></e>
 
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
+    <e lm="bentre"><i>bentre</i><par n="mesa__n"/></e>
+    <e lm="vetura"><i>vetura</i><par n="mesa__n"/></e>
+    <e lm="partida"><i>partida</i><par n="mesa__n"/></e>
+    <e lm="domo"><i>domo</i><par n="mesa__n"/></e>
+    <e lm="mama"><i>mama</i><par n="mesa__n"/></e>
+    <e lm="die"><i>die</i><par n="mesa__n"/></e>
+    <e lm="limba"><i>limba</i><par n="mesa__n"/></e>
+    <e lm="crisi"><i>crisi</i><par n="mesa__n"/></e>
+    <e lm="mugere"><i>mugere</i><par n="mesa__n"/></e>
+    <e lm="ebba"><i>ebba</i><par n="mesa__n"/></e>
+    <e lm="madri"><i>madri</i><par n="mesa__n"/></e>
+    <e lm="neta"><i>neta</i><par n="mesa__n"/></e>
+    <e lm="sorre"><i>sorre</i><par n="mesa__n"/></e>
+    <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
+    <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
+
+    <e lm="dentista"><i>dentista</i><par n="mesa__n"/></e>
+
+    <e lm="macu"><i>mac</i><par n="man/u__n"/></e>
+    <e lm="maridu"><i>marid</i><par n="man/u__n"/></e>
+    <e lm="caddu"><i>cadd</i><par n="man/u__n"/></e>
+    <e lm="porcu"><i>porc</i><par n="man/u__n"/></e>
+
+    <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
+
+    <e lm="manu"><i>man</i><par n="man/u__n"/></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -579,11 +772,43 @@
     <e lm="nostru"><i>nostr</i><par n="me/u__adj"/></e>
     <e lm="bostru"><i>bostr</i><par n="me/u__adj"/></e>
 
+    <e lm="primu"><i>prim</i><par n="prim/u__adj"/></e>
+    <e lm="segundu"><i>segund</i><par n="prim/u__adj"/></e>
+    <e lm="ùrtimu"><i>ùrtim</i><par n="prim/u__adj"/></e>
+    <e lm="penùrtimu"><i>penùrtim</i><par n="prim/u__adj"/></e>
+
+
+    <e lm="frantzesu"><i>frantzes</i><par n="frantzes/u__adj"/></e>
+    <e lm="bonu"><i>bon</i><par n="frantzes/u__adj"/></e>
+
+    <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
+
+    <e lm="triste"><i>trist</i><par n="trist/e__adj"/></e>
+    <e lm="forte"><i>fort</i><par n="trist/e__adj"/></e>
+
     <!-- SECTION: Adverbs -->
 
-    <e lm="cando"><i>cando</i><par n="cando__adv"/></e>
-    <e lm="ite"><i>ite</i><par n="cando__adv"/></e>
     <e lm="comente"><i>comente</i><par n="cando__adv"/></e>
+    <e lm="ue"><i>ue</i><par n="cando__adv"/></e>
+    <e lm="cando"><i>cando</i><par n="cando__adv"/></e>
+    <e lm="cantu"><i>cantu</i><par n="cando__adv"/></e>
+    <e lm="pro ite"><i>pro<b/>ite</i><par n="cando__adv"/></e>
+    <e lm="chie"><i>chie</i><par n="cando__adv"/></e>
+
+    <e lm="tantu"><i>tantu</i><par n="bene__adv"/></e>
+    <e lm="cantu"><i>cantu</i><par n="bene__adv"/></e>
+    <e lm="prus"><i>prus</i><par n="bene__adv"/></e>
+    <e lm="meda"><i>meda</i><par n="bene__adv"/></e>
+    <e lm="a beru"><i>a<b/>beru</i><par n="bene__adv"/></e>
+
+    <e lm="no"><i>no</i><par n="bene__adv"/></e>
+    <e lm="nono"><i>nono</i><par n="bene__adv"/></e>
+    <e lm="in nudda"><i>in<b/>nudda</i><par n="bene__adv"/></e>
+    <e lm="nemmancu"><i>nemmancu</i><par n="bene__adv"/></e>
+    <e lm="forsis"><i>forsis</i><par n="bene__adv"/></e>
+    <e lm="baddu"><i>baddu</i><par n="bene__adv"/></e>
+    <e lm="chissai"><i>chissai</i><par n="bene__adv"/></e>
+    <e lm="si in casu"><i>si<b/>in<b/>casu</i><par n="bene__adv"/></e>
 
     <e lm="bene"><i>bene</i><par n="bene__adv"/></e>
     <e lm="male"><i>male</i><par n="bene__adv"/></e>
@@ -597,6 +822,7 @@
     <e lm="a mala bògia"><i>a<b/>mala<b/>bògia</i><par n="bene__adv"/></e>
     <e lm="a discansu"><i>a<b/>discansu</i><par n="bene__adv"/></e>
     <e lm="in presse"><i>in<b/>presse</i><par n="bene__adv"/></e>
+    <e lm="in segus"><i>in<b/>segus</i><par n="bene__adv"/></e>
     <e lm="a lestru"><i>a<b/>lestru</i><par n="bene__adv"/></e>
     <e lm="a sa revessa"><i>a<b/>sa<b/>revessa</i><par n="bene__adv"/></e>
     <e lm="a s’imbesse"><i>a<b/>s’imbesse</i><par n="bene__adv"/></e>
@@ -620,6 +846,15 @@
     <e lm="in cara"><i>in<b/>cara</i><par n="bene__adv"/></e>
     <e lm="cunforma a"><i>cunforma<b/>a</i><par n="bene__adv"/></e>
     <e lm="a malu"><i>a<b/>malu</i><par n="bene__adv"/></e>
+
+    <e lm="massimamente"><i>massimamente</i><par n="bene__adv"/></e>
+    <e lm="malamente"><i>malamente</i><par n="bene__adv"/></e>
+    <e lm="sigomente"><i>sigomente</i><par n="bene__adv"/></e>
+    <e lm="mescamente"><i>mescamente</i><par n="bene__adv"/></e>
+    <e lm="chiaramente"><i>chiaramente</i><par n="bene__adv"/></e>
+    <e lm="autonomamente"><i>autonomamente</i><par n="bene__adv"/></e>
+    <e lm="personalmente"><i>personalmente</i><par n="bene__adv"/></e>
+
 
     <!-- SECTION: Verbs -->
 
@@ -661,6 +896,15 @@
     <e lm="pònnere"><i>p</i><par n="p/ònnere__vblex"/></e>
     <e lm="propònnere"><i>prop</i><par n="p/ònnere__vblex"/></e>
 
+    <!-- Punctuation -->
 
+  </section>
+  <section id="apostrophe" type="postblank">
+    <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+  </section>
+  <section id="final" type="inconditional">
+    <e><par n="separa"/></e>
+    <e><par n="coma"/></e>
+    <e><par n="numeros"/></e>
   </section>
 </dictionary>
