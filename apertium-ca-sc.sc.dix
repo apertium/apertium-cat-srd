@@ -98,6 +98,12 @@
     <pardef n="S__cantende">
       <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantende·si"/></e>
+      <e>       <p><l>·li</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+
+      <e>       <p><l>·nos</l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>·nos</l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantende·nos"/></e>
+
       <e>       <p><l>·los</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
@@ -1885,6 +1891,7 @@
     <e lm="mòere"><i>mò</i><par n="tim/ere__vblex"/></e> <!-- moe·ti·nche·lu -->
     <e lm="emergere"><i>emerg</i><par n="tim/ere__vblex"/></e>
     <e lm="bìdere"><i>bìd</i><par n="tim/ere__vblex"/></e>
+    <e lm="imparere"><i>impar</i><par n="tim/ere__vblex"/></e>
 
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
@@ -1896,6 +1903,7 @@
     <e lm="trasire"><i>tras</i><par n="fin/ire__vblex"/></e>
     <e lm="serbire"><i>serb</i><par n="fin/ire__vblex"/></e>
     <e lm="costruire"><i>costru</i><par n="fin/ire__vblex"/></e>
+    <e lm="ischire"><i>isch</i><par n="fin/ire__vblex"/></e>
 
     <e lm="cuntènnere"><i>cunt</i><par n="t/ènnere__vblex"/></e>
     <e lm="otènnere"><i>ot</i><par n="t/ènnere__vblex"/></e>
