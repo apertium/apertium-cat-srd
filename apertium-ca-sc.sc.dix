@@ -1,11 +1,13 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
+<!-- -->
   <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìù</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
     <sdef n="adv"    c="Adverb"/> 
     <sdef n="num"    c="Numeral"/> 
+    <sdef n="np"     c="Proper noun"/> 
     <sdef n="vblex"  c="Verb"/> 
     <sdef n="prn"    c="Pronom (Pronoun)"/> 
     <sdef n="pr"     c="Preposition"/> 
@@ -29,11 +31,13 @@
     <sdef n="ind"    c="Indefinite"/> 
     <sdef n="itg"    c="Interrogative"/> 
     <sdef n="pos"    c="Possessive"/> 
-    <sdef n="ord"    c="ord"/> 
+    <sdef n="ord"    c="Ordinal"/> 
     <sdef n="pro"    c="Proclitic"/> 
     <sdef n="enc"    c="Enclitic"/> 
     <sdef n="dem"    c="Demonstrative"/> 
     <sdef n="tn"     c="Tónico"/> 
+
+    <sdef n="top"    c="Toponym"/> 
 
     <sdef n="pri"    c="Present indicative"/> 
     <sdef n="prs"    c="Present subjunctive"/> 
@@ -233,6 +237,20 @@
     <pardef n="man/u__n">
       <e>       <p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Proper nouns -->
+
+    <pardef n="Etiòpia__np">
+      <e>       <p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Afganistàn__np">
+      <e>       <p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Istados_Unidos__np">
+      <e>       <p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Adjectives -->
@@ -675,6 +693,9 @@
 
     <!-- SECTION: Determiners -->
 
+    <e lm="su"><i></i><par n="/su__det"/></e>
+    <e lm="unu"><i>un</i><par n="un/u__det"/></e>
+
     <e lm="issoro"><i>issoro</i><par n="issoro__det"/></e>
 
     <e lm="custu"><i>cust</i><par n="cust/u__det"/></e>
@@ -726,6 +747,7 @@
     <e lm="frade"><i>frade</i><par n="pane__n"/></e>
     <e lm="duca"><i>duca</i><par n="pane__n"/></e>
     <e lm="ferreri"><i>ferreri</i><par n="pane__n"/></e>
+    <e lm="continente"><i>continente</i><par n="pane__n"/></e>
     <e lm="sero"><i>sero</i><par n="pane__n"/></e>
     <e lm="canale"><i>canale</i><par n="pane__n"/></e>
     <e lm="tzìnema"><i>tzìnema</i><par n="pane__n"/></e>
@@ -742,7 +764,11 @@
     <e lm="domo"><i>domo</i><par n="mesa__n"/></e>
     <e lm="mama"><i>mama</i><par n="mesa__n"/></e>
     <e lm="die"><i>die</i><par n="mesa__n"/></e>
+
     <e lm="limba"><i>limba</i><par n="mesa__n"/></e>
+    <e lm="limba" r="LR"><p><l>lingua</l><r>limba</r></p><par n="mesa__n"/></e>
+    <e lm="limba" r="LR"><p><l>lìngua</l><r>limba</r></p><par n="mesa__n"/></e>
+
     <e lm="crisi"><i>crisi</i><par n="mesa__n"/></e>
     <e lm="mugere"><i>mugere</i><par n="mesa__n"/></e>
     <e lm="ebba"><i>ebba</i><par n="mesa__n"/></e>
@@ -751,6 +777,10 @@
     <e lm="sorre"><i>sorre</i><par n="mesa__n"/></e>
     <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
     <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
+
+    <e lm="familia"><i>familia</i><par n="mesa__n"/></e>
+    <e lm="familia" r="LR"><p><l>famiglia</l><r>familia</r></p><par n="mesa__n"/></e>
+    <e lm="familia" r="LR"><p><l>familla</l><r>familia</r></p><par n="mesa__n"/></e>
 
     <e lm="dentista"><i>dentista</i><par n="mesa__n"/></e>
 
@@ -762,6 +792,32 @@
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="Etiòpia"><i>Etiòpia</i><par n="Etiòpia__np"/></e>
+
+    <e lm="Itàlia"><i>Itàlia</i><par n="Etiòpia__np"/></e>
+    <e lm="Itàlia" r="LR"><p><l>Italia</l><r>Itàlia</r></p><par n="Etiòpia__np"/></e>
+
+    <e lm="Europa"><i>Europa</i><par n="Etiòpia__np"/></e>
+
+    <e lm="Àfrica"><i>Àfrica</i><par n="Etiòpia__np"/></e>
+    <e lm="Àfrica" r="LR"><p><l>Africa</l><r>Àfrica</r></p><par n="Etiòpia__np"/></e>
+
+    <e lm="Asia"><i>Asia</i><par n="Etiòpia__np"/></e>
+    <e lm="Russia"><i>Russia</i><par n="Etiòpia__np"/></e>
+
+    <e lm="Amèrica"><i>Amèrica</i><par n="Etiòpia__np"/></e>
+    <e lm="Amèrica" c="camp." r="LR"><p><l>Ameriga</l><r>Amèrica</r></p><par n="Etiòpia__np"/></e>
+
+    <e lm="Azerbaigián"><i>Azerbaigián</i><par n="Afganistàn__np"/></e>
+    <e lm="Azerbaigián" r="LR"><p><l>Azèrbaigian</l><r>Azerbaigián</r></p><par n="Afganistàn__np"/></e>
+    <e lm="Azerbaigián" r="LR"><p><l>Azerbaigián</l><r>Azerbaigián</r></p><par n="Afganistàn__np"/></e>
+
+    <e lm="Afganistàn"><i>Afganistàn</i><par n="Afganistàn__np"/></e>
+
+    <e lm="Istados Unidos"><i>Istados<b/>Unidos</i><par n="Istados_Unidos__np"/></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -779,6 +835,10 @@
 
 
     <e lm="frantzesu"><i>frantzes</i><par n="frantzes/u__adj"/></e>
+    <e lm="inglesu"><i>ingles</i><par n="frantzes/u__adj"/></e>
+    <e lm="americanu"><i>american</i><par n="frantzes/u__adj"/></e>
+    <e lm="italianu"><i>italian</i><par n="frantzes/u__adj"/></e>
+    <e lm="latinu"><i>latin</i><par n="frantzes/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
