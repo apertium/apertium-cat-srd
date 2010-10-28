@@ -2,14 +2,30 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"       c="Noun"/>
+    <sdef n="det"     c="Determiner"/>
     <sdef n="vblex"   c="Verb"/>
+    <sdef n="vbmod"   c="Modal verb"/>
+    <sdef n="vbhaver" c="Verb 'to have'"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="num"     c="Numeral"/>
 
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="mf"      c="Masculine / feminine"/>
+
+    <sdef n="def"     c="Definite"/>
+    <sdef n="ind"     c="Indefinite"/>
+
+    <sdef n="cm"      c="Coma"/>
+    <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <section id="main" type="standard">
+    <!-- SECTION:  Determiners -->
+
+    <e><p><l>el<s n="det"/><s n="def"/></l><r>su<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>un<s n="det"/><s n="ind"/></l><r>unu<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- SECTION:  Nouns -->
 
@@ -62,12 +78,30 @@
     <e><p><l>humorista<s n="n"/><s n="mf"/></l><r>umorista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>violinista<s n="n"/><s n="mf"/></l><r>violinista<s n="n"/><s n="mf"/></r></p></e>
 
+
+    <!-- SECTION:  Adjectives -->
+
+    <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
+    <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
+
     <!-- SECTION:  Verbs -->
 
+    <e><p><l>ser<s n="vbser"/></l><r>èssere<s n="vblex"/></r></p></e>
+    <!--<e><p><l>estar<s n="vblex"/></l><r>èssere<s n="vblex"/></r></p></e>-->
+    <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
 
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
 
+    <!-- SECTION: Punctuation -->
+
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+
+  </section>
+  <section id="check" type="standard">
 
     <e><p><l>abominablement<s n="adv"/></l><r>abbominabilmente<s n="adv"/></r></p></e>
     <e><p><l>abundantment<s n="adv"/></l><r>abbundantemente<s n="adv"/></r></p></e>
@@ -529,7 +563,7 @@
     <e><p><l>prudentment<s n="adv"/></l><r>prudentemente<s n="adv"/></r></p></e>
     <e><p><l>prudencialment<s n="adv"/></l><r>prudenzialmente<s n="adv"/></r></p></e>
     <e><p><l>públicament<s n="adv"/></l><r>pubblicamente<s n="adv"/></r></p></e>
-    <e><p><l>v. políticament<s n="adv"/></l><r>puliticamente<s n="adv"/></r></p></e>
+    <e><p><l>políticament<s n="adv"/></l><r>puliticamente<s n="adv"/></r></p></e>
     <e><p><l>puntualment<s n="adv"/></l><r>puntualmente<s n="adv"/></r></p></e>
     <e><p><l>purament<s n="adv"/></l><r>puramente<s n="adv"/></r></p></e>
     <e><p><l>quotidianament<s n="adv"/></l><r>quotidianamente<s n="adv"/></r></p></e>

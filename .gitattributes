@@ -1,5 +1,10 @@
 * text=auto !eol
+/Makefile -text
 /apertium-ca-sc.ca-sc.dix -text
+/apertium-ca-sc.post-ca.dix -text
+/apertium-ca-sc.sc-ca.t1x -text
 /apertium-ca-sc.sc.acx -text
 /apertium-ca-sc.sc.dix -text
 dev/adv-menti.txt -text
+/modes.xml -text
+/sc-ca.prob -text svneol=unset#unset
