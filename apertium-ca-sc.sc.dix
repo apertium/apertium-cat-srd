@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìù</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -38,6 +38,7 @@
     <sdef n="tn"     c="Tónico"/> 
 
     <sdef n="top"    c="Toponym"/> 
+    <sdef n="ant"    c="Antroponym"/> 
 
     <sdef n="pri"    c="Present indicative"/> 
     <sdef n="prs"    c="Present subjunctive"/> 
@@ -253,6 +254,10 @@
       <e>       <p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="Antoni__np">
+      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Adjectives -->
 
     <pardef n="me/u__adj" c="p.29">
@@ -340,7 +345,7 @@
       <e>       <p><l>essereis</l><r>èssere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>esserent</l><r>èssere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>itadu</l><r>èssere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>istadu</l><r>èssere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>istada</l><r>èssere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>itados</l><r>èssere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>itadas</l><r>èssere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
@@ -757,6 +762,7 @@
 
     <e lm="lapis"><i>lapis</i><par n="lapis__n"/></e>
 
+    <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="bentre"><i>bentre</i><par n="mesa__n"/></e>
     <e lm="vetura"><i>vetura</i><par n="mesa__n"/></e>
@@ -764,6 +770,8 @@
     <e lm="domo"><i>domo</i><par n="mesa__n"/></e>
     <e lm="mama"><i>mama</i><par n="mesa__n"/></e>
     <e lm="die"><i>die</i><par n="mesa__n"/></e>
+    <e lm="capitale" r="LR"><p><l>capitali</l><r>capitale</r></p><par n="mesa__n"/></e>
+    <e lm="capitale"><i>capitale</i><par n="mesa__n"/></e>
 
     <e lm="limba"><i>limba</i><par n="mesa__n"/></e>
     <e lm="limba" r="LR"><p><l>lingua</l><r>limba</r></p><par n="mesa__n"/></e>
@@ -777,17 +785,24 @@
     <e lm="sorre"><i>sorre</i><par n="mesa__n"/></e>
     <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
     <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
+    <e lm="paraula"><i>paraula</i><par n="mesa__n"/></e>
 
     <e lm="familia"><i>familia</i><par n="mesa__n"/></e>
     <e lm="familia" r="LR"><p><l>famiglia</l><r>familia</r></p><par n="mesa__n"/></e>
     <e lm="familia" r="LR"><p><l>familla</l><r>familia</r></p><par n="mesa__n"/></e>
 
+    <e lm="repùbrica"><i>repùbrica</i><par n="mesa__n"/></e>
+    <e lm="repùbrica" r="LR"><p><l>republica</l><r>repùbrica</r></p><par n="mesa__n"/></e>
+    <e lm="repùbrica" r="LR"><p><l>repubblica</l><r>repùbrica</r></p><par n="mesa__n"/></e>
+
     <e lm="dentista"><i>dentista</i><par n="mesa__n"/></e>
 
-    <e lm="macu"><i>mac</i><par n="man/u__n"/></e>
-    <e lm="maridu"><i>marid</i><par n="man/u__n"/></e>
-    <e lm="caddu"><i>cadd</i><par n="man/u__n"/></e>
-    <e lm="porcu"><i>porc</i><par n="man/u__n"/></e>
+    <e lm="macu"><i>mac</i><par n="mac/u__n"/></e>
+    <e lm="maridu"><i>marid</i><par n="mac/u__n"/></e>
+    <e lm="caddu"><i>cadd</i><par n="mac/u__n"/></e>
+    <e lm="porcu"><i>porc</i><par n="mac/u__n"/></e>
+    <e lm="mundu"><i>mund</i><par n="mac/u__n"/></e>
+    <e lm="istadu"><i>istad</i><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
@@ -801,6 +816,8 @@
     <e lm="Itàlia" r="LR"><p><l>Italia</l><r>Itàlia</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Europa"><i>Europa</i><par n="Etiòpia__np"/></e>
+    <e lm="Valencia"><i>Valencia</i><par n="Etiòpia__np"/></e>
+    <e lm="Roma"><i>Roma</i><par n="Etiòpia__np"/></e>
 
     <e lm="Àfrica"><i>Àfrica</i><par n="Etiòpia__np"/></e>
     <e lm="Àfrica" r="LR"><p><l>Africa</l><r>Àfrica</r></p><par n="Etiòpia__np"/></e>
@@ -808,16 +825,36 @@
     <e lm="Asia"><i>Asia</i><par n="Etiòpia__np"/></e>
     <e lm="Russia"><i>Russia</i><par n="Etiòpia__np"/></e>
 
+    <e lm="Tanzània"><i>Tanzània</i><par n="Etiòpia__np"/></e>
+    <e lm="Tanzània" r="LR"><p><l>Tanzania</l><r>Tanzània</r></p><par n="Etiòpia__np"/></e>
+
+    <e lm="Sitzìlia"><i>Sitzìlia</i><par n="Etiòpia__np"/></e>
+    <e lm="Sitzìlia" r="LR"><p><l>Sitzilia</l><r>Sitzìlia</r></p><par n="Etiòpia__np"/></e>
+
     <e lm="Amèrica"><i>Amèrica</i><par n="Etiòpia__np"/></e>
+    <e lm="Amèrica" r="LR"><p><l>America</l><r>Amèrica</r></p><par n="Etiòpia__np"/></e>
     <e lm="Amèrica" c="camp." r="LR"><p><l>Ameriga</l><r>Amèrica</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Azerbaigián"><i>Azerbaigián</i><par n="Afganistàn__np"/></e>
     <e lm="Azerbaigián" r="LR"><p><l>Azèrbaigian</l><r>Azerbaigián</r></p><par n="Afganistàn__np"/></e>
     <e lm="Azerbaigián" r="LR"><p><l>Azerbaigián</l><r>Azerbaigián</r></p><par n="Afganistàn__np"/></e>
 
+    <e lm="Sardigna"><i>Sardigna</i><par n="Etiòpia__np"/></e>
+    <e lm="Sardigna" c="camp." r="LR"><p><l>Sardìnnia</l><r>Sardigna</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Sardigna" r="LR"><p><l>Sardinja</l><r>Sardigna</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Sardigna" r="LR"><p><l>Sardinna</l><r>Sardigna</r></p><par n="Etiòpia__np"/></e>
+
     <e lm="Afganistàn"><i>Afganistàn</i><par n="Afganistàn__np"/></e>
 
+    <e lm="Mèssicu"><i>Mèssicu</i><par n="Afganistàn__np"/></e>
+    <e lm="Mèssicu" r="LR"><p><l>Messico</l><r>Mèssicu</r></p><par n="Afganistàn__np"/></e>
+    <e lm="Mèssicu" r="LR"><p><l>Mexico</l><r>Mèssicu</r></p><par n="Afganistàn__np"/></e>
+
+    <e lm="Casteddu"><i>Casteddu</i><par n="Afganistàn__np"/></e>
+
     <e lm="Istados Unidos"><i>Istados<b/>Unidos</i><par n="Istados_Unidos__np"/></e>
+
+    <e lm="Antoni"><i>Antoni</i><par n="Antoni__np"/></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -836,10 +873,13 @@
 
     <e lm="frantzesu"><i>frantzes</i><par n="frantzes/u__adj"/></e>
     <e lm="inglesu"><i>ingles</i><par n="frantzes/u__adj"/></e>
+    <e lm="persianu"><i>persian</i><par n="frantzes/u__adj"/></e>
     <e lm="americanu"><i>american</i><par n="frantzes/u__adj"/></e>
     <e lm="italianu"><i>italian</i><par n="frantzes/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="frantzes/u__adj"/></e>
     <e lm="bonu"><i>bon</i><par n="frantzes/u__adj"/></e>
+    <e lm="istudiosu"><i>istudios</i><par n="frantzes/u__adj"/></e>
+    <e lm="istudiosu" r="LR"><p><l>istuidios</l><r>istudios</r></p><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
 
@@ -914,6 +954,10 @@
     <e lm="chiaramente"><i>chiaramente</i><par n="bene__adv"/></e>
     <e lm="autonomamente"><i>autonomamente</i><par n="bene__adv"/></e>
     <e lm="personalmente"><i>personalmente</i><par n="bene__adv"/></e>
+    <e lm="zeolozicamente"><i>zeolozicamente</i><par n="bene__adv"/></e>
+    <e lm="propriamente"><i>propriamente</i><par n="bene__adv"/></e>
+    <e lm="originiariamente"><i>originiariamente</i><par n="bene__adv"/></e>
+    <e lm="attualmente"><i>attualmente</i><par n="bene__adv"/></e>
 
 
     <!-- SECTION: Verbs -->
@@ -935,6 +979,12 @@
     <e lm="dassare"><i>dass</i><par n="cant/are__vblex"/></e>
     <e lm="costumare"><i>costum</i><par n="cant/are__vblex"/></e>
     <e lm="campare"><i>camp</i><par n="cant/are__vblex"/></e>
+    <e lm="modificare"><i>modific</i><par n="cant/are__vblex"/></e>
+    <e lm="indicare"><i>indic</i><par n="cant/are__vblex"/></e>
+    <e lm="publicare"><i>public</i><par n="cant/are__vblex"/></e>
+    <e lm="publicare" r="LR"><p><l>pubblic</l><r>public</r></p><par n="cant/are__vblex"/></e>
+    <e lm="buscare"><i>busc</i><par n="cant/are__vblex"/></e>
+    <e lm="istudiare"><i>istudi</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
