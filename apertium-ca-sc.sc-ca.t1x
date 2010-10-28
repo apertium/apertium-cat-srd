@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
 <section-def-cats>
+<def-cat n="det">
+   <cat-item tags="det.*"/>
+</def-cat>
 <def-cat n="nom">
    <cat-item tags="n.*"/>
    <cat-item tags="np.*"/>
@@ -21,6 +24,7 @@
    <attr-item tags="f"/>
    <attr-item tags="nt"/>
    <attr-item tags="mf"/>
+   <attr-item tags="GD"/>
 </def-attr>
 <def-attr n="nbr">
    <attr-item tags="sg"/>
@@ -56,9 +60,14 @@
    <attr-item tags="np.ant"/>
    <attr-item tags="np.top"/>
 </def-attr>
+<def-attr n="a_det">
+   <attr-item tags="det.ind"/>
+   <attr-item tags="det.def"/>
+</def-attr>
 <def-attr n="a_prn">
    <attr-item tags="prn.tn"/>
    <attr-item tags="prn.pro"/>
+   <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc"/>
 </def-attr>
 <def-attr n="a_adj">
@@ -70,6 +79,37 @@
 <def-var n="number"/>
 </section-def-vars>
 <section-rules>
+<rule comment="regla: det">
+   <pattern>
+     <pattern-item n="det"/>
+   </pattern>
+   <action>
+     <choose>
+       <when>
+         <test>
+           <equal>
+             <clip pos="1" side="tl" part="gen"/> 
+             <lit-tag v="GD"/>
+           </equal>
+         </test>
+         <let>
+           <clip pos="1" side="tl" part="gen"/>
+           <lit-tag v="m"/> 
+         </let>
+       </when>
+     </choose>
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="a_det"/>
+         <clip pos="1" side="tl" part="gen"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
 <rule comment="regla: n">
    <pattern>
      <pattern-item n="nom"/>

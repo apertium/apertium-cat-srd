@@ -35,6 +35,7 @@
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
+    <sdef n="ref"     c="Reflexive"/>
 
     <sdef n="def"     c="Definite"/>
     <sdef n="ind"     c="Indefinite"/>
@@ -56,8 +57,11 @@
     <!-- SECTION:  Prepositions -->
 
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>de<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
     <e><p><l>amb<s n="pr"/></l><r>cun<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+    <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>per<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
@@ -69,9 +73,13 @@
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
+    <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+
     <!-- SECTION:  Determiners -->
 
     <e><p><l>el<s n="det"/><s n="def"/></l><r>su<s n="det"/><s n="def"/></r></p></e>
+    <e r="LR"><p><l>el<s n="det"/><s n="def"/><s n="mf"/></l><r>su<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<s n="det"/><s n="def"/><s n="GD"/></l><r>su<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
 
     <e><p><l>un<s n="det"/><s n="ind"/></l><r>unu<s n="det"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="mf"/></l><r>unu<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
@@ -131,10 +139,12 @@
     <e><p><l>violinista<s n="n"/><s n="mf"/></l><r>violinista<s n="n"/><s n="mf"/></r></p></e>
 
     <e><p><l>nació<s n="n"/><s n="f"/></l><r>natzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>part<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION:  Proper noun -->
 
     <e><p><l>Anglaterra<s n="np"/><s n="top"/></l><r>Inghilterra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Regne<b/>Unit<s n="np"/><s n="top"/></l><r>Regnu<b/>Unidu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e><p><l>Mario<s n="np"/><s n="ant"/></l><r>Mario<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
@@ -163,6 +173,7 @@
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
+    <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
