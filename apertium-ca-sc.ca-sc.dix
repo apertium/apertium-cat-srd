@@ -2,6 +2,7 @@
   <alphabet/>
   <sdefs>
     <sdef n="n"       c="Noun"/>
+    <sdef n="vblex"   c="Verb"/>
 
     <sdef n="m"       c="Masculine"/>
     <sdef n="f"       c="Feminine"/>
@@ -33,6 +34,8 @@
     <e><p><l>fill<s n="n"/><s n="m"/></l><r>fidzu<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION:  Verbs -->
+
+    <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
 
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
   </section>
