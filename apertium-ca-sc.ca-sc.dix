@@ -38,6 +38,7 @@
     <sdef n="ref"     c="Reflexive"/>
 
     <sdef n="def"     c="Definite"/>
+    <sdef n="pos"     c="Possessive"/>
     <sdef n="ind"     c="Indefinite"/>
 
     <sdef n="GD"      c="Gender to be determined"/>
@@ -88,6 +89,7 @@
     <!-- SECTION:  Nouns -->
 
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
@@ -150,6 +152,8 @@
 
     <!-- SECTION:  Adjectives -->
 
+    <e><p><l>nostre<s n="adj"/><s n="pos"/></l><r>nostru<s n="adj"/><s n="pos"/></r></p></e>
+
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
@@ -174,6 +178,7 @@
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>
+    <e><p><l>portar<s n="vblex"/></l><r>batire<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
