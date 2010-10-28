@@ -287,6 +287,13 @@
       <e>       <p><l>os</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="àter/u__det" c="">
+      <e>       <p><l>u</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
  
     <!-- SECTION: Nouns -->
 
@@ -1184,6 +1191,8 @@
     <e lm="cussu"><i>cuss</i><par n="cust/u__det"/></e>
     <e lm="cuddu"><i>cudd</i><par n="cust/u__det"/></e>
 
+    <e lm="àteru"><i>àter</i><par n="àter/u__det"/></e>
+
     <!-- SECTION: Numerals -->
 
     <e lm="unu"><i>un</i><par n="un/u__num"/></e>
@@ -1283,6 +1292,8 @@
     <e lm="tzitade"><i>tzitade</i><par n="mesa__n"/></e>
 
     <e lm="regione"><i>regione</i><par n="mesa__n"/></e>
+    <e lm="sub-regione"><i>sub-regione</i><par n="mesa__n"/></e>
+    <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -1453,6 +1464,13 @@
     <e lm="rivista"><i>rivista</i><par n="mesa__n"/></e>
     <e lm="attividade"><i>attividade</i><par n="mesa__n"/></e>
     <e lm="persona"><i>persona</i><par n="mesa__n"/></e>
+    <e lm="umanidade"><i>umanidade</i><par n="mesa__n"/></e>
+    <e lm="autoridade"><i>autoridade</i><par n="mesa__n"/></e>
+    <e lm="personalidade"><i>personalidade</i><par n="mesa__n"/></e>
+    <e lm="comunidade"><i>comunidade</i><par n="mesa__n"/></e>
+    <e lm="localidade"><i>localidade</i><par n="mesa__n"/></e>
+    <e lm="parte"><i>parte</i><par n="mesa__n"/></e>
+    <e lm="ufitzialidade"><i>ufitzialidade</i><par n="mesa__n"/></e>
 
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
     <e lm="chitarrista"><i>chitarrista</i><par n="dentista__n"/></e>
@@ -1536,6 +1554,9 @@
     <e lm="guvernu"><i>guvern</i><par n="mac/u__n"/></e>
     <e lm="grupu"><i>grup</i><par n="mac/u__n"/></e>
     <e lm="premiu"><i>premi</i><par n="mac/u__n"/></e>
+    <e lm="territoriu"><i>territori</i><par n="mac/u__n"/></e>
+    <e lm="cabu"><i>cab</i><par n="mac/u__n"/></e>
+    <e lm="calendàriu"><i>calendàri</i><par n="mac/u__n"/></e>
 
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
@@ -1559,12 +1580,16 @@
 
     <e lm="Asia"><i>Asia</i><par n="Etiòpia__np"/></e>
     <e lm="Russia"><i>Russia</i><par n="Etiòpia__np"/></e>
+    <e lm="Isvitzera"><i>Isvitzera</i><par n="Etiòpia__np"/></e>
 
     <e lm="Tanzània"><i>Tanzània</i><par n="Etiòpia__np"/></e>
     <e lm="Tanzània" r="LR"><p><l>Tanzania</l><r>Tanzània</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Sitzìlia"><i>Sitzìlia</i><par n="Etiòpia__np"/></e>
     <e lm="Sitzìlia" r="LR"><p><l>Sitzilia</l><r>Sitzìlia</r></p><par n="Etiòpia__np"/></e>
+
+    <e lm="Amèrica de su Nord"><i>Amèrica<b/>de<b/>su<b/>Nord</i><par n="Etiòpia__np"/></e>
+    <e lm="Amèrica Latina"><i>Amèrica<b/>Latina</i><par n="Etiòpia__np"/></e>
 
     <e lm="Amèrica"><i>Amèrica</i><par n="Etiòpia__np"/></e>
     <e lm="Amèrica" r="LR"><p><l>America</l><r>Amèrica</r></p><par n="Etiòpia__np"/></e>
@@ -1612,8 +1637,7 @@
     <e lm="Inghilterra"><i>Inghilterra</i><par n="Etiòpia__np"/></e>
 
     <e lm="Afganistàn"><i>Afganistàn</i><par n="Afganistàn__np"/></e>
-    <e lm="Rennu Auniadu de Gran Bretagna e Irlanda del Nord"><i>Rennu<b/>Auniadu<b/>de<b/>Gran<b/>Bretagna<b/>e<b/>Irlanda<b/>del<b/>Nord</i><par n="Afganistàn__np"/></e>
-    <e lm="Rennu Auniadu"><i>Rennu<b/>Auniadu</i><par n="Afganistàn__np"/></e>
+    <e lm="Regnu Unidu"><i>Regnu<b/>Unidu</i><par n="Afganistàn__np"/></e>
 
     <e lm="Mèssicu"><i>Mèssicu</i><par n="Afganistàn__np"/></e>
     <e lm="Mèssicu" r="LR"><p><l>Messico</l><r>Mèssicu</r></p><par n="Afganistàn__np"/></e>
@@ -1630,8 +1654,12 @@
     <e lm="Vietnam"><i>Vietnam</i><par n="Afganistàn__np"/></e>
     <e lm="Teheran"><i>Teheran</i><par n="Afganistàn__np"/></e>
     <e lm="Stanford"><i>Stanford</i><par n="Afganistàn__np"/></e>
+    <e lm="San Marino"><i>San<b/>Marino</i><par n="Afganistàn__np"/></e>
 
     <e lm="Casteddu"><i>Casteddu</i><par n="Afganistàn__np"/></e>
+    <e lm="Vaticanu"><i>Vaticanu</i><par n="Afganistàn__np"/></e>
+
+    <e lm="Cantone Ticino"><i>Cantone<b/>Ticino</i><par n="Afganistàn__np"/></e>
 
     <e lm="Istados Unidos"><i>Istados<b/>Unidos</i><par n="Istados_Unidos__np"/></e>
 
@@ -1696,12 +1724,18 @@
     <e lm="McCulloch"><i>McCulloch</i><par n="Saussure__np"/></e>
     <e lm="Marinetti"><i>Marinetti</i><par n="Saussure__np"/></e>
     <e lm="Maradona"><i>Maradona</i><par n="Saussure__np"/></e>
+    <e lm="Küpper"><i>Küpper</i><par n="Saussure__np"/></e>
+    <e lm="van Doesburg"><i>van<b/>Doesburg</i><par n="Saussure__np"/></e>
+    <e lm="van Eesteren"><i>van<b/>Eesteren</i><par n="Saussure__np"/></e>
 
     <e lm="Linux"><i>Linux</i><par n="Linux__np"/></e>
     <e lm="Deus"><i>Deus</i><par n="Linux__np"/></e>
+    <e lm="Buddha"><i>Buddha</i><par n="Linux__np"/></e>
+    <e lm="Dharma"><i>Dharma</i><par n="Linux__np"/></e>
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Wikimedia"><i>Wikimedia</i><par n="Wikipedia__np"/></e>
+    <e lm="Bibbia"><i>Bibbia</i><par n="Wikipedia__np"/></e>
 
 
     <!-- SECTION: Adjectives -->
@@ -1747,6 +1781,12 @@
     <e lm="cristianu"><i>cristian</i><par n="frantzes/u__adj"/></e>
     <e lm="diversu"><i>divers</i><par n="frantzes/u__adj"/></e>
     <e lm="religiosu"><i>religios</i><par n="frantzes/u__adj"/></e>
+    <e lm="sanscritu"><i>sanscrit</i><par n="frantzes/u__adj"/></e>
+    <e lm="ucrainu"><i>ucrain</i><par n="frantzes/u__adj"/></e>
+    <e lm="turisticu"><i>turistic</i><par n="frantzes/u__adj"/></e>
+    <e lm="romanzu"><i>romanz</i><par n="frantzes/u__adj"/></e>
+    <e lm="arromanzu"><i>arromanz</i><par n="frantzes/u__adj"/></e>
+    <e lm="economicu"><i>economic</i><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
 
@@ -1758,6 +1798,12 @@
     <e lm="mundiale"><i>mundiale</i><par n="triste__adj"/></e>
     <e lm="musicale"><i>musicale</i><par n="triste__adj"/></e>
     <e lm="printzipale"><i>printzipale</i><par n="triste__adj"/></e>
+    <e lm="traditzionale"><i>traditzionale</i><par n="triste__adj"/></e>
+    <e lm="otzidentale"><i>otzidentale</i><par n="triste__adj"/></e>
+    <e lm="sud-otzidentale"><i>sud-otzidentale</i><par n="triste__adj"/></e>
+
+    <e lm="ufitziale"><i>ufitziale</i><par n="triste__adj"/></e>
+    <e lm="ufitziale" r="LR"><p><l>uffitziale</l><r>ufitziale</r></p><par n="triste__adj"/></e>
 
     <e lm="internatzionale"><i>internatzionale</i><par n="triste__adj"/></e>
     <e lm="internazionale" r="LR"><p><l>internazionale</l><r>internatzionale</r></p><par n="triste__adj"/></e>
@@ -1821,6 +1867,7 @@
     <e lm="in curtzu"><i>in<b/>curtzu</i><par n="bene__adv"/></e>
     <e lm="in cara"><i>in<b/>cara</i><par n="bene__adv"/></e>
     <e lm="cunforma a"><i>cunforma<b/>a</i><par n="bene__adv"/></e>
+    <e lm="pro esempru"><i>pro<b/>esempru</i><par n="bene__adv"/></e>
     <e lm="a malu"><i>a<b/>malu</i><par n="bene__adv"/></e>
 
     <e lm="massimamente"><i>massimamente</i><par n="bene__adv"/></e>
@@ -1904,6 +1951,10 @@
     <e lm="usare"><i>us</i><par n="cant/are__vblex"/></e>
     <e lm="perfezionare"><i>perfezion</i><par n="cant/are__vblex"/></e>
     <e lm="trabagliare"><i>trabagli</i><par n="cant/are__vblex"/></e>
+    <e lm="comintzare"><i>comintz</i><par n="cant/are__vblex"/></e>
+    <e lm="partecipare"><i>partecip</i><par n="cant/are__vblex"/></e>
+    <e lm="passare"><i>pass</i><par n="cant/are__vblex"/></e>
+    <e lm="disterrare"><i>disterr</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
@@ -1913,6 +1964,7 @@
     <e lm="bìdere"><i>bìd</i><par n="tim/ere__vblex"/></e>
     <e lm="imparere"><i>impar</i><par n="tim/ere__vblex"/></e>
 
+    <e lm="bivire"><i>biv</i><par n="fin/ire__vblex"/></e>
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
     <e lm="cunduire"><i>cundu</i><par n="fin/ire__vblex"/></e>
@@ -1924,6 +1976,7 @@
     <e lm="serbire"><i>serb</i><par n="fin/ire__vblex"/></e>
     <e lm="costruire"><i>costru</i><par n="fin/ire__vblex"/></e>
     <e lm="ischire"><i>isch</i><par n="fin/ire__vblex"/></e>
+    <e lm="trasferire"><i>trasfer</i><par n="fin/ire__vblex"/></e>
 
     <e lm="cuntènnere"><i>cunt</i><par n="t/ènnere__vblex"/></e>
     <e lm="otènnere"><i>ot</i><par n="t/ènnere__vblex"/></e>
@@ -1952,7 +2005,8 @@
 
     <!-- SECTION: Abbreviations -->
 
-    <e lm="a.C"><i>a.C</i><par n="a.C.__abbr"/></e>
+    <e lm="a.C."><i>a.C</i><par n="a.C.__abbr"/></e>
+    <e lm="ecc."><i>ecc</i><par n="a.C.__abbr"/></e>
 
     <e lm="UNESCO"><i>UNESCO</i><par n="UNESCO__abbr"/></e>
     <e lm="ONU"><i>ONU</i><par n="UNESCO__abbr"/></e>
@@ -1963,6 +2017,7 @@
 
   <section id="apostrophe" type="postblank">
     <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
