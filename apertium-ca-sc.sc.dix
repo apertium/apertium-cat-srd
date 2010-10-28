@@ -355,7 +355,7 @@
     </pardef>
 
     <pardef n="Saussure__np">
-      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l></l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="Linux__np">
@@ -443,6 +443,7 @@
       <e>       <p><l>fia</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>fias</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>fiat</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fit</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>fiamus</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>fiais</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>fiant</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1432,8 +1433,12 @@
     <e lm="affermazione"><i>affermazione</i><par n="mesa__n"/></e>
     <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
 
+    <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
+
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
     <e lm="chitarrista"><i>chitarrista</i><par n="dentista__n"/></e>
+    <e lm="artista"><i>artista</i><par n="dentista__n"/></e>
+    <e lm="trombettista"><i>trombettista</i><par n="dentista__n"/></e>
     <e lm="alchimista"><i>alchimista</i><par n="dentista__n"/></e>
     <e lm="analista"><i>analista</i><par n="dentista__n"/></e>
     <e lm="annalista"><i>annalista</i><par n="dentista__n"/></e>
@@ -1466,6 +1471,8 @@
     <e lm="macu"><i>mac</i><par n="mac/u__n"/></e>
     <e lm="maridu"><i>marid</i><par n="mac/u__n"/></e>
     <e lm="caddu"><i>cadd</i><par n="mac/u__n"/></e>
+    <e lm="metru"><i>metr</i><par n="mac/u__n"/></e>
+    <e lm="manifestu"><i>manifest</i><par n="mac/u__n"/></e>
     <e lm="campu"><i>camp</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
     <e lm="mercadu"><i>mercad</i><par n="mac/u__n"/></e>
@@ -1567,7 +1574,7 @@
     <e lm="Cannes"><i>Cannes</i><par n="Afganistàn__np"/></e>
     <e lm="Vietnam"><i>Vietnam</i><par n="Afganistàn__np"/></e>
     <e lm="Teheran"><i>Teheran</i><par n="Afganistàn__np"/></e>
-
+    <e lm="Stanford"><i>Stanford</i><par n="Afganistàn__np"/></e>
 
     <e lm="Casteddu"><i>Casteddu</i><par n="Afganistàn__np"/></e>
 
@@ -1675,10 +1682,12 @@
     <e lm="tedescu"><i>tedesc</i><par n="frantzes/u__adj"/></e>
     <e lm="arabu"><i>arab</i><par n="frantzes/u__adj"/></e>
     <e lm="africanu"><i>african</i><par n="frantzes/u__adj"/></e>
+    <e lm="turcu"><i>turc</i><par n="frantzes/u__adj"/></e>
     <e lm="ebraicu"><i>ebraic</i><par n="frantzes/u__adj"/></e>
     <e lm="russu"><i>russ</i><par n="frantzes/u__adj"/></e>
     <e lm="gregu"><i>greg</i><par n="frantzes/u__adj"/></e>
     <e lm="mandarinu"><i>mandarin</i><par n="frantzes/u__adj"/></e>
+    <e lm="olandesu"><i>olandes</i><par n="frantzes/u__adj"/></e>
 
     <e lm="banduleri"><i>banduler</i><par n="banduler/i__adj"/></e>
 
@@ -1686,6 +1695,10 @@
     <e lm="forte"><i>forte</i><par n="triste__adj"/></e>
     <e lm="importante"><i>importante</i><par n="triste__adj"/></e>
     <e lm="federale"><i>federale</i><par n="triste__adj"/></e>
+    <e lm="indipendentista"><i>indipendentista</i><par n="triste__adj"/></e>
+
+    <e lm="internatzionale"><i>internatzionale</i><par n="triste__adj"/></e>
+    <e lm="internazionale" r="LR"><p><l>internazionale</l><r>internatzionale</r></p><par n="triste__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -2393,6 +2406,10 @@
     <e lm="proclamare"><i>proclam</i><par n="cant/are__vblex"/></e>
     <e lm="tramandare"><i>tramand</i><par n="cant/are__vblex"/></e>
     <e lm="mandare"><i>mand</i><par n="cant/are__vblex"/></e>
+    <e lm="manifestare"><i>manifest</i><par n="cant/are__vblex"/></e>
+    <e lm="compilare"><i>compil</i><par n="cant/are__vblex"/></e>
+    <e lm="usare"><i>us</i><par n="cant/are__vblex"/></e>
+    <e lm="perfezionare"><i>perfezion</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
