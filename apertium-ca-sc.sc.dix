@@ -307,11 +307,11 @@
     </pardef>
 
     <pardef n="cust/u__det" c="p.30">
-      <e>       <p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>e</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>as</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="àter/u__det" c="">
@@ -372,6 +372,13 @@
     <pardef n="temp/us__n">
       <e>       <p><l>us</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
+    <pardef n="amig/u__n">
+      <e>       <p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>as</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="man/u__n">
@@ -1963,10 +1970,11 @@
     <e lm="frigorìferu"><i>frigorìfer</i><par n="mac/u__n"/></e>
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
 
-
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
+
+    <e lm="amigu"><i>amig</i><par n="amig/u__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
