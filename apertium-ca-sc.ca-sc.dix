@@ -10,6 +10,7 @@
     <sdef n="vbhaver" c="Verb 'to have'"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
     <sdef n="adv"     c="Adverb"/>
+    <sdef n="preadv"  c="Preadverb"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="num"     c="Numeral"/>
     <sdef n="pr"      c="Preposition"/>
@@ -268,7 +269,7 @@
     <e><p><l>estudi<s n="n"/><s n="m"/></l><r>istudiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>consell<s n="n"/><s n="m"/></l><r>cussìgiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>capital<s n="n"/><s n="f"/></l><r>capitale<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>paraula<s n="n"/><s n="f"/></l><r>paraula<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paraula<s n="n"/><s n="f"/></l><r>paràula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>manera<s n="n"/><s n="f"/></l><r>manera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>govern<s n="n"/><s n="m"/></l><r>guvernu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>filosofia<s n="n"/><s n="f"/></l><r>filosofia<s n="n"/><s n="f"/></r></p></e>
@@ -320,6 +321,7 @@
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>mama<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>illa<s n="n"/><s n="f"/></l><r>ìsula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>instrument<s n="n"/><s n="m"/></l><r>istrumentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>documental<s n="n"/><s n="m"/></l><r>documentariu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hinduisme<s n="n"/><s n="m"/></l><r>induismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>emperador<s n="n"/><s n="m"/></l><r>imperadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>associació<s n="n"/><s n="f"/></l><r>associatzione<s n="n"/><s n="f"/></r></p></e>
@@ -357,7 +359,7 @@
     <e><p><l>recitació<s n="n"/><s n="f"/></l><r>recitazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>programació<s n="n"/><s n="f"/></l><r>programatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>producció<s n="n"/><s n="f"/></l><r>produtzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>presència<s n="n"/><s n="f"/></l><r>presentzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>presència<s n="n"/><s n="f"/></l><r>presèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politècnic<s n="n"/><s n="m"/></l><r>preicatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personalitat<s n="n"/><s n="f"/></l><r>personalidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pensament<s n="n"/><s n="m"/></l><r>pensamentu<s n="n"/><s n="m"/></r></p></e>
@@ -403,7 +405,7 @@
     <e><p><l>revolució<s n="n"/><s n="f"/></l><r>rivolutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reducció<s n="n"/><s n="f"/></l><r>riduzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>resistència<s n="n"/><s n="f"/></l><r>resistèntzia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>residència<s n="n"/><s n="f"/></l><r>residentzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>residència<s n="n"/><s n="f"/></l><r>residèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>redacció<s n="n"/><s n="f"/></l><r>redatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reacció<s n="n"/><s n="f"/></l><r>reatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>racionalisme<s n="n"/><s n="m"/></l><r>razionalismu<s n="n"/><s n="m"/></r></p></e>
@@ -474,7 +476,7 @@
     <e><p><l>dia<s n="n"/><s n="m"/></l><r>die<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>àrea<s n="n"/><s n="f"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>centre<s n="n"/><s n="m"/></l><r>centru<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ciència<s n="n"/><s n="f"/></l><r>iscientzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ciència<s n="n"/><s n="f"/></l><r>iscièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cor<s n="n"/><s n="m"/></l><r>coro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>terreny<s n="n"/><s n="m"/></l><r>terrinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>concentració<s n="n"/><s n="f"/></l><r>concentramentu<s n="n"/><s n="m"/></r></p></e>
@@ -535,7 +537,7 @@
     <e><p><l>Sardenya<s n="np"/><s n="top"/></l><r>Sardigna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Catalunya<s n="np"/><s n="top"/></l><r>Catalogna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Andorra<s n="np"/><s n="top"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>València<s n="np"/><s n="top"/></l><r>Valentzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>València<s n="np"/><s n="top"/></l><r>Valèntzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Aragó<s n="np"/><s n="top"/></l><r>Aragona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Franja<b/>de<b/>Ponent<s n="np"/><s n="top"/></l><r>Franja<b/>de<b/>Ponent<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Itàlia<s n="np"/><s n="top"/></l><r>Itàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -791,6 +793,9 @@
 
     <!-- SECTION:  Adverbs -->
 
+    <e><p><l>gairebé<s n="preadv"/></l><r>guasi<s n="preadv"/></r></p></e>
+    <!--<e><p><l>quasi<s n="preadv"/></l><r>guasi<s n="preadv"/></r></p></e>-->
+
     <e><p><l>com<s n="adv"/><s n="itg"/></l><r>comente<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>quan<s n="adv"/><s n="itg"/></l><r>cando<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>on<s n="adv"/><s n="itg"/></l><r>ue<s n="adv"/><s n="itg"/></r></p></e>
@@ -841,7 +846,7 @@
     <e><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
     <e><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
     <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
-    <e><p><l>viure<s n="vblex"/></l><r>bivire<s n="vblex"/></r></p></e>
+    <e><p><l>viure<s n="vblex"/></l><r>bìvire<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>
@@ -907,7 +912,89 @@
     <e r="RL"><p><l>demanar<s n="vblex"/></l><r>dimandare<s n="vblex"/></r></p></e>
     <e><p><l>convenir<s n="vblex"/></l><r>cumbènnere<s n="vblex"/></r></p></e>
     <e><p><l>millorar<s n="vblex"/></l><r>megiorare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>convidar<s n="vblex"/></l><r>invitare<s n="vblex"/></r></p></e>
+    <e><p><l>convidar<s n="vblex"/></l><r>cumbidare<s n="vblex"/></r></p></e>
+    <e><p><l>tornar<s n="vblex"/></l><r>torrare<s n="vblex"/></r></p></e>
 
+    <e><p><l>trobar<s n="vblex"/></l><r>agatare<s n="vblex"/></r></p></e>
+    <e><p><l>prendre<s n="vblex"/></l><r>leare<s n="vblex"/></r></p></e>
+    <e><p><l>formar<s n="vblex"/></l><r>formare<s n="vblex"/></r></p></e>
+    <e><p><l>deixar<s n="vblex"/></l><r>lassare<s n="vblex"/></r></p></e>
+    <e><p><l>deixar<s n="vblex"/></l><r>dassare<s n="vblex"/></r></p></e>
+    <e><p><l>arribar<s n="vblex"/></l><r>arribare<s n="vblex"/></r></p></e>
+    <e><p><l>quedar<s n="vblex"/></l><r>abarrare<s n="vblex"/></r></p></e>
+    <e><p><l>representar<s n="vblex"/></l><r>rappresentare<s n="vblex"/></r></p></e>
+    <e><p><l>interessar<s n="vblex"/></l><r>interessare<s n="vblex"/></r></p></e>
+    <e><p><l>costar<s n="vblex"/></l><r>costare<s n="vblex"/></r></p></e>
+    <e><p><l>mostrar<s n="vblex"/></l><r>mustrare<s n="vblex"/></r></p></e>
+    <e><p><l>col·locar<s n="vblex"/></l><r>collocare<s n="vblex"/></r></p></e>
+    <e><p><l>discutir<s n="vblex"/></l><r>chistionare<s n="vblex"/></r></p></e>
+    <e><p><l>ballar<s n="vblex"/></l><r>ballare<s n="vblex"/></r></p></e>
+    <e><p><l>acabar<s n="vblex"/></l><r>acabare<s n="vblex"/></r></p></e>
+    <e><p><l>enregistrar<s n="vblex"/></l><r>registrare<s n="vblex"/></r></p></e>
+    <e><p><l>pagar<s n="vblex"/></l><r>pagare<s n="vblex"/></r></p></e>
+    <e><p><l>ocupar<s n="vblex"/></l><r>ocupare<s n="vblex"/></r></p></e>
+    <e><p><l>curar<s n="vblex"/></l><r>curare<s n="vblex"/></r></p></e>
+    <e><p><l>extreure<s n="vblex"/></l><r>bogare<s n="vblex"/></r></p></e>
+    <e><p><l>utilitzar<s n="vblex"/></l><r>utilizzare<s n="vblex"/></r></p></e>
+    <e><p><l>alimentar<s n="vblex"/></l><r>alimentare<s n="vblex"/></r></p></e>
+    <e><p><l>provocar<s n="vblex"/></l><r>provocare<s n="vblex"/></r></p></e>
+    <e><p><l>perfeccionar<s n="vblex"/></l><r>perfetzionare<s n="vblex"/></r></p></e>
+    <e><p><l>comportar<s n="vblex"/></l><r>cumportare<s n="vblex"/></r></p></e>
+    <e><p><l>abreujar<s n="vblex"/></l><r>abbreviare<s n="vblex"/></r></p></e>
+    <e><p><l>acusar<s n="vblex"/></l><r>acusare<s n="vblex"/></r></p></e>
+    <e><p><l>firmar<s n="vblex"/></l><r>firmare<s n="vblex"/></r></p></e>
+    <e><p><l>valorar<s n="vblex"/></l><r>valorare<s n="vblex"/></r></p></e>
+    <e><p><l>defensar<s n="vblex"/></l><r>defensare<s n="vblex"/></r></p></e>
+    <e><p><l>arrestar<s n="vblex"/></l><r>arrestare<s n="vblex"/></r></p></e>
+    <e><p><l>visitar<s n="vblex"/></l><r>bisitare<s n="vblex"/></r></p></e>
+    <e><p><l>autoritzar<s n="vblex"/></l><r>autorizare<s n="vblex"/></r></p></e>
+    <e><p><l>augmentar<s n="vblex"/></l><r>aumentare<s n="vblex"/></r></p></e>
+    <e><p><l>aprovar<s n="vblex"/></l><r>aprovare<s n="vblex"/></r></p></e>
+    <e><p><l>afirmar<s n="vblex"/></l><r>afirmare<s n="vblex"/></r></p></e>
+    <e><p><l>acostumar<s n="vblex"/></l><r>acostumare<s n="vblex"/></r></p></e>
+    <e><p><l>acumular<s n="vblex"/></l><r>accumulare<s n="vblex"/></r></p></e>
+    <e><p><l>constituir<s n="vblex"/></l><r>costituiere<s n="vblex"/></r></p></e>
+    <e><p><l>basar<s n="vblex"/></l><r>basare<s n="vblex"/></r></p></e>
+    <e><p><l>freqüentar<s n="vblex"/></l><r>frecuentare<s n="vblex"/></r></p></e>
+    <e><p><l>enviar<s n="vblex"/></l><r>avviare<s n="vblex"/></r></p></e>
+    <e><p><l>voltar<s n="vblex"/></l><r>furriare<s n="vblex"/></r></p></e>
+    <e><p><l>memoritzar<s n="vblex"/></l><r>ammentare<s n="vblex"/></r></p></e>
+    <e><p><l>temptar<s n="vblex"/></l><r>tentare<s n="vblex"/></r></p></e>
+    <e><p><l>pertocar<s n="vblex"/></l><r>pertocare<s n="vblex"/></r></p></e>
+    <e><p><l>fabricar<s n="vblex"/></l><r>fraigare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>emigrar<s n="vblex"/></l><r>disterrare<s n="vblex"/></r></p></e>
+    <e><p><l>emigrar<s n="vblex"/></l><r>emigrare<s n="vblex"/></r></p></e>
+    <e><p><l>guardar<s n="vblex"/></l><r>castiare<s n="vblex"/></r></p></e>
+    <e><p><l>superar<s n="vblex"/></l><r>barigare<s n="vblex"/></r></p></e>
+    <e><p><l>encertar<s n="vblex"/></l><r>atzetare<s n="vblex"/></r></p></e>
+    <e><p><l>obrir<s n="vblex"/></l><r>abèrrere<s n="vblex"/></r></p></e>
+    <e><p><l>trencar<s n="vblex"/></l><r>segare<s n="vblex"/></r></p></e>
+    <e><p><l>recordar<s n="vblex"/></l><r>regordare<s n="vblex"/></r></p></e>
+    <e><p><l>aprofitar<s n="vblex"/></l><r>provochere<s n="vblex"/></r></p></e>
+    <e><p><l>atendre<s n="vblex"/></l><r>isetare<s n="vblex"/></r></p></e>
+    <e><p><l>empresonar<s n="vblex"/></l><r>impresonare<s n="vblex"/></r></p></e>
+    <e><p><l>enviar<s n="vblex"/></l><r>imbiare<s n="vblex"/></r></p></e>
+    <e><p><l>emergir<s n="vblex"/></l><r>emergere<s n="vblex"/></r></p></e>
+    <e><p><l>soler<s n="vblex"/></l><r>costumare<s n="vblex"/></r></p></e>
+    <e><p><l>aprovar<s n="vblex"/></l><r>colare<s n="vblex"/></r></p></e>
+    <e><p><l>esborrar<s n="vblex"/></l><r>burrare<s n="vblex"/></r></p></e>
+    <e><p><l>litigar<s n="vblex"/></l><r>brigare<s n="vblex"/></r></p></e>
+    <e><p><l>volar<s n="vblex"/></l><r>bolare<s n="vblex"/></r></p></e>
+    <e><p><l>assentar<s n="vblex"/></l><r>assentare<s n="vblex"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
+    <e><p><l>considerar<s n="vblex"/></l><r>apretziare<s n="vblex"/></r></p></e>
+    <e><p><l>lligar<s n="vblex"/></l><r>apostivigare<s n="vblex"/></r></p></e>
+    <e><p><l>accelerar<s n="vblex"/></l><r>allestrare<s n="vblex"/></r></p></e>
+    <e><p><l>venerar<s n="vblex"/></l><r>alabare<s n="vblex"/></r></p></e>
+    <e><p><l>fortificar<s n="vblex"/></l><r>afortigare<s n="vblex"/></r></p></e>
+    <e><p><l>confidar<s n="vblex"/></l><r>afidare<s n="vblex"/></r></p></e>
+    <e><p><l>adoptar<s n="vblex"/></l><r>adotare<s n="vblex"/></r></p></e>
+    <e><p><l>confrontar<s n="vblex"/></l><r>acarare<s n="vblex"/></r></p></e>
+    <e><p><l>habitar<s n="vblex"/></l><r>abitare<s n="vblex"/></r></p></e>
+
+
+    <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>cramare<s n="vblex"/></r></p></e>
 
     <!-- SECTION:  Abbreviations -->
