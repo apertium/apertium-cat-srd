@@ -1,0 +1,31 @@
+Corpus in: /home/fran/corpora/sardu
+Processing corpus for generation test... done.
+Translating corpus for generation test (this could take some time)... done.
+
+===============================================================================
+Multiple surface forms for a single lexical form
+===============================================================================
+
+===============================================================================
+Multiple bidix entries for a single source language lexical form
+===============================================================================
+
+===============================================================================
+Tag mismatch between transfer and generation
+===============================================================================
+      5 #sànscrit\<adj\>\<m\>\<sg\>	^sànscrit<adj><m><sg>$
+      3 #mari\<n\>\<m\>\<sg\>	^mari<n><m><sg>$
+      3 #leçó\<n\>\<f\>\<pl\>	^leçó<n><f><pl>$
+      2 #maturitat\<n\>\<f\>\<sg\>	^maturitat<n><f><sg>$
+      1 #melodiós\<adj\>\<m\>\<sg\>	^melodiós<adj><m><sg>$
+      1 #lecció\<n\>\<f\>\<pl\>	^lecció<n><f><pl>$
+      1 #extenció\<n\>\<f\>\<sg\>	^extenció<n><f><sg>$
+      1 #es\<prn\>\<enc\>\<ref\>\<p3\>\<mf\>\<sp\>	^es<prn><enc><ref><p3><mf><sp>$
+
+===============================================================================
+Summary
+===============================================================================
+  0 /tmp/sc-ca.multiform
+  0 /tmp/sc-ca.multibidix
+  8 /tmp/sc-ca.tagmismatch
+  8 total
