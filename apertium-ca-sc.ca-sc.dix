@@ -39,6 +39,7 @@
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
     <sdef n="ref"     c="Reflexive"/>
+    <sdef n="itg"     c="Interrogative"/>
 
     <sdef n="def"     c="Definite"/>
     <sdef n="pos"     c="Possessive"/>
@@ -81,18 +82,28 @@
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+    <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>subra<s n="pr"/></r></p></e>
+    <e><p><l>entre<s n="pr"/></l><r>intre<s n="pr"/></r></p></e>
+    <e><p><l>durant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
     <e><p><l>em<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+    <e><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e><p><l>el<s n="prn"/><s n="tn"/></l><r>issu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>altre<s n="prn"/><s n="tn"/></l><r>àteru<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
@@ -383,11 +394,13 @@
     <e><p><l>afirmació<s n="n"/><s n="f"/></l><r>afirmatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>habitació<s n="n"/><s n="f"/></l><r>abitatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>habilitat<s n="n"/><s n="f"/></l><r>abilidade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>densitat<s n="n"/><s n="f"/></l><r>densidade<s n="n"/><s n="f"/></r></p></e>
 
 
     <!-- SECTION:  Proper noun -->
 
     <e><p><l>Anglaterra<s n="np"/><s n="top"/></l><r>Inghilterra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Eslovènia<s n="np"/><s n="top"/></l><r>Islovènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Regne<b/>Unit<s n="np"/><s n="top"/></l><r>Regnu<b/>Unidu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Istados<b/>Unidos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>Sardenya<s n="np"/><s n="top"/></l><r>Sardigna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -469,13 +482,14 @@
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
     <e><p><l>lliure<s n="adj"/></l><r>lìberu<s n="adj"/></r></p><par n="persa_persianu"/></e>
 
+    <e><p><l>alt<s n="adj"/></l><r>altu<s n="adj"/></r></p></e>
     <e><p><l>africà<s n="adj"/></l><r>africanu<s n="adj"/></r></p></e>
-    <e><p><l>aleman<s n="adj"/></l><r>tedescu<s n="adj"/></r></p></e>
+    <e><p><l>alemany<s n="adj"/></l><r>tedescu<s n="adj"/></r></p></e>
     <e><p><l>alfabètic<s n="adj"/></l><r>alfabèticu<s n="adj"/></r></p></e>
     <e><p><l>americà<s n="adj"/></l><r>americanu<s n="adj"/></r></p></e>
     <e><p><l>anglès<s n="adj"/></l><r>inglesu<s n="adj"/></r></p></e>
     <e><p><l>àrab<s n="adj"/></l><r>arabu<s n="adj"/></r></p><par n="persa_persianu"/></e>
-    <e><p><l>armen<s n="adj"/></l><r>armenu<s n="adj"/></r></p></e>
+    <e><p><l>armeni<s n="adj"/></l><r>armenu<s n="adj"/></r></p></e>
     <e><p><l>bon<s n="adj"/></l><r>bonu<s n="adj"/></r></p></e>
     <e><p><l>català<s n="adj"/></l><r>catalanu<s n="adj"/></r></p></e>
     <e><p><l>catolic<s n="adj"/></l><r>catolicu<s n="adj"/></r></p></e>
@@ -522,7 +536,7 @@
     <e><p><l>principal<s n="adj"/></l><r>printzipale<s n="adj"/></r></p></e>
     <e><p><l>propi<s n="adj"/></l><r>pròpiu<s n="adj"/></r></p></e>
     <e><p><l>religiós<s n="adj"/></l><r>religiosu<s n="adj"/></r></p></e>
-    <e><p><l>russo<s n="adj"/></l><r>russu<s n="adj"/></r></p></e>
+    <e><p><l>rus<s n="adj"/></l><r>russu<s n="adj"/></r></p></e>
     <e><p><l>sanscrit<s n="adj"/></l><r>sanscritu<s n="adj"/></r></p></e>
     <e><p><l>sant<s n="adj"/></l><r>santu<s n="adj"/></r></p></e>
     <e><p><l>sard<s n="adj"/></l><r>sardu<s n="adj"/></r></p></e>
