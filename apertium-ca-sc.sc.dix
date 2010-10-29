@@ -2448,7 +2448,8 @@
     <e lm="trabagliare"><i>trabagli</i><par n="cant/are__vblex"/></e>
     <e lm="comintzare"><i>comintz</i><par n="cant/are__vblex"/></e>
     <e lm="comintzare" r="LR"><p><l>cominz</l><r>comintz</r></p><par n="cant/are__vblex"/></e>
-    <e lm="partecipare"><i>partecip</i><par n="cant/are__vblex"/></e>
+    <e lm="partetzipare"><i>partetzip</i><par n="cant/are__vblex"/></e>
+    <e lm="partetzipare" r="LR"><p><l>partecip</l><r>partetzip</r></p><par n="cant/are__vblex"/></e>
     <e lm="passare"><i>pass</i><par n="cant/are__vblex"/></e>
     <e lm="disterrare"><i>disterr</i><par n="cant/are__vblex"/></e>
     <e lm="educare"><i>educ</i><par n="cant/are__vblex"/></e>
@@ -2479,6 +2480,21 @@
     <e lm="lassare"><i>lass</i><par n="cant/are__vblex"/></e>
     <e lm="imparare"><i>impar</i><par n="cant/are__vblex"/></e>
 
+    <e lm="agatare"><i>agat</i><par n="cant/are__vblex"/></e>
+    <e lm="alimentare"><i>aliment</i><par n="cant/are__vblex"/></e>
+    <e lm="ammentare"><i>amment</i><par n="cant/are__vblex"/></e>
+    <e lm="arribare"><i>arrib</i><par n="cant/are__vblex"/></e>
+    <e lm="atzetare"><i>atzet</i><par n="cant/are__vblex"/></e>
+    <e lm="aumentare"><i>aument</i><par n="cant/are__vblex"/></e>
+    <e lm="imbiare"><i>imbi</i><par n="cant/are__vblex"/></e>
+    <e lm="istare"><i>ist</i><par n="cant/are__vblex"/></e>
+    <e lm="mustrare"><i>mustr</i><par n="cant/are__vblex"/></e>
+    <e lm="particulare"><i>particul</i><par n="cant/are__vblex"/></e>
+    <e lm="pigare"><i>pig</i><par n="cant/are__vblex"/></e>
+    <e lm="tentare"><i>tent</i><par n="cant/are__vblex"/></e>
+    <e lm="torrare"><i>torr</i><par n="cant/are__vblex"/></e>
+    <e lm="interessare"><i>interess</i><par n="cant/are__vblex"/></e>
+
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>
@@ -2493,9 +2509,9 @@
     <e lm="costituiere"><i>costitui</i><par n="tim/ere__vblex"/></e>
     <e lm="costituiere" r="LR"><p><l>constitui</l><r>costitui</r></p><par n="tim/ere__vblex"/></e>
     <e lm="bínchere"><i>bínch</i><par n="tim/ere__vblex"/></e>
+    <e lm="bìvere"><i>bìv</i><par n="tim/ere__vblex"/></e>
 
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
-    <e lm="bivire"><i>biv</i><par n="fin/ire__vblex"/></e>
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
     <e lm="cunduire"><i>cundu</i><par n="fin/ire__vblex"/></e>
