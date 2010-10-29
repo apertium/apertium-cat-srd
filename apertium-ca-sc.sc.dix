@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXWkqyxw</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXWÍkqyxwí</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -1340,6 +1340,7 @@
     <e lm="paraula"><i>paraula</i><par n="mesa__n"/></e>
     <e lm="paraula" r="LR"><p><l>peraula</l><r>paraula</r></p><par n="mesa__n"/></e>
     <e lm="tzitade"><i>tzitade</i><par n="mesa__n"/></e>
+    <e lm="tzitade" r="LR"><p><l>tzidade</l><r>tzitade</r></p><par n="mesa__n"/></e>
 
     <e lm="regione"><i>regione</i><par n="mesa__n"/></e>
     <e lm="sub-regione"><i>sub-regione</i><par n="mesa__n"/></e>
@@ -1527,6 +1528,7 @@
     <e lm="rivista"><i>rivista</i><par n="mesa__n"/></e>
     <e lm="attividade"><i>attividade</i><par n="mesa__n"/></e>
     <e lm="persona"><i>persona</i><par n="mesa__n"/></e>
+    <e lm="persona" r="LR"><p><l>pessona</l><r>persona</r></p><par n="mesa__n"/></e>
     <e lm="umanidade"><i>umanidade</i><par n="mesa__n"/></e>
     <e lm="autoridade"><i>autoridade</i><par n="mesa__n"/></e>
     <e lm="personalidade"><i>personalidade</i><par n="mesa__n"/></e>
@@ -1660,6 +1662,7 @@
     <e lm="metru"><i>metr</i><par n="mac/u__n"/></e>
     <e lm="manifestu"><i>manifest</i><par n="mac/u__n"/></e>
     <e lm="campu"><i>camp</i><par n="mac/u__n"/></e>
+    <e lm="perìudu"><i>perìud</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
     <e lm="mercadu"><i>mercad</i><par n="mac/u__n"/></e>
     <e lm="porcu"><i>porc</i><par n="mac/u__n"/></e>
@@ -1741,6 +1744,10 @@
     <e lm="Asia"><i>Asia</i><par n="Etiòpia__np"/></e>
     <e lm="Russia"><i>Russia</i><par n="Etiòpia__np"/></e>
 
+    <e lm="Islovènia"><i>Islovènia</i><par n="Etiòpia__np"/></e>
+    <e lm="Islovènia" r="LR"><p><l>Islovenia</l><r>Islovènia</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Islovènia" r="LR"><p><l>Slovenia</l><r>Islovènia</r></p><par n="Etiòpia__np"/></e>
+
     <e lm="Isvìtzera"><i>Isvìtzera</i><par n="Etiòpia__np"/></e>
     <e lm="Isvìtzera" r="LR"><p><l>Isvitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
     <e lm="Isvìtzera" r="LR"><p><l>Svitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
@@ -1778,6 +1785,7 @@
     <e lm="Irlanda"><i>Irlanda</i><par n="Etiòpia__np"/></e>
     <e lm="Grecia"><i>Grecia</i><par n="Etiòpia__np"/></e>
     <e lm="Firenze"><i>Firenze</i><par n="Etiòpia__np"/></e>
+    <e lm="Russillione"><i>Russillione</i><par n="Etiòpia__np"/></e>
     <e lm="Ispagna"><i>Ispagna</i><par n="Etiòpia__np"/></e>
     <e lm="Brasile"><i>Brasile</i><par n="Etiòpia__np"/></e>
     <e lm="Germània"><i>Germània</i><par n="Etiòpia__np"/></e>
@@ -1802,13 +1810,24 @@
     <e lm="Pennsylvania"><i>Pennsylvania</i><par n="Etiòpia__np"/></e>
     <e lm="Filadelfia"><i>Filadelfia</i><par n="Etiòpia__np"/></e>
     <e lm="Carbònia"><i>Carbònia</i><par n="Etiòpia__np"/></e>
+    <e lm="Alighèra"><i>Alighèra</i><par n="Etiòpia__np"/></e>
     <e lm="Dalmazia"><i>Dalmazia</i><par n="Etiòpia__np"/></e>
     <e lm="Prussia"><i>Prussia</i><par n="Etiòpia__np"/></e>
     <e lm="Birmania"><i>Birmania</i><par n="Etiòpia__np"/></e>
     <e lm="Algèria"><i>Algèria</i><par n="Etiòpia__np"/></e>
     <e lm="Tracia"><i>Tracia</i><par n="Etiòpia__np"/></e>
+    <e lm="Aragona"><i>Aragona</i><par n="Etiòpia__np"/></e>
+    <e lm="Valentzia"><i>Valentzia</i><par n="Etiòpia__np"/></e>
+    <e lm="Andorra"><i>Andorra</i><par n="Etiòpia__np"/></e>
     <e lm="Mesopotamia"><i>Mesopotamia</i><par n="Etiòpia__np"/></e>
+    <e lm="Franja de Ponent"><i>Franja<b/>de<b/>Ponent</i><par n="Etiòpia__np"/></e>
     <e lm="Bretagna Manna"><i>Bretagna<b/>Manna</i><par n="Etiòpia__np"/></e>
+
+    <e lm="Catalogna"><i>Catalogna</i><par n="Etiòpia__np"/></e>
+    <e lm="Catalogna" r="LR"><p><l>Catalugna</l><r>Catalogna</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Catalogna" r="LR"><p><l>Cadalunnia</l><r>Catalogna</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Catalogna" r="LR"><p><l>Catalunnia</l><r>Catalogna</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Catalogna" r="LR"><p><l>Catalunya</l><r>Catalogna</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Sudan"><i>Sudan</i><par n="Afganistàn__np"/></e>
     <e lm="Afganistàn"><i>Afganistàn</i><par n="Afganistàn__np"/></e>
@@ -1972,6 +1991,7 @@
     <e lm="portughesu"><i>portughes</i><par n="frantzes/u__adj"/></e>
     <e lm="catalanu"><i>catalan</i><par n="frantzes/u__adj"/></e>
     <e lm="catalanu" r="LR"><p><l>cadalan</l><r>catalan</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="catalanu" r="LR"><p><l>cadelan</l><r>catalan</r></p><par n="frantzes/u__adj"/></e>
     <e lm="complessu"><i>compless</i><par n="frantzes/u__adj"/></e>
     <e lm="tedescu"><i>tedesc</i><par n="frantzes/u__adj"/></e>
     <e lm="arabu"><i>arab</i><par n="frantzes/u__adj"/></e>
@@ -2003,6 +2023,7 @@
     <e lm="milanesu"><i>milanes</i><par n="frantzes/u__adj"/></e>
     <e lm="saharianu"><i>saharian</i><par n="frantzes/u__adj"/></e>
     <e lm="europeu"><i>europe</i><par n="frantzes/u__adj"/></e>
+    <e lm="otzitanu"><i>otzitan</i><par n="frantzes/u__adj"/></e>
     <e lm="polìticu"><i>polìtic</i><par n="frantzes/u__adj"/></e>
     <e lm="polìticu" r="LR"><p><l>polìtig</l><r>polìtic</r></p><par n="frantzes/u__adj"/></e>
     <e lm="sud-saharianu"><i>sud-saharian</i><par n="frantzes/u__adj"/></e>
@@ -2268,6 +2289,7 @@
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
     <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
     <e lm="continuare"><i>continu</i><par n="cant/are__vblex"/></e>
+    <e lm="numenare"><i>numen</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>

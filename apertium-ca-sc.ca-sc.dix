@@ -391,7 +391,13 @@
     <e><p><l>Regne<b/>Unit<s n="np"/><s n="top"/></l><r>Regnu<b/>Unidu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Estats<b/>Units<s n="np"/><s n="top"/></l><r>Istados<b/>Unidos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>Sardenya<s n="np"/><s n="top"/></l><r>Sardigna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Catalunya<s n="np"/><s n="top"/></l><r>Catalogna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Andorra<s n="np"/><s n="top"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>València<s n="np"/><s n="top"/></l><r>Valentzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Aragó<s n="np"/><s n="top"/></l><r>Aragona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Franja<b/>de<b/>Ponent<s n="np"/><s n="top"/></l><r>Franja<b/>de<b/>Ponent<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Itàlia<s n="np"/><s n="top"/></l><r>Itàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Rosselló<s n="np"/><s n="top"/></l><r>Russillione<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Europa<s n="np"/><s n="top"/></l><r>Europa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Índia<s n="np"/><s n="top"/></l><r>Ìndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Amèrica<s n="np"/><s n="top"/></l><r>Amèrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -407,6 +413,7 @@
     <e><p><l>Londres<s n="np"/><s n="top"/></l><r>Londra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Irlanda<s n="np"/><s n="top"/></l><r>Irlanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Alemanya<s n="np"/><s n="top"/></l><r>Germània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Alguer<s n="np"/><s n="top"/></l><r>Alighèra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Florència<s n="np"/><s n="top"/></l><r>Firenze<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Espanya<s n="np"/><s n="top"/></l><r>Ispagna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Brasil<s n="np"/><s n="top"/></l><r>Brasile<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -488,6 +495,7 @@
     <e><p><l>federal<s n="adj"/></l><r>federale<s n="adj"/></r></p></e>
     <e><p><l>fort<s n="adj"/></l><r>forte<s n="adj"/></r></p></e>
     <e><p><l>francès<s n="adj"/></l><r>frantzesu<s n="adj"/></r></p></e>
+    <e><p><l>occità<s n="adj"/></l><r>otzitanu<s n="adj"/></r></p></e>
     <e><p><l>fundamental<s n="adj"/></l><r>fundamentale<s n="adj"/></r></p></e>
     <e><p><l>gran<s n="adj"/></l><r>mannu<s n="adj"/></r></p></e>
     <e><p><l>grec<s n="adj"/></l><r>gregu<s n="adj"/></r></p></e>
@@ -548,6 +556,8 @@
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
+    <e><p><l>nomenar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
+    <e><p><l>viure<s n="vblex"/></l><r>bivire<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>
@@ -561,6 +571,7 @@
     <e><p><l>començar<s n="vblex"/></l><r>comintzare<s n="vblex"/></r></p></e>
     <e><p><l>estudiar<s n="vblex"/></l><r>istudiare<s n="vblex"/></r></p></e>
     <e><p><l>anar<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
+    <e><p><l>parlar<s n="vblex"/></l><r>faeddare<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
