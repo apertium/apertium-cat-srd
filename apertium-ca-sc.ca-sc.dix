@@ -47,6 +47,7 @@
     <sdef n="def"     c="Definite"/>
     <sdef n="pos"     c="Possessive"/>
     <sdef n="ind"     c="Indefinite"/>
+    <sdef n="dem"     c="Demonstrative"/>
     <sdef n="ord"     c="Ordinal"/>
 
     <sdef n="GD"      c="Gender to be determined"/>
@@ -114,6 +115,7 @@
     <e><p><l>sota<s n="pr"/></l><r>suta<s n="pr"/></r></p></e>
     <e><p><l>fora<b/>de<s n="pr"/></l><r>foras<s n="pr"/></r></p></e>
     <e><p><l>dins<s n="pr"/></l><r>intro<s n="pr"/></r></p></e>
+    <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
@@ -134,6 +136,9 @@
 
     <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
+    <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+
+    <e><p><l>jo<s n="prn"/><s n="tn"/></l><r>deo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>ell<s n="prn"/><s n="tn"/></l><r>issu<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>un<b/>altre<s n="prn"/><s n="tn"/></l><r>àteru<s n="prn"/><s n="tn"/></r></p></e>
 
@@ -148,6 +153,9 @@
     <e><p><l>un<s n="det"/><s n="ind"/></l><r>unu<s n="det"/><s n="ind"/></r></p></e>
     <e r="LR"><p><l>un<s n="det"/><s n="ind"/><s n="mf"/></l><r>unu<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
     <e r="RL"><p><l>un<s n="det"/><s n="ind"/><s n="GD"/></l><r>unu<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e><p><l>aquest<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>aquell<s n="det"/><s n="dem"/></l><r>cussu<s n="det"/><s n="dem"/></r></p></e>
 
     <e><p><l>altre<s n="det"/><s n="ind"/></l><r>àteru<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>ambdós<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/></r></p></e>
@@ -172,6 +180,7 @@
 
     <e><p><l>força<s n="n"/><s n="f"/></l><r>fortza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lloc<s n="n"/><s n="m"/></l><r>logu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
@@ -283,6 +292,7 @@
     <e><p><l>riu<s n="n"/><s n="m"/></l><r>riu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>organització<s n="n"/><s n="f"/></l><r>organizatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mort<s n="n"/><s n="f"/></l><r>morte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>cosa<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>edició<s n="n"/><s n="f"/></l><r>editzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>origen<s n="n"/><s n="m"/></l><r>origine<s n="n"/><s n="f"/></r></p></e>
@@ -443,6 +453,7 @@
     <e><p><l>aplicació<s n="n"/><s n="f"/></l><r>aplicatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>administració<s n="n"/><s n="f"/></l><r>amministratzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>àmbit<s n="n"/><s n="m"/></l><r>ambitu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>cotxe<s n="n"/><s n="m"/></l><r>vetura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>afirmació<s n="n"/><s n="f"/></l><r>afirmatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>habitació<s n="n"/><s n="f"/></l><r>abitatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>habilitat<s n="n"/><s n="f"/></l><r>abilidade<s n="n"/><s n="f"/></r></p></e>
@@ -767,6 +778,7 @@
     <!-- SECTION:  Adverbs -->
 
     <e><p><l>com<s n="adv"/><s n="itg"/></l><r>comente<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>quan<s n="adv"/><s n="itg"/></l><r>cando<s n="adv"/><s n="itg"/></r></p></e>
 
     <e><p><l>com<s n="adv"/></l><r>comente<s n="adv"/></r></p></e>
 
@@ -776,6 +788,8 @@
     <e><p><l>aquí<s n="adv"/></l><r>inoghe<s n="adv"/></r></p></e>
     <e><p><l>mateix<s n="adv"/></l><r>matessi<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>ara<s n="adv"/></l><r>tando<s n="adv"/></r></p></e>
+    <e><p><l>ja<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 
     <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
     <!--<e><p><l>a<b/>la<b/>vesprada<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>-->
@@ -868,6 +882,9 @@
     <e><p><l>canviar<s n="vblex"/></l><r>cambiare<s n="vblex"/></r></p></e>
     <e><p><l>buscar<s n="vblex"/></l><r>buscare<s n="vblex"/></r></p></e>
     <e><p><l>aprendre<s n="vblex"/></l><r>imparare<s n="vblex"/></r></p></e>
+    <e><p><l>pensar<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
+    <e><p><l>reparar<s n="vblex"/></l><r>acontzare<s n="vblex"/></r></p></e>
+    <e><p><l>referir<s n="vblex"/></l><r>refèrrere<s n="vblex"/></r></p></e>
 
     <!-- SECTION:  Abbreviations -->
 
