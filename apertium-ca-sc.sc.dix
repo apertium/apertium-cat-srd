@@ -1540,6 +1540,8 @@
     <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
+    <e lm="pregonta"><i>pregonta</i><par n="mesa__n"/></e>
+    <e lm="pregonta" r="LR"><p><l>pregunta</l><r>pregonta</r></p><par n="mesa__n"/></e>
     <e lm="bentre"><i>bentre</i><par n="mesa__n"/></e>
     <e lm="cosa"><i>cosa</i><par n="mesa__n"/></e>
     <e lm="vetura"><i>vetura</i><par n="mesa__n"/></e>
@@ -1576,6 +1578,8 @@
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
     <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
     <e lm="presentzia"><i>presentzia</i><par n="mesa__n"/></e>
+    <e lm="currespundèntzia"><i>currespundèntzia</i><par n="mesa__n"/></e>
+    <e lm="avertèntzia"><i>avertèntzia</i><par n="mesa__n"/></e>
     <e lm="sercunstàntzia"><i>sercunstàntzia</i><par n="mesa__n"/></e>
     <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
     <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
@@ -1585,6 +1589,35 @@
     <e lm="composizione"><i>composizione</i><par n="mesa__n"/></e>
     <e lm="iscola"><i>iscola</i><par n="mesa__n"/></e>
     <e lm="iscola" r="LR"><p><l>scola</l><r>iscola</r></p><par n="mesa__n"/></e>
+
+    <e lm="esistèntzia"><i>esistèntzia</i><par n="mesa__n"/></e>
+
+    <e lm="iscièntzia"><i>iscièntzia</i><par n="mesa__n"/></e>
+    <e lm="iscientzia" r="LR"><p><l>iscentzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+    <e lm="iscientzia" r="LR"><p><l>iscientzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+    <e lm="iscientzia" r="LR"><p><l>sièntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+    <e lm="iscientzia" r="LR"><p><l>iscèntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+    <e lm="iscientzia" r="LR"><p><l>scèntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+
+    <e lm="diferèntzia"><i>diferèntzia</i><par n="mesa__n"/></e>
+    <e lm="diferèntzia" r="LR"><p><l>diferentzia</l><r>diferèntzia</r></p><par n="mesa__n"/></e>
+    <e lm="diferèntzia" r="LR"><p><l>differentzia</l><r>diferèntzia</r></p><par n="mesa__n"/></e>
+
+    <e lm="sapientzia"><i>sapientzia</i><par n="mesa__n"/></e>
+    <e lm="penitentzia"><i>penitentzia</i><par n="mesa__n"/></e>
+    <e lm="disubidièntzia"><i>disubidièntzia</i><par n="mesa__n"/></e>
+    <e lm="cunsighèntzia"><i>cunsighèntzia</i><par n="mesa__n"/></e>
+    <e lm="sequentzia"><i>sequentzia</i><par n="mesa__n"/></e>
+    <e lm="reverèntzia"><i>reverèntzia</i><par n="mesa__n"/></e>
+    <e lm="referèntzia"><i>referèntzia</i><par n="mesa__n"/></e>
+    <e lm="onorificentzia"><i>onorificentzia</i><par n="mesa__n"/></e>
+    <e lm="obbedientzia"><i>obbedientzia</i><par n="mesa__n"/></e>
+    <e lm="influentzia"><i>influentzia</i><par n="mesa__n"/></e>
+    <e lm="frequentzia"><i>frequentzia</i><par n="mesa__n"/></e>
+    <e lm="esperientzia"><i>esperientzia</i><par n="mesa__n"/></e>
+    <e lm="connoschèntzia"><i>connoschèntzia</i><par n="mesa__n"/></e>
+    <e lm="amighèntzia"><i>amighèntzia</i><par n="mesa__n"/></e>
+ 
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -1773,6 +1806,7 @@
     <e lm="lega"><i>lega</i><par n="mesa__n"/></e>
     <e lm="manera"><i>manera</i><par n="mesa__n"/></e>
     <e lm="filosofia"><i>filosofia</i><par n="mesa__n"/></e>
+    <e lm="ortografia"><i>ortografia</i><par n="mesa__n"/></e>
     <e lm="gherra"><i>gherra</i><par n="mesa__n"/></e>
     <e lm="mùsica"><i>mùsica</i><par n="mesa__n"/></e>
     <e lm="mùsica" r="LR"><p><l>musica</l><r>mùsica</r></p><par n="mesa__n"/></e>
@@ -1793,8 +1827,6 @@
     <e lm="esperièntzia"><i>esperièntzia</i><par n="mesa__n"/></e>
     <e lm="democratzia"><i>democratzia</i><par n="mesa__n"/></e>
     <e lm="fortza"><i>fortza</i><par n="mesa__n"/></e>
-    <e lm="iscientzia"><i>iscientzia</i><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>iscentzia</l><r>iscientzia</r></p><par n="mesa__n"/></e>
     <e lm="violèntzia"><i>violèntzia</i><par n="mesa__n"/></e>
     <e lm="règula"><i>règula</i><par n="mesa__n"/></e>
     <e lm="carriera"><i>carriera</i><par n="mesa__n"/></e>
@@ -1950,6 +1982,7 @@
     <e lm="grupu"><i>grup</i><par n="mac/u__n"/></e>
     <e lm="grupu" r="LR"><p><l>grupp</l><r>grup</r></p><par n="mac/u__n"/></e>
     <e lm="premiu"><i>premi</i><par n="mac/u__n"/></e>
+    <e lm="ispàtziu"><i>ispàtzi</i><par n="mac/u__n"/></e>
     <e lm="territoriu"><i>territori</i><par n="mac/u__n"/></e>
     <e lm="cabu"><i>cab</i><par n="mac/u__n"/></e>
     <e lm="viaggiu"><i>viaggi</i><par n="mac/u__n"/></e>
@@ -1969,6 +2002,7 @@
     <e lm="telèfonu"><i>telèfon</i><par n="mac/u__n"/></e>
     <e lm="frigorìferu"><i>frigorìfer</i><par n="mac/u__n"/></e>
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
+    <e lm="cussìgiu"><i>cussìgi</i><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
@@ -2544,7 +2578,8 @@
     <e lm="compilare"><i>compil</i><par n="cant/are__vblex"/></e>
     <e lm="usare"><i>us</i><par n="cant/are__vblex"/></e>
     <e lm="perfezionare"><i>perfezion</i><par n="cant/are__vblex"/></e>
-    <e lm="trabagliare"><i>trabagli</i><par n="cant/are__vblex"/></e>
+    <e lm="traballare"><i>traball</i><par n="cant/are__vblex"/></e>
+    <e lm="traballare" r="LR"><p><l>trabagli</l><r>traball</r></p><par n="cant/are__vblex"/></e>
     <e lm="comintzare"><i>comintz</i><par n="cant/are__vblex"/></e>
     <e lm="comintzare" r="LR"><p><l>cominz</l><r>comintz</r></p><par n="cant/are__vblex"/></e>
     <e lm="partetzipare"><i>partetzip</i><par n="cant/are__vblex"/></e>
@@ -2653,6 +2688,10 @@
     <e lm="pensare"><i>pens</i><par n="cant/are__vblex"/></e>
     <e lm="cramare"><i>cram</i><par n="cant/are__vblex"/></e>
     <e lm="cramare" r="LR"><p><l>jam</l><r>cram</r></p><par n="cant/are__vblex"/></e>
+    <e lm="pregontare"><i>pregont</i><par n="cant/are__vblex"/></e>
+    <e lm="pregontare" r="LR"><p><l>pregunt</l><r>pregont</r></p><par n="cant/are__vblex"/></e>
+    <e lm="dimandare"><i>dimand</i><par n="cant/are__vblex"/></e>
+    <e lm="megiorare"><i>megior</i><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>

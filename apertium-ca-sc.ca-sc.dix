@@ -256,6 +256,7 @@
     <e><p><l>sistema<s n="n"/><s n="m"/></l><r>sistema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moviment<s n="n"/><s n="m"/></l><r>movimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guerra<s n="n"/><s n="f"/></l><r>gherra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ortografia<s n="n"/><s n="f"/></l><r>ortografia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>film<s n="n"/><s n="m"/></l><r>film<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>universitat<s n="n"/><s n="f"/></l><r>universidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unitat<s n="n"/><s n="f"/></l><r>unidade<s n="n"/><s n="f"/></r></p></e>
@@ -265,6 +266,7 @@
     <e><p><l>regió<s n="n"/><s n="f"/></l><r>regione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unió<s n="n"/><s n="f"/></l><r>unione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>estudi<s n="n"/><s n="m"/></l><r>istudiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>consell<s n="n"/><s n="m"/></l><r>cussìgiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>capital<s n="n"/><s n="f"/></l><r>capitale<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paraula<s n="n"/><s n="f"/></l><r>paraula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>manera<s n="n"/><s n="f"/></l><r>manera<s n="n"/><s n="f"/></r></p></e>
@@ -295,6 +297,7 @@
     <e><p><l>camp<s n="n"/><s n="m"/></l><r>campu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>humanitat<s n="n"/><s n="f"/></l><r>umanidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>riu<s n="n"/><s n="m"/></l><r>riu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>espai<s n="n"/><s n="m"/></l><r>ispàtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>organització<s n="n"/><s n="f"/></l><r>organizatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mort<s n="n"/><s n="f"/></l><r>morte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cosa<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
@@ -330,6 +333,7 @@
     <e><p><l>ordinador<s n="n"/><s n="m"/></l><r>carculadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biblioteca<s n="n"/><s n="f"/></l><r>biblioteca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>violència<s n="n"/><s n="f"/></l><r>violèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>advertència<s n="n"/><s n="f"/></l><r>avertèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>societat<s n="n"/><s n="f"/></l><r>sotziedade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>relació<s n="n"/><s n="f"/></l><r>relatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>programa<s n="n"/><s n="m"/></l><r>programa<s n="n"/><s n="m"/></r></p></e>
@@ -466,6 +470,7 @@
     <e><p><l>densitat<s n="n"/><s n="f"/></l><r>densidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>escola<s n="n"/><s n="f"/></l><r>iscola<s n="n"/><s n="f"/></r></p></e>
 
+    <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>pregonta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dia<s n="n"/><s n="m"/></l><r>die<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>àrea<s n="n"/><s n="f"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>centre<s n="n"/><s n="m"/></l><r>centru<s n="n"/><s n="m"/></r></p></e>
@@ -846,7 +851,7 @@
     <e><p><l>passar<s n="vblex"/></l><r>passare<s n="vblex"/></r></p></e>
     <e><p><l>realitzar<s n="vblex"/></l><r>realizare<s n="vblex"/></r></p></e>
     <e><p><l>continuar<s n="vblex"/></l><r>continuare<s n="vblex"/></r></p></e>
-    <e><p><l>treballar<s n="vblex"/></l><r>trabagliare<s n="vblex"/></r></p></e>
+    <e><p><l>treballar<s n="vblex"/></l><r>traballare<s n="vblex"/></r></p></e>
     <e><p><l>començar<s n="vblex"/></l><r>comintzare<s n="vblex"/></r></p></e>
     <e><p><l>estudiar<s n="vblex"/></l><r>istudiare<s n="vblex"/></r></p></e>
     <e><p><l>anar<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
@@ -898,6 +903,10 @@
     <e><p><l>adherir<s n="vblex"/></l><r>aderire<s n="vblex"/></r></p></e>
     <e><p><l>dispersar<s n="vblex"/></l><r>ispèrdere<s n="vblex"/></r></p></e>
     <e><p><l>imposar<s n="vblex"/></l><r>impònnere<s n="vblex"/></r></p></e>
+    <e><p><l>demanar<s n="vblex"/></l><r>pregontare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>demanar<s n="vblex"/></l><r>dimandare<s n="vblex"/></r></p></e>
+    <e><p><l>convenir<s n="vblex"/></l><r>cumbènnere<s n="vblex"/></r></p></e>
+    <e><p><l>millorar<s n="vblex"/></l><r>megiorare<s n="vblex"/></r></p></e>
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>cramare<s n="vblex"/></r></p></e>
 
