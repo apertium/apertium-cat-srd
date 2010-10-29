@@ -5,6 +5,7 @@
    <cat-item tags="det.*"/>
 </def-cat>
 <def-cat n="nom">
+   <cat-item tags="abbr"/>
    <cat-item tags="n.*"/>
    <cat-item tags="np.*"/>
 </def-cat>
@@ -59,6 +60,8 @@
 </def-attr>
 <def-attr n="a_nom">
    <attr-item tags="n"/>
+   <attr-item tags="abbr"/>
+   <attr-item tags="n.acr"/>
    <attr-item tags="np.ant"/>
    <attr-item tags="np.top"/>
    <attr-item tags="np.cog"/>

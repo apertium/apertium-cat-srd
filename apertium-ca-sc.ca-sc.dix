@@ -5,6 +5,7 @@
     <sdef n="det"     c="Determiner"/>
     <sdef n="predet"  c="Pre-determiner"/>
     <sdef n="vblex"   c="Verb"/>
+    <sdef n="abbr"    c="Abbreviation"/>
     <sdef n="vbmod"   c="Modal verb"/>
     <sdef n="vbhaver" c="Verb 'to have'"/>
     <sdef n="vbser"   c="Verb 'to be'"/>
@@ -35,6 +36,7 @@
     <sdef n="al"      c="Altres"/>
     <sdef n="ant"     c="Antroponym"/>
     <sdef n="cog"     c="Cognomen"/>
+    <sdef n="acr"     c="Acronym"/>
 
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
@@ -93,6 +95,7 @@
     <e><p><l>que<s n="cnjsub"/></l><r>chi<s n="cnjsub"/></r></p></e>
     <e><p><l>perquè<s n="cnjadv"/></l><r>ca<s n="cnjsub"/></r></p></e>
     <e><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<s n="cnjsub"/></r></p></e>
+    <e><p><l>si<s n="cnjadv"/></l><r>si<s n="cnjsub"/></r></p></e>
 
     <!-- SECTION:  Prepositions -->
 
@@ -115,11 +118,15 @@
     <!-- SECTION:  Determiners -->
 
     <e><p><l>em<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>ens<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
+
+    <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -756,15 +763,33 @@
 
     <e><p><l>com<s n="adv"/><s n="itg"/></l><r>comente<s n="adv"/><s n="itg"/></r></p></e>
 
+    <e><p><l>com<s n="adv"/></l><r>comente<s n="adv"/></r></p></e>
+
     <e><p><l>millor<s n="adv"/></l><r>mègius<s n="adv"/></r></p></e>
     <e><p><l>més<s n="adv"/></l><r>prus<s n="adv"/></r></p></e>
     <e><p><l>avui<s n="adv"/></l><r>oe<s n="adv"/></r></p></e>
-    <e><p><l>com<s n="adv"/></l><r>comente<s n="adv"/></r></p></e>
+    <e><p><l>aquí<s n="adv"/></l><r>inoghe<s n="adv"/></r></p></e>
 
     <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
     <!--<e><p><l>a<b/>la<b/>vesprada<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>-->
 
+    <e><p><l>actualment<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
+    <e><p><l>altament<s n="adv"/></l><r>altamente<s n="adv"/></r></p></e>
+    <e><p><l>econòmicament<s n="adv"/></l><r>economicamente<s n="adv"/></r></p></e>
+    <e><p><l>erròniament<s n="adv"/></l><r>erroneamente<s n="adv"/></r></p></e>
+    <e><p><l>exclusivament<s n="adv"/></l><r>esclusivamente<s n="adv"/></r></p></e>
+    <e><p><l>formalment<s n="adv"/></l><r>formalmente<s n="adv"/></r></p></e>
+    <e><p><l>generalment<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
+    <e><p><l>immediatament<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
+    <e><p><l>momentàniament<s n="adv"/></l><r>momentaneamente<s n="adv"/></r></p></e>
+    <e><p><l>màximament<s n="adv"/></l><r>massimamente<s n="adv"/></r></p></e>
+    <e><p><l>naturalment<s n="adv"/></l><r>naturalmente<s n="adv"/></r></p></e>
+    <e><p><l>principalment<s n="adv"/></l><r>notadamente<s n="adv"/></r></p></e>
     <e><p><l>principalment<s n="adv"/></l><r>printzipalmente<s n="adv"/></r></p></e>
+    <e><p><l>solament<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
+    <e><p><l>successivament<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
+    <e><p><l>últimament<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
+
 
     <!-- SECTION:  Verbs -->
 
@@ -776,6 +801,9 @@
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
+    <e><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
+    <e><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
+    <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
     <e><p><l>viure<s n="vblex"/></l><r>bivire<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
@@ -792,7 +820,7 @@
     <e><p><l>anar<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
     <e><p><l>parlar<s n="vblex"/></l><r>faeddare<s n="vblex"/></r></p></e>
 
-    <e><p><l>venir<s n="vblex"/></l><r>benire<s n="vblex"/></r></p></e>
+    <e><p><l>venir<s n="vblex"/></l><r>bènnere<s n="vblex"/></r></p></e>
     <e><p><l>tenir<s n="vblex"/></l><r>tènnere<s n="vblex"/></r></p></e>
     <e><p><l>posar<s n="vblex"/></l><r>pònnere<s n="vblex"/></r></p></e>
     <e><p><l>publicar<s n="vblex"/></l><r>publicare<s n="vblex"/></r></p></e>
@@ -801,7 +829,7 @@
     <e><p><l>presentar<s n="vblex"/></l><r>presentare<s n="vblex"/></r></p></e>
     <e><p><l>usar<s n="vblex"/></l><r>usare<s n="vblex"/></r></p></e>
     <e><p><l>transferir<s n="vblex"/></l><r>trasferire<s n="vblex"/></r></p></e>
-    <e><p><l>escriure<s n="vblex"/></l><r>iscriere<s n="vblex"/></r></p></e>
+    <e><p><l>escriure<s n="vblex"/></l><r>iscrìere<s n="vblex"/></r></p></e>
     <e><p><l>participar<s n="vblex"/></l><r>partecipare<s n="vblex"/></r></p></e>
     <e><p><l>nominar<s n="vblex"/></l><r>nominare<s n="vblex"/></r></p></e>
     <e><p><l>menjar<s n="vblex"/></l><r>mandigare<s n="vblex"/></r></p></e>
@@ -831,614 +859,18 @@
     <e><p><l>compilar<s n="vblex"/></l><r>compilare<s n="vblex"/></r></p></e>
     <e><p><l>canviar<s n="vblex"/></l><r>cambiare<s n="vblex"/></r></p></e>
     <e><p><l>buscar<s n="vblex"/></l><r>buscare<s n="vblex"/></r></p></e>
+    <e><p><l>aprendre<s n="vblex"/></l><r>imparare<s n="vblex"/></r></p></e>
 
+    <!-- SECTION:  Abbreviations -->
 
-    <!-- SECTION: Punctuation -->
+    <e><p><l>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSC<s n="abbr"/></r></p></e>
+
+    <!-- SECTION:  Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
 
-  </section>
-  <section id="check" type="standard">
-
-    <e><p><l>abominablement<s n="adv"/></l><r>abbominabilmente<s n="adv"/></r></p></e>
-    <e><p><l>abundantment<s n="adv"/></l><r>abbundantemente<s n="adv"/></r></p></e>
-    <e><p><l>obertament<s n="adv"/></l><r>abertamente<s n="adv"/></r></p></e>
-    <e><p><l>hàbilment<s n="adv"/></l><r>abilmente<s n="adv"/></r></p></e>
-    <e><p><l>habitualment<s n="adv"/></l><r>abitualmente<s n="adv"/></r></p></e>
-    <e><p><l>abusivament<s n="adv"/></l><r>abusivamente<s n="adv"/></r></p></e>
-    <e><p><l>acadèmicament<s n="adv"/></l><r>accademicamente<s n="adv"/></r></p></e>
-    <e><p><l>secundàriament<s n="adv"/></l><r>accessoriamente<s n="adv"/></r></p></e>
-    <e><p><l>encertadament<s n="adv"/></l><r>accertadamente<s n="adv"/></r></p></e>
-    <e><p><l>afablement<s n="adv"/></l><r>affabilmente<s n="adv"/></r></p></e>
-    <e><p><l>afectuosament<s n="adv"/></l><r>affettuosamente<s n="adv"/></r></p></e>
-    <e><p><l>afirmativament<s n="adv"/></l><r>affirmativamente<s n="adv"/></r></p></e>
-    <e><p><l>agradablement<s n="adv"/></l><r>aggradabilmente<s n="adv"/></r></p></e>
-    <e><p><l>alfabèticament<s n="adv"/></l><r>alfabeticamente<s n="adv"/></r></p></e>
-    <e><p><l>feblement<s n="adv"/></l><r>allacanadamente<s n="adv"/></r></p></e>
-    <e><p><l>alegrement<s n="adv"/></l><r>allirgamente<s n="adv"/></r></p></e>
-    <e><p><l>altament<s n="adv"/></l><r>altamente<s n="adv"/></r></p></e>
-    <e><p><l>alternativament<s n="adv"/></l><r>alternativamente<s n="adv"/></r></p></e>
-    <e><p><l>amablement<s n="adv"/></l><r>amabilmente<s n="adv"/></r></p></e>
-    <e><p><l>amargament<s n="adv"/></l><r>amargamente<s n="adv"/></r></p></e>
-    <e><p><l>ambiciosament<s n="adv"/></l><r>ambiziosamente<s n="adv"/></r></p></e>
-    <e><p><l>admirablement<s n="adv"/></l><r>ammirabilmente<s n="adv"/></r></p></e>
-    <e><p><l>amorosament<s n="adv"/></l><r>amorosamente<s n="adv"/></r></p></e>
-    <e><p><l>àmpliament<s n="adv"/></l><r>amplamente<s n="adv"/></r></p></e>
-    <e><p><l>analògicament<s n="adv"/></l><r>analogicamente<s n="adv"/></r></p></e>
-    <e><p><l>anualment<s n="adv"/></l><r>annualmente<s n="adv"/></r></p></e>
-    <e><p><l>ansiosament<s n="adv"/></l><r>ansiosamente<s n="adv"/></r></p></e>
-    <e><p><l>anteriorment<s n="adv"/></l><r>anteriormente<s n="adv"/></r></p></e>
-    <e><p><l>amb antelació<s n="adv"/></l><r>anticipadamente<s n="adv"/></r></p></e>
-    <e><p><l>antigament<s n="adv"/></l><r>antigamente<s n="adv"/></r></p></e>
-    <e><p><l>obertament<s n="adv"/></l><r>apertamente<s n="adv"/></r></p></e>
-    <e><p><l>aparentment<s n="adv"/></l><r>apparentemente<s n="adv"/></r></p></e>
-    <e><p><l>apassionadament<s n="adv"/></l><r>appassionadamente<s n="adv"/></r></p></e>
-    <e><p><l>apropiadament<s n="adv"/></l><r>appropriadamente<s n="adv"/></r></p></e>
-    <e><p><l>precipitadament<s n="adv"/></l><r>apresuradamente<s n="adv"/></r></p></e>
-    <e><p><l>ardentment<s n="adv"/></l><r>ardentemente<s n="adv"/></r></p></e>
-    <e><p><l>harmoniosament<s n="adv"/></l><r>armoniosamente<s n="adv"/></r></p></e>
-    <e><p><l>arrogantment<s n="adv"/></l><r>arrogantemente<s n="adv"/></r></p></e>
-    <e><p><l>artificialment<s n="adv"/></l><r>artifizialmente<s n="adv"/></r></p></e>
-    <e><p><l>assíduament<s n="adv"/></l><r>assiduamente<s n="adv"/></r></p></e>
-    <e><p><l>absolutament<s n="adv"/></l><r>assolutamente<s n="adv"/></r></p></e>
-    <e><p><l>abstractament<s n="adv"/></l><r>astrattamente<s n="adv"/></r></p></e>
-    <e><p><l>astutament<s n="adv"/></l><r>astutamente<s n="adv"/></r></p></e>
-    <e><p><l>àvidament<s n="adv"/></l><r>asuridamente<s n="adv"/></r></p></e>
-    <e><p><l>atentament<s n="adv"/></l><r>attentamente<s n="adv"/></r></p></e>
-    <e><p><l>activament<s n="adv"/></l><r>attivamente<s n="adv"/></r></p></e>
-    <e><p><l>actualment<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
-    <e><p><l>austerament<s n="adv"/></l><r>austeramente<s n="adv"/></r></p></e>
-    <e><p><l>autènticament<s n="adv"/></l><r>autenticamente<s n="adv"/></r></p></e>
-    <e><p><l>gasivament<s n="adv"/></l><r>avaramente<s n="adv"/></r></p></e>
-    <e><p><l>bàrbarament<s n="adv"/></l><r>barbaramente<s n="adv"/></r></p></e>
-    <e><p><l>benignament<s n="adv"/></l><r>benignamente<s n="adv"/></r></p></e>
-    <e><p><l>necessàriament<s n="adv"/></l><r>bisongiasamente<s n="adv"/></r></p></e>
-    <e><p><l>bravament<s n="adv"/></l><r>bravamente<s n="adv"/></r></p></e>
-    <e><p><l>breument<s n="adv"/></l><r>brevemente<s n="adv"/></r></p></e>
-    <e><p><l>bruscament<s n="adv"/></l><r>bruscamente<s n="adv"/></r></p></e>
-    <e><p><l>brutalment<s n="adv"/></l><r>brutalmente<s n="adv"/></r></p></e>
-    <e><p><l>canònicament<s n="adv"/></l><r>canonicamente<s n="adv"/></r></p></e>
-    <e><p><l>capritxosament<s n="adv"/></l><r>capricciosamente<s n="adv"/></r></p></e>
-    <e><p><l>caritativament<s n="adv"/></l><r>caritativamente<s n="adv"/></r></p></e>
-    <e><p><l>carnalment<s n="adv"/></l><r>carnalmente<s n="adv"/></r></p></e>
-    <e><p><l>castament<s n="adv"/></l><r>castamente<s n="adv"/></r></p></e>
-    <e><p><l>casualment<s n="adv"/></l><r>casualmente<s n="adv"/></r></p></e>
-    <e><p><l>categòricament<s n="adv"/></l><r>categoricamente<s n="adv"/></r></p></e>
-    <e><p><l>catòlicament<s n="adv"/></l><r>cattolicamente<s n="adv"/></r></p></e>
-    <e><p><l>certament<s n="adv"/></l><r>certamente<s n="adv"/></r></p></e>
-    <e><p><l>quietament<s n="adv"/></l><r>chetamente<s n="adv"/></r></p></e>
-    <e><p><l>químicament<s n="adv"/></l><r>chimicamente<s n="adv"/></r></p></e>
-    <e><p><l>cerimoniosament<s n="adv"/></l><r>cirimoniosamente<s n="adv"/></r></p></e>
-    <e><p><l>civilment<s n="adv"/></l><r>civilmente<s n="adv"/></r></p></e>
-    <e><p><l>clandestinament<s n="adv"/></l><r>clandestinamente<s n="adv"/></r></p></e>
-    <e><p><l>clarament<s n="adv"/></l><r>claramente<s n="adv"/></r></p></e>
-    <e><p><l>clementment<s n="adv"/></l><r>clementemente<s n="adv"/></r></p></e>
-    <e><p><l>clericalment<s n="adv"/></l><r>clericalmente<s n="adv"/></r></p></e>
-    <e><p><l>coherentment<s n="adv"/></l><r>coerentemente<s n="adv"/></r></p></e>
-    <e><p><l>col·lectivament<s n="adv"/></l><r>collettivamente<s n="adv"/></r></p></e>
-    <e><p><l>còmicament<s n="adv"/></l><r>comicamente<s n="adv"/></r></p></e>
-    <e><p><l>comparativament<s n="adv"/></l><r>comparativamente<s n="adv"/></r></p></e>
-    <e><p><l>competentment<s n="adv"/></l><r>competentemente<s n="adv"/></r></p></e>
-    <e><p><l>finalment<s n="adv"/></l><r>conclusivamente<s n="adv"/></r></p></e>
-    <e><p><l>condicionalment<s n="adv"/></l><r>condizionalmente<s n="adv"/></r></p></e>
-    <e><p><l>confusament<s n="adv"/></l><r>confusamente<s n="adv"/></r></p></e>
-    <e><p><l>cònicament<s n="adv"/></l><r>conicamente<s n="adv"/></r></p></e>
-    <e><p><l>consecutivament<s n="adv"/></l><r>consecutivamente<s n="adv"/></r></p></e>
-    <e><p><l>conseqüentment<s n="adv"/></l><r>conseguentemente<s n="adv"/></r></p></e>
-    <e><p><l>considerablement<s n="adv"/></l><r>considerabilmente<s n="adv"/></r></p></e>
-    <e><p><l>constantment<s n="adv"/></l><r>constantemente<s n="adv"/></r></p></e>
-    <e><p><l>contínuament<s n="adv"/></l><r>continuamente<s n="adv"/></r></p></e>
-    <e><p><l>contràriament<s n="adv"/></l><r>contrariamente<s n="adv"/></r></p></e>
-    <e><p><l>convenientment<s n="adv"/></l><r>convenientemente<s n="adv"/></r></p></e>
-    <e><p><l>convincentment<s n="adv"/></l><r>convincentemente<s n="adv"/></r></p></e>
-    <e><p><l>copiosament<s n="adv"/></l><r>copiosamente<s n="adv"/></r></p></e>
-    <e><p><l>cordialment<s n="adv"/></l><r>cordialmente<s n="adv"/></r></p></e>
-    <e><p><l>corporalment<s n="adv"/></l><r>corporalmente<s n="adv"/></r></p></e>
-    <e><p><l>correctament<s n="adv"/></l><r>correttamente<s n="adv"/></r></p></e>
-    <e><p><l>quotidianament<s n="adv"/></l><r>cotidianamente<s n="adv"/></r></p></e>
-    <e><p><l>críticament<s n="adv"/></l><r>criticamente<s n="adv"/></r></p></e>
-    <e><p><l>concordement<s n="adv"/></l><r>cunformemente<s n="adv"/></r></p></e>
-    <e><p><l>cruelment<s n="adv"/></l><r>curedelmente<s n="adv"/></r></p></e>
-    <e><p><l>curiosament<s n="adv"/></l><r>curiosamente<s n="adv"/></r></p></e>
-    <e><p><l>feblement<s n="adv"/></l><r>debilmente<s n="adv"/></r></p></e>
-    <e><p><l>decentment<s n="adv"/></l><r>decentemente<s n="adv"/></r></p></e>
-    <e><p><l>decisivament<s n="adv"/></l><r>decisivamente<s n="adv"/></r></p></e>
-    <e><p><l>defectuosament<s n="adv"/></l><r>defettosamente<s n="adv"/></r></p></e>
-    <e><p><l>deliberadament<s n="adv"/></l><r>deliberadamente<s n="adv"/></r></p></e>
-    <e><p><l>deliciosament<s n="adv"/></l><r>deliziosamente<s n="adv"/></r></p></e>
-    <e><p><l>democràticament<s n="adv"/></l><r>democraticamente<s n="adv"/></r></p></e>
-    <e><p><l>depenentment<s n="adv"/></l><r>dependentemente<s n="adv"/></r></p></e>
-    <e><p><l>deplorablement<s n="adv"/></l><r>deplorabilmente<s n="adv"/></r></p></e>
-    <e><p><l>directament<s n="adv"/></l><r>derettamente<s n="adv"/></r></p></e>
-    <e><p><l>desgraciadament<s n="adv"/></l><r>desdiciadamente<s n="adv"/></r></p></e>
-    <e><p><l>detestablement<s n="adv"/></l><r>detestabilmente<s n="adv"/></r></p></e>
-    <e><p><l>detalladament<s n="adv"/></l><r>dettagliadamente<s n="adv"/></r></p></e>
-    <e><p><l>diagonalment<s n="adv"/></l><r>diagonalmente<s n="adv"/></r></p></e>
-    <e><p><l>dialècticament<s n="adv"/></l><r>dialetticamente<s n="adv"/></r></p></e>
-    <e><p><l>diametralment<s n="adv"/></l><r>diametralmente<s n="adv"/></r></p></e>
-    <e><p><l>diferentment<s n="adv"/></l><r>differentemente<s n="adv"/></r></p></e>
-    <e><p><l>difícilment<s n="adv"/></l><r>difficilmente<s n="adv"/></r></p></e>
-    <e><p><l>difusament<s n="adv"/></l><r>diffusamente<s n="adv"/></r></p></e>
-    <e><p><l>dignament<s n="adv"/></l><r>dignamente<s n="adv"/></r></p></e>
-    <e><p><l>delicadament<s n="adv"/></l><r>dilicadamente<s n="adv"/></r></p></e>
-    <e><p><l>diligentment<s n="adv"/></l><r>diligentemente<s n="adv"/></r></p></e>
-    <e><p><l>directament<s n="adv"/></l><r>direttamente<s n="adv"/></r></p></e>
-    <e><p><l>desagradablement<s n="adv"/></l><r>disaggradabilmente<s n="adv"/></r></p></e>
-    <e><p><l>discretament<s n="adv"/></l><r>discretamente<s n="adv"/></r></p></e>
-    <e><p><l>desgraciadament<s n="adv"/></l><r>disgraziadamente<s n="adv"/></r></p></e>
-    <e><p><l>desitjosament<s n="adv"/></l><r>disigiosamente<s n="adv"/></r></p></e>
-    <e><p><l>desinteressadament<s n="adv"/></l><r>disinteressadamente<s n="adv"/></r></p></e>
-    <e><p><l>desesperadament<s n="adv"/></l><r>disisperadamente<s n="adv"/></r></p></e>
-    <e><p><l>desordenadament<s n="adv"/></l><r>disordinadamente<s n="adv"/></r></p></e>
-    <e><p><l>distintament<s n="adv"/></l><r>distintamente<s n="adv"/></r></p></e>
-    <e><p><l>desigualment<s n="adv"/></l><r>disugualmente<s n="adv"/></r></p></e>
-    <e><p><l>diversament<s n="adv"/></l><r>diversamente<s n="adv"/></r></p></e>
-    <e><p><l>divinament<s n="adv"/></l><r>divinamente<s n="adv"/></r></p></e>
-    <e><p><l>dòcilment<s n="adv"/></l><r>docilmente<s n="adv"/></r></p></e>
-    <e><p><l>dogmàticament<s n="adv"/></l><r>dogmaticamente<s n="adv"/></r></p></e>
-    <e><p><l>dolorosament<s n="adv"/></l><r>dolorosamente<s n="adv"/></r></p></e>
-    <e><p><l>dolosament<s n="adv"/></l><r>dolosamente<s n="adv"/></r></p></e>
-    <e><p><l>domèsticament<s n="adv"/></l><r>domesticamente<s n="adv"/></r></p></e>
-    <e><p><l>doblement<s n="adv"/></l><r>doppiamente<s n="adv"/></r></p></e>
-    <e><p><l>doctament<s n="adv"/></l><r>dottamente<s n="adv"/></r></p></e>
-    <e><p><l>dubtosament<s n="adv"/></l><r>dudosamente<s n="adv"/></r></p></e>
-    <e><p><l>dolçament<s n="adv"/></l><r>dulcemente<s n="adv"/></r></p></e>
-    <e><p><l>durament<s n="adv"/></l><r>duramente<s n="adv"/></r></p></e>
-    <e><p><l>excel·lentment<s n="adv"/></l><r>eccellentemente<s n="adv"/></r></p></e>
-    <e><p><l>excèntricament<s n="adv"/></l><r>eccentricamente<s n="adv"/></r></p></e>
-    <e><p><l>excessivament<s n="adv"/></l><r>eccessivamente<s n="adv"/></r></p></e>
-    <e><p><l>eclesiàsticament<s n="adv"/></l><r>ecciesiasticamente<s n="adv"/></r></p></e>
-    <e><p><l>econòmicament<s n="adv"/></l><r>economicamente<s n="adv"/></r></p></e>
-    <e><p><l>efectivament<s n="adv"/></l><r>effettivamente<s n="adv"/></r></p></e>
-    <e><p><l>eficaçment<s n="adv"/></l><r>efficacemente<s n="adv"/></r></p></e>
-    <e><p><l>elegantment<s n="adv"/></l><r>elegantemente<s n="adv"/></r></p></e>
-    <e><p><l>elèctricament<s n="adv"/></l><r>elettricamente<s n="adv"/></r></p></e>
-    <e><p><l>eloqüentment<s n="adv"/></l><r>eloquentemente<s n="adv"/></r></p></e>
-    <e><p><l>enèrgicament<s n="adv"/></l><r>energicamente<s n="adv"/></r></p></e>
-    <e><p><l>emfàticament<s n="adv"/></l><r>enfaticamente<s n="adv"/></r></p></e>
-    <e><p><l>enormement<s n="adv"/></l><r>enormemente<s n="adv"/></r></p></e>
-    <e><p><l>heroicament<s n="adv"/></l><r>eroicamente<s n="adv"/></r></p></e>
-    <e><p><l>erròniament<s n="adv"/></l><r>erroneamente<s n="adv"/></r></p></e>
-    <e><p><l>exactament<s n="adv"/></l><r>esattamente<s n="adv"/></r></p></e>
-    <e><p><l>exclusivament<s n="adv"/></l><r>esclusivamente<s n="adv"/></r></p></e>
-    <e><p><l>explícitament<s n="adv"/></l><r>esplicitamente<s n="adv"/></r></p></e>
-    <e><p><l>expressament<s n="adv"/></l><r>espressamente<s n="adv"/></r></p></e>
-    <e><p><l>expressivament<s n="adv"/></l><r>espressivamente<s n="adv"/></r></p></e>
-    <e><p><l>essencialment<s n="adv"/></l><r>essenzialmente<s n="adv"/></r></p></e>
-    <e><p><l>exteriorment<s n="adv"/></l><r>esteriormente<s n="adv"/></r></p></e>
-    <e><p><l>externament<s n="adv"/></l><r>esternamente<s n="adv"/></r></p></e>
-    <e><p><l>extrajudicialment<s n="adv"/></l><r>estragiudizialmente<s n="adv"/></r></p></e>
-    <e><p><l>extraordinàriament<s n="adv"/></l><r>estraordinariamente<s n="adv"/></r></p></e>
-    <e><p><l>extremadament<s n="adv"/></l><r>estremamente<s n="adv"/></r></p></e>
-    <e><p><l>eternament<s n="adv"/></l><r>eternalmente<s n="adv"/></r></p></e>
-    <e><p><l>èticament<s n="adv"/></l><r>eticamente<s n="adv"/></r></p></e>
-    <e><p><l>evangèlicament<s n="adv"/></l><r>evangelicamente<s n="adv"/></r></p></e>
-    <e><p><l>evidentment<s n="adv"/></l><r>evidentemente<s n="adv"/></r></p></e>
-    <e><p><l>fabulosament<s n="adv"/></l><r>fabulosamente<s n="adv"/></r></p></e>
-    <e><p><l>fàcilment<s n="adv"/></l><r>facilmente<s n="adv"/></r></p></e>
-    <e><p><l>falsament<s n="adv"/></l><r>falsamente<s n="adv"/></r></p></e>
-    <e><p><l>familiarment<s n="adv"/></l><r>familiarmente<s n="adv"/></r></p></e>
-    <e><p><l>famosament<s n="adv"/></l><r>famosamente<s n="adv"/></r></p></e>
-    <e><p><l>fantàsticament<s n="adv"/></l><r>fantasticamente<s n="adv"/></r></p></e>
-    <e><p><l>fatalment<s n="adv"/></l><r>fatalmente<s n="adv"/></r></p></e>
-    <e><p><l>favorablement<s n="adv"/></l><r>favorabilmente<s n="adv"/></r></p></e>
-    <e><p><l>fecundament<s n="adv"/></l><r>fecundamente<s n="adv"/></r></p></e>
-    <e><p><l>feliçment<s n="adv"/></l><r>felicemente<s n="adv"/></r></p></e>
-    <e><p><l>feroçment<s n="adv"/></l><r>ferocemente<s n="adv"/></r></p></e>
-    <e><p><l>ferventment<s n="adv"/></l><r>ferventemente<s n="adv"/></r></p></e>
-    <e><p><l>fidelment<s n="adv"/></l><r>fielmente<s n="adv"/></r></p></e>
-    <e><p><l>filialment<s n="adv"/></l><r>filialmente<s n="adv"/></r></p></e>
-    <e><p><l>filosòficament<s n="adv"/></l><r>filosoficamente<s n="adv"/></r></p></e>
-    <e><p><l>finalment<s n="adv"/></l><r>finalmente<s n="adv"/></r></p></e>
-    <e><p><l>finament<s n="adv"/></l><r>finamente<s n="adv"/></r></p></e>
-    <e><p><l>finitament<s n="adv"/></l><r>finidamente<s n="adv"/></r></p></e>
-    <e><p><l>fermament<s n="adv"/></l><r>firmamente<s n="adv"/></r></p></e>
-    <e><p><l>fixament<s n="adv"/></l><r>fisciamente<s n="adv"/></r></p></e>
-    <e><p><l>físicament<s n="adv"/></l><r>fisicamente<s n="adv"/></r></p></e>
-    <e><p><l>assíduament<s n="adv"/></l><r>fittianamente<s n="adv"/></r></p></e>
-    <e><p><l>feblement<s n="adv"/></l><r>flaccamente<s n="adv"/></r></p></e>
-    <e><p><l>flexiblement<s n="adv"/></l><r>flessibilmente<s n="adv"/></r></p></e>
-    <e><p><l>fluixament<s n="adv"/></l><r>flusciamente<s n="adv"/></r></p></e>
-    <e><p><l>formalment<s n="adv"/></l><r>formalmente<s n="adv"/></r></p></e>
-    <e><p><l>fortament<s n="adv"/></l><r>fortemente<s n="adv"/></r></p></e>
-    <e><p><l>fortuïtament<s n="adv"/></l><r>fortuitamente<s n="adv"/></r></p></e>
-    <e><p><l>forçosament<s n="adv"/></l><r>forzosamente<s n="adv"/></r></p></e>
-    <e><p><l>fràgilment<s n="adv"/></l><r>fragilmente<s n="adv"/></r></p></e>
-    <e><p><l>francament<s n="adv"/></l><r>francamente<s n="adv"/></r></p></e>
-    <e><p><l>frenèticament<s n="adv"/></l><r>freneticamente<s n="adv"/></r></p></e>
-    <e><p><l>freqüentment<s n="adv"/></l><r>frequentemente<s n="adv"/></r></p></e>
-    <e><p><l>fredament<s n="adv"/></l><r>fridamente<s n="adv"/></r></p></e>
-    <e><p><l>fugitivament<s n="adv"/></l><r>fugitivamente<s n="adv"/></r></p></e>
-    <e><p><l>furiosament<s n="adv"/></l><r>furiosamente<s n="adv"/></r></p></e>
-    <e><p><l>furtivament<s n="adv"/></l><r>furtivamente<s n="adv"/></r></p></e>
-    <e><p><l>generalment<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
-    <e><p><l>genèricament<s n="adv"/></l><r>genericamente<s n="adv"/></r></p></e>
-    <e><p><l>generosament<s n="adv"/></l><r>generosamente<s n="adv"/></r></p></e>
-    <e><p><l>genialment<s n="adv"/></l><r>genialmente<s n="adv"/></r></p></e>
-    <e><p><l>gentilment<s n="adv"/></l><r>gentilmente<s n="adv"/></r></p></e>
-    <e><p><l>geomètricament<s n="adv"/></l><r>geometricamente<s n="adv"/></r></p></e>
-    <e><p><l>judicialment<s n="adv"/></l><r>giudizialmente<s n="adv"/></r></p></e>
-    <e><p><l>juntament<s n="adv"/></l><r>giuntamente<s n="adv"/></r></p></e>
-    <e><p><l>jurídicament<s n="adv"/></l><r>giuridicamente<s n="adv"/></r></p></e>
-    <e><p><l>justament<s n="adv"/></l><r>giustamente<s n="adv"/></r></p></e>
-    <e><p><l>gloriosament<s n="adv"/></l><r>gloriosamente<s n="adv"/></r></p></e>
-    <e><p><l>gradualment<s n="adv"/></l><r>gradualmente<s n="adv"/></r></p></e>
-    <e><p><l>gramaticalment<s n="adv"/></l><r>gramaticalmente<s n="adv"/></r></p></e>
-    <e><p><l>gratuïtament<s n="adv"/></l><r>gratuitamente<s n="adv"/></r></p></e>
-    <e><p><l>greument<s n="adv"/></l><r>gravemente<s n="adv"/></r></p></e>
-    <e><p><l>exquisidament<s n="adv"/></l><r>gustosamente<s n="adv"/></r></p></e>
-    <e><p><l>idènticament<s n="adv"/></l><r>identicamente<s n="adv"/></r></p></e>
-    <e><p><l>il·lícitament<s n="adv"/></l><r>illicitamente<s n="adv"/></r></p></e>
-    <e><p><l>il·limitadament<s n="adv"/></l><r>illimitadamente<s n="adv"/></r></p></e>
-    <e><p><l>il·lustrement<s n="adv"/></l><r>illustremente<s n="adv"/></r></p></e>
-    <e><p><l>immaculadament<s n="adv"/></l><r>immaculadamente<s n="adv"/></r></p></e>
-    <e><p><l>immediatament<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
-    <e><p><l>immensament<s n="adv"/></l><r>immensamente<s n="adv"/></r></p></e>
-    <e><p><l>immòbilment<s n="adv"/></l><r>immobilmente<s n="adv"/></r></p></e>
-    <e><p><l>immortalment<s n="adv"/></l><r>immortalmente<s n="adv"/></r></p></e>
-    <e><p><l>imperativament<s n="adv"/></l><r>imperativamente<s n="adv"/></r></p></e>
-    <e><p><l>implacablement<s n="adv"/></l><r>implacabilmente<s n="adv"/></r></p></e>
-    <e><p><l>implícitament<s n="adv"/></l><r>implicitamente<s n="adv"/></r></p></e>
-    <e><p><l>impossiblement<s n="adv"/></l><r>impossivelmente<s n="adv"/></r></p></e>
-    <e><p><l>impròpiament<s n="adv"/></l><r>impropriamente<s n="adv"/></r></p></e>
-    <e><p><l>imprudentment<s n="adv"/></l><r>imprudentemente<s n="adv"/></r></p></e>
-    <e><p><l>impunement<s n="adv"/></l><r>impunemente<s n="adv"/></r></p></e>
-    <e><p><l>impurament<s n="adv"/></l><r>impuramente<s n="adv"/></r></p></e>
-    <e><p><l>inalterablement<s n="adv"/></l><r>inaterabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inapel·lablement<s n="adv"/></l><r>inappellabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inesperadament<s n="adv"/></l><r>inaspettadamente<s n="adv"/></r></p></e>
-    <e><p><l>distretament<s n="adv"/></l><r>inavvertentemente<s n="adv"/></r></p></e>
-    <e><p><l>incansablement<s n="adv"/></l><r>incansabilmente<s n="adv"/></r></p></e>
-    <e><p><l>incertament<s n="adv"/></l><r>incertamente<s n="adv"/></r></p></e>
-    <e><p><l>incessantment<s n="adv"/></l><r>incessantemente<s n="adv"/></r></p></e>
-    <e><p><l>inclusivament<s n="adv"/></l><r>inclusivamente<s n="adv"/></r></p></e>
-    <e><p><l>incògnitament<s n="adv"/></l><r>incognitamente<s n="adv"/></r></p></e>
-    <e><p><l>incomparablement<s n="adv"/></l><r>incomparabilmente<s n="adv"/></r></p></e>
-    <e><p><l>incomprensiblement<s n="adv"/></l><r>incomprensibilmente<s n="adv"/></r></p></e>
-    <e><p><l>incongruentment<s n="adv"/></l><r>incongruentemente<s n="adv"/></r></p></e>
-    <e><p><l>increïblement<s n="adv"/></l><r>incredibilmente<s n="adv"/></r></p></e>
-    <e><p><l>indecentment<s n="adv"/></l><r>indecentemente<s n="adv"/></r></p></e>
-    <e><p><l>indefinidament<s n="adv"/></l><r>indefinidamente<s n="adv"/></r></p></e>
-    <e><p><l>indeleblement<s n="adv"/></l><r>indelebilmente<s n="adv"/></r></p></e>
-    <e><p><l>indicativament<s n="adv"/></l><r>indicativamente<s n="adv"/></r></p></e>
-    <e><p><l>indiferentment<s n="adv"/></l><r>indifferentemente<s n="adv"/></r></p></e>
-    <e><p><l>indignament<s n="adv"/></l><r>indignamente<s n="adv"/></r></p></e>
-    <e><p><l>independentment<s n="adv"/></l><r>indipendentemente<s n="adv"/></r></p></e>
-    <e><p><l>indirectament<s n="adv"/></l><r>indirettamente<s n="adv"/></r></p></e>
-    <e><p><l>indispensablement<s n="adv"/></l><r>indispensabilmente<s n="adv"/></r></p></e>
-    <e><p><l>indissolublement<s n="adv"/></l><r>indissolubilmente<s n="adv"/></r></p></e>
-    <e><p><l>indistintament<s n="adv"/></l><r>indistintamente<s n="adv"/></r></p></e>
-    <e><p><l>individualment<s n="adv"/></l><r>individualmente<s n="adv"/></r></p></e>
-    <e><p><l>indubtablement<s n="adv"/></l><r>indubitabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inexorablement<s n="adv"/></l><r>inesorabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inexplicablement<s n="adv"/></l><r>inesplicabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inestimablement<s n="adv"/></l><r>inestimabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inevitablement<s n="adv"/></l><r>inevitabilmente<s n="adv"/></r></p></e>
-    <e><p><l>infatigablement<s n="adv"/></l><r>infatigabilmente<s n="adv"/></r></p></e>
-    <e><p><l>infeliçment<s n="adv"/></l><r>infelicemente<s n="adv"/></r></p></e>
-    <e><p><l>infidelment<s n="adv"/></l><r>infidelmente<s n="adv"/></r></p></e>
-    <e><p><l>infinitament<s n="adv"/></l><r>infinitamente<s n="adv"/></r></p></e>
-    <e><p><l>inflexiblement<s n="adv"/></l><r>inflessibilmente<s n="adv"/></r></p></e>
-    <e><p><l>infructuosament<s n="adv"/></l><r>infruttuosamente<s n="adv"/></r></p></e>
-    <e><p><l>enganyosament<s n="adv"/></l><r>ingannosamente<s n="adv"/></r></p></e>
-    <e><p><l>injustament<s n="adv"/></l><r>ingiustamente<s n="adv"/></r></p></e>
-    <e><p><l>ingratament<s n="adv"/></l><r>ingratamente<s n="adv"/></r></p></e>
-    <e><p><l>innocentment<s n="adv"/></l><r>innocentemente<s n="adv"/></r></p></e>
-    <e><p><l>innombrablement<s n="adv"/></l><r>innumerabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inquietament<s n="adv"/></l><r>inquietamente<s n="adv"/></r></p></e>
-    <e><p><l>insaciablement<s n="adv"/></l><r>insaziabilmente<s n="adv"/></r></p></e>
-    <e><p><l>insensiblement<s n="adv"/></l><r>insensibilmente<s n="adv"/></r></p></e>
-    <e><p><l>inseparablement<s n="adv"/></l><r>inseparabilmente<s n="adv"/></r></p></e>
-    <e><p><l>inesperadament<s n="adv"/></l><r>insperadamente<s n="adv"/></r></p></e>
-    <e><p><l>instructivament<s n="adv"/></l><r>instruttivamente<s n="adv"/></r></p></e>
-    <e><p><l>insuficientment<s n="adv"/></l><r>insufficientemente<s n="adv"/></r></p></e>
-    <e><p><l>intel·lectualment<s n="adv"/></l><r>intellettualmente<s n="adv"/></r></p></e>
-    <e><p><l>intel·ligiblement<s n="adv"/></l><r>intelligibilmente<s n="adv"/></r></p></e>
-    <e><p><l>intensament<s n="adv"/></l><r>intensamente<s n="adv"/></r></p></e>
-    <e><p><l>enterament<s n="adv"/></l><r>interamente<s n="adv"/></r></p></e>
-    <e><p><l>interinament<s n="adv"/></l><r>interinalmente<s n="adv"/></r></p></e>
-    <e><p><l>interiorment<s n="adv"/></l><r>interiormente<s n="adv"/></r></p></e>
-    <e><p><l>íntimament<s n="adv"/></l><r>intimamente<s n="adv"/></r></p></e>
-    <e><p><l>intrínsecament<s n="adv"/></l><r>intrinsicamente<s n="adv"/></r></p></e>
-    <e><p><l>intuïtivament<s n="adv"/></l><r>intuitivamente<s n="adv"/></r></p></e>
-    <e><p><l>inútilment<s n="adv"/></l><r>inutilmente<s n="adv"/></r></p></e>
-    <e><p><l>invariablement<s n="adv"/></l><r>invariabilmente<s n="adv"/></r></p></e>
-    <e><p><l>envejosament<s n="adv"/></l><r>invidiosamente<s n="adv"/></r></p></e>
-    <e><p><l>inviolablement<s n="adv"/></l><r>inviolabilmente<s n="adv"/></r></p></e>
-    <e><p><l>involuntàriament<s n="adv"/></l><r>involuntariamente<s n="adv"/></r></p></e>
-    <e><p><l>hipotèticament<s n="adv"/></l><r>ipoteticamente<s n="adv"/></r></p></e>
-    <e><p><l>irònicament<s n="adv"/></l><r>ironicamente<s n="adv"/></r></p></e>
-    <e><p><l>irregularment<s n="adv"/></l><r>irregularmente<s n="adv"/></r></p></e>
-    <e><p><l>irremeiablement<s n="adv"/></l><r>irremediabilmente<s n="adv"/></r></p></e>
-    <e><p><l>irremissiblement<s n="adv"/></l><r>irremissibilmente<s n="adv"/></r></p></e>
-    <e><p><l>irresistiblement<s n="adv"/></l><r>irresistibilmente<s n="adv"/></r></p></e>
-    <e><p><l>irrevocablement<s n="adv"/></l><r>irrevocabilmente<s n="adv"/></r></p></e>
-    <e><p><l>insípidament<s n="adv"/></l><r>isciapidamente<s n="adv"/></r></p></e>
-    <e><p><l>instantàniament<s n="adv"/></l><r>istantaneamente<s n="adv"/></r></p></e>
-    <e><p><l>històricament<s n="adv"/></l><r>istoricamente<s n="adv"/></r></p></e>
-    <e><p><l>laboriosament<s n="adv"/></l><r>laboriosamente<s n="adv"/></r></p></e>
-    <e><p><l>amplament<s n="adv"/></l><r>largamente<s n="adv"/></r></p></e>
-    <e><p><l>lateralment<s n="adv"/></l><r>lateralmente<s n="adv"/></r></p></e>
-    <e><p><l>lleialment<s n="adv"/></l><r>lealmente<s n="adv"/></r></p></e>
-    <e><p><l>legalment<s n="adv"/></l><r>legalmente<s n="adv"/></r></p></e>
-    <e><p><l>legítimament<s n="adv"/></l><r>legittimamente<s n="adv"/></r></p></e>
-    <e><p><l>lentament<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
-    <e><p><l>lleugerament<s n="adv"/></l><r>lestamente<s n="adv"/></r></p></e>
-    <e><p><l>liberalment<s n="adv"/></l><r>liberalmente<s n="adv"/></r></p></e>
-    <e><p><l>lícitament<s n="adv"/></l><r>licitamente<s n="adv"/></r></p></e>
-    <e><p><l>lleugerament<s n="adv"/></l><r>liggeramente<s n="adv"/></r></p></e>
-    <e><p><l>literalment<s n="adv"/></l><r>litteralmente<s n="adv"/></r></p></e>
-    <e><p><l>localment<s n="adv"/></l><r>localmente<s n="adv"/></r></p></e>
-    <e><p><l>llargament<s n="adv"/></l><r>longamente<s n="adv"/></r></p></e>
-    <e><p><l>lúcidament<s n="adv"/></l><r>lucidamente<s n="adv"/></r></p></e>
-    <e><p><l>lucrativament<s n="adv"/></l><r>lucrosamente<s n="adv"/></r></p></e>
-    <e><p><l>majestuosament<s n="adv"/></l><r>magestosamente<s n="adv"/></r></p></e>
-    <e><p><l>màgicament<s n="adv"/></l><r>magicamente<s n="adv"/></r></p></e>
-    <e><p><l>magistralment<s n="adv"/></l><r>magistralmente<s n="adv"/></r></p></e>
-    <e><p><l>magníficament<s n="adv"/></l><r>magnificamente<s n="adv"/></r></p></e>
-    <e><p><l>astutament<s n="adv"/></l><r>magnosamente<s n="adv"/></r></p></e>
-    <e><p><l>maleïdament<s n="adv"/></l><r>maledittamente<s n="adv"/></r></p></e>
-    <e><p><l>malignament<s n="adv"/></l><r>malignamente<s n="adv"/></r></p></e>
-    <e><p><l>maliciosament<s n="adv"/></l><r>maliziosamente<s n="adv"/></r></p></e>
-    <e><p><l>manifestament<s n="adv"/></l><r>manifestamente<s n="adv"/></r></p></e>
-    <e><p><l>manualment<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
-    <e><p><l>meravellosament<s n="adv"/></l><r>maravigliosamente<s n="adv"/></r></p></e>
-    <e><p><l>astutament<s n="adv"/></l><r>marfusamente<s n="adv"/></r></p></e>
-    <e><p><l>màximament<s n="adv"/></l><r>massimamente<s n="adv"/></r></p></e>
-    <e><p><l>matemàticament<s n="adv"/></l><r>matematicamente<s n="adv"/></r></p></e>
-    <e><p><l>materialment<s n="adv"/></l><r>materialmente<s n="adv"/></r></p></e>
-    <e><p><l>mecànicament<s n="adv"/></l><r>meccanicamente<s n="adv"/></r></p></e>
-    <e><p><l>mentalment<s n="adv"/></l><r>mentalmente<s n="adv"/></r></p></e>
-    <e><p><l>mercantilment<s n="adv"/></l><r>mercantilmente<s n="adv"/></r></p></e>
-    <e><p><l>metafísicament<s n="adv"/></l><r>metafisicamente<s n="adv"/></r></p></e>
-    <e><p><l>metòdicament<s n="adv"/></l><r>metodicamente<s n="adv"/></r></p></e>
-    <e><p><l>miserablement<s n="adv"/></l><r>miserabilmente<s n="adv"/></r></p></e>
-    <e><p><l>misteriosament<s n="adv"/></l><r>misteriosamente<s n="adv"/></r></p></e>
-    <e><p><l>místicament<s n="adv"/></l><r>misticamente<s n="adv"/></r></p></e>
-    <e><p><l>moderadament<s n="adv"/></l><r>moderadamente<s n="adv"/></r></p></e>
-    <e><p><l>modernament<s n="adv"/></l><r>modernamente<s n="adv"/></r></p></e>
-    <e><p><l>modestament<s n="adv"/></l><r>modestamente<s n="adv"/></r></p></e>
-    <e><p><l>momentàniament<s n="adv"/></l><r>momentaneamente<s n="adv"/></r></p></e>
-    <e><p><l>monstruosament<s n="adv"/></l><r>monstruosamente<s n="adv"/></r></p></e>
-    <e><p><l>moralment<s n="adv"/></l><r>moralmente<s n="adv"/></r></p></e>
-    <e><p><l>morosament<s n="adv"/></l><r>morosamente<s n="adv"/></r></p></e>
-    <e><p><l>mortalment<s n="adv"/></l><r>mortalmente<s n="adv"/></r></p></e>
-    <e><p><l>musicalment<s n="adv"/></l><r>musicalmente<s n="adv"/></r></p></e>
-    <e><p><l>mútuament<s n="adv"/></l><r>mutuamente<s n="adv"/></r></p></e>
-    <e><p><l>nadivament<s n="adv"/></l><r>nativamente<s n="adv"/></r></p></e>
-    <e><p><l>naturalment<s n="adv"/></l><r>naturalmente<s n="adv"/></r></p></e>
-    <e><p><l>necessàriament<s n="adv"/></l><r>necessariamente<s n="adv"/></r></p></e>
-    <e><p><l>negativament<s n="adv"/></l><r>negativamente<s n="adv"/></r></p></e>
-    <e><p><l>nerviosament<s n="adv"/></l><r>nervosamente<s n="adv"/></r></p></e>
-    <e><p><l>noblement<s n="adv"/></l><r>nobilmente<s n="adv"/></r></p></e>
-    <e><p><l>nocivament<s n="adv"/></l><r>nocibilmente<s n="adv"/></r></p></e>
-    <e><p><l>notablement<s n="adv"/></l><r>notabilmente<s n="adv"/></r></p></e>
-    <e><p><l>principalment<s n="adv"/></l><r>notadamente<s n="adv"/></r></p></e>
-    <e><p><l>notòriament<s n="adv"/></l><r>notoriamente<s n="adv"/></r></p></e>
-    <e><p><l>novament<s n="adv"/></l><r>novamente<s n="adv"/></r></p></e>
-    <e><p><l>numèricament<s n="adv"/></l><r>numericamente<s n="adv"/></r></p></e>
-    <e><p><l>nombrosament<s n="adv"/></l><r>numerosamente<s n="adv"/></r></p></e>
-    <e><p><l>obedientment<s n="adv"/></l><r>obbedientemente<s n="adv"/></r></p></e>
-    <e><p><l>obliquament<s n="adv"/></l><r>obliquamente<s n="adv"/></r></p></e>
-    <e><p><l>ocasionalment<s n="adv"/></l><r>occasionalmente<s n="adv"/></r></p></e>
-    <e><p><l>ocultament<s n="adv"/></l><r>occultamente<s n="adv"/></r></p></e>
-    <e><p><l>ocularment<s n="adv"/></l><r>ocularmente<s n="adv"/></r></p></e>
-    <e><p><l>odiosament<s n="adv"/></l><r>odiosamente<s n="adv"/></r></p></e>
-    <e><p><l>ofensivament<s n="adv"/></l><r>offensivamente<s n="adv"/></r></p></e>
-    <e><p><l>objectivament<s n="adv"/></l><r>oggettivamente<s n="adv"/></r></p></e>
-    <e><p><l>honestament<s n="adv"/></l><r>onestamente<s n="adv"/></r></p></e>
-    <e><p><l>honradament<s n="adv"/></l><r>onoradamente<s n="adv"/></r></p></e>
-    <e><p><l>oportunament<s n="adv"/></l><r>opportunamente<s n="adv"/></r></p></e>
-    <e><p><l>ordinàriament<s n="adv"/></l><r>ordinariamente<s n="adv"/></r></p></e>
-    <e><p><l>orgànicament<s n="adv"/></l><r>organicamente<s n="adv"/></r></p></e>
-    <e><p><l>orientalment<s n="adv"/></l><r>orientalmente<s n="adv"/></r></p></e>
-    <e><p><l>originalment<s n="adv"/></l><r>originalmente<s n="adv"/></r></p></e>
-    <e><p><l>originàriament<s n="adv"/></l><r>originariamente<s n="adv"/></r></p></e>
-    <e><p><l>horitzontalment<s n="adv"/></l><r>orizzontalmente<s n="adv"/></r></p></e>
-    <e><p><l>horriblement<s n="adv"/></l><r>orribilmente<s n="adv"/></r></p></e>
-    <e><p><l>obscenament<s n="adv"/></l><r>oscenamente<s n="adv"/></r></p></e>
-    <e><p><l>hostilment<s n="adv"/></l><r>ostilmente<s n="adv"/></r></p></e>
-    <e><p><l>òptimament<s n="adv"/></l><r>ottimamente<s n="adv"/></r></p></e>
-    <e><p><l>ociosament<s n="adv"/></l><r>oziosamente<s n="adv"/></r></p></e>
-    <e><p><l>pacíficament<s n="adv"/></l><r>pacificamente<s n="adv"/></r></p></e>
-    <e><p><l>pàl·lidament<s n="adv"/></l><r>pallidamente<s n="adv"/></r></p></e>
-    <e><p><l>palpablement<s n="adv"/></l><r>palpabilmente<s n="adv"/></r></p></e>
-    <e><p><l>paral·lelament<s n="adv"/></l><r>parallelamente<s n="adv"/></r></p></e>
-    <e><p><l>paralíticament<s n="adv"/></l><r>paraliticamente<s n="adv"/></r></p></e>
-    <e><p><l>parcament<s n="adv"/></l><r>parcamente<s n="adv"/></r></p></e>
-    <e><p><l>particularment<s n="adv"/></l><r>particularmente<s n="adv"/></r></p></e>
-    <e><p><l>parcialment<s n="adv"/></l><r>parzialmente<s n="adv"/></r></p></e>
-    <e><p><l>passivament<s n="adv"/></l><r>passivamente<s n="adv"/></r></p></e>
-    <e><p><l>pastoralment<s n="adv"/></l><r>pastoralmente<s n="adv"/></r></p></e>
-    <e><p><l>patèticament<s n="adv"/></l><r>pateticamente<s n="adv"/></r></p></e>
-    <e><p><l>poregosament<s n="adv"/></l><r>paurosamente<s n="adv"/></r></p></e>
-    <e><p><l>pacientment<s n="adv"/></l><r>pazientemente<s n="adv"/></r></p></e>
-    <e><p><l>pedagògicament<s n="adv"/></l><r>pedagogicamente<s n="adv"/></r></p></e>
-    <e><p><l>penosament<s n="adv"/></l><r>penosamente<s n="adv"/></r></p></e>
-    <e><p><l>penúltimament<s n="adv"/></l><r>penultimamente<s n="adv"/></r></p></e>
-    <e><p><l>perfectament<s n="adv"/></l><r>perfettamente<s n="adv"/></r></p></e>
-    <e><p><l>perillosament<s n="adv"/></l><r>perigulosamente<s n="adv"/></r></p></e>
-    <e><p><l>periòdicament<s n="adv"/></l><r>periodicamente<s n="adv"/></r></p></e>
-    <e><p><l>permanentment<s n="adv"/></l><r>permanentemente<s n="adv"/></r></p></e>
-    <e><p><l>perpètuament<s n="adv"/></l><r>perpetuamente<s n="adv"/></r></p></e>
-    <e><p><l>personalment<s n="adv"/></l><r>personalmente<s n="adv"/></r></p></e>
-    <e><p><l>pertinaçment<s n="adv"/></l><r>pertinacemente<s n="adv"/></r></p></e>
-    <e><p><l>perversament<s n="adv"/></l><r>perversamente<s n="adv"/></r></p></e>
-    <e><p><l>pesadament<s n="adv"/></l><r>pesadamente<s n="adv"/></r></p></e>
-    <e><p><l>pèssimament<s n="adv"/></l><r>pessimamente<s n="adv"/></r></p></e>
-    <e><p><l>piadosament<s n="adv"/></l><r>piedosamente<s n="adv"/></r></p></e>
-    <e><p><l>plàcidament<s n="adv"/></l><r>placidamente<s n="adv"/></r></p></e>
-    <e><p><l>plenament<s n="adv"/></l><r>plenamente<s n="adv"/></r></p></e>
-    <e><p><l>plenàriament<s n="adv"/></l><r>plenariamente<s n="adv"/></r></p></e>
-    <e><p><l>pobrament<s n="adv"/></l><r>poberesamente<s n="adv"/></r></p></e>
-    <e><p><l>poderosament<s n="adv"/></l><r>poderosamente<s n="adv"/></r></p></e>
-    <e><p><l>possessivament<s n="adv"/></l><r>possessivamente<s n="adv"/></r></p></e>
-    <e><p><l>possiblement<s n="adv"/></l><r>possibilmente<s n="adv"/></r></p></e>
-    <e><p><l>posteriorment<s n="adv"/></l><r>posteriormente<s n="adv"/></r></p></e>
-    <e><p><l>potentment<s n="adv"/></l><r>potentemente<s n="adv"/></r></p></e>
-    <e><p><l>pràcticament<s n="adv"/></l><r>praticamente<s n="adv"/></r></p></e>
-    <e><p><l>precàriament<s n="adv"/></l><r>precariamente<s n="adv"/></r></p></e>
-    <e><p><l>precisament<s n="adv"/></l><r>precisamente<s n="adv"/></r></p></e>
-    <e><p><l>presencialment<s n="adv"/></l><r>presenzialmente<s n="adv"/></r></p></e>
-    <e><p><l>precipitadament<s n="adv"/></l><r>pressosamente<s n="adv"/></r></p></e>
-    <e><p><l>preciosament<s n="adv"/></l><r>preziosamente<s n="adv"/></r></p></e>
-    <e><p><l>primitivament<s n="adv"/></l><r>primitivamente<s n="adv"/></r></p></e>
-    <e><p><l>principalment<s n="adv"/></l><r>principalmente<s n="adv"/></r></p></e>
-    <e><p><l>privadament<s n="adv"/></l><r>privativamente<s n="adv"/></r></p></e>
-    <e><p><l>probablement<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
-    <e><p><l>prodigiosament<s n="adv"/></l><r>prodigiosamente<s n="adv"/></r></p></e>
-    <e><p><l>profanament<s n="adv"/></l><r>profanamente<s n="adv"/></r></p></e>
-    <e><p><l>profèticament<s n="adv"/></l><r>profeticamente<s n="adv"/></r></p></e>
-    <e><p><l>profundament<s n="adv"/></l><r>profundamente<s n="adv"/></r></p></e>
-    <e><p><l>profusament<s n="adv"/></l><r>profusamente<s n="adv"/></r></p></e>
-    <e><p><l>progressivament<s n="adv"/></l><r>progressivamente<s n="adv"/></r></p></e>
-    <e><p><l>llestament<s n="adv"/></l><r>prontamente<s n="adv"/></r></p></e>
-    <e><p><l>proporcionalment<s n="adv"/></l><r>proporzionalmente<s n="adv"/></r></p></e>
-    <e><p><l>pròpiament<s n="adv"/></l><r>propriamente<s n="adv"/></r></p></e>
-    <e><p><l>pròsperament<s n="adv"/></l><r>prósperamente<s n="adv"/></r></p></e>
-    <e><p><l>pròximament<s n="adv"/></l><r>prossimamente<s n="adv"/></r></p></e>
-    <e><p><l>prudentment<s n="adv"/></l><r>prudentemente<s n="adv"/></r></p></e>
-    <e><p><l>prudencialment<s n="adv"/></l><r>prudenzialmente<s n="adv"/></r></p></e>
-    <e><p><l>públicament<s n="adv"/></l><r>pubblicamente<s n="adv"/></r></p></e>
-    <e><p><l>políticament<s n="adv"/></l><r>puliticamente<s n="adv"/></r></p></e>
-    <e><p><l>puntualment<s n="adv"/></l><r>puntualmente<s n="adv"/></r></p></e>
-    <e><p><l>purament<s n="adv"/></l><r>puramente<s n="adv"/></r></p></e>
-    <e><p><l>quotidianament<s n="adv"/></l><r>quotidianamente<s n="adv"/></r></p></e>
-    <e><p><l>radicalment<s n="adv"/></l><r>radicalmente<s n="adv"/></r></p></e>
-    <e><p><l>ràpidament<s n="adv"/></l><r>rapidamente<s n="adv"/></r></p></e>
-    <e><p><l>rarament<s n="adv"/></l><r>raramente<s n="adv"/></r></p></e>
-    <e><p><l>raonablement<s n="adv"/></l><r>raxonabilmente<s n="adv"/></r></p></e>
-    <e><p><l>realment<s n="adv"/></l><r>realmente<s n="adv"/></r></p></e>
-    <e><p><l>recentment<s n="adv"/></l><r>recentemente<s n="adv"/></r></p></e>
-    <e><p><l>recíprocament<s n="adv"/></l><r>reciprocamente<s n="adv"/></r></p></e>
-    <e><p><l>règiament<s n="adv"/></l><r>regiamente<s n="adv"/></r></p></e>
-    <e><p><l>regularment<s n="adv"/></l><r>regularmente<s n="adv"/></r></p></e>
-    <e><p><l>reiteradament<s n="adv"/></l><r>reiteradamente<s n="adv"/></r></p></e>
-    <e><p><l>relativament<s n="adv"/></l><r>relativamente<s n="adv"/></r></p></e>
-    <e><p><l>religiosament<s n="adv"/></l><r>religiosamente<s n="adv"/></r></p></e>
-    <e><p><l>sobtadament<s n="adv"/></l><r>repentinamente<s n="adv"/></r></p></e>
-    <e><p><l>repetidament<s n="adv"/></l><r>repetidamente<s n="adv"/></r></p></e>
-    <e><p><l>respectivament<s n="adv"/></l><r>respettivamente<s n="adv"/></r></p></e>
-    <e><p><l>respectuosament<s n="adv"/></l><r>respettosamente<s n="adv"/></r></p></e>
-    <e><p><l>retòricament<s n="adv"/></l><r>rettoricamente<s n="adv"/></r></p></e>
-    <e><p><l>ricament<s n="adv"/></l><r>riccamente<s n="adv"/></r></p></e>
-    <e><p><l>rígidament<s n="adv"/></l><r>rigidamente<s n="adv"/></r></p></e>
-    <e><p><l>rigorosament<s n="adv"/></l><r>rigorosamente<s n="adv"/></r></p></e>
-    <e><p><l>robustament<s n="adv"/></l><r>robustamente<s n="adv"/></r></p></e>
-    <e><p><l>rotundament<s n="adv"/></l><r>rotundamente<s n="adv"/></r></p></e>
-    <e><p><l>sàviament<s n="adv"/></l><r>sabiamente<s n="adv"/></r></p></e>
-    <e><p><l>saborosament<s n="adv"/></l><r>saboridamente<s n="adv"/></r></p></e>
-    <e><p><l>escandalosament<s n="adv"/></l><r>scandalosamente<s n="adv"/></r></p></e>
-    <e><p><l>escassament<s n="adv"/></l><r>scarsamente<s n="adv"/></r></p></e>
-    <e><p><l>científicament<s n="adv"/></l><r>scientificamente<s n="adv"/></r></p></e>
-    <e><p><l>secretament<s n="adv"/></l><r>secretamente<s n="adv"/></r></p></e>
-    <e><p><l>secundàriament<s n="adv"/></l><r>segundariamente<s n="adv"/></r></p></e>
-    <e><p><l>segurament<s n="adv"/></l><r>seguramente<s n="adv"/></r></p></e>
-    <e><p><l>sensualment<s n="adv"/></l><r>sensualmente<s n="adv"/></r></p></e>
-    <e><p><l>separadament<s n="adv"/></l><r>separadamente<s n="adv"/></r></p></e>
-    <e><p><l>seriosament<s n="adv"/></l><r>seriamente<s n="adv"/></r></p></e>
-    <e><p><l>setmanalment<s n="adv"/></l><r>settimanalmente<s n="adv"/></r></p></e>
-    <e><p><l>severament<s n="adv"/></l><r>severamente<s n="adv"/></r></p></e>
-    <e><p><l>esfèricament<s n="adv"/></l><r>sfericamente<s n="adv"/></r></p></e>
-    <e><p><l>desafortunadament<s n="adv"/></l><r>sfortunadamente<s n="adv"/></r></p></e>
-    <e><p><l>desgraciadament<s n="adv"/></l><r>sgraziadamente<s n="adv"/></r></p></e>
-    <e><p><l>secament<s n="adv"/></l><r>siccamente<s n="adv"/></r></p></e>
-    <e><p><l>significativament<s n="adv"/></l><r>significativamente<s n="adv"/></r></p></e>
-    <e><p><l>simplement<s n="adv"/></l><r>simplemente<s n="adv"/></r></p></e>
-    <e><p><l>sincerament<s n="adv"/></l><r>sinceramente<s n="adv"/></r></p></e>
-    <e><p><l>singularment<s n="adv"/></l><r>singularmente<s n="adv"/></r></p></e>
-    <e><p><l>sistemàticament<s n="adv"/></l><r>sistematicamente<s n="adv"/></r></p></e>
-    <e><p><l>desmesuradament<s n="adv"/></l><r>smesuradamente<s n="adv"/></r></p></e>
-    <e><p><l>sòbriament<s n="adv"/></l><r>sobriamente<s n="adv"/></r></p></e>
-    <e><p><l>solament<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
-    <e><p><l>solemnement<s n="adv"/></l><r>solennemente<s n="adv"/></r></p></e>
-    <e><p><l>sòlidament<s n="adv"/></l><r>solidamente<s n="adv"/></r></p></e>
-    <e><p><l>solidàriament<s n="adv"/></l><r>solidariamente<s n="adv"/></r></p></e>
-    <e><p><l>solitàriament<s n="adv"/></l><r>solitariamente<s n="adv"/></r></p></e>
-    <e><p><l>sol·lícitament<s n="adv"/></l><r>sollicitamente<s n="adv"/></r></p></e>
-    <e><p><l>espaiosament<s n="adv"/></l><r>spaziosamente<s n="adv"/></r></p></e>
-    <e><p><l>específicament<s n="adv"/></l><r>specificamente<s n="adv"/></r></p></e>
-    <e><p><l>especialment<s n="adv"/></l><r>spezialmente<s n="adv"/></r></p></e>
-    <e><p><l>espiritualment<s n="adv"/></l><r>spiritualmente<s n="adv"/></r></p></e>
-    <e><p><l>esplèndidament<s n="adv"/></l><r>splendidamente<s n="adv"/></r></p></e>
-    <e><p><l>establement<s n="adv"/></l><r>stabilmente<s n="adv"/></r></p></e>
-    <e><p><l>estèrilment<s n="adv"/></l><r>sterilmente<s n="adv"/></r></p></e>
-    <e><p><l>històricament<s n="adv"/></l><r>storicamente<s n="adv"/></r></p></e>
-    <e><p><l>extraordinàriament<s n="adv"/></l><r>straordinariamente<s n="adv"/></r></p></e>
-    <e><p><l>instrumentalment<s n="adv"/></l><r>strumentalmente<s n="adv"/></r></p></e>
-    <e><p><l>estudiosament<s n="adv"/></l><r>studiosamente<s n="adv"/></r></p></e>
-    <e><p><l>estupendament<s n="adv"/></l><r>stupendamente<s n="adv"/></r></p></e>
-    <e><p><l>suaument<s n="adv"/></l><r>suavemente<s n="adv"/></r></p></e>
-    <e><p><l>sobtadament<s n="adv"/></l><r>subitamente<s n="adv"/></r></p></e>
-    <e><p><l>successivament<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
-    <e><p><l>suficientment<s n="adv"/></l><r>sufficientemente<s n="adv"/></r></p></e>
-    <e><p><l>summament<s n="adv"/></l><r>summamente<s n="adv"/></r></p></e>
-    <e><p><l>superficialment<s n="adv"/></l><r>superfizialmente<s n="adv"/></r></p></e>
-    <e><p><l>superiorment<s n="adv"/></l><r>superiormente<s n="adv"/></r></p></e>
-    <e><p><l>superlativament<s n="adv"/></l><r>superlativamente<s n="adv"/></r></p></e>
-    <e><p><l>supersticiosament<s n="adv"/></l><r>superstiziosamente<s n="adv"/></r></p></e>
-    <e><p><l>suspensivament<s n="adv"/></l><r>suspensivamente<s n="adv"/></r></p></e>
-    <e><p><l>sospitosament<s n="adv"/></l><r>suspettamente<s n="adv"/></r></p></e>
-    <e><p><l>subsegüentment<s n="adv"/></l><r>susseguentemente<s n="adv"/></r></p></e>
-    <e><p><l>subsidiàriament<s n="adv"/></l><r>sussidiariamente<s n="adv"/></r></p></e>
-    <e><p><l>substantivament<s n="adv"/></l><r>sustantivamente<s n="adv"/></r></p></e>
-    <e><p><l>substancialment<s n="adv"/></l><r>sustanzialmente<s n="adv"/></r></p></e>
-    <e><p><l>gasivament<s n="adv"/></l><r>susuncamente<s n="adv"/></r></p></e>
-    <e><p><l>subtilment<s n="adv"/></l><r>suttilmente<s n="adv"/></r></p></e>
-    <e><p><l>tenaçment<s n="adv"/></l><r>tenacemente<s n="adv"/></r></p></e>
-    <e><p><l>teològicament<s n="adv"/></l><r>teologicamente<s n="adv"/></r></p></e>
-    <e><p><l>teòricament<s n="adv"/></l><r>teoricamente<s n="adv"/></r></p></e>
-    <e><p><l>terriblement<s n="adv"/></l><r>terribilmente<s n="adv"/></r></p></e>
-    <e><p><l>tendrament<s n="adv"/></l><r>tiernamente<s n="adv"/></r></p></e>
-    <e><p><l>tímidament<s n="adv"/></l><r>timidamente<s n="adv"/></r></p></e>
-    <e><p><l>tolerablement<s n="adv"/></l><r>tollerabilmente<s n="adv"/></r></p></e>
-    <e><p><l>totalment<s n="adv"/></l><r>totalmente<s n="adv"/></r></p></e>
-    <e><p><l>tràgicament<s n="adv"/></l><r>tragicamente<s n="adv"/></r></p></e>
-    <e><p><l>tranquil·lament<s n="adv"/></l><r>tranquillamente<s n="adv"/></r></p></e>
-    <e><p><l>transitòriament<s n="adv"/></l><r>transitoriamente<s n="adv"/></r></p></e>
-    <e><p><l>tremendament<s n="adv"/></l><r>tremendamente<s n="adv"/></r></p></e>
-    <e><p><l>tristament<s n="adv"/></l><r>tristamente<s n="adv"/></r></p></e>
-    <e><p><l>trivialment<s n="adv"/></l><r>trivialmente<s n="adv"/></r></p></e>
-    <e><p><l>triomfalment<s n="adv"/></l><r>triunfalmente<s n="adv"/></r></p></e>
-    <e><p><l>igualment<s n="adv"/></l><r>ugualmente<s n="adv"/></r></p></e>
-    <e><p><l>ulteriorment<s n="adv"/></l><r>ulteriormente<s n="adv"/></r></p></e>
-    <e><p><l>últimament<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
-    <e><p><l>humanament<s n="adv"/></l><r>umanamente<s n="adv"/></r></p></e>
-    <e><p><l>humilment<s n="adv"/></l><r>umilmente<s n="adv"/></r></p></e>
-    <e><p><l>unànimement<s n="adv"/></l><r>unanimamente<s n="adv"/></r></p></e>
-    <e><p><l>únicament<s n="adv"/></l><r>unicamente<s n="adv"/></r></p></e>
-    <e><p><l>uniformement<s n="adv"/></l><r>uniformemente<s n="adv"/></r></p></e>
-    <e><p><l>universalment<s n="adv"/></l><r>universalmente<s n="adv"/></r></p></e>
-    <e><p><l>unívocament<s n="adv"/></l><r>univocamente<s n="adv"/></r></p></e>
-    <e><p><l>útilment<s n="adv"/></l><r>utilmente<s n="adv"/></r></p></e>
-    <e><p><l>valentament<s n="adv"/></l><r>valentemente<s n="adv"/></r></p></e>
-    <e><p><l>vàlidament<s n="adv"/></l><r>validamente<s n="adv"/></r></p></e>
-    <e><p><l>valerosament<s n="adv"/></l><r>valorosamente<s n="adv"/></r></p></e>
-    <e><p><l>avantatjosament<s n="adv"/></l><r>vantaggiosamente<s n="adv"/></r></p></e>
-    <e><p><l>vastament<s n="adv"/></l><r>vastamente<s n="adv"/></r></p></e>
-    <e><p><l>venerablement<s n="adv"/></l><r>venerabilmente<s n="adv"/></r></p></e>
-    <e><p><l>venjativament<s n="adv"/></l><r>vengativamente<s n="adv"/></r></p></e>
-    <e><p><l>verbalment<s n="adv"/></l><r>verbalmente<s n="adv"/></r></p></e>
-    <e><p><l>veritablement<s n="adv"/></l><r>verdaderamente<s n="adv"/></r></p></e>
-    <e><p><l>verticalment<s n="adv"/></l><r>verticalmente<s n="adv"/></r></p></e>
-    <e><p><l>vigorosament<s n="adv"/></l><r>vigorosamente<s n="adv"/></r></p></e>
-    <e><p><l>vilment<s n="adv"/></l><r>vilmente<s n="adv"/></r></p></e>
-    <e><p><l>violentament<s n="adv"/></l><r>violentemente<s n="adv"/></r></p></e>
-    <e><p><l>virilment<s n="adv"/></l><r>virilmente<s n="adv"/></r></p></e>
-    <e><p><l>virtualment<s n="adv"/></l><r>virtualmente<s n="adv"/></r></p></e>
-    <e><p><l>virtuosament<s n="adv"/></l><r>virtuosamente<s n="adv"/></r></p></e>
-    <e><p><l>visiblement<s n="adv"/></l><r>visibilmente<s n="adv"/></r></p></e>
-    <e><p><l>vistosament<s n="adv"/></l><r>vistosamente<s n="adv"/></r></p></e>
-    <e><p><l>visualment<s n="adv"/></l><r>visualmente<s n="adv"/></r></p></e>
-    <e><p><l>vitalment<s n="adv"/></l><r>vitalmente<s n="adv"/></r></p></e>
-    <e><p><l>victoriosament<s n="adv"/></l><r>vittoriosamente<s n="adv"/></r></p></e>
-    <e><p><l>vivament<s n="adv"/></l><r>vivamente<s n="adv"/></r></p></e>
-    <e><p><l>viciosament<s n="adv"/></l><r>viziosamente<s n="adv"/></r></p></e>
-    <e><p><l>vocalment<s n="adv"/></l><r>vocalmente<s n="adv"/></r></p></e>
-    <e><p><l>volublement<s n="adv"/></l><r>volubilmente<s n="adv"/></r></p></e>
-    <e><p><l>voluntàriament<s n="adv"/></l><r>voluntariamente<s n="adv"/></r></p></e>
   </section>
 </dictionary>
