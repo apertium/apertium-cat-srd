@@ -2283,13 +2283,14 @@
     <e lm="analizare"><i>analiz</i><par n="cant/are__vblex"/></e>
     <e lm="analizare" r="LR"><p><l>analis</l><r>analiz</r></p><par n="cant/are__vblex"/></e>
     <e lm="nominare"><i>nomin</i><par n="cant/are__vblex"/></e>
+    <e lm="nominare" r="LR"><p><l>numen</l><r>nomin</r></p><par n="cant/are__vblex"/></e>
     <e lm="presentare"><i>present</i><par n="cant/are__vblex"/></e>
     <e lm="organizare"><i>organiz</i><par n="cant/are__vblex"/></e>
     <e lm="frommare"><i>fromm</i><par n="cant/are__vblex"/></e>
+    <e lm="formare"><i>form</i><par n="cant/are__vblex"/></e>
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
     <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
     <e lm="continuare"><i>continu</i><par n="cant/are__vblex"/></e>
-    <e lm="numenare"><i>numen</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
@@ -2301,6 +2302,9 @@
     <e lm="provochere"><i>provoch</i><par n="tim/ere__vblex"/></e>
     <e lm="iscriere"><i>iscri</i><par n="tim/ere__vblex"/></e>
     <e lm="naschere"><i>nasch</i><par n="tim/ere__vblex"/></e>
+    <e lm="costituiere"><i>costitui</i><par n="tim/ere__vblex"/></e>
+    <e lm="costituiere" r="LR"><p><l>constitui</l><r>costitui</r></p><par n="tim/ere__vblex"/></e>
+    <e lm="bínchere"><i>bínch</i><par n="tim/ere__vblex"/></e>
 
     <e lm="benire"><i>ben</i><par n="fin/ire__vblex"/></e>
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
@@ -2318,6 +2322,7 @@
     <e lm="ischire"><i>isch</i><par n="fin/ire__vblex"/></e>
     <e lm="trasferire"><i>trasfer</i><par n="fin/ire__vblex"/></e>
     <e lm="batire"><i>bat</i><par n="fin/ire__vblex"/></e>
+    <e lm="godire"><i>god</i><par n="fin/ire__vblex"/></e>
 
     <e lm="cuntènnere"><i>cunt</i><par n="t/ènnere__vblex"/></e>
     <e lm="otènnere"><i>ot</i><par n="t/ènnere__vblex"/></e>

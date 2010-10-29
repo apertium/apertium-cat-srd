@@ -474,7 +474,7 @@
     <e><p><l>alfabètic<s n="adj"/></l><r>alfabèticu<s n="adj"/></r></p></e>
     <e><p><l>americà<s n="adj"/></l><r>americanu<s n="adj"/></r></p></e>
     <e><p><l>anglès<s n="adj"/></l><r>inglesu<s n="adj"/></r></p></e>
-    <e><p><l>arab<s n="adj"/></l><r>arabu<s n="adj"/></r></p></e>
+    <e><p><l>àrab<s n="adj"/></l><r>arabu<s n="adj"/></r></p><par n="persa_persianu"/></e>
     <e><p><l>armen<s n="adj"/></l><r>armenu<s n="adj"/></r></p></e>
     <e><p><l>bon<s n="adj"/></l><r>bonu<s n="adj"/></r></p></e>
     <e><p><l>català<s n="adj"/></l><r>catalanu<s n="adj"/></r></p></e>
@@ -497,7 +497,7 @@
     <e><p><l>francès<s n="adj"/></l><r>frantzesu<s n="adj"/></r></p></e>
     <e><p><l>occità<s n="adj"/></l><r>otzitanu<s n="adj"/></r></p></e>
     <e><p><l>fundamental<s n="adj"/></l><r>fundamentale<s n="adj"/></r></p></e>
-    <e><p><l>gran<s n="adj"/></l><r>mannu<s n="adj"/></r></p></e>
+    <e><p><l>gran<s n="adj"/></l><r>mannu<s n="adj"/></r></p><par n="persa_persianu"/></e>
     <e><p><l>grec<s n="adj"/></l><r>gregu<s n="adj"/></r></p></e>
     <e><p><l>holandès<s n="adj"/></l><r>olandesu<s n="adj"/></r></p></e>
     <e><p><l>hungarès<s n="adj"/></l><r>ungheresu<s n="adj"/></r></p></e>
@@ -556,7 +556,6 @@
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
-    <e><p><l>nomenar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
     <e><p><l>viure<s n="vblex"/></l><r>bivire<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
@@ -572,6 +571,47 @@
     <e><p><l>estudiar<s n="vblex"/></l><r>istudiare<s n="vblex"/></r></p></e>
     <e><p><l>anar<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
     <e><p><l>parlar<s n="vblex"/></l><r>faeddare<s n="vblex"/></r></p></e>
+
+    <e><p><l>venir<s n="vblex"/></l><r>benire<s n="vblex"/></r></p></e>
+    <e><p><l>tenir<s n="vblex"/></l><r>tènnere<s n="vblex"/></r></p></e>
+    <e><p><l>posar<s n="vblex"/></l><r>pònnere<s n="vblex"/></r></p></e>
+    <e><p><l>publicar<s n="vblex"/></l><r>publicare<s n="vblex"/></r></p></e>
+    <e><p><l>seguir<s n="vblex"/></l><r>sighire<s n="vblex"/></r></p></e>
+    <e><p><l>considerar<s n="vblex"/></l><r>cunsiderare<s n="vblex"/></r></p></e>
+    <e><p><l>presentar<s n="vblex"/></l><r>presentare<s n="vblex"/></r></p></e>
+    <e><p><l>usar<s n="vblex"/></l><r>usare<s n="vblex"/></r></p></e>
+    <e><p><l>trasferir<s n="vblex"/></l><r>trasferire<s n="vblex"/></r></p></e>
+    <e><p><l>escriure<s n="vblex"/></l><r>iscriere<s n="vblex"/></r></p></e>
+    <e><p><l>participar<s n="vblex"/></l><r>partecipare<s n="vblex"/></r></p></e>
+    <e><p><l>nominar<s n="vblex"/></l><r>nominare<s n="vblex"/></r></p></e>
+    <e><p><l>menjar<s n="vblex"/></l><r>mandigare<s n="vblex"/></r></p></e>
+    <e><p><l>finir<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
+    <e><p><l>indicar<s n="vblex"/></l><r>indicare<s n="vblex"/></r></p></e>
+    <e><p><l>caracteritzar<s n="vblex"/></l><r>caraterizzare<s n="vblex"/></r></p></e>
+    <e><p><l>manifestar<s n="vblex"/></l><r>manifestare<s n="vblex"/></r></p></e>
+    <e><p><l>manar<s n="vblex"/></l><r>mandare<s n="vblex"/></r></p></e>
+    <e><p><l>distinguir<s n="vblex"/></l><r>distinghere<s n="vblex"/></r></p></e>
+    <e><p><l>analitzar<s n="vblex"/></l><r>analizare<s n="vblex"/></r></p></e>
+    <e><p><l>acompanyar<s n="vblex"/></l><r>accumpagnare<s n="vblex"/></r></p></e>
+    <e><p><l>servir<s n="vblex"/></l><r>serbire<s n="vblex"/></r></p></e>
+    <e><p><l>proposar<s n="vblex"/></l><r>propònnere<s n="vblex"/></r></p></e>
+    <e><p><l>proclamar<s n="vblex"/></l><r>proclamare<s n="vblex"/></r></p></e>
+    <e><p><l>educar<s n="vblex"/></l><r>educare<s n="vblex"/></r></p></e>
+    <e><p><l>contenir<s n="vblex"/></l><r>cuntènnere<s n="vblex"/></r></p></e>
+    <e><p><l>costruir<s n="vblex"/></l><r>costruire<s n="vblex"/></r></p></e>
+    <e><p><l>comprar<s n="vblex"/></l><r>comporare<s n="vblex"/></r></p></e>
+    <e><p><l>caminar<s n="vblex"/></l><r>caminare<s n="vblex"/></r></p></e>
+    <e><p><l>temer<s n="vblex"/></l><r>timere<s n="vblex"/></r></p></e>
+    <e><p><l>organitzar<s n="vblex"/></l><r>organizare<s n="vblex"/></r></p></e>
+    <e><p><l>modificar<s n="vblex"/></l><r>modificare<s n="vblex"/></r></p></e>
+    <e><p><l>estimar<s n="vblex"/></l><r>istimare<s n="vblex"/></r></p></e>
+    <e><p><l>sortir<s n="vblex"/></l><r>ischire<s n="vblex"/></r></p></e>
+    <e><p><l>demostrar<s n="vblex"/></l><r>demustrare<s n="vblex"/></r></p></e>
+    <e><p><l>confirmir<s n="vblex"/></l><r>cunfirmare<s n="vblex"/></r></p></e>
+    <e><p><l>compilar<s n="vblex"/></l><r>compilare<s n="vblex"/></r></p></e>
+    <e><p><l>cambiar<s n="vblex"/></l><r>cambiare<s n="vblex"/></r></p></e>
+    <e><p><l>buscar<s n="vblex"/></l><r>buscare<s n="vblex"/></r></p></e>
+
 
     <!-- SECTION: Punctuation -->
 
