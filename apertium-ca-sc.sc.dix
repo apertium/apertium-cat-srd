@@ -544,6 +544,7 @@
       <e>       <p><l>aiamus</l><r>àere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>aiais</l><r>àere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>aiant</l><r>àere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>aian</l><r>àere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e> <!-- @!LSC -->
 
       <e>       <p><l>apa</l><r>àere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>apas</l><r>àere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1429,6 +1430,7 @@
     <e lm="ambos"><i>amb</i><par n="amb/os__prn"/></e>
 
     <e lm="nde"><i>nde</i><par n="nde__prn"/></e>
+    <e lm="nche"><i>nche</i><par n="nde__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -1567,12 +1569,15 @@
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
     <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
     <e lm="presentzia"><i>presentzia</i><par n="mesa__n"/></e>
+    <e lm="sercunstàntzia"><i>sercunstàntzia</i><par n="mesa__n"/></e>
     <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
     <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
     <e lm="maturidade"><i>maturidade</i><par n="mesa__n"/></e>
     <e lm="densidade"><i>densidade</i><par n="mesa__n"/></e>
     <e lm="versione"><i>versione</i><par n="mesa__n"/></e>
     <e lm="composizione"><i>composizione</i><par n="mesa__n"/></e>
+    <e lm="iscola"><i>iscola</i><par n="mesa__n"/></e>
+    <e lm="iscola" r="LR"><p><l>scola</l><r>iscola</r></p><par n="mesa__n"/></e>
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -1745,6 +1750,7 @@
 
     <e lm="rivista"><i>rivista</i><par n="mesa__n"/></e>
     <e lm="attividade"><i>attividade</i><par n="mesa__n"/></e>
+    <e lm="unidade"><i>unidade</i><par n="mesa__n"/></e>
     <e lm="persona"><i>persona</i><par n="mesa__n"/></e>
     <e lm="persona" r="LR"><p><l>pessona</l><r>persona</r></p><par n="mesa__n"/></e>
     <e lm="umanidade"><i>umanidade</i><par n="mesa__n"/></e>
@@ -1846,6 +1852,7 @@
     <e lm="buddhismu"><i>buddhismu</i><par n="anarchismu__n"/></e>
     <e lm="buddismu" r="LR"><p><l>buddismu</l><r>buddhismu</r></p><par n="anarchismu__n"/></e>
     <e lm="induismu"><i>induismu</i><par n="anarchismu__n"/></e>
+    <e lm="bilinguismu"><i>bilinguismu</i><par n="anarchismu__n"/></e>
     <e lm="turismu"><i>turismu</i><par n="anarchismu__n"/></e>
     <e lm="neoplasticismu"><i>neoplasticismu</i><par n="anarchismu__n"/></e>
     <e lm="modernismu"><i>modernismu</i><par n="anarchismu__n"/></e>
@@ -2027,6 +2034,7 @@
     <e lm="Firenze"><i>Firenze</i><par n="Etiòpia__np"/></e>
     <e lm="Russillione"><i>Russillione</i><par n="Etiòpia__np"/></e>
     <e lm="Ispagna"><i>Ispagna</i><par n="Etiòpia__np"/></e>
+    <e lm="Ispagna" r="LR"><p><l>Spànnia</l><r>Ispagna</r></p><par n="Etiòpia__np"/></e>
     <e lm="Brasile"><i>Brasile</i><par n="Etiòpia__np"/></e>
     <e lm="Germània"><i>Germània</i><par n="Etiòpia__np"/></e>
     <e lm="Germània" r="LR"><p><l>Germania</l><r>Germània</r></p><par n="Etiòpia__np"/></e>
@@ -2228,6 +2236,7 @@
     <e lm="persianu"><i>persian</i><par n="frantzes/u__adj"/></e>
     <e lm="americanu"><i>american</i><par n="frantzes/u__adj"/></e>
     <e lm="modernu"><i>modern</i><par n="frantzes/u__adj"/></e>
+    <e lm="albanesu"><i>albanes</i><par n="frantzes/u__adj"/></e>
     <e lm="italianu"><i>italian</i><par n="frantzes/u__adj"/></e>
     <e lm="latinu"><i>latin</i><par n="frantzes/u__adj"/></e>
     <e lm="sardu"><i>sard</i><par n="frantzes/u__adj"/></e>
@@ -2248,6 +2257,7 @@
     <e lm="turcu"><i>turc</i><par n="frantzes/u__adj"/></e>
     <e lm="ebraicu"><i>ebraic</i><par n="frantzes/u__adj"/></e>
     <e lm="russu"><i>russ</i><par n="frantzes/u__adj"/></e>
+    <e lm="gallesu"><i>galles</i><par n="frantzes/u__adj"/></e>
     <e lm="gregu"><i>greg</i><par n="frantzes/u__adj"/></e>
     <e lm="mandarinu"><i>mandarin</i><par n="frantzes/u__adj"/></e>
     <e lm="olandesu"><i>olandes</i><par n="frantzes/u__adj"/></e>
@@ -2267,6 +2277,7 @@
     <e lm="mediterraneu"><i>mediterrane</i><par n="frantzes/u__adj"/></e>
     <e lm="famosu"><i>famos</i><par n="frantzes/u__adj"/></e>
     <e lm="milanesu"><i>milanes</i><par n="frantzes/u__adj"/></e>
+    <e lm="idènticu"><i>idèntic</i><par n="frantzes/u__adj"/></e>
     <e lm="saharianu"><i>saharian</i><par n="frantzes/u__adj"/></e>
     <e lm="europeu"><i>europe</i><par n="frantzes/u__adj"/></e>
     <e lm="piemontesu"><i>piemontes</i><par n="frantzes/u__adj"/></e>
@@ -2632,10 +2643,13 @@
     <e lm="valorare"><i>valor</i><par n="cant/are__vblex"/></e>
     <e lm="versare"><i>vers</i><par n="cant/are__vblex"/></e>
     <e lm="pensare"><i>pens</i><par n="cant/are__vblex"/></e>
+    <e lm="cramare"><i>cram</i><par n="cant/are__vblex"/></e>
+    <e lm="cramare" r="LR"><p><l>jam</l><r>cram</r></p><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
+    <e lm="ispèrdere"><i>ispèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>
     <e lm="mòere"><i>mò</i><par n="tim/ere__vblex"/></e> <!-- moe·ti·nche·lu -->
     <e lm="emergere"><i>emerg</i><par n="tim/ere__vblex"/></e>
@@ -2666,11 +2680,13 @@
     <e lm="batire"><i>bat</i><par n="fin/ire__vblex"/></e>
     <e lm="godire"><i>god</i><par n="fin/ire__vblex"/></e>
     <e lm="favorire"><i>favor</i><par n="fin/ire__vblex"/></e>
+    <e lm="aderire"><i>ader</i><par n="fin/ire__vblex"/></e>
 
     <e lm="cuntènnere"><i>cunt</i><par n="t/ènnere__vblex"/></e>
     <e lm="otènnere"><i>ot</i><par n="t/ènnere__vblex"/></e>
 
     <e lm="pònnere"><i>p</i><par n="p/ònnere__vblex"/></e>
+    <e lm="impònnere"><i>imp</i><par n="p/ònnere__vblex"/></e>
     <e lm="propònnere"><i>prop</i><par n="p/ònnere__vblex"/></e>
 
     <e lm="dare"><i>d</i><par n="d/are__vblex"/></e>
