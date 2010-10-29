@@ -228,6 +228,10 @@
       <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="lu__prn" c="">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+    </pardef>
+
     <pardef n="li__prn" c="p.18 / 105">
       <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>s</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -284,6 +288,7 @@
     <pardef n="un/u__det" c="p.25">
       <e>       <p><l>u</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>us</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>os</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1195,6 +1200,7 @@
       <e>       <p><l>erende</l><r>èrrere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantende"/></e>
 
       <e>       <p><l>èrgio</l><r>èrrere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eres</l><r>èrrere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>eris</l><r>èrrere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>erit</l><r>èrrere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>erimus</l><r>èrrere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -1266,7 +1272,12 @@
     <e lm="chi" r="LR"><p><l>ki</l><r>chi</r></p><par n="chi__cnjsub"/></e>
     <e lm="che"><i>che</i><par n="chi__cnjsub"/></e>
     <e lm="comente chi"><i>comente<b/>chi</i><par n="chi__cnjsub"/></e>
+
     <e lm="comente"><i>comente</i><par n="chi__cnjsub"/></e>
+    <e lm="comente" r="LR"><p><l>comenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
+    <e lm="comente" r="LR"><p><l>cumenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
+    <e lm="comente" r="LR"><p><l>commenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
+
     <e lm="cando"><i>cando</i><par n="chi__cnjsub"/></e>
     <e lm="pro ite"><i>pro<b/>ite</i><par n="chi__cnjsub"/></e>
     <e lm="cantu"><i>cantu</i><par n="chi__cnjsub"/></e>
@@ -1350,6 +1361,7 @@
     <e lm="li"><i>li</i><par n="li__prn"/></e>
     <e lm="la"><i>la</i><par n="la__prn"/></e>
     <e lm="lo"><i>lo</i><par n="lo__prn"/></e>
+    <e lm="lu"><i>lu</i><par n="lu__prn"/></e>
 
     <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
     <e lm="bos"><i>bos</i><par n="bos__prn"/></e>
@@ -1358,6 +1370,7 @@
     <e lm="cale"><i>cale</i><par n="cale__prn"/></e>
 
     <e lm="àteru"><i>àter</i><par n="àter/u__prn"/></e>
+    <e lm="àteru" r="LR"><p><l>ater</l><r>àter</r></p><par n="àter/u__prn"/></e>
     <e lm="ambos"><i>amb</i><par n="amb/os__prn"/></e>
 
     <!-- SECTION: Determiners -->
@@ -1374,6 +1387,7 @@
     <e lm="cuddu"><i>cudd</i><par n="cust/u__det"/></e>
 
     <e lm="àteru"><i>àter</i><par n="àter/u__det"/></e>
+    <e lm="àteru" r="LR"><p><l>ater</l><r>àter</r></p><par n="àter/u__det"/></e>
     <e lm="ambos"><i>amb</i><par n="amb/os__det"/></e>
 
     <!-- SECTION: Numerals -->
@@ -1856,6 +1870,8 @@
     <e lm="sighimentu"><i>sighiment</i><par n="mac/u__n"/></e>
     <e lm="tratamentu"><i>tratament</i><par n="mac/u__n"/></e>
     <e lm="artìculu"><i>artìcul</i><par n="mac/u__n"/></e>
+    <e lm="verbu"><i>verb</i><par n="mac/u__n"/></e>
+    <e lm="significu"><i>signific</i><par n="mac/u__n"/></e>
     <e lm="guvernu"><i>guvern</i><par n="mac/u__n"/></e>
     <e lm="guvernu" r="LR"><p><l>govern</l><r>guvern</r></p><par n="mac/u__n"/></e>
     <e lm="grupu"><i>grup</i><par n="mac/u__n"/></e>
@@ -2003,6 +2019,7 @@
 
     <e lm="Nazaret"><i>Nazaret</i><par n="Afganistàn__np"/></e>
     <e lm="Betlem"><i>Betlem</i><par n="Afganistàn__np"/></e>
+    <e lm="New York"><i>New<b/>York</i><par n="Afganistàn__np"/></e>
     <e lm="Napoli"><i>Napoli</i><par n="Afganistàn__np"/></e>
     <e lm="Milano"><i>Milano</i><par n="Afganistàn__np"/></e>
     <e lm="Milanu"><i>Milanu</i><par n="Afganistàn__np"/></e>
@@ -2192,6 +2209,7 @@
     <e lm="milanesu"><i>milanes</i><par n="frantzes/u__adj"/></e>
     <e lm="saharianu"><i>saharian</i><par n="frantzes/u__adj"/></e>
     <e lm="europeu"><i>europe</i><par n="frantzes/u__adj"/></e>
+    <e lm="piemontesu"><i>piemontes</i><par n="frantzes/u__adj"/></e>
     <e lm="otzitanu"><i>otzitan</i><par n="frantzes/u__adj"/></e>
     <e lm="polìticu"><i>polìtic</i><par n="frantzes/u__adj"/></e>
     <e lm="polìticu" r="LR"><p><l>polìtig</l><r>polìtic</r></p><par n="frantzes/u__adj"/></e>
@@ -2200,6 +2218,7 @@
     <e lm="artisticu"><i>artistic</i><par n="frantzes/u__adj"/></e>
     <e lm="istòricu"><i>istòric</i><par n="frantzes/u__adj"/></e>
     <e lm="istòricu" r="LR"><p><l>istoric</l><r>istòric</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="ativu"><i>ativ</i><par n="frantzes/u__adj"/></e>
 
     <e lm="democràticu"><i>democràtic</i><par n="frantzes/u__adj"/></e>
     <e lm="democràticu" r="LR"><p><l>democratic</l><r>democràtic</r></p><par n="frantzes/u__adj"/></e>
@@ -2261,6 +2280,7 @@
     <e lm="si in casu"><i>si<b/>in<b/>casu</i><par n="bene__adv"/></e>
 
     <e lm="bene"><i>bene</i><par n="bene__adv"/></e>
+    <e lm="matessi"><i>matessi</i><par n="bene__adv"/></e>
     <e lm="male"><i>male</i><par n="bene__adv"/></e>
     <e lm="mègius"><i>mègius</i><par n="bene__adv"/></e>
     <e lm="peus"><i>peus</i><par n="bene__adv"/></e>
@@ -2620,6 +2640,7 @@
     <e lm="abèrrere"><i>ab</i><par n="ab/èrrere__vblex"/></e>
     <e lm="cobèrrere"><i>cob</i><par n="ab/èrrere__vblex"/></e>
     <e lm="chèrrere"><i>ch</i><par n="ab/èrrere__vblex"/></e>
+    <e lm="prefèrrere"><i>pref</i><par n="ab/èrrere__vblex"/></e>
 
     <!-- SECTION: Abbreviations -->
 

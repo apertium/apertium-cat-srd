@@ -128,6 +128,7 @@
     <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
@@ -221,7 +222,8 @@
     <e><p><l>democràcia<s n="n"/><s n="f"/></l><r>democratzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>enciclopèdia<s n="n"/><s n="f"/></l><r>entziclopedia<s n="n"/><s n="f"/></r></p></e>
 
-    <e><p><l>est<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>significat<s n="n"/><s n="m"/></l><r>significu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>verb<s n="n"/><s n="m"/></l><r>verbu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>any<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vida<s n="n"/><s n="f"/></l><r>vida<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ocasió<s n="n"/><s n="f"/></l><r>ocasione<s n="n"/><s n="f"/></r></p></e>
@@ -377,7 +379,6 @@
     <e><p><l>socialisme<s n="n"/><s n="m"/></l><r>socialismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>simbolisme<s n="n"/><s n="m"/></l><r>simbolismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>secció<s n="n"/><s n="f"/></l><r>sezione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>est<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>senador<s n="n"/><s n="m"/></l><r>senadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>revolució<s n="n"/><s n="f"/></l><r>rivolutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reducció<s n="n"/><s n="f"/></l><r>riduzione<s n="n"/><s n="f"/></r></p></e>
@@ -567,6 +568,7 @@
     <e><p><l>Mèxic<s n="np"/><s n="top"/></l><r>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Gal·les<s n="np"/><s n="top"/></l><r>Galles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cannes<s n="np"/><s n="top"/></l><r>Cannes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Nova<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Teheran<s n="np"/><s n="top"/></l><r>Teheran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Stanford<s n="np"/><s n="top"/></l><r>Stanford<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Síria<s n="np"/><s n="top"/></l><r>Siria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -716,8 +718,10 @@
     <e><p><l>estudiós<s n="adj"/></l><r>istudiosu<s n="adj"/></r></p></e>
     <e><p><l>mateix<s n="adj"/></l><r>etotu<s n="adj"/></r></p></e>
     <e><p><l>famós<s n="adj"/></l><r>famosu<s n="adj"/></r></p></e>
+    <e><p><l>piemontès<s n="adj"/></l><r>piemontesu<s n="adj"/></r></p></e>
     <e><p><l>federal<s n="adj"/></l><r>federale<s n="adj"/></r></p></e>
     <e><p><l>històric<s n="adj"/></l><r>istòricu<s n="adj"/></r></p></e>
+    <e><p><l>actiu<s n="adj"/></l><r>ativu<s n="adj"/></r></p></e>
     <e><p><l>fort<s n="adj"/></l><r>forte<s n="adj"/></r></p><par n="fort_forte"/></e>
     <e><p><l>francès<s n="adj"/></l><r>frantzesu<s n="adj"/></r></p></e>
     <e><p><l>occità<s n="adj"/></l><r>otzitanu<s n="adj"/></r></p></e>
@@ -770,6 +774,8 @@
     <e><p><l>més<s n="adv"/></l><r>prus<s n="adv"/></r></p></e>
     <e><p><l>avui<s n="adv"/></l><r>oe<s n="adv"/></r></p></e>
     <e><p><l>aquí<s n="adv"/></l><r>inoghe<s n="adv"/></r></p></e>
+    <e><p><l>mateix<s n="adv"/></l><r>matessi<s n="adv"/></r></p></e>
+    <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
 
     <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
     <!--<e><p><l>a<b/>la<b/>vesprada<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>-->
@@ -795,7 +801,7 @@
     <!-- SECTION:  Verbs -->
 
     <e><p><l>ser<s n="vbser"/></l><r>èssere<s n="vblex"/></r></p></e>
-    <!--<e><p><l>estar<s n="vblex"/></l><r>èssere<s n="vblex"/></r></p></e>-->
+    <e><p><l>estar<s n="vblex"/></l><r>istare<s n="vblex"/></r></p></e>
     <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
 
