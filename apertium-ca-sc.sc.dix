@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXkqyx</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXWkqyxw</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -1514,10 +1514,12 @@
     <e lm="afirmatzione"><i>afirmatzione</i><par n="mesa__n"/></e>
     <e lm="affermazione"><i>affermazione</i><par n="mesa__n"/></e>
     <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
+    <e lm="entziclopedia"><i>entziclopedia</i><par n="mesa__n"/></e>
     <e lm="estensione"><i>estensione</i><par n="mesa__n"/></e>
 
     <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
     <e lm="zona"><i>zona</i><par n="mesa__n"/></e>
+    <e lm="ocasione"><i>ocasione</i><par n="mesa__n"/></e>
 
     <e lm="istòria"><i>istòria</i><par n="mesa__n"/></e>
     <e lm="istòria" r="LR"><p><l>istoria</l><r>istòria</r></p><par n="mesa__n"/></e>
@@ -1946,12 +1948,14 @@
     <e lm="mannu"><i>mann</i><par n="frantzes/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="frantzes/u__adj"/></e>
 
+    <e lm="lìberu"><i>lìber</i><par n="frantzes/u__adj"/></e>
     <e lm="biancu"><i>bianc</i><par n="frantzes/u__adj"/></e>
     <e lm="melodiosu"><i>melodios</i><par n="frantzes/u__adj"/></e>
     <e lm="domesticu"><i>domestic</i><par n="frantzes/u__adj"/></e>
     <e lm="alfabèticu"><i>alfabètic</i><par n="frantzes/u__adj"/></e>
     <e lm="frantzesu"><i>frantzes</i><par n="frantzes/u__adj"/></e>
     <e lm="inglesu"><i>ingles</i><par n="frantzes/u__adj"/></e>
+    <e lm="inglesu" r="LR"><p><l>ingres</l><r>ingles</r></p><par n="frantzes/u__adj"/></e>
     <e lm="armenu"><i>armen</i><par n="frantzes/u__adj"/></e>
     <e lm="ungheresu"><i>ungheres</i><par n="frantzes/u__adj"/></e>
     <e lm="persianu"><i>persian</i><par n="frantzes/u__adj"/></e>
@@ -2263,6 +2267,7 @@
     <e lm="frommare"><i>fromm</i><par n="cant/are__vblex"/></e>
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
     <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
+    <e lm="continuare"><i>continu</i><par n="cant/are__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
@@ -2351,9 +2356,10 @@
 
   <section id="apostrophe" type="postblank">
     <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="l’"><p><l>l’</l><r>lo<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="edd’"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
+    <e lm="ind’"><p><l>ind’</l><r>in<s n="pr"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
