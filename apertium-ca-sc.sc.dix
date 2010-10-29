@@ -1610,18 +1610,18 @@
     <e lm="diferèntzia" r="LR"><p><l>differ</l><r>difer</r></p><par n="difer/èntzia__n"/></e>
 
     <e lm="esistèntzia"><i>esist</i><par n="difer/èntzia__n"/></e>
-    <e lm="sapientzia"><i>sapi</i><par n="difer/èntzia__n"/></e>
-    <e lm="penitentzia"><i>penit</i><par n="difer/èntzia__n"/></e>
+    <e lm="sapièntzia"><i>sapi</i><par n="difer/èntzia__n"/></e>
+    <e lm="penitèntzia"><i>penit</i><par n="difer/èntzia__n"/></e>
     <e lm="disubidièntzia"><i>disubidi</i><par n="difer/èntzia__n"/></e>
     <e lm="cunsighèntzia"><i>cunsigh</i><par n="difer/èntzia__n"/></e>
-    <e lm="sequentzia"><i>sequ</i><par n="difer/èntzia__n"/></e>
+    <e lm="sequèntzia"><i>sequ</i><par n="difer/èntzia__n"/></e>
     <e lm="reverèntzia"><i>rever</i><par n="difer/èntzia__n"/></e>
     <e lm="referèntzia"><i>refer</i><par n="difer/èntzia__n"/></e>
-    <e lm="onorificentzia"><i>onorific</i><par n="difer/èntzia__n"/></e>
-    <e lm="obbedientzia"><i>obbedi</i><par n="difer/èntzia__n"/></e>
-    <e lm="influentzia"><i>influ</i><par n="difer/èntzia__n"/></e>
-    <e lm="frequentzia"><i>frequ</i><par n="difer/èntzia__n"/></e>
-    <e lm="esperientzia"><i>esperi</i><par n="difer/èntzia__n"/></e>
+    <e lm="onorificèntzia"><i>onorific</i><par n="difer/èntzia__n"/></e>
+    <e lm="obbedièntzia"><i>obbedi</i><par n="difer/èntzia__n"/></e>
+    <e lm="influèntzia"><i>influ</i><par n="difer/èntzia__n"/></e>
+    <e lm="frequèntzia"><i>frequ</i><par n="difer/èntzia__n"/></e>
+    <e lm="esperièntzia"><i>esperi</i><par n="difer/èntzia__n"/></e>
     <e lm="connoschèntzia"><i>connosch</i><par n="difer/èntzia__n"/></e>
     <e lm="amighèntzia"><i>amigh</i><par n="difer/èntzia__n"/></e>
  
@@ -1652,9 +1652,12 @@
     <e lm="familia" r="LR"><p><l>famiglia</l><r>familia</r></p><par n="mesa__n"/></e>
     <e lm="familia" r="LR"><p><l>familla</l><r>familia</r></p><par n="mesa__n"/></e>
 
-    <e lm="repùbrica"><i>repùbrica</i><par n="mesa__n"/></e>
-    <e lm="repùbrica" r="LR"><p><l>republica</l><r>repùbrica</r></p><par n="mesa__n"/></e>
-    <e lm="repùbrica" r="LR"><p><l>repubblica</l><r>repùbrica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica"><i>repùblica</i><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>republica</l><r>repùblica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>repubblica</l><r>repùblica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>repùbriga</l><r>repùblica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>repùblica</l><r>repùblica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>repúbrica</l><r>repùblica</r></p><par n="mesa__n"/></e>
 
     <e lm="programatzione"><i>programatzione</i><par n="mesa__n"/></e>
 
@@ -1787,6 +1790,7 @@
     <e lm="afirmatzione" r="LR"><p><l>affermazione</l><r>afirmatzione</r></p><par n="mesa__n"/></e>
     <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
     <e lm="entziclopedia"><i>entziclopedia</i><par n="mesa__n"/></e>
+    <e lm="entziclopedia" r="LR"><p><l>enciclopedia</l><r>entziclopedia</r></p><par n="mesa__n"/></e>
     <e lm="estensione"><i>estensione</i><par n="mesa__n"/></e>
 
     <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
@@ -2069,9 +2073,10 @@
     <e lm="Sardigna" r="LR"><p><l>Saldìnia</l><r>Sardigna</r></p><par n="Etiòpia__np"/></e>
     <e lm="Sardigna" r="LR"><p><l>Sardinnya</l><r>Sardigna</r></p><par n="Etiòpia__np"/></e>
 
-    <e lm="Repùbrica Ceca"><i>Repùbrica<b/>Ceca</i><par n="Etiòpia__np"/></e>
-    <e lm="Repùbrica Ceca" r="LR"><p><l>Republica<b/>Ceca</l><r>Repùbrica<b/>Ceca</r></p><par n="Etiòpia__np"/></e>
-    <e lm="Repùbrica Ceca" r="LR"><p><l>Repubblica<b/>Ceca</l><r>Repùbrica<b/>Ceca</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Repùblica Ceca"><i>Repùblica<b/>Ceca</i><par n="Etiòpia__np"/></e>
+    <e lm="Repùblica Ceca" r="LR"><p><l>Republica<b/>Ceca</l><r>Repùblica<b/>Ceca</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Repùblica Ceca" r="LR"><p><l>Repubblica<b/>Ceca</l><r>Repùblica<b/>Ceca</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Repùblica Ceca" r="LR"><p><l>Repùbrica<b/>Ceca</l><r>Repùblica<b/>Ceca</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Ìndia"><i>Ìndia</i><par n="Etiòpia__np"/></e>
     <e lm="Ìndia" r="LR"><p><l>India</l><r>Ìndia</r></p><par n="Etiòpia__np"/></e>
@@ -2101,6 +2106,8 @@
     <e lm="Ucraina"><i>Ucraina</i><par n="Etiòpia__np"/></e>
     <e lm="Siria"><i>Siria</i><par n="Etiòpia__np"/></e>
     <e lm="Romania"><i>Romania</i><par n="Etiòpia__np"/></e>
+    <e lm="Armènia"><i>Armènia</i><par n="Etiòpia__np"/></e>
+    <e lm="Armènia" r="LR"><p><l>Armenia</l><r>Armènia</r></p><par n="Etiòpia__np"/></e>
     <e lm="Georgia"><i>Georgia</i><par n="Etiòpia__np"/></e>
     <e lm="Vienna"><i>Vienna</i><par n="Etiòpia__np"/></e>
     <e lm="Mosca"><i>Mosca</i><par n="Etiòpia__np"/></e>
@@ -2208,6 +2215,93 @@
     <e lm="Federico"><i>Federico</i><par n="Antoni__np"/></e>
     <e lm="Ernest"><i>Ernest</i><par n="Antoni__np"/></e>
     <e lm="Carl"><i>Carl</i><par n="Antoni__np"/></e>
+
+    <e lm="Adolf"><i>Adolf</i><par n="Antoni__np"/></e>
+    <e lm="André"><i>André</i><par n="Antoni__np"/></e>
+    <e lm="Antonio"><i>Antonio</i><par n="Antoni__np"/></e>
+    <e lm="Arthur"><i>Arthur</i><par n="Antoni__np"/></e>
+    <e lm="Augustinus"><i>Augustinus</i><par n="Antoni__np"/></e>
+    <e lm="Augusto"><i>Augusto</i><par n="Antoni__np"/></e>
+    <e lm="Axel"><i>Axel</i><par n="Antoni__np"/></e>
+    <e lm="Barney"><i>Barney</i><par n="Antoni__np"/></e>
+    <e lm="Barry"><i>Barry</i><par n="Antoni__np"/></e>
+    <e lm="Benito"><i>Benito</i><par n="Antoni__np"/></e>
+    <e lm="Bernardo"><i>Bernardo</i><par n="Antoni__np"/></e>
+    <e lm="Bertold"><i>Bertold</i><par n="Antoni__np"/></e>
+    <e lm="Bill"><i>Bill</i><par n="Antoni__np"/></e>
+    <e lm="Billy"><i>Billy</i><par n="Antoni__np"/></e>
+    <e lm="Bonetti"><i>Bonetti</i><par n="Antoni__np"/></e>
+    <e lm="Charles"><i>Charles</i><par n="Antoni__np"/></e>
+    <e lm="Claude"><i>Claude</i><par n="Antoni__np"/></e>
+    <e lm="David"><i>David</i><par n="Antoni__np"/></e>
+    <e lm="Didier"><i>Didier</i><par n="Antoni__np"/></e>
+    <e lm="Donald"><i>Donald</i><par n="Antoni__np"/></e>
+    <e lm="Eddie"><i>Eddie</i><par n="Antoni__np"/></e>
+    <e lm="Edgar"><i>Edgar</i><par n="Antoni__np"/></e>
+    <e lm="Emil"><i>Emil</i><par n="Antoni__np"/></e>
+    <e lm="Ernst"><i>Ernst</i><par n="Antoni__np"/></e>
+    <e lm="Erwin"><i>Erwin</i><par n="Antoni__np"/></e>
+    <e lm="Eugène"><i>Eugène</i><par n="Antoni__np"/></e>
+    <e lm="Eugenio"><i>Eugenio</i><par n="Antoni__np"/></e>
+    <e lm="Fabrizio"><i>Fabrizio</i><par n="Antoni__np"/></e>
+    <e lm="Federicu"><i>Federicu</i><par n="Antoni__np"/></e>
+    <e lm="Francis"><i>Francis</i><par n="Antoni__np"/></e>
+    <e lm="Georg"><i>Georg</i><par n="Antoni__np"/></e>
+    <e lm="Guido"><i>Guido</i><par n="Antoni__np"/></e>
+    <e lm="Guillermu"><i>Guillermu</i><par n="Antoni__np"/></e>
+    <e lm="Harry"><i>Harry</i><par n="Antoni__np"/></e>
+    <e lm="Henry"><i>Henry</i><par n="Antoni__np"/></e>
+    <e lm="Hugh"><i>Hugh</i><par n="Antoni__np"/></e>
+    <e lm="Jaume"><i>Jaume</i><par n="Antoni__np"/></e>
+    <e lm="Jeremy"><i>Jeremy</i><par n="Antoni__np"/></e>
+    <e lm="Jerry"><i>Jerry</i><par n="Antoni__np"/></e>
+    <e lm="Jethro"><i>Jethro</i><par n="Antoni__np"/></e>
+    <e lm="Jimmy"><i>Jimmy</i><par n="Antoni__np"/></e>
+    <e lm="Joe"><i>Joe</i><par n="Antoni__np"/></e>
+    <e lm="Johann"><i>Johann</i><par n="Antoni__np"/></e>
+    <e lm="John"><i>John</i><par n="Antoni__np"/></e>
+    <e lm="Josè"><i>Josè</i><par n="Antoni__np"/></e>
+    <e lm="Julian"><i>Julian</i><par n="Antoni__np"/></e>
+    <e lm="Justin"><i>Justin</i><par n="Antoni__np"/></e>
+    <e lm="Kenny"><i>Kenny</i><par n="Antoni__np"/></e>
+    <e lm="Kurt"><i>Kurt</i><par n="Antoni__np"/></e>
+    <e lm="Larry"><i>Larry</i><par n="Antoni__np"/></e>
+    <e lm="Leonardo"><i>Leonardo</i><par n="Antoni__np"/></e>
+    <e lm="Leopold"><i>Leopold</i><par n="Antoni__np"/></e>
+    <e lm="Lionel"><i>Lionel</i><par n="Antoni__np"/></e>
+    <e lm="Louis"><i>Louis</i><par n="Antoni__np"/></e>
+    <e lm="Luca"><i>Luca</i><par n="Antoni__np"/></e>
+    <e lm="Luigi"><i>Luigi</i><par n="Antoni__np"/></e>
+    <e lm="Martin"><i>Martin</i><par n="Antoni__np"/></e>
+    <e lm="Max"><i>Max</i><par n="Antoni__np"/></e>
+    <e lm="Mike"><i>Mike</i><par n="Antoni__np"/></e>
+    <e lm="Muhammad"><i>Muhammad</i><par n="Antoni__np"/></e>
+    <e lm="Murat"><i>Murat</i><par n="Antoni__np"/></e>
+    <e lm="Nicholas"><i>Nicholas</i><par n="Antoni__np"/></e>
+    <e lm="Nicolas"><i>Nicolas</i><par n="Antoni__np"/></e>
+    <e lm="Noam"><i>Noam</i><par n="Antoni__np"/></e>
+    <e lm="Oliver"><i>Oliver</i><par n="Antoni__np"/></e>
+    <e lm="Pasquale"><i>Pasquale</i><par n="Antoni__np"/></e>
+    <e lm="Paulu"><i>Paulu</i><par n="Antoni__np"/></e>
+    <e lm="Philippe"><i>Philippe</i><par n="Antoni__np"/></e>
+    <e lm="Raoul"><i>Raoul</i><par n="Antoni__np"/></e>
+    <e lm="Raymond"><i>Raymond</i><par n="Antoni__np"/></e>
+    <e lm="Reginaldo"><i>Reginaldo</i><par n="Antoni__np"/></e>
+    <e lm="Richard"><i>Richard</i><par n="Antoni__np"/></e>
+    <e lm="Roy"><i>Roy</i><par n="Antoni__np"/></e>
+    <e lm="Russell"><i>Russell</i><par n="Antoni__np"/></e>
+    <e lm="Ryan"><i>Ryan</i><par n="Antoni__np"/></e>
+    <e lm="Scott"><i>Scott</i><par n="Antoni__np"/></e>
+    <e lm="Teddy"><i>Teddy</i><par n="Antoni__np"/></e>
+    <e lm="Thomas"><i>Thomas</i><par n="Antoni__np"/></e>
+    <e lm="Timmy"><i>Timmy</i><par n="Antoni__np"/></e>
+    <e lm="Tony"><i>Tony</i><par n="Antoni__np"/></e>
+    <e lm="Wassilij"><i>Wassilij</i><par n="Antoni__np"/></e>
+    <e lm="Wilber"><i>Wilber</i><par n="Antoni__np"/></e>
+    <e lm="Wilhelm"><i>Wilhelm</i><par n="Antoni__np"/></e>
+    <e lm="William"><i>William</i><par n="Antoni__np"/></e>
+    <e lm="Will"><i>Will</i><par n="Antoni__np"/></e>
+
 
     <e lm="Maria"><i>Maria</i><par n="Maria__np"/></e>
     <e lm="Teresa"><i>Teresa</i><par n="Maria__np"/></e>
