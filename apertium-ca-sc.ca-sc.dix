@@ -131,10 +131,12 @@
     <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
@@ -257,6 +259,7 @@
     <e><p><l>territori<s n="n"/><s n="m"/></l><r>territoriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>llibre<s n="n"/><s n="m"/></l><r>liberu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sistema<s n="n"/><s n="m"/></l><r>sistema<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>oest<s n="n"/><s n="m"/></l><r>ovest<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moviment<s n="n"/><s n="m"/></l><r>movimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guerra<s n="n"/><s n="f"/></l><r>gherra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ortografia<s n="n"/><s n="f"/></l><r>ortografia<s n="n"/><s n="f"/></r></p></e>
@@ -891,6 +894,8 @@
 
     <e><p><l>com<s n="adv"/></l><r>comente<s n="adv"/></r></p></e>
 
+    <e><p><l>encara<s n="adv"/></l><r>galu<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>encara<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
     <e><p><l>millor<s n="adv"/></l><r>mègius<s n="adv"/></r></p></e>
     <e><p><l>més<s n="adv"/></l><r>prus<s n="adv"/></r></p></e>
     <e><p><l>avui<s n="adv"/></l><r>oe<s n="adv"/></r></p></e>
@@ -1081,6 +1086,8 @@
     <e><p><l>adoptar<s n="vblex"/></l><r>adotare<s n="vblex"/></r></p></e>
     <e><p><l>confrontar<s n="vblex"/></l><r>acarare<s n="vblex"/></r></p></e>
     <e><p><l>habitar<s n="vblex"/></l><r>abitare<s n="vblex"/></r></p></e>
+    <e><p><l>confinar<s n="vblex"/></l><r>alindare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>confinar<s n="vblex"/></l><r>cunfinare<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>

@@ -228,8 +228,8 @@
       <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="lu__prn" c="">
-      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+    <pardef n="bi__prn" c="">
+      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="li__prn" c="p.18 / 105">
@@ -242,9 +242,9 @@
       <e>       <p><l>s</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="lo__prn" c="p.18 / 105">
-      <e>       <p><l></l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>s</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <pardef n="l/u__prn" c="p.18 / 105">
+      <e>       <p><l>u</l><r>u<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="si__prn" c="p.20 / 105">
@@ -437,8 +437,10 @@
     </pardef>
 
     <pardef n="tu/o__adj" c="p.29">
+      <e r="LR"><p><l>u</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>o</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>us</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>os</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1348,6 +1350,7 @@
     <e lm="comente" r="LR"><p><l>commenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
 
     <e lm="cando"><i>cando</i><par n="chi__cnjsub"/></e>
+    <e lm="cando" r="LR"><p><l>candu</l><r>cando</r></p><par n="chi__cnjsub"/></e>
     <e lm="pro ite"><i>pro<b/>ite</i><par n="chi__cnjsub"/></e>
     <e lm="cantu"><i>cantu</i><par n="chi__cnjsub"/></e>
     <e lm="ca"><i>ca</i><par n="chi__cnjsub"/></e>
@@ -1428,10 +1431,15 @@
     <e lm="ti"><i>ti</i><par n="ti__prn"/></e>
     <e lm="si"><i>si</i><par n="si__prn"/></e>
 
+    <e lm="bi"><i>bi</i><par n="bi__prn"/></e>
+
     <e lm="li"><i>li</i><par n="li__prn"/></e>
+    <e lm="li" r="LR"><p><l>ddi</l><r>li</r></p><par n="li__prn"/></e>
+
     <e lm="la"><i>la</i><par n="la__prn"/></e>
-    <e lm="lo"><i>lo</i><par n="lo__prn"/></e>
-    <e lm="lu"><i>lu</i><par n="lu__prn"/></e>
+    <e lm="la" r="LR"><p><l>dda</l><r>la</r></p><par n="la__prn"/></e>
+    <e lm="lu"><i>l</i><par n="l/u__prn"/></e>
+    <e lm="lu" r="LR"><p><l>dd</l><r>l</r></p><par n="l/u__prn"/></e>
 
     <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
     <e lm="bos"><i>bos</i><par n="bos__prn"/></e>
@@ -1452,6 +1460,7 @@
     <e lm="unu"><i>un</i><par n="un/u__det"/></e>
 
     <e lm="totu"><i>tot</i><par n="un/u__det"/></e>
+    <e lm="totu" r="LR"><p><l>tott</l><r>tot</r></p><par n="un/u__det"/></e> <!-- @!LSC -->
 
     <e lm="issoro"><i>issoro</i><par n="issoro__det"/></e>
 
@@ -1573,6 +1582,8 @@
     <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
     <e lm="duchessa"><i>duchessa</i><par n="mesa__n"/></e>
     <e lm="epoca"><i>epoca</i><par n="mesa__n"/></e>
+    <e lm="òpera"><i>òpera</i><par n="mesa__n"/></e>
+    <e lm="òpera" r="LR"><p><l>opera</l><r>òpera</r></p><par n="mesa__n"/></e>
 
     <e lm="paràula"><i>paràula</i><par n="mesa__n"/></e>
     <e lm="paràula" r="LR"><p><l>peraula</l><r>paràula</r></p><par n="mesa__n"/></e>
@@ -1656,7 +1667,7 @@
     <e lm="repùblica" r="LR"><p><l>republica</l><r>repùblica</r></p><par n="mesa__n"/></e>
     <e lm="repùblica" r="LR"><p><l>repubblica</l><r>repùblica</r></p><par n="mesa__n"/></e>
     <e lm="repùblica" r="LR"><p><l>repùbriga</l><r>repùblica</r></p><par n="mesa__n"/></e>
-    <e lm="repùblica" r="LR"><p><l>repùblica</l><r>repùblica</r></p><par n="mesa__n"/></e>
+    <e lm="repùblica" r="LR"><p><l>repùbrica</l><r>repùblica</r></p><par n="mesa__n"/></e>
     <e lm="repùblica" r="LR"><p><l>repúbrica</l><r>repùblica</r></p><par n="mesa__n"/></e>
 
     <e lm="programatzione"><i>programatzione</i><par n="mesa__n"/></e>
@@ -1931,6 +1942,7 @@
     <e lm="nord"><i>nord</i><par n="anarchismu__n"/></e>
     <e lm="sud"><i>sud</i><par n="anarchismu__n"/></e>
     <e lm="occidente"><i>occidente</i><par n="anarchismu__n"/></e>
+    <e lm="ovest"><i>ovest</i><par n="anarchismu__n"/></e>
     <e lm="oriente"><i>oriente</i><par n="anarchismu__n"/></e>
 
 
@@ -1945,6 +1957,8 @@
     <e lm="campu"><i>camp</i><par n="mac/u__n"/></e>
     <e lm="perìudu"><i>perìud</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
+    <e lm="regnu"><i>regn</i><par n="mac/u__n"/></e>
+    <e lm="regnu" r="LR"><p><l>renn</l><r>regn</r></p><par n="mac/u__n"/></e>
     <e lm="mercadu"><i>mercad</i><par n="mac/u__n"/></e>
     <e lm="porcu"><i>porc</i><par n="mac/u__n"/></e>
     <e lm="politecnicu"><i>politecnic</i><par n="mac/u__n"/></e>
@@ -2015,6 +2029,7 @@
     <e lm="frigorìferu"><i>frigorìfer</i><par n="mac/u__n"/></e>
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
     <e lm="cussìgiu"><i>cussìgi</i><par n="mac/u__n"/></e>
+    <e lm="puntu"><i>punt</i><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
@@ -2347,6 +2362,7 @@
     <e lm="meu" r="LR"><p><l>mi</l><r>me</r></p><par n="me/u__adj"/></e>
     <e lm="tuo"><i>tu</i><par n="tu/o__adj"/></e>
     <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
+    <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
     <e lm="nostru"><i>nostr</i><par n="me/u__adj"/></e>
     <e lm="bostru"><i>bostr</i><par n="me/u__adj"/></e>
 
@@ -2457,6 +2473,7 @@
     <e lm="otzidentale"><i>otzidentale</i><par n="triste__adj"/></e>
     <e lm="tzentrale"><i>tzentrale</i><par n="triste__adj"/></e>
     <e lm="sud-otzidentale"><i>sud-otzidentale</i><par n="triste__adj"/></e>
+    <e lm="populare"><i>populare</i><par n="triste__adj"/></e>
 
     <e lm="ufitziale"><i>ufitziale</i><par n="triste__adj"/></e>
     <e lm="ufitziale" r="LR"><p><l>uffitziale</l><r>ufitziale</r></p><par n="triste__adj"/></e>
@@ -2474,10 +2491,12 @@
     <e lm="ue"><i>ue</i><par n="cando__adv"/></e>
     <e lm="inue"><i>inue</i><par n="cando__adv"/></e> <!-- ? -->
     <e lm="cando"><i>cando</i><par n="cando__adv"/></e>
+    <e lm="cando" r="LR"><p><l>candu</l><r>cando</r></p><par n="cando__adv"/></e>
     <e lm="cantu"><i>cantu</i><par n="cando__adv"/></e>
     <e lm="pro ite"><i>pro<b/>ite</i><par n="cando__adv"/></e>
     <e lm="chie"><i>chie</i><par n="cando__adv"/></e>
 
+    <e lm="ancora"><i>ancora</i><par n="bene__adv"/></e>
     <e lm="tantu"><i>tantu</i><par n="bene__adv"/></e>
     <e lm="cantu"><i>cantu</i><par n="bene__adv"/></e>
     <e lm="prus"><i>prus</i><par n="bene__adv"/></e>
@@ -2488,6 +2507,7 @@
     <e lm="puru"><i>puru</i><par n="bene__adv"/></e>
     <e lm="no"><i></i><par n="/no__adv"/></e>
     <e lm="semper"><i>semper</i><par n="bene__adv"/></e>
+    <e lm="sempre" r="LR"><p><l>sempre</l><r>semper</r></p><par n="bene__adv"/></e>
     <e lm="nono"><i>nono</i><par n="bene__adv"/></e>
     <e lm="in nudda"><i>in<b/>nudda</i><par n="bene__adv"/></e>
     <e lm="nemmancu"><i>nemmancu</i><par n="bene__adv"/></e>
@@ -2592,7 +2612,6 @@
     <e lm="pagu prus o mancu"><i>pagu<b/>prus<b/>o<b/>mancu</i><par n="bene__adv"/></e>
     <e lm="de prus"><i>de<b/>prus</i><par n="bene__adv"/></e>
     <e lm="in prus"><i>in<b/>prus</i><par n="bene__adv"/></e>
-    <e lm="galu"><i>galu</i><par n="bene__adv"/></e>
     <e lm="finas"><i>finas</i><par n="bene__adv"/></e>
     <e lm="prus pagu"><i>prus<b/>pagu</i><par n="bene__adv"/></e>
     <e lm="a su nessi"><i>a<b/>su<b/>nessi</i><par n="bene__adv"/></e>
@@ -2799,6 +2818,8 @@
     <e lm="megiorare"><i>megior</i><par n="cant/are__vblex"/></e>
     <e lm="invitare"><i>invit</i><par n="cant/are__vblex"/></e>
     <e lm="cumbidare"><i>cumbid</i><par n="cant/are__vblex"/></e>
+    <e lm="cunfinare"><i>cunfin</i><par n="cant/are__vblex"/></e>
+    <e lm="alindare"><i>alind</i><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
@@ -2913,11 +2934,14 @@
   <section id="apostrophe" type="postblank">
     <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="l’"><p><l>l’</l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="l’"><p><l>l’</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="dd’"><p><l>dd’</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="edd’"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
     <e lm="ind’"><p><l>ind’</l><r>in<s n="pr"/></r></p></e>
     <e lm="d’"><p><l>d’</l><r>de<s n="pr"/></r></p></e>
+    <e lm="nd’"><p><l>nd’</l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e lm="cuss’"><p><l>cuss’</l><r>cussu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="b’"><p><l>b’</l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
