@@ -131,6 +131,7 @@
     <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -236,6 +237,8 @@
     <e><p><l>significat<s n="n"/><s n="m"/></l><r>significu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>amic<s n="n"/><s n="m"/></l><r>amigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>amic<s n="n"/><s n="f"/></l><r>amigu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arquitecte<s n="n"/><s n="m"/></l><r>architetu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arquitecte<s n="n"/><s n="f"/></l><r>architetu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>verb<s n="n"/><s n="m"/></l><r>verbu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>any<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vida<s n="n"/><s n="f"/></l><r>vida<s n="n"/><s n="f"/></r></p></e>
@@ -587,7 +590,7 @@
     <e><p><l>Liechtenstein<s n="np"/><s n="top"/></l><r>Liechtenstein<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Santiago<s n="np"/><s n="top"/></l><r>Santiago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Pennsilvània<s n="np"/><s n="top"/></l><r>Pennsylvania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>República<b/>Txeca<s n="np"/><s n="top"/></l><r>Repúbrica<b/>Ceca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>República<b/>Txeca<s n="np"/><s n="top"/></l><r>Repùbrica<b/>Ceca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>Àsia<s n="np"/><s n="top"/></l><r>Asia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Mèxic<s n="np"/><s n="top"/></l><r>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -846,7 +849,7 @@
     <e><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
     <e><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
     <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
-    <e><p><l>viure<s n="vblex"/></l><r>bìvire<s n="vblex"/></r></p></e>
+    <e><p><l>viure<s n="vblex"/></l><r>bìvere<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>naschere<s n="vblex"/></r></p></e>

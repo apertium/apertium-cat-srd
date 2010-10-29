@@ -356,6 +356,13 @@
       <e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
+    <pardef n="difer/èntzia__n">
+      <e>       <p><l>èntzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>èntzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>entzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>entzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+ 
     <pardef n="mac/u__n">
       <e>       <p><l>u</l><r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1580,9 +1587,9 @@
     <e lm="sub-regione"><i>sub-regione</i><par n="mesa__n"/></e>
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
     <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
-    <e lm="presentzia"><i>presentzia</i><par n="mesa__n"/></e>
-    <e lm="currespundèntzia"><i>currespundèntzia</i><par n="mesa__n"/></e>
-    <e lm="avertèntzia"><i>avertèntzia</i><par n="mesa__n"/></e>
+    <e lm="presèntzia"><i>pres</i><par n="difer/èntzia__n"/></e>
+    <e lm="currespundèntzia"><i>currespund</i><par n="difer/èntzia__n"/></e>
+    <e lm="avertèntzia"><i>avert</i><par n="difer/èntzia__n"/></e>
     <e lm="sercunstàntzia"><i>sercunstàntzia</i><par n="mesa__n"/></e>
     <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
     <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
@@ -1593,33 +1600,30 @@
     <e lm="iscola"><i>iscola</i><par n="mesa__n"/></e>
     <e lm="iscola" r="LR"><p><l>scola</l><r>iscola</r></p><par n="mesa__n"/></e>
 
-    <e lm="esistèntzia"><i>esistèntzia</i><par n="mesa__n"/></e>
 
-    <e lm="iscièntzia"><i>iscièntzia</i><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>iscentzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>iscientzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>sièntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>iscèntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
-    <e lm="iscientzia" r="LR"><p><l>scèntzia</l><r>iscièntzia</r></p><par n="mesa__n"/></e>
+    <e lm="iscièntzia"><i>isci</i><par n="difer/èntzia__n"/></e>
+    <e lm="iscièntzia" r="LR"><p><l>isc</l><r>isci</r></p><par n="difer/èntzia__n"/></e>
+    <e lm="iscièntzia" r="LR"><p><l>si</l><r>isci</r></p><par n="difer/èntzia__n"/></e>
+    <e lm="iscièntzia" r="LR"><p><l>sc</l><r>isci</r></p><par n="difer/èntzia__n"/></e>
 
-    <e lm="diferèntzia"><i>diferèntzia</i><par n="mesa__n"/></e>
-    <e lm="diferèntzia" r="LR"><p><l>diferentzia</l><r>diferèntzia</r></p><par n="mesa__n"/></e>
-    <e lm="diferèntzia" r="LR"><p><l>differentzia</l><r>diferèntzia</r></p><par n="mesa__n"/></e>
+    <e lm="diferèntzia"><i>difer</i><par n="difer/èntzia__n"/></e>
+    <e lm="diferèntzia" r="LR"><p><l>differ</l><r>difer</r></p><par n="difer/èntzia__n"/></e>
 
-    <e lm="sapientzia"><i>sapientzia</i><par n="mesa__n"/></e>
-    <e lm="penitentzia"><i>penitentzia</i><par n="mesa__n"/></e>
-    <e lm="disubidièntzia"><i>disubidièntzia</i><par n="mesa__n"/></e>
-    <e lm="cunsighèntzia"><i>cunsighèntzia</i><par n="mesa__n"/></e>
-    <e lm="sequentzia"><i>sequentzia</i><par n="mesa__n"/></e>
-    <e lm="reverèntzia"><i>reverèntzia</i><par n="mesa__n"/></e>
-    <e lm="referèntzia"><i>referèntzia</i><par n="mesa__n"/></e>
-    <e lm="onorificentzia"><i>onorificentzia</i><par n="mesa__n"/></e>
-    <e lm="obbedientzia"><i>obbedientzia</i><par n="mesa__n"/></e>
-    <e lm="influentzia"><i>influentzia</i><par n="mesa__n"/></e>
-    <e lm="frequentzia"><i>frequentzia</i><par n="mesa__n"/></e>
-    <e lm="esperientzia"><i>esperientzia</i><par n="mesa__n"/></e>
-    <e lm="connoschèntzia"><i>connoschèntzia</i><par n="mesa__n"/></e>
-    <e lm="amighèntzia"><i>amighèntzia</i><par n="mesa__n"/></e>
+    <e lm="esistèntzia"><i>esist</i><par n="difer/èntzia__n"/></e>
+    <e lm="sapientzia"><i>sapi</i><par n="difer/èntzia__n"/></e>
+    <e lm="penitentzia"><i>penit</i><par n="difer/èntzia__n"/></e>
+    <e lm="disubidièntzia"><i>disubidi</i><par n="difer/èntzia__n"/></e>
+    <e lm="cunsighèntzia"><i>cunsigh</i><par n="difer/èntzia__n"/></e>
+    <e lm="sequentzia"><i>sequ</i><par n="difer/èntzia__n"/></e>
+    <e lm="reverèntzia"><i>rever</i><par n="difer/èntzia__n"/></e>
+    <e lm="referèntzia"><i>refer</i><par n="difer/èntzia__n"/></e>
+    <e lm="onorificentzia"><i>onorific</i><par n="difer/èntzia__n"/></e>
+    <e lm="obbedientzia"><i>obbedi</i><par n="difer/èntzia__n"/></e>
+    <e lm="influentzia"><i>influ</i><par n="difer/èntzia__n"/></e>
+    <e lm="frequentzia"><i>frequ</i><par n="difer/èntzia__n"/></e>
+    <e lm="esperientzia"><i>esperi</i><par n="difer/èntzia__n"/></e>
+    <e lm="connoschèntzia"><i>connosch</i><par n="difer/èntzia__n"/></e>
+    <e lm="amighèntzia"><i>amigh</i><par n="difer/èntzia__n"/></e>
  
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
@@ -1703,6 +1707,7 @@
     <e lm="persecutzione" r="LR"><p><l>persecutzione</l><r>perzecutzione</r></p><par n="mesa__n"/></e>
 
     <e lm="perfetzione"><i>perfetzione</i><par n="mesa__n"/></e>
+    <e lm="architetura"><i>architetura</i><par n="mesa__n"/></e>
 
     <e lm="oppositzione"><i>oppositzione</i><par n="mesa__n"/></e>
     <e lm="occupazione"><i>occupazione</i><par n="mesa__n"/></e>
@@ -1817,8 +1822,8 @@
     <e lm="morte"><i>morte</i><par n="mesa__n"/></e>
     <e lm="protesta"><i>protesta</i><par n="mesa__n"/></e>
     <e lm="religione"><i>religione</i><par n="mesa__n"/></e>
-    <e lm="resistèntzia"><i>resistèntzia</i><par n="mesa__n"/></e>
-    <e lm="residentzia"><i>residentzia</i><par n="mesa__n"/></e>
+    <e lm="resistèntzia"><i>resist</i><par n="difer/èntzia__n"/></e>
+    <e lm="residèntzia"><i>resid</i><par n="difer/èntzia__n"/></e>
     <e lm="provìntzia"><i>provìntzia</i><par n="mesa__n"/></e>
     <e lm="provìntzia" r="LR"><p><l>provintzia</l><r>provìntzia</r></p><par n="mesa__n"/></e>
     <e lm="linguìstica"><i>linguìstica</i><par n="mesa__n"/></e>
@@ -1846,8 +1851,7 @@
     <e lm="origine"><i>origine</i><par n="mesa__n"/></e>
     <e lm="ferrovia"><i>ferrovia</i><par n="mesa__n"/></e>
 
-    <e lm="indipendèntzia"><i>indipendèntzia</i><par n="mesa__n"/></e>
-    <e lm="indipendèntzia" r="LR"><p><l>indipendentzia</l><r>indipendèntzia</r></p><par n="mesa__n"/></e>
+    <e lm="indipendèntzia"><i>indipend</i><par n="difer/èntzia__n"/></e>
 
     <e lm="attivista"><i>attivista</i><par n="dentista__n"/></e>
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
@@ -2013,6 +2017,7 @@
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
 
     <e lm="amigu"><i>amig</i><par n="amig/u__n"/></e>
+    <e lm="architetu"><i>architet</i><par n="amig/u__n"/></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -2111,7 +2116,8 @@
     <e lm="Algèria"><i>Algèria</i><par n="Etiòpia__np"/></e>
     <e lm="Tracia"><i>Tracia</i><par n="Etiòpia__np"/></e>
     <e lm="Aragona"><i>Aragona</i><par n="Etiòpia__np"/></e>
-    <e lm="Valentzia"><i>Valentzia</i><par n="Etiòpia__np"/></e>
+    <e lm="Valèntzia"><i>Valèntzia</i><par n="Etiòpia__np"/></e>
+    <e lm="Valèntzia" r="LR"><p><l>Valentzia</l><r>Valèntzia</r></p><par n="Etiòpia__np"/></e>
     <e lm="Andorra"><i>Andorra</i><par n="Etiòpia__np"/></e>
     <e lm="Mesopotamia"><i>Mesopotamia</i><par n="Etiòpia__np"/></e>
     <e lm="Franja de Ponent"><i>Franja<b/>de<b/>Ponent</i><par n="Etiòpia__np"/></e>
@@ -2607,7 +2613,7 @@
     <e lm="presentare"><i>present</i><par n="cant/are__vblex"/></e>
     <e lm="organizare"><i>organiz</i><par n="cant/are__vblex"/></e>
     <e lm="formare"><i>form</i><par n="cant/are__vblex"/></e>
-    <e lm="formare" r="LR"><p><l>fromm</l><r>formare</r></p><par n="cant/are__vblex"/></e>
+    <e lm="formare" r="LR"><p><l>fromm</l><r>form</r></p><par n="cant/are__vblex"/></e>
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
     <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
     <e lm="continuare"><i>continu</i><par n="cant/are__vblex"/></e>
@@ -2813,7 +2819,7 @@
   <section id="apostrophe" type="postblank">
     <e lm="s’"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="un’"><p><l>un’</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="l’"><p><l>l’</l><r>lo<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="l’"><p><l>l’</l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="edd’"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
     <e lm="ind’"><p><l>ind’</l><r>in<s n="pr"/></r></p></e>
     <e lm="d’"><p><l>d’</l><r>de<s n="pr"/></r></p></e>
