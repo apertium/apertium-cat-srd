@@ -247,6 +247,7 @@
     <e><p><l>ocasió<s n="n"/><s n="f"/></l><r>ocasione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ciutat<s n="n"/><s n="f"/></l><r>tzitade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>món<s n="n"/><s n="m"/></l><r>mundu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rellotge<s n="n"/><s n="m"/></l><r>relogiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cançó<s n="n"/><s n="f"/></l><r>cantone<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>història<s n="n"/><s n="f"/></l><r>istòria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>budisme<s n="n"/><s n="m"/></l><r>buddhismu<s n="n"/><s n="m"/></r></p></e>
@@ -309,6 +310,7 @@
     <e><p><l>mort<s n="n"/><s n="f"/></l><r>morte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cosa<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>energia<s n="n"/><s n="f"/></l><r>energia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>edició<s n="n"/><s n="f"/></l><r>editzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>origen<s n="n"/><s n="m"/></l><r>origine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>música<s n="n"/><s n="f"/></l><r>mùsica<s n="n"/><s n="f"/></r></p></e>
@@ -325,6 +327,8 @@
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>momentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>metre<s n="n"/><s n="m"/></l><r>metru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>mama<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>màquina<s n="n"/><s n="f"/></l><r>màchina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>volta<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>illa<s n="n"/><s n="f"/></l><r>ìsula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>instrument<s n="n"/><s n="m"/></l><r>istrumentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>documental<s n="n"/><s n="m"/></l><r>documentariu<s n="n"/><s n="m"/></r></p></e>
@@ -338,7 +342,8 @@
     <e><p><l>periodista<s n="n"/><s n="mf"/></l><r>giornalista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>colònia<s n="n"/><s n="f"/></l><r>colonia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>carrer<s n="n"/><s n="m"/></l><r>carriera<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>ordinador<s n="n"/><s n="m"/></l><r>carculadore<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>ordinador<s n="n"/><s n="m"/></l><r>carculadore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ordinador<s n="n"/><s n="m"/></l><r>elaboradore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biblioteca<s n="n"/><s n="f"/></l><r>biblioteca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>violència<s n="n"/><s n="f"/></l><r>violèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>advertència<s n="n"/><s n="f"/></l><r>avertèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -829,6 +834,7 @@
     <e><p><l>complex<s n="adj"/></l><r>complessu<s n="adj"/></r></p></e>
     <e><p><l>contrari<s n="adj"/></l><r>contrariu<s n="adj"/></r></p></e>
     <e><p><l>cristià<s n="adj"/></l><r>cristianu<s n="adj"/></r></p></e>
+    <e><p><l>personal<s n="adj"/></l><r>personale<s n="adj"/></r></p></e>
     <e><p><l>democràtic<s n="adj"/></l><r>democràticu<s n="adj"/></r></p></e>
     <e><p><l>distint<s n="adj"/></l><r>distintu<s n="adj"/></r></p></e>
     <e><p><l>divers<s n="adj"/></l><r>diversu<s n="adj"/></r></p></e>
@@ -1089,6 +1095,10 @@
     <e><p><l>habitar<s n="vblex"/></l><r>abitare<s n="vblex"/></r></p></e>
     <e><p><l>confinar<s n="vblex"/></l><r>alindare<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>confinar<s n="vblex"/></l><r>cunfinare<s n="vblex"/></r></p></e>
+    <e><p><l>integrar<s n="vblex"/></l><r>integrare<s n="vblex"/></r></p></e>
+    <e><p><l>consumar<s n="vblex"/></l><r>consumare<s n="vblex"/></r></p></e>
+    <e><p><l>traduir<s n="vblex"/></l><r>bortare<s n="vblex"/></r></p></e>
+    <e><p><l>existir<s n="vblex"/></l><r>esistire<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
