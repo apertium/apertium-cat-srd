@@ -1361,6 +1361,7 @@
     <e lm="pro chi"><i>pro<b/>chi</i><par n="chi__cnjsub"/></e>
     <e lm="sende chi"><i>sende<b/>chi</i><par n="chi__cnjsub"/></e>
     <e lm="mancari"><i>mancari</i><par n="chi__cnjsub"/></e>
+    <e lm="mancari chi"><i>mancari<b/>chi</i><par n="chi__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -1866,6 +1867,8 @@
     <e lm="mariposa"><i>mariposa</i><par n="mesa__n"/></e>
     <e lm="origine"><i>origine</i><par n="mesa__n"/></e>
     <e lm="ferrovia"><i>ferrovia</i><par n="mesa__n"/></e>
+    <e lm="màchina"><i>màchina</i><par n="mesa__n"/></e>
+    <e lm="màchina" r="LR"><p><l>machina</l><r>màchina</r></p><par n="mesa__n"/></e>
 
     <e lm="indipendèntzia"><i>indipend</i><par n="difer/èntzia__n"/></e>
 
@@ -1954,9 +1957,11 @@
 
 
     <e lm="macu"><i>mac</i><par n="mac/u__n"/></e>
+    <e lm="àbacu"><i>àbac</i><par n="mac/u__n"/></e>
     <e lm="liberu"><i>liber</i><par n="mac/u__n"/></e>
     <e lm="maridu"><i>marid</i><par n="mac/u__n"/></e>
     <e lm="partidu"><i>partid</i><par n="mac/u__n"/></e>
+    <e lm="aeroplanu"><i>aeroplan</i><par n="mac/u__n"/></e>
     <e lm="caddu"><i>cadd</i><par n="mac/u__n"/></e>
     <e lm="metru"><i>metr</i><par n="mac/u__n"/></e>
     <e lm="centru"><i>centr</i><par n="mac/u__n"/></e>
@@ -1983,6 +1988,7 @@
     <e lm="sunfrimentu"><i>sunfriment</i><par n="mac/u__n"/></e>
     <e lm="acadessimentu"><i>acadessiment</i><par n="mac/u__n"/></e>
     <e lm="acumpangiamentu"><i>acumpangiament</i><par n="mac/u__n"/></e>
+    <e lm="tzircuidu"><i>tzircuid</i><par n="mac/u__n"/></e>
     <e lm="acumprimentu"><i>acumpriment</i><par n="mac/u__n"/></e>
     <e lm="acuntessimentu"><i>acuntessiment</i><par n="mac/u__n"/></e>
     <e lm="argumentu"><i>argument</i><par n="mac/u__n"/></e>
@@ -2021,6 +2027,7 @@
     <e lm="viaggiu"><i>viaggi</i><par n="mac/u__n"/></e>
     <e lm="calendàriu"><i>calendàri</i><par n="mac/u__n"/></e>
     <e lm="arcipelagu"><i>arcipelag</i><par n="mac/u__n"/></e>
+    <e lm="limbagiu"><i>limbagi</i><par n="mac/u__n"/></e>
     <e lm="edificiu"><i>edifici</i><par n="mac/u__n"/></e>
     <e lm="santu"><i>sant</i><par n="mac/u__n"/></e>
     <e lm="ispiritu"><i>ispirit</i><par n="mac/u__n"/></e>
@@ -2041,6 +2048,8 @@
     <e lm="traballu" r="LR"><p><l>trabagli</l><r>traball</r></p><par n="mac/u__n"/></e>
     <e lm="tìtulu"><i>tìtul</i><par n="mac/u__n"/></e>
     <e lm="tìtulu" r="LR"><p><l>titul</l><r>tìtul</r></p><par n="mac/u__n"/></e>
+    <e lm="nùmeru"><i>nùmer</i><par n="mac/u__n"/></e>
+    <e lm="nùmeru" r="LR"><p><l>numer</l><r>nùmer</r></p><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
@@ -2469,6 +2478,8 @@
     <e lm="istòricu" r="LR"><p><l>istoric</l><r>istòric</r></p><par n="frantzes/u__adj"/></e>
     <e lm="ativu"><i>ativ</i><par n="frantzes/u__adj"/></e>
     <e lm="antigu"><i>antig</i><par n="frantzes/u__adj"/></e>
+    <e lm="binariu"><i>binari</i><par n="frantzes/u__adj"/></e>
+    <e lm="poderosu"><i>poderos</i><par n="frantzes/u__adj"/></e>
 
     <e lm="democràticu"><i>democràtic</i><par n="frantzes/u__adj"/></e>
     <e lm="democràticu" r="LR"><p><l>democratic</l><r>democràtic</r></p><par n="frantzes/u__adj"/></e>
@@ -2479,6 +2490,7 @@
     <e lm="forte"><i>forte</i><par n="triste__adj"/></e>
     <e lm="culturale"><i>culturale</i><par n="triste__adj"/></e>
     <e lm="importante"><i>importante</i><par n="triste__adj"/></e>
+    <e lm="personale"><i>personale</i><par n="triste__adj"/></e>
     <e lm="fertile"><i>fertile</i><par n="triste__adj"/></e>
     <e lm="federale"><i>federale</i><par n="triste__adj"/></e>
     <e lm="istatale"><i>istatale</i><par n="triste__adj"/></e>
@@ -2496,6 +2508,7 @@
     <e lm="impressionante"><i>impressionante</i><par n="triste__adj"/></e>
     <e lm="interessante"><i>interessante</i><par n="triste__adj"/></e>
     <e lm="dominante"><i>dominante</i><par n="triste__adj"/></e>
+    <e lm="deghimale"><i>deghimale</i><par n="triste__adj"/></e>
 
     <e lm="ufitziale"><i>ufitziale</i><par n="triste__adj"/></e>
     <e lm="ufitziale" r="LR"><p><l>uffitziale</l><r>ufitziale</r></p><par n="triste__adj"/></e>
@@ -2886,6 +2899,8 @@
     <e lm="preigare"><i>preigare</i><par n="cant/are__vblex"/></e>
     <e lm="apretziare"><i>apretzi</i><par n="cant/are__vblex"/></e>
     <e lm="apretziare" r="LR"><p><l>appretzi</l><r>apretzi</r></p><par n="cant/are__vblex"/></e>
+    <e lm="integrare"><i>integr</i><par n="cant/are__vblex"/></e>
+    <e lm="consumare"><i>consum</i><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
@@ -2927,6 +2942,8 @@
     <e lm="godire"><i>god</i><par n="fin/ire__vblex"/></e>
     <e lm="favorire"><i>favor</i><par n="fin/ire__vblex"/></e>
     <e lm="aderire"><i>ader</i><par n="fin/ire__vblex"/></e>
+    <e lm="consumire"><i>consum</i><par n="fin/ire__vblex"/></e>
+    <e lm="esistire"><i>esist</i><par n="fin/ire__vblex"/></e>
 
     <e lm="cuntènnere"><i>cunt</i><par n="t/ènnere__vblex"/></e>
     <e lm="otènnere"><i>ot</i><par n="t/ènnere__vblex"/></e>
