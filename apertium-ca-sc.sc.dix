@@ -1558,6 +1558,7 @@
     <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
+    <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
     <e lm="energia"><i>energia</i><par n="mesa__n"/></e>
     <e lm="pregonta"><i>pregonta</i><par n="mesa__n"/></e>
     <e lm="pregonta" r="LR"><p><l>pregunta</l><r>pregonta</r></p><par n="mesa__n"/></e>
@@ -1961,6 +1962,7 @@
 
 
     <e lm="macu"><i>mac</i><par n="mac/u__n"/></e>
+    <e lm="datu"><i>dat</i><par n="mac/u__n"/></e>
     <e lm="àbacu"><i>àbac</i><par n="mac/u__n"/></e>
     <e lm="liberu"><i>liber</i><par n="mac/u__n"/></e>
     <e lm="maridu"><i>marid</i><par n="mac/u__n"/></e>

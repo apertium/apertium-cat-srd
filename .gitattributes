@@ -20,5 +20,6 @@ dev/bilingual-summary.txt -text
 dev/generation-summary.txt -text
 dev/generation-test.sh -text
 dev/missing-bidix-freq.sh -text
+dev/wiki.elaboradore.txt -text
 /modes.xml -text
 /sc-ca.prob -text svneol=unset#unset
