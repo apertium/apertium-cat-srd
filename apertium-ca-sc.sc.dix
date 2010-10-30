@@ -360,8 +360,15 @@
     <pardef n="difer/èntzia__n">
       <e>       <p><l>èntzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>èntzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>entzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>entzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>entzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>entzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!-- @!LSC -->
+    </pardef>
+ 
+    <pardef n="import/àntzia__n">
+      <e>       <p><l>àntzia</l><r>antzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>àntzias</l><r>antzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>antzia</l><r>antzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>antzias</l><r>antzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!-- @!LSC -->
     </pardef>
  
     <pardef n="mac/u__n">
@@ -1605,9 +1612,9 @@
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
     <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
     <e lm="presèntzia"><i>pres</i><par n="difer/èntzia__n"/></e>
+    <e lm="potèntzia"><i>pot</i><par n="difer/èntzia__n"/></e>
     <e lm="currespundèntzia"><i>currespund</i><par n="difer/èntzia__n"/></e>
     <e lm="avertèntzia"><i>avert</i><par n="difer/èntzia__n"/></e>
-    <e lm="sercunstàntzia"><i>sercunstàntzia</i><par n="mesa__n"/></e>
     <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
     <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
     <e lm="maturidade"><i>maturidade</i><par n="mesa__n"/></e>
@@ -1641,6 +1648,14 @@
     <e lm="esperièntzia"><i>esperi</i><par n="difer/èntzia__n"/></e>
     <e lm="connoschèntzia"><i>connosch</i><par n="difer/èntzia__n"/></e>
     <e lm="amighèntzia"><i>amigh</i><par n="difer/èntzia__n"/></e>
+    <e lm="sercunstàntzia"><i>sercunst</i><par n="import/àntzia__n"/></e>
+    <e lm="importàntzia"><i>import</i><par n="import/àntzia__n"/></e>
+    <e lm="osservàntzia"><i>osserv</i><par n="import/àntzia__n"/></e>
+    <e lm="distàntzia"><i>dist</i><par n="import/àntzia__n"/></e>
+    <e lm="sustàntzia"><i>sust</i><par n="import/àntzia__n"/></e>
+    <e lm="tzitadinàntzia"><i>tzitadin</i><par n="import/àntzia__n"/></e>
+    <e lm="tzitadinàntzia" r="LR"><p><l>citadin</l><r>tzitadin</r></p><par n="import/àntzia__n"/></e>
+    <e lm="garàntzia"><i>gar</i><par n="import/àntzia__n"/></e>
  
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
@@ -2912,6 +2927,15 @@
     <e lm="consumare"><i>consum</i><par n="cant/are__vblex"/></e>
     <e lm="agiudare"><i>agiud</i><par n="cant/are__vblex"/></e>
 
+    <e lm="cunservare"><i>cunserv</i><par n="cant/are__vblex"/></e>
+    <e lm="comunicare"><i>comunic</i><par n="cant/are__vblex"/></e>
+    <e lm="cuncambiare"><i>cuncambi</i><par n="cant/are__vblex"/></e>
+    <e lm="identificare"><i>identific</i><par n="cant/are__vblex"/></e>
+    <e lm="summare"><i>summ</i><par n="cant/are__vblex"/></e>
+    <e lm="iscostiare"><i>iscosti</i><par n="cant/are__vblex"/></e>
+
+    <e lm="mòvere"><i>mòv</i><par n="tim/ere__vblex"/></e>
+    <e lm="reconnòschere"><i>reconnòsch</i><par n="tim/ere__vblex"/></e>
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="tradùere"><i>tradù</i><par n="tim/ere__vblex"/></e>
