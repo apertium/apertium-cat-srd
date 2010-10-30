@@ -311,6 +311,7 @@
       <e>       <p><l>u</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>u<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>us</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>as</l><r>u<s n="det"/><s n="dem"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
@@ -1868,6 +1869,12 @@
 
     <e lm="indipendèntzia"><i>indipend</i><par n="difer/èntzia__n"/></e>
 
+    <e lm="emigrante"><i>emigrante</i><par n="dentista__n"/></e>
+    <e lm="militante"><i>militante</i><par n="dentista__n"/></e>
+    <e lm="protestante"><i>protestante</i><par n="dentista__n"/></e>
+    <e lm="abitante"><i>abitante</i><par n="dentista__n"/></e>
+    <e lm="cantante"><i>cantante</i><par n="dentista__n"/></e>
+    <e lm="campione"><i>campione</i><par n="dentista__n"/></e>
     <e lm="attivista"><i>attivista</i><par n="dentista__n"/></e>
     <e lm="dentista"><i>dentista</i><par n="dentista__n"/></e>
     <e lm="chitarrista"><i>chitarrista</i><par n="dentista__n"/></e>
@@ -2030,6 +2037,10 @@
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
     <e lm="cussìgiu"><i>cussìgi</i><par n="mac/u__n"/></e>
     <e lm="puntu"><i>punt</i><par n="mac/u__n"/></e>
+    <e lm="traballu"><i>traball</i><par n="mac/u__n"/></e>
+    <e lm="traballu" r="LR"><p><l>trabagli</l><r>traball</r></p><par n="mac/u__n"/></e>
+    <e lm="tìtulu"><i>tìtul</i><par n="mac/u__n"/></e>
+    <e lm="tìtulu" r="LR"><p><l>titul</l><r>tìtul</r></p><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
 
@@ -2369,15 +2380,20 @@
     <e lm="primu"><i>prim</i><par n="prim/u__adj"/></e>
     <e lm="segundu"><i>segund</i><par n="prim/u__adj"/></e>
     <e lm="ùrtimu"><i>ùrtim</i><par n="prim/u__adj"/></e>
+    <e lm="ùrtimu" r="LR"><p><l>urtim</l><r>ùrtim</r></p><par n="prim/u__adj"/></e>
     <e lm="penùrtimu"><i>penùrtim</i><par n="prim/u__adj"/></e>
+    <e lm="penùrtimu"><p><l>penurtim</l><r>penùrtim</r></p><par n="prim/u__adj"/></e>
 
     <e lm="pròpiu"><i>pròpi</i><par n="frantzes/u__adj"/></e>
-    <e lm="etotu"><i>etot</i><par n="frantzes/u__adj"/></e>
+    <e lm="pròpiu" r="LR"><p><l>propi</l><r>pròpi</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="pròpiu" r="LR"><p><l>pròpri</l><r>pròpi</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="pròpiu" r="LR"><p><l>propri</l><r>pròpi</r></p><par n="frantzes/u__adj"/></e>
     <e lm="etotu"><i>etot</i><par n="frantzes/u__adj"/></e>
 
     <e lm="bonu"><i>bon</i><par n="frantzes/u__adj"/></e>
     <e lm="mannu"><i>mann</i><par n="frantzes/u__adj"/></e>
     <e lm="mediu"><i>medi</i><par n="frantzes/u__adj"/></e>
+    <e lm="nou"><i>no</i><par n="frantzes/u__adj"/></e>
 
     <e lm="sovièticu"><i>soviètic</i><par n="frantzes/u__adj"/></e>
     <e lm="sovièticu" r="LR"><p><l>sovietic</l><r>soviètic</r></p><par n="frantzes/u__adj"/></e>
@@ -2452,6 +2468,7 @@
     <e lm="istòricu"><i>istòric</i><par n="frantzes/u__adj"/></e>
     <e lm="istòricu" r="LR"><p><l>istoric</l><r>istòric</r></p><par n="frantzes/u__adj"/></e>
     <e lm="ativu"><i>ativ</i><par n="frantzes/u__adj"/></e>
+    <e lm="antigu"><i>antig</i><par n="frantzes/u__adj"/></e>
 
     <e lm="democràticu"><i>democràtic</i><par n="frantzes/u__adj"/></e>
     <e lm="democràticu" r="LR"><p><l>democratic</l><r>democràtic</r></p><par n="frantzes/u__adj"/></e>
@@ -2462,6 +2479,7 @@
     <e lm="forte"><i>forte</i><par n="triste__adj"/></e>
     <e lm="culturale"><i>culturale</i><par n="triste__adj"/></e>
     <e lm="importante"><i>importante</i><par n="triste__adj"/></e>
+    <e lm="fertile"><i>fertile</i><par n="triste__adj"/></e>
     <e lm="federale"><i>federale</i><par n="triste__adj"/></e>
     <e lm="istatale"><i>istatale</i><par n="triste__adj"/></e>
     <e lm="indipendentista"><i>indipendentista</i><par n="triste__adj"/></e>
@@ -2474,6 +2492,9 @@
     <e lm="tzentrale"><i>tzentrale</i><par n="triste__adj"/></e>
     <e lm="sud-otzidentale"><i>sud-otzidentale</i><par n="triste__adj"/></e>
     <e lm="populare"><i>populare</i><par n="triste__adj"/></e>
+    <e lm="impressionante"><i>impressionante</i><par n="triste__adj"/></e>
+    <e lm="interessante"><i>interessante</i><par n="triste__adj"/></e>
+    <e lm="dominante"><i>dominante</i><par n="triste__adj"/></e>
 
     <e lm="ufitziale"><i>ufitziale</i><par n="triste__adj"/></e>
     <e lm="ufitziale" r="LR"><p><l>uffitziale</l><r>ufitziale</r></p><par n="triste__adj"/></e>
@@ -2687,6 +2708,7 @@
     <e lm="indicare"><i>indic</i><par n="cant/are__vblex"/></e>
     <e lm="publicare"><i>public</i><par n="cant/are__vblex"/></e>
     <e lm="publicare" r="LR"><p><l>pubblic</l><r>public</r></p><par n="cant/are__vblex"/></e>
+    <e lm="publicare" r="LR"><p><l>pubric</l><r>public</r></p><par n="cant/are__vblex"/></e>
     <e lm="buscare"><i>busc</i><par n="cant/are__vblex"/></e>
     <e lm="istudiare"><i>istudi</i><par n="cant/are__vblex"/></e>
     <e lm="cumandare"><i>cumand</i><par n="cant/are__vblex"/></e>
@@ -2694,7 +2716,9 @@
     <e lm="demustrare"><i>demustr</i><par n="cant/are__vblex"/></e>
     <e lm="cunsiderare"><i>cunsider</i><par n="cant/are__vblex"/></e>
     <e lm="tratare"><i>trat</i><par n="cant/are__vblex"/></e>
+    <e lm="tratare" r="LR"><p><l>tratt</l><r>trat</r></p><par n="cant/are__vblex"/></e>
     <e lm="proclamare"><i>proclam</i><par n="cant/are__vblex"/></e>
+    <e lm="separare"><i>separ</i><par n="cant/are__vblex"/></e>
     <e lm="tramandare"><i>tramand</i><par n="cant/are__vblex"/></e>
     <e lm="mandare"><i>mand</i><par n="cant/are__vblex"/></e>
     <e lm="manifestare"><i>manifest</i><par n="cant/are__vblex"/></e>
@@ -2714,7 +2738,9 @@
     <e lm="emigrare"><i>emigr</i><par n="cant/are__vblex"/></e>
     <e lm="educare"><i>educ</i><par n="cant/are__vblex"/></e>
     <e lm="realizare"><i>realiz</i><par n="cant/are__vblex"/></e>
-    <e lm="caraterizzare"><i>caraterizz</i><par n="cant/are__vblex"/></e>
+    <e lm="realizare" r="LR"><p><l>realizz</l><r>realiz</r></p><par n="cant/are__vblex"/></e>
+    <e lm="caraterizare"><i>carateriz</i><par n="cant/are__vblex"/></e>
+    <e lm="caraterizare" r="LR"><p><l>caraterizz</l><r>carateriz</r></p><par n="cant/are__vblex"/></e>
     <e lm="accumpagnare"><i>accumpagn</i><par n="cant/are__vblex"/></e>
     <e lm="cunfirmare"><i>cunfirm</i><par n="cant/are__vblex"/></e>
     <e lm="fundare"><i>fund</i><par n="cant/are__vblex"/></e>
@@ -2820,6 +2846,18 @@
     <e lm="cumbidare"><i>cumbid</i><par n="cant/are__vblex"/></e>
     <e lm="cunfinare"><i>cunfin</i><par n="cant/are__vblex"/></e>
     <e lm="alindare"><i>alind</i><par n="cant/are__vblex"/></e>
+    <e lm="catalogare"><i>catalog</i><par n="cant/are__vblex"/></e>
+    <e lm="dedicare"><i>dedic</i><par n="cant/are__vblex"/></e>
+    <e lm="criticare"><i>critic</i><par n="cant/are__vblex"/></e>
+    <e lm="modificare"><i>modific</i><par n="cant/are__vblex"/></e>
+    <e lm="mudare"><i>mud</i><par n="cant/are__vblex"/></e>
+    <e lm="classificare"><i>classific</i><par n="cant/are__vblex"/></e>
+    <e lm="tzertificare"><i>tzertific</i><par n="cant/are__vblex"/></e>
+    <e lm="tzertificare" r="LR"><p><l>certific</l><r>tzertific</r></p><par n="cant/are__vblex"/></e>
+    <e lm="tzerriare"><i>tzerri</i><par n="cant/are__vblex"/></e>
+    <e lm="tirare"><i>tir</i><par n="cant/are__vblex"/></e>
+    <e lm="girare"><i>gir</i><par n="cant/are__vblex"/></e>
+    <e lm="derivare"><i>deriv</i><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
@@ -2840,6 +2878,7 @@
     <e lm="bìvere"><i>bìv</i><par n="tim/ere__vblex"/></e>
     <e lm="bìvere" r="LR"><p><l>biv</l><r>bìv</r></p><par n="tim/ere__vblex"/></e>
 
+    <e lm="divenire"><i>diven</i><par n="fin/ire__vblex"/></e>
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
@@ -2853,6 +2892,7 @@
     <e lm="costruire"><i>costru</i><par n="fin/ire__vblex"/></e>
     <e lm="ischire"><i>isch</i><par n="fin/ire__vblex"/></e>
     <e lm="trasferire"><i>trasfer</i><par n="fin/ire__vblex"/></e>
+    <e lm="contribuire"><i>contribu</i><par n="fin/ire__vblex"/></e>
     <e lm="batire"><i>bat</i><par n="fin/ire__vblex"/></e>
     <e lm="godire"><i>god</i><par n="fin/ire__vblex"/></e>
     <e lm="favorire"><i>favor</i><par n="fin/ire__vblex"/></e>
@@ -2941,6 +2981,7 @@
     <e lm="d’"><p><l>d’</l><r>de<s n="pr"/></r></p></e>
     <e lm="nd’"><p><l>nd’</l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e lm="cuss’"><p><l>cuss’</l><r>cussu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="cust’"><p><l>cust’</l><r>custu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="b’"><p><l>b’</l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
