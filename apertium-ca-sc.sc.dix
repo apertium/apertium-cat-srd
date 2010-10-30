@@ -2858,9 +2858,16 @@
     <e lm="tirare"><i>tir</i><par n="cant/are__vblex"/></e>
     <e lm="girare"><i>gir</i><par n="cant/are__vblex"/></e>
     <e lm="derivare"><i>deriv</i><par n="cant/are__vblex"/></e>
+    <e lm="bortare"><i>bort</i><par n="cant/are__vblex"/></e>
+    <e lm="creare"><i>crea</i><par n="cant/are__vblex"/></e>
+    <e lm="collaborare"><i>collabor</i><par n="cant/are__vblex"/></e>
+    <e lm="ligare"><i>lig</i><par n="cant/are__vblex"/></e>
+    <e lm="imbentare"><i>imbent</i><par n="cant/are__vblex"/></e>
+    <e lm="imbentare" r="LR"><p><l>invent</l><r>imbent</r></p><par n="cant/are__vblex"/></e>
 
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
+    <e lm="tradùere"><i>tradù</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="ispèrdere"><i>ispèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>
@@ -2880,6 +2887,7 @@
 
     <e lm="divenire"><i>diven</i><par n="fin/ire__vblex"/></e>
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
+    <e lm="produire"><i>produ</i><par n="fin/ire__vblex"/></e>
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
     <e lm="cunduire"><i>cundu</i><par n="fin/ire__vblex"/></e>
