@@ -4,6 +4,9 @@
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
+<def-cat n="num">
+   <cat-item tags="num.*"/>
+</def-cat>
 <def-cat n="nom">
    <cat-item tags="abbr"/>
    <cat-item tags="n.*"/>
@@ -62,6 +65,9 @@
    <attr-item tags="pp"/>
    <attr-item tags="inf"/>
    <attr-item tags="ger"/>
+</def-attr>
+<def-attr n="a_num">
+   <attr-item tags="num"/>
 </def-attr>
 <def-attr n="grau">
    <attr-item tags="comp"/>
@@ -2085,6 +2091,27 @@
 </rule>
 
 
+<rule comment="regla: num">
+   <pattern>
+     <pattern-item n="num"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="a_num"/>
+         <clip pos="1" side="tl" part="gen"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: n">
    <pattern>
      <pattern-item n="nom"/>
@@ -2198,6 +2225,39 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: det num nom">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="3" side="tl" part="lemh"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <clip pos="3" side="tl" part="gen"/>
+            <clip pos="3" side="tl" part="nbr"/>
+            <clip pos="3" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="regla: predet det nom"> 
       <pattern>

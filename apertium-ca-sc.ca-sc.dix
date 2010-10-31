@@ -192,12 +192,38 @@
     <e><p><l>cinc<s n="num"/></l><r>chimbe<s n="num"/></r></p></e>
     <e><p><l>sis<s n="num"/></l><r>ses<s n="num"/></r></p></e>
     <e><p><l>set<s n="num"/></l><r>sete<s n="num"/></r></p></e>
-    <e><p><l>huit<s n="num"/></l><r>oto<s n="num"/></r></p></e>
+    <e><p><l>vuit<s n="num"/></l><r>oto<s n="num"/></r></p></e>
     <e><p><l>nou<s n="num"/></l><r>noe<s n="num"/></r></p></e>
     <e><p><l>deu<s n="num"/></l><r>deghe<s n="num"/></r></p></e>
+
+    <e><p><l>onze<s n="num"/></l><r>ùndighi<s n="num"/></r></p></e>
+    <e><p><l>dotze<s n="num"/></l><r>dòighi<s n="num"/></r></p></e>
+    <e><p><l>tretze<s n="num"/></l><r>trèighi<s n="num"/></r></p></e>
+    <e><p><l>catorze<s n="num"/></l><r>batòrdighi<s n="num"/></r></p></e>
     <e><p><l>quinze<s n="num"/></l><r>bìndighi<s n="num"/></r></p></e>
+    <e><p><l>setze<s n="num"/></l><r>sèighi<s n="num"/></r></p></e>
+    <e><p><l>disset<s n="num"/></l><r>deghessete<s n="num"/></r></p></e>
+    <e><p><l>divuit<s n="num"/></l><r>degheoto<s n="num"/></r></p></e>
+    <e><p><l>dinou<s n="num"/></l><r>deghennoe<s n="num"/></r></p></e>
     <e><p><l>vint<s n="num"/></l><r>binti<s n="num"/></r></p></e>
+
+    <e><p><l>vint-i-un<s n="num"/></l><r>bintunu<s n="num"/></r></p><par n="fort_forte"/></e>
+    <e><p><l>vint-i-dos<s n="num"/></l><r>bintiduos<s n="num"/></r></p><par n="fort_forte"/></e>
+    <e><p><l>vint-i-tres<s n="num"/></l><r>bintitrès<s n="num"/></r></p></e>
+    <e><p><l>vint-i-quatre<s n="num"/></l><r>bintibator<s n="num"/></r></p></e>
+    <e><p><l>vint-i-cinc<s n="num"/></l><r>bintighimbe<s n="num"/></r></p></e>
+    <e><p><l>vint-i-sis<s n="num"/></l><r>bintisès<s n="num"/></r></p></e>
+    <e><p><l>vint-i-set<s n="num"/></l><r>bintisete<s n="num"/></r></p></e>
+    <e><p><l>vint-i-vuit<s n="num"/></l><r>bintoto<s n="num"/></r></p></e>
+    <e><p><l>vint-i-nou<s n="num"/></l><r>bintinoe<s n="num"/></r></p></e>
+
+    <e><p><l>cent<s n="num"/></l><r>chentu<s n="num"/></r></p></e>
+
+
     <e><p><l>mil<s n="num"/></l><r>milli<s n="num"/></r></p></e>
+
+    <e><p><l>milió<s n="n"/><s n="m"/></l><r>millione<s n="n"/><s n="m"/></r></p></e>
+
 
     <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
     <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
@@ -338,8 +364,10 @@
     <e><p><l>circumstància<s n="n"/><s n="f"/></l><r>sercunstàntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>home<s n="n"/><s n="m"/></l><r>òmine<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>període<s n="n"/><s n="m"/></l><r>perìudu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>projecte<s n="n"/><s n="m"/></l><r>progetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lingüística<s n="n"/><s n="f"/></l><r>linguìstica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>grup<s n="n"/><s n="m"/></l><r>grupu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>caràcter<s n="n"/><s n="m"/></l><r>caratere<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>camp<s n="n"/><s n="m"/></l><r>campu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>humanitat<s n="n"/><s n="f"/></l><r>umanidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>riu<s n="n"/><s n="m"/></l><r>riu<s n="n"/><s n="m"/></r></p></e>
@@ -365,7 +393,7 @@
     <e><p><l>problema<s n="n"/><s n="m"/></l><r>problema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>momentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>metre<s n="n"/><s n="m"/></l><r>metru<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>quilometre<s n="n"/><s n="m"/></l><r>chilòmetru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>quilòmetre<s n="n"/><s n="m"/></l><r>chilòmetru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>mama<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>màquina<s n="n"/><s n="f"/></l><r>màchina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>volta<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>
@@ -537,6 +565,7 @@
     <e><p><l>ciència<s n="n"/><s n="f"/></l><r>iscièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cor<s n="n"/><s n="m"/></l><r>coro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>terreny<s n="n"/><s n="m"/></l><r>terrinu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pilar<s n="n"/><s n="m"/></l><r>pilastru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>concentració<s n="n"/><s n="f"/></l><r>concentramentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>germà<s n="n"/><s n="m"/></l><r>frade<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>germà<s n="n"/><s n="f"/></l><r>sorre<s n="n"/><s n="f"/></r></p></e>
@@ -547,6 +576,9 @@
     <e><p><l>volcà<s n="n"/><s n="m"/></l><r>vulcanu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>salvació<s n="n"/><s n="f"/></l><r>sarbamentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pena<s n="n"/><s n="f"/></l><r>punitzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pàgina<s n="n"/><s n="f"/></l><r>pàgina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>línia<s n="n"/><s n="f"/></l><r>lìnia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>prova<s n="n"/><s n="f"/></l><r>prova<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>projecció<s n="n"/><s n="f"/></l><r>projetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nebot<s n="n"/><s n="f"/></l><r>neta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>motociclisme<s n="n"/><s n="m"/></l><r>mototziclismu<s n="n"/><s n="m"/></r></p></e>
@@ -675,6 +707,7 @@
 
     <e><p><l>Àsia<s n="np"/><s n="top"/></l><r>Asia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Mèxic<s n="np"/><s n="top"/></l><r>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>París<s n="np"/><s n="top"/></l><r>Parigi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Gal·les<s n="np"/><s n="top"/></l><r>Galles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cannes<s n="np"/><s n="top"/></l><r>Cannes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Nova<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -982,6 +1015,7 @@
     <e><p><l>sànscrit<s n="adj"/></l><r>sanscritu<s n="adj"/></r></p></e>
     <e><p><l>sant<s n="adj"/></l><r>santu<s n="adj"/></r></p></e>
     <e><p><l>sard<s n="adj"/></l><r>sardu<s n="adj"/></r></p></e>
+    <e><p><l>polonès<s n="adj"/></l><r>polacu<s n="adj"/></r></p></e>
     <e><p><l>sud-occidental<s n="adj"/></l><r>sud-otzidentale<s n="adj"/></r></p></e>
     <e><p><l>subsaharià<s n="adj"/></l><r>sub-saharianu<s n="adj"/></r></p></e>
     <e><p><l>tradicional<s n="adj"/></l><r>traditzionale<s n="adj"/></r></p></e>
@@ -1008,6 +1042,8 @@
 
     <e><p><l>com<s n="adv"/></l><r>comente<s n="adv"/></r></p></e>
 
+    <e><p><l>després<s n="adv"/></l><r>posca<s n="adv"/></r></p></e>
+    <e><p><l>molt<s n="adv"/></l><r>meda<s n="adv"/></r></p></e>
     <e><p><l>encara<s n="adv"/></l><r>galu<s n="adv"/></r></p></e>
     <e r="RL"><p><l>encara<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
     <e><p><l>millor<s n="adv"/></l><r>mègius<s n="adv"/></r></p></e>
@@ -1095,7 +1131,6 @@
     <e><p><l>participar<s n="vblex"/></l><r>partetzipare<s n="vblex"/></r></p></e>
     <e><p><l>nominar<s n="vblex"/></l><r>nominare<s n="vblex"/></r></p></e>
     <e><p><l>menjar<s n="vblex"/></l><r>mandigare<s n="vblex"/></r></p></e>
-    <e><p><l>finir<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
     <e><p><l>indicar<s n="vblex"/></l><r>indicare<s n="vblex"/></r></p></e>
     <e><p><l>caracteritzar<s n="vblex"/></l><r>caraterizzare<s n="vblex"/></r></p></e>
     <e><p><l>manifestar<s n="vblex"/></l><r>manifestare<s n="vblex"/></r></p></e>
@@ -1267,6 +1302,10 @@
     <e><p><l>descobrir<s n="vblex"/></l><r>iscobèrrere<s n="vblex"/></r></p></e>
     <e><p><l>informar<s n="vblex"/></l><r>informare<s n="vblex"/></r></p></e>
     <e><p><l>anticipar<s n="vblex"/></l><r>antitzipare<s n="vblex"/></r></p></e>
+    <e><p><l>finir<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
+    <e><p><l>definir<s n="vblex"/></l><r>defìnire<s n="vblex"/></r></p></e>
+    <e><p><l>pesar<s n="vblex"/></l><r>pesare<s n="vblex"/></r></p></e>
+    <e><p><l>guiar<s n="vblex"/></l><r>ghiare<s n="vblex"/></r></p></e>
 
 
 
@@ -1277,6 +1316,7 @@
     <!-- SECTION:  Abbreviations -->
 
     <e><p><l>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSC<s n="abbr"/></r></p></e>
+    <e><p><l>GNU<s n="np"/><s n="al"/></l><r>GNU<s n="abbr"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 

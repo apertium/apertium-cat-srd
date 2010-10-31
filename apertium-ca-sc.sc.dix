@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóú·KQYXWÍĞĀŚĘkqyxwíğāśę</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóúKQYXWÍĞĀŚĘkqyxwíğāśę</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -204,7 +204,7 @@
     </pardef>
 
     <pardef n="m/illi__num" c="">
-      <e>       <p><l>illi</l><r>illi<s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>illi</l><r>illi<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>ìgia</l><r>illi<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>ìgias</l><r>illi<s n="num"/><s n="mf"/><s n="pl"/></r></p></e> <!-- @!LSC ? p. 5 -->
     </pardef>
@@ -1455,6 +1455,7 @@
     <e lm="mediante"><i>mediante</i><par n="a__pr"/></e>
     <e lm="durante"><i>durante</i><par n="a__pr"/></e>
     <e lm="rasente"><i>rasente</i><par n="a__pr"/></e>
+    <e lm="a pitzu de"><i>a<b/>pitzu<b/>de</i><par n="a__pr"/></e>
 
     <!-- SECTION: Pronomi -->
 
@@ -1636,7 +1637,12 @@
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
     <e lm="fine"><i>fine</i><par n="mesa__n"/></e>
+    <e lm="caratere"><i>caratere</i><par n="pane__n"/></e>
+    <e lm="caratere" r="LR"><p><l>caràtere</l><r>caratere</r></p><par n="pane__n"/></e>
     <e lm="idea"><i>idea</i><par n="mesa__n"/></e>
+    <e lm="lìnia"><i>lìnia</i><par n="mesa__n"/></e>
+    <e lm="pàgina"><i>pàgina</i><par n="mesa__n"/></e>
+    <e lm="prova"><i>prova</i><par n="mesa__n"/></e>
     <e lm="operatzione"><i>operatzione</i><par n="mesa__n"/></e>
     <e lm="assimilatzione"><i>assimilatzione</i><par n="mesa__n"/></e>
     <e lm="cumbinatzione"><i>cumbinatzione</i><par n="mesa__n"/></e>
@@ -2164,6 +2170,7 @@
     <e lm="arcipelagu"><i>arcipelag</i><par n="mac/u__n"/></e>
     <e lm="limbagiu"><i>limbagi</i><par n="mac/u__n"/></e>
     <e lm="edificiu"><i>edifici</i><par n="mac/u__n"/></e>
+    <e lm="progetu"><i>proget</i><par n="mac/u__n"/></e>
     <e lm="santu"><i>sant</i><par n="mac/u__n"/></e>
     <e lm="ispiritu"><i>ispirit</i><par n="mac/u__n"/></e>
     <e lm="terrinu"><i>terrin</i><par n="mac/u__n"/></e>
@@ -2183,6 +2190,7 @@
     <e lm="riu"><i>ri</i><par n="mac/u__n"/></e>
     <e lm="telèfonu"><i>telèfon</i><par n="mac/u__n"/></e>
     <e lm="frigorìferu"><i>frigorìfer</i><par n="mac/u__n"/></e>
+    <e lm="pilastru"><i>pilastr</i><par n="mac/u__n"/></e>
     <e lm="aritmeticu"><i>aritmetic</i><par n="mac/u__n"/></e>
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
     <e lm="abotzu"><i>abotz</i><par n="mac/u__n"/></e>
@@ -2328,6 +2336,7 @@
     <e lm="Betlem"><i>Betlem</i><par n="Afganistàn__np"/></e>
     <e lm="New York"><i>New<b/>York</i><par n="Afganistàn__np"/></e>
     <e lm="Napoli"><i>Napoli</i><par n="Afganistàn__np"/></e>
+    <e lm="Parigi"><i>Parigi</i><par n="Afganistàn__np"/></e>
     <e lm="Milano"><i>Milano</i><par n="Afganistàn__np"/></e>
     <e lm="Milanu"><i>Milanu</i><par n="Afganistàn__np"/></e>
     <e lm="Iran"><i>Iran</i><par n="Afganistàn__np"/></e>
@@ -2558,6 +2567,7 @@
     <e lm="metropolitanu"><i>metropolitan</i><par n="frantzes/u__adj"/></e>
     <e lm="repubricanu"><i>repubrican</i><par n="frantzes/u__adj"/></e>
     <e lm="urbanu"><i>urban</i><par n="frantzes/u__adj"/></e>
+    <e lm="polacu"><i>polac</i><par n="frantzes/u__adj"/></e>
     <e lm="biancu"><i>bianc</i><par n="frantzes/u__adj"/></e>
     <e lm="melodiosu"><i>melodios</i><par n="frantzes/u__adj"/></e>
     <e lm="domesticu"><i>domestic</i><par n="frantzes/u__adj"/></e>
@@ -2711,6 +2721,7 @@
     <e lm="prus"><i>prus</i><par n="bene__adv"/></e>
     <e lm="pius" r="LR"><p><l>pius</l><r>prus</r></p><par n="bene__adv"/></e>
     <e lm="meda"><i>meda</i><par n="bene__adv"/></e>
+    <e lm="posca"><i>posca</i><par n="bene__adv"/></e>
     <e lm="a beru"><i>a<b/>beru</i><par n="bene__adv"/></e>
 
     <e lm="puru"><i>puru</i><par n="bene__adv"/></e>
@@ -3082,6 +3093,7 @@
     <e lm="informatizare"><i>informatiz</i><par n="cant/are__vblex"/></e>
     <e lm="bisogniare"><i>bisogni</i><par n="cant/are__vblex"/></e>
     <e lm="bisogniare" r="LR"><p><l>bisonz</l><r>bisogni</r></p><par n="cant/are__vblex"/></e>
+    <e lm="ghiare"><i>ghi</i><par n="cant/are__vblex"/></e>
 
     <e lm="cunservare"><i>cunserv</i><par n="cant/are__vblex"/></e>
     <e lm="comunicare"><i>comunic</i><par n="cant/are__vblex"/></e>
@@ -3128,6 +3140,7 @@
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
     <e lm="produire"><i>produ</i><par n="fin/ire__vblex"/></e>
     <e lm="finire"><i>fin</i><par n="fin/ire__vblex"/></e>
+    <e lm="definire"><i>defìn</i><par n="fin/ire__vblex"/></e>
     <e lm="fuire"><i>fu</i><par n="fin/ire__vblex"/></e>
     <e lm="cunduire"><i>cundu</i><par n="fin/ire__vblex"/></e>
     <e lm="collire"><i>coll</i><par n="fin/ire__vblex"/></e>
