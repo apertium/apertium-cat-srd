@@ -119,6 +119,7 @@
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e><p><l>sobre<s n="pr"/></l><r>subra<s n="pr"/></r></p></e>
     <e><p><l>entre<s n="pr"/></l><r>intre<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>entre<s n="pr"/></l><r>tra<s n="pr"/></r></p></e>
     <e><p><l>durant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
     <e><p><l>fins<b/>a<s n="pr"/></l><r>fintzas<s n="pr"/></r></p></e>
     <e><p><l>sota<s n="pr"/></l><r>suta<s n="pr"/></r></p></e>
@@ -157,6 +158,8 @@
 
     <e><p><l>jo<s n="prn"/><s n="tn"/></l><r>deo<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>ell<s n="prn"/><s n="tn"/></l><r>issu<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>nosaltres<s n="prn"/><s n="tn"/></l><r>nois<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>vosaltres<s n="prn"/><s n="tn"/></l><r>bois<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>un<b/>altre<s n="prn"/><s n="tn"/></l><r>àteru<s n="prn"/><s n="tn"/></r></p></e>
 
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
@@ -195,6 +198,26 @@
     <e><p><l>quinze<s n="num"/></l><r>bìndighi<s n="num"/></r></p></e>
     <e><p><l>vint<s n="num"/></l><r>binti<s n="num"/></r></p></e>
     <e><p><l>mil<s n="num"/></l><r>milli<s n="num"/></r></p></e>
+
+    <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
+    <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
+    <e><p><l>IV<s n="num"/></l><r>IV<s n="num"/></r></p></e>
+    <e><p><l>V<s n="num"/></l><r>V<s n="num"/></r></p></e>
+    <e><p><l>VI<s n="num"/></l><r>VI<s n="num"/></r></p></e>
+    <e><p><l>VII<s n="num"/></l><r>VII<s n="num"/></r></p></e>
+    <e><p><l>VIII<s n="num"/></l><r>VIII<s n="num"/></r></p></e>
+    <e><p><l>IX<s n="num"/></l><r>IX<s n="num"/></r></p></e>
+    <e><p><l>X<s n="num"/></l><r>X<s n="num"/></r></p></e>
+    <e><p><l>XI<s n="num"/></l><r>XI<s n="num"/></r></p></e>
+    <e><p><l>XII<s n="num"/></l><r>XII<s n="num"/></r></p></e>
+    <e><p><l>XIII<s n="num"/></l><r>XIII<s n="num"/></r></p></e>
+    <e><p><l>XIV<s n="num"/></l><r>XIV<s n="num"/></r></p></e>
+    <e><p><l>XV<s n="num"/></l><r>XV<s n="num"/></r></p></e>
+    <e><p><l>XVI<s n="num"/></l><r>XVI<s n="num"/></r></p></e>
+    <e><p><l>XVII<s n="num"/></l><r>XVII<s n="num"/></r></p></e>
+    <e><p><l>XVIII<s n="num"/></l><r>XVIII<s n="num"/></r></p></e>
+    <e><p><l>XIX<s n="num"/></l><r>XIX<s n="num"/></r></p></e>
+    <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
 
     <!-- SECTION:  Nouns -->
 
@@ -359,6 +382,7 @@
     <e><p><l>carrer<s n="n"/><s n="m"/></l><r>carriera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>ordinador<s n="n"/><s n="m"/></l><r>carculadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ordinador<s n="n"/><s n="m"/></l><r>elaboradore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>deu<s n="n"/><s n="m"/></l><r>deus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biblioteca<s n="n"/><s n="f"/></l><r>biblioteca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>violència<s n="n"/><s n="f"/></l><r>violèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>advertència<s n="n"/><s n="f"/></l><r>avertèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -547,6 +571,7 @@
     <e><p><l>etimologia<s n="n"/><s n="f"/></l><r>etimologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>extenció<s n="n"/><s n="f"/></l><r>estensione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exposició<s n="n"/><s n="f"/></l><r>esposizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>bíblia<s n="n"/><s n="f"/></l><r>bibbia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exploració<s n="n"/><s n="f"/></l><r>esploratzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>epicureisme<s n="n"/><s n="m"/></l><r>epicureismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>emoció<s n="n"/><s n="f"/></l><r>emotzione<s n="n"/><s n="f"/></r></p></e>
@@ -642,6 +667,7 @@
     <e><p><l>Santiago<s n="np"/><s n="top"/></l><r>Santiago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Pennsilvània<s n="np"/><s n="top"/></l><r>Pennsylvania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>República<b/>Txeca<s n="np"/><s n="top"/></l><r>Repùblica<b/>Ceca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Armènia<s n="np"/><s n="top"/></l><r>Armènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>Àsia<s n="np"/><s n="top"/></l><r>Asia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Mèxic<s n="np"/><s n="top"/></l><r>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -828,6 +854,8 @@
     <e><p><l>Dostoievski<s n="np"/><s n="ant"/></l><r>Dostoevskij<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Dharma<s n="np"/><s n="al"/></l><r>Dharma<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Buda<s n="np"/><s n="al"/></l><r>Buddha<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Adjectives -->
 
@@ -850,6 +878,28 @@
     <e><p><l>metropolità<s n="adj"/></l><r>metropolitanu<s n="adj"/></r></p></e>
     <e><p><l>urbà<s n="adj"/></l><r>urbanu<s n="adj"/></r></p></e>
     <e><p><l>científic<s n="adj"/></l><r>scientificu<s n="adj"/></r></p></e>
+    <e><p><l>nou<s n="adj"/></l><r>nou<s n="adj"/></r></p></e>
+    <e><p><l>comú<s n="adj"/></l><r>comune<s n="adj"/></r></p><par n="fort_forte"/></e>
+    <e><p><l>antic<s n="adj"/></l><r>antigu<s n="adj"/></r></p></e>
+    <e><p><l>simple<s n="adj"/></l><r>sèmplitze<s n="adj"/></r></p></e>
+    <e><p><l>industrial<s n="adj"/></l><r>industriale<s n="adj"/></r></p></e>
+    <e><p><l>físic<s n="adj"/></l><r>fisicu<s n="adj"/></r></p></e>
+    <e><p><l>sofisticat<s n="adj"/></l><r>sofisticadu<s n="adj"/></r></p></e>
+    <e><p><l>portàtil<s n="adj"/></l><r>portàtile<s n="adj"/></r></p></e>
+    <e><p><l>poderós<s n="adj"/></l><r>poderosu<s n="adj"/></r></p></e>
+    <e><p><l>mecànic<s n="adj"/></l><r>mecanicu<s n="adj"/></r></p></e>
+    <e><p><l>interessant<s n="adj"/></l><r>interessante<s n="adj"/></r></p></e>
+    <e><p><l>impressionant<s n="adj"/></l><r>impressionante<s n="adj"/></r></p></e>
+    <e><p><l>gran<s n="adj"/></l><r>grandu<s n="adj"/></r></p><par n="persa_persianu"/></e> 
+    <e><p><l>fèrtil<s n="adj"/></l><r>fertile<s n="adj"/></r></p></e>
+    <e><p><l>electrònic<s n="adj"/></l><r>eletronicu<s n="adj"/></r></p></e>
+    <e><p><l>equivalent<s n="adj"/></l><r>ecuivalente<s n="adj"/></r></p></e>
+    <e><p><l>dominant<s n="adj"/></l><r>dominante<s n="adj"/></r></p></e>
+    <e><p><l>decimal<s n="adj"/></l><r>deghimale<s n="adj"/></r></p></e>
+    <e><p><l>cel·lular<s n="adj"/></l><r>cellulare<s n="adj"/></r></p></e>
+    <e><p><l>car<s n="adj"/></l><r>caru<s n="adj"/></r></p></e>
+    <e><p><l>binari<s n="adj"/></l><r>binariu<s n="adj"/></r></p></e>
+    <e><p><l>albanès<s n="adj"/></l><r>albanesu<s n="adj"/></r></p></e>
 
     <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
     <e><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
@@ -1109,7 +1159,6 @@
     <e><p><l>constituir<s n="vblex"/></l><r>costituiere<s n="vblex"/></r></p></e>
     <e><p><l>basar<s n="vblex"/></l><r>basare<s n="vblex"/></r></p></e>
     <e><p><l>freqüentar<s n="vblex"/></l><r>frecuentare<s n="vblex"/></r></p></e>
-    <e><p><l>enviar<s n="vblex"/></l><r>avviare<s n="vblex"/></r></p></e>
     <e><p><l>voltar<s n="vblex"/></l><r>furriare<s n="vblex"/></r></p></e>
     <e><p><l>memoritzar<s n="vblex"/></l><r>ammentare<s n="vblex"/></r></p></e>
     <e><p><l>temptar<s n="vblex"/></l><r>tentare<s n="vblex"/></r></p></e>
@@ -1161,9 +1210,48 @@
     <e><p><l>consentir<s n="vblex"/></l><r>cunsentire<s n="vblex"/></r></p></e>
     <e><p><l>cercar<s n="vblex"/></l><r>chircare<s n="vblex"/></r></p></e>
 
+    <e><p><l>derivar<s n="vblex"/></l><r>derivare<s n="vblex"/></r></p></e>
+    <e><p><l>dedicar<s n="vblex"/></l><r>dedicare<s n="vblex"/></r></p></e>
+    <e><p><l>notar<s n="vblex"/></l><r>notare<s n="vblex"/></r></p></e>
+    <e><p><l>tirar<s n="vblex"/></l><r>tirare<s n="vblex"/></r></p></e>
+    <e><p><l>prendre<s n="vblex"/></l><r>pigare<s n="vblex"/></r></p></e>
+    <e><p><l>executar<s n="vblex"/></l><r>esecutare<s n="vblex"/></r></p></e>
+    <e><p><l>criticar<s n="vblex"/></l><r>criticare<s n="vblex"/></r></p></e>
+    <e><p><l>col·laborar<s n="vblex"/></l><r>collaborare<s n="vblex"/></r></p></e>
+    <e><p><l>caracteritzar<s n="vblex"/></l><r>caraterizare<s n="vblex"/></r></p></e>
+    <e><p><l>inventar<s n="vblex"/></l><r>imbentare<s n="vblex"/></r></p></e>
+    <e><p><l>girar<s n="vblex"/></l><r>girare<s n="vblex"/></r></p></e>
+    <e><p><l>conservar<s n="vblex"/></l><r>cunservare<s n="vblex"/></r></p></e>
+    <e><p><l>tocar<s n="vblex"/></l><r>tocare<s n="vblex"/></r></p></e>
+    <e><p><l>sumar<s n="vblex"/></l><r>summare<s n="vblex"/></r></p></e>
+    <e><p><l>assecar<s n="vblex"/></l><r>sicare<s n="vblex"/></r></p></e>
+    <e><p><l>recitar<s n="vblex"/></l><r>retzitare<s n="vblex"/></r></p></e>
+    <e><p><l>identificar<s n="vblex"/></l><r>identificare<s n="vblex"/></r></p></e>
+    <e><p><l>elaborar<s n="vblex"/></l><r>elaborare<s n="vblex"/></r></p></e>
+    <e><p><l>controlar<s n="vblex"/></l><r>controllare<s n="vblex"/></r></p></e>
+    <e><p><l>contribuir<s n="vblex"/></l><r>contribuire<s n="vblex"/></r></p></e>
+    <e><p><l>afrontar<s n="vblex"/></l><r>afrontare<s n="vblex"/></r></p></e>
+    <e><p><l>certificar<s n="vblex"/></l><r>tzertificare<s n="vblex"/></r></p></e>
+    <e><p><l>celebrar<s n="vblex"/></l><r>tzelebrare<s n="vblex"/></r></p></e>
+    <e><p><l>programar<s n="vblex"/></l><r>programmare<s n="vblex"/></r></p></e>
+    <e><p><l>gaudir<s n="vblex"/></l><r>isfrutare<s n="vblex"/></r></p></e>
+    <e><p><l>moure<s n="vblex"/></l><r>iscostiare<s n="vblex"/></r></p></e>
+    <e><p><l>fomentar<s n="vblex"/></l><r>fomentare<s n="vblex"/></r></p></e>
+    <e><p><l>escortar<s n="vblex"/></l><r>esortare<s n="vblex"/></r></p></e>
+    <e><p><l>documentar<s n="vblex"/></l><r>documentare<s n="vblex"/></r></p></e>
+    <e><p><l>desenvolupar<s n="vblex"/></l><r>disvilupare<s n="vblex"/></r></p></e>
+    <e><p><l>consumir<s n="vblex"/></l><r>consumire<s n="vblex"/></r></p></e>
+    <e><p><l>classificar<s n="vblex"/></l><r>classificare<s n="vblex"/></r></p></e>
+    <e><p><l>catalogar<s n="vblex"/></l><r>catalogare<s n="vblex"/></r></p></e>
+    <e><p><l>abocar<s n="vblex"/></l><r>betare<s n="vblex"/></r></p></e>
+    <e><p><l>enviar<s n="vblex"/></l><r>aviare<s n="vblex"/></r></p></e>
+    <e><p><l>baixar<s n="vblex"/></l><r>calare<s n="vblex"/></r></p></e>
+
+
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>cramare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>dir<s n="vblex"/></l><r>tzerriare<s n="vblex"/></r></p></e>
 
     <!-- SECTION:  Abbreviations -->
 
