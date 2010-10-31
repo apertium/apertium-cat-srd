@@ -734,6 +734,7 @@
     <e><p><l>Àsia<s n="np"/><s n="top"/></l><r>Asia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Mèxic<s n="np"/><s n="top"/></l><r>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>París<s n="np"/><s n="top"/></l><r>Parigi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Afganistan<s n="np"/><s n="top"/></l><r>Afganistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Gal·les<s n="np"/><s n="top"/></l><r>Galles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cannes<s n="np"/><s n="top"/></l><r>Cannes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Nova<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -756,6 +757,12 @@
     <e><p><l>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></l><r>Amèrica<b/>de<b/>su<b/>Nord<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Algèria<s n="np"/><s n="top"/></l><r>Algèria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>l'Havana<s n="np"/><s n="top"/></l><r>s'Avana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Etiòpia<s n="np"/><s n="top"/></l><r>Etiòpia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Iugoslàvia<s n="np"/><s n="top"/></l><r>Jugoslàvia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Calàbria<s n="np"/><s n="top"/></l><r>Calabria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Ucraïna<s n="np"/><s n="top"/></l><r>Ucraina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Veneçuela<s n="np"/><s n="top"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>Mario<s n="np"/><s n="ant"/></l><r>Mario<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Carl<s n="np"/><s n="ant"/></l><r>Carl<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -917,8 +924,10 @@
     <e><p><l>Dostoievski<s n="np"/><s n="ant"/></l><r>Dostoevskij<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Wikimedia<s n="np"/><s n="al"/></l><r>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Dharma<s n="np"/><s n="al"/></l><r>Dharma<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Buda<s n="np"/><s n="al"/></l><r>Buddha<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Buda<s n="np"/><s n="ant"/></l><r>Buddha<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Adjectives -->
 
