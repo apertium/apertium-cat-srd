@@ -1,6 +1,7 @@
 all:
 	lt-comp lr apertium-ca-sc.sc.dix sc-ca.automorf.bin apertium-ca-sc.sc.acx
 	lt-comp rl apertium-ca-sc.ca-sc.dix sc-ca.autobil.bin
+	apertium-validate-transfer apertium-ca-sc.sc-ca.t1x
 	apertium-preprocess-transfer apertium-ca-sc.sc-ca.t1x sc-ca.t1x.bin
 	lt-comp lr apertium-ca-sc.post-ca.dix sc-ca.autopgen.bin
 	apertium-gen-modes modes.xml
