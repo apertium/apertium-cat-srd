@@ -673,6 +673,28 @@
       <e>       <p><l>adas</l><r>are<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="bisogni/are__vblex" c="p.39">
+      <e>       <p><l>are</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>are</l><r>are<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantare"/></e>
+      <e>       <p><l>ende</l><r>are<s n="vblex"/><s n="ger"/></r></p></e>
+      <e>       <p><l>ende</l><r>are<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantende"/></e>
+
+      <e>       <p><l>at</l><r>are<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ant</l><r>are<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>aiat</l><r>are<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>aiant</l><r>are<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>et</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ent</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>adu</l><r>are<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ada</l><r>are<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ados</l><r>are<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>adas</l><r>are<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     <pardef n="tim/ere__vblex" c="p.40">
       <e>       <p><l>ere</l><r>ere<s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l>ere</l><r>ere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantare"/></e>
@@ -2888,6 +2910,11 @@
     <e lm="èssere"><i></i><par n="/èssere__vblex"/></e>
     <e lm="àere"><i></i><par n="/àere__vblex"/></e>
     <e lm="àere a"><i></i><par n="/àere__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
+
+    <e lm="bisogniare"><i>bisogni</i><par n="bisogni/are__vblex"/></e>
+    <e lm="bisogniare" r="LR"><p><l>bisonz</l><r>bisogni</r></p><par n="bisogni/are__vblex"/></e>
+
+
     <e lm="tènnere"><i>t</i><par n="t/ènnere__vblex"/></e>
 
     <e lm="cantare"><i>cant</i><par n="cant/are__vblex"/></e>
@@ -3090,8 +3117,6 @@
     <e lm="agiudare"><i>agiud</i><par n="cant/are__vblex"/></e>
     <e lm="ispetzializare"><i>ispetzializ</i><par n="cant/are__vblex"/></e>
     <e lm="informatizare"><i>informatiz</i><par n="cant/are__vblex"/></e>
-    <e lm="bisogniare"><i>bisogni</i><par n="cant/are__vblex"/></e>
-    <e lm="bisogniare" r="LR"><p><l>bisonz</l><r>bisogni</r></p><par n="cant/are__vblex"/></e>
     <e lm="ghiare"><i>ghi</i><par n="cant/are__vblex"/></e>
 
     <e lm="cunservare"><i>cunserv</i><par n="cant/are__vblex"/></e>
