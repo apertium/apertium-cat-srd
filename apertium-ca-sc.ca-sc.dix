@@ -151,8 +151,14 @@
     <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>us<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>bos<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+
+    <e r="RL"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="ND"/></r></p></e>
+
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -161,13 +167,26 @@
     <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e><p><l>hi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>nche<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
+    <e><p><l>mi<s n="prn"/><s n="tn"/></l><r>mene<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>mi<s n="prn"/><s n="tn"/></l><r>mie<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>mi<s n="prn"/><s n="tn"/></l><r>megus<s n="prn"/><s n="tn"/></r></p></e>
+
+    <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tene<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tie<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tegus<s n="prn"/><s n="tn"/></r></p></e>
+
     <e><p><l>jo<s n="prn"/><s n="tn"/></l><r>deo<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>tu<s n="prn"/><s n="tn"/></l><r>tue<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>ell<s n="prn"/><s n="tn"/></l><r>issu<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>nosaltres<s n="prn"/><s n="tn"/></l><r>nois<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>vosaltres<s n="prn"/><s n="tn"/></l><r>bois<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>un<b/>altre<s n="prn"/><s n="tn"/></l><r>àteru<s n="prn"/><s n="tn"/></r></p></e>
 
+    <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+    <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>qual<s n="adj"/></l><r>cale<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
