@@ -1611,7 +1611,7 @@
     <e lm="còdighe" r="LR"><p><l>codighe</l><r>còdighe</r></p><par n="pane__n"/></e>
     <e lm="frade"><i>frade</i><par n="pane__n"/></e>
     <e lm="duca"><i>duca</i><par n="pane__n"/></e>
-    <e lm="ferreri"><i>ferreri</i><par n="pane__n"/></e>
+    <!--<e lm="ferreri"><i>ferreri</i><par n="pane__n"/></e>-->
     <e lm="continente"><i>continente</i><par n="pane__n"/></e>
     <e lm="èuro"><i>èuro</i><par n="pane__n"/></e>
     <e lm="nòmene"><i>nòmene</i><par n="pane__n"/></e>
@@ -1759,7 +1759,7 @@
     <e lm="sequèntzia"><i>sequ</i><par n="difer/èntzia__n"/></e>
     <e lm="reverèntzia"><i>rever</i><par n="difer/èntzia__n"/></e>
     <e lm="referèntzia"><i>refer</i><par n="difer/èntzia__n"/></e>
-    <e lm="onorificèntzia"><i>onorific</i><par n="difer/èntzia__n"/></e>
+    <!--<e lm="onorificèntzia"><i>onorific</i><par n="difer/èntzia__n"/></e>-->
     <e lm="obbedièntzia"><i>obbedi</i><par n="difer/èntzia__n"/></e>
     <e lm="influèntzia"><i>influ</i><par n="difer/èntzia__n"/></e>
     <e lm="frequèntzia"><i>frequ</i><par n="difer/èntzia__n"/></e>
@@ -2053,7 +2053,7 @@
     <e lm="papista"><i>papista</i><par n="dentista__n"/></e>
     <e lm="seminarista"><i>seminarista</i><par n="dentista__n"/></e>
     <e lm="sofista"><i>sofista</i><par n="dentista__n"/></e>
-    <e lm="barista"><i>barista</i><par n="dentista__n"/></e>
+    <!--<e lm="barista"><i>barista</i><par n="dentista__n"/></e>-->
     <e lm="ullierista"><i>ullierista</i><par n="dentista__n"/></e>
     <e lm="umorista"><i>umorista</i><par n="dentista__n"/></e>
     <e lm="violinista"><i>violinista</i><par n="dentista__n"/></e>
@@ -2142,16 +2142,16 @@
     <e lm="acumpangiamentu"><i>acumpangiament</i><par n="mac/u__n"/></e>
     <e lm="tzircuidu"><i>tzircuid</i><par n="mac/u__n"/></e>
     <e lm="acumprimentu"><i>acumpriment</i><par n="mac/u__n"/></e>
-    <e lm="acuntessimentu"><i>acuntessiment</i><par n="mac/u__n"/></e>
+    <!--<e lm="acuntessimentu"><i>acuntessiment</i><par n="mac/u__n"/></e>-->
     <e lm="argumentu"><i>argument</i><par n="mac/u__n"/></e>
-    <e lm="arroscimentu"><i>arrosciment</i><par n="mac/u__n"/></e>
-    <e lm="congruimentu"><i>congruiment</i><par n="mac/u__n"/></e>
+    <!--<e lm="arroscimentu"><i>arrosciment</i><par n="mac/u__n"/></e>-->
+    <!--<e lm="congruimentu"><i>congruiment</i><par n="mac/u__n"/></e>-->
     <e lm="printzìpiu"><i>printzìpi</i><par n="mac/u__n"/></e>
     <e lm="cumplementu"><i>cumplement</i><par n="mac/u__n"/></e>
     <e lm="cumportamentu"><i>cumportament</i><par n="mac/u__n"/></e>
-    <e lm="disprigamentu"><i>disprigament</i><par n="mac/u__n"/></e>
+    <!--<e lm="disprigamentu"><i>disprigament</i><par n="mac/u__n"/></e>-->
     <e lm="elementu"><i>element</i><par n="mac/u__n"/></e>
-    <e lm="frunimentu"><i>fruniment</i><par n="mac/u__n"/></e>
+    <!--<e lm="frunimentu"><i>fruniment</i><par n="mac/u__n"/></e>-->
     <e lm="fundamentu"><i>fundament</i><par n="mac/u__n"/></e>
     <e lm="iscravamentu"><i>iscravament</i><par n="mac/u__n"/></e>
     <e lm="istrumentu"><i>istrument</i><par n="mac/u__n"/></e>
@@ -2159,7 +2159,7 @@
     <e lm="acordu"><i>acord</i><par n="mac/u__n"/></e>
     <e lm="bisòngiu"><i>bisòngi</i><par n="mac/u__n"/></e>
     <e lm="agiudu"><i>agiud</i><par n="mac/u__n"/></e>
-    <e lm="lompimentu"><i>lompiment</i><par n="mac/u__n"/></e>
+    <!--<e lm="lompimentu"><i>lompiment</i><par n="mac/u__n"/></e>-->
     <e lm="mamentu"><i>mament</i><par n="mac/u__n"/></e>
     <e lm="tipu"><i>tip</i><par n="mac/u__n"/></e>
     <e lm="modellu"><i>modell</i><par n="mac/u__n"/></e>
@@ -2169,10 +2169,10 @@
     <e lm="mentu"><i>ment</i><par n="mac/u__n"/></e>
     <e lm="momentu"><i>moment</i><par n="mac/u__n"/></e>
     <e lm="pensamentu"><i>pensament</i><par n="mac/u__n"/></e>
-    <e lm="radopiamentu"><i>radopiament</i><par n="mac/u__n"/></e>
+    <!--<e lm="radopiamentu"><i>radopiament</i><par n="mac/u__n"/></e>-->
     <e lm="riferimentu"><i>riferiment</i><par n="mac/u__n"/></e>
     <e lm="sarbamentu"><i>sarbament</i><par n="mac/u__n"/></e>
-    <e lm="sighimentu"><i>sighiment</i><par n="mac/u__n"/></e>
+    <!--<e lm="sighimentu"><i>sighiment</i><par n="mac/u__n"/></e>-->
     <e lm="discu"><i>disc</i><par n="mac/u__n"/></e>
     <e lm="tratamentu"><i>tratament</i><par n="mac/u__n"/></e>
     <e lm="artìculu"><i>artìcul</i><par n="mac/u__n"/></e>
@@ -2213,7 +2213,6 @@
     <e lm="telèfonu"><i>telèfon</i><par n="mac/u__n"/></e>
     <e lm="frigorìferu"><i>frigorìfer</i><par n="mac/u__n"/></e>
     <e lm="pilastru"><i>pilastr</i><par n="mac/u__n"/></e>
-    <e lm="aritmeticu"><i>aritmetic</i><par n="mac/u__n"/></e>
     <e lm="istudiu"><i>istudi</i><par n="mac/u__n"/></e>
     <e lm="abotzu"><i>abotz</i><par n="mac/u__n"/></e>
     <e lm="cussìgiu"><i>cussìgi</i><par n="mac/u__n"/></e>
@@ -2655,6 +2654,7 @@
     <e lm="istòricu"><i>istòric</i><par n="frantzes/u__adj"/></e>
     <e lm="istòricu" r="LR"><p><l>istoric</l><r>istòric</r></p><par n="frantzes/u__adj"/></e>
     <e lm="ativu"><i>ativ</i><par n="frantzes/u__adj"/></e>
+    <e lm="aritmeticu"><i>aritmetic</i><par n="frantzes/u__adj"/></e>
     <e lm="antigu"><i>antig</i><par n="frantzes/u__adj"/></e>
     <e lm="binariu"><i>binari</i><par n="frantzes/u__adj"/></e>
     <e lm="poderosu"><i>poderos</i><par n="frantzes/u__adj"/></e>

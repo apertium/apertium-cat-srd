@@ -278,19 +278,22 @@
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>codi<s n="n"/><s n="m"/></l><r>còdighe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pa<s n="n"/><s n="m"/></l><r>pane<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>duc<s n="n"/><s n="m"/></l><r>duc<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>duc<s n="n"/><s n="f"/></l><r>duc<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>duc<s n="n"/><s n="m"/></l><r>duca<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>duc<s n="n"/><s n="f"/></l><r>duchessa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>euro<s n="n"/><s n="m"/></l><r>èuro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>treball<s n="n"/><s n="m"/></l><r>òpera<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>canal<s n="n"/><s n="m"/></l><r>canale<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>component<s n="n"/><s n="m"/></l><r>cumponente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>canal<s n="n"/><s n="mf"/></l><r>canale<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>component<s n="n"/><s n="mf"/></l><r>cumponente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>internet<s n="n"/><s n="f"/></l><r>internet<s n="n"/><s n="m"/></r></p><par n="temps_tempus"/></e>
     <e><p><l>tarda<s n="n"/><s n="f"/></l><r>sero<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lloc<s n="n"/><s n="m"/></l><r>logu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>comte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>comte<s n="n"/><s n="f"/></l><r>conte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>llàpis<s n="n"/><s n="m"/></l><r>lapis<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>llapis<s n="n"/><s n="m"/></l><r>lapis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>obediència<s n="n"/><s n="f"/></l><r>obbedièntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>desobediència<s n="n"/><s n="f"/></l><r>disubidièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operació<s n="n"/><s n="f"/></l><r>operatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
@@ -303,10 +306,12 @@
     <e><p><l>senyal<s n="n"/><s n="m"/></l><r>signale<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nit<s n="n"/><s n="f"/></l><r>notte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cabra<s n="n"/><s n="f"/></l><r>cabra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tipus<s n="n"/><s n="m"/></l><r>tipu<s n="n"/><s n="m"/></r></p><par n="temps_tempus"/></e> 
     <e><p><l>llengua<s n="n"/><s n="f"/></l><r>limba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>plaça<s n="n"/><s n="f"/></l><r>pratha<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>plaça<s n="n"/><s n="f"/></l><r>pratza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pont<s n="n"/><s n="m"/></l><r>ponte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nombre<s n="n"/><s n="m"/></l><r>nùmeru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>església<s n="n"/><s n="f"/></l><r>creia<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>església<s n="n"/><s n="f"/></l><r>cresia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hospital<s n="n"/><s n="m"/></l><r>ispidale<s n="n"/><s n="m"/></r></p></e>
@@ -346,6 +351,64 @@
     <e><p><l>estat<s n="n"/><s n="m"/></l><r>istadu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>democràcia<s n="n"/><s n="f"/></l><r>democratzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>enciclopèdia<s n="n"/><s n="f"/></l><r>entziclopedia<s n="n"/><s n="f"/></r></p></e>
+
+    <e><p><l>habitant<s n="n"/><s n="mf"/></l><r>abitante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>esdeveniment<s n="n"/><s n="m"/></l><r>acadessimentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>acompanyament<s n="n"/><s n="m"/></l><r>acumpangiamentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>discussió<s n="n"/><s n="f"/></l><r>acumprimentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>amistat<s n="n"/><s n="f"/></l><r>amighèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>anestesiòleg<s n="n"/></l><r>anestesista<s n="n"/></r></p><par n="fort_forte"/></e>
+    <e><p><l>analista<s n="n"/><s n="mf"/></l><r>annalista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>aparició<s n="n"/><s n="f"/></l><r>apparizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arquitectura<s n="n"/><s n="f"/></l><r>architetura<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>atestació<s n="n"/><s n="f"/></l><r>attestazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>barista<s n="n"/><s n="mf"/></l><r>barista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>finestra<s n="n"/><s n="f"/></l><r>bentana<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>camioner<s n="n"/><s n="m"/></l><r>camionista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>campió<s n="n"/><s n="m"/></l><r>campione<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>cantant<s n="n"/><s n="mf"/></l><r>cantante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>coneixement<s n="n"/><s n="m"/></l><r>connoschèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>contracció<s n="n"/><s n="f"/></l><r>contrazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>comportament<s n="n"/><s n="m"/></l><r>cumportamentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>conformista<s n="n"/><s n="mf"/></l><r>cunformista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>conseqüència<s n="n"/><s n="f"/></l><r>cunsighèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>emigrant<s n="n"/><s n="mf"/></l><r>emigrante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>extensió<s n="n"/><s n="f"/></l><r>estensione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fatalista<s n="n"/><s n="mf"/></l><r>fatalista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>ferrocarril<s n="n"/><s n="m"/></l><r>ferrovia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>formalista<s n="n"/><s n="mf"/></l><r>formalista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>freqüència<s n="n"/><s n="f"/></l><r>frequèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>frunimentu<s n="n"/><s n="m"/></l><r>frunimentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>garantia<s n="n"/><s n="f"/></l><r>garàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gestió<s n="n"/><s n="f"/></l><r>gestione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>importància<s n="n"/><s n="f"/></l><r>importàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>influència<s n="n"/><s n="f"/></l><r>influèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>informàtica<s n="n"/><s n="f"/></l><r>informàtica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>crucifixió<s n="n"/><s n="f"/></l><r>iscravamentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>instrucció<s n="n"/><s n="f"/></l><r>istruzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lliçó<s n="n"/><s n="f"/></l><r>letzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lesió<s n="n"/><s n="f"/></l><r>lezione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boig<s n="n"/><s n="m"/></l><r>macu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>marit<s n="n"/><s n="m"/></l><r>maridu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>papallona<s n="n"/><s n="f"/></l><r>mariposa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>massa<s n="n"/><s n="f"/></l><r>massa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>maduresa<s n="n"/><s n="f"/></l><r>maturidade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ment<s n="n"/><s n="f"/></l><r>mentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>militant<s n="n"/><s n="mf"/></l><r>militante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>occident<s n="n"/><s n="m"/></l><r>occidente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>observança<s n="n"/><s n="f"/></l><r>osservàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fleca<s n="n"/><s n="f"/></l><r>paneteri<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>protestant<s n="n"/><s n="mf"/></l><r>protestante<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>referència<s n="n"/><s n="f"/></l><r>referèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reverència<s n="n"/><s n="f"/></l><r>reverèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>seqüència<s n="n"/><s n="f"/></l><r>sequèntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sighimentu<s n="n"/><s n="m"/></l><r>sighimentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estratificació<s n="n"/><s n="f"/></l><r>stratificazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>substància<s n="n"/><s n="f"/></l><r>sustàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ciclista<s n="n"/><s n="mf"/></l><r>tziclista<s n="n"/><s n="mf"/></r></p></e>
+    <e><p><l>ciutadania<s n="n"/><s n="f"/></l><r>tzitadinàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oficialitat<s n="n"/><s n="f"/></l><r>ufitzialidade<s n="n"/><s n="f"/></r></p></e>
+
 
     <e><p><l>significat<s n="n"/><s n="m"/></l><r>significu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>amic<s n="n"/><s n="m"/></l><r>amigu<s n="n"/><s n="m"/></r></p></e>
@@ -459,7 +522,7 @@
     <e><p><l>carrer<s n="n"/><s n="m"/></l><r>carriera<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>ordinador<s n="n"/><s n="m"/></l><r>carculadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ordinador<s n="n"/><s n="m"/></l><r>elaboradore<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>deu<s n="n"/><s n="m"/></l><r>deus<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>déu<s n="n"/><s n="m"/></l><r>deus<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biblioteca<s n="n"/><s n="f"/></l><r>biblioteca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>violència<s n="n"/><s n="f"/></l><r>violèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>advertència<s n="n"/><s n="f"/></l><r>avertèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -469,7 +532,7 @@
     <e><p><l>persecució<s n="n"/><s n="f"/></l><r>perzecutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>orient<s n="n"/><s n="m"/></l><r>oriente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mari<s n="n"/><s n="m"/></l><r>maridu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>leçó<s n="n"/><s n="f"/></l><r>lezione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lliçó<s n="n"/><s n="f"/></l><r>lezione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>instrucció<s n="n"/><s n="f"/></l><r>istrutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>independència<s n="n"/><s n="f"/></l><r>indipendèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>joventut<s n="n"/><s n="f"/></l><r>gioventude<s n="n"/><s n="f"/></r></p></e>
@@ -496,7 +559,6 @@
     <e><p><l>modernisme<s n="n"/><s n="m"/></l><r>modernismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mercat<s n="n"/><s n="m"/></l><r>mercadu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ment<s n="n"/><s n="f"/></l><r>mente<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>maturitat<s n="n"/><s n="f"/></l><r>maturidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>institució<s n="n"/><s n="f"/></l><r>istitutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>interpretació<s n="n"/><s n="f"/></l><r>interpretazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fundació<s n="n"/><s n="f"/></l><r>fundatzione<s n="n"/><s n="f"/></r></p></e>
@@ -578,7 +640,6 @@
     <e><p><l>manera<s n="n"/><s n="f"/></l><r>manera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>localitat<s n="n"/><s n="f"/></l><r>localidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alliberament<s n="n"/><s n="m"/></l><r>liberazione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>lecció<s n="n"/><s n="f"/></l><r>letzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>feixisme<s n="n"/><s n="m"/></l><r>fascismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dominació<s n="n"/><s n="f"/></l><r>dominazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>destrucció<s n="n"/><s n="f"/></l><r>distrutzione<s n="n"/><s n="f"/></r></p></e>
@@ -591,7 +652,6 @@
     <e><p><l>creació<s n="n"/><s n="f"/></l><r>creatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cooficialitat<s n="n"/><s n="f"/></l><r>co-ufitzialidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>convicció<s n="n"/><s n="f"/></l><r>convintzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>conte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>consulta<s n="n"/><s n="f"/></l><r>consultatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>congrés<s n="n"/><s n="m"/></l><r>congressu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>progrés<s n="n"/><s n="m"/></l><r>progressu<s n="n"/><s n="m"/></r></p></e>
@@ -637,6 +697,7 @@
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>mamentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cavall<s n="n"/><s n="m"/></l><r>caddu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>euga<s n="n"/><s n="f"/></l><r>ebba<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>porc<s n="n"/><s n="m"/></l><r>porcu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>porca<s n="n"/><s n="f"/></l><r>madri<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>porca<s n="n"/><s n="f"/></l><r>sue<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>equivalència<s n="n"/><s n="f"/></l><r>ecuivalèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -1025,6 +1086,7 @@
     <e><p><l>binari<s n="adj"/></l><r>binariu<s n="adj"/></r></p></e>
     <e><p><l>albanès<s n="adj"/></l><r>albanesu<s n="adj"/></r></p></e>
     <e><p><l>tecnològic<s n="adj"/></l><r>tecnologicu<s n="adj"/></r></p></e>
+    <e><p><l>aritmètic<s n="adj"/></l><r>aritmeticu<s n="adj"/></r></p></e>
 
     <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
     <e><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
