@@ -349,6 +349,7 @@
     <e><p><l>cosa<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>energia<s n="n"/><s n="f"/></l><r>energia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>papa<s n="n"/><s n="m"/></l><r>paba<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>edició<s n="n"/><s n="f"/></l><r>editzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>origen<s n="n"/><s n="m"/></l><r>origine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>música<s n="n"/><s n="f"/></l><r>mùsica<s n="n"/><s n="f"/></r></p></e>
@@ -364,9 +365,11 @@
     <e><p><l>problema<s n="n"/><s n="m"/></l><r>problema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moment<s n="n"/><s n="m"/></l><r>momentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>metre<s n="n"/><s n="m"/></l><r>metru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>quilometre<s n="n"/><s n="m"/></l><r>chilòmetru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>mama<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>màquina<s n="n"/><s n="f"/></l><r>màchina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>volta<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tecnologia<s n="n"/><s n="f"/></l><r>tecnologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>illa<s n="n"/><s n="f"/></l><r>ìsula<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>instrument<s n="n"/><s n="m"/></l><r>istrumentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>documental<s n="n"/><s n="m"/></l><r>documentariu<s n="n"/><s n="m"/></r></p></e>
@@ -525,6 +528,7 @@
     <e><p><l>habilitat<s n="n"/><s n="f"/></l><r>abilidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>densitat<s n="n"/><s n="f"/></l><r>densidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>escola<s n="n"/><s n="f"/></l><r>iscola<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>maquinari<s n="n"/><s n="m"/></l><r>machinariu<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>pregonta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dia<s n="n"/><s n="m"/></l><r>die<s n="n"/><s n="f"/></r></p></e>
@@ -900,6 +904,7 @@
     <e><p><l>car<s n="adj"/></l><r>caru<s n="adj"/></r></p></e>
     <e><p><l>binari<s n="adj"/></l><r>binariu<s n="adj"/></r></p></e>
     <e><p><l>albanès<s n="adj"/></l><r>albanesu<s n="adj"/></r></p></e>
+    <e><p><l>tecnològic<s n="adj"/></l><r>tecnologicu<s n="adj"/></r></p></e>
 
     <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
     <e><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
@@ -935,6 +940,7 @@
     <e><p><l>distint<s n="adj"/></l><r>distintu<s n="adj"/></r></p></e>
     <e><p><l>divers<s n="adj"/></l><r>diversu<s n="adj"/></r></p></e>
     <e><p><l>hebreu<s n="adj"/></l><r>ebraicu<s n="adj"/></r></p></e>
+    <e><p><l>medieval<s n="adj"/></l><r>medievale<s n="adj"/></r></p></e>
     <e><p><l>econòmic<s n="adj"/></l><r>economicu<s n="adj"/></r></p></e>
     <e><p><l>esquerre<s n="adj"/></l><r>sinistru<s n="adj"/></r></p></e>
     <e><p><l>estudiós<s n="adj"/></l><r>istudiosu<s n="adj"/></r></p></e>
@@ -988,6 +994,7 @@
     <e><p><l>possible<s n="adj"/></l><r>possìbile<s n="adj"/></r></p></e>
     <e><p><l>general<s n="adj"/></l><r>generale<s n="adj"/></r></p></e>
     <e><p><l>ortogràfic<s n="adj"/></l><r>ortogràficu<s n="adj"/></r></p></e>
+    <e><p><l>oriental<s n="adj"/></l><r>orientale<s n="adj"/></r></p></e>
 
 
     <!-- SECTION:  Adverbs -->
@@ -1009,12 +1016,22 @@
     <e><p><l>aquí<s n="adv"/></l><r>inoghe<s n="adv"/></r></p></e>
     <e><p><l>mateix<s n="adv"/></l><r>matessi<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>no<s n="adv"/></l><r>nono<s n="adv"/></r></p></e>
     <e><p><l>ara<s n="adv"/></l><r>tando<s n="adv"/></r></p></e>
     <e><p><l>ja<s n="adv"/></l><r>como<s n="adv"/></r></p></e>
 
     <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
     <!--<e><p><l>a<b/>la<b/>vesprada<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>-->
 
+    <e><p><l>precisament<s n="adv"/></l><r>pretzisamente<s n="adv"/></r></p></e>
+    <e><p><l>especialment<s n="adv"/></l><r>ispetzialmente<s n="adv"/></r></p></e>
+    <e><p><l>segurament<s n="adv"/></l><r>siguramente<s n="adv"/></r></p></e>
+    <e><p><l>oficialment<s n="adv"/></l><r>ufitzialmente<s n="adv"/></r></p></e>
+    <e><p><l>tècnicament<s n="adv"/></l><r>tecnicamente<s n="adv"/></r></p></e>
+    <e><p><l>recentment<s n="adv"/></l><r>retzentamente<s n="adv"/></r></p></e>
+    <e><p><l>pròpiament<s n="adv"/></l><r>propriamente<s n="adv"/></r></p></e>
+    <e><p><l>literalment<s n="adv"/></l><r>literalmente<s n="adv"/></r></p></e>
+    <e><p><l>definitivament<s n="adv"/></l><r>definitivamente<s n="adv"/></r></p></e>
     <e><p><l>actualment<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
     <e><p><l>altament<s n="adv"/></l><r>altamente<s n="adv"/></r></p></e>
     <e><p><l>econòmicament<s n="adv"/></l><r>economicamente<s n="adv"/></r></p></e>
@@ -1040,6 +1057,7 @@
     <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
     <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>a</g><s n="vblex"/></r></p></e>
+    <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
 
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
@@ -1246,6 +1264,9 @@
     <e><p><l>abocar<s n="vblex"/></l><r>betare<s n="vblex"/></r></p></e>
     <e><p><l>enviar<s n="vblex"/></l><r>aviare<s n="vblex"/></r></p></e>
     <e><p><l>baixar<s n="vblex"/></l><r>calare<s n="vblex"/></r></p></e>
+    <e><p><l>descobrir<s n="vblex"/></l><r>iscobèrrere<s n="vblex"/></r></p></e>
+    <e><p><l>informar<s n="vblex"/></l><r>informare<s n="vblex"/></r></p></e>
+    <e><p><l>anticipar<s n="vblex"/></l><r>antitzipare<s n="vblex"/></r></p></e>
 
 
 
