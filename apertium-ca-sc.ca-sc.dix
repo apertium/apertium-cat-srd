@@ -58,6 +58,11 @@
     <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
   <pardefs>
+    <pardef n="llur_issoro">
+      <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="mf"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="ND"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
     <pardef n="temps_tempus">
       <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
       <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
@@ -182,6 +187,8 @@
 
     <e><p><l>altre<s n="det"/><s n="ind"/></l><r>àteru<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>ambdós<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/></r></p></e>
+
+    <e><p><l>llur<s n="det"/><s n="pos"/></l><r>issoro<s n="det"/><s n="pos"/></r></p><par n="llur_issoro"/></e>
 
     <!-- SECTION:  Numerals -->
 

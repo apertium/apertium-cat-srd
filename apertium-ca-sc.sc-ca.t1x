@@ -85,6 +85,7 @@
 <def-attr n="a_det">
    <attr-item tags="det.ind"/>
    <attr-item tags="det.dem"/>
+   <attr-item tags="det.pos"/>
    <attr-item tags="predet"/>
    <attr-item tags="det.def"/>
 </def-attr>
