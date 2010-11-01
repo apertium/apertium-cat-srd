@@ -13,27 +13,13 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-     15 #Buda\<np\>\<al\>	^Buda<np><al>$
-      5 #sànscrit\<adj\>\<m\>\<sg\>	^sànscrit<adj><m><sg>$
-      3 #mari\<n\>\<m\>\<sg\>	^mari<n><m><sg>$
-      3 #leçó\<n\>\<f\>\<pl\>	^leçó<n><f><pl>$
-      3 #deu\<n\>\<m\>\<pl\>	^deu<n><m><pl>$
-      2 #maturitat\<n\>\<f\>\<sg\>	^maturitat<n><f><sg>$
-      2 #curar\<vblex\>\<pp\>\<m\>\<sg\>	^curar<vblex><pp><m><sg>$
-      1 #soler\<vblex\>\<imp\>\<p2\>\<sg\>	^soler<vblex><imp><p2><sg>$
-      1 #quilometre\<n\>\<m\>\<pl\>	^quilometre<n><m><pl>$
-      1 #melodiós\<adj\>\<m\>\<sg\>	^melodiós<adj><m><sg>$
-      1 #lecció\<n\>\<f\>\<pl\>	^lecció<n><f><pl>$
-      1 #haver\<m\>\<sg\>	^haver<m><sg>$
-      1 #extenció\<n\>\<f\>\<sg\>	^extenció<n><f><sg>$
+      1 #prevalentment\<adv\>	^prevalentment<adv>$
       1 #es\<prn\>\<enc\>\<ref\>\<p3\>\<mf\>\<sp\>	^es<prn><enc><ref><p3><mf><sp>$
-      1 #curar\<vblex\>\<ger\>	^curar<vblex><ger>$
-      1 #confidar\<vblex\>\<pp\>\<f\>\<sg\>	^confidar<vblex><pp><f><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
   0 /tmp/sc-ca.multiform
   0 /tmp/sc-ca.multibidix
- 16 /tmp/sc-ca.tagmismatch
- 16 total
+  2 /tmp/sc-ca.tagmismatch
+  2 total
