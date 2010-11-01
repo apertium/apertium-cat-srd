@@ -1708,6 +1708,9 @@
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
     <e lm="fine"><i>fine</i><par n="mesa__n"/></e>
+    <e lm="maschera"><i>maschera</i><par n="mesa__n"/></e>
+    <e lm="caratza"><i>caratza</i><par n="mesa__n"/></e>
+    <e lm="carota"><i>carota</i><par n="mesa__n"/></e>
     <e lm="caratere"><i>caratere</i><par n="pane__n"/></e>
     <e lm="caratere" r="LR"><p><l>caràtere</l><r>caratere</r></p><par n="pane__n"/></e>
     <e lm="idea"><i>idea</i><par n="mesa__n"/></e>
@@ -2172,6 +2175,9 @@
     <e lm="perìudu"><i>perìud</i><par n="mac/u__n"/></e>
     <e lm="dispositivu"><i>dispositiv</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
+    <e lm="disignu"><i>disign</i><par n="mac/u__n"/></e>
+    <e lm="disignu" r="LR"><p><l>disinn</l><r>disign</r></p><par n="mac/u__n"/></e>
+    <e lm="disignu" r="LR"><p><l>disegn</l><r>disign</r></p><par n="mac/u__n"/></e>
     <e lm="regnu"><i>regn</i><par n="mac/u__n"/></e>
     <e lm="regnu" r="LR"><p><l>renn</l><r>regn</r></p><par n="mac/u__n"/></e>
     <e lm="mercadu"><i>mercad</i><par n="mac/u__n"/></e>
