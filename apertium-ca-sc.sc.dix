@@ -1464,6 +1464,7 @@
     <e lm="cando"><i>cando</i><par n="chi__cnjsub"/></e>
     <e lm="cando" r="LR"><p><l>candu</l><r>cando</r></p><par n="chi__cnjsub"/></e>
     <e lm="pro ite"><i>pro<b/>ite</i><par n="chi__cnjsub"/></e>
+    <e lm="proite" r="LR"><p><l>proite</l><r>pro<b/>ite</r></p><par n="chi__cnjsub"/></e>
     <!--<e lm="cantu"><i>cantu</i><par n="chi__cnjsub"/></e>-->
     <e lm="ca"><i>ca</i><par n="chi__cnjsub"/></e>
     <e lm="sigomente"><i>sigomente</i><par n="chi__cnjsub"/></e>
@@ -1493,37 +1494,36 @@
     <e lm="suta"><i>suta</i><par n="a__pr"/></e>
     <e lm="subra"><i>subra</i><par n="a__pr"/></e>
     <!--<e lm="a pustis"><i>a<b/>pustis</i><par n="a__pr"/></e>-->
-    <e lm="in antis"><i>in<b/>antis</i><par n="a__pr"/></e>
+    <!--<e lm="in antis"><i>in<b/>antis</i><par n="a__pr"/></e>-->
     <e lm="foras"><i>foras</i><par n="a__pr"/></e>
     <e lm="intro"><i>intro</i><par n="a__pr"/></e>
     <e lm="a inghìriu"><i>a<b/>inghìriu</i><par n="a__pr"/></e>
     <e lm="contra"><i>contra</i><par n="a__pr"/></e>
     <e lm="sena"><i>sena</i><par n="a__pr"/></e>
     <e lm="a"><i>a</i><par n="a__pr"/></e>
-    <e lm="curtzu"><i>curtzu</i><par n="a__pr"/></e>
-    <e lm="a tesu"><i>a<b/>tesu</i><par n="a__pr"/></e>
-    <e lm="a"><i>a</i><par n="a__pr"/></e>
-    <e lm="largu"><i>largu</i><par n="a__pr"/></e>
-    <e lm="indedda"><i>indedda</i><par n="a__pr"/></e>
+    <!--<e lm="curtzu"><i>curtzu</i><par n="a__pr"/></e>-->
+    <!--<e lm="a tesu"><i>a<b/>tesu</i><par n="a__pr"/></e>-->
+    <!--<e lm="largu"><i>largu</i><par n="a__pr"/></e>-->
+    <!--<e lm="indedda"><i>indedda</i><par n="a__pr"/></e>-->
     <!--<e lm="in prus"><i>in<b/>prus</i><par n="a__pr"/></e>-->
     <!--<e lm="in s’oru"><i>in<b/>s’oru</i><par n="a__pr"/></e>-->
     <!--<e lm="paris"><i>paris</i><par n="a__pr"/></e>-->
-    <e lm="in fatu"><i>in<b/>fatu</i><par n="a__pr"/></e>
-    <e lm="in mesu de"><i>in<b/>mesu<b/>de</i><par n="a__pr"/></e>
-    <e lm="in parte de"><i>in<b/>parte<b/>de</i><par n="a__pr"/></e>
-    <e lm="in càmbiu de"><i>in<b/>càmbiu<b/>de</i><par n="a__pr"/></e>
-    <e lm="in cara de"><i>in<b/>cara<b/>de</i><par n="a__pr"/></e>
+    <!--<e lm="in fatu"><i>in<b/>fatu</i><par n="a__pr"/></e>-->
+    <!--<e lm="in mesu de"><i>in<b/>mesu<b/>de</i><par n="a__pr"/></e>-->
+    <!--<e lm="in parte de"><i>in<b/>parte<b/>de</i><par n="a__pr"/></e>-->
+    <!--<e lm="in càmbiu de"><i>in<b/>càmbiu<b/>de</i><par n="a__pr"/></e>-->
+    <!--<e lm="in cara de"><i>in<b/>cara<b/>de</i><par n="a__pr"/></e>-->
     <e lm="paris cun"><i>paris<b/>cun</i><par n="a__pr"/></e>
     <!--<e lm="conca"><i>conca</i><par n="a__pr"/></e>-->
     <e lm="a"><i>a</i><par n="a__pr"/></e>
     <e lm="chirru a"><i>chirru<b/>a</i><par n="a__pr"/></e>
     <e lm="cara a"><i>cara<b/>a</i><par n="a__pr"/></e>
-    <e lm="pro mèdiu de"><i>pro<b/>mèdiu<b/>de</i><par n="a__pr"/></e>
+    <!--<e lm="pro mèdiu de"><i>pro<b/>mèdiu<b/>de</i><par n="a__pr"/></e>-->
     <e lm="francu"><i>francu</i><par n="a__pr"/></e>
-    <e lm="tràmite"><i>tràmite</i><par n="a__pr"/></e>
+    <!--<e lm="tràmite"><i>tràmite</i><par n="a__pr"/></e>-->
     <e lm="mediante"><i>mediante</i><par n="a__pr"/></e>
     <e lm="durante"><i>durante</i><par n="a__pr"/></e>
-    <e lm="rasente"><i>rasente</i><par n="a__pr"/></e>
+    <!--<e lm="rasente"><i>rasente</i><par n="a__pr"/></e>-->
     <e lm="a pitzu de"><i>a<b/>pitzu<b/>de</i><par n="a__pr"/></e>
 
     <!-- SECTION: Pronomi -->
@@ -1651,6 +1651,7 @@
 
     <e lm="pane"><i>pane</i><par n="pane__n"/></e>
     <e lm="coro"><i>coro</i><par n="pane__n"/></e>
+    <e lm="robot"><i>robot</i><par n="pane__n"/></e>
     <e lm="paba"><i>paba</i><par n="pane__n"/></e>
     <e lm="òmine"><i>òmine</i><par n="pane__n"/></e>
     <e lm="paneteri"><i>paneteri</i><par n="pane__n"/></e>
@@ -1706,6 +1707,7 @@
     <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
+    <e lm="azienda"><i>azienda</i><par n="mesa__n"/></e>
     <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
     <e lm="fine"><i>fine</i><par n="mesa__n"/></e>
     <e lm="maschera"><i>maschera</i><par n="mesa__n"/></e>
@@ -1829,6 +1831,8 @@
     <e lm="tzitadinàntzia" r="LR"><p><l>citadin</l><r>tzitadin</r></p><par n="import/àntzia__n"/></e>
     <e lm="garàntzia"><i>gar</i><par n="import/àntzia__n"/></e>
  
+    <e lm="caraterìstica"><i>caraterìstica</i><par n="mesa__n"/></e>
+    <e lm="caraterìstica" r="LR"><p><l>carateristica</l><r>caraterìstica</r></p><par n="mesa__n"/></e>
 
     <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
@@ -2925,7 +2929,7 @@
     <!--<e lm="a su mancu"><i>a<b/>su<b/>mancu</i><par n="bene__adv"/></e>-->
     <e lm="meda"><i>meda</i><par n="bene__adv"/></e>
     <e lm="a pustis"><i>a<b/>pustis</i><par n="bene__adv"/></e>
-    <e lm="in antis"><i>in<b/>antis</i><par n="bene__adv"/></e>
+    <!--<e lm="in antis"><i>in<b/>antis</i><par n="bene__adv"/></e>-->
     <e lm="in fatu"><i>in<b/>fatu</i><par n="bene__adv"/></e>
     <e lm="chitzo"><i>chitzo</i><par n="bene__adv"/></e>
     <e lm="tardu"><i>tardu</i><par n="bene__adv"/></e>
@@ -2970,6 +2974,7 @@
 
     <e lm="a.C."><i>a.C</i><par n="bene__adv"/></e>
     <e lm="ecc."><i>ecc</i><par n="bene__adv"/></e>
+    <e lm="ecc." r="LR"><p><l>etc</l><r>ecc</r></p><par n="bene__adv"/></e>
 
 
     <!-- SECTION: Verbs -->
