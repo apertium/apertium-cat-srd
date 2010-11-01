@@ -1434,8 +1434,8 @@
     <!-- SECTION: Conjunctions -->
 
     <e lm="e"><i></i><par n="/e__cnjcoo"/></e>
-    <e lm="finas"><i>finas</i><par n="o__cnjcoo"/></e>
-    <e lm="nemmancu"><i>nemmancu</i><par n="o__cnjcoo"/></e>
+    <!--<e lm="finas"><i>finas</i><par n="o__cnjcoo"/></e>-->
+    <!--<e lm="nemmancu"><i>nemmancu</i><par n="o__cnjcoo"/></e>-->
     <!--<e lm="in prus"><i>in<b/>prus</i><par n="o__cnjcoo"/></e>-->
     <e lm="ne"><i></i><par n="/ne__cnjcoo"/></e>
     <e lm="o"><i>o</i><par n="o__cnjcoo"/></e>
@@ -1443,18 +1443,18 @@
     <e lm="ma"><i>ma</i><par n="o__cnjcoo"/></e>
     <e lm="però"><i>però</i><par n="o__cnjcoo"/></e>
     <!--<e lm="prus a prestu"><i>prus<b/>a<b/>prestu</i><par n="o__cnjcoo"/></e>-->
-    <e lm="sende gasi"><i>sende<b/>gasi</i><par n="o__cnjcoo"/></e>
-    <e lm="de su restu"><i>de<b/>su<b/>restu</i><par n="o__cnjcoo"/></e>
+    <!--<e lm="sende gasi"><i>sende<b/>gasi</i><par n="o__cnjcoo"/></e>-->
+    <!--<e lm="de su restu"><i>de<b/>su<b/>restu</i><par n="o__cnjcoo"/></e>-->
     <!--<e lm="antis"><i>antis</i><par n="o__cnjcoo"/></e>-->
     <!--<e lm="imbetzes"><i>imbetzes</i><par n="o__cnjcoo"/></e>-->
-    <e lm="cando chi"><i>cando<b/>chi</i><par n="o__cnjcoo"/></e>
+    <!--<e lm="cando chi"><i>cando<b/>chi</i><par n="o__cnjcoo"/></e>-->
     <e lm="in càmbiu"><i>in<b/>càmbiu</i><par n="o__cnjcoo"/></e>
 
     <e lm="chi"><i>chi</i><par n="chi__cnjsub"/></e>
     <!--<e lm="si"><i>si</i><par n="chi__cnjsub"/></e>-->
     <e lm="chi" r="LR"><p><l>ki</l><r>chi</r></p><par n="chi__cnjsub"/></e>
     <e lm="che"><i>che</i><par n="chi__cnjsub"/></e>
-    <e lm="comente chi"><i>comente<b/>chi</i><par n="chi__cnjsub"/></e>
+    <!--<e lm="comente chi"><i>comente<b/>chi</i><par n="chi__cnjsub"/></e>-->
 
     <e lm="comente"><i>comente</i><par n="chi__cnjsub"/></e>
     <e lm="comente" r="LR"><p><l>comenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
@@ -1468,10 +1468,10 @@
     <!--<e lm="cantu"><i>cantu</i><par n="chi__cnjsub"/></e>-->
     <e lm="ca"><i>ca</i><par n="chi__cnjsub"/></e>
     <e lm="sigomente"><i>sigomente</i><par n="chi__cnjsub"/></e>
-    <e lm="bidu chi"><i>bidu<b/>chi</i><par n="chi__cnjsub"/></e>
-    <e lm="a tales chi"><i>a<b/>tales<b/>chi</i><par n="chi__cnjsub"/></e>
+    <!--<e lm="bidu chi"><i>bidu<b/>chi</i><par n="chi__cnjsub"/></e>-->
+    <!--<e lm="a tales chi"><i>a<b/>tales<b/>chi</i><par n="chi__cnjsub"/></e>-->
     <e lm="pro chi"><i>pro<b/>chi</i><par n="chi__cnjsub"/></e>
-    <e lm="sende chi"><i>sende<b/>chi</i><par n="chi__cnjsub"/></e>
+    <!--<e lm="sende chi"><i>sende<b/>chi</i><par n="chi__cnjsub"/></e>-->
     <e lm="mancari"><i>mancari</i><par n="chi__cnjsub"/></e>
     <e lm="mancari chi"><i>mancari<b/>chi</i><par n="chi__cnjsub"/></e>
 
