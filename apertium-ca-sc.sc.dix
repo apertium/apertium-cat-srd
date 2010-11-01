@@ -563,11 +563,12 @@
       <e>       <p><l>fia</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>fias</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>fiat</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>fit</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>fit</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>fut</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>fiamus</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>fiais</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>fiant</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>funt</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>funt</l><r>èssere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e> <!-- @!LSC -->
 
       <e>       <p><l>sia</l><r>èssere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>sias</l><r>èssere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -598,9 +599,11 @@
       <e>       <p><l>apo</l><r>àere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>as</l><r>àere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>at</l><r>àere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ada</l><r>àere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>amus</l><r>àere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ais</l><r>àere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>ant</l><r>àere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ana</l><r>àere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e> <!-- @!LSC -->
 
       <e>       <p><l>aia</l><r>àere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>aias</l><r>àere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1509,7 +1512,7 @@
     <!--<e lm="in s’oru"><i>in<b/>s’oru</i><par n="a__pr"/></e>-->
     <!--<e lm="paris"><i>paris</i><par n="a__pr"/></e>-->
     <!--<e lm="in fatu"><i>in<b/>fatu</i><par n="a__pr"/></e>-->
-    <!--<e lm="in mesu de"><i>in<b/>mesu<b/>de</i><par n="a__pr"/></e>-->
+    <e lm="in mesu de"><i>in<b/>mesu<b/>de</i><par n="a__pr"/></e>
     <!--<e lm="in parte de"><i>in<b/>parte<b/>de</i><par n="a__pr"/></e>-->
     <!--<e lm="in càmbiu de"><i>in<b/>càmbiu<b/>de</i><par n="a__pr"/></e>-->
     <!--<e lm="in cara de"><i>in<b/>cara<b/>de</i><par n="a__pr"/></e>-->
@@ -1517,8 +1520,9 @@
     <!--<e lm="conca"><i>conca</i><par n="a__pr"/></e>-->
     <e lm="a"><i>a</i><par n="a__pr"/></e>
     <e lm="chirru a"><i>chirru<b/>a</i><par n="a__pr"/></e>
+    <e lm="a mesu tra"><i>a<b/>mesu<b/>tra</i><par n="a__pr"/></e>
     <e lm="cara a"><i>cara<b/>a</i><par n="a__pr"/></e>
-    <!--<e lm="pro mèdiu de"><i>pro<b/>mèdiu<b/>de</i><par n="a__pr"/></e>-->
+    <e lm="pro mèdiu de"><i>pro<b/>mèdiu<b/>de</i><par n="a__pr"/></e>
     <e lm="francu"><i>francu</i><par n="a__pr"/></e>
     <!--<e lm="tràmite"><i>tràmite</i><par n="a__pr"/></e>-->
     <e lm="mediante"><i>mediante</i><par n="a__pr"/></e>
@@ -1681,6 +1685,8 @@
     <e lm="programma" r="LR"><p><l>programa</l><r>programma</r></p><par n="pane__n"/></e>
     <e lm="internet"><i>internet</i><par n="pane__n"/></e>
 
+    <e lm="lege"><i>lege</i><par n="pane__n"/></e>
+
     <e lm="tzìnema"><i>tzìnema</i><par n="pane__n"/></e>
     <e lm="tzìnema" r="LR"><p><l>cinema</l><r>tzìnema</r></p><par n="pane__n"/></e>
     <e lm="tzìnema" r="LR"><p><l>cìnema</l><r>tzìnema</r></p><par n="pane__n"/></e>
@@ -1760,6 +1766,8 @@
     <e lm="neta"><i>neta</i><par n="mesa__n"/></e>
     <e lm="tecnologia"><i>tecnologia</i><par n="mesa__n"/></e>
     <e lm="sorre"><i>sorre</i><par n="mesa__n"/></e>
+    <e lm="rughe"><i>rughe</i><par n="mesa__n"/></e>
+    <e lm="lei"><i>lei</i><par n="mesa__n"/></e>
     <e lm="sue"><i>sue</i><par n="mesa__n"/></e>
     <e lm="memòria"><i>memòria</i><par n="mesa__n"/></e>
     <e lm="memòria" r="LR"><p><l>memoria</l><r>memòria</r></p><par n="mesa__n"/></e>
@@ -2176,6 +2184,7 @@
     <e lm="centru"><i>centr</i><par n="mac/u__n"/></e>
     <e lm="manifestu"><i>manifest</i><par n="mac/u__n"/></e>
     <e lm="campu"><i>camp</i><par n="mac/u__n"/></e>
+    <e lm="versu"><i>vers</i><par n="mac/u__n"/></e>
     <e lm="perìudu"><i>perìud</i><par n="mac/u__n"/></e>
     <e lm="dispositivu"><i>dispositiv</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
@@ -2617,7 +2626,6 @@
     <e lm="meu" r="LR"><p><l>mi</l><r>me</r></p><par n="me/u__adj"/></e>
     <e lm="tuo"><i>tu</i><par n="tu/o__adj"/></e>
     <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
-    <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
     <e lm="nostru"><i>nostr</i><par n="me/u__adj"/></e>
     <e lm="bostru"><i>bostr</i><par n="me/u__adj"/></e>
 
@@ -2961,6 +2969,8 @@
     <e lm="giai"><i>giai</i><par n="bene__adv"/></e>
     <e lm="tando"><i>tando</i><par n="bene__adv"/></e>
     <e lm="galu"><i>galu</i><par n="bene__adv"/></e>
+    <e lm="in mesu"><i>in<b/>mesu</i><par n="bene__adv"/></e>
+
 
     <!--<e lm="in fines"><i>in<b/>fines</i><par n="bene__adv"/></e>-->
     <!--<e lm="in su mentres"><i>in<b/>su<b/>mentres</i><par n="bene__adv"/></e>-->
@@ -2973,6 +2983,7 @@
     <!--<e lm="a s’interinada"><i>a<b/>s’interinada</i><par n="bene__adv"/></e>-->
 
     <e lm="a.C."><i>a.C</i><par n="bene__adv"/></e>
+    <e lm="d.C."><i>d.C</i><par n="bene__adv"/></e>
     <e lm="ecc."><i>ecc</i><par n="bene__adv"/></e>
     <e lm="ecc." r="LR"><p><l>etc</l><r>ecc</r></p><par n="bene__adv"/></e>
 

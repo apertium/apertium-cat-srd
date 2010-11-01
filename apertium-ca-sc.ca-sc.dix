@@ -153,6 +153,9 @@
     <e><p><l>amb<s n="pr"/></l><r>paris<b/>cun<s n="pr"/></r></p></e> <!-- junts amb(?) -->
     <e><p><l>enfront<b/>de<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
     <e><p><l>al<b/>costat<b/>de<s n="pr"/></l><r>chirru<b/>a<s n="pr"/></r></p></e>
+    <e><p><l>enmig<b/>de<s n="pr"/></l><r>pro<b/>mèdiu<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>enmig<b/>de<s n="pr"/></l><r>in<b/>mesu<b/>de<s n="pr"/></r></p></e>
+    <e><p><l>enmig<b/>de<s n="pr"/></l><r>a<b/>mesu<b/>tra<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
@@ -452,6 +455,7 @@
     <e><p><l>món<s n="n"/><s n="m"/></l><r>mundu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rellotge<s n="n"/><s n="m"/></l><r>relogiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cançó<s n="n"/><s n="f"/></l><r>cantone<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>creu<s n="n"/><s n="f"/></l><r>rughe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>història<s n="n"/><s n="f"/></l><r>istòria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>budisme<s n="n"/><s n="m"/></l><r>buddhismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>temps<s n="n"/><s n="m"/></l><r>tempus<s n="n"/><s n="m"/></r></p><par n="temps_tempus"/></e>
@@ -486,6 +490,7 @@
     <e><p><l>artista<s n="n"/><s n="mf"/></l><r>artista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>activista<s n="n"/><s n="mf"/></l><r>attivista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>article<s n="n"/><s n="m"/></l><r>artìculu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vers<s n="n"/><s n="m"/></l><r>versu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>zona<s n="n"/><s n="f"/></l><r>zona<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>revista<s n="n"/><s n="f"/></l><r>rivista<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>premi<s n="n"/><s n="m"/></l><r>premiu<s n="n"/><s n="m"/></r></p></e>
@@ -524,6 +529,8 @@
     <e><p><l>època<s n="n"/><s n="f"/></l><r>epoca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>autoritat<s n="n"/><s n="f"/></l><r>autoridade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>argument<s n="n"/><s n="m"/></l><r>argumentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>llei<s n="n"/><s n="f"/></l><r>lege<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>llei<s n="n"/><s n="f"/></l><r>lei<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>versió<s n="n"/><s n="f"/></l><r>versione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>teoria<s n="n"/><s n="f"/></l><r>teoria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sofriment<s n="n"/><s n="m"/></l><r>sunfrimentu<s n="n"/><s n="m"/></r></p></e>
@@ -1264,6 +1271,7 @@
     <e><p><l>abans<s n="adv"/></l><r>in<b/>antis<s n="adv"/></r></p></e>
     <e><p><l>gens<s n="adv"/></l><r>nudda<s n="adv"/></r></p></e>
     <e><p><l>tant<s n="adv"/></l><r>tantu<s n="adv"/></r></p></e>
+    <e><p><l>enmig<s n="adv"/></l><r>in<b/>mesu<s n="adv"/></r></p></e>
     <e><p><l>mai<s n="adv"/></l><r>mai<s n="adv"/></r></p></e>
     <e><p><l>molt<s n="adv"/></l><r>meda<s n="adv"/></r></p></e>
     <e><p><l>encara<s n="adv"/></l><r>galu<s n="adv"/></r></p></e>
@@ -1348,6 +1356,7 @@
     <e><p><l>últimament<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
 
     <e><p><l>a.C<s n="adv"/></l><r>a.C<s n="adv"/></r></p></e>
+    <e><p><l>d.C<s n="adv"/></l><r>d.C<s n="adv"/></r></p></e>
     <e><p><l>etc<s n="adv"/></l><r>ecc<s n="adv"/></r></p></e>
 
     <!-- SECTION:  Verbs -->
