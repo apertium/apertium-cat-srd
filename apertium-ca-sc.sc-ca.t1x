@@ -26,6 +26,9 @@
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
 </def-cat>
+<def-cat n="ger">
+   <cat-item tags="vblex.ger"/>
+</def-cat>
 <def-cat n="adjec">
    <cat-item tags="adj.*"/>
    <cat-item tags="vblex.pp.*"/>
@@ -2431,6 +2434,74 @@
      </out>
    </action>
 </rule>
+
+<rule comment="regla: ger enc">
+   <pattern>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <out>
+       <mlu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_prn"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </mlu>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: ger enc enc">
+   <pattern>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <out>
+       <mlu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_prn"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_prn"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+
+       </mlu>
+     </out>
+   </action>
+</rule>
+
 
 
 </section-rules>
