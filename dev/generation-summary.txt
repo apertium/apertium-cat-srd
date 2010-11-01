@@ -13,13 +13,15 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-      1 #prevalentment\<adv\>	^prevalentment<adv>$
+      3 #plana\<n\>\<f\>\<sp\>	^plana<n><f><sp>$
+      1 #Plana\<n\>\<f\>\<sp\>	^Plana<n><f><sp>$
       1 #es\<prn\>\<enc\>\<ref\>\<p3\>\<mf\>\<sp\>	^es<prn><enc><ref><p3><mf><sp>$
+      1 #el\<prn\>\<enc\>\<p3\>\<m\>\<pl\>	^el<prn><enc><p3><m><pl>$
 
 ===============================================================================
 Summary
 ===============================================================================
   0 /tmp/sc-ca.multiform
   0 /tmp/sc-ca.multibidix
-  2 /tmp/sc-ca.tagmismatch
-  2 total
+  4 /tmp/sc-ca.tagmismatch
+  4 total

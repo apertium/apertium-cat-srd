@@ -42,6 +42,7 @@
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
+    <sdef n="rel"     c="Relative"/>
     <sdef n="ref"     c="Reflexive"/>
     <sdef n="itg"     c="Interrogative"/>
 
@@ -62,6 +63,11 @@
       <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l><s n="mf"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/><s n="ND"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    <pardef n="paris_plana">
+      <e r="LR"><p><l><s n="sg"/></l><r><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="pl"/></l><r><s n="sp"/></r></p></e>
+      <e r="RL"><p><l><s n="ND"/></l><r><s n="sp"/></r></p></e>
     </pardef>
     <pardef n="temps_tempus">
       <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
@@ -105,12 +111,17 @@
     <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
     <e r="RL"><p><l>però<s n="cnjcoo"/></l><r>però<s n="cnjcoo"/></r></p></e>
     <e><p><l>ni<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+    <e><p><l>en<b/>canvi<s n="adv"/></l><r>in<b/>càmbiu<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>que<s n="cnjsub"/></l><r>chi<s n="cnjsub"/></r></p></e>
     <e><p><l>perquè<s n="cnjadv"/></l><r>ca<s n="cnjsub"/></r></p></e>
+    <e><p><l>perquè<s n="cnjadv"/></l><r>pro<b/>chi<s n="cnjsub"/></r></p></e>
     <e><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<s n="cnjsub"/></r></p></e>
     <e><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<b/>chi<s n="cnjsub"/></r></p></e>
     <e><p><l>si<s n="cnjadv"/></l><r>si<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>com<s n="rel"/><s n="adv"/></l><r>comente<s n="cnjsub"/></r></p></e>
+    <e><p><l>com<s n="rel"/><s n="adv"/></l><r>che<s n="cnjsub"/></r></p></e>
 
     <!-- SECTION:  Prepositions -->
 
@@ -131,7 +142,11 @@
     <e><p><l>sota<s n="pr"/></l><r>suta<s n="pr"/></r></p></e>
     <e><p><l>fora<b/>de<s n="pr"/></l><r>foras<s n="pr"/></r></p></e>
     <e><p><l>dins<s n="pr"/></l><r>intro<s n="pr"/></r></p></e>
+    <e><p><l>sense<s n="pr"/></l><r>sena<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>a<b/>pitzu<b/>de<s n="pr"/></r></p></e>
     <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
+    <e><p><l>amb<s n="pr"/></l><r>paris<b/>cun<s n="pr"/></r></p></e> <!-- junts amb(?) -->
+    <e><p><l>enfront<b/>de<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
@@ -139,7 +154,9 @@
     <e><p><l>et<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>ens<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     <e><p><l>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -148,7 +165,9 @@
     <e><p><l>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>ho<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
     <e><p><l>ens<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -419,6 +438,7 @@
     <e><p><l>verb<s n="n"/><s n="m"/></l><r>verbu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>any<s n="n"/><s n="m"/></l><r>annu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>dret<s n="n"/><s n="m"/></l><r>deretu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>plana<s n="n"/><s n="f"/></l><r>paris<s n="n"/><s n="m"/></r></p><par n="paris_plana"/></e>
     <e><p><l>vida<s n="n"/><s n="f"/></l><r>vida<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ocasió<s n="n"/><s n="f"/></l><r>ocasione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ciutat<s n="n"/><s n="f"/></l><r>tzitade<s n="n"/><s n="f"/></r></p></e>
@@ -1060,6 +1080,7 @@
     <e><p><l>penúltim<s n="adj"/></l><r>penùrtimu<s n="adj"/><s n="ord"/></r></p></e>
 
     <e><p><l>mateix<s n="adj"/></l><r>matessi<s n="adj"/></r></p><par n="mateix_matessi"/></e>
+    <e><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="llur_issoro"/></e>
     <e><p><l>únic<s n="adj"/></l><r>ùnicu<s n="adj"/></r></p></e>
     <e><p><l>modern<s n="adj"/></l><r>modernu<s n="adj"/></r></p></e>
     <e><p><l>cultural<s n="adj"/></l><r>culturale<s n="adj"/></r></p></e>
@@ -1581,6 +1602,7 @@
     <e><p><l>limitar<s n="vblex"/></l><r>limitare<s n="vblex"/></r></p></e>
     <e><p><l>sostenir<s n="vblex"/></l><r>sustènnere<s n="vblex"/></r></p></e>
     <e><p><l>adaptar<s n="vblex"/></l><r>adatare<s n="vblex"/></r></p></e>
+    <e><p><l>experimentar<s n="vblex"/></l><r>isperimentare<s n="vblex"/></r></p></e>
 
 
 
