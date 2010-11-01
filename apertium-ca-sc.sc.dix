@@ -398,6 +398,13 @@
       <e>       <p><l>s</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
+    <pardef n="identidad/e__n">
+      <e>       <p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>es</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>is</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!-- @!LSC -->
+    </pardef>
+ 
     <pardef n="difer/èntzia__n">
       <e>       <p><l>èntzia</l><r>èntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>èntzias</l><r>èntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -410,6 +417,13 @@
       <e>       <p><l>àntzias</l><r>àntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>antzia</l><r>àntzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e r="LR"><p><l>antzias</l><r>àntzia<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!-- @!LSC -->
+    </pardef>
+ 
+    <pardef n="region/e__n">
+      <e>       <p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>es</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>is</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e> <!-- @!LSC -->
     </pardef>
  
     <pardef n="mac/u__n">
@@ -1741,10 +1755,6 @@
     <e lm="lìnia"><i>lìnia</i><par n="mesa__n"/></e>
     <e lm="pàgina"><i>pàgina</i><par n="mesa__n"/></e>
     <e lm="prova"><i>prova</i><par n="mesa__n"/></e>
-    <e lm="operatzione"><i>operatzione</i><par n="mesa__n"/></e>
-    <e lm="assimilatzione"><i>assimilatzione</i><par n="mesa__n"/></e>
-    <e lm="cumbinatzione"><i>cumbinatzione</i><par n="mesa__n"/></e>
-    <e lm="solutzione"><i>solutzione</i><par n="mesa__n"/></e>
     <e lm="categoria"><i>categoria</i><par n="mesa__n"/></e>
     <e lm="matèria"><i>matèria</i><par n="mesa__n"/></e>
     <e lm="energia"><i>energia</i><par n="mesa__n"/></e>
@@ -1775,9 +1785,9 @@
     <e lm="limba" r="LR"><p><l>lìngua</l><r>limba</r></p><par n="mesa__n"/></e>
     <e lm="limba" r="LR"><p><l>lìmba</l><r>limba</r></p><par n="mesa__n"/></e>
 
-    <e lm="cantidade"><i>cantidade</i><par n="mesa__n"/></e>
-    <e lm="identidade"><i>identidade</i><par n="mesa__n"/></e>
-    <e lm="identidade" r="LR"><p><l>identitade</l><r>identidade</r></p><par n="mesa__n"/></e>
+    <e lm="cantidade"><i>cantidad</i><par n="identidad/e__n"/></e>
+    <e lm="identidade"><i>identidad</i><par n="identidad/e__n"/></e>
+    <e lm="identidade" r="LR"><p><l>identitad</l><r>identidad</r></p><par n="identidad/e__n"/></e>
     <e lm="crisi"><i>crisi</i><par n="mesa__n"/></e>
     <e lm="mugere"><i>mugere</i><par n="mesa__n"/></e>
     <e lm="ebba"><i>ebba</i><par n="mesa__n"/></e>
@@ -1805,12 +1815,19 @@
     <e lm="tzitade"><i>tzitade</i><par n="mesa__n"/></e>
     <e lm="tzitade" r="LR"><p><l>tzidade</l><r>tzitade</r></p><par n="mesa__n"/></e>
 
-    <e lm="unione"><i>unione</i><par n="mesa__n"/></e>
-    <e lm="regione"><i>regione</i><par n="mesa__n"/></e>
-    <e lm="rezione" r="LR"><p><l>rezione</l><r>regione</r></p><par n="mesa__n"/></e>
-    <e lm="sub-regione"><i>sub-regione</i><par n="mesa__n"/></e>
+    <e lm="composizione"><i>composizion</i><par n="region/e__n"/></e>
+    <e lm="operatzione"><i>operatzion</i><par n="region/e__n"/></e>
+    <e lm="assimilatzione"><i>assimilatzion</i><par n="region/e__n"/></e>
+    <e lm="cumbinatzione"><i>cumbinatzion</i><par n="region/e__n"/></e>
+    <e lm="solutzione"><i>solutzion</i><par n="region/e__n"/></e>
+    <e lm="unione"><i>union</i><par n="region/e__n"/></e>
+    <e lm="regione"><i>region</i><par n="region/e__n"/></e>
+    <e lm="rezione" r="LR"><p><l>rezion</l><r>region</r></p><par n="region/e__n"/></e>
+    <e lm="rezione" r="LR"><p><l>arregion</l><r>region</r></p><par n="region/e__n"/></e>
+    <e lm="sub-regione"><i>sub-region</i><par n="region/e__n"/></e>
+    <e lm="secessione"><i>secession</i><par n="region/e__n"/></e>
+
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
-    <e lm="secessione"><i>secessione</i><par n="mesa__n"/></e>
     <e lm="presèntzia"><i>pres</i><par n="difer/èntzia__n"/></e>
     <e lm="ecuivalèntzia"><i>ecuival</i><par n="difer/èntzia__n"/></e>
     <e lm="agèntzia"><i>ag</i><par n="difer/èntzia__n"/></e>
@@ -1821,10 +1838,9 @@
     <e lm="avertèntzia"><i>avert</i><par n="difer/èntzia__n"/></e>
     <e lm="cunfessione"><i>cunfessione</i><par n="mesa__n"/></e>
     <e lm="gioventude"><i>gioventude</i><par n="mesa__n"/></e>
-    <e lm="maturidade"><i>maturidade</i><par n="mesa__n"/></e>
-    <e lm="densidade"><i>densidade</i><par n="mesa__n"/></e>
+    <e lm="maturidad"><i>maturidad</i><par n="identidad/e__n"/></e>
+    <e lm="densidad"><i>densidad</i><par n="identidad/e__n"/></e>
     <e lm="versione"><i>versione</i><par n="mesa__n"/></e>
-    <e lm="composizione"><i>composizione</i><par n="mesa__n"/></e>
     <e lm="iscola"><i>iscola</i><par n="mesa__n"/></e>
     <e lm="iscola" r="LR"><p><l>scola</l><r>iscola</r></p><par n="mesa__n"/></e>
 
@@ -1864,27 +1880,27 @@
     <e lm="caraterìstica"><i>caraterìstica</i><par n="mesa__n"/></e>
     <e lm="caraterìstica" r="LR"><p><l>carateristica</l><r>caraterìstica</r></p><par n="mesa__n"/></e>
 
-    <e lm="natzione"><i>natzione</i><par n="mesa__n"/></e>
-    <e lm="nazione" r="LR"><p><l>nazione</l><r>natzione</r></p><par n="mesa__n"/></e>
+    <e lm="natzione"><i>natzion</i><par n="region/e__n"/></e>
+    <e lm="nazione" r="LR"><p><l>nazion</l><r>natzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="editzione"><i>editzione</i><par n="mesa__n"/></e>
+    <e lm="editzione"><i>editzion</i><par n="region/e__n"/></e>
 
-    <e lm="organizatzione"><i>organizatzione</i><par n="mesa__n"/></e>
-    <e lm="organizzazione" r="LR"><p><l>organizzazione</l><r>organizatzione</r></p><par n="mesa__n"/></e>
-    <e lm="organizatzione" r="LR"><p><l>organizatzione</l><r>organizatzione</r></p><par n="mesa__n"/></e>
-    <e lm="organitzazione" r="LR"><p><l>organitzazione</l><r>organizatzione</r></p><par n="mesa__n"/></e>
+    <e lm="organizatzione"><i>organizatzion</i><par n="region/e__n"/></e>
+    <e lm="organizzazione" r="LR"><p><l>organizzazion</l><r>organizatzion</r></p><par n="region/e__n"/></e>
+    <e lm="organizatzione" r="LR"><p><l>organizatzion</l><r>organizatzion</r></p><par n="region/e__n"/></e>
+    <e lm="organitzazione" r="LR"><p><l>organitzazion</l><r>organizatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="relatzione"><i>relatzione</i><par n="mesa__n"/></e>
-    <e lm="lezione"><i>lezione</i><par n="mesa__n"/></e>
+    <e lm="relatzione"><i>relatzion</i><par n="region/e__n"/></e>
+    <e lm="lezione"><i>lezion</i><par n="region/e__n"/></e>
 
-    <e lm="populatzione"><i>populatzione</i><par n="mesa__n"/></e>
-    <e lm="populatzione" r="LR"><p><l>popolazione</l><r>populatzione</r></p><par n="mesa__n"/></e>
-    <e lm="populatzione" r="LR"><p><l>populazione</l><r>populatzione</r></p><par n="mesa__n"/></e>
-    <e lm="populatzione" r="LR"><p><l>popolatzione</l><r>populatzione</r></p><par n="mesa__n"/></e>
+    <e lm="populatzione"><i>populatzion</i><par n="region/e__n"/></e>
+    <e lm="populatzione" r="LR"><p><l>popolazion</l><r>populatzion</r></p><par n="region/e__n"/></e>
+    <e lm="populatzione" r="LR"><p><l>populazion</l><r>populatzion</r></p><par n="region/e__n"/></e>
+    <e lm="populatzione" r="LR"><p><l>popolatzion</l><r>populatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="traditzione"><i>traditzione</i><par n="mesa__n"/></e>
-    <e lm="traditzione" r="LR"><p><l>tradutzione</l><r>traditzione</r></p><par n="mesa__n"/></e>
-    <e lm="traditzione" r="LR"><p><l>tradizione</l><r>traditzione</r></p><par n="mesa__n"/></e>
+    <e lm="traditzione"><i>traditzion</i><par n="region/e__n"/></e>
+    <e lm="traditzione" r="LR"><p><l>tradutzion</l><r>traditzion</r></p><par n="region/e__n"/></e>
+    <e lm="traditzione" r="LR"><p><l>tradizion</l><r>traditzion</r></p><par n="region/e__n"/></e>
 
     <e lm="famìlia"><i>famìlia</i><par n="mesa__n"/></e>
     <e lm="famìlia" r="LR"><p><l>famiglia</l><r>famìlia</r></p><par n="mesa__n"/></e>
@@ -1898,143 +1914,144 @@
     <e lm="repùblica" r="LR"><p><l>repùbrica</l><r>repùblica</r></p><par n="mesa__n"/></e>
     <e lm="repùblica" r="LR"><p><l>repúbrica</l><r>repùblica</r></p><par n="mesa__n"/></e>
 
-    <e lm="programatzione"><i>programatzione</i><par n="mesa__n"/></e>
+    <e lm="programatzione"><i>programatzion</i><par n="region/e__n"/></e>
 
-    <e lm="istrutzione"><i>istrutzione</i><par n="mesa__n"/></e>
-    <e lm="ridutzione"><i>ridutzione</i><par n="mesa__n"/></e>
-    <e lm="recitazione"><i>recitazione</i><par n="mesa__n"/></e>
-    <e lm="istitutzione"><i>istitutzione</i><par n="mesa__n"/></e>
-    <e lm="dominazione"><i>dominazione</i><par n="mesa__n"/></e>
-    <e lm="dispositzione"><i>dispositzione</i><par n="mesa__n"/></e>
-    <e lm="comunicatzione"><i>comunicatzione</i><par n="mesa__n"/></e>
-    <e lm="colletzione"><i>colletzione</i><par n="mesa__n"/></e>
-    <e lm="classificatzione"><i>classificatzione</i><par n="mesa__n"/></e>
-    <e lm="atzione"><i>atzione</i><par n="mesa__n"/></e>
-    <e lm="associatzione"><i>associatzione</i><par n="mesa__n"/></e>
-    <e lm="tzivilizatzione"><i>tzivilizatzione</i><par n="mesa__n"/></e>
-    <e lm="tzelebratzione"><i>tzelebratzione</i><par n="mesa__n"/></e>
-    <e lm="celebratzione" r="LR"><p><l>celebratzione</l><r>tzelebratzione</r></p><par n="mesa__n"/></e>
-    <e lm="stratificazione"><i>stratificazione</i><par n="mesa__n"/></e>
-    <e lm="sezione"><i>sezione</i><par n="mesa__n"/></e>
-    <e lm="rivolutzione"><i>rivolutzione</i><par n="mesa__n"/></e>
-    <e lm="riduzione"><i>riduzione</i><par n="mesa__n"/></e>
+    <e lm="istrutzione"><i>istrutzion</i><par n="region/e__n"/></e>
+    <e lm="ridutzione"><i>ridutzion</i><par n="region/e__n"/></e>
+    <e lm="recitazione"><i>recitazion</i><par n="region/e__n"/></e>
+    <e lm="istitutzione"><i>istitutzion</i><par n="region/e__n"/></e>
+    <e lm="dominazione"><i>dominazion</i><par n="region/e__n"/></e>
+    <e lm="dispositzione"><i>dispositzion</i><par n="region/e__n"/></e>
+    <e lm="comunicatzione"><i>comunicatzion</i><par n="region/e__n"/></e>
+    <e lm="colletzione"><i>colletzion</i><par n="region/e__n"/></e>
+    <e lm="classificatzione"><i>classificatzion</i><par n="region/e__n"/></e>
+    <e lm="atzione"><i>atzion</i><par n="region/e__n"/></e>
+    <e lm="associatzione"><i>associatzion</i><par n="region/e__n"/></e>
+    <e lm="tzivilizatzione"><i>tzivilizatzion</i><par n="region/e__n"/></e>
+    <e lm="tzelebratzione"><i>tzelebratzion</i><par n="region/e__n"/></e>
+    <e lm="celebratzione" r="LR"><p><l>celebratzion</l><r>tzelebratzion</r></p><par n="region/e__n"/></e>
+    <e lm="stratificazione"><i>stratificazion</i><par n="region/e__n"/></e>
+    <e lm="sezione"><i>sezion</i><par n="region/e__n"/></e>
+    <e lm="rivolutzione"><i>rivolutzion</i><par n="region/e__n"/></e>
+    <e lm="riduzione"><i>riduzion</i><par n="region/e__n"/></e>
 
-    <e lm="restritzione"><i>restritzione</i><par n="mesa__n"/></e>
-    <e lm="restrinzione" r="LR"><p><l>restrinzione</l><r>restritzione</r></p><par n="mesa__n"/></e>
+    <e lm="restritzione"><i>restritzion</i><par n="region/e__n"/></e>
+    <e lm="restrinzione" r="LR"><p><l>restrinzion</l><r>restritzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="registratzione"><i>registratzione</i><par n="mesa__n"/></e>
-    <e lm="registrazione" r="LR"><p><l>registrazione</l><r>registratzione</r></p><par n="mesa__n"/></e>
+    <e lm="registratzione"><i>registratzion</i><par n="region/e__n"/></e>
+    <e lm="registratzione" r="LR"><p><l>registrazion</l><r>registratzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="redatzione"><i>redatzione</i><par n="mesa__n"/></e>
-    <e lm="redazione" r="LR"><p><l>redazione</l><r>registratzione</r></p><par n="mesa__n"/></e>
+    <e lm="redatzione"><i>redatzion</i><par n="region/e__n"/></e>
+    <e lm="redatzione" r="LR"><p><l>redazion</l><r>redatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="reatzione"><i>reatzione</i><par n="mesa__n"/></e>
-    <e lm="punitzione"><i>punitzione</i><par n="mesa__n"/></e>
-    <e lm="pubblicatzione"><i>pubblicatzione</i><par n="mesa__n"/></e>
-    <e lm="projetzione"><i>projetzione</i><par n="mesa__n"/></e>
-    <e lm="programmazione"><i>programmazione</i><par n="mesa__n"/></e>
+    <e lm="reatzione"><i>reatzion</i><par n="region/e__n"/></e>
+    <e lm="punitzione"><i>punitzion</i><par n="region/e__n"/></e>
+    <e lm="pubblicatzione"><i>pubblicatzion</i><par n="region/e__n"/></e>
+    <e lm="projetzione"><i>projetzion</i><par n="region/e__n"/></e>
+    <e lm="programmazione"><i>programmazion</i><par n="region/e__n"/></e>
 
-    <e lm="produtzione"><i>produtzione</i><par n="mesa__n"/></e>
-    <e lm="produzione" r="LR"><p><l>produzione</l><r>produtzione</r></p><par n="mesa__n"/></e>
+    <e lm="produtzione"><i>produtzion</i><par n="region/e__n"/></e>
+    <e lm="produzione" r="LR"><p><l>produzion</l><r>produtzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="proclamatzione"><i>proclamatzione</i><par n="mesa__n"/></e>
-    <e lm="presentatzione"><i>presentatzione</i><par n="mesa__n"/></e>
-    <e lm="preicatzione"><i>preicatzione</i><par n="mesa__n"/></e>
-    <e lm="preigatzione" r="LR"><p><l>preigatzione</l><r>preicatzione</r></p><par n="mesa__n"/></e>
+    <e lm="proclamatzione"><i>proclamatzion</i><par n="region/e__n"/></e>
+    <e lm="presentatzione"><i>presentatzion</i><par n="region/e__n"/></e>
+    <e lm="preicatzione"><i>preicatzion</i><par n="region/e__n"/></e>
+    <e lm="preigatzione" r="LR"><p><l>preigatzion</l><r>preicatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="predisposizione"><i>predisposizione</i><par n="mesa__n"/></e>
-    <e lm="positzione"><i>positzione</i><par n="mesa__n"/></e>
-    <e lm="partighedda"><i>partighedda</i><par n="mesa__n"/></e>
+    <e lm="predisposizione"><i>predisposizion</i><par n="region/e__n"/></e>
+    <e lm="positzione"><i>positzion</i><par n="region/e__n"/></e>
 
-    <e lm="perzecutzione"><i>perzecutzione</i><par n="mesa__n"/></e>
-    <e lm="persecutzione" r="LR"><p><l>persecutzione</l><r>perzecutzione</r></p><par n="mesa__n"/></e>
+    <e lm="perzecutzione"><i>perzecutzion</i><par n="region/e__n"/></e>
+    <e lm="persecutzione" r="LR"><p><l>persecutzion</l><r>perzecutzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="perfetzione"><i>perfetzione</i><par n="mesa__n"/></e>
+    <e lm="perfetzione"><i>perfetzion</i><par n="region/e__n"/></e>
     <e lm="architetura"><i>architetura</i><par n="mesa__n"/></e>
 
+    <e lm="partighedda"><i>partighedda</i><par n="mesa__n"/></e>
     <e lm="informàtica"><i>informàtica</i><par n="mesa__n"/></e>
-    <e lm="oppositzione"><i>oppositzione</i><par n="mesa__n"/></e>
-    <e lm="occupazione"><i>occupazione</i><par n="mesa__n"/></e>
-    <e lm="numeratzione"><i>numeratzione</i><par n="mesa__n"/></e>
-    <e lm="notazione"><i>notazione</i><par n="mesa__n"/></e>
-    <e lm="manifestazione"><i>manifestazione</i><par n="mesa__n"/></e>
-    <e lm="liberazione"><i>liberazione</i><par n="mesa__n"/></e>
-    <e lm="letzione"><i>letzione</i><par n="mesa__n"/></e>
-    <e lm="istruzione"><i>istruzione</i><par n="mesa__n"/></e>
-    <e lm="istrumentatzione"><i>istrumentatzione</i><par n="mesa__n"/></e>
-    <e lm="introspetzione"><i>introspetzione</i><par n="mesa__n"/></e>
-    <e lm="introduzione"><i>introduzione</i><par n="mesa__n"/></e>
-    <e lm="intregatzione"><i>intregatzione</i><par n="mesa__n"/></e>
 
-    <e lm="interpretazione"><i>interpretazione</i><par n="mesa__n"/></e>
-    <e lm="interpretatzione"><i>interpretatzione</i><par n="mesa__n"/></e>
+    <e lm="oppositzione"><i>oppositzion</i><par n="region/e__n"/></e>
+    <e lm="occupazione"><i>occupazion</i><par n="region/e__n"/></e>
+    <e lm="numeratzione"><i>numeratzion</i><par n="region/e__n"/></e>
+    <e lm="notazione"><i>notazion</i><par n="region/e__n"/></e>
+    <e lm="manifestazione"><i>manifestazion</i><par n="region/e__n"/></e>
+    <e lm="liberazione"><i>liberazion</i><par n="region/e__n"/></e>
+    <e lm="letzione"><i>letzion</i><par n="region/e__n"/></e>
+    <e lm="istruzione"><i>istruzion</i><par n="region/e__n"/></e>
+    <e lm="istrumentatzione"><i>istrumentatzion</i><par n="region/e__n"/></e>
+    <e lm="introspetzione"><i>introspetzion</i><par n="region/e__n"/></e>
+    <e lm="introduzione"><i>introduzion</i><par n="region/e__n"/></e>
+    <e lm="intregatzione"><i>intregatzion</i><par n="region/e__n"/></e>
 
-    <e lm="intentzione"><i>intentzione</i><par n="mesa__n"/></e>
-    <e lm="informatzione"><i>informatzione</i><par n="mesa__n"/></e>
-    <e lm="indicatzione"><i>indicatzione</i><par n="mesa__n"/></e>
-    <e lm="illustratzione"><i>illustratzione</i><par n="mesa__n"/></e>
+    <e lm="interpretatzione"><i>interpretatzion</i><par n="region/e__n"/></e>
+    <e lm="interpretatzione" r="LR"><p><l>interpretazion</l><r>interpretatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="fundatzione"><i>fundatzione</i><par n="mesa__n"/></e>
-    <e lm="fundazione" r="LR"><p><l>fundazione</l><r>fundatzione</r></p><par n="mesa__n"/></e>
-    <e lm="fundazione" r="LR"><p><l>fondazione</l><r>fundatzione</r></p><par n="mesa__n"/></e>
+    <e lm="intentzione"><i>intentzion</i><par n="region/e__n"/></e>
+    <e lm="informatzione"><i>informatzion</i><par n="region/e__n"/></e>
+    <e lm="indicatzione"><i>indicatzion</i><par n="region/e__n"/></e>
+    <e lm="illustratzione"><i>illustratzion</i><par n="region/e__n"/></e>
 
-    <e lm="formatzione"><i>formatzione</i><par n="mesa__n"/></e>
-    <e lm="flezione"><i>flezione</i><par n="mesa__n"/></e>
-    <e lm="fabricatzione"><i>fabricatzione</i><par n="mesa__n"/></e>
-    <e lm="esposizione"><i>esposizione</i><par n="mesa__n"/></e>
-    <e lm="esploratzione"><i>esploratzione</i><par n="mesa__n"/></e>
-    <e lm="emotzione"><i>emotzione</i><par n="mesa__n"/></e>
-    <e lm="emanazione"><i>emanazione</i><par n="mesa__n"/></e>
-    <e lm="elaboratzione"><i>elaboratzione</i><par n="mesa__n"/></e>
-    <e lm="educatzione"><i>educatzione</i><par n="mesa__n"/></e>
+    <e lm="fundatzione"><i>fundatzion</i><par n="region/e__n"/></e>
+    <e lm="fundatzione" r="LR"><p><l>fundazion</l><r>fundatzion</r></p><par n="region/e__n"/></e>
+    <e lm="fundatzione" r="LR"><p><l>fondazion</l><r>fundatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="distrutzione"><i>distrutzione</i><par n="mesa__n"/></e>
-    <e lm="distruzione" r="LR"><p><l>distruzione</l><r>distrutzione</r></p><par n="mesa__n"/></e>
+    <e lm="formatzione"><i>formatzion</i><par n="region/e__n"/></e>
+    <e lm="flezione"><i>flezion</i><par n="region/e__n"/></e>
+    <e lm="fabricatzione"><i>fabricatzion</i><par n="region/e__n"/></e>
+    <e lm="esposizione"><i>esposizion</i><par n="region/e__n"/></e>
+    <e lm="esploratzione"><i>esploratzion</i><par n="region/e__n"/></e>
+    <e lm="emotzione"><i>emotzion</i><par n="region/e__n"/></e>
+    <e lm="emanazione"><i>emanazion</i><par n="region/e__n"/></e>
+    <e lm="elaboratzione"><i>elaboratzion</i><par n="region/e__n"/></e>
+    <e lm="educatzione"><i>educatzion</i><par n="region/e__n"/></e>
 
-    <e lm="distributzione"><i>distributzione</i><par n="mesa__n"/></e>
+    <e lm="distrutzione"><i>distrutzion</i><par n="region/e__n"/></e>
+    <e lm="distrutzione" r="LR"><p><l>distruzion</l><r>distrutzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="diretzione"><i>diretzione</i><par n="mesa__n"/></e>
-    <e lm="direzione" r="LR"><p><l>direzione</l><r>diretzione</r></p><par n="mesa__n"/></e>
+    <e lm="distributzione"><i>distributzion</i><par n="region/e__n"/></e>
 
-    <e lm="devotzione"><i>devotzione</i><par n="mesa__n"/></e>
-    <e lm="denominatzione"><i>denominatzione</i><par n="mesa__n"/></e>
-    <e lm="decraratzione"><i>decraratzione</i><par n="mesa__n"/></e>
-    <e lm="cunfetzione"><i>cunfetzione</i><par n="mesa__n"/></e>
-    <e lm="creatzione"><i>creatzione</i><par n="mesa__n"/></e>
-    <e lm="convintzione"><i>convintzione</i><par n="mesa__n"/></e>
-    <e lm="contrazione"><i>contrazione</i><par n="mesa__n"/></e>
-    <e lm="consultatzione"><i>consultatzione</i><par n="mesa__n"/></e>
-    <e lm="preferèntzia"><i>preferèntzia</i><par n="mesa__n"/></e>
+    <e lm="diretzione"><i>diretzion</i><par n="region/e__n"/></e>
+    <e lm="direzione" r="LR"><p><l>direzion</l><r>diretzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="costrutzione"><i>costrutzione</i><par n="mesa__n"/></e>
-    <e lm="construtzione" r="LR"><p><l>construtzione</l><r>costrutzione</r></p><par n="mesa__n"/></e>
+    <e lm="devotzione"><i>devotzion</i><par n="region/e__n"/></e>
+    <e lm="denominatzione"><i>denominatzion</i><par n="region/e__n"/></e>
+    <e lm="decraratzione"><i>decraratzion</i><par n="region/e__n"/></e>
+    <e lm="cunfetzione"><i>cunfetzion</i><par n="region/e__n"/></e>
+    <e lm="creatzione"><i>creatzion</i><par n="region/e__n"/></e>
+    <e lm="convintzione"><i>convintzion</i><par n="region/e__n"/></e>
+    <e lm="contrazione"><i>contrazion</i><par n="region/e__n"/></e>
+    <e lm="consultatzione"><i>consultatzion</i><par n="region/e__n"/></e>
 
-    <e lm="conformazione"><i>conformazione</i><par n="mesa__n"/></e>
+    <e lm="costrutzione"><i>costrutzion</i><par n="region/e__n"/></e>
+    <e lm="costrutzione" r="LR"><p><l>construtzion</l><r>costrutzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="confederatzione"><i>confederatzione</i><par n="mesa__n"/></e>
-    <e lm="confederazione" r="LR"><p><l>confederazione</l><r>confederatzione</r></p><par n="mesa__n"/></e>
+    <e lm="conformazione"><i>conformazion</i><par n="region/e__n"/></e>
 
-    <e lm="condutzione"><i>condutzione</i><par n="mesa__n"/></e>
+    <e lm="confederatzione"><i>confederatzion</i><par n="region/e__n"/></e>
+    <e lm="confederatzione" r="LR"><p><l>confederazion</l><r>confederatzion</r></p><par n="region/e__n"/></e>
 
-    <e lm="compositzione"><i>compositzione</i><par n="mesa__n"/></e>
-    <e lm="composizione" r="LR"><p><l>composizione</l><r>compositzione</r></p><par n="mesa__n"/></e>
+    <e lm="condutzione"><i>condutzion</i><par n="region/e__n"/></e>
 
-    <e lm="compilatzione"><i>compilatzione</i><par n="mesa__n"/></e>
-    <e lm="beneditzione"><i>beneditzione</i><par n="mesa__n"/></e>
-    <e lm="audizione"><i>audizione</i><par n="mesa__n"/></e>
-    <e lm="attestazione"><i>attestazione</i><par n="mesa__n"/></e>
-    <e lm="applicazione"><i>applicazione</i><par n="mesa__n"/></e>
-    <e lm="apparizione"><i>apparizione</i><par n="mesa__n"/></e>
-    <e lm="aplicatzione"><i>aplicatzione</i><par n="mesa__n"/></e>
-    <e lm="amministratzione"><i>amministratzione</i><par n="mesa__n"/></e>
-    <e lm="afirmatzione"><i>afirmatzione</i><par n="mesa__n"/></e>
-    <e lm="afirmatzione" r="LR"><p><l>affermazione</l><r>afirmatzione</r></p><par n="mesa__n"/></e>
-    <e lm="abitatzione"><i>abitatzione</i><par n="mesa__n"/></e>
+    <e lm="compositzione"><i>compositzion</i><par n="region/e__n"/></e>
+    <e lm="compositzione" r="LR"><p><l>composizion</l><r>compositzion</r></p><par n="region/e__n"/></e>
+
+    <e lm="compilatzione"><i>compilatzion</i><par n="region/e__n"/></e>
+    <e lm="beneditzione"><i>beneditzion</i><par n="region/e__n"/></e>
+    <e lm="audizione"><i>audizion</i><par n="region/e__n"/></e>
+    <e lm="attestazione"><i>attestazion</i><par n="region/e__n"/></e>
+    <e lm="applicazione"><i>applicazion</i><par n="region/e__n"/></e>
+    <e lm="apparizione"><i>apparizion</i><par n="region/e__n"/></e>
+    <e lm="aplicatzione"><i>aplicatzion</i><par n="region/e__n"/></e>
+    <e lm="amministratzione"><i>amministratzion</i><par n="region/e__n"/></e>
+    <e lm="afirmatzione"><i>afirmatzion</i><par n="region/e__n"/></e>
+    <e lm="afirmatzione" r="LR"><p><l>affermazion</l><r>afirmatzion</r></p><par n="region/e__n"/></e>
+    <e lm="abitatzione"><i>abitatzion</i><par n="region/e__n"/></e>
     <e lm="entziclopedia"><i>entziclopedia</i><par n="mesa__n"/></e>
     <e lm="entziclopedia" r="LR"><p><l>enciclopedia</l><r>entziclopedia</r></p><par n="mesa__n"/></e>
-    <e lm="estensione"><i>estensione</i><par n="mesa__n"/></e>
+    <e lm="estensione"><i>estension</i><par n="region/e__n"/></e>
 
-    <e lm="universidade"><i>universidade</i><par n="mesa__n"/></e>
+    <e lm="preferèntzia"><i>preferèntzia</i><par n="mesa__n"/></e>
+    <e lm="universidade"><i>universidad</i><par n="identidad/e__n"/></e>
     <e lm="zona"><i>zona</i><par n="mesa__n"/></e>
     <e lm="ocasione"><i>ocasione</i><par n="mesa__n"/></e>
     <e lm="revisione"><i>revisione</i><par n="mesa__n"/></e>
@@ -2047,19 +2064,20 @@
     <e lm="istòria" r="LR"><p><l>storia</l><r>istòria</r></p><par n="mesa__n"/></e>
 
     <e lm="rivista"><i>rivista</i><par n="mesa__n"/></e>
-    <e lm="attividade"><i>attividade</i><par n="mesa__n"/></e>
-    <e lm="unidade"><i>unidade</i><par n="mesa__n"/></e>
+    <e lm="atividade"><i>atividad</i><par n="identidad/e__n"/></e>
+    <e lm="atividade" r="LR"><p><l>attividad</l><r>atividad</r></p><par n="identidad/e__n"/></e>
+    <e lm="unidade"><i>unidad</i><par n="identidad/e__n"/></e>
     <e lm="persona"><i>persona</i><par n="mesa__n"/></e>
     <e lm="persona" r="LR"><p><l>pessona</l><r>persona</r></p><par n="mesa__n"/></e>
     <e lm="persona" r="LR"><p><l>pessone</l><r>persona</r></p><par n="mesa__n"/></e>
-    <e lm="umanidade"><i>umanidade</i><par n="mesa__n"/></e>
-    <e lm="autoridade"><i>autoridade</i><par n="mesa__n"/></e>
-    <e lm="personalidade"><i>personalidade</i><par n="mesa__n"/></e>
-    <e lm="comunidade"><i>comunidade</i><par n="mesa__n"/></e>
-    <e lm="localidade"><i>localidade</i><par n="mesa__n"/></e>
+    <e lm="umanidade"><i>umanidad</i><par n="identidad/e__n"/></e>
+    <e lm="autoridade"><i>autoridad</i><par n="identidad/e__n"/></e>
+    <e lm="personalidade"><i>personalidad</i><par n="identidad/e__n"/></e>
+    <e lm="comunidade"><i>comunidad</i><par n="identidad/e__n"/></e>
+    <e lm="localidade"><i>localidad</i><par n="identidad/e__n"/></e>
     <e lm="parte"><i>parte</i><par n="mesa__n"/></e>
-    <e lm="ufitzialidade"><i>ufitzialidade</i><par n="mesa__n"/></e>
-    <e lm="co-ufitzialidade"><i>co-ufitzialidade</i><par n="mesa__n"/></e>
+    <e lm="ufitzialidade"><i>ufitzialidad</i><par n="identidad/e__n"/></e>
+    <e lm="co-ufitzialidade"><i>co-ufitzialidad</i><par n="identidad/e__n"/></e>
     <e lm="biblioteca"><i>biblioteca</i><par n="mesa__n"/></e>
     <e lm="mente"><i>mente</i><par n="mesa__n"/></e>
     <e lm="lega"><i>lega</i><par n="mesa__n"/></e>
@@ -2091,16 +2109,17 @@
     <e lm="fortza"><i>fortza</i><par n="mesa__n"/></e>
     <e lm="violèntzia"><i>viol</i><par n="difer/èntzia__n"/></e>
     <e lm="règula"><i>règula</i><par n="mesa__n"/></e>
+    <e lm="règula" r="LR"><p><l>regula</l><r>règula</r></p><par n="mesa__n"/></e>
     <e lm="carriera"><i>carriera</i><par n="mesa__n"/></e>
     <e lm="forma"><i>forma</i><par n="mesa__n"/></e>
-    <e lm="abilidade"><i>abilidade</i><par n="mesa__n"/></e>
+    <e lm="abilidade"><i>abilidad</i><par n="identidad/e__n"/></e>
     <e lm="colonia"><i>colonia</i><par n="mesa__n"/></e>
     <e lm="etimologia"><i>etimologia</i><par n="mesa__n"/></e>
     <e lm="pronùntzia"><i>pronùntzia</i><par n="mesa__n"/></e>
     <e lm="norma"><i>norma</i><par n="mesa__n"/></e>
-    <e lm="novidade"><i>novidade</i><par n="mesa__n"/></e>
+    <e lm="novidade"><i>novidad</i><par n="identidad/e__n"/></e>
     <e lm="fantàsia"><i>fantàsia</i><par n="mesa__n"/></e>
-    <e lm="prioridade"><i>prioridade</i><par n="mesa__n"/></e>
+    <e lm="prioridade"><i>prioridad</i><par n="identidad/e__n"/></e>
     <e lm="area"><i>area</i><par n="mesa__n"/></e>
     <e lm="bentana"><i>bentana</i><par n="mesa__n"/></e>
     <e lm="bibbia"><i>bibbia</i><par n="mesa__n"/></e>
@@ -2235,11 +2254,13 @@
     <e lm="porcu"><i>porc</i><par n="mac/u__n"/></e>
     <e lm="cursu"><i>curs</i><par n="mac/u__n"/></e>
     <e lm="politecnicu"><i>politecnic</i><par n="mac/u__n"/></e>
+    <e lm="violinu"><i>violin</i><par n="mac/u__n"/></e>
     <e lm="congressu"><i>congress</i><par n="mac/u__n"/></e>
     <e lm="progressu"><i>progress</i><par n="mac/u__n"/></e>
     <e lm="documentariu"><i>documentari</i><par n="mac/u__n"/></e>
     <e lm="mundu"><i>mund</i><par n="mac/u__n"/></e>
     <e lm="critèriu"><i>critèri</i><par n="mac/u__n"/></e>
+    <e lm="collègiu"><i>collègi</i><par n="mac/u__n"/></e>
     <e lm="istadu"><i>istad</i><par n="mac/u__n"/></e>
 
     <e lm="sèculu"><i>sècul</i><par n="mac/u__n"/></e>
@@ -2247,6 +2268,7 @@
     <e lm="sèculu" r="LR"><p><l>sucul</l><r>sècul</r></p><par n="mac/u__n"/></e>
     <e lm="sèculu" r="LR"><p><l>sècul</l><r>sècul</r></p><par n="mac/u__n"/></e>
     <e lm="sèculu" r="LR"><p><l>secol</l><r>sècul</r></p><par n="mac/u__n"/></e>
+    <e lm="sèculu" r="LR"><p><l>segul</l><r>sècul</r></p><par n="mac/u__n"/></e>
 
     <e lm="movimentu"><i>moviment</i><par n="mac/u__n"/></e>
     <e lm="concentramentu"><i>concentrament</i><par n="mac/u__n"/></e>
@@ -2270,6 +2292,8 @@
     <e lm="elementu"><i>element</i><par n="mac/u__n"/></e>
     <!--<e lm="frunimentu"><i>fruniment</i><par n="mac/u__n"/></e>-->
     <e lm="fundamentu"><i>fundament</i><par n="mac/u__n"/></e>
+    <e lm="reconnoschimentu"><i>reconnoschiment</i><par n="mac/u__n"/></e>
+    <e lm="reconnoschimentu" r="LR"><p><l>reconnoskiment</l><r>reconnoschiment</r></p><par n="mac/u__n"/></e>
     <e lm="iscravamentu"><i>iscravament</i><par n="mac/u__n"/></e>
     <e lm="istrumentu"><i>istrument</i><par n="mac/u__n"/></e>
     <e lm="funtzionamentu"><i>funtzionament</i><par n="mac/u__n"/></e>
@@ -2304,7 +2328,8 @@
     <e lm="ispàtziu"><i>ispàtzi</i><par n="mac/u__n"/></e>
     <e lm="territoriu"><i>territori</i><par n="mac/u__n"/></e>
     <e lm="cabu"><i>cab</i><par n="mac/u__n"/></e>
-    <e lm="viaggiu"><i>viaggi</i><par n="mac/u__n"/></e>
+    <e lm="biàgiu"><i>biàgi</i><par n="mac/u__n"/></e>
+    <e lm="biàgiu" r="LR"><p><l>viaggi</l><r>biàgi</r></p><par n="mac/u__n"/></e>
     <e lm="calendàriu"><i>calendàri</i><par n="mac/u__n"/></e>
     <e lm="arcipelagu"><i>arcipelag</i><par n="mac/u__n"/></e>
     <e lm="limbagiu"><i>limbagi</i><par n="mac/u__n"/></e>
@@ -2807,6 +2832,7 @@
     <e lm="fisicu"><i>fisic</i><par n="frantzes/u__adj"/></e>
     <e lm="lògicu"><i>lògic</i><par n="frantzes/u__adj"/></e>
     <e lm="caru"><i>car</i><par n="frantzes/u__adj"/></e>
+    <e lm="romanicu"><i>romanic</i><par n="frantzes/u__adj"/></e>
     <e lm="intensivu"><i>intensiv</i><par n="frantzes/u__adj"/></e>
     <e lm="mecanicu"><i>mecanic</i><par n="frantzes/u__adj"/></e>
     <e lm="numericu"><i>numeric</i><par n="frantzes/u__adj"/></e>
@@ -3311,6 +3337,7 @@
     <e lm="isperimentare"><i>isperiment</i><par n="cant/are__vblex"/></e>
     <e lm="cundennare"><i>cundenn</i><par n="cant/are__vblex"/></e>
     <e lm="cundennare" r="LR"><p><l>cundann</l><r>cundenn</r></p><par n="cant/are__vblex"/></e>
+    <e lm="progettare"><i>progett</i><par n="cant/are__vblex"/></e>
 
     <e lm="adatare"><i>adat</i><par n="cant/are__vblex"/></e>
     <e lm="cunservare"><i>cunserv</i><par n="cant/are__vblex"/></e>
@@ -3392,7 +3419,7 @@
     <e lm="impònnere"><i>imp</i><par n="p/ònnere__vblex"/></e>
     <e lm="propònnere"><i>prop</i><par n="p/ònnere__vblex"/></e>
     <e lm="cumpònnere"><i>cump</i><par n="p/ònnere__vblex"/></e>
-    <e lm="rispònnere"><i>cump</i><par n="p/ònnere__vblex"/></e>
+    <e lm="rispònnere"><i>risp</i><par n="p/ònnere__vblex"/></e>
 
     <e lm="dare"><i>d</i><par n="d/are__vblex"/></e>
 

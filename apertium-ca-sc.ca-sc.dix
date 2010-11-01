@@ -423,6 +423,7 @@
     <e><p><l>boig<s n="n"/><s n="m"/></l><r>macu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>marit<s n="n"/><s n="m"/></l><r>maridu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>piano<s n="n"/><s n="m"/></l><r>pianu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>violí<s n="n"/><s n="m"/></l><r>violinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>papallona<s n="n"/><s n="f"/></l><r>mariposa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>massa<s n="n"/><s n="f"/></l><r>massa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>empresa<s n="n"/><s n="f"/></l><r>azienda<s n="n"/><s n="f"/></r></p></e>
@@ -507,7 +508,8 @@
     <e><p><l>cinema<s n="n"/><s n="m"/></l><r>tzìnema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sant<s n="n"/><s n="m"/></l><r>santu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>oceà<s n="n"/><s n="m"/></l><r>otzeanu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>activitat<s n="n"/><s n="f"/></l><r>attividade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reconeixement<s n="n"/><s n="m"/></l><r>reconnoschimentu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>activitat<s n="n"/><s n="f"/></l><r>atividade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sèrie<s n="n"/><s n="f"/></l><r>serie<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>segle<s n="n"/><s n="m"/></l><r>sèculu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>població<s n="n"/><s n="f"/></l><r>populatzione<s n="n"/><s n="f"/></r></p></e>
@@ -515,6 +517,7 @@
     <e><p><l>home<s n="n"/><s n="m"/></l><r>òmine<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>període<s n="n"/><s n="m"/></l><r>perìodu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>projecte<s n="n"/><s n="m"/></l><r>progetu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>col·legi<s n="n"/><s n="m"/></l><r>collègiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lingüística<s n="n"/><s n="f"/></l><r>linguìstica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>identitat<s n="n"/><s n="f"/></l><r>identidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gràcia<s n="n"/><s n="f"/></l><r>gràtzia<s n="n"/><s n="f"/></r></p></e>
@@ -559,7 +562,7 @@
     <e><p><l>hinduisme<s n="n"/><s n="m"/></l><r>induismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>emperador<s n="n"/><s n="m"/></l><r>imperadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>associació<s n="n"/><s n="f"/></l><r>associatzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>viatge<s n="n"/><s n="m"/></l><r>viaggiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>viatge<s n="n"/><s n="m"/></l><r>biàgiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>religió<s n="n"/><s n="f"/></l><r>religione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>protesta<s n="n"/><s n="f"/></l><r>protesta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mà<s n="n"/><s n="f"/></l><r>manu<s n="n"/><s n="f"/></r></p></e>
@@ -1182,6 +1185,7 @@
     <e><p><l>català<s n="adj"/></l><r>catalanu<s n="adj"/></r></p></e>
     <e><p><l>catòlic<s n="adj"/></l><r>catolicu<s n="adj"/></r></p></e>
     <e><p><l>central<s n="adj"/></l><r>tzentrale<s n="adj"/></r></p></e>
+    <e><p><l>romànic<s n="adj"/></l><r>romanicu<s n="adj"/></r></p></e>
     <e><p><l>complex<s n="adj"/></l><r>complessu<s n="adj"/></r></p></e>
     <e><p><l>contrari<s n="adj"/></l><r>contrariu<s n="adj"/></r></p></e>
     <e><p><l>cristià<s n="adj"/></l><r>cristianu<s n="adj"/></r></p></e>
@@ -1679,6 +1683,7 @@
     <e><p><l>respondre<s n="vblex"/></l><r>rispònnere<s n="vblex"/></r></p></e>
     <e><p><l>condemnar<s n="vblex"/></l><r>cundennare<s n="vblex"/></r></p></e>
     <e><p><l>prohibir<s n="vblex"/></l><r>proibire<s n="vblex"/></r></p></e>
+    <e><p><l>projectar<s n="vblex"/></l><r>progettare<s n="vblex"/></r></p></e>
 
 
 
