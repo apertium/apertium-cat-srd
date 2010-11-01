@@ -1709,8 +1709,12 @@
     <e lm="mare"><i>mare</i><par n="pane__n"/></e>
     <e lm="cumponente"><i>cumponente</i><par n="pane__n"/></e>
     <e lm="imperadore"><i>imperadore</i><par n="pane__n"/></e>
+    <e lm="podere"><i>podere</i><par n="pane__n"/></e>
     <e lm="collaboradore"><i>collaboradore</i><par n="pane__n"/></e>
     <e lm="sustenidore"><i>sustenidore</i><par n="pane__n"/></e>
+    <e lm="imprendidore"><i>imprendidore</i><par n="pane__n"/></e>
+    <e lm="cumpetidore"><i>cumpetidore</i><par n="pane__n"/></e>
+    <e lm="composidore"><i>composidore</i><par n="pane__n"/></e>
     <e lm="senadore"><i>senadore</i><par n="pane__n"/></e>
     <e lm="operadore"><i>operadore</i><par n="pane__n"/></e>
     <e lm="cunsonante"><i>cunsonante</i><par n="pane__n"/></e>
@@ -1910,6 +1914,7 @@
     <e lm="natzione"><i>natzion</i><par n="region/e__n"/></e>
     <e lm="nazione" r="LR"><p><l>nazion</l><r>natzion</r></p><par n="region/e__n"/></e>
 
+    <e lm="eletzione"><i>eletzion</i><par n="region/e__n"/></e>
     <e lm="editzione"><i>editzion</i><par n="region/e__n"/></e>
 
     <e lm="organizatzione"><i>organizatzion</i><par n="region/e__n"/></e>
@@ -1997,7 +2002,8 @@
     <e lm="partighedda"><i>partighedda</i><par n="mesa__n"/></e>
     <e lm="informàtica"><i>informàtica</i><par n="mesa__n"/></e>
 
-    <e lm="oppositzione"><i>oppositzion</i><par n="region/e__n"/></e>
+    <e lm="opositzione"><i>opositzion</i><par n="region/e__n"/></e>
+    <e lm="opositzione" r="LR"><p><l>oppositzion</l><r>opositzion</r></p><par n="region/e__n"/></e>
     <e lm="occupazione"><i>occupazion</i><par n="region/e__n"/></e>
     <e lm="numeratzione"><i>numeratzion</i><par n="region/e__n"/></e>
     <e lm="notazione"><i>notazion</i><par n="region/e__n"/></e>
@@ -2403,6 +2409,7 @@
     <e lm="abotzu"><i>abotz</i><par n="mac/u__n"/></e>
     <e lm="cussìgiu"><i>cussìgi</i><par n="mac/u__n"/></e>
     <e lm="contu"><i>cont</i><par n="mac/u__n"/></e>
+    <e lm="abusu"><i>abus</i><par n="mac/u__n"/></e>
     <e lm="destinu"><i>destin</i><par n="mac/u__n"/></e>
     <e lm="insignamentu"><i>insignament</i><par n="mac/u__n"/></e>
     <e lm="insignamentu" r="LR"><p><l>insegnament</l><r>insignament</r></p><par n="mac/u__n"/></e>
@@ -2893,6 +2900,7 @@
     <e lm="tristu"><i>trist</i><par n="frantzes/u__adj"/></e>
     <e lm="eletronicu"><i>eletronic</i><par n="frantzes/u__adj"/></e>
     <e lm="sofisticadu"><i>sofisticad</i><par n="frantzes/u__adj"/></e>
+    <e lm="raru"><i>rar</i><par n="frantzes/u__adj"/></e>
     <e lm="fisicu"><i>fisic</i><par n="frantzes/u__adj"/></e>
     <e lm="lògicu"><i>lògic</i><par n="frantzes/u__adj"/></e>
     <e lm="caru"><i>car</i><par n="frantzes/u__adj"/></e>
@@ -3035,6 +3043,7 @@
     <e lm="male"><i>male</i><par n="bene__adv"/></e>
     <e lm="mègius"><i>mègius</i><par n="bene__adv"/></e>
     <e lm="mègius" r="LR"><p><l>megius</l><r>mègius</r></p><par n="bene__adv"/></e>
+    <e lm="mègius" r="LR"><p><l>mezus</l><r>mègius</r></p><par n="bene__adv"/></e>
     <e lm="peus"><i>peus</i><par n="bene__adv"/></e>
     <e lm="gosi"><i>gosi</i><par n="bene__adv"/></e>
     <e lm="aici"><i>aici</i><par n="bene__adv"/></e>
@@ -3298,6 +3307,7 @@
     <e lm="tentare"><i>tent</i><par n="cant/are__vblex"/></e>
     <e lm="torrare"><i>torr</i><par n="cant/are__vblex"/></e>
     <e lm="interessare"><i>interess</i><par n="cant/are__vblex"/></e>
+    <e lm="figurare"><i>figur</i><par n="cant/are__vblex"/></e>
 
     <e lm="abarrare"><i>abarr</i><par n="cant/are__vblex"/></e>
     <e lm="abbreviare"><i>abbrevi</i><par n="cant/are__vblex"/></e>
@@ -3418,6 +3428,7 @@
     <e lm="restare"><i>rest</i><par n="cant/are__vblex"/></e>
     <e lm="cuntest"><i>cuntest</i><par n="cant/are__vblex"/></e>
     <e lm="prestare"><i>prest</i><par n="cant/are__vblex"/></e>
+    <e lm="rispetare"><i>rispet</i><par n="cant/are__vblex"/></e>
 
     <e lm="adatare"><i>adat</i><par n="cant/are__vblex"/></e>
     <e lm="cunservare"><i>cunserv</i><par n="cant/are__vblex"/></e>

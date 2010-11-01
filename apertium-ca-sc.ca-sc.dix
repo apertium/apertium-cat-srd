@@ -597,6 +597,9 @@
     <e><p><l>turisme<s n="n"/><s n="m"/></l><r>turismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tema<s n="n"/><s n="m"/></l><r>tema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sostenidor<s n="n"/><s n="m"/></l><r>sustenidore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>emprenedor<s n="n"/><s n="m"/></l><r>imprendidore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>competidor<s n="n"/><s n="m"/></l><r>cumpetidore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>compositor<s n="n"/><s n="m"/></l><r>composidore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reducció<s n="n"/><s n="f"/></l><r>ridutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>restricció<s n="n"/><s n="f"/></l><r>restritzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>regla<s n="n"/><s n="f"/></l><r>règula<s n="n"/><s n="f"/></r></p></e>
@@ -686,7 +689,7 @@
     <e><p><l>perfecció<s n="n"/><s n="f"/></l><r>perfetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pendularisme<s n="n"/><s n="m"/></l><r>pendolarismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>paraula<s n="n"/><s n="f"/></l><r>paraula<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>oposició<s n="n"/><s n="f"/></l><r>oppositzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>oposició<s n="n"/><s n="f"/></l><r>opositzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operador<s n="n"/><s n="m"/></l><r>operadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ocupació<s n="n"/><s n="f"/></l><r>occupazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>numeració<s n="n"/><s n="f"/></l><r>numeratzione<s n="n"/><s n="f"/></r></p></e>
@@ -777,6 +780,8 @@
     <e><p><l>saber<s n="n"/><s n="m"/></l><r>sapièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>penitència<s n="n"/><s n="f"/></l><r>penitèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>volcà<s n="n"/><s n="m"/></l><r>vulcanu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poder<s n="n"/><s n="m"/></l><r>podere<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>abús<s n="n"/><s n="m"/></l><r>abusu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>salvació<s n="n"/><s n="f"/></l><r>sarbamentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>programari<s n="n"/><s n="m"/></l><r>programariu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pena<s n="n"/><s n="f"/></l><r>punitzione<s n="n"/><s n="f"/></r></p></e>
@@ -805,6 +810,7 @@
     <e><p><l>formació<s n="n"/><s n="f"/></l><r>formatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fonema<s n="n"/><s n="m"/></l><r>fonema<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>flexió<s n="n"/><s n="f"/></l><r>flezione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>elecció<s n="n"/><s n="f"/></l><r>eletzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>feudalisme<s n="n"/><s n="m"/></l><r>feudalismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>esborrany<s n="n"/><s n="m"/></l><r>abotzu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>fantasia<s n="n"/><s n="f"/></l><r>fantàsia<s n="n"/><s n="f"/></r></p></e>
@@ -1203,6 +1209,7 @@
     <e><p><l>europeu<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
     <e><p><l>nacional<s n="adj"/></l><r>natzionale<s n="adj"/></r></p></e>
     <e><p><l>particular<s n="adj"/></l><r>particulare<s n="adj"/></r></p></e>
+    <e><p><l>rar<s n="adj"/></l><r>raru<s n="adj"/></r></p></e>
     <e><p><l>polític<s n="adj"/></l><r>polìticu<s n="adj"/></r></p></e>
     <e><p><l>gal·lès<s n="adj"/></l><r>gallesu<s n="adj"/></r></p></e>
     <e><p><l>idèntic<s n="adj"/></l><r>idènticu<s n="adj"/></r></p></e>
@@ -1750,6 +1757,8 @@
     <e><p><l>prestar<s n="vblex"/></l><r>prestare<s n="vblex"/></r></p></e>
     <e><p><l>contestar<s n="vblex"/></l><r>cuntestare<s n="vblex"/></r></p></e>
     <e><p><l>quedar<s n="vblex"/></l><r>restare<s n="vblex"/></r></p></e>
+    <e><p><l>respectar<s n="vblex"/></l><r>rispetare<s n="vblex"/></r></p></e>
+    <e><p><l>figurar<s n="vblex"/></l><r>figurare<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
