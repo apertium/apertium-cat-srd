@@ -1860,6 +1860,7 @@
 
     <e lm="poeta"><i>poet</i><par n="poet/a__n"/></e>
     <e lm="conte"><i>cont</i><par n="cont/e__n"/></e>
+    <e lm="atore"><i>ator</i><par n="cont/e__n"/></e>
 
     <e lm="lapis"><i>lapis</i><par n="lapis__n"/></e>
     <e lm="paris"><i>paris</i><par n="lapis__n"/></e>
@@ -1938,6 +1939,7 @@
     <e lm="boluntade"><i>boluntade</i><par n="mesa__n"/></e>
     <e lm="dificultade"><i>dificultade</i><par n="mesa__n"/></e>
 
+    <e lm="superioridade"><i>superioridad</i><par n="identidad/e__n"/></e>
     <e lm="sensibilidade"><i>sensibilidad</i><par n="identidad/e__n"/></e>
     <e lm="possibilidade"><i>possibilidad</i><par n="identidad/e__n"/></e>
     <e lm="possibilidade" r="LR"><p><l>possibillidad</l><r>possibilidad</r></p><par n="identidad/e__n"/></e>
@@ -2815,6 +2817,7 @@
     <e lm="Isvìtzera"><i>Isvìtzera</i><par n="Etiòpia__np"/></e>
     <e lm="Isvìtzera" r="LR"><p><l>Isvitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
     <e lm="Isvìtzera" r="LR"><p><l>Svitzera</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Isvìtzera" r="LR"><p><l>Isvètzia</l><r>Isvìtzera</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Tanzània"><i>Tanzània</i><par n="Etiòpia__np"/></e>
     <e lm="Tanzània" r="LR"><p><l>Tanzania</l><r>Tanzània</r></p><par n="Etiòpia__np"/></e>
@@ -2957,6 +2960,7 @@
 
     <e lm="Portugallu"><i>Portugallu</i><par n="Afganistàn__np"/></e>
     <e lm="Iran"><i>Iran</i><par n="Afganistàn__np"/></e>
+    <e lm="Iran" r="LR"><p><l>Iràn</l><r>Iran</r></p><par n="Afganistàn__np"/></e>
     <e lm="Galles"><i>Galles</i><par n="Afganistàn__np"/></e>
     <e lm="Washington"><i>Washington</i><par n="Afganistàn__np"/></e>
     <e lm="Lìbanu"><i>Lìbanu</i><par n="Afganistàn__np"/></e>
@@ -2967,6 +2971,7 @@
     <e lm="Vietnàm" r="LR"><p><l>Vietnam</l><r>Vietnàm</r></p><par n="Afganistàn__np"/></e>
     <e lm="Pechinu"><i>Pechinu</i><par n="Afganistàn__np"/></e>
     <e lm="Timor Est"><i>Timor<b/>Est</i><par n="Afganistàn__np"/></e>
+    <e lm="Timor"><i>Timor</i><par n="Afganistàn__np"/></e>
     <e lm="Teheran"><i>Teheran</i><par n="Afganistàn__np"/></e>
     <e lm="Stanford"><i>Stanford</i><par n="Afganistàn__np"/></e>
     <e lm="San Marino"><i>San<b/>Marino</i><par n="Afganistàn__np"/></e>
@@ -3154,11 +3159,13 @@
     <e lm="Le Monde"><i>Le<b/>Monde</i><par n="Linux__np"/></e>
     <e lm="Dharma"><i>Dharma</i><par n="Linux__np"/></e>
     <e lm="Hamas"><i>Hamas</i><par n="Linux__np"/></e>
+    <e lm="Hezbollah"><i>Hezbollah</i><par n="Linux__np"/></e>
     <e lm="Al-Qaida"><i>Al-Qaida</i><par n="Linux__np"/></e>
     <e lm="Al-Qaida" r="LR"><p><l>Al-Qaeda</l><r>Al-Qaida</r></p><par n="Linux__np"/></e>
 
     <e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
     <e lm="Wikimedia"><i>Wikimedia</i><par n="Wikipedia__np"/></e>
+    <e lm="Wal-Mart"><i>Wal-Mart</i><par n="Wikipedia__np"/></e>
 
 
     <!-- SECTION: Adjectives -->
@@ -3231,7 +3238,13 @@
     <e lm="armenu"><i>armen</i><par n="frantzes/u__adj"/></e>
     <e lm="ungheresu"><i>ungheres</i><par n="frantzes/u__adj"/></e>
     <e lm="persianu"><i>persian</i><par n="frantzes/u__adj"/></e>
+    <e lm="iranianu"><i>iranian</i><par n="frantzes/u__adj"/></e>
+    <e lm="indonesianu"><i>indonesian</i><par n="frantzes/u__adj"/></e>
+    <e lm="australianu"><i>australian</i><par n="frantzes/u__adj"/></e>
+    <e lm="brasilianu"><i>brasilian</i><par n="frantzes/u__adj"/></e>
+    <e lm="indianu"><i>indian</i><par n="frantzes/u__adj"/></e>
     <e lm="americanu"><i>american</i><par n="frantzes/u__adj"/></e>
+    <e lm="sirianu"><i>sirian</i><par n="frantzes/u__adj"/></e>
     <e lm="tzinesu"><i>tzines</i><par n="frantzes/u__adj"/></e>
     <e lm="modernu"><i>modern</i><par n="frantzes/u__adj"/></e>
     <e lm="albanesu"><i>albanes</i><par n="frantzes/u__adj"/></e>
@@ -3350,6 +3363,7 @@
     <e lm="largu"><i>larg</i><par n="frantzes/u__adj"/></e>
     <e lm="agrìculu"><i>agrìcul</i><par n="frantzes/u__adj"/></e>
     <e lm="acadèmicu"><i>acadèmic</i><par n="frantzes/u__adj"/></e>
+    <e lm="comunu"><i>comun</i><par n="frantzes/u__adj"/></e>
     <e lm="netzessàriu"><i>netzessàri</i><par n="frantzes/u__adj"/></e>
     <e lm="guvernativu"><i>guvernativ</i><par n="frantzes/u__adj"/></e>
     <e lm="guvernativu" r="LR"><p><l>governativ</l><r>guvernativ</r></p><par n="frantzes/u__adj"/></e>
@@ -3751,10 +3765,8 @@
     <e lm="impresonare"><i>impreson</i><par n="cant/are__vblex"/></e>
     <e lm="sonare"><i>son</i><par n="cant/are__vblex"/></e>
     <e lm="accumulare"><i>accumul</i><par n="cant/are__vblex"/></e>
-    <e lm="rappresentare"><i>rappresent</i><par n="cant/are__vblex"/></e>
     <e lm="utilizzare"><i>utilizz</i><par n="cant/are__vblex"/></e>
     <e lm="praticare"><i>pratic</i><par n="cant/are__vblex"/></e>
-    <e lm="abbandonare"><i>abbandon</i><par n="cant/are__vblex"/></e>
     <e lm="parare"><i>par</i><par n="cant/are__vblex"/></e>
     <e lm="devastare"><i>devast</i><par n="cant/are__vblex"/></e>
     <e lm="lassare"><i>lass</i><par n="cant/are__vblex"/></e>
@@ -3764,6 +3776,47 @@
     <e lm="disvilupare"><i>disvilup</i><par n="cant/are__vblex"/></e>
     <e lm="disvilupare" r="LR"><p><l>isvilup</l><r>disvilup</r></p><par n="cant/are__vblex"/></e>
     <e lm="funtzionare"><i>funtzion</i><par n="cant/are__vblex"/></e>
+
+    <e lm="abbandonare"><i>abbandon</i><par n="cant/are__vblex"/></e>
+    <e lm="abbandonare" r="LR"><p><l>abandon</l><r>abbandon</r></p><par n="cant/are__vblex"/></e>
+
+    <e lm="rapresentare"><i>rapresent</i><par n="cant/are__vblex"/></e>
+    <e lm="rapresentare" r="LR"><p><l>rappresent</l><r>rapresent</r></p><par n="cant/are__vblex"/></e>
+
+    <e lm="aprofitare"><i>aprofit</i><par n="cant/are__vblex"/></e>
+    <e lm="animare"><i>anim</i><par n="cant/are__vblex"/></e>
+    <e lm="assustare"><i>assust</i><par n="cant/are__vblex"/></e>
+    <e lm="benefitziare"><i>benefitzi</i><par n="cant/are__vblex"/></e>
+    <e lm="carculare"><i>carcul</i><par n="cant/are__vblex"/></e>
+    <e lm="cumbinare"><i>cumbin</i><par n="cant/are__vblex"/></e>
+    <e lm="cunchistare"><i>cunchist</i><par n="cant/are__vblex"/></e>
+    <e lm="cuncordare"><i>cuncord</i><par n="cant/are__vblex"/></e>
+    <e lm="denuntziare"><i>denuntzi</i><par n="cant/are__vblex"/></e>
+    <e lm="dominare"><i>domin</i><par n="cant/are__vblex"/></e>
+    <e lm="eliminare"><i>elimin</i><par n="cant/are__vblex"/></e>
+    <e lm="esportare"><i>esport</i><par n="cant/are__vblex"/></e>
+    <e lm="formulare"><i>formul</i><par n="cant/are__vblex"/></e>
+    <e lm="gastare"><i>gast</i><par n="cant/are__vblex"/></e>
+    <e lm="guvernare"><i>guvern</i><par n="cant/are__vblex"/></e>
+    <e lm="isparare"><i>ispar</i><par n="cant/are__vblex"/></e>
+    <e lm="istimulare"><i>istimul</i><par n="cant/are__vblex"/></e>
+    <e lm="massacrare"><i>massacr</i><par n="cant/are__vblex"/></e>
+    <e lm="montare"><i>mont</i><par n="cant/are__vblex"/></e>
+    <e lm="mirare"><i>mir</i><par n="cant/are__vblex"/></e>
+    <e lm="negotziare"><i>negotzi</i><par n="cant/are__vblex"/></e>
+    <e lm="neutralizare"><i>neutraliz</i><par n="cant/are__vblex"/></e>
+    <e lm="ordinare"><i>ordin</i><par n="cant/are__vblex"/></e>
+    <e lm="osservare"><i>osserv</i><par n="cant/are__vblex"/></e>
+    <e lm="preservare"><i>preserv</i><par n="cant/are__vblex"/></e>
+    <e lm="pretzisare"><i>pretzis</i><par n="cant/are__vblex"/></e>
+    <e lm="privare"><i>priv</i><par n="cant/are__vblex"/></e>
+    <e lm="protestare"><i>protest</i><par n="cant/are__vblex"/></e>
+    <e lm="reclamare"><i>reclam</i><par n="cant/are__vblex"/></e>
+    <e lm="ritziclare"><i>ritzicl</i><par n="cant/are__vblex"/></e>
+    <e lm="ruinare"><i>ruin</i><par n="cant/are__vblex"/></e>
+    <e lm="sarvare"><i>sarv</i><par n="cant/are__vblex"/></e>
+    <e lm="sessare"><i>sess</i><par n="cant/are__vblex"/></e>
+    <e lm="triunfare"><i>triunf</i><par n="cant/are__vblex"/></e>
 
     <e lm="agatare"><i>agat</i><par n="cant/are__vblex"/></e>
     <e lm="agatare" r="LR"><p><l>agatt</l><r>agat</r></p><par n="cant/are__vblex"/></e>
@@ -3792,6 +3845,7 @@
     <e lm="abarrare"><i>abarr</i><par n="cant/are__vblex"/></e>
     <e lm="abbreviare"><i>abbrevi</i><par n="cant/are__vblex"/></e>
     <e lm="abitare"><i>abit</i><par n="cant/are__vblex"/></e>
+    <e lm="isdebilitare"><i>isdebilit</i><par n="cant/are__vblex"/></e>
     <e lm="acabare"><i>acab</i><par n="cant/are__vblex"/></e>
     <e lm="acarare"><i>acar</i><par n="cant/are__vblex"/></e>
     <e lm="acostumare"><i>acostum</i><par n="cant/are__vblex"/></e>
@@ -3893,6 +3947,7 @@
     <e lm="consumare"><i>consum</i><par n="cant/are__vblex"/></e>
     <e lm="agiudare"><i>agiud</i><par n="cant/are__vblex"/></e>
     <e lm="agiudare" r="LR"><p><l>azu</l><r>agiud</r></p><par n="cant/are__vblex"/></e>
+    <e lm="agiudare" r="LR"><p><l>agiu</l><r>agiud</r></p><par n="cant/are__vblex"/></e>
     <e lm="ispetzializare"><i>ispetzializ</i><par n="cant/are__vblex"/></e>
     <e lm="informatizare"><i>informatiz</i><par n="cant/are__vblex"/></e>
     <e lm="ghiare"><i>ghi</i><par n="cant/are__vblex"/></e>
@@ -3944,6 +3999,7 @@
     <e lm="intregare"><i>intreg</i><par n="cant/are__vblex"/></e>
     <e lm="torturare"><i>tortur</i><par n="cant/are__vblex"/></e>
     <!--<e lm="istampare"><i>istamp</i><par n="cant/are__vblex"/></e>-->
+
 
 
     <e lm="adatare"><i>adat</i><par n="cant/are__vblex"/></e>
@@ -4130,6 +4186,8 @@
     <e lm="edd’"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
     <e lm="ind’"><p><l>ind’</l><r>in<s n="pr"/></r></p></e>
     <e lm="d’"><p><l>d’</l><r>de<s n="pr"/></r></p></e>
+    <e lm="m’"><p><l>m’</l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="t’"><p><l>t’</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="cun d’"><p><l>cun<b/>d’</l><r>cun<s n="pr"/></r></p></e>
     <e lm="cun d-"><p><l>cun<b/>d-</l><r>cun<s n="pr"/></r></p></e>
     <e lm="nd’"><p><l>nd’</l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>

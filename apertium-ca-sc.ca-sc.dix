@@ -74,6 +74,11 @@
       <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
       <e r="RL"><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
     </pardef>
+    <pardef n="u_unu">
+      <e r="LR"><p><l><s n="m"/></l><r><s n="GD"/></r></p></e>
+      <e r="RL"><p><l><s n="m"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+    </pardef>
     <pardef n="persa_persianu">
       <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
@@ -259,7 +264,7 @@
 
     <!-- SECTION:  Numerals -->
 
-    <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p></e>
+    <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p><par n="u_unu"/></e>
     <e><p><l>dos<s n="num"/></l><r>duos<s n="num"/></r></p></e>
     <e><p><l>tres<s n="num"/></l><r>tres<s n="num"/></r></p></e>
     <e><p><l>quatre<s n="num"/></l><r>bator<s n="num"/></r></p></e>
@@ -345,6 +350,8 @@
     <e><p><l>lloc<s n="n"/><s n="m"/></l><r>logu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>comte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>comte<s n="n"/><s n="f"/></l><r>conte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>actor<s n="n"/><s n="m"/></l><r>atore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>actriu<s n="n"/><s n="f"/></l><r>atore<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>llapis<s n="n"/><s n="m"/></l><r>lapis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
@@ -418,6 +425,7 @@
     <e><p><l>aparició<s n="n"/><s n="f"/></l><r>apparizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>arquitectura<s n="n"/><s n="f"/></l><r>architetura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>atestació<s n="n"/><s n="f"/></l><r>attestazione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>superioritat<s n="n"/><s n="f"/></l><r>superioridade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>barista<s n="n"/><s n="mf"/></l><r>barista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>finestra<s n="n"/><s n="f"/></l><r>bentana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>camioner<s n="n"/><s n="m"/></l><r>camionista<s n="n"/><s n="mf"/></r></p></e>
@@ -1235,6 +1243,7 @@
     <e><p><l>Indonèsia<s n="np"/><s n="top"/></l><r>Indonèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Panamà<s n="np"/><s n="top"/></l><r>Pànama<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Timor-Leste<s n="np"/><s n="top"/></l><r>Timor<b/>Est<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Timor<s n="np"/><s n="top"/></l><r>Timor<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Sèrbia<s n="np"/><s n="top"/></l><r>Sèrbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Indoxina<s n="np"/><s n="top"/></l><r>Indotzina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Portugal<s n="np"/><s n="top"/></l><r>Portugallu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1405,9 +1414,11 @@
     <e><p><l>Le<b/>Monde<s n="np"/><s n="al"/></l><r>Le<b/>Monde<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Crist<s n="np"/><s n="al"/></l><r>Cristu<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Hamàs<s n="np"/><s n="al"/></l><r>Hamas<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Hezbol·lah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Wikimedia<s n="np"/><s n="al"/></l><r>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Dharma<s n="np"/><s n="al"/></l><r>Dharma<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Buda<s n="np"/><s n="ant"/></l><r>Buddha<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Wal-Mart<s n="np"/><s n="al"/></l><r>Wal-Mart<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Adjectives -->
 
@@ -1437,7 +1448,8 @@
     <e><p><l>urbà<s n="adj"/></l><r>urbanu<s n="adj"/></r></p></e>
     <e><p><l>científic<s n="adj"/></l><r>iscientìficu<s n="adj"/></r></p></e>
     <e><p><l>nou<s n="adj"/></l><r>nou<s n="adj"/></r></p></e>
-    <e><p><l>comú<s n="adj"/></l><r>comune<s n="adj"/></r></p><par n="fort_forte"/></e>
+    <e r="RL"><p><l>comú<s n="adj"/></l><r>comune<s n="adj"/></r></p><par n="fort_forte"/></e>
+    <e><p><l>comú<s n="adj"/></l><r>comunu<s n="adj"/></r></p></e>
     <e><p><l>antic<s n="adj"/></l><r>antigu<s n="adj"/></r></p></e>
     <e><p><l>aragonès<s n="adj"/></l><r>aragonesu<s n="adj"/></r></p></e>
     <e><p><l>japonès<s n="adj"/></l><r>giapponesu<s n="adj"/></r></p></e>
@@ -1481,6 +1493,7 @@
     <e><p><l>republicà<s n="adj"/></l><r>repubricanu<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
+    <e><p><l>iranià<s n="adj"/></l><r>iranianu<s n="adj"/></r></p></e>
     <e><p><l>lliure<s n="adj"/></l><r>lìberu<s n="adj"/></r></p><par n="persa_persianu"/></e>
 
     <e><p><l>alt<s n="adj"/></l><r>altu<s n="adj"/></r></p></e>
@@ -1651,6 +1664,11 @@
     <e><p><l>civil<s n="adj"/></l><r>tzivile<s n="adj"/></r></p></e>
     <e><p><l>brut<s n="adj"/></l><r>brutu<s n="adj"/></r></p></e>
 
+    <e><p><l>australià<s n="adj"/></l><r>australianu<s n="adj"/></r></p></e>
+    <e><p><l>brasiler<s n="adj"/></l><r>brasilianu<s n="adj"/></r></p></e>
+    <e><p><l>indi<s n="adj"/></l><r>indianu<s n="adj"/></r></p></e>
+    <e><p><l>sirià<s n="adj"/></l><r>sirianu<s n="adj"/></r></p></e>
+    <e><p><l>indonesi<s n="adj"/></l><r>indonesianu<s n="adj"/></r></p></e>
 
     <!-- SECTION:  Adverbs -->
 
@@ -2124,6 +2142,43 @@
     <e><p><l>inspirar<s n="vblex"/></l><r>inspirare<s n="vblex"/></r></p></e>
     <e><p><l>funcionar<s n="vblex"/></l><r>funtzionare<s n="vblex"/></r></p></e>
     <e><p><l>entregar<s n="vblex"/></l><r>intregare<s n="vblex"/></r></p></e>
+    <e><p><l>deshabilitar<s n="vblex"/></l><r>isdebilitare<s n="vblex"/></r></p></e>
+
+    <e><p><l>animar<s n="vblex"/></l><r>animare<s n="vblex"/></r></p></e>
+    <e><p><l>aprofitar<s n="vblex"/></l><r>aprofitare<s n="vblex"/></r></p></e>
+    <e><p><l>espantar<s n="vblex"/></l><r>assustare<s n="vblex"/></r></p></e>
+    <e><p><l>beneficiar<s n="vblex"/></l><r>benefitziare<s n="vblex"/></r></p></e>
+    <e><p><l>calcular<s n="vblex"/></l><r>carculare<s n="vblex"/></r></p></e>
+    <e><p><l>combinar<s n="vblex"/></l><r>cumbinare<s n="vblex"/></r></p></e>
+    <e><p><l>conquistar<s n="vblex"/></l><r>cunchistare<s n="vblex"/></r></p></e>
+    <e><p><l>concordar<s n="vblex"/></l><r>cuncordare<s n="vblex"/></r></p></e>
+    <e><p><l>denunciar<s n="vblex"/></l><r>denuntziare<s n="vblex"/></r></p></e>
+    <e><p><l>dominar<s n="vblex"/></l><r>dominare<s n="vblex"/></r></p></e>
+    <e><p><l>eliminar<s n="vblex"/></l><r>eliminare<s n="vblex"/></r></p></e>
+    <e><p><l>exportar<s n="vblex"/></l><r>esportare<s n="vblex"/></r></p></e>
+    <e><p><l>formular<s n="vblex"/></l><r>formulare<s n="vblex"/></r></p></e>
+    <e><p><l>gastar<s n="vblex"/></l><r>gastare<s n="vblex"/></r></p></e>
+    <e><p><l>governar<s n="vblex"/></l><r>guvernare<s n="vblex"/></r></p></e>
+    <e><p><l>disparar<s n="vblex"/></l><r>isparare<s n="vblex"/></r></p></e>
+    <e><p><l>estimular<s n="vblex"/></l><r>istimulare<s n="vblex"/></r></p></e>
+    <e><p><l>massacrar<s n="vblex"/></l><r>massacrare<s n="vblex"/></r></p></e>
+    <e><p><l>mirar<s n="vblex"/></l><r>mirare<s n="vblex"/></r></p></e>
+    <e><p><l>muntar<s n="vblex"/></l><r>montare<s n="vblex"/></r></p></e>
+    <e><p><l>negociar<s n="vblex"/></l><r>negotziare<s n="vblex"/></r></p></e>
+    <e><p><l>neutralitzar<s n="vblex"/></l><r>neutralizare<s n="vblex"/></r></p></e>
+    <e><p><l>ordenar<s n="vblex"/></l><r>ordinare<s n="vblex"/></r></p></e>
+    <e><p><l>observar<s n="vblex"/></l><r>osservare<s n="vblex"/></r></p></e>
+    <e><p><l>preservar<s n="vblex"/></l><r>preservare<s n="vblex"/></r></p></e>
+    <e><p><l>precisar<s n="vblex"/></l><r>pretzisare<s n="vblex"/></r></p></e>
+    <e><p><l>privar<s n="vblex"/></l><r>privare<s n="vblex"/></r></p></e>
+    <e><p><l>protestar<s n="vblex"/></l><r>protestare<s n="vblex"/></r></p></e>
+    <e><p><l>representar<s n="vblex"/></l><r>rapresentare<s n="vblex"/></r></p></e>
+    <e><p><l>reclamar<s n="vblex"/></l><r>reclamare<s n="vblex"/></r></p></e>
+    <e><p><l>reciclar<s n="vblex"/></l><r>ritziclare<s n="vblex"/></r></p></e>
+    <e><p><l>arruïnar<s n="vblex"/></l><r>ruinare<s n="vblex"/></r></p></e>
+    <e><p><l>salvar<s n="vblex"/></l><r>sarvare<s n="vblex"/></r></p></e>
+    <e><p><l>cessar<s n="vblex"/></l><r>sessare<s n="vblex"/></r></p></e>
+    <e><p><l>triomfar<s n="vblex"/></l><r>triunfare<s n="vblex"/></r></p></e>
 
 
 
