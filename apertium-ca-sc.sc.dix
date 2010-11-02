@@ -78,56 +78,52 @@
 
     <!-- SECTION: Clitics -->
 
-    <pardef n="S__cantende·bos">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-    </pardef>
-
-    <pardef n="S__cantende·nos">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-    </pardef>
-
-    <pardef n="S__cantende·mi">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-    </pardef>
-
-    <pardef n="S__cantende·ti">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-    </pardef>
-
-    <pardef n="S__cantende·si">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-    </pardef>
-
-    <pardef n="S__cantende·bi">
-      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-    </pardef>
-
     <pardef n="S__cantende·nche">
       <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e>       <p><l>·los</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>·las</l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="S__cantende">
-      <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantende·si"/></e>
-      <e>       <p><l>·li</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>·lis</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <pardef n="S__cantende·bos">
       <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e>       <p><l>·la</l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-
-      <e>       <p><l>·nos</l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e>       <p><l>·nos</l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantende·nos"/></e>
-
-      <e>       <p><l>·los</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e>       <p><l>·las</l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-
       <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
       <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+    </pardef>
+
+    <pardef n="S__cantende·nos">
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantende·mi">
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantende·ti">
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantende·si">
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="S__cantende·bi">
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
 
     <pardef n="S__cantare">
@@ -139,9 +135,14 @@
     <pardef n="S__canta">
       <e>       <p><l>·mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>·mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantende·mi"/></e>
-      <e>       <p><l>·ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e>       <p><l>·ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantende·ti"/></e>
-      <e>       <p><l>·li</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p></e>
+      <e>       <p><l>·ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>·ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantende·ti"/></e>
+      <e>       <p><l>·li</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>·lis</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e>       <p><l>·lu</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+      <e>       <p><l>·la</l><r>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>·los</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>·las</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e>       <p><l>·bi</l><r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantende·bi"/></e>
       <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>·si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r></p><par n="S__cantende·si"/></e>
@@ -152,12 +153,14 @@
       <e>       <p><l>·nos</l><r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantende·nos"/></e>
       <e>       <p><l>·bos</l><r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
       <e>       <p><l>·bos</l><r>bos<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantende·bos"/></e>
-      <e>       <p><l>·los</l><r>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e>       <p><l>·nche</l><r>nche<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
       <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-      <e>       <p><l>·nde</l><r>nde<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantende·nche"/></e>
+    </pardef>
+
+    <pardef n="S__cantende">
+      <e>       <p><l/><r/></p><par n="S__canta"/></e>
     </pardef>
 
     <!-- SECTION: Abbreviations -->
@@ -1612,6 +1615,7 @@
     <!--<e lm="in antis"><i>in<b/>antis</i><par n="a__pr"/></e>-->
     <e lm="foras"><i>foras</i><par n="a__pr"/></e>
     <e lm="in foras de"><i>in<b/>foras<b/>de</i><par n="a__pr"/></e>
+    <e lm="a foras de"><i>a<b/>foras<b/>de</i><par n="a__pr"/></e>
     <e lm="intro"><i>intro</i><par n="a__pr"/></e>
     <e lm="a inghìriu"><i>a<b/>inghìriu</i><par n="a__pr"/></e>
     <e lm="contra"><i>contra</i><par n="a__pr"/></e>
@@ -2537,6 +2541,7 @@
     <e lm="datu"><i>dat</i><par n="mac/u__n"/></e>
     <e lm="espertu"><i>espert</i><par n="mac/u__n"/></e>
     <e lm="aumentu"><i>aument</i><par n="mac/u__n"/></e>
+    <e lm="risu"><i>ris</i><par n="mac/u__n"/></e>
     <e lm="perìgulu"><i>perìgul</i><par n="mac/u__n"/></e>
     <e lm="pianu"><i>pian</i><par n="mac/u__n"/></e>
     <e lm="protzessu"><i>protzess</i><par n="mac/u__n"/></e>
@@ -3831,7 +3836,6 @@
     <e lm="elìminare"><i>elìmin</i><par n="cant/are__vblex"/></e>
     <e lm="cantzellare"><i>cantzell</i><par n="cant/are__vblex"/></e>
 
-    <e lm="pigare"><i>pig</i><par n="cant/are__vblex"/></e>
     <e lm="tentare"><i>tent</i><par n="cant/are__vblex"/></e>
     <e lm="torrare"><i>torr</i><par n="cant/are__vblex"/></e>
     <e lm="interessare"><i>interess</i><par n="cant/are__vblex"/></e>
@@ -3853,12 +3857,10 @@
     <e lm="adotare"><i>adot</i><par n="cant/are__vblex"/></e>
     <e lm="afidare"><i>afid</i><par n="cant/are__vblex"/></e>
     <e lm="afirmare"><i>afirm</i><par n="cant/are__vblex"/></e>
-    <e lm="afortigare"><i>afortig</i><par n="cant/are__vblex"/></e>
     <e lm="alabare"><i>alab</i><par n="cant/are__vblex"/></e>
     <e lm="atenuare"><i>atenu</i><par n="cant/are__vblex"/></e>
     <e lm="tzelebrare"><i>tzelebr</i><par n="cant/are__vblex"/></e>
     <e lm="allestrare"><i>allestr</i><par n="cant/are__vblex"/></e>
-    <e lm="apostivigare"><i>apostivig</i><par n="cant/are__vblex"/></e>
     <e lm="apretziare"><i>apretzi</i><par n="cant/are__vblex"/></e>
     <e lm="aprovare"><i>aprov</i><par n="cant/are__vblex"/></e>
     <e lm="arrestare"><i>arrest</i><par n="cant/are__vblex"/></e>
@@ -3871,13 +3873,10 @@
     <e lm="aviare"><i>avi</i><par n="cant/are__vblex"/></e>
     <e lm="aviare" r="LR"><p><l>avvi</l><r>avi</r></p><par n="cant/are__vblex"/></e>
     <e lm="ballare"><i>ball</i><par n="cant/are__vblex"/></e>
-    <e lm="barigare"><i>barig</i><par n="cant/are__vblex"/></e>
     <e lm="basare"><i>bas</i><par n="cant/are__vblex"/></e>
     <e lm="betare"><i>bet</i><par n="cant/are__vblex"/></e>
     <e lm="bisitare"><i>bisit</i><par n="cant/are__vblex"/></e>
-    <e lm="bogare"><i>bog</i><par n="cant/are__vblex"/></e>
     <e lm="bolare"><i>bol</i><par n="cant/are__vblex"/></e>
-    <e lm="brigare"><i>brig</i><par n="cant/are__vblex"/></e>
     <e lm="burrare"><i>burr</i><par n="cant/are__vblex"/></e>
     <e lm="calare"><i>cal</i><par n="cant/are__vblex"/></e>
     <e lm="castiare"><i>casti</i><par n="cant/are__vblex"/></e>
@@ -3893,7 +3892,6 @@
     <e lm="imbetzare"><i>imbetz</i><par n="cant/are__vblex"/></e>
     <e lm="isetare"><i>iset</i><par n="cant/are__vblex"/></e>
     <e lm="ocupare"><i>ocup</i><par n="cant/are__vblex"/></e>
-    <e lm="pagare"><i>pag</i><par n="cant/are__vblex"/></e>
     <e lm="pertocare"><i>pertoc</i><par n="cant/are__vblex"/></e>
     <e lm="provocare"><i>provoc</i><par n="cant/are__vblex"/></e>
     <e lm="provocare" r="LR"><p><l>provòc</l><r>provoc</r></p><par n="cant/are__vblex"/></e>
@@ -3912,7 +3910,6 @@
     <e lm="cumbidare"><i>cumbid</i><par n="cant/are__vblex"/></e>
     <e lm="cunfinare"><i>cunfin</i><par n="cant/are__vblex"/></e>
     <e lm="alindare"><i>alind</i><par n="cant/are__vblex"/></e>
-    <e lm="catalogare"><i>catalog</i><par n="cant/are__vblex"/></e>
     <e lm="dedicare"><i>dedic</i><par n="cant/are__vblex"/></e>
     <e lm="criticare"><i>critic</i><par n="cant/are__vblex"/></e>
     <e lm="mudare"><i>mud</i><par n="cant/are__vblex"/></e>
@@ -3927,8 +3924,6 @@
     <e lm="creare"><i>cre</i><par n="cant/are__vblex"/></e>
     <e lm="creare" r="LR"><p><l>cri</l><r>cre</r></p><par n="cant/are__vblex"/></e>
     <e lm="collaborare"><i>collabor</i><par n="cant/are__vblex"/></e>
-    <e lm="ligare"><i>lig</i><par n="cant/are__vblex"/></e>
-    <e lm="imbentare"><i>imbent</i><par n="cant/are__vblex"/></e>
     <e lm="imbentare" r="LR"><p><l>invent</l><r>imbent</r></p><par n="cant/are__vblex"/></e>
     <e lm="esecutare"><i>esecut</i><par n="cant/are__vblex"/></e>
     <e lm="retzitare"><i>retzit</i><par n="cant/are__vblex"/></e>
@@ -3978,8 +3973,7 @@
     <e lm="lìberare"><i>lìber</i><par n="cant/are__vblex"/></e>
     <e lm="lìberare" r="LR"><p><l>liber</l><r>lìber</r></p><par n="cant/are__vblex"/></e>
     <e lm="evitare"><i>evit</i><par n="cant/are__vblex"/></e>
-    <e lm="negare"><i>neg</i><par n="cant/are__vblex"/></e>
-    <e lm="dennegare"><i>denneg</i><par n="cant/are__vblex"/></e>
+    <e lm="donare"><i>don</i><par n="cant/are__vblex"/></e>
     <e lm="capitare"><i>capit</i><par n="cant/are__vblex"/></e>
     <e lm="cuare"><i>cu</i><par n="cant/are__vblex"/></e>
     <e lm="afare"><i>af</i><par n="cant/are__vblex"/></e>
@@ -3996,7 +3990,6 @@
     <e lm="decrarare"><i>decrar</i><par n="cant/are__vblex"/></e>
     <e lm="evacuare"><i>evacu</i><par n="cant/are__vblex"/></e>
     <e lm="assòtziare"><i>assòtzi</i><par n="cant/are__vblex"/></e>
-    <e lm="intregare"><i>intreg</i><par n="cant/are__vblex"/></e>
     <e lm="torturare"><i>tortur</i><par n="cant/are__vblex"/></e>
     <!--<e lm="istampare"><i>istamp</i><par n="cant/are__vblex"/></e>-->
 
@@ -4019,7 +4012,6 @@
     <e lm="biagiare"><i>biagi</i><par n="cant/are__vblex"/></e>
     <e lm="antitzipare"><i>antitzip</i><par n="cant/are__vblex"/></e>
     <e lm="antitzipare" r="LR"><p><l>antizip</l><r>antitzip</r></p><par n="cant/are__vblex"/></e>
-    <e lm="incarrigare"><i>incarrig</i><par n="cant/are__vblex"/></e>
     <e lm="assignare"><i>assign</i><par n="cant/are__vblex"/></e>
     <e lm="assignare" r="LR"><p><l>asseg</l><r>assign</r></p><par n="cant/are__vblex"/></e>
     <e lm="presentziare"><i>presentzi</i><par n="cant/are__vblex"/></e>
@@ -4109,6 +4101,21 @@
     <e lm="fraigare"><i>fraig</i><par n="seg/are__vblex"/></e>
     <e lm="ismentigare"><i>ismentig</i><par n="seg/are__vblex"/></e>
     <e lm="interrogare"><i>interrog</i><par n="seg/are__vblex"/></e>
+
+    <e lm="pigare"><i>pig</i><par n="seg/are__vblex"/></e>
+    <e lm="afortigare"><i>afortig</i><par n="seg/are__vblex"/></e>
+    <e lm="apostivigare"><i>apostivig</i><par n="seg/are__vblex"/></e>
+    <e lm="barigare"><i>barig</i><par n="seg/are__vblex"/></e>
+    <e lm="bogare"><i>bog</i><par n="seg/are__vblex"/></e>
+    <e lm="brigare"><i>brig</i><par n="seg/are__vblex"/></e>
+    <e lm="pagare"><i>pag</i><par n="seg/are__vblex"/></e>
+    <e lm="catalogare"><i>catalog</i><par n="seg/are__vblex"/></e>
+    <e lm="ligare"><i>lig</i><par n="seg/are__vblex"/></e>
+    <e lm="imbentare"><i>imbent</i><par n="seg/are__vblex"/></e>
+    <e lm="negare"><i>neg</i><par n="seg/are__vblex"/></e>
+    <e lm="dennegare"><i>denneg</i><par n="seg/are__vblex"/></e>
+    <e lm="intregare"><i>intreg</i><par n="seg/are__vblex"/></e>
+    <e lm="incarrigare"><i>incarrig</i><par n="seg/are__vblex"/></e>
 
     <e lm="còghere"><i>c</i><par n="c/òghere__vblex"/></e>
 
