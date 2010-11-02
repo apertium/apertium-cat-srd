@@ -213,12 +213,12 @@
     <pardef n="un/u__num" c="p.35">
       <e r="LR"><p><l></l><r>u<s n="num"/><s n="m"/><s n="sp"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>u</l><r>u<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
-      <e>       <p><l>a</l><r>u<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+      <e>       <p><l>a</l><r>u<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="du/os__num" c="p.35">
       <e>       <p><l>os</l><r>os<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
-      <e>       <p><l>as</l><r>os<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+      <e>       <p><l>as</l><r>os<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
 
     <pardef n="tres__num" c="p.35">
@@ -623,6 +623,7 @@
       <e>       <p><l>so</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ses</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>est</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>este</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>semus</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>seis</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>sunt</l><r>èssere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -2253,6 +2254,7 @@
 
     <e lm="condutzione"><i>condutzion</i><par n="region/e__n"/></e>
     <e lm="propriedade"><i>propriedad</i><par n="identidad/e__n"/></e>
+    <e lm="bariedade"><i>bariedad</i><par n="identidad/e__n"/></e>
 
     <e lm="compositzione"><i>compositzion</i><par n="region/e__n"/></e>
     <e lm="compositzione" r="LR"><p><l>composizion</l><r>compositzion</r></p><par n="region/e__n"/></e>
@@ -3578,6 +3580,7 @@
     <e lm="trigadiu"><i>trigadiu</i><par n="bene__adv"/></e>
     <e lm="eris"><i>eris</i><par n="bene__adv"/></e>
     <e lm="oe"><i>oe</i><par n="bene__adv"/></e>
+    <e lm="oe" r="LR"><p><l>oi</l><r>oe</r></p><par n="bene__adv"/></e>
     <e lm="oe in die"><i>oe<b/>in<b/>die</i><par n="bene__adv"/></e>
     <e lm="cras"><i>cras</i><par n="bene__adv"/></e>
     <e lm="ocannu"><i>ocannu</i><par n="bene__adv"/></e>
