@@ -327,6 +327,20 @@
       <e>       <p><l>as</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="un/u_àteru__prn" c="">
+      <e r="LR"><p><l><b/>ateru</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>u<b/>ateru</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>a<b/>atera</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>os<b/>ateros</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>as<b/>ateras</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l><b/>àteru</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e>       <p><l>u<b/>àteru</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a<b/>àtera</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os<b/>àteros</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as<b/>àteras</l><r>u<b/>àteru<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="perun/u__prn" c="">
       <e r="LR"><p><l>nu</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
@@ -401,6 +415,20 @@
       <e>       <p><l>a</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
       <e>       <p><l>os</l><r>u<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l>as</l><r>u<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="un/u_àteru__det" c="">
+      <e r="LR"><p><l><b/>ateru</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>u<b/>ateru</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>a<b/>atera</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>os<b/>ateros</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>as<b/>ateras</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+
+      <e r="LR"><p><l><b/>àteru</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e>       <p><l>u<b/>àteru</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e>       <p><l>a<b/>àtera</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os<b/>àteros</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l>as<b/>àteras</l><r>u<b/>àteru<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
  
     <!-- SECTION: Nouns -->
@@ -1654,9 +1682,8 @@
     <e lm="cale"><i>cale</i><par n="cale__prn"/></e>
     <e lm="chie"><i>chie</i><par n="chie__prn"/></e>
 
-    <e lm="àteru"><i>àter</i><par n="àter/u__prn"/></e>
-    <e lm="àteru" r="LR"><p><l>ater</l><r>àter</r></p><par n="àter/u__prn"/></e>
-    <e lm="àteru" r="LR"><p><l>atr</l><r>àter</r></p><par n="àter/u__prn"/></e>
+    <e lm="unu àteru"><i>un</i><par n="un/u_àteru__prn"/></e>
+
     <e lm="ambos"><i>amb</i><par n="amb/os__prn"/></e>
     <e lm="perunu"><i>perun</i><par n="perun/u__prn"/></e>
     <e lm="calicunu"><i>calicun</i><par n="perun/u__prn"/></e>
@@ -1680,12 +1707,16 @@
 
     <e lm="àteru"><i>àter</i><par n="àter/u__det"/></e>
     <e lm="àteru" r="LR"><p><l>ater</l><r>àter</r></p><par n="àter/u__det"/></e>
+    <e lm="àteru" r="LR"><p><l>atr</l><r>àter</r></p><par n="àter/u__det"/></e>
+
     <e lm="ambos"><i>amb</i><par n="amb/os__det"/></e>
     <e lm="perunu"><i>perun</i><par n="perun/u__det"/></e>
 
     <e lm="onzi"><i>onzi</i><par n="onzi__det"/></e>
     <e lm="onzi" r="LR"><p><l>onnia</l><r>onzi</r></p><par n="onzi__det"/></e>
     <e lm="carchi"><i>carchi</i><par n="carchi__det"/></e>
+
+    <e lm="unu àteru"><i>un</i><par n="un/u_àteru__det"/></e>
 
     <!-- SECTION: Numerals -->
 
