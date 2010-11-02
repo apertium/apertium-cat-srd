@@ -98,8 +98,11 @@
 <def-attr n="a_prn">
    <attr-item tags="prn.tn"/>
    <attr-item tags="prn.pro"/>
+   <attr-item tags="prn.pro.adv"/>
+   <attr-item tags="prn.enc.ref"/>
    <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc"/>
+   <attr-item tags="prn.enc.adv"/>
 </def-attr>
 <def-attr n="a_adjec">
    <attr-item tags="adj"/>
