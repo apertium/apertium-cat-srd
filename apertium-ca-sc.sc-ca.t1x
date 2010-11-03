@@ -11,6 +11,9 @@
    <cat-item tags="abbr"/>
    <cat-item tags="n.*"/>
 </def-cat>
+<def-cat n="dare_prs">
+   <cat-item lemma="dare" tags="vblex.prs.*"/>
+</def-cat>
 <def-cat n="top">
    <cat-item tags="np.top.*"/>
 </def-cat>
@@ -2576,6 +2579,28 @@
    </action>
 </rule>
 
+
+<rule comment="regla: dare_prs inf">
+   <pattern>
+     <pattern-item n="dare_prs"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <lit-tag v="cni"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
 
 
 
