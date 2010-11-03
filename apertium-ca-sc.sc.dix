@@ -524,7 +524,7 @@
  
     <pardef n="man/u__n">
       <e>       <p><l>u</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e>       <p><l>os</l><r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e>       <p><l>os</l><r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="traballador/e__n">
@@ -866,7 +866,7 @@
       <e>       <p><l>iat</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>iamus</l><r>ere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>iais</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>aiant</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>iant</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>as</l><r>ere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1875,6 +1875,7 @@
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="azienda"><i>azienda</i><par n="mesa__n"/></e>
     <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
+    <e lm="chida"><i>chida</i><par n="mesa__n"/></e>
     <e lm="paghe"><i>paghe</i><par n="mesa__n"/></e>
     <e lm="boghe"><i>boghe</i><par n="mesa__n"/></e>
     <e lm="salude"><i>salude</i><par n="mesa__n"/></e>
@@ -2062,6 +2063,7 @@
     <e lm="matemàtica"><i>matemàtica</i><par n="mesa__n"/></e>
     <e lm="matemàtica" r="LR"><p><l>matematica</l><r>matemàtica</r></p><par n="mesa__n"/></e>
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
+    <e lm="cantzone"><i>cantzone</i><par n="mesa__n"/></e>
     <e lm="presèntzia"><i>pres</i><par n="difer/èntzia__n"/></e>
     <e lm="ecuivalèntzia"><i>ecuival</i><par n="difer/èntzia__n"/></e>
     <e lm="agèntzia"><i>ag</i><par n="difer/èntzia__n"/></e>
@@ -4050,6 +4052,9 @@
     <e lm="cumprèndere"><i>cumprènd</i><par n="tim/ere__vblex"/></e>
     <e lm="cumprèndere" r="LR"><p><l>cumprend</l><r>cumprènd</r></p><par n="tim/ere__vblex"/></e>
     <e lm="dirìgere"><i>dirìg</i><par n="tim/ere__vblex"/></e>
+
+    <e lm="detzìdere"><i>detzìd</i><par n="tim/ere__vblex"/></e>
+    <e lm="detzìdere" r="LR"><p><l>detzid</l><r>detzìd</r></p><par n="tim/ere__vblex"/></e>
 
     <e lm="divenire"><i>diven</i><par n="fin/ire__vblex"/></e>
     <e lm="bidire"><i>bid</i><par n="fin/ire__vblex"/></e>
