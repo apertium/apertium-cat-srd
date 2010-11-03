@@ -1636,6 +1636,7 @@
     <e lm="duncas"><i>duncas</i><par n="duncas__cnjadv"/></e>
     <e lm="est a nàrrere"><i>est<b/>a<b/>nàrrere</i><par n="duncas__cnjadv"/></e>
     <e lm="est a nàrrere" r="LR"><p><l>est<b/>a<b/>narrer</l><r>est<b/>a<b/>nàrrere</r></p><par n="duncas__cnjadv"/></e>
+    <e lm="est a nàrrere" r="LR"><p><l>est<b/>a<b/>nai</l><r>est<b/>a<b/>nàrrere</r></p><par n="duncas__cnjadv"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -1852,6 +1853,7 @@
 
     <e lm="paba"><i>paba</i><par n="pane__n"/></e>
     <e lm="òmine"><i>òmine</i><par n="pane__n"/></e>
+    <e lm="òmine" r="LR"><p><l>omini</l><r>òmine</r></p><par n="pane__n"/></e>
     <e lm="paneteri"><i>paneteri</i><par n="pane__n"/></e>
     <e lm="nebode"><i>nebode</i><par n="pane__n"/></e>
     <e lm="còdighe"><i>còdighe</i><par n="pane__n"/></e>
@@ -1931,7 +1933,10 @@
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="luna"><i>luna</i><par n="mesa__n"/></e>
+    <e lm="cuntierra"><i>cuntierra</i><par n="mesa__n"/></e>
     <e lm="azienda"><i>azienda</i><par n="mesa__n"/></e>
+    <e lm="pranta"><i>pranta</i><par n="mesa__n"/></e>
+    <e lm="pranta" r="LR"><p><l>planta</l><r>pranta</r></p><par n="mesa__n"/></e>
     <e lm="lista"><i>lista</i><par n="mesa__n"/></e>
     <e lm="fàmine"><i>fàmine</i><par n="mesa__n"/></e>
     <e lm="chida"><i>chida</i><par n="mesa__n"/></e>
@@ -1960,6 +1965,8 @@
     <e lm="resursa"><i>resursa</i><par n="mesa__n"/></e>
     <e lm="resursa" r="LR"><p><l>risorsa</l><r>resursa</r></p><par n="mesa__n"/></e>
     <e lm="categoria"><i>categoria</i><par n="mesa__n"/></e>
+    <e lm="anarchia"><i>anarchia</i><par n="mesa__n"/></e>
+    <e lm="anarchia" r="LR"><p><l>anarchìa</l><r>anarchia</r></p><par n="mesa__n"/></e>
     <e lm="indùstria"><i>indùstria</i><par n="mesa__n"/></e>
     <e lm="matèria"><i>matèria</i><par n="mesa__n"/></e>
     <e lm="energia"><i>energia</i><par n="mesa__n"/></e>
@@ -2040,7 +2047,18 @@
     <e lm="ebba"><i>ebba</i><par n="mesa__n"/></e>
     <!--<e lm="madri"><i>madri</i><par n="mesa__n"/></e>-->
     <e lm="neta"><i>neta</i><par n="mesa__n"/></e>
+
+    <e lm="etimologia"><i>etimologia</i><par n="mesa__n"/></e>
     <e lm="tecnologia"><i>tecnologia</i><par n="mesa__n"/></e>
+    <e lm="antologia"><i>antologia</i><par n="mesa__n"/></e>
+    <e lm="archeologia"><i>archeologia</i><par n="mesa__n"/></e>
+    <e lm="biologia"><i>biologia</i><par n="mesa__n"/></e>
+    <e lm="ideologia"><i>ideologia</i><par n="mesa__n"/></e>
+    <e lm="mitologia"><i>mitologia</i><par n="mesa__n"/></e>
+    <e lm="morfologia"><i>morfologia</i><par n="mesa__n"/></e>
+    <e lm="sotziologia"><i>sotziologia</i><par n="mesa__n"/></e>
+    <e lm="teologia"><i>teologia</i><par n="mesa__n"/></e>
+
     <e lm="gràtzia"><i>gràtzia</i><par n="mesa__n"/></e>
     <e lm="praneta"><i>praneta</i><par n="mesa__n"/></e>
     <e lm="frontera"><i>frontera</i><par n="mesa__n"/></e>
@@ -2151,6 +2169,7 @@
     <e lm="versione"><i>versione</i><par n="mesa__n"/></e>
     <e lm="iscola"><i>iscola</i><par n="mesa__n"/></e>
     <e lm="iscola" r="LR"><p><l>scola</l><r>iscola</r></p><par n="mesa__n"/></e>
+    <e lm="iscola" r="LR"><p><l>iscolla</l><r>iscola</r></p><par n="mesa__n"/></e>
 
 
     <e lm="iscièntzia"><i>isci</i><par n="difer/èntzia__n"/></e>
@@ -2434,6 +2453,13 @@
     <e lm="economia"><i>economia</i><par n="mesa__n"/></e>
     <e lm="filosofia"><i>filosofia</i><par n="mesa__n"/></e>
     <e lm="ortografia"><i>ortografia</i><par n="mesa__n"/></e>
+    <e lm="geografia"><i>geografia</i><par n="mesa__n"/></e>
+    <e lm="geografia" r="LR"><p><l>giografia</l><r>geografia</r></p><par n="mesa__n"/></e>
+    <e lm="fotografia"><i>fotografia</i><par n="mesa__n"/></e>
+    <e lm="mafia"><i>mafia</i><par n="mesa__n"/></e>
+    <e lm="cartografia"><i>cartografia</i><par n="mesa__n"/></e>
+    <e lm="autobiografia"><i>autobiografia</i><par n="mesa__n"/></e>
+    <e lm="biografia"><i>obiografia</i><par n="mesa__n"/></e>
     <e lm="grafia"><i>grafia</i><par n="mesa__n"/></e>
     <e lm="gherra"><i>gherra</i><par n="mesa__n"/></e>
     <e lm="mùsica"><i>mùsica</i><par n="mesa__n"/></e>
@@ -2468,7 +2494,6 @@
     <e lm="abilidade"><i>abilidad</i><par n="identidad/e__n"/></e>
     <e lm="colònia"><i>colònia</i><par n="mesa__n"/></e>
     <e lm="colònia" r="LR"><p><l>colonia</l><r>colònia</r></p><par n="mesa__n"/></e>
-    <e lm="etimologia"><i>etimologia</i><par n="mesa__n"/></e>
     <e lm="pronùntzia"><i>pronùntzia</i><par n="mesa__n"/></e>
     <e lm="norma"><i>norma</i><par n="mesa__n"/></e>
     <e lm="novidade"><i>novidad</i><par n="identidad/e__n"/></e>
@@ -2676,6 +2701,7 @@
     <e lm="mercadu" r="LR"><p><l>mercat</l><r>mercad</r></p><par n="mac/u__n"/></e>
     <e lm="porcu"><i>porc</i><par n="mac/u__n"/></e>
     <e lm="sonu"><i>son</i><par n="mac/u__n"/></e>
+    <e lm="pregiudìtziu"><i>pregiudìtzi</i><par n="mac/u__n"/></e>
     <e lm="signu"><i>sign</i><par n="mac/u__n"/></e>
     <e lm="signu" r="LR"><p><l>sinn</l><r>sign</r></p><par n="mac/u__n"/></e>
     <e lm="cursu"><i>curs</i><par n="mac/u__n"/></e>
@@ -2735,6 +2761,8 @@
     <e lm="istrumentu"><i>istrument</i><par n="mac/u__n"/></e>
     <e lm="funtzionamentu"><i>funtzionament</i><par n="mac/u__n"/></e>
     <e lm="acordu"><i>acord</i><par n="mac/u__n"/></e>
+    <e lm="acordu" r="LR"><p><l>acordi</l><r>acord</r></p><par n="mac/u__n"/></e>
+    <e lm="acordu" r="LR"><p><l>acòrdi</l><r>acord</r></p><par n="mac/u__n"/></e>
     <e lm="cunflitu"><i>cunflit</i><par n="mac/u__n"/></e>
     <e lm="livellu"><i>livell</i><par n="mac/u__n"/></e>
     <e lm="membru"><i>membr</i><par n="mac/u__n"/></e>
@@ -2842,6 +2870,9 @@
     <e lm="tìtulu" r="LR"><p><l>titul</l><r>tìtul</r></p><par n="mac/u__n"/></e>
     <e lm="nùmeru"><i>nùmer</i><par n="mac/u__n"/></e>
     <e lm="nùmeru" r="LR"><p><l>numer</l><r>nùmer</r></p><par n="mac/u__n"/></e>
+    <e lm="ogetu"><i>oget</i><par n="mac/u__n"/></e>
+    <e lm="ogetu" r="LR"><p><l>ogget</l><r>oget</r></p><par n="mac/u__n"/></e>
+    <e lm="ogetu" r="LR"><p><l>oggett</l><r>oget</r></p><par n="mac/u__n"/></e>
 
     <e lm="tempus"><i>temp</i><par n="temp/us__n"/></e>
     <e lm="deus"><i>de</i><par n="temp/us__n"/></e>
@@ -3071,7 +3102,9 @@
     <e lm="Pechinu"><i>Pechinu</i><par n="Afganistàn__np"/></e>
     <e lm="Timor Est"><i>Timor<b/>Est</i><par n="Afganistàn__np"/></e>
     <e lm="Timor"><i>Timor</i><par n="Afganistàn__np"/></e>
+    <e lm="Abidjan"><i>Abidjan</i><par n="Afganistàn__np"/></e>
     <e lm="Teheran"><i>Teheran</i><par n="Afganistàn__np"/></e>
+    <e lm="Amsterdam"><i>Amsterdam</i><par n="Afganistàn__np"/></e>
     <e lm="Stanford"><i>Stanford</i><par n="Afganistàn__np"/></e>
     <e lm="San Marino"><i>San<b/>Marino</i><par n="Afganistàn__np"/></e>
     <e lm="Santu Frantziscu"><i>Santu<b/>Frantziscu</i><par n="Afganistàn__np"/></e>
@@ -3391,6 +3424,7 @@
     <e lm="cristianu"><i>cristian</i><par n="frantzes/u__adj"/></e>
     <e lm="gregorianu"><i>gregorian</i><par n="frantzes/u__adj"/></e>
     <e lm="diversu"><i>divers</i><par n="frantzes/u__adj"/></e>
+    <e lm="divinu"><i>divin</i><par n="frantzes/u__adj"/></e>
     <e lm="farsu"><i>fars</i><par n="frantzes/u__adj"/></e>
     <e lm="religiosu"><i>religios</i><par n="frantzes/u__adj"/></e>
     <e lm="sanscritu"><i>sanscrit</i><par n="frantzes/u__adj"/></e>
@@ -3458,6 +3492,7 @@
     <e lm="intensivu"><i>intensiv</i><par n="frantzes/u__adj"/></e>
     <e lm="mecanicu"><i>mecanic</i><par n="frantzes/u__adj"/></e>
     <e lm="numericu"><i>numeric</i><par n="frantzes/u__adj"/></e>
+    <e lm="numerosu"><i>numeros</i><par n="frantzes/u__adj"/></e>
     <e lm="ortogràficu"><i>ortogràfic</i><par n="frantzes/u__adj"/></e>
     <e lm="ortogràficu" r="LR"><p><l>ortogràfig</l><r>ortogràfic</r></p><par n="frantzes/u__adj"/></e>
     <e lm="tecnologicu"><i>tecnologic</i><par n="frantzes/u__adj"/></e>
