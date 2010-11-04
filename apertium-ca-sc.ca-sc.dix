@@ -1304,6 +1304,7 @@
     <e><p><l>Gal·les<s n="np"/><s n="top"/></l><r>Galles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cannes<s n="np"/><s n="top"/></l><r>Cannes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Nova<b/>York<s n="np"/><s n="top"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Nova<b/>Delhi<s n="np"/><s n="top"/></l><r>New<b/>Delhi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Teheran<s n="np"/><s n="top"/></l><r>Teheran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Stanford<s n="np"/><s n="top"/></l><r>Stanford<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Síria<s n="np"/><s n="top"/></l><r>Siria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1399,6 +1400,7 @@
     <e><p><l>Federico<s n="np"/><s n="ant"/></l><r>Federico<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Ernest<s n="np"/><s n="ant"/></l><r>Ernest<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Eleonora<s n="np"/><s n="ant"/></l><r>Eleonora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Montserrat<s n="np"/><s n="ant"/></l><r>Montserrat<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Carmen<s n="np"/><s n="ant"/></l><r>Carmen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Juan<s n="np"/><s n="ant"/></l><r>Juan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Francisco<s n="np"/><s n="ant"/></l><r>Francisco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1494,6 +1496,7 @@
     <e><p><l>Will<s n="np"/><s n="ant"/></l><r>Will<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
 
+    <e><p><l>Stone<s n="np"/><s n="ant"/></l><r>Stone<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>Schmitt<s n="np"/><s n="ant"/></l><r>Schmitt<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>Gandhi<s n="np"/><s n="ant"/></l><r>Gandhi<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>Nobel<s n="np"/><s n="ant"/></l><r>Nobel<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -1656,6 +1659,7 @@
     <e><p><l>Dalai<b/>Lama<s n="np"/><s n="al"/></l><r>Dalai<b/>Lama<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cruz<s n="np"/><s n="ant"/></l><r>Cruz<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>Commonwealth<b/>of<b/>Nations<s n="np"/><s n="al"/></l><r>Commonwealth<b/>of<b/>Nations<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Commonwealth<s n="np"/><s n="al"/></l><r>Commonwealth<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Clemente<s n="np"/><s n="ant"/></l><r>Clemente<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Christian<s n="np"/><s n="ant"/></l><r>Christian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cecilia<s n="np"/><s n="ant"/></l><r>Cecilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2500,6 +2504,13 @@
     <e><p><l>accelerar<s n="vblex"/></l><r>atzelerare<s n="vblex"/></r></p></e>
     <e><p><l>acontentar<s n="vblex"/></l><r>acuntentare<s n="vblex"/></r></p></e>
     <e><p><l>acreditar<s n="vblex"/></l><r>acrèditare<s n="vblex"/></r></p></e>
+
+    <e><p><l>respectar<s n="vblex"/></l><r>respetare<s n="vblex"/></r></p></e>
+    <e><p><l>generalitzar<s n="vblex"/></l><r>generalizare<s n="vblex"/></r></p></e>
+    <e><p><l>regularitzar<s n="vblex"/></l><r>regularizare<s n="vblex"/></r></p></e>
+    <e><p><l>conformar<s n="vblex"/></l><r>cunformare<s n="vblex"/></r></p></e>
+    <e><p><l>brillar<s n="vblex"/></l><r>lùghere<s n="vblex"/></r></p></e>
+    <e><p><l>substituir<s n="vblex"/></l><r>sostituire<s n="vblex"/></r></p></e>
 
 
 
