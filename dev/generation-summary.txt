@@ -13,13 +13,27 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-      1 #tornar\<vblex\>\<ger\>+hi\<prn\>\<enc\>\<adv\>+el\<prn\>\<enc\>\<p3\>\<f\>\<pl\>	^tornar<vblex><ger>+hi<prn><enc><adv>+el<prn><enc><p3><f><pl>$
-      1 #manar\<vblex\>\<ger\>+hi\<prn\>\<enc\>\<adv\>+el\<prn\>\<enc\>\<p3\>\<m\>\<pl\>	^manar<vblex><ger>+hi<prn><enc><adv>+el<prn><enc><p3><m><pl>$
+      7 #Kant\<np\>\<ant\>	^Kant<np><ant>$
+      5 #spiritual\<adj\>\<mf\>\<sg\>	^spiritual<adj><mf><sg>$
+      5 #Nacions Unides\<np\>\<al\>	^Nacions Unides<np><al>$
+      4 #Corbusier\<np\>\<ant\>	^Corbusier<np><ant>$
+      1 #Windsor\<np\>\<ant\>	^Windsor<np><ant>$
+      1 #Williamson\<np\>\<ant\>	^Williamson<np><ant>$
+      1 #Willcox\<np\>\<ant\>	^Willcox<np><ant>$
+      1 #Weimar\<np\>\<ant\>	^Weimar<np><ant>$
+      1 #spiritual\<adj\>\<mf\>\<pl\>	^spiritual<adj><mf><pl>$
+      1 #potente\<adj\>\<mf\>\<pl\>	^potente<adj><mf><pl>$
+      1 #Montreal\<np\>\<top\>	^Montreal<np><top>$
+      1 #Matteo\<np\>\<ant\>	^Matteo<np><ant>$
+      1 #Francophonie\<np\>\<al\>	^Francophonie<np><al>$
+      1 #da Vinci\<np\>\<ant\>	^da Vinci<np><ant>$
+      1 #Dalai Lama\<np\>\<al\>	^Dalai Lama<np><al>$
+      1 #Commonwealth of Nations\<np\>\<al\>	^Commonwealth of Nations<np><al>$
 
 ===============================================================================
 Summary
 ===============================================================================
   0 /tmp/sc-ca.multiform
   0 /tmp/sc-ca.multibidix
-  2 /tmp/sc-ca.tagmismatch
-  2 total
+ 16 /tmp/sc-ca.tagmismatch
+ 16 total
