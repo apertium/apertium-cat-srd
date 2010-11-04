@@ -380,12 +380,14 @@
     <e><p><l>actor<s n="n"/><s n="m"/></l><r>atore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>actriu<s n="n"/><s n="f"/></l><r>atore<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>tràmit<s n="n"/><s n="m"/></l><r>tràmite<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>llapis<s n="n"/><s n="m"/></l><r>lapis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obediència<s n="n"/><s n="f"/></l><r>obbedièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>desobediència<s n="n"/><s n="f"/></l><r>disubidièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operació<s n="n"/><s n="f"/></l><r>operatzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>televisió<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obligació<s n="n"/><s n="f"/></l><r>òbrigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cama<s n="n"/><s n="f"/></l><r>anca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
@@ -773,6 +775,7 @@
     <e><p><l>predisposició<s n="n"/><s n="f"/></l><r>predisposizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>posició<s n="n"/><s n="f"/></l><r>positzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politeisme<s n="n"/><s n="m"/></l><r>politeismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>favor<s n="n"/><s n="m"/></l><r>favore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>poeta<s n="n"/></l><r>poeta<s n="n"/></r></p><par n="persa_persianu"/></e>
     <e><p><l>perfecció<s n="n"/><s n="f"/></l><r>perfetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pendularisme<s n="n"/><s n="m"/></l><r>pendolarismu<s n="n"/><s n="m"/></r></p></e>
@@ -1357,6 +1360,17 @@
     <e><p><l>aprenent<s n="n"/><s n="m"/></l><r>dischente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ofici<s n="n"/><s n="m"/></l><r>ufìtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mestre<s n="n"/></l><r>mastru<s n="n"/></r></p><par n="nostre_nostru"/></e>
+
+    <e><p><l>elector<s n="n"/><s n="m"/></l><r>eletore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>lector<s n="n"/><s n="m"/></l><r>letore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>doctor<s n="n"/><s n="m"/></l><r>dotore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>factor<s n="n"/><s n="m"/></l><r>fatore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>interlocutor<s n="n"/><s n="m"/></l><r>interlocutore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pastor<s n="n"/><s n="m"/></l><r>pastore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>redactor<s n="n"/><s n="m"/></l><r>redatore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>motor<s n="n"/><s n="m"/></l><r>motore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>traïdor<s n="n"/><s n="m"/></l><r>traitore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>orador<s n="n"/><s n="m"/></l><r>oratore<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- SECTION:  Proper noun -->

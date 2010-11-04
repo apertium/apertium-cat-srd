@@ -1922,7 +1922,21 @@
     <e lm="nebode"><i>nebode</i><par n="pane__n"/></e>
     <e lm="colore"><i>colore</i><par n="pane__n"/></e>
     <e lm="professore"><i>professore</i><par n="pane__n"/></e>
+    <e lm="tràmite"><i>tràmite</i><par n="pane__n"/></e>
+    <e lm="favore"><i>favore</i><par n="pane__n"/></e>
     <e lm="iscultore"><i>iscultore</i><par n="pane__n"/></e>
+
+    <e lm="eletore"><i>eletore</i><par n="pane__n"/></e>
+    <e lm="letore"><i>letore</i><par n="pane__n"/></e>
+    <e lm="dotore"><i>dotore</i><par n="pane__n"/></e>
+    <e lm="fatore"><i>fatore</i><par n="pane__n"/></e>
+    <e lm="interlocutore"><i>interlocutore</i><par n="pane__n"/></e>
+    <e lm="pastore"><i>pastore</i><par n="pane__n"/></e>
+    <e lm="redatore"><i>redatore</i><par n="pane__n"/></e>
+    <e lm="motore"><i>motore</i><par n="pane__n"/></e>
+    <e lm="traitore"><i>traitore</i><par n="pane__n"/></e>
+    <e lm="oratore"><i>oratore</i><par n="pane__n"/></e>
+
     <e lm="diretore"><i>diretore</i><par n="pane__n"/></e>
     <e lm="diretore" r="LR"><p><l>direttore</l><r>diretore</r></p><par n="pane__n"/></e>
     <e lm="benefatore"><i>benefatore</i><par n="pane__n"/></e>
@@ -2225,6 +2239,7 @@
     <e lm="tzitade" r="LR"><p><l>tzitadi</l><r>tzitade</r></p><par n="mesa__n"/></e>
 
     <e lm="reunione"><i>reunion</i><par n="region/e__n"/></e>
+    <e lm="televisione"><i>television</i><par n="region/e__n"/></e>
     <e lm="intromissione"><i>intromission</i><par n="region/e__n"/></e>
     <e lm="opressione"><i>opression</i><par n="region/e__n"/></e>
     <e lm="mansione"><i>mansion</i><par n="region/e__n"/></e>
@@ -2891,6 +2906,7 @@
     <e lm="caddu"><i>cadd</i><par n="mac/u__n"/></e>
     <e lm="clìticu"><i>clìtic</i><par n="mac/u__n"/></e>
     <e lm="giòvanu"><i>giòvan</i><par n="mac/u__n"/></e>
+    <e lm="giòvanu" r="LR"><p><l>zòvan</l><r>giòvan</r></p><par n="mac/u__n"/></e>
     <e lm="padre"><i>padre</i><par n="pane__n"/></e>
     <e lm="babbu"><i>babb</i><par n="mac/u__n"/></e>
     <e lm="babbu" r="LR"><p><l>bab</l><r>babb</r></p><par n="mac/u__n"/></e>
