@@ -2009,6 +2009,7 @@
     <e lm="iscritore" r="LR"><p><l>iscrittore</l><r>iscritore</r></p><par n="pane__n"/></e>
     <e lm="fonema"><i>fonema</i><par n="pane__n"/></e>
     <e lm="curretore"><i>curretore</i><par n="pane__n"/></e>
+    <e lm="emitente"><i>emitente</i><par n="pane__n"/></e>
     <e lm="autore"><i>autore</i><par n="pane__n"/></e>
     <e lm="pintore"><i>pintore</i><par n="pane__n"/></e>
     <e lm="pintore" r="LR"><p><l>pittore</l><r>pintore</r></p><par n="pane__n"/></e>
@@ -2864,6 +2865,7 @@
     <e lm="pentzamentu"><i>pentzament</i><par n="mac/u__n"/></e>
     <e lm="perìgulu"><i>perìgul</i><par n="mac/u__n"/></e>
     <e lm="pianu"><i>pian</i><par n="mac/u__n"/></e>
+    <e lm="cuotidianu"><i>cuotidian</i><par n="mac/u__n"/></e>
     <e lm="protzessu"><i>protzess</i><par n="mac/u__n"/></e>
     <e lm="òbrigu"><i>òbrig</i><par n="mac/u__n"/></e>
     <e lm="dipartimentu"><i>dipartiment</i><par n="mac/u__n"/></e>
@@ -2939,6 +2941,7 @@
     <e lm="salariu"><i>salari</i><par n="mac/u__n"/></e>
     <e lm="cunsideru"><i>cunsider</i><par n="mac/u__n"/></e>
     <e lm="assòtziu"><i>assòtzi</i><par n="mac/u__n"/></e>
+    <e lm="ufìtziu"><i>ufìtzi</i><par n="mac/u__n"/></e>
     <e lm="sotziu"><i>sotzi</i><par n="mac/u__n"/></e>
     <e lm="pregiudìtziu"><i>pregiudìtzi</i><par n="mac/u__n"/></e>
     <e lm="lagu"><i>lag</i><par n="mac/u__n"/></e>
@@ -3799,6 +3802,7 @@
 
     <e lm="bonu"><i>bon</i><par n="frantzes/u__adj"/></e>
     <e lm="mannu"><i>mann</i><par n="frantzes/u__adj"/></e>
+    <e lm="curretu"><i>curret</i><par n="frantzes/u__adj"/></e>
     <e lm="màssimu"><i>màssim</i><par n="frantzes/u__adj"/></e>
     <e lm="tècnicu"><i>tècnic</i><par n="frantzes/u__adj"/></e>
     <e lm="tècnicu" r="LR"><p><l>tènnic</l><r>tècnic</r></p><par n="frantzes/u__adj"/></e>
@@ -4230,6 +4234,7 @@
     <e lm="tantu"><i>tantu</i><par n="bene__adv"/></e>
     <e lm="prus"><i>prus</i><par n="bene__adv"/></e>
     <e lm="mancu"><i>mancu</i><par n="bene__adv"/></e>
+    <e lm="nessi"><i>nessi</i><par n="bene__adv"/></e>
     <e lm="pius" r="LR"><p><l>pius</l><r>prus</r></p><par n="bene__adv"/></e>
     <e lm="meda"><i>meda</i><par n="bene__adv"/></e>
     <e lm="posca"><i>posca</i><par n="bene__adv"/></e>
@@ -4827,6 +4832,7 @@
 
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="tradùere"><i>tradù</i><par n="tim/ere__vblex"/></e>
+    <e lm="normalizere"><i>normaliz</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="ispèrdere"><i>ispèrd</i><par n="tim/ere__vblex"/></e>
     <!--<e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>-->

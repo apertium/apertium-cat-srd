@@ -971,6 +971,8 @@
     <e><p><l>nivell<s n="n"/><s n="m"/></l><r>livellu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>voluntat<s n="n"/><s n="f"/></l><r>boluntade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>majoria<s n="n"/><s n="f"/></l><r>majoria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>emissor<s n="n"/><s n="f"/></l><r>emitente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diari<s n="n"/><s n="m"/></l><r>cuotidianu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>recurs<s n="n"/><s n="m"/></l><r>resursa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>espècie<s n="n"/><s n="f"/></l><r>casta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>víctima<s n="n"/><s n="f"/></l><r>vìtima<s n="n"/><s n="f"/></r></p></e>
@@ -1340,6 +1342,7 @@
     <e><p><l>vot<s n="n"/><s n="m"/></l><r>votu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>topònim<s n="n"/><s n="m"/></l><r>topònimu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aprenent<s n="n"/><s n="m"/></l><r>dischente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ofici<s n="n"/><s n="m"/></l><r>ufìtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mestre<s n="n"/></l><r>mastru<s n="n"/></r></p><par n="nostre_nostru"/></e>
 
 
@@ -2143,6 +2146,7 @@
     <e><p><l>progressiu<s n="adj"/></l><r>progressivu<s n="adj"/></r></p></e>
     <e><p><l>racial<s n="adj"/></l><r>ratziale<s n="adj"/></r></p></e>
     <e><p><l>superior<s n="adj"/></l><r>superiore<s n="adj"/></r></p></e>
+    <e><p><l>correcte<s n="adj"/></l><r>curretu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
 
 
     <!-- SECTION:  Adverbs -->
@@ -2237,6 +2241,7 @@
     <e><p><l>menys<s n="adv"/></l><r>in<b/>mancu<s n="adv"/></r></p></e>
     <e><p><l>menys<s n="adv"/></l><r>de<b/>mancu<s n="adv"/></r></p></e>
     <e><p><l>menys<s n="adv"/></l><r>mancu<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>menys<s n="adv"/></l><r>nessi<s n="adv"/></r></p></e>
     <e><p><l>avui<b/>dia<s n="adv"/></l><r>oe<b/>in<b/>die<s n="adv"/></r></p></e>
 
     <e><p><l>a<b/>la<b/>tarda<s n="adv"/></l><r>a<b/>sero<s n="adv"/></r></p></e>
@@ -2718,6 +2723,7 @@
     <e><p><l>rebre<s n="vblex"/></l><r>retzire<s n="vblex"/></r></p></e>
     <e><p><l>sotmetre<s n="vblex"/></l><r>assuzetare<s n="vblex"/></r></p></e>
     <e><p><l>promoure<s n="vblex"/></l><r>promovare<s n="vblex"/></r></p></e>
+    <e><p><l>normalitzar<s n="vblex"/></l><r>normalizere<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
