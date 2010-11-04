@@ -1333,8 +1333,11 @@
 
       <e>       <p><l>otzo</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>odes</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>odet</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
       <e r="LR"><p><l>odit</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>odat</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e>       <p><l>odet</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
       <e>       <p><l>odimus</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>odides</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>odint</l><r>òdere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e> <!-- @!LSC -->
@@ -2058,6 +2061,7 @@
     <e lm="arma"><i>arma</i><par n="mesa__n"/></e>
     <e lm="maladia"><i>maladia</i><par n="mesa__n"/></e>
     <e lm="interlingua"><i>interlingua</i><par n="mesa__n"/></e>
+    <e lm="barba"><i>barba</i><par n="mesa__n"/></e>
     <e lm="prova"><i>prova</i><par n="mesa__n"/></e>
     <e lm="initziativa"><i>initziativa</i><par n="mesa__n"/></e>
     <e lm="resursa"><i>resursa</i><par n="mesa__n"/></e>
@@ -2840,6 +2844,7 @@
     <e lm="misteriu"><i>misteri</i><par n="mac/u__n"/></e>
     <e lm="gradu"><i>grad</i><par n="mac/u__n"/></e>
     <e lm="aumentu"><i>aument</i><par n="mac/u__n"/></e>
+    <e lm="intentu"><i>intent</i><par n="mac/u__n"/></e>
     <e lm="risu"><i>ris</i><par n="mac/u__n"/></e>
     <e lm="pentzamentu"><i>pentzament</i><par n="mac/u__n"/></e>
     <e lm="perìgulu"><i>perìgul</i><par n="mac/u__n"/></e>
@@ -3907,6 +3912,8 @@
     <e lm="romanzu"><i>romanz</i><par n="frantzes/u__adj"/></e>
     <e lm="econòmicu"><i>econòmic</i><par n="frantzes/u__adj"/></e>
     <e lm="econòmicu" r="LR"><p><l>economic</l><r>econòmic</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="cumpletu"><i>cumplet</i><par n="frantzes/u__adj"/></e>
+    <e lm="cumpletu" r="LR"><p><l>cumpret</l><r>cumplet</r></p><par n="frantzes/u__adj"/></e>
     <e lm="giustu"><i>giust</i><par n="frantzes/u__adj"/></e>
     <e lm="giustu" r="LR"><p><l>zust</l><r>giust</r></p><par n="frantzes/u__adj"/></e>
     <e lm="distintu"><i>distint</i><par n="frantzes/u__adj"/></e>
@@ -4318,6 +4325,7 @@
     <e lm="a pustis"><i>a<b/>pustis</i><par n="bene__adv"/></e>
     <e lm="poi"><i>poi</i><par n="bene__adv"/></e>
     <e lm="in antis"><i>in<b/>antis</i><par n="bene__adv"/></e>
+    <e lm="a in antis"><i>a<b/>in<b/>antis</i><par n="bene__adv"/></e>
     <e lm="antis"><i>antis</i><par n="bene__adv"/></e>
     <e lm="in fatu"><i>in<b/>fatu</i><par n="bene__adv"/></e>
     <e lm="difatis"><i>difatis</i><par n="bene__adv"/></e>
