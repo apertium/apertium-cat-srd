@@ -94,6 +94,19 @@
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
     </pardef>
+    <pardef n="capaç_capatze">
+      <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l><s n="mf"/><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+    <pardef n="capaç_capatzu">
+      <e><p><l><s n="f"/><s n="pl"/></l><r><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l><s n="m"/><s n="pl"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="GD"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
     <pardef n="nostre_nostru">
       <e><p><l><s n="f"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l><s n="m"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
@@ -1882,8 +1895,8 @@
     <e><p><l>idèntic<s n="adj"/></l><r>idènticu<s n="adj"/></r></p></e>
     <e><p><l>espanyol<s n="adj"/></l><r>ispagnolu<s n="adj"/></r></p></e>
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
-    <e><p><l>capaç<s n="adj"/></l><r>capatzu<s n="adj"/></r></p><par n="persa_persianu"/></e>
-    <e r="RL"><p><l>capaç<s n="adj"/></l><r>capatze<s n="adj"/></r></p></e>
+    <e><p><l>capaç<s n="adj"/></l><r>capatzu<s n="adj"/></r></p><par n="capaç_capatzu"/></e>
+    <e r="RL"><p><l>capaç<s n="adj"/></l><r>capatze<s n="adj"/></r></p><par n="capaç_capatze"/></e>
     <e><p><l>republicà<s n="adj"/></l><r>repubricanu<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
