@@ -22,6 +22,7 @@ dev/generation-test.sh -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
+dev/stats.txt -text
 dev/testvoc-summary.sc-ca.txt -text
 dev/testvoc.sh -text
 dev/wiki.elaboradore.txt -text
