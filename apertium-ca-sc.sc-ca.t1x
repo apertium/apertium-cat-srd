@@ -6,6 +6,7 @@
 </def-cat>
 <def-cat n="adj_pos">
    <cat-item tags="adj.pos.*"/>
+   <cat-item tags="det.pos.*"/>
 </def-cat>
 <def-cat n="num">
    <cat-item tags="num.*"/>
@@ -114,6 +115,7 @@
    <attr-item tags="adj"/>
    <attr-item tags="adj.ord"/>
    <attr-item tags="adj.pos"/>
+   <attr-item tags="det.pos"/>
    <attr-item tags="vblex.pp"/>
    <attr-item tags="vbhaver.pp"/>
    <attr-item tags="vbmod.pp"/>
