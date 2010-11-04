@@ -25,6 +25,7 @@ dev/missing-bidix-freq.sh -text
 dev/stats.txt -text
 dev/testvoc-summary.sc-ca.txt -text
 dev/testvoc.sh -text
+dev/udhr.ca.posteditat.txt -text
 dev/wiki.elaboradore.txt -text
 /modes.xml -text
 /sc-ca.prob -text svneol=unset#unset
