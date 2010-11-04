@@ -524,7 +524,8 @@
     <e><p><l>nord<s n="n"/><s n="m"/></l><r>nord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>província<s n="n"/><s n="f"/></l><r>provìntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>república<s n="n"/><s n="f"/></l><r>repùblica<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>nom<s n="n"/><s n="m"/></l><r>nòmene<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nom<s n="n"/><s n="m"/></l><r>nùmene<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pronom<s n="n"/><s n="m"/></l><r>pronùmene<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>territori<s n="n"/><s n="m"/></l><r>territòriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>llibre<s n="n"/><s n="m"/></l><r>libru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sistema<s n="n"/><s n="m"/></l><r>sistema<s n="n"/><s n="m"/></r></p></e>
@@ -1162,7 +1163,7 @@
     <e><p><l>patrimoni<s n="n"/><s n="m"/></l><r>patrimoniu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gènere<s n="n"/><s n="m"/></l><r>gènere<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>autor<s n="n"/><s n="m"/></l><r>autore<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>album<s n="n"/><s n="m"/></l><r>album<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>àlbum<s n="n"/><s n="m"/></l><r>album<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seu<s n="n"/><s n="f"/></l><r>sede<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gent<s n="n"/><s n="f"/></l><r>gente<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>color<s n="n"/><s n="m"/></l><r>colore<s n="n"/><s n="m"/></r></p></e>
@@ -1193,11 +1194,11 @@
     <e><p><l>discussió<s n="n"/><s n="f"/></l><r>cuntierra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>clima<s n="n"/><s n="m"/></l><r>clima<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>classe<s n="n"/><s n="f"/></l><r>classe<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>realizació<s n="n"/><s n="f"/></l><r>realizatzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>monasteriu<s n="n"/><s n="m"/></l><r>monasteriu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>mafia<s n="n"/><s n="f"/></l><r>mafia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>realització<s n="n"/><s n="f"/></l><r>realizatzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>monestir<s n="n"/><s n="m"/></l><r>monasteriu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>màfia<s n="n"/><s n="f"/></l><r>mafia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>interlingua<s n="n"/><s n="f"/></l><r>interlingua<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>initziativa<s n="n"/><s n="f"/></l><r>initziativa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>iniciativa<s n="n"/><s n="f"/></l><r>initziativa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>geografia<s n="n"/><s n="f"/></l><r>geografia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>generació<s n="n"/><s n="f"/></l><r>generatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fotògraf<s n="n"/><s n="m"/></l><r>fotografu<s n="n"/><s n="m"/></r></p></e>
@@ -1205,7 +1206,7 @@
     <e><p><l>anarquia<s n="n"/><s n="f"/></l><r>anarchia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vocal<s n="n"/><s n="f"/></l><r>vocale<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vocabulari<s n="n"/><s n="m"/></l><r>vocabulàriuu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>testimoni<s n="n"/><s n="f"/></l><r>testimonia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>testimoni<s n="n"/><s n="mf"/></l><r>testimonia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sociologia<s n="n"/><s n="f"/></l><r>sotziologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prostitució<s n="n"/><s n="f"/></l><r>prostitutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prejudici<s n="n"/><s n="m"/></l><r>pregiudìtziu<s n="n"/><s n="m"/></r></p></e>
@@ -1227,14 +1228,14 @@
     <e><p><l>budista<s n="n"/><s n="mf"/></l><r>buddista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>biologia<s n="n"/><s n="f"/></l><r>biologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>benefactor<s n="n"/><s n="m"/></l><r>benefatore<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>archeologia<s n="n"/><s n="f"/></l><r>archeologia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arqueologia<s n="n"/><s n="f"/></l><r>archeologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>antologia<s n="n"/><s n="f"/></l><r>antologia<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>adopció<s n="n"/><s n="f"/></l><r>adotzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>adverbi<s n="n"/><s n="m"/></l><r>adverbiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>articulació<s n="n"/><s n="f"/></l><r>articulatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>coexistència<s n="n"/><s n="f"/></l><r>coesistèntzia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>costància<s n="n"/><s n="f"/></l><r>costàntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>constància<s n="n"/><s n="f"/></l><r>costàntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>elisió<s n="n"/><s n="f"/></l><r>elisione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exigència<s n="n"/><s n="f"/></l><r>esigèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>modificació<s n="n"/><s n="f"/></l><r>modificatzione<s n="n"/><s n="f"/></r></p></e>
@@ -1246,7 +1247,7 @@
     <e><p><l>regularitat<s n="n"/><s n="f"/></l><r>regularidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>simplificació<s n="n"/><s n="f"/></l><r>semplificatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>temptació<s n="n"/><s n="f"/></l><r>tentatzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>variant<s n="n"/><s n="m"/></l><r>variante<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>variant<s n="n"/><s n="f"/></l><r>variante<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>varietat<s n="n"/><s n="f"/></l><r>variedade<s n="n"/><s n="f"/></r></p></e>
 
 
@@ -1621,7 +1622,7 @@
     <e><p><l>Mozart<s n="np"/><s n="ant"/></l><r>Mozart<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>Monza<s n="np"/><s n="top"/></l><r>Monza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Montserrat<s n="np"/><s n="top"/></l><r>Montserrat<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Montreal<s n="np"/><s n="top"/></l><r>Montreal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Mont-real<s n="np"/><s n="top"/></l><r>Montreal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Monica<s n="np"/><s n="ant"/></l><r>Monica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Miriam<s n="np"/><s n="ant"/></l><r>Miriam<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Minerva<s n="np"/><s n="ant"/></l><r>Minerva<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1661,7 +1662,7 @@
     <e><p><l>Georgetown<s n="np"/><s n="top"/></l><r>Georgetown<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Georges<s n="np"/><s n="ant"/></l><r>Georges<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Franz<s n="np"/><s n="ant"/></l><r>Franz<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Francophonie<s n="np"/><s n="al"/></l><r>Francophonie<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Francofonia<s n="np"/><s n="al"/></l><r>Francophonie<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Francesco<s n="np"/><s n="ant"/></l><r>Francesco<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Ford<s n="np"/><s n="al"/></l><r>Ford<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Florida<s n="np"/><s n="top"/></l><r>Florida<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1976,18 +1977,37 @@
     <e><p><l>legal<s n="adj"/></l><r>legale<s n="adj"/></r></p></e>
     <e><p><l>menor<s n="adj"/></l><r>minore<s n="adj"/></r></p></e>
     <e><p><l>mut<s n="adj"/></l><r>mudu<s n="adj"/></r></p></e>
-    <e><p><l>negre<s n="adj"/></l><r>nieddu<s n="adj"/></r></p></e>
-    <e><p><l>potente<s n="adj"/></l><r>potente<s n="adj"/></r></p></e>
+    <e><p><l>negre<s n="adj"/></l><r>nieddu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
+    <e><p><l>potent<s n="adj"/></l><r>potente<s n="adj"/></r></p></e>
     <e><p><l>ple<s n="adj"/></l><r>prenu<s n="adj"/></r></p></e>
     <e><p><l>professional<s n="adj"/></l><r>professionale<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanu<s n="adj"/></r></p></e>
     <e><p><l>sicilià<s n="adj"/></l><r>sitzilianu<s n="adj"/></r></p></e>
     <e><p><l>sol<s n="adj"/></l><r>solu<s n="adj"/></r></p></e>
-    <e><p><l>spiritual<s n="adj"/></l><r>spirituale<s n="adj"/></r></p></e>
+    <e><p><l>espiritual<s n="adj"/></l><r>spirituale<s n="adj"/></r></p></e>
     <e><p><l>típic<s n="adj"/></l><r>tìpicu<s n="adj"/></r></p></e>
     <e><p><l>vari<s n="adj"/></l><r>variu<s n="adj"/></r></p></e>
     <e><p><l>violent<s n="adj"/></l><r>violentu<s n="adj"/></r></p></e>
 
+    <e><p><l>distintiu<s n="adj"/></l><r>distintivu<s n="adj"/></r></p></e>
+    <e><p><l>doble<s n="adj"/></l><r>dòpiu<s n="adj"/></r></p><par n="persa_persianu"/></e>
+    <e><p><l>enclític<s n="adj"/></l><r>enclìticu<s n="adj"/></r></p></e>
+    <e><p><l>etimològic<s n="adj"/></l><r>etimològicu<s n="adj"/></r></p></e>
+    <e><p><l>fàcil<s n="adj"/></l><r>fàtzile<s n="adj"/></r></p></e>
+    <e><p><l>gallec<s n="adj"/></l><r>galitzianu<s n="adj"/></r></p></e>
+    <e><p><l>gràfic<s n="adj"/></l><r>gràficu<s n="adj"/></r></p></e>
+    <e><p><l>gramatical<s n="adj"/></l><r>grammaticale<s n="adj"/></r></p></e>
+    <e><p><l>inicial<s n="adj"/></l><r>initziale<s n="adj"/></r></p></e>
+    <e><p><l>estàndard<s n="adj"/></l><r>istandarde<s n="adj"/></r></p></e>
+    <e><p><l>morfològic<s n="adj"/></l><r>morfològicu<s n="adj"/></r></p></e>
+    <e><p><l>oportú<s n="adj"/></l><r>oportunu<s n="adj"/></r></p></e>
+    <e><p><l>orientatiu<s n="adj"/></l><r>orientativu<s n="adj"/></r></p></e>
+    <e><p><l>previ<s n="adj"/></l><r>pregressu<s n="adj"/></r></p></e>
+    <e><p><l>proclític<s n="adj"/></l><r>proclìticu<s n="adj"/></r></p></e>
+    <e><p><l>romanès<s n="adj"/></l><r>rumenu<s n="adj"/></r></p></e>
+    <e><p><l>singular<s n="adj"/></l><r>singulare<s n="adj"/></r></p></e>
+    <e><p><l>cinematogràfic<s n="adj"/></l><r>tzinematograficu<s n="adj"/></r></p></e>
+    <e><p><l>útil<s n="adj"/></l><r>ùtile<s n="adj"/></r></p></e>
 
     <!-- SECTION:  Adverbs -->
 

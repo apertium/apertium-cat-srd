@@ -1922,11 +1922,12 @@
     <e lm="dirigente"><i>dirigente</i><par n="pane__n"/></e>
     <e lm="dirigente" r="LR"><p><l>dirizente</l><r>dirigente</r></p><par n="pane__n"/></e>
     <e lm="èuro"><i>èuro</i><par n="pane__n"/></e>
-    <e lm="nòmene"><i>nòmene</i><par n="pane__n"/></e>
-    <e lm="nòmene" r="LR"><p><l>nomene</l><r>nòmene</r></p><par n="pane__n"/></e>
-    <e lm="nòmene" r="LR"><p><l>nùmene</l><r>nòmene</r></p><par n="pane__n"/></e>
-    <e lm="nòmene" r="LR"><p><l>nomini</l><r>nòmene</r></p><par n="pane__n"/></e>
-    <e lm="nòmene" r="LR"><p><l>nòmini</l><r>nòmene</r></p><par n="pane__n"/></e>
+    <e lm="pronùmene"><i>pronùmene</i><par n="pane__n"/></e>
+    <e lm="nùmene"><i>nùmene</i><par n="pane__n"/></e>
+    <e lm="nùmene" r="LR"><p><l>nomene</l><r>nùmene</r></p><par n="pane__n"/></e>
+    <e lm="nùmene" r="LR"><p><l>nòmene</l><r>nùmene</r></p><par n="pane__n"/></e>
+    <e lm="nùmene" r="LR"><p><l>nomini</l><r>nùmene</r></p><par n="pane__n"/></e>
+    <e lm="nùmene" r="LR"><p><l>nòmini</l><r>nùmene</r></p><par n="pane__n"/></e>
     <e lm="sero"><i>sero</i><par n="pane__n"/></e>
     <e lm="canale"><i>canale</i><par n="pane__n"/></e>
     <e lm="sole"><i>sole</i><par n="pane__n"/></e>
@@ -3910,6 +3911,7 @@
 
     <e lm="meda"><i>meda</i><par n="meda__adj"/></e>
     <e lm="meda" r="LR"><p><l>mera</l><r>meda</r></p><par n="meda__adj"/></e>
+    <e lm="indipendentista"><i>indipendentista</i><par n="meda__adj"/></e>
 
     <e lm="fàtzile"><i>fàtzil</i><par n="fàtzil/e__adj"/></e>
     <e lm="credìbile"><i>credìbil</i><par n="fàtzil/e__adj"/></e>
@@ -3947,7 +3949,6 @@
     <e lm="totale"><i>total</i><par n="fàtzil/e__adj"/></e>
     <e lm="istatale"><i>istatal</i><par n="fàtzil/e__adj"/></e>
     <e lm="istatale" r="LR"><p><l>statal</l><r>istatal</r></p><par n="fàtzil/e__adj"/></e>
-    <e lm="indipendentista"><i>indipendentista</i><par n="fàtzil/e__adj"/></e>
     <e lm="indipendente"><i>indipendent</i><par n="fàtzil/e__adj"/></e>
     <e lm="mundiale"><i>mundial</i><par n="fàtzil/e__adj"/></e>
     <e lm="mundiale" r="LR"><p><l>mondial</l><r>mundial</r></p><par n="fàtzil/e__adj"/></e>
