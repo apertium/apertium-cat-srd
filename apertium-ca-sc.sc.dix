@@ -3113,7 +3113,11 @@
     <e lm="biàgiu" r="LR"><p><l>viaggi</l><r>biàgi</r></p><par n="mac/u__n"/></e>
     <e lm="calendàriu"><i>calendàri</i><par n="mac/u__n"/></e>
     <e lm="arcipelagu"><i>arcipelag</i><par n="mac/u__n"/></e>
-    <e lm="limbagiu"><i>limbagi</i><par n="mac/u__n"/></e>
+
+    <e lm="limbàgiu"><i>limbàgi</i><par n="mac/u__n"/></e>
+    <e lm="limbàgiu" r="LR"><p><l>limbagi</l><r>limbàgi</r></p><par n="mac/u__n"/></e>
+    <e lm="limbàgiu" r="LR"><p><l>limbaz</l><r>limbàgi</r></p><par n="mac/u__n"/></e>
+
     <e lm="edificiu"><i>edifici</i><par n="mac/u__n"/></e>
     <e lm="alimentu"><i>aliment</i><par n="mac/u__n"/></e>
     <e lm="progetu"><i>proget</i><par n="mac/u__n"/></e>
@@ -5032,6 +5036,7 @@
     <e lm="distinghere"><i>distin</i><par n="distin/ghere__vblex"/></e>
 
     <e lm="fàghere"><i>f</i><par n="f/àghere__vblex"/></e> 
+    <e lm="fàghere parte"><i>f</i><par n="f/àghere__vblex"/><p><l><b/>parte</l><r><g><b/>parte</g></r></p></e> 
 
     <e lm="pòdere"><i>p</i><par n="p/òdere__vblex"/></e> 
 
