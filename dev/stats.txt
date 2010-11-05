@@ -1,10 +1,14 @@
 date				corpus			rules	bidix	unknown	   WER	   PER
 ==============================================================================================
-dj nov  4 13:32:00 GMT 2010	sc.udhr.txt		18	2372	15.29%	63.88%	44.60%
-dj nov  4 16:34:57 GMT 2010	sc.udhr.txt		18	2480	4.50%	58.48%	38.19%
-dj nov  4 16:40:14 GMT 2010	sc.udhr.txt		19	2480	4.50%	57.26%	36.67%
-dj nov  4 17:07:40 GMT 2010	sc.udhr.txt		19	2492	3.52%	56.72%	36.04%
-dj nov  4 17:58:25 GMT 2010	sc.govern.txt		19	2496	20.64%	44.96%	36.12%
-dj nov  4 18:55:41 GMT 2010	sc.govern.txt		19	2516	13.76%	39.56%	30.47%
-dj nov  4 19:32:49 GMT 2010	sc.govern.txt		19	2530	8.37%	34.98% 	26.11%
-dj nov  4 19:50:57 GMT 2010	sc.govern.txt		19	2536	6.90% 	33.50%	24.63%
+dj nov  4 13:32:00 GMT 2010	udhr.sc.txt		18	2372	15.29%	63.88%	44.60%
+dj nov  4 16:34:57 GMT 2010	udhr.sc.txt		18	2480	4.50%	58.48%	38.19%
+dj nov  4 16:40:14 GMT 2010	udhr.sc.txt		19	2480	4.50%	57.26%	36.67%
+dj nov  4 17:07:40 GMT 2010	udhr.sc.txt		19	2492	3.52%	56.72%	36.04%
+dj nov  4 23:11:36 GMT 2010	udhr.sc.txt		22	2564	3.28%	56.80%	36.01%
+dv nov  5 00:05:25 GMT 2010	udhr.sc.txt		23	2573	3.21%	56.42%	35.08%
+
+dj nov  4 17:58:25 GMT 2010	terrasarda.sc.txt	19	2496	20.64%	44.96%	36.12%
+dj nov  4 18:55:41 GMT 2010	terrasarda.sc.txt	19	2516	13.76%	39.56%	30.47%
+dj nov  4 19:32:49 GMT 2010	terrasarda.sc.txt	19	2530	8.37%	34.98% 	26.11%
+dj nov  4 19:50:57 GMT 2010	terrasarda.sc.txt	19	2536	6.90% 	33.50%	24.63%
+dj nov  4 23:23:27 GMT 2010	terrasarda.sc.txt	22	2571	4.69%	31.85%	22.96%

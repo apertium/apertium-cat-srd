@@ -1920,6 +1920,7 @@
     <e lm="òmine" r="LR"><p><l>omine</l><r>òmine</r></p><par n="pane__n"/></e>
     <e lm="paneteri"><i>paneteri</i><par n="pane__n"/></e>
     <e lm="nebode"><i>nebode</i><par n="pane__n"/></e>
+    <e lm="currìculum"><i>currìculum</i><par n="pane__n"/></e>
     <e lm="colore"><i>colore</i><par n="pane__n"/></e>
     <e lm="professore"><i>professore</i><par n="pane__n"/></e>
     <e lm="tràmite"><i>tràmite</i><par n="pane__n"/></e>
@@ -2047,7 +2048,9 @@
     <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
+    <e lm="ambasciada"><i>ambasciada</i><par n="mesa__n"/></e>
     <e lm="luna"><i>luna</i><par n="mesa__n"/></e>
+    <e lm="impresa"><i>impresa</i><par n="mesa__n"/></e>
     <e lm="gente"><i>gente</i><par n="mesa__n"/></e>
     <e lm="gente" r="LR"><p><l>zente</l><r>gente</r></p><par n="mesa__n"/></e>
     <e lm="gente" r="LR"><p><l>genti</l><r>gente</r></p><par n="mesa__n"/></e>
@@ -2719,6 +2722,7 @@
     <e lm="giustìtzia" r="LR"><p><l>zustìssia</l><r>giustìtzia</r></p><par n="mesa__n"/></e>
     <e lm="polìtica"><i>polìtica</i><par n="mesa__n"/></e>
     <e lm="polìtica" r="LR"><p><l>politica</l><r>polìtica</r></p><par n="mesa__n"/></e>
+    <e lm="polìtica" r="LR"><p><l>pòlitica</l><r>polìtica</r></p><par n="mesa__n"/></e>
     <e lm="bibbia"><i>bibbia</i><par n="mesa__n"/></e>
     <e lm="tirannia"><i>tirannia</i><par n="mesa__n"/></e>
     <e lm="mariposa"><i>mariposa</i><par n="mesa__n"/></e>
@@ -2869,6 +2873,7 @@
 
     <e lm="tratigheddu"><i>tratighedd</i><par n="mac/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="mac/u__n"/></e>
+    <e lm="mèdiu"><i>mèdi</i><par n="mac/u__n"/></e>
     <e lm="espertu"><i>espert</i><par n="mac/u__n"/></e>
     <e lm="misteriu"><i>misteri</i><par n="mac/u__n"/></e>
     <e lm="aprendimentu"><i>aprendiment</i><par n="mac/u__n"/></e>
@@ -2876,6 +2881,7 @@
     <e lm="aumentu"><i>aument</i><par n="mac/u__n"/></e>
     <e lm="sambenadu"><i>sambenad</i><par n="mac/u__n"/></e>
     <e lm="intentu"><i>intent</i><par n="mac/u__n"/></e>
+    <e lm="inditu"><i>indit</i><par n="mac/u__n"/></e>
     <e lm="risu"><i>ris</i><par n="mac/u__n"/></e>
     <e lm="pentzamentu"><i>pentzament</i><par n="mac/u__n"/></e>
     <e lm="perìgulu"><i>perìgul</i><par n="mac/u__n"/></e>
@@ -2940,6 +2946,7 @@
     <e lm="preju"><i>prej</i><par n="mac/u__n"/></e>
     <e lm="annu"><i>ann</i><par n="mac/u__n"/></e>
     <e lm="cojuiu"><i>cojui</i><par n="mac/u__n"/></e>
+    <e lm="bidru"><i>bidr</i><par n="mac/u__n"/></e>
     <e lm="adverbiu"><i>adverbi</i><par n="mac/u__n"/></e>
     <e lm="votu"><i>vot</i><par n="mac/u__n"/></e>
     <e lm="votu" r="LR"><p><l>bot</l><r>vot</r></p><par n="mac/u__n"/></e>
@@ -2957,6 +2964,7 @@
     <e lm="salariu"><i>salari</i><par n="mac/u__n"/></e>
     <e lm="cunsideru"><i>cunsider</i><par n="mac/u__n"/></e>
     <e lm="assòtziu"><i>assòtzi</i><par n="mac/u__n"/></e>
+    <e lm="impreu"><i>impre</i><par n="mac/u__n"/></e>
     <e lm="ufìtziu"><i>ufìtzi</i><par n="mac/u__n"/></e>
     <e lm="sotziu"><i>sotzi</i><par n="mac/u__n"/></e>
     <e lm="pregiudìtziu"><i>pregiudìtzi</i><par n="mac/u__n"/></e>
@@ -3190,6 +3198,8 @@
     <e lm="manu"><i>man</i><par n="man/u__n"/></e>
 
     <e lm="amigu"><i>amig</i><par n="amig/u__n"/></e>
+    <e lm="tzitadinu"><i>tzitadin</i><par n="amig/u__n"/></e>
+    <e lm="istràngiu"><i>istràngi</i><par n="amig/u__n"/></e>
     <e lm="mastru"><i>mastr</i><par n="amig/u__n"/></e>
     <e lm="isposu"><i>ispos</i><par n="amig/u__n"/></e>
     <e lm="umanu"><i>uman</i><par n="amig/u__n"/></e>
@@ -3246,6 +3256,7 @@
     <e lm="Jugoslàvia"><i>Jugoslàvia</i><par n="Etiòpia__np"/></e>
     <e lm="Europa"><i>Europa</i><par n="Etiòpia__np"/></e>
     <e lm="Sèrbia"><i>Sèrbia</i><par n="Etiòpia__np"/></e>
+    <e lm="Malta"><i>Malta</i><par n="Etiòpia__np"/></e>
     <e lm="Roma"><i>Roma</i><par n="Etiòpia__np"/></e>
     <e lm="Roma" r="LR"><p><l>Arroma</l><r>Roma</r></p><par n="Etiòpia__np"/></e>
 
@@ -3492,6 +3503,7 @@
     <e lm="Logos Bascios" r="LR"><p><l>Paisos<b/>Bascios</l><r>Logos<b/>Bascios</r></p><par n="Istados_Unidos__np"/></e>
 
     <e lm="Antoni"><i>Antoni</i><par n="Antoni__np"/></e>
+    <e lm="Andria"><i>Andria</i><par n="Antoni__np"/></e>
     <e lm="Jean"><i>Jean</i><par n="Antoni__np"/></e>
     <e lm="Gesus"><i>Gesus</i><par n="Antoni__np"/></e>
     <e lm="Gregoriu"><i>Gregoriu</i><par n="Antoni__np"/></e>
@@ -3952,6 +3964,8 @@
     <e lm="sanscritu"><i>sanscrit</i><par n="frantzes/u__adj"/></e>
     <e lm="ucrainu"><i>ucrain</i><par n="frantzes/u__adj"/></e>
     <e lm="turisticu"><i>turistic</i><par n="frantzes/u__adj"/></e>
+    <e lm="istràngiu"><i>istràngi</i><par n="frantzes/u__adj"/></e>
+    <e lm="istràngiu" r="LR"><p><l>istranz</l><r>istràngi</r></p><par n="frantzes/u__adj"/></e>
     <e lm="romanzu"><i>romanz</i><par n="frantzes/u__adj"/></e>
     <e lm="econòmicu"><i>econòmic</i><par n="frantzes/u__adj"/></e>
     <e lm="econòmicu" r="LR"><p><l>economic</l><r>econòmic</r></p><par n="frantzes/u__adj"/></e>
@@ -4061,6 +4075,7 @@
     <e lm="oportunu"><i>oportun</i><par n="frantzes/u__adj"/></e>
     <e lm="comunu"><i>comun</i><par n="frantzes/u__adj"/></e>
     <e lm="netzessàriu"><i>netzessàri</i><par n="frantzes/u__adj"/></e>
+    <e lm="netzessàriu" r="LR"><p><l>netzessari</l><r>netzessàri</r></p><par n="frantzes/u__adj"/></e>
     <e lm="guvernativu"><i>guvernativ</i><par n="frantzes/u__adj"/></e>
     <e lm="guvernativu" r="LR"><p><l>governativ</l><r>guvernativ</r></p><par n="frantzes/u__adj"/></e>
     <e lm="totunu"><i>totun</i><par n="frantzes/u__adj"/></e>
@@ -4196,6 +4211,7 @@
     <e lm="deghimale"><i>deghimal</i><par n="fàtzil/e__adj"/></e>
     <e lm="digitale"><i>digital</i><par n="fàtzil/e__adj"/></e>
     <e lm="minore"><i>minor</i><par n="fàtzil/e__adj"/></e>
+    <e lm="minore" r="LR"><p><l>mìnor</l><r>minor</r></p><par n="fàtzil/e__adj"/></e>
     <e lm="mòbile"><i>mòbil</i><par n="fàtzil/e__adj"/></e>
     <e lm="ecuivalente"><i>ecuivalent</i><par n="fàtzil/e__adj"/></e>
     <e lm="sèmplitze"><i>sèmplitz</i><par n="fàtzil/e__adj"/></e>
@@ -4450,7 +4466,7 @@
 
     <e lm="èssere"><i></i><par n="/èssere__vblex"/></e>
     <e lm="àere"><i></i><par n="/àere__vblex"/></e>
-    <e lm="àere a"><i></i><par n="/àere__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
+    <e lm="àere de"><i></i><par n="/àere__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
 
     <e lm="bisogniare"><i>bisogni</i><par n="bisogni/are__vblex"/></e>
     <e lm="bisogniare" r="LR"><p><l>bisonz</l><r>bisogni</r></p><par n="bisogni/are__vblex"/></e>
@@ -4542,6 +4558,8 @@
     <e lm="formare"><i>form</i><par n="cant/are__vblex"/></e>
     <e lm="formare" r="LR"><p><l>fromm</l><r>form</r></p><par n="cant/are__vblex"/></e>
     <e lm="cambiare"><i>cambi</i><par n="cant/are__vblex"/></e>
+    <e lm="òdiare"><i>òdi</i><par n="cant/are__vblex"/></e>
+    <e lm="òdiare" r="LR"><p><l>odi</l><r>òdi</r></p><par n="cant/are__vblex"/></e>
     <e lm="recuberare"><i>recuber</i><par n="cant/are__vblex"/></e>
     <e lm="continuare"><i>continu</i><par n="cant/are__vblex"/></e>
     <e lm="impresonare"><i>impreson</i><par n="cant/are__vblex"/></e>
@@ -4670,6 +4688,7 @@
     <e lm="basare"><i>bas</i><par n="cant/are__vblex"/></e>
     <e lm="betare"><i>bet</i><par n="cant/are__vblex"/></e>
     <e lm="bisitare"><i>bisit</i><par n="cant/are__vblex"/></e>
+    <e lm="bisitare" r="LR"><p><l>visit</l><r>bisit</r></p><par n="cant/are__vblex"/></e>
     <e lm="bolare"><i>bol</i><par n="cant/are__vblex"/></e>
     <e lm="burrare"><i>burr</i><par n="cant/are__vblex"/></e>
     <e lm="calare"><i>cal</i><par n="cant/are__vblex"/></e>
@@ -4985,6 +5004,7 @@
 
     <e lm="UNESCO"><i>UNESCO</i><par n="UNESCO__abbr"/></e>
     <e lm="ONU"><i>ONU</i><par n="UNESCO__abbr"/></e>
+    <e lm="FAO"><i>FAO</i><par n="UNESCO__abbr"/></e>
     <e lm="OPEC"><i>OPEC</i><par n="UNESCO__abbr"/></e>
     <e lm="IAEA"><i>IAEA</i><par n="UNESCO__abbr"/></e>
     <e lm="OSCE"><i>OSCE</i><par n="UNESCO__abbr"/></e>

@@ -446,6 +446,8 @@
     <e><p><l>nació<s n="n"/><s n="f"/></l><r>natzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>part<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>estat<s n="n"/><s n="m"/></l><r>istadu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estranger<s n="n"/><s n="m"/></l><r>istràngiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>estranger<s n="n"/><s n="f"/></l><r>istràngiu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>democràcia<s n="n"/><s n="f"/></l><r>democratzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>enciclopèdia<s n="n"/><s n="f"/></l><r>entziclopedia<s n="n"/><s n="f"/></r></p></e>
 
@@ -501,6 +503,7 @@
     <e><p><l>papallona<s n="n"/><s n="f"/></l><r>mariposa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>massa<s n="n"/><s n="f"/></l><r>massa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>empresa<s n="n"/><s n="f"/></l><r>azienda<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>empresa<s n="n"/><s n="f"/></l><r>impresa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sonata<s n="n"/><s n="f"/></l><r>sonata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>maduresa<s n="n"/><s n="f"/></l><r>maturidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ment<s n="n"/><s n="f"/></l><r>mentu<s n="n"/><s n="m"/></r></p></e>
@@ -521,6 +524,8 @@
 
 
     <e><p><l>significat<s n="n"/><s n="m"/></l><r>significu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ciutadà<s n="n"/><s n="m"/></l><r>tzitadinu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ciutadà<s n="n"/><s n="f"/></l><r>tzitadinu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>amic<s n="n"/><s n="m"/></l><r>amigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>amic<s n="n"/><s n="f"/></l><r>amigu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fill<s n="n"/><s n="m"/></l><r>fìgiu<s n="n"/><s n="m"/></r></p></e>
@@ -760,6 +765,7 @@
     <e><p><l>secció<s n="n"/><s n="f"/></l><r>sezione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>senador<s n="n"/><s n="m"/></l><r>senadore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sol<s n="n"/><s n="m"/></l><r>sole<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>currículum<s n="n"/><s n="m"/></l><r>currìculum<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>revolució<s n="n"/><s n="f"/></l><r>rivolutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reducció<s n="n"/><s n="f"/></l><r>riduzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>resistència<s n="n"/><s n="f"/></l><r>resistèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -801,6 +807,7 @@
     <e><p><l>denominació<s n="n"/><s n="f"/></l><r>denominatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>declaració<s n="n"/><s n="f"/></l><r>decraratzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dadaisme<s n="n"/><s n="m"/></l><r>dadaismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vidre<s n="n"/><s n="m"/></l><r>bidru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>confecció<s n="n"/><s n="f"/></l><r>cunfetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>creació<s n="n"/><s n="f"/></l><r>creatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cooficialitat<s n="n"/><s n="f"/></l><r>co-ufitzialidade<s n="n"/><s n="f"/></r></p></e>
@@ -823,6 +830,7 @@
     <e><p><l>ajuda<s n="n"/><s n="f"/></l><r>agiudu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>necessitat<s n="n"/><s n="f"/></l><r>bisòngiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>absolutisme<s n="n"/><s n="m"/></l><r>assolutismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mitjà<s n="n"/><s n="m"/></l><r>mèdiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>desastre<s n="n"/><s n="m"/></l><r>disastru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>aplicació<s n="n"/><s n="f"/></l><r>aplicatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>administració<s n="n"/><s n="f"/></l><r>amministratzione<s n="n"/><s n="f"/></r></p></e>
@@ -890,11 +898,13 @@
     <e><p><l>instrumentació<s n="n"/><s n="f"/></l><r>istrumentatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>esperit<s n="n"/><s n="m"/></l><r>ispiritu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ús<s n="n"/><s n="m"/></l><r>usu<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>ús<s n="n"/><s n="m"/></l><r>impreu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>introspecció<s n="n"/><s n="f"/></l><r>introspetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>introducció<s n="n"/><s n="f"/></l><r>introduzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>integració<s n="n"/><s n="f"/></l><r>intregatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>intenció<s n="n"/><s n="f"/></l><r>intentzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>informació<s n="n"/><s n="f"/></l><r>informatzione<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>indicació<s n="n"/><s n="f"/></l><r>inditu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>indicació<s n="n"/><s n="f"/></l><r>indicatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>minoria<s n="n"/><s n="f"/></l><r>minoria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>il·luminisme<s n="n"/><s n="m"/></l><r>illuminismu<s n="n"/><s n="m"/></r></p></e>
@@ -1371,11 +1381,13 @@
     <e><p><l>motor<s n="n"/><s n="m"/></l><r>motore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>traïdor<s n="n"/><s n="m"/></l><r>traitore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orador<s n="n"/><s n="m"/></l><r>oratore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ambaixada<s n="n"/><s n="f"/></l><r>ambasciada<s n="n"/><s n="f"/></r></p></e>
 
 
     <!-- SECTION:  Proper noun -->
 
     <e><p><l>Anglaterra<s n="np"/><s n="top"/></l><r>Inghilterra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Malta<s n="np"/><s n="top"/></l><r>Malta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Japó<s n="np"/><s n="top"/></l><r>Giappone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Camerun<s n="np"/><s n="top"/></l><r>Camerun<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Eslovènia<s n="np"/><s n="top"/></l><r>Islovènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1502,6 +1514,7 @@
     <e><p><l>Jean<s n="np"/><s n="ant"/></l><r>Jean<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Maria<s n="np"/><s n="ant"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Antoni<s n="np"/><s n="ant"/></l><r>Antoni<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Andria<s n="np"/><s n="ant"/></l><r>Andria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Gregoriu<s n="np"/><s n="ant"/></l><r>Gregoriu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Giuanne<s n="np"/><s n="ant"/></l><r>Giuanne<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Theo<s n="np"/><s n="ant"/></l><r>Theo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1857,6 +1870,7 @@
     <e><p><l>artístic<s n="adj"/></l><r>artisticu<s n="adj"/></r></p></e>
     <e><p><l>soviètic<s n="adj"/></l><r>sovièticu<s n="adj"/></r></p></e>
     <e><p><l>nombrós<s n="adj"/></l><r>numerosu<s n="adj"/></r></p></e>
+    <e><p><l>estranger<s n="adj"/></l><r>istràngiu<s n="adj"/></r></p></e>
     <e><p><l>diví<s n="adj"/></l><r>divinu<s n="adj"/></r></p></e>
     <e><p><l>metropolità<s n="adj"/></l><r>metropolitanu<s n="adj"/></r></p></e>
     <e><p><l>urbà<s n="adj"/></l><r>urbanu<s n="adj"/></r></p></e>
@@ -2330,7 +2344,7 @@
     <e><p><l>estar<s n="vblex"/></l><r>istare<s n="vblex"/></r></p></e>
     <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vblex"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
-    <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>a</g><s n="vblex"/></r></p></e>
+    <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>de</g><s n="vblex"/></r></p></e>
     <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>dèpere<s n="vblex"/></r></p></e>
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
 
@@ -2744,6 +2758,7 @@
     <e><p><l>escollir<s n="vblex"/></l><r>seberare<s n="vblex"/></r></p></e>
 
     <e><p><l>obligar<s n="vblex"/></l><r>obrigare<s n="vblex"/></r></p></e>
+    <e><p><l>odiar<s n="vblex"/></l><r>òdiare<s n="vblex"/></r></p></e>
     <e><p><l>orientar<s n="vblex"/></l><r>punnare<s n="vblex"/></r></p></e>
     <e><p><l>tutelar<s n="vblex"/></l><r>tutelare<s n="vblex"/></r></p></e>
     <e><p><l>desocupar<s n="vblex"/></l><r>disocupare<s n="vblex"/></r></p></e>
@@ -2767,6 +2782,7 @@
     <e r="RL"><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DNA<s n="abbr"/></r></p></e>
     <e><p><l>UNESCO<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>UNESCO<s n="abbr"/></r></p></e>
     <e><p><l>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSC<s n="abbr"/></r></p></e>
+    <e><p><l>FAO<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>FAO<s n="abbr"/></r></p></e>
     <e><p><l>LSU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSU<s n="abbr"/></r></p></e>
     <e><p><l>OPEP<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>OPEC<s n="abbr"/></r></p></e>
     <e><p><l>OTAN<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>NATO<s n="abbr"/></r></p></e>
