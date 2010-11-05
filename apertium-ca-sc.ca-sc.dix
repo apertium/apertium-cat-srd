@@ -400,6 +400,7 @@
     <e><p><l>via<s n="n"/><s n="f"/></l><r>bia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>partida<s n="n"/><s n="f"/></l><r>partida<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>quantitat<s n="n"/><s n="f"/></l><r>cantidade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>facilitat<s n="n"/><s n="f"/></l><r>fatzilidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>diversitat<s n="n"/><s n="f"/></l><r>diversidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>modalitat<s n="n"/><s n="f"/></l><r>modalidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>visibilitat<s n="n"/><s n="f"/></l><r>visibilidade<s n="n"/><s n="f"/></r></p></e>
@@ -530,6 +531,8 @@
     <e><p><l>oficialitat<s n="n"/><s n="f"/></l><r>ufitzialidade<s n="n"/><s n="f"/></r></p></e>
 
 
+    <e><p><l>glossari<s n="n"/><s n="m"/></l><r>glossàriu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>seminari<s n="n"/><s n="m"/></l><r>seminàriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>significat<s n="n"/><s n="m"/></l><r>significu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ciutadà<s n="n"/><s n="m"/></l><r>tzitadinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ciutadà<s n="n"/><s n="f"/></l><r>tzitadinu<s n="n"/><s n="f"/></r></p></e>
@@ -1297,6 +1300,11 @@
     <e><p><l>benefactor<s n="n"/><s n="m"/></l><r>benefatore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arqueologia<s n="n"/><s n="f"/></l><r>archeologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>antologia<s n="n"/><s n="f"/></l><r>antologia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>terminologia<s n="n"/><s n="f"/></l><r>terminologia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>filologia<s n="n"/><s n="f"/></l><r>filologia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ecologia<s n="n"/><s n="f"/></l><r>ecologia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>metodologia<s n="n"/><s n="f"/></l><r>metodologia<s n="n"/><s n="f"/></r></p></e>
+
 
     <e><p><l>adopció<s n="n"/><s n="f"/></l><r>adotzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>adverbi<s n="n"/><s n="m"/></l><r>adverbiu<s n="n"/><s n="m"/></r></p></e>
@@ -1881,9 +1889,12 @@
     <e><p><l>penúltim<s n="adj"/></l><r>penùrtimu<s n="adj"/><s n="ord"/></r></p></e>
 
     <e><p><l>mateix<s n="adj"/></l><r>matessi<s n="adj"/></r></p><par n="mateix_matessi"/></e>
-    <e><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="llur_issoro"/></e>
+    <e r="RL"><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="llur_issoro"/></e>
+    <e><p><l>similar<s n="adj"/></l><r>sìmile<s n="adj"/></r></p></e>
     <e><p><l>únic<s n="adj"/></l><r>ùnicu<s n="adj"/></r></p></e>
     <e><p><l>sistèmic<s n="adj"/></l><r>sistèmicu<s n="adj"/></r></p></e>
+    <e><p><l>vinent<s n="adj"/></l><r>benidore<s n="adj"/></r></p></e>
+    <e><p><l>multilingüe<s n="adj"/></l><r>multilìngue<s n="adj"/></r></p></e>
     <e><p><l>ex<s n="adj"/></l><r>ex<s n="adj"/></r></p></e>
     <e><p><l>tècnic<s n="adj"/></l><r>tècnicu<s n="adj"/></r></p></e>
     <e><p><l>complet<s n="adj"/></l><r>completu<s n="adj"/></r></p></e>
@@ -2640,6 +2651,7 @@
     <e><p><l>prevenir<s n="vblex"/></l><r>prevènnere<s n="vblex"/></r></p></e>
     <e><p><l>produir<s n="vblex"/></l><r>produire<s n="vblex"/></r></p></e>
     <e><p><l>reconèixer<s n="vblex"/></l><r>reconnòschere<s n="vblex"/></r></p></e>
+    <e><p><l>conèixer<s n="vblex"/></l><r>connòschere<s n="vblex"/></r></p></e>
     <e><p><l>traduir<s n="vblex"/></l><r>tradùere<s n="vblex"/></r></p></e>
     <e><p><l>limitar<s n="vblex"/></l><r>limitare<s n="vblex"/></r></p></e>
     <e><p><l>sostenir<s n="vblex"/></l><r>sustènnere<s n="vblex"/></r></p></e>
@@ -2809,6 +2821,10 @@
     <e><p><l>establir<s n="vblex"/></l><r>istabilire<s n="vblex"/></r></p></e>
     <e><p><l>llegir<s n="vblex"/></l><r>lèghere<s n="vblex"/></r></p></e>
     <e><p><l>partir<s n="vblex"/></l><r>partire<s n="vblex"/></r></p></e>
+    <e><p><l>riure<s n="vblex"/></l><r>rìere<s n="vblex"/></r></p></e>
+    <e><p><l>complicar<s n="vblex"/></l><r>cumplicare<s n="vblex"/></r></p></e>
+    <e><p><l>apassionar<s n="vblex"/></l><r>apassionare<s n="vblex"/></r></p></e>
+    <e><p><l>experimentar<s n="vblex"/></l><r>esperimentare<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>

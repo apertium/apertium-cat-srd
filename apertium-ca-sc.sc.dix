@@ -2169,6 +2169,7 @@
 
     <e lm="libertade"><i>libertad</i><par n="identidad/e__n"/></e>
     <e lm="natzionalidade"><i>natzionalidad</i><par n="identidad/e__n"/></e>
+    <e lm="fatzilidade"><i>fatzilidad</i><par n="identidad/e__n"/></e>
     <e lm="diversidade"><i>diversidad</i><par n="identidad/e__n"/></e>
     <e lm="modalidade"><i>modalidad</i><par n="identidad/e__n"/></e>
     <e lm="egualidade"><i>egualidad</i><par n="identidad/e__n"/></e>
@@ -2228,6 +2229,10 @@
     <e lm="morfologia"><i>morfologia</i><par n="mesa__n"/></e>
     <e lm="sotziologia"><i>sotziologia</i><par n="mesa__n"/></e>
     <e lm="teologia"><i>teologia</i><par n="mesa__n"/></e>
+    <e lm="terminologia"><i>terminologia</i><par n="mesa__n"/></e>
+    <e lm="filologia"><i>filologia</i><par n="mesa__n"/></e>
+    <e lm="metodologia"><i>metodologia</i><par n="mesa__n"/></e>
+    <e lm="ecologia"><i>ecologia</i><par n="mesa__n"/></e>
 
     <e lm="gràtzia"><i>gràtzia</i><par n="mesa__n"/></e>
     <e lm="gràtzia" r="LR"><p><l>gratzia</l><r>gràtzia</r></p><par n="mesa__n"/></e>
@@ -2896,6 +2901,8 @@
     <e lm="vocabulàriu" r="LR"><p><l>bocabulari</l><r>vocabulàriu</r></p><par n="mac/u__n"/></e>
     <e lm="vocabulàriu" r="LR"><p><l>vocabulari</l><r>vocabulàriu</r></p><par n="mac/u__n"/></e>
 
+    <e lm="seminàriu"><i>seminàri</i><par n="mac/u__n"/></e>
+    <e lm="glossàriu"><i>glossàri</i><par n="mac/u__n"/></e>
     <e lm="tratigheddu"><i>tratighedd</i><par n="mac/u__n"/></e>
     <e lm="importu"><i>import</i><par n="mac/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="mac/u__n"/></e>
@@ -3420,6 +3427,7 @@
     <e lm="Aruba"><i>Aruba</i><par n="Etiòpia__np"/></e>
     <e lm="Barcellona"><i>Barcellona</i><par n="Etiòpia__np"/></e>
     <e lm="Barcellona" r="LR"><p><l>Barcelona</l><r>Barcellona</r></p><par n="Etiòpia__np"/></e>
+    <e lm="Barcellona" r="LR"><p><l>Bartzellona</l><r>Barcellona</r></p><par n="Etiòpia__np"/></e>
     <e lm="Navarra"><i>Navarra</i><par n="Etiòpia__np"/></e>
     <e lm="Algèria"><i>Algèria</i><par n="Etiòpia__np"/></e>
     <e lm="Algèria" r="LR"><p><l>Algeria</l><r>Algèria</r></p><par n="Etiòpia__np"/></e>
@@ -4153,6 +4161,8 @@
     <e lm="cumertziale"><i>cumertzial</i><par n="fàtzil/e__adj"/></e>
     <e lm="elementare"><i>elementar</i><par n="fàtzil/e__adj"/></e>
     <e lm="penale"><i>penal</i><par n="fàtzil/e__adj"/></e>
+    <e lm="sìmile"><i>sìmil</i><par n="fàtzil/e__adj"/></e>
+    <e lm="sìmile" r="LR"><p><l>simil</l><r>sìmil</r></p><par n="fàtzil/e__adj"/></e>
     <e lm="superiore"><i>superior</i><par n="fàtzil/e__adj"/></e>
     <e lm="eguale"><i>egual</i><par n="fàtzil/e__adj"/></e>
     <e lm="essentziale"><i>essentzial</i><par n="fàtzil/e__adj"/></e>
@@ -4190,6 +4200,8 @@
     <e lm="impartziale"><i>impartzial</i><par n="fàtzil/e__adj"/></e>
     <e lm="provintziale"><i>provintzial</i><par n="fàtzil/e__adj"/></e>
     <e lm="nucleare"><i>nuclear</i><par n="fàtzil/e__adj"/></e>
+    <e lm="benidore"><i>benidor</i><par n="fàtzil/e__adj"/></e>
+    <e lm="multilìngue"><i>multilìngu</i><par n="fàtzil/e__adj"/></e>
     <e lm="militare"><i>militar</i><par n="fàtzil/e__adj"/></e>
     <e lm="personale"><i>personal</i><par n="fàtzil/e__adj"/></e>
     <e lm="fertile"><i>fertil</i><par n="fàtzil/e__adj"/></e>
@@ -4564,6 +4576,7 @@
     <e lm="isseperare"><i>isseper</i><par n="cant/are__vblex"/></e>
     <!--<e lm="tramandare"><i>tramand</i><par n="cant/are__vblex"/></e>-->
     <e lm="mandare"><i>mand</i><par n="cant/are__vblex"/></e>
+    <e lm="cumplicare"><i>cumplic</i><par n="cant/are__vblex"/></e>
     <e lm="manifestare"><i>manifest</i><par n="cant/are__vblex"/></e>
     <e lm="cumpilare"><i>cumpil</i><par n="cant/are__vblex"/></e>
     <e lm="cumpilare" r="LR"><p><l>compil</l><r>cumpil</r></p><par n="cant/are__vblex"/></e>
@@ -4792,6 +4805,7 @@
     <e lm="girare" r="LR"><p><l>zir</l><r>gir</r></p><par n="cant/are__vblex"/></e>
     <e lm="derivare"><i>deriv</i><par n="cant/are__vblex"/></e>
     <e lm="bortare"><i>bort</i><par n="cant/are__vblex"/></e>
+    <e lm="esperimentare"><i>esperiment</i><par n="cant/are__vblex"/></e>
     <e lm="creare"><i>cre</i><par n="cant/are__vblex"/></e>
     <e lm="creare" r="LR"><p><l>cri</l><r>cre</r></p><par n="cant/are__vblex"/></e>
     <e lm="collaborare"><i>collabor</i><par n="cant/are__vblex"/></e>
@@ -4918,6 +4932,7 @@
     <e lm="retirare"><i>retir</i><par n="cant/are__vblex"/></e>
     <e lm="retirare" r="LR"><p><l>ritir</l><r>retir</r></p><par n="cant/are__vblex"/></e>
     <e lm="cagentare"><i>cagent</i><par n="cant/are__vblex"/></e>
+    <e lm="apassionare"><i>apassion</i><par n="cant/are__vblex"/></e>
 
     <e lm="mòvere"><i>mòv</i><par n="tim/ere__vblex"/></e>
     <e lm="promòvere"><i>promòv</i><par n="tim/ere__vblex"/></e>
@@ -4933,6 +4948,7 @@
     <!--<e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>-->
     <e lm="mòere"><i>mò</i><par n="tim/ere__vblex"/></e> <!-- moe·ti·nche·lu -->
     <e lm="emergere"><i>emerg</i><par n="tim/ere__vblex"/></e>
+    <e lm="rìere"><i>rì</i><par n="tim/ere__vblex"/></e>
     <e lm="bìdere"><i>bìd</i><par n="tim/ere__vblex"/></e>
     <e lm="bìdere" r="LR"><p><l>bid</l><r>bìd</r></p><par n="tim/ere__vblex"/></e>
     <e lm="imparere"><i>impar</i><par n="tim/ere__vblex"/></e>
@@ -4957,6 +4973,9 @@
 
     <e lm="detzìdere"><i>detzìd</i><par n="tim/ere__vblex"/></e>
     <e lm="detzìdere" r="LR"><p><l>detzid</l><r>detzìd</r></p><par n="tim/ere__vblex"/></e>
+
+    <e lm="connòschere"><i>connòsch</i><par n="tim/ere__vblex"/></e>
+    <e lm="connòschere" r="LR"><p><l>connosch</l><r>connòsch</r></p><par n="tim/ere__vblex"/></e>
 
     <e lm="istabilire"><i>istabil</i><par n="fin/ire__vblex"/></e>
     <e lm="essire"><i>ess</i><par n="fin/ire__vblex"/></e>
