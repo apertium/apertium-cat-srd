@@ -259,6 +259,7 @@
 
     <e><p><l>qui<s n="prn"/><s n="itg"/></l><r>chie<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>què<s n="prn"/><s n="itg"/></l><r>ite<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>qual<s n="adj"/></l><r>cale<s n="prn"/><s n="itg"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
@@ -570,6 +571,7 @@
     <e><p><l>universitat<s n="n"/><s n="f"/></l><r>universidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unitat<s n="n"/><s n="f"/></l><r>unidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tradició<s n="n"/><s n="f"/></l><r>traditzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>traducció<s n="n"/><s n="f"/></l><r>tradutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>terra<s n="n"/><s n="f"/></l><r>terra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sud<s n="n"/><s n="m"/></l><r>sud<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>regió<s n="n"/><s n="f"/></l><r>regione<s n="n"/><s n="f"/></r></p></e>
@@ -2072,6 +2074,7 @@
     <e><p><l>demogràfic<s n="adj"/></l><r>demogràficu<s n="adj"/></r></p></e>
     <e><p><l>diferent<s n="adj"/></l><r>diferente<s n="adj"/></r></p></e>
     <e><p><l>dramàtic<s n="adj"/></l><r>dramàticu<s n="adj"/></r></p></e>
+    <e><p><l>automàtic<s n="adj"/></l><r>automàticu<s n="adj"/></r></p></e>
     <e><p><l>hebreu<s n="adj"/></l><r>ebreu<s n="adj"/></r></p></e>
     <e><p><l>econòmic<s n="adj"/></l><r>econòmicu<s n="adj"/></r></p></e>
     <e><p><l>electoral<s n="adj"/></l><r>eletorale<s n="adj"/></r></p></e>
@@ -2353,7 +2356,8 @@
     <e><p><l>dir<s n="vblex"/></l><r>nàrrere<s n="vblex"/></r></p></e>
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
     <e><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
-    <e><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
+    <e><p><l>voler<s n="vblex"/></l><r>bòlere<s n="vblex"/></r></p></e>
     <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
     <e><p><l>viure<s n="vblex"/></l><r>bìvere<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>

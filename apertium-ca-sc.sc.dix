@@ -326,6 +326,10 @@
       <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="ite__prn">
+      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="àter/u__prn" c="p.27 /105">
       <e>       <p><l>u</l><r>u<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
       <e>       <p><l>a</l><r>u<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1783,6 +1787,7 @@
     <e lm="cantu"><i>cant</i><par n="cant/u__prn"/></e>
     <e lm="cale"><i>cale</i><par n="cale__prn"/></e>
     <e lm="chie"><i>chie</i><par n="chie__prn"/></e>
+    <e lm="ite"><i>ite</i><par n="ite__prn"/></e>
 
     <e lm="unu àteru"><i>un</i><par n="un/u_àteru__prn"/></e>
 
@@ -2440,8 +2445,9 @@
     <e lm="populatzione" r="LR"><p><l>popolatzion</l><r>populatzion</r></p><par n="region/e__n"/></e>
 
     <e lm="traditzione"><i>traditzion</i><par n="region/e__n"/></e>
-    <e lm="traditzione" r="LR"><p><l>tradutzion</l><r>traditzion</r></p><par n="region/e__n"/></e>
     <e lm="traditzione" r="LR"><p><l>tradizion</l><r>traditzion</r></p><par n="region/e__n"/></e>
+
+    <e lm="tradutzione"><i>tradutzion</i><par n="region/e__n"/></e>
 
     <e lm="famìlia"><i>famìlia</i><par n="mesa__n"/></e>
     <e lm="famìlia" r="LR"><p><l>famiglia</l><r>famìlia</r></p><par n="mesa__n"/></e>
@@ -3881,6 +3887,7 @@
     <e lm="domesticu"><i>domestic</i><par n="frantzes/u__adj"/></e>
     <e lm="morfològicu"><i>morfològic</i><par n="frantzes/u__adj"/></e>
     <e lm="sistemàticu"><i>sistemàtic</i><par n="frantzes/u__adj"/></e>
+    <e lm="automàticu"><i>automàtic</i><par n="frantzes/u__adj"/></e>
     <e lm="dramàticu"><i>dramàtic</i><par n="frantzes/u__adj"/></e>
     <e lm="alfabèticu"><i>alfabètic</i><par n="frantzes/u__adj"/></e>
     <e lm="frantzesu"><i>frantzes</i><par n="frantzes/u__adj"/></e>
@@ -4477,6 +4484,9 @@
 
     <e lm="dèpere"><i>dèp</i><par n="tim/ere__vblex"/></e>
     <e lm="dèpere" r="LR"><p><l>dep</l><r>dèp</r></p><par n="tim/ere__vblex"/></e>
+
+    <e lm="bòlere"><i>bòl</i><par n="tim/ere__vblex"/></e>
+    <e lm="bòlere" r="LR"><p><l>bol</l><r>bòl</r></p><par n="tim/ere__vblex"/></e>
 
     <e lm="cantare"><i>cant</i><par n="cant/are__vblex"/></e>
     <e lm="andare"><i>and</i><par n="cant/are__vblex"/></e>
