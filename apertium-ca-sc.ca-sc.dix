@@ -766,6 +766,7 @@
     <e><p><l>arxipèlag<s n="n"/><s n="m"/></l><r>arcipelagu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anarquisme<s n="n"/><s n="m"/></l><r>anarchismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vegetarianisme<s n="n"/><s n="m"/></l><r>vegetarianismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sentiment<s n="n"/><s n="m"/></l><r>sentimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>civilització<s n="n"/><s n="f"/></l><r>tzivilizatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pestilència<s n="n"/><s n="f"/></l><r>pestilèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>trompetista<s n="n"/><s n="mf"/></l><r>trombettista<s n="n"/><s n="mf"/></r></p></e>
@@ -825,7 +826,7 @@
     <e><p><l>distribució<s n="n"/><s n="f"/></l><r>distributzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>devoció<s n="n"/><s n="f"/></l><r>devotzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>denominació<s n="n"/><s n="f"/></l><r>denominatzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>declaració<s n="n"/><s n="f"/></l><r>decraratzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>declaració<s n="n"/><s n="f"/></l><r>declaratzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dadaisme<s n="n"/><s n="m"/></l><r>dadaismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vidre<s n="n"/><s n="m"/></l><r>bidru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>confecció<s n="n"/><s n="f"/></l><r>cunfetzione<s n="n"/><s n="f"/></r></p></e>
@@ -866,7 +867,11 @@
     <e><p><l>maquinari<s n="n"/><s n="m"/></l><r>machinariu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ensenyament<s n="n"/><s n="m"/></l><r>insignamentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>destinació<s n="n"/><s n="f"/></l><r>destinu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>harmonia<s n="n"/><s n="f"/></l><r>armonia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>conte<s n="n"/><s n="m"/></l><r>contu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>rest<s n="n"/><s n="m"/></l><r>restu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>concurs<s n="n"/><s n="m"/></l><r>cuncursu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>adjectiu<s n="n"/><s n="m"/></l><r>agetivu<s n="n"/><s n="m"/></r></p></e>
 
     <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>pregonta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>dia<s n="n"/><s n="m"/></l><r>die<s n="n"/><s n="f"/></r></p></e>
@@ -1902,6 +1907,10 @@
     <e><p><l>cors<s n="adj"/></l><r>corsu<s n="adj"/></r></p></e>
     <e r="RL"><p><l>cors<s n="adj"/></l><r>corsicanu<s n="adj"/></r></p></e>
     <e><p><l>modern<s n="adj"/></l><r>modernu<s n="adj"/></r></p></e>
+    <e><p><l>reaccionari<s n="adj"/></l><r>reatzionàriu<s n="adj"/></r></p></e>
+    <e><p><l>filosòfic<s n="adj"/></l><r>filosòficu<s n="adj"/></r></p></e>
+    <e><p><l>populista<s n="adj"/></l><r>populista<s n="adj"/></r></p></e>
+    <e><p><l>seriós<s n="adj"/></l><r>sèriu<s n="adj"/></r></p></e>
     <e><p><l>normatiu<s n="adj"/></l><r>normativu<s n="adj"/></r></p></e>
     <e><p><l>minoritari<s n="adj"/></l><r>minoritàriu<s n="adj"/></r></p></e>
     <e><p><l>aranès<s n="adj"/></l><r>aranesu<s n="adj"/></r></p></e>

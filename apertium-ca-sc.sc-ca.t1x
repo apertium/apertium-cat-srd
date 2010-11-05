@@ -43,6 +43,11 @@
 <def-cat n="predet">
    <cat-item tags="predet.*"/>
 </def-cat>
+<def-cat n="pro">
+   <cat-item tags="prn.pro.p1.*"/>
+   <cat-item tags="prn.pro.p2.*"/>
+   <cat-item tags="prn.pro.p3.*"/>
+</def-cat>
 <def-cat n="enc">
    <cat-item tags="prn.enc.*"/>
 </def-cat>
@@ -2818,6 +2823,39 @@
    </action>
 </rule>
 
+
+<rule comment="regla: pro inf">
+   <pattern>
+     <pattern-item n="pro"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <let>
+       <clip pos="1" side="tl" part="a_prn"/>
+       <lit-tag v="prn.enc"/>
+     </let>
+     <out>
+       <mlu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <clip pos="2" side="tl" part="temps"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_prn"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </mlu>
+     </out>
+   </action>
+</rule>
 
 <rule comment="regla: inf enc">
    <pattern>

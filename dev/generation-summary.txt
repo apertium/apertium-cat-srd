@@ -13,38 +13,17 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-      9 #album\<n\>\<m\>\<sg\>	^album<n><m><sg>$
-      7 #Kant\<np\>\<ant\>	^Kant<np><ant>$
-      5 #spiritual\<adj\>\<mf\>\<sg\>	^spiritual<adj><mf><sg>$
-      5 #Nacions Unides\<np\>\<al\>	^Nacions Unides<np><al>$
-      4 #Corbusier\<np\>\<ant\>	^Corbusier<np><ant>$
-      2 #realizació\<n\>\<f\>\<sg\>	^realizació<n><f><sg>$
-      2 #mafia\<n\>\<f\>\<sg\>	^mafia<n><f><sg>$
-      1 #Windsor\<np\>\<ant\>	^Windsor<np><ant>$
-      1 #Williamson\<np\>\<ant\>	^Williamson<np><ant>$
-      1 #Willcox\<np\>\<ant\>	^Willcox<np><ant>$
-      1 #Weimar\<np\>\<ant\>	^Weimar<np><ant>$
-      1 #testimoni\<n\>\<f\>\<pl\>	^testimoni<n><f><pl>$
-      1 #spiritual\<adj\>\<mf\>\<pl\>	^spiritual<adj><mf><pl>$
-      1 #potente\<adj\>\<mf\>\<pl\>	^potente<adj><mf><pl>$
-      1 #pensador\<n\>\<m\>\<sg\>	^pensador<n><m><sg>$
-      1 #Montreal\<np\>\<top\>	^Montreal<np><top>$
-      1 #monasteriu\<n\>\<m\>\<sg\>	^monasteriu<n><m><sg>$
-      1 #monasteriu\<n\>\<m\>\<pl\>	^monasteriu<n><m><pl>$
-      1 #Matteo\<np\>\<ant\>	^Matteo<np><ant>$
-      1 #initziativa\<n\>\<f\>\<sg\>	^initziativa<n><f><sg>$
-      1 #initziativa\<n\>\<f\>\<pl\>	^initziativa<n><f><pl>$
-      1 #Francophonie\<np\>\<al\>	^Francophonie<np><al>$
-      1 #da Vinci\<np\>\<ant\>	^da Vinci<np><ant>$
-      1 #Dalai Lama\<np\>\<al\>	^Dalai Lama<np><al>$
-      1 #Commonwealth of Nations\<np\>\<al\>	^Commonwealth of Nations<np><al>$
-      1 #archeologia\<n\>\<f\>\<sg\>	^archeologia<n><f><sg>$
-      1 #album\<n\>\<m\>\<pl\>	^album<n><m><pl>$
+     10 #haver\<vbmod\>\<pp\>\<m\>\<pl\># de	^haver<vbmod><pp><m><pl># de$
+      5 #haver\<vbmod\>\<pp\>\<f\>\<sg\># de	^haver<vbmod><pp><f><sg># de$
+      3 #haver\<vbmod\>\<pp\>\<f\>\<pl\># de	^haver<vbmod><pp><f><pl># de$
+      1 #tornar\<vblex\>\<ger\>+hi\<prn\>\<enc\>\<adv\>+el\<prn\>\<enc\>\<p3\>\<f\>\<pl\>	^tornar<vblex><ger>+hi<prn><enc><adv>+el<prn><enc><p3><f><pl>$
+      1 #manar\<vblex\>\<ger\>+hi\<prn\>\<enc\>\<adv\>+el\<prn\>\<enc\>\<p3\>\<m\>\<pl\>	^manar<vblex><ger>+hi<prn><enc><adv>+el<prn><enc><p3><m><pl>$
+      1 #cada\<det\>\<ind\>\<mf\>\<pl\>	^cada<det><ind><mf><pl>$
 
 ===============================================================================
 Summary
 ===============================================================================
-   0 /tmp/sc-ca.multiform
-   0 /tmp/sc-ca.multibidix
-  27 /tmp/sc-ca.tagmismatch
-  27 total
+  0 /tmp/sc-ca.multiform
+  0 /tmp/sc-ca.multibidix
+  6 /tmp/sc-ca.tagmismatch
+  6 total
