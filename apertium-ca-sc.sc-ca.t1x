@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
 <section-def-cats>
+<def-cat n="prn">
+   <cat-item tags="prn.*"/>
+</def-cat>
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
@@ -17,6 +20,13 @@
 </def-cat>
 <def-cat n="èssere_pri">
    <cat-item lemma="èssere" tags="vblex.pri.*"/>
+</def-cat>
+<def-cat n="èssere_p3">
+   <cat-item lemma="èssere" tags="vblex.*.p3.sg"/>
+   <cat-item lemma="èssere" tags="vblex.*.p3.pl"/>
+</def-cat>
+<def-cat n="bi">
+   <cat-item lemma="bi" tags="prn.pro.p3.mf.sp"/>
 </def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
@@ -118,6 +128,8 @@
    <attr-item tags="prn.enc.ref"/>
    <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc"/>
+   <attr-item tags="prn.itg"/>
+   <attr-item tags="prn.dem"/>
    <attr-item tags="prn.enc.adv"/>
 </def-attr>
 <def-attr n="a_adjec">
@@ -2142,6 +2154,28 @@
 </rule>
 
 
+<rule comment="regla: prn">
+   <pattern>
+     <pattern-item n="prn"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="a_prn"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="gen"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: n">
    <pattern>
      <pattern-item n="nom"/>
@@ -2561,6 +2595,33 @@
          <clip pos="1" side="tl" part="gen"/>
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: bi èssere_p3">
+   <pattern>
+     <pattern-item n="bi"/>
+     <pattern-item n="èssere_p3"/>
+   </pattern>
+   <action>
+     <out>
+       <lu>
+         <get-case-from pos="1">
+           <lit v="hi"/>
+         </get-case-from>
+         <lit-tag v="prn.pro.adv"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <get-case-from pos="2">
+           <lit v="haver"/>
+         </get-case-from>
+         <lit-tag v="vbhaver"/>
+         <clip pos="2" side="tl" part="temps"/>
+         <clip pos="2" side="tl" part="pers"/>
+         <lit-tag v="sg"/>
        </lu>
      </out>
    </action>
