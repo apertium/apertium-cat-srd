@@ -2063,6 +2063,7 @@
     <e lm="campagna"><i>campagna</i><par n="mesa__n"/></e>
     <e lm="campagna" r="LR"><p><l>campanna</l><r>campagna</r></p><par n="mesa__n"/></e>
     <e lm="letura"><i>letura</i><par n="mesa__n"/></e>
+    <e lm="càusa"><i>càusa</i><par n="mesa__n"/></e>
     <e lm="natura"><i>natura</i><par n="mesa__n"/></e>
     <e lm="pedra"><i>pedra</i><par n="mesa__n"/></e>
     <e lm="ambasciada"><i>ambasciada</i><par n="mesa__n"/></e>
@@ -2266,8 +2267,10 @@
     <e lm="tzitade" r="LR"><p><l>tzidade</l><r>tzitade</r></p><par n="mesa__n"/></e>
     <e lm="tzitade" r="LR"><p><l>tzitadi</l><r>tzitade</r></p><par n="mesa__n"/></e>
 
+    <e lm="chistione"><i>chistion</i><par n="region/e__n"/></e>
     <e lm="reunione"><i>reunion</i><par n="region/e__n"/></e>
     <e lm="televisione"><i>television</i><par n="region/e__n"/></e>
+    <e lm="visione"><i>vision</i><par n="region/e__n"/></e>
     <e lm="difusione"><i>difusion</i><par n="region/e__n"/></e>
     <e lm="intromissione"><i>intromission</i><par n="region/e__n"/></e>
     <e lm="opressione"><i>opression</i><par n="region/e__n"/></e>
@@ -2907,6 +2910,7 @@
 
     <e lm="seminàriu"><i>seminàri</i><par n="mac/u__n"/></e>
     <e lm="glossàriu"><i>glossàri</i><par n="mac/u__n"/></e>
+    <e lm="dibàtidu"><i>dibàtid</i><par n="mac/u__n"/></e>
     <e lm="tratigheddu"><i>tratighedd</i><par n="mac/u__n"/></e>
     <e lm="importu"><i>import</i><par n="mac/u__n"/></e>
     <e lm="datu"><i>dat</i><par n="mac/u__n"/></e>
@@ -2951,6 +2955,8 @@
     <e lm="partidu"><i>partid</i><par n="mac/u__n"/></e>
     <e lm="aeroplanu"><i>aeroplan</i><par n="mac/u__n"/></e>
     <e lm="caddu"><i>cadd</i><par n="mac/u__n"/></e>
+    <e lm="eventu"><i>event</i><par n="mac/u__n"/></e>
+    <e lm="ràdiu"><i>ràdi</i><par n="mac/u__n"/></e>
     <e lm="clìticu"><i>clìtic</i><par n="mac/u__n"/></e>
     <e lm="giòvanu"><i>giòvan</i><par n="mac/u__n"/></e>
     <e lm="giòvanu" r="LR"><p><l>zòvan</l><r>giòvan</r></p><par n="mac/u__n"/></e>
@@ -4117,6 +4123,8 @@
     <e lm="tzinematograficu"><i>tzinematografic</i><par n="frantzes/u__adj"/></e>
     <e lm="numerosu"><i>numeros</i><par n="frantzes/u__adj"/></e>
     <e lm="violentu"><i>violent</i><par n="frantzes/u__adj"/></e>
+    <e lm="negativu"><i>negativ</i><par n="frantzes/u__adj"/></e>
+    <e lm="diretu"><i>diret</i><par n="frantzes/u__adj"/></e>
     <e lm="germànicu"><i>germànic</i><par n="frantzes/u__adj"/></e>
     <e lm="ortogràficu"><i>ortogràfic</i><par n="frantzes/u__adj"/></e>
     <e lm="ortogràficu" r="LR"><p><l>ortogràfig</l><r>ortogràfic</r></p><par n="frantzes/u__adj"/></e>
@@ -4283,6 +4291,7 @@
     <e lm="interessante"><i>interessant</i><par n="fàtzil/e__adj"/></e>
     <e lm="dominante"><i>dominant</i><par n="fàtzil/e__adj"/></e>
     <e lm="disponìbile"><i>disponìbil</i><par n="fàtzil/e__adj"/></e>
+    <e lm="partizale"><i>partzial</i><par n="fàtzil/e__adj"/></e>
     <e lm="deghimale"><i>deghimal</i><par n="fàtzil/e__adj"/></e>
     <e lm="digitale"><i>digital</i><par n="fàtzil/e__adj"/></e>
     <e lm="minore"><i>minor</i><par n="fàtzil/e__adj"/></e>

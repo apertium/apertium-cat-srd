@@ -392,6 +392,10 @@
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operació<s n="n"/><s n="f"/></l><r>operatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>televisió<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>visió<s n="n"/><s n="f"/></l><r>visione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>debat<s n="n"/><s n="m"/></l><r>dibàtidu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ràdio<s n="n"/><s n="f"/></l><r>ràdiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>esdeveniment<s n="n"/><s n="m"/></l><r>eventu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>obligació<s n="n"/><s n="f"/></l><r>òbrigu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cama<s n="n"/><s n="f"/></l><r>anca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vall<s n="n"/><s n="f"/></l><r>adde<s n="n"/><s n="f"/></r></p></e>
@@ -531,6 +535,7 @@
     <e><p><l>ciclista<s n="n"/><s n="mf"/></l><r>tziclista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>ciutadania<s n="n"/><s n="f"/></l><r>tzitadinàntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oficialitat<s n="n"/><s n="f"/></l><r>ufitzialidade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>qüestió<s n="n"/><s n="f"/></l><r>chistione<s n="n"/><s n="f"/></r></p></e>
 
 
     <e><p><l>glossari<s n="n"/><s n="m"/></l><r>glossàriu<s n="n"/><s n="m"/></r></p></e>
@@ -638,6 +643,7 @@
     <e><p><l>mort<s n="n"/><s n="f"/></l><r>morte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cosa<s n="n"/><s n="f"/></l><r>cosa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>taula<s n="n"/><s n="f"/></l><r>mesa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>causa<s n="n"/><s n="f"/></l><r>càusa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>energia<s n="n"/><s n="f"/></l><r>energia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>papa<s n="n"/><s n="m"/></l><r>paba<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mes<s n="n"/><s n="m"/></l><r>mese<s n="n"/><s n="m"/></r></p></e>
@@ -2203,6 +2209,9 @@
     <e><p><l>etimològic<s n="adj"/></l><r>etimològicu<s n="adj"/></r></p></e>
     <e><p><l>fàcil<s n="adj"/></l><r>fàtzile<s n="adj"/></r></p></e>
     <e><p><l>gallec<s n="adj"/></l><r>galitzianu<s n="adj"/></r></p></e>
+    <e><p><l>negatiu<s n="adj"/></l><r>negativu<s n="adj"/></r></p></e>
+    <e><p><l>parcial<s n="adj"/></l><r>partziale<s n="adj"/></r></p></e>
+    <e><p><l>directe<s n="adj"/></l><r>diretu<s n="adj"/></r></p><par n="persa_persianu"/></e> 
     <e><p><l>gràfic<s n="adj"/></l><r>gràficu<s n="adj"/></r></p></e>
     <e><p><l>gramatical<s n="adj"/></l><r>grammaticale<s n="adj"/></r></p></e>
     <e><p><l>inicial<s n="adj"/></l><r>initziale<s n="adj"/></r></p></e>
