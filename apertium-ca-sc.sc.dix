@@ -239,6 +239,7 @@
       <e>       <p><l>illi</l><r>illi<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e>       <p><l>ìgia</l><r>illi<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>ìgias</l><r>illi<s n="num"/><s n="mf"/><s n="pl"/></r></p></e> <!-- @!LSC ? p. 5 -->
+      <e r="LR"><p><l>izas</l><r>illi<s n="num"/><s n="mf"/><s n="pl"/></r></p></e> <!-- @!LSC -->
     </pardef>
 
     <!-- SECTION: Pronomi -->
@@ -2358,6 +2359,7 @@
     <e lm="cantone"><i>cantone</i><par n="mesa__n"/></e>
     <e lm="cantzone"><i>cantzone</i><par n="mesa__n"/></e>
     <e lm="presèntzia"><i>pres</i><par n="difer/èntzia__n"/></e>
+    <e lm="insistèntzia"><i>insist</i><par n="difer/èntzia__n"/></e>
     <e lm="lissèntzia"><i>liss</i><par n="difer/èntzia__n"/></e>
     <e lm="currispondèntzia"><i>currispond</i><par n="difer/èntzia__n"/></e>
     <e lm="indulgèntzia"><i>indulg</i><par n="difer/èntzia__n"/></e>
@@ -3983,6 +3985,7 @@
     <e lm="istudiosu"><i>istudios</i><par n="frantzes/u__adj"/></e>
     <e lm="istudiosu" r="LR"><p><l>istuidios</l><r>istudios</r></p><par n="frantzes/u__adj"/></e>
     <e lm="logudoresu"><i>logudores</i><par n="frantzes/u__adj"/></e>
+    <e lm="libanesu"><i>libanes</i><par n="frantzes/u__adj"/></e>
     <e lm="aligeresu"><i>aligeres</i><par n="frantzes/u__adj"/></e>
     <e lm="aligeresu" r="LR"><p><l>aligares</l><r>aligeres</r></p><par n="frantzes/u__adj"/></e>
     <e lm="portughesu"><i>portughes</i><par n="frantzes/u__adj"/></e>
@@ -4401,6 +4404,9 @@
     <e lm="pro esempru"><i>pro<b/>esempru</i><par n="bene__adv"/></e>
     <e lm="a malu"><i>a<b/>malu</i><par n="bene__adv"/></e>
 
+    <e lm="oru·oru"><i>oru·oru</i><par n="bene__adv"/></e>
+    <e lm="in s’oru"><i>in<b/>s’oru</i><par n="bene__adv"/></e>
+
     <e lm="liberamente"><i>liberament</i><par n="altament/e__adv"/></e>
     <e lm="arbitrariamente"><i>arbitrariament</i><par n="altament/e__adv"/></e>
     <e lm="publicamente"><i>publicament</i><par n="altament/e__adv"/></e>
@@ -4409,6 +4415,7 @@
     <e lm="modernamente"><i>modernament</i><par n="altament/e__adv"/></e>
     <e lm="ecuamente"><i>ecuament</i><par n="altament/e__adv"/></e>
     <e lm="diretamente"><i>diretament</i><par n="altament/e__adv"/></e>
+
 
     <e lm="massimamente"><i>massimament</i><par n="altament/e__adv"/></e>
     <e lm="malamente"><i>malament</i><par n="altament/e__adv"/></e>
@@ -4957,6 +4964,7 @@
     <e lm="timere"><i>tim</i><par n="tim/ere__vblex"/></e>
     <e lm="tradùere"><i>tradù</i><par n="tim/ere__vblex"/></e>
     <e lm="normalizere"><i>normaliz</i><par n="tim/ere__vblex"/></e>
+    <e lm="collochere"><i>colloch</i><par n="tim/ere__vblex"/></e>
     <e lm="pèrdere"><i>pèrd</i><par n="tim/ere__vblex"/></e>
     <e lm="ispèrdere"><i>ispèrd</i><par n="tim/ere__vblex"/></e>
     <!--<e lm="tòddere"><i>tòdd</i><par n="tim/ere__vblex"/></e>-->

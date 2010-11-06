@@ -387,6 +387,7 @@
     <e><p><l>llapis<s n="n"/><s n="m"/></l><r>lapis<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>casa<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>obediència<s n="n"/><s n="f"/></l><r>obbedièntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>insistència<s n="n"/><s n="f"/></l><r>insistèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>desobediència<s n="n"/><s n="f"/></l><r>disubidièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operació<s n="n"/><s n="f"/></l><r>operatzione<s n="n"/><s n="f"/></r></p></e>
@@ -1931,6 +1932,7 @@
     <e><p><l>comú<s n="adj"/></l><r>comunu<s n="adj"/></r></p></e>
     <e><p><l>antic<s n="adj"/></l><r>antigu<s n="adj"/></r></p></e>
     <e><p><l>aragonès<s n="adj"/></l><r>aragonesu<s n="adj"/></r></p></e>
+    <e><p><l>libanès<s n="adj"/></l><r>libanesu<s n="adj"/></r></p></e>
     <e><p><l>japonès<s n="adj"/></l><r>giapponesu<s n="adj"/></r></p></e>
     <e><p><l>suec<s n="adj"/></l><r>svedesu<s n="adj"/></r></p></e>
     <e><p><l>megalític<s n="adj"/></l><r>megalìticu<s n="adj"/></r></p></e>
@@ -2282,6 +2284,8 @@
 
     <e><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="adv"/></r></p></e>
 
+    <e><p><l>marginalment<s n="adv"/></l><r>oru·oru<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>marginalment<s n="adv"/></l><r>in<b/>s’oru<s n="adv"/></r></p></e>
     <e><p><l>almenys<s n="adv"/></l><r>a<b/>su<b/>nessi<s n="adv"/></r></p></e>
     <e><p><l>malament<s n="adv"/></l><r>male<s n="adv"/></r></p></e>
     <e><p><l>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></l><r>intro<b/>de<b/>pagu<b/>tempus<s n="adv"/></r></p></e>
@@ -2496,7 +2500,6 @@
     <e><p><l>interessar<s n="vblex"/></l><r>interessare<s n="vblex"/></r></p></e>
     <e><p><l>costar<s n="vblex"/></l><r>costare<s n="vblex"/></r></p></e>
     <e><p><l>mostrar<s n="vblex"/></l><r>mustrare<s n="vblex"/></r></p></e>
-    <e><p><l>col·locar<s n="vblex"/></l><r>collocare<s n="vblex"/></r></p></e>
     <e><p><l>discutir<s n="vblex"/></l><r>chistionare<s n="vblex"/></r></p></e>
     <e><p><l>ballar<s n="vblex"/></l><r>ballare<s n="vblex"/></r></p></e>
     <e><p><l>acabar<s n="vblex"/></l><r>acabare<s n="vblex"/></r></p></e>
@@ -2837,6 +2840,8 @@
     <e><p><l>complicar<s n="vblex"/></l><r>cumplicare<s n="vblex"/></r></p></e>
     <e><p><l>apassionar<s n="vblex"/></l><r>apassionare<s n="vblex"/></r></p></e>
     <e><p><l>experimentar<s n="vblex"/></l><r>esperimentare<s n="vblex"/></r></p></e>
+    <e><p><l>col·locar<s n="vblex"/></l><r>collocare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>col·locar<s n="vblex"/></l><r>collochere<s n="vblex"/></r></p></e>
 
 
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>mutire<s n="vblex"/></r></p></e>
