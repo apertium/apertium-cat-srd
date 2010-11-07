@@ -120,4 +120,22 @@
     </pipeline>
   </mode>
 
+  <mode name="sc-lsc" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="sc-ca.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="sc-ca.prob"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="ca-sc.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="ca-sc.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 </modes>

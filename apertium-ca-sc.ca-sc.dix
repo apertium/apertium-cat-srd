@@ -326,6 +326,12 @@
 
     <e><p><l>llur<s n="det"/><s n="pos"/></l><r>issoro<s n="det"/><s n="pos"/></r></p><par n="llur_issoro"/></e>
 
+    <e r="LR"><p><l>el<b/>meu<s n="det"/><s n="pos"/></l><r>meu<s n="adj"/><s n="pos"/></r></p></e>
+    <e r="LR"><p><l>el<b/>teu<s n="det"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
+    <e r="LR"><p><l>el<b/>seu<s n="det"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
+    <e r="LR"><p><l>el<b/>nostre<s n="det"/><s n="pos"/></l><r>nostru<s n="adj"/><s n="pos"/></r></p></e>
+    <e r="LR"><p><l>el<b/>vostre<s n="det"/><s n="pos"/></l><r>bostru<s n="adj"/><s n="pos"/></r></p></e>
+
     <!-- SECTION:  Numerals -->
 
     <e><p><l>u<s n="num"/></l><r>unu<s n="num"/></r></p><par n="u_unu"/></e>

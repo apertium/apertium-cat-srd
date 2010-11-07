@@ -4,11 +4,11 @@
 <def-cat n="prn">
    <cat-item tags="prn.*"/>
 </def-cat>
-<def-cat n="det">
-   <cat-item tags="det.*"/>
-</def-cat>
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
+</def-cat>
+<def-cat n="det">
+   <cat-item tags="det.*"/>
 </def-cat>
 <def-cat n="adj_pos">
    <cat-item tags="adj.pos.*"/>
@@ -175,6 +175,11 @@
    <attr-item tags="vbhaver.pp"/>
    <attr-item tags="vbmod.pp"/>
    <attr-item tags="vbser.pp"/>
+</def-attr>
+<def-attr n="a_pos">
+   <attr-item tags="adj.pos"/>
+   <attr-item tags="det.pos"/>
+   <attr-item tags="prn.pos"/>
 </def-attr>
 
 </section-def-attrs>
@@ -2123,9 +2128,104 @@
 	</when>
       </choose>      
     </def-macro>      
+
+    <def-macro n="f_det_to_adj_pos1" npar="1">
+      <choose>
+        <let>
+          <clip pos="1" side="tl" part="a_pos"/>
+          <lit-tag v="adj.pos"/>
+        </let>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="el seu"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="suo"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="el meu"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="meu"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="el teu"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="tuo"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="el nostre"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="nostru"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="1" side="sl" part="lem"/>
+              <lit v="el vostre"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="bostru"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
 <section-rules>
+
+<rule comment="regla: det_pos">
+   <pattern>
+     <pattern-item n="det_pos"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <call-macro n="f_det_to_adj_pos1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="a_pos"/>
+         <clip pos="1" side="tl" part="gen"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: det">
    <pattern>
      <pattern-item n="det"/>
@@ -2261,6 +2361,46 @@
 
       </action>
     </rule>
+
+    <rule comment="regla: det_pos nom"> 
+      <pattern>
+        <pattern-item n="det_pos"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_det_to_adj_pos1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <lit v="su"/>
+            <lit-tag v="det.def"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="gen"/>
+            <clip pos="2" side="tl" part="nbr"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_pos"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="regla: det nom"> 
       <pattern>

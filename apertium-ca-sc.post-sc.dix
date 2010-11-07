@@ -320,6 +320,12 @@
       <e>
         <i>*h</i>
       </e>
+      <e>
+        <i>*ì</i>
+      </e>
+      <e>
+        <i>ì</i>
+      </e>
     </pardef> 
 
    <pardef n="vocal_sin_h">
@@ -437,6 +443,14 @@
       </e>
      <e>
         <p>
+          <l><a/>s'<b/></l>
+          <r>s'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+
+     <e>
+        <p>
           <l><a/>una<b/></l>
           <r>un'</r>
         </p>
@@ -450,7 +464,13 @@
         <par n="vocals"/>
       </e>
 
-
+     <e>
+        <p>
+          <l><a/>un'<b/></l>
+          <r>un'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
   </section>
 
 </dictionary>

@@ -1,7 +1,7 @@
 <dictionary>
 <!-- http://www.regione.sardegna.it/documenti/1_72_20060418160308.pdf -->
 <!-- -->
-  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóúKQYXWÍĞĀŚĘÉÂŞÖÑkqyxwíğāśęéâşöñıōṃ</alphabet>
+  <alphabet>ABCDEFGHIJLMNOPRSTUVZÀÈÒÌÙabcdefghijlmnoprstuvzàèòìùáéíóúKQYXWÍĞĀŚĘÉÂŞÖÑÇkqyxwíğāśęéâşöñıōṃç</alphabet>
   <sdefs>
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
@@ -1443,6 +1443,7 @@
       <e>       <p><l>aghes</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>aghet</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ai</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
+      <e r="LR"><p><l>ait</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- @!LSC -->
       <e>       <p><l>aghimus</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>aghides</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>aghent</l><r>àghere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1874,6 +1875,7 @@
     <e lm="foras"><i>foras</i><par n="a__pr"/></e>
     <e lm="in foras de"><i>in<b/>foras<b/>de</i><par n="a__pr"/></e>
     <e lm="a foras de"><i>a<b/>foras<b/>de</i><par n="a__pr"/></e>
+    <e lm="a foras de" r="LR"><p><l>a<b/>fora<b/>de</l><r>a<b/>foras<b/>de</r></p><par n="a__pr"/></e>
     <e lm="foras de"><i>foras<b/>de</i><par n="a__pr"/></e>
     <e lm="intro"><i>intro</i><par n="a__pr"/></e>
     <e lm="a inghìriu"><i>a<b/>inghìriu</i><par n="a__pr"/></e>
@@ -1885,7 +1887,7 @@
     <!--<e lm="largu"><i>largu</i><par n="a__pr"/></e>-->
     <!--<e lm="indedda"><i>indedda</i><par n="a__pr"/></e>-->
     <!--<e lm="in prus"><i>in<b/>prus</i><par n="a__pr"/></e>-->
-    <!--<e lm="in s’oru"><i>in<b/>s’oru</i><par n="a__pr"/></e>-->
+    <!--<e lm="in s'oru"><i>in<b/>s'oru</i><par n="a__pr"/></e>-->
     <!--<e lm="paris"><i>paris</i><par n="a__pr"/></e>-->
     <!--<e lm="in fatu"><i>in<b/>fatu</i><par n="a__pr"/></e>-->
     <e lm="in mesu de"><i>in<b/>mesu<b/>de</i><par n="a__pr"/></e>
@@ -2056,8 +2058,6 @@
     <e lm="XVIII"><i>XVIII</i><par n="XIII__num"/></e>
     <e lm="XIX"><i>XIX</i><par n="XIII__num"/></e>
     <e lm="XX"><i>XX</i><par n="XIII__num"/></e>
-
-    <e lm="bintunu milli"><i>bintunu<b/>m</i><par n="m/illi__num"/></e>
 
     <e lm="milli"><i>m</i><par n="m/illi__num"/></e>
     <e lm="millione"><i>millione</i><par n="pane__n"/></e>
@@ -3607,6 +3607,7 @@
     <e lm="Mosca"><i>Mosca</i><par n="Etiòpia__np"/></e>
     <e lm="Avignone"><i>Avignone</i><par n="Etiòpia__np"/></e>
     <e lm="Frantza"><i>Frantza</i><par n="Etiòpia__np"/></e>
+    <e lm="Frantza" r="LR"><p><l>Frància</l><r>Frantza</r></p><par n="Etiòpia__np"/></e>
     <e lm="Pamplona"><i>Pamplona</i><par n="Etiòpia__np"/></e>
     <e lm="Gaza"><i>Gaza</i><par n="Etiòpia__np"/></e>
     <e lm="Califòrnia"><i>Califòrnia</i><par n="Etiòpia__np"/></e>
@@ -4350,6 +4351,7 @@
 
     <e lm="democràticu"><i>democràtic</i><par n="frantzes/u__adj"/></e>
     <e lm="democràticu" r="LR"><p><l>democratic</l><r>democràtic</r></p><par n="frantzes/u__adj"/></e>
+    <e lm="democràticu" r="LR"><p><l>democràtig</l><r>democràtic</r></p><par n="frantzes/u__adj"/></e>
 
     <e lm="iscientìficu"><i>iscientìfic</i><par n="frantzes/u__adj"/></e>
     <e lm="iscientìficu" r="LR"><p><l>scientific</l><r>iscientìfic</r></p><par n="frantzes/u__adj"/></e>
@@ -4581,7 +4583,7 @@
     <!--<e lm="in segus"><i>in<b/>segus</i><par n="bene__adv"/></e>-->
     <e lm="a lestru"><i>a<b/>lestru</i><par n="bene__adv"/></e>
     <e lm="a sa revessa"><i>a<b/>sa<b/>revessa</i><par n="bene__adv"/></e>
-    <!--<e lm="a s’imbesse"><i>a<b/>s’imbesse</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'imbesse"><i>a<b/>s'imbesse</i><par n="bene__adv"/></e>-->
     <e lm="a bellu"><i>a<b/>bellu</i><par n="bene__adv"/></e>
     <e lm="a forte"><i>a<b/>forte</i><par n="bene__adv"/></e>
     <e lm="petzi"><i>petzi</i><par n="bene__adv"/></e>
@@ -4597,7 +4599,7 @@
     <!--<e lm="de badas"><i>de<b/>badas</i><par n="bene__adv"/></e>-->
     <e lm="de repente"><i>de<b/>repente</i><par n="bene__adv"/></e>
     <!--<e lm="totu in unu"><i>totu<b/>in<b/>unu</i><par n="bene__adv"/></e>-->
-    <!--<e lm="a s’ispessada"><i>a<b/>s’ispessada</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'ispessada"><i>a<b/>s'ispessada</i><par n="bene__adv"/></e>-->
     <e lm="a fortza"><i>a<b/>fortza</i><par n="bene__adv"/></e>
     <!--<e lm="in curtzu"><i>in<b/>curtzu</i><par n="bene__adv"/></e>-->
     <!--<e lm="in cara"><i>in<b/>cara</i><par n="bene__adv"/></e>-->
@@ -4606,7 +4608,7 @@
     <e lm="a malu"><i>a<b/>malu</i><par n="bene__adv"/></e>
 
     <e lm="oru·oru"><i>oru·oru</i><par n="bene__adv"/></e>
-    <e lm="in s’oru"><i>in<b/>s’oru</i><par n="bene__adv"/></e>
+    <e lm="in s'oru"><i>in<b/>s'oru</i><par n="bene__adv"/></e>
 
     <e lm="liberamente"><i>liberament</i><par n="altament/e__adv"/></e>
     <e lm="arbitrariamente"><i>arbitrariament</i><par n="altament/e__adv"/></e>
@@ -4717,8 +4719,8 @@
     <e lm="luego"><i>luego</i><par n="bene__adv"/></e>
     <e lm="a mesu die"><i>a<b/>mesu<b/>die</i><par n="bene__adv"/></e>
     <e lm="a mesu note"><i>a<b/>mesu<b/>note</i><par n="bene__adv"/></e>
-    <!--<e lm="a s’ispissu"><i>a<b/>s’ispissu</i><par n="bene__adv"/></e>-->
-    <!--<e lm="a s’ora"><i>a<b/>s’ora</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'ispissu"><i>a<b/>s'ispissu</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'ora"><i>a<b/>s'ora</i><par n="bene__adv"/></e>-->
     <e lm="giai"><i>giai</i><par n="bene__adv"/></e>
     <e lm="giai" r="LR"><p><l>zai</l><r>giai</r></p><par n="bene__adv"/></e>
     <e lm="tando"><i>tando</i><par n="bene__adv"/></e>
@@ -4732,9 +4734,9 @@
     <!--<e lm="a disora"><i>a<b/>disora</i><par n="bene__adv"/></e>-->
     <!--<e lm="a distempus"><i>a<b/>distempus</i><par n="bene__adv"/></e>-->
     <!--<e lm="in puddiles"><i>in<b/>puddiles</i><par n="bene__adv"/></e>-->
-    <!--<e lm="a s’arbèschida"><i>a<b/>s’arbèschida</i><par n="bene__adv"/></e>-->
-    <!--<e lm="a s’iscurigadòrgiu"><i>a<b/>s’iscurigadòrgiu</i><par n="bene__adv"/></e>-->
-    <!--<e lm="a s’interinada"><i>a<b/>s’interinada</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'arbèschida"><i>a<b/>s'arbèschida</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'iscurigadòrgiu"><i>a<b/>s'iscurigadòrgiu</i><par n="bene__adv"/></e>-->
+    <!--<e lm="a s'interinada"><i>a<b/>s'interinada</i><par n="bene__adv"/></e>-->
 
     <e lm="a.C."><i>a.C</i><par n="bene__adv"/></e>
     <e lm="d.C."><i>d.C</i><par n="bene__adv"/></e>
@@ -5284,6 +5286,7 @@
 
     <e lm="fàghere"><i>f</i><par n="f/àghere__vblex"/></e> 
     <e lm="fàghere parte"><i>f</i><par n="f/àghere__vblex"/><p><l><b/>parte</l><r><g><b/>parte</g></r></p></e> 
+    <e lm="fàghere parte" r="LR"><i>f</i><par n="f/àghere__vblex"/><p><l><b/>parti</l><r><g><b/>parte</g></r></p></e> 
 
     <e lm="pòdere"><i>p</i><par n="p/òdere__vblex"/></e> 
 
@@ -5349,28 +5352,31 @@
     <e lm="eddìest" r="LR"><p><l>eddìest</l><r>e<s n="cnjcoo"/><j/>èssere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="e-i" r="LR"><p><l>e-i</l><r>e<s n="cnjcoo"/></r></p></e> <!-- ez dakit zer den 'i'a hemen -->
 
-    <e lm="b’at"><p><l>b’at</l><r>b’at<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="b'at"><p><l>b'at</l><r>b'at<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 
   </section>
 
   <section id="apostrophe" type="postblank">
-    <e lm="s’" r="LR"><p><l>s’</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="un’" r="LR"><p><l>un’</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="l’" r="LR"><p><l>l’</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="dd’" r="LR"><p><l>dd’</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="edd’" r="LR"><p><l>edd’</l><r>e<s n="cnjcoo"/></r></p></e>
-    <e lm="ind’" r="LR"><p><l>ind’</l><r>in<s n="pr"/></r></p></e>
-    <e lm="d’" r="LR"><p><l>d’</l><r>de<s n="pr"/></r></p></e>
-    <e lm="m’" r="LR"><p><l>m’</l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="t’" r="LR"><p><l>t’</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="cun d’" r="LR"><p><l>cun<b/>d’</l><r>cun<s n="pr"/></r></p></e>
+    <e lm="s'" r="LR"><p><l>s'</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="s'" r="RL"><p><l><a/>s'</l><r>su<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="un'" r="LR"><p><l>un'</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="un'" r="RL"><p><l><a/>un'</l><r>unu<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e lm="l'" r="LR"><p><l>l'</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="dd'" r="LR"><p><l>dd'</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="edd'" r="LR"><p><l>edd'</l><r>e<s n="cnjcoo"/></r></p></e>
+    <e lm="ind'" r="LR"><p><l>ind'</l><r>in<s n="pr"/></r></p></e>
+    <e lm="d'" r="LR"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e lm="m'" r="LR"><p><l>m'</l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="t'" r="LR"><p><l>t'</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="cun d'" r="LR"><p><l>cun<b/>d'</l><r>cun<s n="pr"/></r></p></e>
     <e lm="cun d-" r="LR"><p><l>cun<b/>d-</l><r>cun<s n="pr"/></r></p></e>
-    <e lm="nd’" r="LR"><p><l>nd’</l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e lm="nch’" r="LR"><p><l>nch’</l><r>nche<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e lm="cuss’" r="LR"><p><l>cuss’</l><r>cussu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="cust’" r="LR"><p><l>cust’</l><r>custu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="b’" r="LR"><p><l>b’</l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e lm="s’" r="LR"><p><l>s’</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="nd'" r="LR"><p><l>nd'</l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e lm="nch'" r="LR"><p><l>nch'</l><r>nche<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e lm="cuss'" r="LR"><p><l>cuss'</l><r>cussu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="cust'" r="LR"><p><l>cust'</l><r>custu<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="b'" r="LR"><p><l>b'</l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="s'" r="LR"><p><l>s'</l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
