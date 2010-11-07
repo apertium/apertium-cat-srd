@@ -85,6 +85,8 @@
 </def-cat>
 <def-cat n="inf">
    <cat-item tags="vblex.inf"/>
+   <cat-item tags="vbser.inf"/>
+   <cat-item tags="vbhaver.inf"/>
 </def-cat>
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
