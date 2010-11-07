@@ -1028,6 +1028,7 @@
       <e>       <p><l>et</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>emus</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e>       <p><l>ade</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ade</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e>       <p><l>ent</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e r="LR"><p><l>au</l><r>are<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e> <!-- @!LSC -->
@@ -1829,6 +1830,7 @@
     <e lm="comente" r="LR"><p><l>comenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
     <e lm="comente" r="LR"><p><l>cumenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
     <e lm="comente" r="LR"><p><l>commenti</l><r>comente</r></p><par n="chi__cnjsub"/></e>
+    <e lm="comente" r="LR"><p><l>cummente</l><r>comente</r></p><par n="chi__cnjsub"/></e>
 
     <e lm="cando"><i>cando</i><par n="chi__cnjsub"/></e>
     <e lm="cando" r="LR"><p><l>candu</l><r>cando</r></p><par n="chi__cnjsub"/></e>
@@ -2174,7 +2176,8 @@
     <e lm="panorama"><i>panorama</i><par n="pane__n"/></e>
     <e lm="programma"><i>programma</i><par n="pane__n"/></e>
     <e lm="programma" r="LR"><p><l>programa</l><r>programma</r></p><par n="pane__n"/></e>
-    <e lm="internet"><i>internet</i><par n="pane__n"/></e>
+    <e lm="internèt"><i>internèt</i><par n="pane__n"/></e>
+    <e lm="internèt" r="LR"><p><l>internet</l><r>internèt</r></p><par n="pane__n"/></e>
     <e lm="setore"><i>setore</i><par n="pane__n"/></e>
 
     <e lm="lege"><i>lege</i><par n="pane__n"/></e>
@@ -2223,6 +2226,7 @@
 
     <e lm="ìsula"><i>ìsula</i><par n="mesa__n"/></e>
     <e lm="ìsula" r="LR"><p><l>isola</l><r>ìsula</r></p><par n="mesa__n"/></e>
+    <e lm="ìsula" r="LR"><p><l>isula</l><r>ìsula</r></p><par n="mesa__n"/></e>
     <e lm="mesa"><i>mesa</i><par n="mesa__n"/></e>
     <e lm="cabra"><i>cabra</i><par n="mesa__n"/></e>
     <e lm="crae"><i>crae</i><par n="mesa__n"/></e>
@@ -2324,7 +2328,8 @@
     <e lm="arte"><i>arte</i><par n="mesa__n"/></e>
     <e lm="ora"><i>ora</i><par n="mesa__n"/></e>
     <e lm="infrastrutura"><i>infrastrutura</i><par n="mesa__n"/></e>
-    <e lm="peninsula"><i>peninsula</i><par n="mesa__n"/></e>
+    <e lm="penìsola"><i>penìsola</i><par n="mesa__n"/></e>
+    <e lm="penìsola" r="LR"><p><l>peninsula</l><r>penìsola</r></p><par n="mesa__n"/></e>
     <e lm="die"><i>die</i><par n="mesa__n"/></e>
     <e lm="die" r="LR"><p><l>dii</l><r>die</r></p><par n="mesa__n"/></e>
     <e lm="capitale" r="LR"><p><l>capitali</l><r>capitale</r></p><par n="mesa__n"/></e>
@@ -2348,6 +2353,7 @@
 
     <e lm="libertade"><i>libertad</i><par n="identidad/e__n"/></e>
     <e lm="natzionalidade"><i>natzionalidad</i><par n="identidad/e__n"/></e>
+    <e lm="gravidade"><i>gravidad</i><par n="identidad/e__n"/></e>
     <e lm="fatzilidade"><i>fatzilidad</i><par n="identidad/e__n"/></e>
     <e lm="diversidade"><i>diversidad</i><par n="identidad/e__n"/></e>
     <e lm="modalidade"><i>modalidad</i><par n="identidad/e__n"/></e>
@@ -2453,6 +2459,7 @@
     <e lm="visione"><i>vision</i><par n="region/e__n"/></e>
     <e lm="difusione"><i>difusion</i><par n="region/e__n"/></e>
     <e lm="intromissione"><i>intromission</i><par n="region/e__n"/></e>
+    <e lm="emissione"><i>emission</i><par n="region/e__n"/></e>
     <e lm="opressione"><i>opression</i><par n="region/e__n"/></e>
     <e lm="mansione"><i>mansion</i><par n="region/e__n"/></e>
     <e lm="omissione"><i>omission</i><par n="region/e__n"/></e>
@@ -2919,6 +2926,7 @@
     <e lm="règula" r="LR"><p><l>regula</l><r>règula</r></p><par n="mesa__n"/></e>
     <e lm="carriera"><i>carriera</i><par n="mesa__n"/></e>
     <e lm="forma"><i>forma</i><par n="mesa__n"/></e>
+    <e lm="plataforma"><i>plataforma</i><par n="mesa__n"/></e>
     <e lm="abilidade"><i>abilidad</i><par n="identidad/e__n"/></e>
     <e lm="colònia"><i>colònia</i><par n="mesa__n"/></e>
     <e lm="colònia" r="LR"><p><l>colonia</l><r>colònia</r></p><par n="mesa__n"/></e>
@@ -3498,6 +3506,7 @@
 
     <e lm="Etiòpia"><i>Etiòpia</i><par n="Etiòpia__np"/></e>
     <e lm="Vall d'Aran"><i>Vall<b/>d'Aran</i><par n="Etiòpia__np"/></e>
+    <e lm="Vall d'Aran" r="LR"><p><l>Val<b/>d'Aran</l><r>Vall<b/>d'Aran</r></p><par n="Etiòpia__np"/></e>
 
     <e lm="Itàlia"><i>Itàlia</i><par n="Etiòpia__np"/></e>
     <e lm="Itàlia" r="LR"><p><l>Italia</l><r>Itàlia</r></p><par n="Etiòpia__np"/></e>
@@ -4793,6 +4802,7 @@
     <e lm="publicare"><i>public</i><par n="cant/are__vblex"/></e>
     <e lm="publicare" r="LR"><p><l>pubblic</l><r>public</r></p><par n="cant/are__vblex"/></e>
     <e lm="publicare" r="LR"><p><l>pubric</l><r>public</r></p><par n="cant/are__vblex"/></e>
+    <e lm="publicare" r="LR"><p><l>pubbric</l><r>public</r></p><par n="cant/are__vblex"/></e>
     <e lm="buscare"><i>busc</i><par n="cant/are__vblex"/></e>
     <e lm="istudiare"><i>istudi</i><par n="cant/are__vblex"/></e>
     <e lm="cumandare"><i>cumand</i><par n="cant/are__vblex"/></e>
@@ -4842,6 +4852,7 @@
     <e lm="accumpagnare"><i>accumpagn</i><par n="cant/are__vblex"/></e>
     <e lm="accumpagnare" r="LR"><p><l>accumpangi</l><r>accumpagn</r></p><par n="cant/are__vblex"/></e>
     <e lm="cunfirmare"><i>cunfirm</i><par n="cant/are__vblex"/></e>
+    <e lm="formalizare"><i>formaliz</i><par n="cant/are__vblex"/></e>
 
     <e lm="fundare"><i>fund</i><par n="cant/are__vblex"/></e>
     <e lm="fundare" r="LR"><p><l>fundh</l><r>fund</r></p><par n="cant/are__vblex"/></e>
@@ -4921,7 +4932,8 @@
     <e lm="reclamare"><i>reclam</i><par n="cant/are__vblex"/></e>
     <e lm="ritziclare"><i>ritzicl</i><par n="cant/are__vblex"/></e>
     <e lm="ruinare"><i>ruin</i><par n="cant/are__vblex"/></e>
-    <e lm="sarvare"><i>sarv</i><par n="cant/are__vblex"/></e>
+    <e lm="sarbare"><i>sarb</i><par n="cant/are__vblex"/></e>
+    <e lm="sarbare" r="LR"><p><l>sarv</l><r>sarb</r></p><par n="cant/are__vblex"/></e>
     <e lm="sessare"><i>sess</i><par n="cant/are__vblex"/></e>
     <e lm="triunfare"><i>triunf</i><par n="cant/are__vblex"/></e>
     <e lm="passigiare"><i>passigi</i><par n="cant/are__vblex"/></e>

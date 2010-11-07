@@ -76997,6 +76997,7 @@
 <e lm="duc"><i>du</i><par n="du/c__n"/></e>
 <e lm="euro"><i>euro</i><par n="abric__n"/></e>
 <e lm="treball"><i>treball</i><par n="abric__n"/></e>
+<e lm="treball"><i>treball</i><par n="abric__n"/></e>
 <e lm="canal"><i>canal</i><par n="acompanyant__n"/></e>
 <e lm="component"><i>component</i><par n="acompanyant__n"/></e>
 <e lm="internet"><i>internet</i><par n="càries__n"/></e>
@@ -77273,6 +77274,7 @@
 <e lm="fundador"><i>fundador</i><par n="senyor__n"/></e>
 <e lm="fundador"><i>fundador</i><par n="senyor__n"/></e>
 <e lm="forma"><i>form</i><par n="abell/a__n"/></e>
+<e lm="plataforma"><i>plataform</i><par n="abell/a__n"/></e>
 <e lm="cultura"><i>cultur</i><par n="abell/a__n"/></e>
 <e lm="cinema"><i>cinem</i><par n="carism/a__n"/></e>
 <e lm="sant"><i>sant</i><par n="senyor__n"/></e>
@@ -77329,6 +77331,7 @@
 <e lm="teoria"><i>teori</i><par n="abell/a__n"/></e>
 <e lm="sofriment"><i>sofriment</i><par n="abric__n"/></e>
 <e lm="secessió" a="prompsit2adn"><i>secessi</i><par n="acci/ó__n"/></e>
+<e lm="emissió"><i>emissi</i><par n="acci/ó__n"/></e>
 <e lm="enregistrament"><i>enregistrament</i><par n="abric__n"/></e>
 <e lm="protagonista"><i>protagonist</i><par n="accionist/a__n"/></e>
 <e lm="problema"><i>problem</i><par n="carism/a__n"/></e>
@@ -77433,7 +77436,6 @@
 <e lm="resultat"><i>resultat</i><par n="abric__n"/></e>
 <e lm="frigorífic"><i>frigorífic</i><par n="abric__n"/></e>
 <e lm="títol"><i>títol</i><par n="abric__n"/></e>
-<e lm="treball"><i>treball</i><par n="abric__n"/></e>
 <e lm="càlcul"><i>càlcul</i><par n="abric__n"/></e>
 <e lm="registre"><i>registre</i><par n="abric__n"/></e>
 <e lm="circuit"><i>circuit</i><par n="abric__n"/></e>
@@ -77529,6 +77531,7 @@
 <e lm="decret" a="mginesti"><i>decret</i><par n="abric__n"/></e>
 <e lm="dominació" a="prompsit"><i>dominaci</i><par n="acci/ó__n"/></e>
 <e lm="destrucció"><i>destrucci</i><par n="acci/ó__n"/></e>
+<e lm="gravetat"><i>gravetat</i><par n="accessibilitat__n"/></e>
 <e lm="distribució"><i>distribuci</i><par n="acci/ó__n"/></e>
 <e lm="devoció"><i>devoci</i><par n="acci/ó__n"/></e>
 <e lm="denominació"><i>denominaci</i><par n="acci/ó__n"/></e>
@@ -78230,6 +78233,7 @@
 <!-- prn.xml -->
 
 
+<e r="LR" lm="em"><p><l>em</l>                    <r>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="em"><p><l><a/>em</l>                <r>em</r></p><par n="~em__prn"/></e>
 <e r="LR" lm="et"><i>et</i><par n="et__prn"/></e>
 <e r="RL" lm="et"><p><l><a/>et</l>                <r>et</r></p><par n="et__prn"/></e>
@@ -78245,11 +78249,15 @@
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__prn"/></e>
 <e lm="el"><par n="/el__prn"/></e>
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
 <e r="LR" lm="ho"><i>ho</i><par n="ho__prn"/></e>
 <e r="RL" lm="ho"><p><l><a/>ho</l>                <r>ho</r></p><par n="ho__prn"/></e>
+<e r="LR" lm="es"><p><l>es</l>                    <r>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL" lm="es"><p><l><a/>es</l>                <r>es</r></p><par n="hom__prn"/></e>
+<e r="LR" lm="em"><p><l>em</l>                    <r>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="em"><p><l><a/>em</l>                <r>em</r></p><par n="~em__prn"/></e>
 <e r="LR" lm="et"><i>et</i><par n="et__prn"/></e>
 <e r="RL" lm="et"><p><l><a/>et</l>                <r>et</r></p><par n="et__prn"/></e>
@@ -78267,13 +78275,17 @@
 <e r="RL" lm="ens"><p><l><a/>ens</l>              <r>ens</r></p><par n="ens__prn"/></e>
 <e r="LR" lm="us"><i>us</i><par n="us__prn"/></e>
 <e r="RL" lm="us"><p><l><a/>us</l>                <r>us</r></p><par n="us__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
+<e r="LR" lm="li"><p><l>li</l>                    <r>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="li"><p><l><a/></l>                  <r>l</r></p><par n="~/i__prn"/></e>
 <e lm="el"><par n="/el__prn"/></e>
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__prn"/></e>
 <e lm="el"><par n="/el__prn"/></e>
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__prn"/></e>
+<e r="LR" lm="es"><p><l>es</l>                    <r>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL" lm="es"><p><l><a/>es</l>                <r>es</r></p><par n="hom__prn"/></e>
 <e lm="el"><par n="/el__prn"/></e>
 <e r="RL" lm="el"><p><l><a/></l>                  <r>e</r></p><par n="~/l__prn"/></e>
@@ -78834,6 +78846,7 @@
 <e lm="col·locar"><i>col·lo</i><par n="abo/car__vblex"/></e>
 <e lm="col·locar" r="LR"><p><l>coŀlo</l><r>col·lo</r></p><par n="abo/car__vblex"/></e>
 <e lm="violar"><i>viol</i><par n="abander/ar__vblex"/></e>
+<e lm="formalitzar"><i>formalitz</i><par n="abander/ar__vblex"/></e>
 <e lm="dir"><i>d</i><par n="d/ir__vblex"/></e>
 <e lm="dir"><i>d</i><par n="d/ir__vblex"/></e>
 <e lm="dir"><i>d</i><par n="d/ir__vblex"/></e>
