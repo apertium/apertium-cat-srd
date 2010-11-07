@@ -60,8 +60,8 @@
 <def-cat n="haver_p3">
    <cat-item lemma="haver" tags="vbhaver.*.p3.sg"/>
 </def-cat>
-<def-cat n="dare_prs">
-   <cat-item lemma="dare" tags="vblex.prs.*"/>
+<def-cat n="anar_pri">
+   <cat-item lemma="anar" tags="vblex.pri.*"/>
 </def-cat>
 <def-cat n="top">
    <cat-item tags="np.top.*"/>
@@ -2697,26 +2697,35 @@
    <action>
      <out>
          <lu>
-           <get-case-from pos="1">
-             <lit v="èssere"/>
-           </get-case-from>
-           <lit-tag v="vblex.pri"/>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="pii"/>
            <clip pos="1" side="tl" part="pers"/>
            <clip pos="1" side="tl" part="gen"/>
            <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-         <b/>
-         <lu>
-           <lit v="èssere"/>
-           <lit-tag v="vblex.pp.m.sg"/>
-         </lu>
-         <b/>
-         <lu>
-                      
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <lit-tag v="pp.m.sg"/>
            <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: anar_pri inf">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+           <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <lit-tag v="pii"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
      </out>
    </action>
