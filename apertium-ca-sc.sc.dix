@@ -311,9 +311,13 @@
       <e>       <p><l>s</l><r><s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="l/u__prn" c="p.18 / 105">
-      <e>       <p><l>u</l><r>u<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e>       <p><l>os</l><r>u<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+    <pardef n="/lu__prn" c="p.18 / 105">
+      <e r="RL"><p><l><a/>lu</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>lu</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ddu</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+      <e><p><l>los</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ddos</l><r>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="si__prn" c="p.20 / 105">
@@ -1937,8 +1941,7 @@
 
     <e lm="la"><i>la</i><par n="la__prn"/></e>
     <e lm="la" r="LR"><p><l>dda</l><r>la</r></p><par n="la__prn"/></e>
-    <e lm="lu"><i>l</i><par n="l/u__prn"/></e>
-    <e lm="lu" r="LR"><p><l>dd</l><r>l</r></p><par n="l/u__prn"/></e>
+    <e lm="lu"><i></i><par n="/lu__prn"/></e>
 
     <e lm="nos"><i>nos</i><par n="nos__prn"/></e>
     <e lm="bos"><i>bos</i><par n="bos__prn"/></e>
