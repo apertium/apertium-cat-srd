@@ -290,6 +290,7 @@
     <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>ningú<s n="prn"/><s n="tn"/></l><r>nemos<s n="prn"/><s n="tn"/></r></p></e>
+    <e><p><l>cadascun<s n="prn"/><s n="tn"/></l><r>cadaunu<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>cap<s n="prn"/><s n="tn"/></l><r>perunu<s n="prn"/><s n="tn"/></r></p><par n="persa_persianu"/></e>
     <e><p><l>algú<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p><par n="persa_persianu"/></e>
 
@@ -437,6 +438,7 @@
     <e><p><l>aigua<s n="n"/><s n="f"/></l><r>abba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>operació<s n="n"/><s n="f"/></l><r>operatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>televisió<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>confusió<s n="n"/><s n="f"/></l><r>confusione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>visió<s n="n"/><s n="f"/></l><r>visione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>debat<s n="n"/><s n="m"/></l><r>dibàtidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ràdio<s n="n"/><s n="f"/></l><r>ràdiu<s n="n"/><s n="m"/></r></p></e>
@@ -2395,7 +2397,7 @@
     <e r="RL"><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="adv"/></r></p></e>
 
     <e><p><l>marginalment<s n="adv"/></l><r>oru·oru<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>marginalment<s n="adv"/></l><r>in<b/>s’oru<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>marginalment<s n="adv"/></l><r>in<b/>s'oru<s n="adv"/></r></p></e>
     <e><p><l>almenys<s n="adv"/></l><r>a<b/>su<b/>nessi<s n="adv"/></r></p></e>
 
     <e r="RL"><p><l>malament<s n="adv"/></l><r>male<s n="adv"/></r></p></e>
@@ -2523,7 +2525,7 @@
     <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>de</g><s n="vbmod"/></r></p></e>
     <e><p><l>deure<s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
-    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>b’at<s n="vblex"/></r></p></e>
+    <e><p><l>hi<b/>ha<s n="vblex"/></l><r>b'at<s n="vblex"/></r></p></e>
 
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>

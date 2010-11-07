@@ -75654,6 +75654,16 @@
 <!-- adj.xml -->
 
 
+<e lm="el meu"><par n="/el_meu__det"/></e>
+<e r="RL" lm="el meu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/meu__det"/></e>
+<e lm="el teu"><par n="/el_teu__det"/></e>
+<e r="RL" lm="el teu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/teu__det"/></e>
+<e lm="el seu"><par n="/el_seu__det"/></e>
+<e r="RL" lm="el seu"><p><l><a/>el</l>            <r>el<b/></r></p><par n="~el/seu__det"/></e>
+<e lm="el nostre"><par n="/el_nostre__det"/></e>
+<e r="RL" lm="el nostre"><p><l><a/>el</l>         <r>el<b/></r></p><par n="~el/nostre__det"/></e>
+<e lm="el vostre"><par n="/el_vostre__det"/></e>
+<e r="RL" lm="el vostre"><p><l><a/>el</l>         <r>el<b/></r></p><par n="~el/vostre__det"/></e>
 <e lm="nostre"><i>nostr</i><par n="nostr/e__adj"/></e>
 <e lm="nostre"><i>nostr</i><par n="nostr/e__adj"/></e>
 <e lm="nostre"><i>nostr</i><par n="nostr/e__adj"/></e>
@@ -77007,6 +77017,7 @@
 <e lm="aigua"><i>aig</i><par n="aig/ua__n"/></e>
 <e lm="operació"><i>operaci</i><par n="acci/ó__n"/></e>
 <e lm="televisió"><i>televisi</i><par n="acci/ó__n"/></e>
+<e lm="confusió"><i>confusi</i><par n="acci/ó__n"/></e>
 <e lm="visió"><i>visi</i><par n="acci/ó__n"/></e>
 <e lm="debat"><i>debat</i><par n="abric__n"/></e>
 <e lm="ràdio"><i>ràdio</i><par n="accessibilitat__n"/></e>
@@ -78287,6 +78298,7 @@
 <e lm="ambdós"><i>ambdós</i><par n="ambdós__prn"/></e>
 <e lm="ambdues"><i>ambdues</i><par n="ambdues__prn"/></e>
 <e lm="ningú"><i>ningú</i><par n="algú__prn"/></e>
+<e lm="cadascun"><i>cadascun</i><par n="algun__prn"/></e>
 <e lm="cap"><i>cap</i><par n="algú__prn"/></e>
 <e lm="cap"><i>cap</i><par n="algú__prn"/></e>
 <e lm="cap"><i>cap</i><par n="algú__prn"/></e>
