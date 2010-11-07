@@ -197,10 +197,11 @@
     <e r="RL"><p><l>per<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e><p><l>sobre<s n="pr"/></l><r>subra<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>sobre<s n="pr"/></l><r>a<b/>pitzu<b/>de<s n="pr"/></r></p></e>
     <e><p><l>entre<s n="pr"/></l><r>intre<s n="pr"/></r></p></e>
     <e r="RL"><p><l>entre<s n="pr"/></l><r>tra<s n="pr"/></r></p></e>
     <e><p><l>durant<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
-    <e><p><l>fins<s n="pr"/></l><r>fintzas<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>fins<s n="pr"/></l><r>fintzas<s n="pr"/></r></p></e>
     <e><p><l>fins<s n="pr"/></l><r>finas<s n="pr"/></r></p></e>
     <e><p><l>sota<s n="pr"/></l><r>suta<s n="pr"/></r></p></e>
     <e><p><l>fora<b/>de<s n="pr"/></l><r>foras<s n="pr"/></r></p></e>
@@ -210,15 +211,15 @@
     <e><p><l>dins<s n="pr"/></l><r>intro<s n="pr"/></r></p></e>
     <e><p><l>sense<s n="pr"/></l><r>sena<s n="pr"/></r></p></e>
     <e r="RL"><p><l>sense<s n="pr"/></l><r>francu<s n="pr"/></r></p></e>
-    <e><p><l>sobre<s n="pr"/></l><r>a<b/>pitzu<b/>de<s n="pr"/></r></p></e>
     <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
     <e><p><l>mitjançant<s n="pr"/></l><r>mediante<s n="pr"/></r></p></e>
     <e><p><l>entorn<b/>de<s n="pr"/></l><r>a<b/>inghìriu<s n="pr"/></r></p></e>
     <e><p><l>enfront<b/>de<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
     <e><p><l>al<b/>costat<b/>de<s n="pr"/></l><r>chirru<b/>a<s n="pr"/></r></p></e>
-    <e><p><l>enmig<b/>de<s n="pr"/></l><r>pro<b/>mèdiu<b/>de<s n="pr"/></r></p></e>
+
+    <e r="RL"><p><l>enmig<b/>de<s n="pr"/></l><r>pro<b/>mèdiu<b/>de<s n="pr"/></r></p></e>
+    <e r="RL"><p><l>enmig<b/>de<s n="pr"/></l><r>a<b/>mesu<b/>tra<s n="pr"/></r></p></e>
     <e><p><l>enmig<b/>de<s n="pr"/></l><r>in<b/>mesu<b/>de<s n="pr"/></r></p></e>
-    <e><p><l>enmig<b/>de<s n="pr"/></l><r>a<b/>mesu<b/>tra<s n="pr"/></r></p></e>
 
     <!-- SECTION:  Determiners -->
 
