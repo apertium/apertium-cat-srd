@@ -2,10 +2,13 @@
 /Makefile -text
 /TODO -text
 /apertium-ca-sc.ca-sc.dix -text
+/apertium-ca-sc.ca-sc.t1x -text
 /apertium-ca-sc.post-ca.dix -text
+/apertium-ca-sc.post-sc.dix -text
 /apertium-ca-sc.sc-ca.t1x -text
 /apertium-ca-sc.sc.acx -text
 /apertium-ca-sc.sc.dix -text
+/ca-sc.prob -text svneol=unset#unset
 dev/adv-menti.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text
@@ -24,9 +27,12 @@ dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/missing-bidix-freq.sh -text
 dev/stats.txt -text
+dev/testvoc-summary.ca-sc.txt -text
 dev/testvoc-summary.sc-ca.txt -text
 dev/testvoc.sh -text
 dev/udhr.ca.posteditat.txt -text
 dev/wiki.elaboradore.txt -text
 /modes.xml -text
+/pending-tests.sh -text
 /sc-ca.prob -text svneol=unset#unset
+/wiki-tests.sh -text

@@ -59,4 +59,65 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="ca-sc" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ca-sc.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ca-sc.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-ca-sc.ca-sc.t1x"/>
+        <file name="ca-sc.t1x.bin"/>
+        <file name="ca-sc.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="ca-sc.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="ca-sc.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="ca-sc-morph" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ca-sc.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ca-sc-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ca-sc.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ca-sc.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="ca-sc-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ca-sc.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ca-sc.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-ca-sc.ca-sc.t1x"/>
+        <file name="ca-sc.t1x.bin"/>
+        <file name="ca-sc.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 </modes>

@@ -4,6 +4,13 @@ all:
 	apertium-validate-transfer apertium-ca-sc.sc-ca.t1x
 	apertium-preprocess-transfer apertium-ca-sc.sc-ca.t1x sc-ca.t1x.bin
 	lt-comp lr apertium-ca-sc.post-ca.dix sc-ca.autopgen.bin
+	lt-comp rl ca/ca.dix sc-ca.autogen.bin
+
+	lt-comp lr ca/ca.dix ca-sc.automorf.bin apertium-ca-sc.sc.acx
+	lt-comp lr apertium-ca-sc.ca-sc.dix ca-sc.autobil.bin
+	apertium-preprocess-transfer apertium-ca-sc.ca-sc.t1x ca-sc.t1x.bin
+	lt-comp rl apertium-ca-sc.sc.dix ca-sc.autogen.bin
+	lt-comp lr apertium-ca-sc.post-sc.dix ca-sc.autopgen.bin
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 

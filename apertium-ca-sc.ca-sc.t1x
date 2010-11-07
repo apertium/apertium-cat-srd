@@ -7,9 +7,11 @@
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
+<def-cat n="det_pos">
+   <cat-item tags="det.pos.*"/>
+</def-cat>
 <def-cat n="adj_pos">
    <cat-item tags="adj.pos.*"/>
-   <cat-item tags="det.pos.*"/>
 </def-cat>
 <def-cat n="num">
    <cat-item tags="num.*"/>
@@ -25,14 +27,38 @@
    <cat-item lemma="èssere" tags="vblex.*.p3.sg"/>
    <cat-item lemma="èssere" tags="vblex.*.p3.pl"/>
 </def-cat>
-<def-cat n="bi">
-   <cat-item lemma="bi" tags="prn.pro.p3.mf.sp"/>
+<def-cat n="cni">
+   <cat-item tags="vblex.cni.*"/>
+   <cat-item tags="vbmod.cni.*"/>
+   <cat-item tags="vbhaver.cni.*"/>
+   <cat-item tags="vbser.cni.*"/>
+
+   <!-- qui collons utilitza el futur de subjuntiu ? -->
+   <cat-item tags="vblex.fts.*"/>
+   <cat-item tags="vbmod.fts.*"/>
+   <cat-item tags="vbhaver.fts.*"/>
+   <cat-item tags="vbser.fts.*"/>
+</def-cat>
+<def-cat n="fti">
+   <cat-item tags="vblex.fti.*"/>
+   <cat-item tags="vbmod.fti.*"/>
+   <cat-item tags="vbhaver.fti.*"/>
+   <cat-item tags="vbser.fti.*"/>
+</def-cat>
+<def-cat n="ifi">
+   <cat-item tags="vblex.ifi.*"/>
+   <cat-item tags="vbmod.ifi.*"/>
+   <cat-item tags="vbhaver.ifi.*"/>
+   <cat-item tags="vbser.ifi.*"/>
+</def-cat>
+<def-cat n="hi">
+   <cat-item lemma="hi" tags="prn.pro.adv"/>
 </def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
 </def-cat>
-<def-cat n="àere_pri">
-   <cat-item lemma="àere" tags="vblex.pri.*"/>
+<def-cat n="haver_p3">
+   <cat-item lemma="haver" tags="vbhaver.*.p3.sg"/>
 </def-cat>
 <def-cat n="dare_prs">
    <cat-item lemma="dare" tags="vblex.prs.*"/>
@@ -54,6 +80,8 @@
 <def-cat n="vblex">
    <cat-item tags="vblex.*"/>
    <cat-item tags="vbmod.*"/>
+   <cat-item tags="vbser.*"/>
+   <cat-item tags="vbhaver.*"/>
 </def-cat>
 <def-cat n="inf">
    <cat-item tags="vblex.inf"/>
@@ -2260,16 +2288,16 @@
       </action>
     </rule>
 
-    <rule comment="regla: det nom adj_pos"> 
+    <rule comment="regla: det adj_pos nom"> 
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="nom"/>
         <pattern-item n="adj_pos"/>
+        <pattern-item n="nom"/>
       </pattern>
       <action>
         <call-macro n="f_concord3">
-          <with-param pos="2"/>
           <with-param pos="3"/>
+          <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -2279,7 +2307,7 @@
           <b pos="1"/>
           <lu>
             <clip pos="3" side="tl" part="lemh"/>
-            <clip pos="3" side="tl" part="a_adjec"/>
+            <clip pos="3" side="tl" part="a_nom"/>
             <clip pos="3" side="tl" part="gen"/>
             <clip pos="3" side="tl" part="nbr"/>
             <clip pos="3" side="tl" part="lemq"/>
@@ -2287,7 +2315,7 @@
           <b pos="2"/>
           <lu>
             <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="a_adjec"/>
             <clip pos="2" side="tl" part="gen"/>
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
@@ -2494,6 +2522,99 @@
       </action>
     </rule>
 
+
+<rule comment="regla: cni">
+   <pattern>
+     <pattern-item n="cni"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="dèpere"/>
+           </get-case-from>
+           <lit-tag v="vbmod.pri"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="inf"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: ifi">
+   <pattern>
+     <pattern-item n="ifi"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="èssere"/>
+           </get-case-from>
+           <lit-tag v="vblex.pri"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="èssere"/>
+           <lit-tag v="vblex.pp.m.sg"/>
+         </lu>
+         <b/>
+         <lu>
+                      
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="pp.m.sg"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: fti">
+   <pattern>
+     <pattern-item n="fti"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="àere"/>
+           </get-case-from>
+           <lit-tag v="vblex.pri"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_verb"/>
+           <lit-tag v="inf"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: vblex">
    <pattern>
      <pattern-item n="vblex"/>
@@ -2583,48 +2704,25 @@
    </action>
 </rule>
 
-<rule comment="regla: àere_pri a inf">
+<rule comment="regla: hi haver_p3">
    <pattern>
-     <pattern-item n="àere_pri"/>
-     <pattern-item n="a"/>
-     <pattern-item n="inf"/>
+     <pattern-item n="hi"/>
+     <pattern-item n="haver_p3"/>
    </pattern>
    <action>
      <out>
        <lu>
          <get-case-from pos="1">
-           <clip pos="3" side="tl" part="lemh"/>
+           <lit v="bi"/>
          </get-case-from>
-         <clip pos="3" side="tl" part="a_verb"/>
-         <lit-tag v="fti"/>
-         <clip pos="1" side="tl" part="pers"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
-         <clip pos="3" side="tl" part="lemq"/>
-       </lu>
-     </out>
-   </action>
-</rule>
-
-<rule comment="regla: bi èssere_p3">
-   <pattern>
-     <pattern-item n="bi"/>
-     <pattern-item n="èssere_p3"/>
-   </pattern>
-   <action>
-     <out>
-       <lu>
-         <get-case-from pos="1">
-           <lit v="hi"/>
-         </get-case-from>
-         <lit-tag v="prn.pro.adv"/>
+         <lit-tag v="prn.pro.p3.mf.sp"/>
        </lu>
        <b pos="1"/>
        <lu>
          <get-case-from pos="2">
-           <lit v="haver"/>
+           <lit v="èssere"/>
          </get-case-from>
-         <lit-tag v="vbhaver"/>
+         <lit-tag v="vblex"/>
          <clip pos="2" side="tl" part="temps"/>
          <clip pos="2" side="tl" part="pers"/>
          <lit-tag v="sg"/>
@@ -2924,30 +3022,6 @@
      </out>
    </action>
 </rule>
-
-
-<rule comment="regla: dare_prs inf">
-   <pattern>
-     <pattern-item n="dare_prs"/>
-     <pattern-item n="inf"/>
-   </pattern>
-   <action>
-     <out>
-         <lu>
-           <get-case-from pos="1">
-             <clip pos="2" side="tl" part="lemh"/>
-           </get-case-from>
-           <clip pos="2" side="tl" part="a_verb"/>
-           <lit-tag v="cni"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-           <clip pos="2" side="tl" part="lemq"/>
-         </lu>
-     </out>
-   </action>
-</rule>
-
 
 
 </section-rules>

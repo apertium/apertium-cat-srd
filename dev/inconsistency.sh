@@ -10,7 +10,7 @@ paste -d _ $TMPDIR/tmp_testvoc1.txt $TMPDIR/tmp_testvoc2.txt $TMPDIR/tmp_testvoc
 
 elif [[ $1 = "ca-sc" ]]; then
 
-lt-expand ../apertium-ca-sc.ca.dix | grep -v REGEX | grep -v '<prn><enc>' | sed 's/:>:/%/g' | sed 's/:<:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/tmp_testvoc1.txt |
+lt-expand ../ca/ca.dix | grep -v REGEX | grep -v '<prn><enc>' | sed 's/:>:/%/g' | sed 's/:<:/%/g' | sed 's/:/%/g' | cut -f2 -d'%' |  sed 's/^/^/g' | sed 's/$/$ ^.<sent>$/g' | tee $TMPDIR/tmp_testvoc1.txt |
         apertium-pretransfer|
         apertium-transfer ../apertium-ca-sc.ca-sc.t1x  ../ca-sc.t1x.bin  ../ca-sc.autobil.bin | tee $TMPDIR/tmp_testvoc2.txt |
         lt-proc -d ../ca-sc.autogen.bin > $TMPDIR/tmp_testvoc3.txt
