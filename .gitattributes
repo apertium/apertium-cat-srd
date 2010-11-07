@@ -1,4 +1,5 @@
 * text=auto !eol
+/AUTHORS -text
 /Makefile -text
 /TODO -text
 /apertium-ca-sc.ca-sc.dix -text
