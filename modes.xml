@@ -60,7 +60,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-sc" install="yes">
+  <mode name="ca-sc" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="ca-sc.automorf.bin"/>
