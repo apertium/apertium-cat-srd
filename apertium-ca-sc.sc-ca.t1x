@@ -28,8 +28,14 @@
 <def-cat n="bi">
    <cat-item lemma="bi" tags="prn.pro.p3.mf.sp"/>
 </def-cat>
+<def-cat n="in">
+   <cat-item lemma="in" tags="pr"/>
+</def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
+</def-cat>
+<def-cat n="nptop">
+   <cat-item tags="np.top.*"/>
 </def-cat>
 <def-cat n="àere_pri">
    <cat-item lemma="àere" tags="vblex.pri.*"/>
@@ -2201,6 +2207,30 @@
      </out>
    </action>
 </rule>
+
+
+    <rule> <!--REGLA: prep "in" + nploc = a + nploc: en Barcelona -> a Barcelona -->
+      <pattern>
+        <pattern-item n="in"/>
+        <pattern-item n="nptop"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="a"/>
+            </get-case-from>
+            <lit-tag v="pr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
 
 
     <rule comment="regla: nom adjec">
