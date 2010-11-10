@@ -3,6 +3,7 @@
 <section-def-cats>
 <def-cat n="prn">
    <cat-item tags="prn.*"/>
+   <cat-item tags="rel.*"/>
 </def-cat>
 <def-cat n="det">
    <cat-item tags="det.*"/>
@@ -136,6 +137,7 @@
 <def-attr n="a_prn">
    <attr-item tags="prn.tn"/>
    <attr-item tags="prn.pro"/>
+   <attr-item tags="rel.an"/>
    <attr-item tags="prn.pro.adv"/>
    <attr-item tags="prn.enc.ref"/>
    <attr-item tags="prn.pro.ref"/>

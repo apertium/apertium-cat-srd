@@ -2720,13 +2720,20 @@
      <out>
          <lu>
            <get-case-from pos="1">
-           <clip pos="2" side="tl" part="lemh"/>
+             <lit v="èssere"/>
            </get-case-from>
-           <clip pos="2" side="tl" part="a_verb"/>
-           <lit-tag v="pii"/>
+           <lit-tag v="vblex.pri"/>
            <clip pos="1" side="tl" part="pers"/>
            <clip pos="1" side="tl" part="gen"/>
            <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="1">
+           <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <lit-tag v="pp.m.sg"/>
            <clip pos="2" side="tl" part="lemq"/>
          </lu>
      </out>

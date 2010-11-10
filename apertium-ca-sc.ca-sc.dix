@@ -39,6 +39,7 @@
     <sdef n="cog"     c="Cognomen"/>
     <sdef n="acr"     c="Acronym"/>
 
+    <sdef n="an"      c="Animate / inanimate"/>
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
@@ -150,6 +151,14 @@
       <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
+    <pardef n="el_qual_su_cale">
+      <e><p><l><s n="m"/><s n="sg"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="f"/><s n="sg"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l><s n="m"/><s n="pl"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l><s n="f"/><s n="pl"/></l><r><s n="f"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
 
 
   </pardefs>
@@ -298,6 +307,8 @@
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>què<s n="prn"/><s n="itg"/></l><r>ite<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>quin<s n="prn"/><s n="itg"/></l><r>cale<s n="prn"/><s n="itg"/></r></p><par n="fort_forte"/></e>
+
+    <e><p><l>el<b/>qual<s n="rel"/><s n="an"/></l><r>su<b/>cale<s n="rel"/><s n="an"/></r></p><par n="el_qual_su_cale"/></e>
 
     <!-- SECTION:  Determiners -->
 
