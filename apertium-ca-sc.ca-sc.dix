@@ -203,6 +203,7 @@
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>per<b/>a<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
     <e r="RL"><p><l>per<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
     <e><p><l>sobre<s n="pr"/></l><r>subra<s n="pr"/></r></p></e>
@@ -424,7 +425,6 @@
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>codi<s n="n"/><s n="m"/></l><r>còdighe<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pa<s n="n"/><s n="m"/></l><r>pane<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pare<s n="n"/><s n="m"/></l><r>padre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>duc<s n="n"/><s n="m"/></l><r>duca<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>duc<s n="n"/><s n="f"/></l><r>duchessa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>euro<s n="n"/><s n="m"/></l><r>èuro<s n="n"/><s n="m"/></r></p></e>
@@ -737,6 +737,7 @@
     <e><p><l>metre<s n="n"/><s n="m"/></l><r>metru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>quilòmetre<s n="n"/><s n="m"/></l><r>chilòmetru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mare<s n="n"/><s n="f"/></l><r>mama<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>pare<s n="n"/><s n="m"/></l><r>padre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pare<s n="n"/><s n="m"/></l><r>babbu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>màquina<s n="n"/><s n="f"/></l><r>màchina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>volta<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>

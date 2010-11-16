@@ -76994,7 +76994,6 @@
 <e lm="vi"><i>vi</i><par n="pa__n"/></e>
 <e lm="codi"><i>codi</i><par n="abric__n"/></e>
 <e lm="pa"><i>pa</i><par n="pa__n"/></e>
-<e lm="pare"><i>pare</i><par n="abric__n"/></e>
 <e lm="duc"><i>du</i><par n="du/c__n"/></e>
 <e lm="duc"><i>du</i><par n="du/c__n"/></e>
 <e lm="euro"><i>euro</i><par n="abric__n"/></e>
@@ -77341,6 +77340,7 @@
 <e lm="metre"><i>metre</i><par n="abric__n"/></e>
 <e lm="quilòmetre"><i>quilòmetre</i><par n="abric__n"/></e>
 <e lm="mare"><i>mare</i><par n="accessibilitat__n"/></e>
+<e lm="pare"><i>pare</i><par n="abric__n"/></e>
 <e lm="pare"><i>pare</i><par n="abric__n"/></e>
 <e lm="màquina"><i>màquin</i><par n="abell/a__n"/></e>
 <e lm="volta"><i>volt</i><par n="abell/a__n"/></e>
@@ -78349,6 +78349,7 @@
 <e lm="a"><par n="conta__pr"/></e>
 <e lm="en"><i>en</i><par n="a__pr"/></e>
 <e lm="per"><par n="contper__pr"/></e>
+<e lm="per a"><i>per<b/></i><par n="conta__pr"/></e>
 <e lm="per"><par n="contper__pr"/></e>
 <e lm="contra"><i>contra</i><par n="a__pr"/></e>
 <e lm="sobre"><i>sobre</i><par n="a__pr"/></e>

@@ -194,6 +194,13 @@
 <def-var n="concTercero"/>
 
 </section-def-vars>
+<section-def-lists>
+   <def-list n="verbs_estat">
+      <list-item v="estar"/>
+      <list-item v="ser"/>
+      <list-item v="quedar"/>
+    </def-list>
+</section-def-lists>
 <section-def-macros>
 
     <def-macro n="f_concord1" npar="1">
@@ -2821,6 +2828,45 @@
      </out>
    </action>
 </rule>
+
+<rule comment="regla: vblex a">
+   <pattern>
+     <pattern-item n="vblex"/>
+     <pattern-item n="a"/>
+   </pattern>
+   <action>
+     <choose>
+       <when>
+         <test>
+           <in caseless="yes">
+             <clip pos="1" side="sl" part="lem"/>
+             <list n="verbs_estat"/>
+           </in>
+         </test>
+         <let>
+           <clip pos="2" side="tl" part="lem"/>
+           <lit v="in"/>
+         </let>
+       </when>
+     </choose>
+     <out>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="a_verb"/>
+         <clip pos="1" side="tl" part="temps"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="gen"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <clip pos="2" side="tl" part="whole"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
 
 
 <rule comment="regla: imp enc">
