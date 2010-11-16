@@ -63,8 +63,9 @@
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
 </def-cat>
-<def-cat n="top">
+<def-cat n="nptop">
    <cat-item tags="np.top.*"/>
+   <cat-item tags="np.top"/>
 </def-cat>
 <def-cat n="predet">
    <cat-item tags="predet.*"/>
@@ -2668,6 +2669,28 @@
 
       </action>
     </rule>
+
+    <rule> <!--REGLA: prep "in" + nploc = a + nploc: en Barcelona -> a Barcelona -->
+      <pattern>
+        <pattern-item n="a"/>
+        <pattern-item n="nptop"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="in"/>
+            </get-case-from>
+            <lit-tag v="pr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
 
 <rule comment="regla: cni">
