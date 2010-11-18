@@ -2677,7 +2677,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: prep "in" + nploc = a + nploc: en Barcelona -> a Barcelona -->
+    <rule comment="regla: 'a' nptop"> <!-- a Barcelona → in Barcellona -->
       <pattern>
         <pattern-item n="a"/>
         <pattern-item n="nptop"/>

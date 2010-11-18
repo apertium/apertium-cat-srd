@@ -22,6 +22,13 @@
 <def-cat n="èssere_pri">
    <cat-item lemma="èssere" tags="vblex.pri.*"/>
 </def-cat>
+<def-cat n="istadu">
+   <cat-item lemma="èssere" tags="vblex.pp.m.sg"/>
+   <cat-item lemma="istadu" tags="n.m.sg"/>
+</def-cat>
+<def-cat n="pp">
+   <cat-item tags="vblex.pp.*"/>
+</def-cat>
 <def-cat n="èssere_p3">
    <cat-item lemma="èssere" tags="vblex.*.p3.sg"/>
    <cat-item lemma="èssere" tags="vblex.*.p3.pl"/>
@@ -44,9 +51,6 @@
 <def-cat n="dare_prs">
    <cat-item lemma="dare" tags="vblex.prs.*"/>
 </def-cat>
-<def-cat n="top">
-   <cat-item tags="np.top.*"/>
-</def-cat>
 <def-cat n="predet">
    <cat-item tags="predet.*"/>
 </def-cat>
@@ -54,6 +58,7 @@
    <cat-item tags="prn.pro.p1.*"/>
    <cat-item tags="prn.pro.p2.*"/>
    <cat-item tags="prn.pro.p3.*"/>
+   <cat-item tags="prn.pro.adv"/>
 </def-cat>
 <def-cat n="enc">
    <cat-item tags="prn.enc.*"/>
@@ -135,16 +140,16 @@
    <attr-item tags="det.def"/>
 </def-attr>
 <def-attr n="a_prn">
+   <attr-item tags="rel.an"/>
    <attr-item tags="prn.tn"/>
    <attr-item tags="prn.pro"/>
-   <attr-item tags="rel.an"/>
-   <attr-item tags="prn.pro.adv"/>
-   <attr-item tags="prn.enc.ref"/>
-   <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc"/>
    <attr-item tags="prn.itg"/>
    <attr-item tags="prn.dem"/>
+   <attr-item tags="prn.enc.ref"/>
+   <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc.adv"/>
+   <attr-item tags="prn.pro.adv"/>
 </def-attr>
 <def-attr n="a_adjec">
    <attr-item tags="adj"/>
@@ -156,17 +161,39 @@
    <attr-item tags="vbmod.pp"/>
    <attr-item tags="vbser.pp"/>
 </def-attr>
-
 </section-def-attrs>
-<section-def-vars>
-<def-var n="genero"/>
-<def-var n="numero"/>
-<def-var n="concPrimero"/>
-<def-var n="concSegundo"/>
-<def-var n="concTercero"/>
 
+<section-def-vars>
+  <def-var n="genero"/>
+  <def-var n="numero"/>
+  <def-var n="concPrimero"/>
+  <def-var n="concSegundo"/>
+  <def-var n="concTercero"/>
 </section-def-vars>
+
 <section-def-macros>
+    <def-macro n="conv_pro_enc1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="a_prn"/>
+              <lit-tag v="prn.pro.adv"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_prn"/>
+            <lit-tag v="prn.enc.adv"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <clip pos="1" side="tl" part="a_prn"/>
+            <lit-tag v="prn.enc"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
 
     <def-macro n="f_concord1" npar="1">
       
@@ -2211,7 +2238,7 @@
 </rule>
 
 
-    <rule> <!--REGLA: prep "in" + nploc = a + nploc: en Barcelona -> a Barcelona -->
+    <rule comment="regla: 'in' nptop"> <!-- in Barcellona → a Barcelona -->
       <pattern>
         <pattern-item n="in"/>
         <pattern-item n="nptop"/>
@@ -2863,10 +2890,9 @@
      <pattern-item n="inf"/>
    </pattern>
    <action>
-     <let>
-       <clip pos="1" side="tl" part="a_prn"/>
-       <lit-tag v="prn.enc"/>
-     </let>
+     <call-macro n="conv_pro_enc1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <mlu>
          <lu>
@@ -2884,6 +2910,49 @@
            <clip pos="1" side="tl" part="gen"/>
            <clip pos="1" side="tl" part="nbr"/>
            <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </mlu>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: pro pro inf">
+   <pattern>
+     <pattern-item n="pro"/>
+     <pattern-item n="pro"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <call-macro n="conv_pro_enc1">
+       <with-param pos="1"/> 
+     </call-macro>
+     <call-macro n="conv_pro_enc1">
+       <with-param pos="2"/> 
+     </call-macro>
+     <out>
+       <mlu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_verb"/>
+           <clip pos="3" side="tl" part="temps"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_prn"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_prn"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="lemq"/>
          </lu>
        </mlu>
      </out>
@@ -2979,6 +3048,46 @@
      </out>
    </action>
 </rule>
+
+<rule comment="regla: èssere_pri 'istadu' pp">
+   <pattern>
+     <pattern-item n="èssere_pri"/>
+     <pattern-item n="istadu"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <out>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="anar"/>
+           </get-case-from>
+           <lit-tag v="vblex"/>
+           <clip pos="1" side="tl" part="temps"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="2">
+             <lit v="ser"/>
+           </get-case-from>
+           <lit-tag v="vbser.inf"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_verb"/>
+           <clip pos="3" side="tl" part="temps"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+     </out>
+   </action>
+</rule>
+
 
 
 
