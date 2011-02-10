@@ -11,6 +11,9 @@
 /apertium-ca-sc.sc.acx -text
 /apertium-ca-sc.sc.dix -text
 /ca-sc.prob -text svneol=unset#unset
+ca/apertium-ca-sc.ca.dixtmp1 -text
+ca/update.sh -text
+dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text
@@ -27,12 +30,18 @@ dev/generation-summary.txt -text
 dev/generation-test.sh -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
+dev/ltexpand_csv.sh -text
 dev/missing-bidix-freq.sh -text
 dev/stats.txt -text
+dev/terrasarda.ca.txt -text
+dev/terrasarda.sc.txt -text
+dev/test_file.txt -text
 dev/testvoc-summary.ca-sc.txt -text
 dev/testvoc-summary.sc-ca.txt -text
 dev/testvoc.sh -text
 dev/udhr.ca.posteditat.txt -text
+dev/udhr.ca.txt -text
+dev/udhr.sc.txt -text
 dev/wiki.elaboradore.txt -text
 /modes.xml -text
 /pending-tests.sh -text

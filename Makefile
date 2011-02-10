@@ -17,3 +17,6 @@ all:
 sc-ca.autogen.bin:
 	xsltproc ../apertium-ca-it/translate-to-default-equivalent.xsl ../apertium-ca-it/apertium-ca-it.ca.dix | xsltproc --stringparam lang cat --stringparam side left ../apertium-ca-it/filter.xsl - | xsltproc --stringparam alt std ../apertium-ca-it/alt.xsl - > apertium-ca-sc.ca.dixtmp1
 	lt-comp rl apertium-ca-sc.ca.dixtmp1 sc-ca.autogen.bin apertium-ca-sc.sc.acx
+
+clean:
+	rm -r *.bin *.mode modes/

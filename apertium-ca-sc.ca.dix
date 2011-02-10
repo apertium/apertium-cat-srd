@@ -75857,6 +75857,8 @@
 <e lm="catòlic"><i>catòli</i><par n="acadèmi/c__adj"/></e>
 <e lm="central"><i>central</i><par n="abdominal__adj"/></e>
 <e lm="romànic"><i>romàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="solitari"><i>solit</i><par n="adjudicat/ari__adj"/></e>
+<e lm="solitari"><i>solit</i><par n="adjudicat/ari__adj"/></e>
 <e lm="complex"><i>complex</i><par n="complex__adj"/></e>
 <e lm="contrari"><i>contr</i><par n="adjudicat/ari__adj"/></e>
 <e lm="cristià"><i>cristi</i><par n="afric/à__adj"/></e>
@@ -76198,6 +76200,7 @@
 <e lm="mèdic"><i>mèdi</i><par n="acadèmi/c__adj"/></e>
 <e lm="pacífic"><i>pacífi</i><par n="acadèmi/c__adj"/></e>
 <e lm="periòdic"><i>periòdi</i><par n="acadèmi/c__adj"/></e>
+<e lm="crític"><i>críti</i><par n="acadèmi/c__adj"/></e>
 <e lm="progressiu"><i>progressi</i><par n="abusi/u__adj"/></e>
 <e lm="progressiu"><i>progressi</i><par n="abusi/u__adj"/></e>
 <e lm="racial"><i>racial</i><par n="abdominal__adj"/></e>
@@ -77454,6 +77457,7 @@
 <e lm="direcció"><i>direcci</i><par n="acci/ó__n"/></e>
 <e lm="confessió"><i>confessi</i><par n="acci/ó__n"/></e>
 <e lm="crisi"><i>crisi</i><par n="accessibilitat__n"/></e>
+<e lm="reserva"><i>reserv</i><par n="abell/a__n"/></e>
 <e lm="construcció"><i>construcci</i><par n="acci/ó__n"/></e>
 <e lm="constructivisme" a="prompsit2adn"><i>constructivisme</i><par n="abric__n"/></e>
 <e lm="disc"><i>disc</i><par n="abast__n"/></e>
@@ -77530,12 +77534,15 @@
 <e lm="programació"><i>programaci</i><par n="acci/ó__n"/></e>
 <e lm="proclamació" a="prompsit2adn"><i>proclamaci</i><par n="acci/ó__n"/></e>
 <e lm="prioritat"><i>prioritat</i><par n="accessibilitat__n"/></e>
+<e lm="fase"><i>fase</i><par n="accessibilitat__n"/></e>
 <e lm="presentació"><i>presentaci</i><par n="acci/ó__n"/></e>
 <e lm="predisposició"><i>predisposici</i><par n="acci/ó__n"/></e>
 <e lm="muntanya"><i>muntany</i><par n="abell/a__n"/></e>
 <e lm="posició"><i>posici</i><par n="acci/ó__n"/></e>
 <e lm="politeisme" a="prompsit2uoc"><i>politeisme</i><par n="abric__n"/></e>
+<e lm="conservatori"><i>conservatori</i><par n="abric__n"/></e>
 <e lm="favor"><i>favor</i><par n="abric__n"/></e>
+<e lm="exili"><i>exili</i><par n="abric__n"/></e>
 <e lm="poeta"><i>poet</i><par n="accionist/a__n"/></e>
 <e lm="poeta"><i>poet</i><par n="accionist/a__n"/></e>
 <e lm="poeta"><i>poet</i><par n="accionist/a__n"/></e>
@@ -77831,6 +77838,7 @@
 <e lm="delinqüència"><i>delinqüènci</i><par n="abell/a__n"/></e>
 <e lm="treballador"><i>treballador</i><par n="senyor__n"/></e>
 <e lm="treballador"><i>treballador</i><par n="senyor__n"/></e>
+<e lm="apartheid" a="prompsit2uoc"><i>apartheid</i><par n="abric__n"/></e>
 <e lm="president"><i>president</i><par n="senyor__n"/></e>
 <e lm="president"><i>president</i><par n="senyor__n"/></e>
 <e lm="veritat"><i>veritat</i><par n="accessibilitat__n"/></e>
@@ -77919,6 +77927,7 @@
 <e lm="invasió"><i>invasi</i><par n="acci/ó__n"/></e>
 <e lm="aspecte"><i>aspecte</i><par n="abric__n"/></e>
 <e lm="lleure" a="prompsit"><i>lleure</i><par n="abric__n"/></e>
+<e lm="diccionari"><i>diccionari</i><par n="abric__n"/></e>
 <e lm="descans"><i>descans</i><par n="as__n"/></e>
 <e lm="exterminació" a="prompsit2uoc"><i>exterminaci</i><par n="acci/ó__n"/></e>
 <e lm="convenció"><i>convenci</i><par n="acci/ó__n"/></e>

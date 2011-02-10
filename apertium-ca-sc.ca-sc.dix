@@ -829,6 +829,7 @@
     <e><p><l>direcció<s n="n"/><s n="f"/></l><r>diretzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>confessió<s n="n"/><s n="f"/></l><r>cunfessione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>crisi<s n="n"/><s n="f"/></l><r>crisi<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>reserva<s n="n"/><s n="f"/></l><r>reserva<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>construcció<s n="n"/><s n="f"/></l><r>costrutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>constructivisme<s n="n"/><s n="m"/></l><r>costruttivismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>disc<s n="n"/><s n="m"/></l><r>discu<s n="n"/><s n="m"/></r></p></e>
@@ -900,12 +901,15 @@
     <e><p><l>programació<s n="n"/><s n="f"/></l><r>programmazione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>proclamació<s n="n"/><s n="f"/></l><r>proclamatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>prioritat<s n="n"/><s n="f"/></l><r>prioridade<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fase<s n="n"/><s n="f"/></l><r>fase<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>presentació<s n="n"/><s n="f"/></l><r>presentatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>predisposició<s n="n"/><s n="f"/></l><r>predisposizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muntanya<s n="n"/><s n="f"/></l><r>montagna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>posició<s n="n"/><s n="f"/></l><r>positzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>politeisme<s n="n"/><s n="m"/></l><r>politeismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>conservatori<s n="n"/><s n="m"/></l><r>cunservatoriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>favor<s n="n"/><s n="m"/></l><r>favore<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>exili<s n="n"/><s n="m"/></l><r>esìliu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>poeta<s n="n"/></l><r>poeta<s n="n"/></r></p><par n="persa_persianu"/></e>
     <e><p><l>perfecció<s n="n"/><s n="f"/></l><r>perfetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pendularisme<s n="n"/><s n="m"/></l><r>pendolarismu<s n="n"/><s n="m"/></r></p></e>
@@ -1198,6 +1202,7 @@
     <e><p><l>treballador<s n="n"/><s n="f"/></l><r>traballadore<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>treballador<s n="n"/><s n="m"/></l><r>traballadore<s n="n"/><s n="m"/></r></p></e>
 
+    <e><p><l>apartheid<s n="n"/><s n="m"/></l><r>apartheid<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>president<s n="n"/><s n="m"/></l><r>presidente<s n="n"/><s n="m"/></r></p></e>
     <e r="LR"><p><l>president<s n="n"/><s n="f"/></l><r>presidente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>veritat<s n="n"/><s n="f"/></l><r>beru<s n="n"/><s n="m"/></r></p></e>
@@ -1273,6 +1278,7 @@
     <e><p><l>invasió<s n="n"/><s n="f"/></l><r>invasione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aspecte<s n="n"/><s n="m"/></l><r>aspetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lleure<s n="n"/><s n="m"/></l><r>disaogu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>diccionari<s n="n"/><s n="m"/></l><r>ditzionàriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>descans<s n="n"/><s n="m"/></l><r>pasu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>exterminació<s n="n"/><s n="f"/></l><r>sterminiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>convenció<s n="n"/><s n="f"/></l><r>cunventzione<s n="n"/><s n="f"/></r></p></e>
@@ -2188,6 +2194,8 @@
     <e><p><l>catòlic<s n="adj"/></l><r>catolicu<s n="adj"/></r></p></e>
     <e><p><l>central<s n="adj"/></l><r>tzentrale<s n="adj"/></r></p></e>
     <e><p><l>romànic<s n="adj"/></l><r>romanicu<s n="adj"/></r></p></e>
+    <e><p><l>solitari<s n="adj"/></l><r>assoladu<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>solitari<s n="adj"/></l><r>solitariu<s n="adj"/></r></p></e>
     <e><p><l>complex<s n="adj"/></l><r>complessu<s n="adj"/></r></p></e>
     <e><p><l>contrari<s n="adj"/></l><r>contrariu<s n="adj"/></r></p></e>
     <e><p><l>cristià<s n="adj"/></l><r>cristianu<s n="adj"/></r></p></e>
@@ -2438,6 +2446,7 @@
     <e><p><l>mèdic<s n="adj"/></l><r>mèdicu<s n="adj"/></r></p></e>
     <e><p><l>pacífic<s n="adj"/></l><r>patzìficu<s n="adj"/></r></p></e>
     <e><p><l>periòdic<s n="adj"/></l><r>periòdicu<s n="adj"/></r></p></e>
+    <e><p><l>crític<s n="adj"/></l><r>crìticu<s n="adj"/></r></p></e>
     <e><p><l>progressiu<s n="adj"/></l><r>progressivu<s n="adj"/></r></p></e>
     <e><p><l>racial<s n="adj"/></l><r>ratziale<s n="adj"/></r></p></e>
     <e><p><l>superior<s n="adj"/></l><r>superiore<s n="adj"/></r></p></e>
@@ -2673,7 +2682,7 @@
     <e><p><l>estimar<s n="vblex"/></l><r>istimare<s n="vblex"/></r></p></e>
     <e><p><l>saber<s n="vblex"/></l><r>ischire<s n="vblex"/></r></p></e>
     <e><p><l>sortir<s n="vblex"/></l><r>essire<s n="vblex"/></r></p></e>
-    <e><p><l>demostrar<s n="vblex"/></l><r>demustrare<s n="vblex"/></r></p></e>
+    <e><p><l>demostrar<s n="vblex"/></l><r>dimostrare<s n="vblex"/></r></p></e>
     <e><p><l>confirmar<s n="vblex"/></l><r>cunfirmare<s n="vblex"/></r></p></e>
     <e><p><l>compilar<s n="vblex"/></l><r>cumpilare<s n="vblex"/></r></p></e>
     <e><p><l>canviar<s n="vblex"/></l><r>càmbiare<s n="vblex"/></r></p></e>
