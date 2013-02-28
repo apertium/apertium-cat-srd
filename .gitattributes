@@ -3,17 +3,17 @@
 /Makefile -text
 /PROBLEMS -text
 /TODO -text
-/apertium-ca-sc.ca-sc.dix -text
-/apertium-ca-sc.ca-sc.t1x -text
-/apertium-ca-sc.ca.dix -text
-/apertium-ca-sc.post-ca.dix -text
-/apertium-ca-sc.post-sc.dix -text
-/apertium-ca-sc.sc-ca.t1x -text
-/apertium-ca-sc.sc.acx -text
-/apertium-ca-sc.sc.dix -text
-/ca-sc.prob -text svneol=unset#unset
-ca/apertium-ca-sc.ca.dixtmp1 -text
-ca/update.sh -text
+/apertium-cat-srd.cat-srd.dix -text
+/apertium-cat-srd.cat-srd.t1x -text
+/apertium-cat-srd.cat.dix -text
+/apertium-cat-srd.post-cat.dix -text
+/apertium-cat-srd.post-srd.dix -text
+/apertium-cat-srd.srd-cat.t1x -text
+/apertium-cat-srd.srd.acx -text
+/apertium-cat-srd.srd.dix -text
+/cat-srd.prob -text svneol=unset#unset
+cat/apertium-ca-sc.ca.dixtmp1 -text
+cat/update.sh -text
 dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text
 dev/bidix/pending_adjectives.txt -text
@@ -46,5 +46,5 @@ dev/udhr.sc.txt -text
 dev/wiki.elaboradore.txt -text
 /modes.xml -text
 /pending-tests.sh -text
-/sc-ca.prob -text svneol=unset#unset
+/srd-cat.prob -text svneol=unset#unset
 /wiki-tests.sh -text
