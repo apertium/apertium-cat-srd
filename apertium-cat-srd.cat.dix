@@ -7857,12 +7857,14 @@
 
     </pardef>
     <pardef n="on__adv">
+<!--
     <e>
       <p>
         <l/> 
         <r><s n="adv"/></r> 
       </p>
     </e>
+-->
 
     <e>
       <p>
@@ -76239,7 +76241,6 @@
 <e lm="com"><i>com</i><par n="a_on__adv"/></e>
 <e lm="com"><i>com</i><par n="a_on__adv"/></e>
 <e lm="quan"><i>quan</i><par n="a_on__adv"/></e>
-<e lm="on"><i>on</i><par n="on__adv"/></e>
 <e lm="on"><i>on</i><par n="on__adv"/></e>
 <e lm="per què"><i>per<b/>què</i><par n="a_on__adv"/></e>
 <e lm="com"><i>com</i><par n="a_on__adv"/></e>

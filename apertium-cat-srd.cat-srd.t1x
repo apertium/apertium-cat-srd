@@ -7,6 +7,10 @@
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
 </def-cat>
+<def-cat n="estat_sigut">
+   <cat-item lemma="estar" tags="vblex.pp.*"/>
+   <cat-item lemma="ser" tags="vbser.pp.*"/>
+</def-cat>
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
@@ -56,6 +60,9 @@
 </def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
+</def-cat>
+<def-cat n="haver">
+   <cat-item lemma="haver" tags="vbhaver.*"/>
 </def-cat>
 <def-cat n="haver_p3">
    <cat-item lemma="haver" tags="vbhaver.*.p3.sg"/>
@@ -2967,6 +2974,29 @@
      </out>
    </action>
 </rule>
+
+<rule comment="regla: haver + estat/sigut">
+   <pattern>
+     <pattern-item n="haver"/>
+     <pattern-item n="estat_sigut"/>
+   </pattern>
+   <action>
+     <out>
+       <lu>
+         <lit v="èssere"/>
+         <lit-tag v="vblex"/>
+         <clip pos="1" side="tl" part="temps"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="nbr"/>
+       </lu>
+       <b/>
+       <lu>
+         <clip pos="2" side="tl" part="whole"/>
+       </lu>
+     </out>
+   </action>
+</rule>
+
 
 <rule comment="regla: hi haver_p3">
    <pattern>
