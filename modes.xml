@@ -157,6 +157,26 @@
     </pipeline>
   </mode>
 
+  <mode name="cat-srd-debug" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cat-srd.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cat-srd.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-cat-srd.cat-srd.t1x"/>
+        <file name="cat-srd.t1x.bin"/>
+        <file name="cat-srd.autobil.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="cat-srd.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
   <mode name="srd-lsc" install="no">
     <pipeline>
       <program name="lt-proc">

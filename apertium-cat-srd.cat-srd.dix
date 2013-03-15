@@ -62,6 +62,7 @@
     <sdef n="sent"    c="Sentence marker"/>
     <sdef n="lpar"    c="Left parenthesis"/>
     <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquest"  c="Left question mark"/>
   </sdefs>
   <pardefs>
     <pardef n="llur_issoro">
@@ -195,6 +196,9 @@
     <e><p><l>com<s n="rel"/><s n="adv"/></l><r>comente<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>com<s n="rel"/><s n="adv"/></l><r>che<s n="cnjsub"/></r></p></e>
     <e><p><l>quan<s n="rel"/><s n="adv"/></l><r>cando<s n="cnjsub"/></r></p></e>
+
+    <e><p><l>per<b/>això<s n="cnjadv"/></l><r>pro<b/>custu<s n="cnjadv"/></r></p></e>
+
 
     <!-- SECTION:  Prepositions -->
 
@@ -424,6 +428,7 @@
 
     <!-- SECTION:  Nouns -->
 
+    <e><p><l>nuca<s n="n"/><s n="f"/></l><r>gatzile<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>força<s n="n"/><s n="f"/></l><r>fortza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>paper<s n="n"/><s n="m"/></l><r>pabiru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vi<s n="n"/><s n="m"/></l><r>binu<s n="n"/><s n="m"/></r></p></e>
@@ -1605,6 +1610,22 @@
     <e><p><l>successió<s n="n"/><s n="f"/></l><r>sutzessione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tensió<s n="n"/><s n="f"/></l><r>tensione<s n="n"/><s n="f"/></r></p></e>
 
+    <e><p><l>ungla<s n="n"/><s n="f"/></l><r>ungra<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ull<s n="n"/><s n="m"/></l><r>ogru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>silenci<s n="n"/><s n="m"/></l><r>mudesa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>semblança<s n="n"/><s n="f"/></l><r>assimìgiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sacrifici<s n="n"/><s n="m"/></l><r>sacrifìtziu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>poema<s n="n"/><s n="m"/></l><r>poema<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>llàgrima<s n="n"/><s n="f"/></l><r>làgrima<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>imatge<s n="n"/><s n="f"/></l><r>imàgine<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>gola<s n="n"/><s n="f"/></l><r>buca<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>full<s n="n"/><s n="m"/></l><r>fògiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>foscor<s n="n"/><s n="f"/></l><r>iscuru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>foc<s n="n"/><s n="m"/></l><r>fogu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dona<s n="n"/><s n="f"/></l><r>fèmina<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>avenc<s n="n"/><s n="m"/></l><r>profundidade<s n="n"/><s n="f"/></r></p></e>
+
+
     <!-- SECTION:  Proper noun -->
 
     <e><p><l>Anglaterra<s n="np"/><s n="top"/></l><r>Inghilterra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2091,6 +2112,7 @@
     <e><p><l>multilingüe<s n="adj"/></l><r>multilìngue<s n="adj"/></r></p></e>
     <e><p><l>ex<s n="adj"/></l><r>ex<s n="adj"/></r></p></e>
     <e><p><l>tècnic<s n="adj"/></l><r>tècnicu<s n="adj"/></r></p></e>
+    <e><p><l>fràgil<s n="adj"/></l><r>dìligu<s n="adj"/></r></p><par n="capaç_capatzu"/></e>
     <e><p><l>complet<s n="adj"/></l><r>completu<s n="adj"/></r></p></e>
     <e><p><l>màxim<s n="adj"/></l><r>màssimu<s n="adj"/></r></p></e>
     <e><p><l>cors<s n="adj"/></l><r>corsu<s n="adj"/></r></p></e>
@@ -2454,6 +2476,10 @@
     <e><p><l>superior<s n="adj"/></l><r>superiore<s n="adj"/></r></p></e>
     <e><p><l>correcte<s n="adj"/></l><r>curretu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
 
+    <e><p><l>roig<s n="adj"/></l><r>ruju<s n="adj"/></r></p></e>
+    <e><p><l>diminut<s n="adj"/></l><r>minore<s n="adj"/></r></p></e>
+
+
 
     <!-- SECTION:  Adverbs -->
 
@@ -2608,6 +2634,9 @@
     <e><p><l>successivament<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
     <e><p><l>últimament<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
 
+    <e><p><l>endins<s n="adv"/></l><r>intro<s n="adv"/></r></p></e>
+
+
     <e><p><l>a.C<s n="adv"/></l><r>a.C<s n="adv"/></r></p></e>
     <e><p><l>d.C<s n="adv"/></l><r>d.C<s n="adv"/></r></p></e>
     <e><p><l>etc<s n="adv"/></l><r>etz<s n="adv"/></r></p></e>
@@ -2624,6 +2653,7 @@
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
     <e><p><l>hi<b/>ha<s n="vblex"/></l><r>b'at<s n="vblex"/></r></p></e>
 
+    <e><p><l>escampar<s n="vblex"/></l><r>ispartzinare<s n="vblex"/></r></p></e>
     <e><p><l>romandre<s n="vblex"/></l><r>abbarrare<s n="vblex"/></r></p></e>
     <e><p><l>incloure<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
@@ -3075,6 +3105,13 @@
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>cramare<s n="vblex"/></r></p></e>
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>tzerriare<s n="vblex"/></r></p></e>
 
+    <e><p><l>plorar<s n="vblex"/></l><r>pranghiare<s n="vblex"/></r></p></e>
+    <e><p><l>nadar<s n="vblex"/></l><r>nadare<s n="vblex"/></r></p></e>
+    <e><p><l>callar<s n="vblex"/></l><r>istare<g><b/>a<b/>sa<b/>muda</g><s n="vblex"/></r></p></e>
+    <e><p><l>ascendir<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
+    <e><p><l>amanyagar<s n="vblex"/></l><r>carinnare<s n="vblex"/></r></p></e>
+
+
     <!-- SECTION:  Abbreviations -->
 
     <e><p><l>km<s n="n"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
@@ -3102,6 +3139,7 @@
     <!-- SECTION:  Punctuation -->
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e r="LR"><p><l>¿<s n="lquest"/></l><r></r></p></e>
     <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
