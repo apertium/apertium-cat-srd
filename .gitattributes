@@ -12,7 +12,7 @@
 /apertium-cat-srd.srd.acx -text
 /apertium-cat-srd.srd.dix -text
 /cat-srd.prob -text svneol=unset#unset
-cat/apertium-ca-sc.ca.dixtmp1 -text
+cat/apertium-cat-srd.cat.dixtmp1 -text
 cat/update.sh -text
 dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text

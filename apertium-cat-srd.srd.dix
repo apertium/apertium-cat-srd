@@ -6,6 +6,7 @@
     <sdef n="n"      c="Noun"/> 
     <sdef n="det"    c="Determiner"/> 
     <sdef n="abbr"   c="Abbreviation"/> 
+    <sdef n="acr"    c="Acronym"/> 
     <sdef n="adv"    c="Adverb"/> 
     <sdef n="preadv" c="Pre-adverb"/> 
     <sdef n="predet" c="Pre-determiner"/> 
@@ -187,6 +188,10 @@
 
     <pardef n="ONU__abbr">
       <e>       <p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
+
+    <pardef n="ONU__abbr">
+      <e>       <p><l></l><r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Congiunzioni -->
@@ -1965,6 +1970,7 @@
     <e lm="durante"><i>durante</i><par n="a__pr"/></e>
     <!--<e lm="rasente"><i>rasente</i><par n="a__pr"/></e>-->
     <e lm="a pitzu de"><i>a<b/>pitzu<b/>de</i><par n="a__pr"/></e>
+    <e lm="a pàrrere de"><i>a<b/>pàrrere<b/>de</i><par n="a__pr"/></e>
     <e lm="a pitzu de" r="LR"><p><l>a<b/>pitzus<b/>de</l><r>a<b/>pitzu<b/>de</r></p><par n="a__pr"/></e>
 
     <!-- SECTION: Pronomi -->
@@ -4988,6 +4994,7 @@
     <e lm="andare"><i>and</i><par n="cant/are__vblex"/></e>
     <e lm="caminare"><i>camin</i><par n="cant/are__vblex"/></e>
     <e lm="istimare"><i>istim</i><par n="cant/are__vblex"/></e>
+    <e lm="colonizare"><i>coloniz</i><par n="cant/are__vblex"/></e>
     <e lm="faeddare"><i>faedd</i><par n="cant/are__vblex"/></e>
     <e lm="faeddare" r="LR"><p><l>foedd</l><r>faedd</r></p><par n="cant/are__vblex"/></e>
     <e lm="colare"><i>col</i><par n="cant/are__vblex"/></e>
@@ -5025,6 +5032,7 @@
     <e lm="cumplicare"><i>cumplic</i><par n="cant/are__vblex"/></e>
     <e lm="manifestare"><i>manifest</i><par n="cant/are__vblex"/></e>
     <e lm="cumpilare"><i>cumpil</i><par n="cant/are__vblex"/></e>
+    <e lm="abbarrare"><i>abbarr</i><par n="cant/are__vblex"/></e>
     <e lm="cumpilare" r="LR"><p><l>compil</l><r>cumpil</r></p><par n="cant/are__vblex"/></e>
     <e lm="usare"><i>us</i><par n="cant/are__vblex"/></e>
     <e lm="perfetzionare"><i>perfetzion</i><par n="cant/are__vblex"/></e>
@@ -5388,6 +5396,7 @@
     <e lm="apassionare"><i>apassion</i><par n="cant/are__vblex"/></e>
 
     <e lm="mòvere"><i>mòv</i><par n="tim/ere__vblex"/></e>
+    <e lm="includere"><i>includ</i><par n="tim/ere__vblex"/></e>
     <e lm="promòvere"><i>promòv</i><par n="tim/ere__vblex"/></e>
     <e lm="reconnòschere"><i>reconnòsch</i><par n="tim/ere__vblex"/></e>
 

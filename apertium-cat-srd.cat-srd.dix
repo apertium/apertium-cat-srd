@@ -184,7 +184,8 @@
 
     <e><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<b/>chi<s n="cnjsub"/></r></p></e>
-    <e><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="cnjsub"/></r></p></e>
+
+<!--    <e><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="cnjsub"/></r></p></e>-->
 
     <e><p><l>doncs<s n="cnjadv"/></l><r>duncas<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>doncs<s n="cnjadv"/></l><r>gai<s n="cnjadv"/></r></p></e>
@@ -224,6 +225,7 @@
     <e r="RL"><p><l>sense<s n="pr"/></l><r>francu<s n="pr"/></r></p></e>
     <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
     <e><p><l>mitjançant<s n="pr"/></l><r>mediante<s n="pr"/></r></p></e>
+    <e><p><l>segons<s n="pr"/></l><r>a<b/>pàrrere<b/>de<s n="pr"/></r></p></e>
     <e><p><l>entorn<b/>de<s n="pr"/></l><r>a<b/>inghìriu<s n="pr"/></r></p></e>
     <e><p><l>enfront<b/>de<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
     <e><p><l>al<b/>costat<b/>de<s n="pr"/></l><r>chirru<b/>a<s n="pr"/></r></p></e>
@@ -2489,7 +2491,7 @@
     <e r="RL"><p><l>només<s n="adv"/></l><r>isceti<s n="adv"/></r></p></e>
     <e r="RL"><p><l>només<s n="adv"/></l><r>ebbia<s n="adv"/></r></p></e>
 
-    <e r="RL"><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="adv"/></r></p></e>
+<!--    <e r="RL"><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="adv"/></r></p></e>-->
 
     <e><p><l>marginalment<s n="adv"/></l><r>oru·oru<s n="adv"/></r></p></e>
     <e r="RL"><p><l>marginalment<s n="adv"/></l><r>in<b/>s'oru<s n="adv"/></r></p></e>
@@ -2622,6 +2624,8 @@
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
     <e><p><l>hi<b/>ha<s n="vblex"/></l><r>b'at<s n="vblex"/></r></p></e>
 
+    <e><p><l>romandre<s n="vblex"/></l><r>abbarrare<s n="vblex"/></r></p></e>
+    <e><p><l>incloure<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantare<s n="vblex"/></r></p></e>
     <e><p><l>tractar<s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
     <e><p><l>dir<s n="vblex"/></l><r>nàrrere<s n="vblex"/></r></p></e>
@@ -2667,6 +2671,7 @@
     <e><p><l>manar<s n="vblex"/></l><r>mandare<s n="vblex"/></r></p></e>
     <e><p><l>distingir<s n="vblex"/></l><r>distinghere<s n="vblex"/></r></p></e>
     <e><p><l>analitzar<s n="vblex"/></l><r>analizare<s n="vblex"/></r></p></e>
+    <e><p><l>colonitzar<s n="vblex"/></l><r>colonizare<s n="vblex"/></r></p></e>
     <e><p><l>acompanyar<s n="vblex"/></l><r>accumpagnare<s n="vblex"/></r></p></e>
     <e><p><l>servir<s n="vblex"/></l><r>serbire<s n="vblex"/></r></p></e>
     <e><p><l>proposar<s n="vblex"/></l><r>propònnere<s n="vblex"/></r></p></e>
@@ -3073,10 +3078,10 @@
     <!-- SECTION:  Abbreviations -->
 
     <e><p><l>km<s n="n"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
-    <e><p><l></l><r>ab<s n="abbr"/></r></p></e> <!-- approxim. (?) -->
+    <!--<e><p><l></l><r>ab<s n="abbr"/></r></p></e>--> <!-- approxim. (?) -->
     <e><p><l>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>MIT<s n="abbr"/></r></p></e>
     <e><p><l>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>APEC<s n="abbr"/></r></p></e>
-    <e><p><l>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>ONU<s n="abbr"/></r></p></e>
+    <e><p><l>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>ADN<s n="abbr"/></r></p></e>
     <e r="RL"><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DNA<s n="abbr"/></r></p></e>
     <e><p><l>Unesco<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>Unesco<s n="abbr"/></r></p></e>
