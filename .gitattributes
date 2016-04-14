@@ -1,10 +1,23 @@
 * text=auto !eol
 /AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
 /PROBLEMS -text
+/README -text
 /TODO -text
 /apertium-cat-srd.cat-srd.dix -text
+/apertium-cat-srd.cat-srd.lrx -text
 /apertium-cat-srd.cat-srd.t1x -text
+/apertium-cat-srd.cat-srd.t2x -text
+/apertium-cat-srd.cat-srd.t3x -text
+/apertium-cat-srd.srd-cat.lrx -text
 /apertium-cat-srd.srd-cat.t1x -text
+/apertium-cat-srd.srd-cat.t2x -text
+/apertium-cat-srd.srd-cat.t3x -text
+/autogen.sh -text
+/configure.ac -text
 dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text
 dev/bidix/pending_adjectives.txt -text
