@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<transfer>
+<transfer default="chunk">
 <section-def-cats>
 <def-cat n="prn">
    <cat-item tags="prn.*"/>
@@ -2231,13 +2231,18 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="a_pos"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
+       <chunk name="poss">
+         <tags>
+           <tag><lit-tag v="SD"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_pos"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
      </out>
    </action>
 </rule>
@@ -2252,6 +2257,10 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
+       <chunk name="det">
+         <tags>
+           <tag><lit-tag v="SD"/></tag>
+         </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="a_det"/>
@@ -2259,6 +2268,7 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
+       </chunk>
      </out>
    </action>
 </rule>
@@ -2272,6 +2282,10 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
+       <chunk name="j">
+         <tags>
+           <tag><lit-tag v="SA"/></tag>
+         </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="a_adjec"/>
@@ -2279,6 +2293,7 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2293,6 +2308,10 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
+       <chunk name="z">
+         <tags>
+           <tag><lit-tag v="SNum"/></tag>
+         </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="a_num"/>
@@ -2300,6 +2319,7 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2314,6 +2334,10 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
+       <chunk name="p">
+         <tags>
+           <tag><lit-tag v="SPron"/></tag>
+         </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="a_prn"/>
@@ -2322,6 +2346,7 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2336,6 +2361,10 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
+       <chunk name="n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="a_nom"/>
@@ -2343,6 +2372,7 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2359,6 +2389,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="j-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_adjec"/>
@@ -2374,6 +2408,7 @@
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
 
       </action>
@@ -2391,6 +2426,10 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
+       <chunk name="n-j">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
@@ -2406,6 +2445,7 @@
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
 
       </action>
@@ -2425,6 +2465,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="poss-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <lit v="su"/>
             <lit-tag v="det.def"/>
@@ -2446,6 +2490,7 @@
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
           </lu>
+        </chunk>
         </out>
       </action>
     </rule>
@@ -2462,6 +2507,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2473,6 +2522,7 @@
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
+         </chunk>
         </out>
       </action>
     </rule>
@@ -2490,6 +2540,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-j-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2509,6 +2563,7 @@
             <clip pos="2" side="tl" part="nbr"/>
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
       </action>
     </rule>
@@ -2530,6 +2585,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-n-j">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <lit v="su"/>
             <lit-tag v="det.def"/>
@@ -2561,6 +2620,7 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
 
+        </chunk>
         </out>
       </action>
     </rule>
@@ -2580,6 +2640,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-n-j">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2599,6 +2663,7 @@
             <clip pos="3" side="tl" part="nbr"/>
             <clip pos="3" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
       </action>
     </rule>
@@ -2616,6 +2681,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-z-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2631,6 +2700,7 @@
             <clip pos="3" side="tl" part="nbr"/>
             <clip pos="3" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
       </action>
     </rule>
@@ -2649,6 +2719,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-d-n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2664,6 +2738,7 @@
             <clip pos="3" side="tl" part="nbr"/>
             <clip pos="3" side="tl" part="lemq"/>
           </lu>
+        </chunk>
         </out>
 
       </action>
@@ -2687,6 +2762,10 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
+       <chunk name="d-d-n-j">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
           </lu>
@@ -2711,32 +2790,11 @@
             <clip pos="4" side="tl" part="lemq"/>
           </lu>
  
+        </chunk>
         </out>
 
       </action>
     </rule>
-
-    <rule comment="regla: 'a' nptop"> <!-- a Barcelona → in Barcellona -->
-      <pattern>
-        <pattern-item n="a"/>
-        <pattern-item n="nptop"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="in"/>
-            </get-case-from>
-            <lit-tag v="pr"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
 
 
 <rule comment="regla: cni">
@@ -2745,6 +2803,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="mod-inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <get-case-from pos="1">
              <lit v="dèpere"/>
@@ -2761,6 +2823,7 @@
            <lit-tag v="inf"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2772,6 +2835,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
            <clip pos="1" side="tl" part="a_verb"/>
@@ -2781,6 +2848,7 @@
            <clip pos="1" side="tl" part="nbr"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2792,6 +2860,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="aux-pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <get-case-from pos="1">
              <lit v="èssere"/>
@@ -2810,6 +2882,7 @@
            <lit-tag v="pp.m.sg"/>
            <clip pos="2" side="tl" part="lemq"/>
          </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2821,6 +2894,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="aux-a-inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <get-case-from pos="1">
              <lit v="àere"/>
@@ -2842,6 +2919,7 @@
            <lit-tag v="inf"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2853,59 +2931,19 @@
    </pattern>
    <action>
      <out>
-       <mlu>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="tags"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
-       </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
-
-<rule comment="regla: vblex a">
-   <pattern>
-     <pattern-item n="vblex"/>
-     <pattern-item n="a"/>
-   </pattern>
-   <action>
-     <choose>
-       <when>
-         <test>
-           <in caseless="yes">
-             <clip pos="1" side="sl" part="lem"/>
-             <list n="verbs_estat"/>
-           </in>
-         </test>
-         <let>
-           <clip pos="2" side="tl" part="lem"/>
-           <lit v="in"/>
-         </let>
-       </when>
-     </choose>
-     <out>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="a_verb"/>
-         <clip pos="1" side="tl" part="temps"/>
-         <clip pos="1" side="tl" part="pers"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
-       <b pos="1"/>
-       <lu>
-         <clip pos="2" side="tl" part="whole"/>
-       </lu>
-     </out>
-   </action>
-</rule>
-
 
 
 <rule comment="regla: imp enc">
@@ -2915,6 +2953,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="imp-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -2933,6 +2975,7 @@
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2945,6 +2988,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="imp-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -2971,6 +3018,7 @@
          </lu>
 
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -2982,6 +3030,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="v-pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <lu>
          <lit v="èssere"/>
          <lit-tag v="vblex"/>
@@ -2993,6 +3045,7 @@
        <lu>
          <clip pos="2" side="tl" part="whole"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3005,6 +3058,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="hi-ha">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <lu>
          <get-case-from pos="1">
            <lit v="bi"/>
@@ -3021,6 +3078,7 @@
          <clip pos="2" side="tl" part="pers"/>
          <lit-tag v="sg"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3033,6 +3091,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="estar-ger">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <lu>
          <get-case-from pos="1">
            <lit v="estar"/>
@@ -3053,6 +3115,7 @@
          <clip pos="2" side="tl" part="nbr"/>
          <clip pos="2" side="tl" part="lemq"/>
        </lu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3065,6 +3128,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="estar-ger-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <lu>
          <get-case-from pos="1">
            <lit v="estar"/>
@@ -3094,6 +3161,7 @@
            <clip pos="2" side="tl" part="lemq"/>
          </lu>
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3107,6 +3175,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="estar-ger-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <lu>
          <get-case-from pos="1">
            <lit v="estar"/>
@@ -3144,6 +3216,7 @@
          </lu>
 
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3156,6 +3229,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="ger-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -3174,6 +3251,7 @@
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3186,6 +3264,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="ger-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -3212,6 +3294,7 @@
          </lu>
 
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3228,6 +3311,10 @@
        <lit-tag v="prn.enc"/>
      </let>
      <out>
+       <chunk name="inf-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
@@ -3246,6 +3333,7 @@
            <clip pos="2" side="tl" part="lemq"/>
          </lu>
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3257,6 +3345,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="inf-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -3275,6 +3367,7 @@
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>
@@ -3287,6 +3380,10 @@
    </pattern>
    <action>
      <out>
+       <chunk name="inf-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
@@ -3313,6 +3410,7 @@
          </lu>
 
        </mlu>
+     </chunk>
      </out>
    </action>
 </rule>

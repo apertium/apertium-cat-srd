@@ -1,22 +1,17 @@
 <rules>
-  <!-- 
-    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
-    Add your own rules within <rule> here, using the resources below as a guide 
-  -->
-
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
+  <rule weight="0.4">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="np.loc"/>
+  </rule>
+  <rule weight="0.6">
+    <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
 </rules>
-
-<!-- 
-Resources: 
-    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
-    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
-    http://wiki.apertium.org/wiki/Lexical_selection
-    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
--->
 
