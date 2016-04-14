@@ -1,19 +1,10 @@
 * text=auto !eol
 /AUTHORS -text
-/Makefile -text
 /PROBLEMS -text
 /TODO -text
 /apertium-cat-srd.cat-srd.dix -text
 /apertium-cat-srd.cat-srd.t1x -text
-/apertium-cat-srd.cat.dix -text
-/apertium-cat-srd.post-cat.dix -text
-/apertium-cat-srd.post-srd.dix -text
 /apertium-cat-srd.srd-cat.t1x -text
-/apertium-cat-srd.srd.acx -text
-/apertium-cat-srd.srd.dix -text
-/cat-srd.prob -text svneol=unset#unset
-cat/apertium-cat-srd.cat.dixtmp1 -text
-cat/update.sh -text
 dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text
 dev/bidix/pending_adjectives.txt -text
@@ -46,5 +37,4 @@ dev/udhr.sc.txt -text
 dev/wiki.elaboradore.txt -text
 /modes.xml -text
 /pending-tests.sh -text
-/srd-cat.prob -text svneol=unset#unset
 /wiki-tests.sh -text
