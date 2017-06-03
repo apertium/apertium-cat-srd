@@ -67,7 +67,7 @@
     <sdef n="lquest"  c="Left question mark"/>
   </sdefs>
   <pardefs>
-    <pardef n="ND_sp">
+    <pardef n="mfND_mfsp">
       <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l><s n="mf"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/><s n="ND"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
@@ -92,12 +92,22 @@
       <e r="RL"><p><l><s n="m"/></l><r><s n="f"/></r></p></e>
       <e r="RL"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
     </pardef>
+    <pardef n="mif+sp_mif+pl">
+      <e>       <p><l><s n="m"/><s n="sp"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+      <e>       <p><l><s n="f"/><s n="sp"/></l><r><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
     <pardef n="sup_0">
       <e><p><l></l><r></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="m"/><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="f"/><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="m"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="f"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="mf_GD">
+      <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p></e>
     </pardef>
 
     <pardef n="mf_GD+sup_0">
@@ -111,6 +121,11 @@
       <e r="LR"><p><l><s n="sup"/><s n="f"/><s n="pl"/></l><r><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="GD_mf">
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
     <pardef n="GD_mf+sup_0">
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
@@ -315,20 +330,20 @@
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>ningú<s n="prn"/><s n="tn"/></l><r>nemos<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>cadascun<s n="prn"/><s n="tn"/></l><r>cadaunu<s n="prn"/><s n="tn"/></r></p></e>
-    <e><p><l>cap<s n="prn"/><s n="tn"/></l><r>perunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD+sup_0"/></e>
-    <e><p><l>algú<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD+sup_0"/></e>
+    <e><p><l>cap<s n="prn"/><s n="tn"/></l><r>perunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
+    <e><p><l>algú<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
 
     <e><p><l>qui<s n="prn"/><s n="itg"/></l><r>chie<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>quant<s n="prn"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>què<s n="prn"/><s n="itg"/></l><r>ite<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>quin<s n="prn"/><s n="itg"/></l><r>cale<s n="prn"/><s n="itg"/></r></p><par n="GD_mf+sup_0"/></e>
+    <e><p><l>quin<s n="prn"/><s n="itg"/></l><r>cale<s n="prn"/><s n="itg"/></r></p><par n="GD_mf"/></e>
 
     <e><p><l>el<b/>qual<s n="rel"/><s n="an"/></l><r>su<b/>cale<s n="rel"/><s n="an"/></r></p><par n="el_qual_su_cale"/></e>
 
     <!-- SECTION:  Determiners -->
 
-    <e><p><l>tot<s n="predet"/></l><r>totu<s n="predet"/></r></p></e>
-    <e r="LR"><p><l>tot<s n="predet"/><s n="nt"/><s n="sp"/></l><r>totu<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>tot<s n="predet"/></l><r>totu<s n="predet"/></r></p><par n="GD+ND_mf+sp"/></e>
+    <e r="LR"><p><l>tot<s n="predet"/><s n="nt"/><s n="sp"/></l><r>totu<s n="predet"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e><p><l>el<s n="det"/><s n="def"/></l><r>su<s n="det"/><s n="def"/></r></p></e>
     <e r="LR"><p><l>el<s n="det"/><s n="def"/><s n="mf"/></l><r>su<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
@@ -350,9 +365,9 @@
     <e r="RL"><p><l>cada<s n="det"/><s n="ind"/></l><r>cada<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>tal<s n="det"/><s n="ind"/></l><r>tale<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>algun<s n="det"/><s n="ind"/></l><r>carchi<s n="det"/><s n="ind"/></r></p><par n="GD+ND_mf+sp"/></e>
-    <e><p><l>cap<s n="det"/><s n="ind"/></l><r>perunu<s n="det"/><s n="ind"/></r></p><par n="mf_GD+sup_0"/></e>
+    <e><p><l>cap<s n="det"/><s n="ind"/></l><r>perunu<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 
-    <e><p><l>llur<s n="det"/><s n="pos"/></l><r>issoro<s n="det"/><s n="pos"/></r></p><par n="ND_sp"/></e>
+    <e><p><l>llur<s n="det"/><s n="pos"/></l><r>issoro<s n="det"/><s n="pos"/></r></p><par n="mfND_mfsp"/></e>
 
     <e r="LR"><p><l>el<b/>meu<s n="det"/><s n="pos"/></l><r>meu<s n="adj"/><s n="pos"/></r></p></e>
     <e r="LR"><p><l>el<b/>teu<s n="det"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
@@ -384,10 +399,10 @@
     <e><p><l>dinou<s n="num"/></l><r>deghennoe<s n="num"/></r></p></e>
     <e><p><l>vint<s n="num"/></l><r>binti<s n="num"/></r></p></e>
 
-    <e><p><l>vint-i-un<b/>mil<s n="num"/></l><r>bintunu<b/>milli<s n="num"/></r></p><par n="GD_mf+sup_0"/></e>
+    <e><p><l>vint-i-un<b/>mil<s n="num"/></l><r>bintunu<b/>milli<s n="num"/></r></p><par n="GD_mf"/></e>
 
-    <e><p><l>vint-i-un<s n="num"/></l><r>bintunu<s n="num"/></r></p><par n="GD_mf+sup_0"/></e>
-    <e><p><l>vint-i-dos<s n="num"/></l><r>bintiduos<s n="num"/></r></p><par n="GD_mf+sup_0"/></e>
+    <e><p><l>vint-i-un<s n="num"/></l><r>bintunu<s n="num"/></r></p><par n="GD_mf"/></e>
+    <e><p><l>vint-i-dos<s n="num"/></l><r>bintiduos<s n="num"/></r></p><par n="GD_mf"/></e>
     <e><p><l>vint-i-tres<s n="num"/></l><r>bintitrès<s n="num"/></r></p></e>
     <e><p><l>vint-i-quatre<s n="num"/></l><r>bintibator<s n="num"/></r></p></e>
     <e><p><l>vint-i-cinc<s n="num"/></l><r>bintighimbe<s n="num"/></r></p></e>
@@ -550,7 +565,7 @@
     <e><p><l>amistat<s n="n"/><s n="f"/></l><r>amighèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vacances<s n="n"/><s n="f"/></l><r>vacàntzia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
     <e r="RL"><p><l>vacances<s n="n"/><s n="f"/></l><r>lissèntzia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
-    <e><p><l>anestesiòleg<s n="n"/></l><r>anestesista<s n="n"/></r></p><par n="GD_mf+sup_0"/></e>
+    <e><p><l>anestesiòleg<s n="n"/></l><r>anestesista<s n="n"/></r></p><par n="GD_mf"/></e>
     <e><p><l>analista<s n="n"/><s n="mf"/></l><r>annalista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>aparició<s n="n"/><s n="f"/></l><r>apparizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>arquitectura<s n="n"/><s n="f"/></l><r>architetura<s n="n"/><s n="f"/></r></p></e>
@@ -924,7 +939,7 @@
     <e><p><l>conservatori<s n="n"/><s n="m"/></l><r>cunservatoriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>favor<s n="n"/><s n="m"/></l><r>favore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>exili<s n="n"/><s n="m"/></l><r>esìliu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>poeta<s n="n"/></l><r>poeta<s n="n"/></r></p><par n="mf_GD+sup_0"/></e>
+    <e><p><l>poeta<s n="n"/></l><r>poeta<s n="n"/></r></p><par n="mf_GD"/></e>
     <e><p><l>perfecció<s n="n"/><s n="f"/></l><r>perfetzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pendularisme<s n="n"/><s n="m"/></l><r>pendolarismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>paraula<s n="n"/><s n="f"/></l><r>paraula<s n="n"/><s n="f"/></r></p></e>
@@ -2110,7 +2125,7 @@
     <e><p><l>penúltim<s n="adj"/></l><r>penùrtimu<s n="adj"/><s n="ord"/></r></p></e>
 
     <e><p><l>mateix<s n="adj"/></l><r>matessi<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
-    <e r="RL"><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="ND_sp"/></e>
+    <e r="RL"><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="mfND_mfsp"/></e>
     <e><p><l>similar<s n="adj"/></l><r>sìmile<s n="adj"/></r></p></e>
     <e><p><l>únic<s n="adj"/></l><r>ùnicu<s n="adj"/></r></p></e>
     <e><p><l>sistèmic<s n="adj"/></l><r>sistèmicu<s n="adj"/></r></p></e>
@@ -2651,10 +2666,10 @@
 
     <!-- SECTION:  Verbs -->
 
-    <e><p><l>ser<s n="vbser"/></l><r>èssere<s n="vblex"/></r></p></e>
+    <e><p><l>ser<s n="vbser"/></l><r>èssere<s n="vbser"/></r></p></e>
     <e><p><l>estar<s n="vblex"/></l><r>istare<s n="vblex"/></r></p></e>
-    <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vblex"/></r></p></e>
-    <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vblex"/></r></p></e>
+    <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vbhaver"/></r></p></e>
+    <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vbmod"/></r></p></e>
     <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>de</g><s n="vbmod"/></r></p></e>
     <e r="LR"><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>deure<s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
@@ -3116,10 +3131,42 @@
     <e r="RL"><p><l>dir<s n="vblex"/></l><r>tzerriare<s n="vblex"/></r></p></e>
 
     <e><p><l>plorar<s n="vblex"/></l><r>pranghiare<s n="vblex"/></r></p></e>
-    <e><p><l>nadar<s n="vblex"/></l><r>nadare<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>nadar<s n="vblex"/></l><r>nadare<s n="vblex"/></r></p></e>
+    <e><p><l>nedar<s n="vblex"/></l><r>nadare<s n="vblex"/></r></p></e>
     <e><p><l>callar<s n="vblex"/></l><r>istare<g><b/>a<b/>sa<b/>muda</g><s n="vblex"/></r></p></e>
     <e><p><l>ascendir<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
     <e><p><l>amanyagar<s n="vblex"/></l><r>carinnare<s n="vblex"/></r></p></e>
+
+      <e><p><l>molt<s n="preadv"/></l><r>meda<s n="preadv"/></r></p></e>
+      <e><p><l>ben<s n="preadv"/></l><r>bene<s n="preadv"/></r></p></e>
+      <e><p><l>tan<s n="preadv"/></l><r>tantu<s n="preadv"/></r></p></e>
+      <e r="RL"><p><l>tan<s n="preadv"/></l><r>gosi<s n="preadv"/></r></p></e>
+      <e><p><l>bastant<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
+      <e r="LR"><p><l>gaire<s n="preadv"/></l><r>tropu<s n="preadv"/></r></p></e>
+      <e><p><l>mal<s n="preadv"/></l><r>male<s n="preadv"/></r></p></e>
+      <e><p><l>quasi<s n="preadv"/></l><r>belle<s n="preadv"/></r></p></e>
+
+      <e><p><l>divers<s n="det"/><s n="ind"/></l><r>diversu<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>qualsevol<s n="det"/><s n="ind"/></l><r>cale<b/>si<b/>siat<s n="det"/><s n="ind"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>molts<b/>altres<s n="det"/><s n="ind"/></l><r>medas<b/>àteros<s n="det"/><s n="ind"/></r></p></e>
+      <e r="LR"><p><l>este<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
+      <e r="LR"><p><l>eixe<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>un<b/>seguit<b/>de<s n="det"/><s n="ind"/></l><r>una<b/>sèrie<b/>de<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>algun<b/>altre<s n="det"/><s n="ind"/></l><r>calicunu<b/>àteru<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>sengles<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/></r></p></e>
+      <e r="LR"><p><l>aqueix<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>tot<b/>un<b/>seguit<b/>de<s n="det"/><s n="ind"/></l><r>totu<b/>una<b/>sèrie<b/>de<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>ningun<s n="det"/><s n="ind"/></l><r>nemos<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>ningun<s n="det"/><s n="ind"/></l><r>nessunu<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>un<b/>i<b/>un<b/>altre<s n="det"/><s n="ind"/></l><r>unu<b/>e<b/>s'àteru<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>vint-i-un<s n="det"/><s n="def"/></l><r>bintunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>trenta-un<s n="det"/><s n="def"/></l><r>trintunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>quaranta-un<s n="det"/><s n="def"/></l><r>barantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>cinquanta-un<s n="det"/><s n="def"/></l><r>chimbantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>seixanta-un<s n="det"/><s n="def"/></l><r>sesantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>setanta-un<s n="det"/><s n="def"/></l><r>setantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>vuitanta-un<s n="det"/><s n="def"/></l><r>otantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
+      <e><p><l>noranta-un<s n="det"/><s n="def"/></l><r>norantunu<s n="det"/><s n="def"/></r></p><par n="mif+sp_mif+pl"/></e>
 
 
     <!-- SECTION:  Abbreviations -->

@@ -1,0 +1,1 @@
+../../apertium-eval-translator/apertium-eval-translator.pl
