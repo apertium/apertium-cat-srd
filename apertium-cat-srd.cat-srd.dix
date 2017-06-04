@@ -42,6 +42,7 @@
     <sdef n="acr"     c="Acronym"/>
 
     <sdef n="an"      c="Animate / inanimate"/>
+    <sdef n="nn"      c=""/>
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
@@ -1010,7 +1011,7 @@
     <e><p><l>impressor<s n="n"/></l><r>impressadore<s n="n"/></r></p></e>
     <e><p><l>dia<s n="n"/><s n="m"/></l><r>die<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>àrea<s n="n"/><s n="f"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>centre<s n="n"/><s n="m"/></l><r>centru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>centre<s n="n"/><s n="m"/></l><r>tzentru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ciència<s n="n"/><s n="f"/></l><r>iscièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cor<s n="n"/><s n="m"/></l><r>coro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>terreny<s n="n"/><s n="m"/></l><r>terrinu<s n="n"/><s n="m"/></r></p></e>
@@ -1083,7 +1084,7 @@
     <e><p><l>fabricació<s n="n"/><s n="f"/></l><r>fabricatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>etimologia<s n="n"/><s n="f"/></l><r>etimologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>extenció<s n="n"/><s n="f"/></l><r>estensione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>exposició<s n="n"/><s n="f"/></l><r>esposizione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>exposició<s n="n"/><s n="f"/></l><r>espositzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bíblia<s n="n"/><s n="f"/></l><r>bibbia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>revisió<s n="n"/><s n="f"/></l><r>revisione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exploració<s n="n"/><s n="f"/></l><r>esploratzione<s n="n"/><s n="f"/></r></p></e>
@@ -2149,10 +2150,10 @@
     <e><p><l>sofisticat<s n="adj"/></l><r>sofisticadu<s n="adj"/></r></p></e>
     <e><p><l>portàtil<s n="adj"/></l><r>portàtile<s n="adj"/></r></p></e>
     <e><p><l>poderós<s n="adj"/></l><r>poderosu<s n="adj"/></r></p></e>
-    <e><p><l>mecànic<s n="adj"/></l><r>mecanicu<s n="adj"/></r></p></e>
+    <e><p><l>mecànic<s n="adj"/></l><r>mecànicu<s n="adj"/></r></p></e>
     <e><p><l>interessant<s n="adj"/></l><r>interessante<s n="adj"/></r></p><par n="sup_0"/></e>
     <e><p><l>impressionant<s n="adj"/></l><r>impressionante<s n="adj"/></r></p></e>
-    <e><p><l>fèrtil<s n="adj"/></l><r>fertile<s n="adj"/></r></p></e>
+    <e><p><l>fèrtil<s n="adj"/></l><r>fèrtile<s n="adj"/></r></p></e>
     <e><p><l>electrònic<s n="adj"/></l><r>eletrònicu<s n="adj"/></r></p></e>
     <e><p><l>equivalent<s n="adj"/></l><r>ecuivalente<s n="adj"/></r></p></e>
     <e><p><l>dominant<s n="adj"/></l><r>dominante<s n="adj"/></r></p></e>
@@ -2173,7 +2174,8 @@
     <e><p><l>gregorià<s n="adj"/></l><r>gregorianu<s n="adj"/></r></p></e>
 
     <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
-    <e><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
+    <e><p><l>bonic<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
     <e><p><l>europeu<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
     <e><p><l>nacional<s n="adj"/></l><r>natzionale<s n="adj"/></r></p></e>
     <e><p><l>particular<s n="adj"/></l><r>particulare<s n="adj"/></r></p></e>
@@ -2659,7 +2661,7 @@
     <e><p><l>voler<s n="vblex"/></l><r>bòlere<s n="vblex"/></r></p></e>
     <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
     <e><p><l>viure<s n="vblex"/></l><r>bìvere<s n="vblex"/></r></p></e>
-    <e><p><l>veure<s n="vblex"/></l><r>bidire<s n="vblex"/></r></p></e>
+    <e><p><l>veure<s n="vblex"/></l><r>bìdere<s n="vblex"/></r></p></e>
     <e><p><l>fer<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
     <e><p><l>formar<g><b/>part</g><s n="vblex"/></l><r>fàghere<g><b/>parte</g><s n="vblex"/></r></p></e>
     <e><p><l>néixer<s n="vblex"/></l><r>nàschere<s n="vblex"/></r></p></e>
@@ -2694,7 +2696,7 @@
     <e><p><l>caracteritzar<s n="vblex"/></l><r>caraterizzare<s n="vblex"/></r></p></e>
     <e><p><l>manifestar<s n="vblex"/></l><r>manifestare<s n="vblex"/></r></p></e>
     <e><p><l>manar<s n="vblex"/></l><r>mandare<s n="vblex"/></r></p></e>
-    <e><p><l>distingir<s n="vblex"/></l><r>distinghere<s n="vblex"/></r></p></e>
+    <e><p><l>distingir<s n="vblex"/></l><r>distìnghere<s n="vblex"/></r></p></e>
     <e><p><l>analitzar<s n="vblex"/></l><r>analizare<s n="vblex"/></r></p></e>
     <e><p><l>colonitzar<s n="vblex"/></l><r>colonizare<s n="vblex"/></r></p></e>
     <e><p><l>acompanyar<s n="vblex"/></l><r>accumpagnare<s n="vblex"/></r></p></e>
@@ -2706,10 +2708,11 @@
     <e><p><l>construir<s n="vblex"/></l><r>costruire<s n="vblex"/></r></p></e>
     <e><p><l>comprar<s n="vblex"/></l><r>comporare<s n="vblex"/></r></p></e>
     <e><p><l>caminar<s n="vblex"/></l><r>caminare<s n="vblex"/></r></p></e>
-    <e><p><l>témer<s n="vblex"/></l><r>timere<s n="vblex"/></r></p></e>
+    <e><p><l>témer<s n="vblex"/></l><r>tìmere<s n="vblex"/></r></p></e>
     <e><p><l>organitzar<s n="vblex"/></l><r>organizare<s n="vblex"/></r></p></e>
     <e><p><l>modificar<s n="vblex"/></l><r>modificare<s n="vblex"/></r></p></e>
-    <e><p><l>estimar<s n="vblex"/></l><r>istimare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>estimar<s n="vblex"/></l><r>istimare<s n="vblex"/></r></p></e>
+    <e><p><l>estimar<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
     <e><p><l>saber<s n="vblex"/></l><r>ischire<s n="vblex"/></r></p></e>
     <e><p><l>sortir<s n="vblex"/></l><r>essire<s n="vblex"/></r></p></e>
     <e><p><l>demostrar<s n="vblex"/></l><r>dimostrare<s n="vblex"/></r></p></e>
@@ -3147,8 +3150,8 @@
       <e><p><l>què<s n="rel"/></l><r>chi<s n="rel"/></r></p></e>
       <e r="RL"><p><l>què<s n="rel"/></l><r>ite<s n="rel"/></r></p></e>
       <e r="RL"><p><l>què<s n="rel"/></l><r>ca<s n="rel"/></r></p></e>
-      <e><p><l>qui<s n="rel"/></l><r>chi<s n="rel"/></r></p></e>
-      <e r="RL"><p><l>qui<s n="rel"/></l><r>chie<s n="rel"/></r></p></e>
+      <e><p><l>qui<s n="rel"/><s n="nn"/></l><r>chi<s n="rel"/><s n="an"/></r></p></e>
+      <e r="RL"><p><l>qui<s n="rel"/><s n="nn"/></l><r>chie<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>su<b/>chi<s n="rel"/></r></p></e>
       <e r="RL"><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>cale<s n="rel"/></r></p></e>
       <e><p><l>qual<s n="rel"/></l><r>cale<s n="rel"/></r></p></e>
@@ -3262,6 +3265,179 @@
       <e><p><l>per<b/>tot<b/>plegat<s n="cnjadv"/></l><r>pro<b/>totu<b/>custu<s n="cnjadv"/></r></p></e>
       <e><p><l>molt<b/>més<b/>com<s n="cnjadv"/></l><r>tantu<b/>prus<b/>chi<s n="cnjadv"/></r></p></e>
       <e><p><l>donat<b/>cas<b/>que<s n="cnjadv"/></l><r>pone<b/>su<b/>casu<b/>chi<s n="cnjadv"/></r></p></e>
+
+      <e><p><l>com<b/>a<s n="pr"/></l><r>comente<b/>a<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>com<b/>a<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>fins<b/>a<s n="pr"/></l><r>finas<b/>a<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>fins<b/>a<s n="pr"/></l><r>fintzas<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>des<b/>de<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
+      <e><p><l>cap<b/>a<s n="pr"/></l><r>conca<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>dins<b/>de<s n="pr"/></l><r>intro<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>partir<b/>de<s n="pr"/></l><r>partinde<b/>dae<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>través<b/>de<s n="pr"/></l><r>a<b/>traessu<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>través<b/>de<s n="pr"/></l><r>tràmite<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>través<b/>de<s n="pr"/></l><r>pro<b/>mèdiu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>causa<b/>de<s n="pr"/></l><r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>prop<b/>de<s n="pr"/></l><r>a<b/>curtzu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>juntament<b/>amb<s n="pr"/></l><r>paris<b/>cun<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>juntament<b/>amb<s n="pr"/></l><r>imparis<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>davant<s n="pr"/></l><r>in<b/>antis<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>voltant<b/>de<s n="pr"/></l><r>a<b/>inghìriu<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>més<b/>de<s n="pr"/></l><r>prus<b/>a<b/>dae<b/>in<b/>antis<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>llarg<b/>de<s n="pr"/></l><r>a<b/>largu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>gràcies<b/>a<s n="pr"/></l><r>gràtzias<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>tal<b/>de<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+      <e><p><l>malgrat<s n="pr"/></l><r>mancari<b/>gasi<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>malgrat<s n="pr"/></l><r>cun<b/>totu<b/>chi<s n="pr"/></r></p></e>
+      <e><p><l>davant<b/>de<s n="pr"/></l><r>in<b/>antis<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>davant<b/>de<s n="pr"/></l><r>in<b/>dae<b/>in<b/>antis<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>finals<b/>de<s n="pr"/></l><r>a<b/>sa<b/>fine<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>prop<b/>de<s n="pr"/></l><r>a<b/>curtzu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>excepte<s n="pr"/></l><r>francu<s n="pr"/></r></p></e>
+      <e><p><l>respecte<b/>a<s n="pr"/></l><r>rispetu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>entre<b/>d'altres<s n="pr"/></l><r>intre<b/>àteros<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>final<b/>de<s n="pr"/></l><r>a<b/>sa<b/>fine<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>pro<b/>mèdiu<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>per<b/>mitjà<b/>de<s n="pr"/></l><r>tràmite<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>principis<b/>de<s n="pr"/></l><r>a<b/>cumintzu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>pel<b/>que<b/>fa<b/>a<s n="pr"/></l><r>pro<b/>su<b/>chi<b/>pertocat<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>pel<b/>que<b/>fa<b/>a<s n="pr"/></l><r>pro<b/>cantu<b/>pertocat<s n="pr"/></r></p></e>
+      <e><p><l>milers<b/>de<s n="pr"/></l><r>mìgias<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>arran<b/>de<s n="pr"/></l><r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>el<b/>cas<b/>de<s n="pr"/></l><r>in<b/>su<b/>casu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>comptes<b/>de<s n="pr"/></l><r>in<b/>contu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>arreu<b/>de<s n="pr"/></l><r>totu<b/>in<b/>tundu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>contra<b/>de<s n="pr"/></l><r>contra<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>vora<b/>de<s n="pr"/></l><r>in<b/>s'oru<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>sobre<b/>de<s n="pr"/></l><r>in<b/>subra<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>més<b/>enllà<b/>de<s n="pr"/></l><r>prus<b/>a<b/>cudd'ala<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>més<b/>enllà<b/>de<s n="pr"/></l><r>prus<b/>a<b/>dae<b/>in<b/>antis<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>damunt<b/>de<s n="pr"/></l><r>in<b/>subra<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>càrrec<b/>de<s n="pr"/></l><r>a<b/>càrrigu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>part<b/>de<s n="pr"/></l><r>a<b/>bandas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>dintre<b/>de<s n="pr"/></l><r>a<b/>intro<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>respecte<b/>de<s n="pr"/></l><r>rispetu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>amb<b/>la<b/>finalitat<b/>de<s n="pr"/></l><r>cun<b/>sa<b/>finalidade<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>començament<b/>de<s n="pr"/></l><r>a<b/>su<b/>cumintzu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>direcció<b/>a<s n="pr"/></l><r>conca<b/>a<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>direcció<b/>a<s n="pr"/></l><r>deretu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>fi<b/>de<s n="pr"/></l><r>a<b/>sa<b/>fine<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>envers<s n="pr"/></l><r>a<b/>s'imbesse<s n="pr"/></r></p></e>
+      <e><p><l>quant<b/>a<s n="pr"/></l><r>cantu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>mitjans<b/>de<s n="pr"/></l><r>a<b/>mitade<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>mitjans<b/>de<s n="pr"/></l><r>a<b/>mesu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>capdavant<b/>de<s n="pr"/></l><r>a<b/>su<b/>cabu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>poc<b/>després<b/>de<s n="pr"/></l><r>pagu<b/>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>el<b/>moment<b/>de<s n="pr"/></l><r>in<b/>su<b/>momentu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>mitjan<s n="pr"/></l><r>a<b/>mitade<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>mitjan<s n="pr"/></l><r>a<b/>mesu<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>recerca<b/>de<s n="pr"/></l><r>in<b/>chirca<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>l'entorn<b/>de<s n="pr"/></l><r>a<b/>s'inghìriu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>cas<b/>de<s n="pr"/></l><r>in<b/>casu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>peu<b/>de<s n="pr"/></l><r>in<b/>pedes<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>termes<b/>de<s n="pr"/></l><r>in<b/>tèrmines<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>llevat<b/>de<s n="pr"/></l><r>francu<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>llevat<b/>de<s n="pr"/></l><r>a<b/>bandas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>el<b/>si<b/>de<s n="pr"/></l><r>in<b/>su<b/>sinu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>fi<b/>de<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>el<b/>marc<b/>de<s n="pr"/></l><r>in<b/>su<b/>signu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>d'acord<b/>a<s n="pr"/></l><r>de<b/>acordu<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>principi<b/>de<s n="pr"/></l><r>a<b/>su<b/>cumintzu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>d'arreu<b/>de<s n="pr"/></l><r>a<b/>inghìriu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>als<b/>peus<b/>de<s n="pr"/></l><r>in<b/>sos<b/>pedes<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>banda<b/>de<s n="pr"/></l><r>a<b/>s'ala<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>sobre<b/>la<b/>base<b/>de<s n="pr"/></l><r>in<b/>sa<b/>base<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>a<b/>largu<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>in<b/>su<b/>cursu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>meitat<b/>de<s n="pr"/></l><r>a<b/>sa<b/>mitade<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>les<b/>mans<b/>de<s n="pr"/></l><r>in<b/>sas<b/>manos<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>culpa<b/>de<s n="pr"/></l><r>pro<b/>curpa<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>vora<b/>de<s n="pr"/></l><r>oru<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>referent<b/>a<s n="pr"/></l><r>riferidu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>ran<b/>de<s n="pr"/></l><r>a<b/>manera<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>benefici<b/>de<s n="pr"/></l><r>in<b/>favore<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>costa<b/>de<s n="pr"/></l><r>a<b/>costas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>ocasió<b/>de<s n="pr"/></l><r>in<b/>ocasione<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>mitjans<b/>de<s n="pr"/></l><r>de<b/>mesu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>amb<b/>finalitats<s n="pr"/></l><r>cun<b/>finalidades<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>sobre<b/>de<s n="pr"/></l><r>a<b/>subra<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>suport<b/>de<s n="pr"/></l><r>in<b/>favore<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>en<b/>suport<b/>de<s n="pr"/></l><r>in<b/>agiudu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>causa<b/>de<s n="pr"/></l><r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>part<b/>alta<b/>de<s n="pr"/></l><r>in<b/>s'ala<b/>de<b/>susu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>res<b/>a<b/>veure<b/>amb<s n="pr"/></l><r>nudda<b/>de<b/>bìdere<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>sota<b/>de<s n="pr"/></l><r>a<b/>suta<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>d'altres<s n="pr"/></l><r>in<b/>àteros<s n="pr"/></r></p></e>
+      <e><p><l>d'ençà<b/>de<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+      <e><p><l>fins<b/>a<b/>mitjan<s n="pr"/></l><r>finas<b/>a<b/>mitade<s n="pr"/></r></p></e>
+      <e><p><l>pels<b/>volts<b/>de<s n="pr"/></l><r>in<b/>tundu<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>raó<b/>de<s n="pr"/></l><r>a<b/>resone<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>conforme<b/>a<s n="pr"/></l><r>cunforma<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>d'altres<s n="pr"/></l><r>a<b/>de<b/>àteros<s n="pr"/></r></p></e>
+      <e><p><l>dintre<s n="pr"/></l><r>in<b/>intro<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>mitjan<s n="pr"/></l><r>de<b/>mitade<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>força<b/>de<s n="pr"/></l><r>a<b/>fotza<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>sens<s n="pr"/></l><r>sena<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>por<b/>de<s n="pr"/></l><r>pro<b/>timorìa<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>des<b/>de<b/>mitjan<s n="pr"/></l><r>dae<b/>mitade<s n="pr"/></r></p></e>
+      <e><p><l>n'hi<b/>ha<b/>prou<b/>amb<s n="pr"/></l><r>bastat<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>extra<s n="pr"/></l><r>extra<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>extra<s n="pr"/></l><r>in<b/>prus<s n="pr"/></r></p></e>
+      <e><p><l>amb<b/>vista<b/>a<s n="pr"/></l><r>cun<b/>bista<b/>a<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>amb<b/>vista<b/>a<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>cura<b/>de<s n="pr"/></l><r>pro<b/>more<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>salvant<s n="pr"/></l><r>francu<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>comparació<b/>de<s n="pr"/></l><r>a<b/>fronte<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>vista<b/>de<s n="pr"/></l><r>a<b/>bista<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>en<b/>vista<b/>de<s n="pr"/></l><r>a<b/>cara<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>primers<b/>de<s n="pr"/></l><r>a<b/>primos<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>tall<b/>de<s n="pr"/></l><r>a<b/>segadura<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>conformitat<b/>amb<s n="pr"/></l><r>cunforma<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>falta<b/>de<s n="pr"/></l><r>a<b/>falta<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>fins<b/>al<b/>cap<b/>de<s n="pr"/></l><r>finas<b/>a<b/>su<b/>cabu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>disposició<b/>de<s n="pr"/></l><r>a<b/>disponimentu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>versus<s n="pr"/></l><r>versus<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>d'altres<s n="pr"/></l><r>pro<b/>àteros<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>actitud<b/>de<s n="pr"/></l><r>in<b/>ghetu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>l'entorn<b/>de<s n="pr"/></l><r>in<b/>tundu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>l'efecte<b/>de<s n="pr"/></l><r>cun<b/>s'efetu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>d'esquena<b/>a<s n="pr"/></l><r>in<b/>palas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>tot<b/>esperant<s n="pr"/></l><r>isetande<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>ulls<b/>de<s n="pr"/></l><r>a<b/>ogros<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>segons<b/>d'altres<s n="pr"/></l><r>segundu<b/>àteros<s n="pr"/></r></p></e>
+      <e><p><l>mancant<s n="pr"/></l><r>mancantes<s n="pr"/></r></p></e>
+      <e><p><l>cap<b/>a<b/>mitjan<s n="pr"/></l><r>belle<b/>a<b/>mitade<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>primeria<b/>de<s n="pr"/></l><r>a<b/>sa<b/>prima<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>les<b/>primeries<b/>de<s n="pr"/></l><r>a<b/>sas<b/>primas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>la<b/>mercè<b/>de<s n="pr"/></l><r>a<b/>tràgiu<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>la<b/>mercè<b/>de<s n="pr"/></l><r>a<b/>tira<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>per<b/>a<b/>d'altres<s n="pr"/></l><r>in<b/>càmbiu<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>per<b/>a<b/>d'altres<s n="pr"/></l><r>a<b/>su<b/>contràriu<s n="pr"/></r></p></e>
+      <e><p><l>conformement<b/>a<s n="pr"/></l><r>cunforma<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>sense<b/>por<b/>de<s n="pr"/></l><r>sena<b/>resone<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>sense<b/>por<b/>de<s n="pr"/></l><r>sena<b/>motivu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>amb<b/>el<b/>risc<b/>de<s n="pr"/></l><r>cun<b/>s'arriscu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>aquest<b/>efecte<s n="pr"/></l><r>a<b/>custu<b/>efetu<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>aquest<b/>efecte<s n="pr"/></l><r>efetivamente<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>aquest<b/>efecte<s n="pr"/></l><r>a<b/>beru<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>connivència<b/>amb<s n="pr"/></l><r>de<b/>cunvivèntzia<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>milers<b/>i<b/>milers<b/>de<s n="pr"/></l><r>migias<b/>e<b/>migias<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>n'hi<b/>ha<b/>prou<b/>de<s n="pr"/></l><r>basta<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>esquena<b/>de<s n="pr"/></l><r>a<b/>palas<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>si<b/>s'ha<b/>de<b/>jutjar<b/>per<s n="pr"/></l><r>giuighende<b/>dae<s n="pr"/></r></p></e>
+      <e><p><l>segons<b/>es<b/>dedueix<b/>de<s n="pr"/></l><r>comente<b/>dimustradu<b/>dae<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>complicitat<b/>amb<s n="pr"/></l><r>de<b/>acordu<b/>cun<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>de<b/>complicitat<b/>amb<s n="pr"/></l><r>in<b/>complitzidade<b/>cun<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>mitjan<b/>de<s n="pr"/></l><r>a<b/>mesu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>pel<b/>que<b/>concerneix<s n="pr"/></l><r>pro<b/>su<b/>chi<b/>pertocat<s n="pr"/></r></p></e>
+      <e><p><l>de<b/>llarg<b/>a<b/>llarg<b/>de<s n="pr"/></l><r>in<b/>longu<b/>e<b/>in<b/>largu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>en<b/>paga<b/>de<s n="pr"/></l><r>a<b/>càmbiu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>al<b/>caient<b/>de<s n="pr"/></l><r>in<b/>s'oru<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>proposició<b/>de<s n="pr"/></l><r>a<b/>proposta<b/>de<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>a<b/>proposició<b/>de<s n="pr"/></l><r>a<b/>cussìgiu<b/>de<s n="pr"/></r></p></e>
+      <e><p><l>el<b/>que<b/>té<b/>de<b/>bo<s n="pr"/></l><r>su<b/>chi<b/>tenet<b/>de<b/>bonu<s n="pr"/></r></p></e>
+      <e><p><l>havent<b/>donat<b/>compte<b/>de<s n="pr"/></l><r>torrare<b/>contu<b/>de<s n="pr"/></r></p></e>
 
 
     <!-- SECTION:  Abbreviations -->

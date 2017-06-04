@@ -91,10 +91,16 @@
    <cat-item tags="vbser.*"/>
    <cat-item tags="vbhaver.*"/>
 </def-cat>
+<def-cat n="vbmod">
+   <cat-item tags="vbmod.*"/>
+</def-cat>
 <def-cat n="inf">
    <cat-item tags="vblex.inf"/>
    <cat-item tags="vbser.inf"/>
    <cat-item tags="vbhaver.inf"/>
+</def-cat>
+<def-cat n="vblex_inf">
+   <cat-item tags="vblex.inf"/>
 </def-cat>
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
@@ -168,13 +174,9 @@
 <def-attr n="a_prn">
    <attr-item tags="prn.tn"/>
    <attr-item tags="prn.pro"/>
-   <attr-item tags="prn.pro.adv"/>
-   <attr-item tags="prn.enc.ref"/>
-   <attr-item tags="prn.pro.ref"/>
    <attr-item tags="prn.enc"/>
    <attr-item tags="prn.itg"/>
    <attr-item tags="prn.dem"/>
-   <attr-item tags="prn.enc.adv"/>
 </def-attr>
 <def-attr n="a_adjec">
    <attr-item tags="adj"/>
@@ -2215,6 +2217,103 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_li2bi" npar="1">
+      <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
+	<when> 
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <lit v="li"/>
+	    </equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="1"><lit v="bi"/></get-case-from></let>
+	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+ 	</when> 
+     </choose>
+    </def-macro>
+
+    <def-macro n="f_pr_tn-pers" npar="2">
+      <choose>	<!-- To change to personal pronoun depending on the preposition -->
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mie"/></get-case-from></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="megus"/></get-case-from></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mene"/></get-case-from></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tie"/></get-case-from></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tegus"/></get-case-from></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tene"/></get-case-from></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="nois"/></get-case-from></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="bois"/></get-case-from></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
+	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
+	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+	</when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
 <section-rules>
@@ -2340,10 +2439,7 @@
          </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="a_prn"/>
-         <clip pos="1" side="tl" part="pers"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="tags"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
      </chunk>
@@ -2367,9 +2463,7 @@
          </tags>
        <lu>
          <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="a_nom"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="tags"/>
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
      </chunk>
@@ -2946,6 +3040,170 @@
 </rule>
 
 
+    <rule comment="regla: inf enc">
+       <pattern>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
+         <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <clip pos="2" side="tl" part="lemh"/>
+                 </get-case-from>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2">
+                   <clip pos="1" side="tl" part="lemh"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: inf enc enc">
+       <pattern>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="f_li2bi">
+           <with-param pos="2"/>
+         </call-macro>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
+         <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <clip pos="2" side="tl" part="lemh"/>
+                 </get-case-from>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2">
+                   <clip pos="1" side="tl" part="lemh"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: vbmod inf enc">
+       <pattern>
+         <pattern-item n="vbmod"/>
+         <pattern-item n="vblex_inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_vbmod_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+             <get-case-from pos="1">
+               <clip pos="3" side="tl" part="lemh"/>
+             </get-case-from>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: vbmod inf enc enc">
+       <pattern>
+         <pattern-item n="vbmod"/>
+         <pattern-item n="vblex_inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="f_li2bi">
+           <with-param pos="3"/>
+         </call-macro>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_pro_vbmod_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 <rule comment="regla: imp enc">
    <pattern>
      <pattern-item n="imp"/>
@@ -3137,28 +3395,20 @@
            <lit v="estar"/>
          </get-case-from>
          <clip pos="1" side="sl" part="a_verb"/>
-         <clip pos="1" side="tl" part="temps"/>
-         <clip pos="1" side="tl" part="pers"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
        </lu>
        <b pos="1"/>
        <mlu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_verb"/>
-           <clip pos="2" side="tl" part="temps"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
          <lu>
            <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
-           <clip pos="2" side="tl" part="lemq"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
          </lu>
        </mlu>
      </chunk>
@@ -3184,37 +3434,26 @@
            <lit v="estar"/>
          </get-case-from>
          <clip pos="1" side="sl" part="a_verb"/>
-         <clip pos="1" side="tl" part="temps"/>
-         <clip pos="1" side="tl" part="pers"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
        </lu>
        <b pos="1"/>
        <mlu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_verb"/>
-           <clip pos="2" side="tl" part="temps"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="tags"/>
          </lu>
          <lu>
            <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
          </lu>
          <lu>
            <clip pos="4" side="tl" part="lemh"/>
-           <clip pos="4" side="tl" part="a_prn"/>
-           <clip pos="4" side="tl" part="pers"/>
-           <clip pos="4" side="tl" part="gen"/>
-           <clip pos="4" side="tl" part="nbr"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
            <clip pos="2" side="tl" part="lemq"/>
          </lu>
-
        </mlu>
      </chunk>
      </out>
@@ -3236,18 +3475,12 @@
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="tags"/>
          </lu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
        </mlu>
@@ -3271,25 +3504,17 @@
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="tags"/>
          </lu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
          <lu>
            <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
 
@@ -3317,104 +3542,23 @@
          </tags>
        <mlu>
          <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_verb"/>
-           <clip pos="2" side="tl" part="temps"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="tags"/>
          </lu>
          <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_prn"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-           <clip pos="2" side="tl" part="lemq"/>
+           <get-case-from pos="2">
+             <clip pos="1" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="1" side="tl" part="tags"/>
          </lu>
        </mlu>
      </chunk>
      </out>
    </action>
 </rule>
-
-<rule comment="regla: inf enc">
-   <pattern>
-     <pattern-item n="inf"/>
-     <pattern-item n="enc"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="inf-enc">
-         <tags>
-           <tag><lit-tag v="SV"/></tag>
-         </tags>
-       <mlu>
-         <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
-           <clip pos="1" side="tl" part="lemq"/>
-         </lu>
-       </mlu>
-     </chunk>
-     </out>
-   </action>
-</rule>
-
-<rule comment="regla: inf enc enc">
-   <pattern>
-     <pattern-item n="inf"/>
-     <pattern-item n="enc"/>
-     <pattern-item n="enc"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="inf-enc-enc">
-         <tags>
-           <tag><lit-tag v="SV"/></tag>
-         </tags>
-       <mlu>
-         <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
-           <clip pos="1" side="tl" part="lemq"/>
-         </lu>
-
-       </mlu>
-     </chunk>
-     </out>
-   </action>
-</rule>
-
 
 </section-rules>
 
