@@ -2866,9 +2866,9 @@
          </tags>
          <lu>
            <get-case-from pos="1">
-             <lit v="èssere"/>
+             <lit v="àere"/>
            </get-case-from>
-           <lit-tag v="vblex.pri"/>
+           <lit-tag v="vbhaver.pri"/>
            <clip pos="1" side="tl" part="pers"/>
            <clip pos="1" side="tl" part="gen"/>
            <clip pos="1" side="tl" part="nbr"/>
@@ -3071,9 +3071,9 @@
        <b pos="1"/>
        <lu>
          <get-case-from pos="2">
-           <lit v="èssere"/>
+           <lit v="àere"/>
          </get-case-from>
-         <lit-tag v="vblex"/>
+         <lit-tag v="vbhaver"/>
          <clip pos="2" side="tl" part="temps"/>
          <clip pos="2" side="tl" part="pers"/>
          <lit-tag v="sg"/>
