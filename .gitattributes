@@ -45,6 +45,9 @@ dev/stats.txt -text
 dev/testvoc-summary.ca-sc.txt -text
 dev/testvoc-summary.sc-ca.txt -text
 dev/testvoc.sh -text
+dev/testvoc/bidix-unknowns.sh -text
+dev/testvoc/generation.sh -text
+dev/testvoc/streamparser.py -text
 /evaluation.gsoc2017 -text
 /modes.xml -text
 t/README.org -text
