@@ -39,6 +39,7 @@
     <sdef n="al"      c="Altres"/>
     <sdef n="ant"     c="Antroponym"/>
     <sdef n="cog"     c="Cognomen"/>
+    <sdef n="org"     c="Organisation"/>
     <sdef n="acr"     c="Acronym"/>
 
     <sdef n="an"      c="Animate / inanimate"/>
@@ -102,12 +103,16 @@
       <e>       <p><l><s n="m"/><s n="sp"/></l><r><s n="m"/><s n="pl"/></r></p></e>
       <e>       <p><l><s n="f"/><s n="sp"/></l><r><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
-    <pardef n="sup_0">
+    <pardef n="sup_0_mf">
       <e><p><l></l><r></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="m"/><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="f"/><s n="sg"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="m"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l><s n="sup"/><s n="f"/><s n="pl"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="sup_0">
+      <e><p><l></l><r></r></p></e>
+      <e r="LR"><p><l><s n="sup"/></l><r><s n="mf"/></r></p></e>
     </pardef>
 
     <pardef n="mf_GD">
@@ -433,6 +438,7 @@
     <e><p><l>milió<s n="n"/><s n="m"/></l><r>millione<s n="n"/><s n="m"/></r></p></e>
 
 
+    <e><p><l>I<s n="num"/></l><r>I<s n="num"/></r></p></e>
     <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
     <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
     <e><p><l>IV<s n="num"/></l><r>IV<s n="num"/></r></p></e>
@@ -452,6 +458,7 @@
     <e><p><l>XVIII<s n="num"/></l><r>XVIII<s n="num"/></r></p></e>
     <e><p><l>XIX<s n="num"/></l><r>XIX<s n="num"/></r></p></e>
     <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
+    <e><p><l>XXI<s n="num"/></l><r>XXI<s n="num"/></r></p></e>
 
     <!-- SECTION:  Nouns -->
 
@@ -507,7 +514,7 @@
     <e><p><l>diversitat<s n="n"/><s n="f"/></l><r>diversidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>modalitat<s n="n"/><s n="f"/></l><r>modalidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>visibilitat<s n="n"/><s n="f"/></l><r>visibilidade<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>senyal<s n="n"/><s n="m"/></l><r>signale<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>senyal<s n="n"/><s n="m"/></l><r>signale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nit<s n="n"/><s n="f"/></l><r>note<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cabra<s n="n"/><s n="f"/></l><r>cabra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tipus<s n="n"/><s n="m"/></l><r>tipu<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e> 
@@ -1405,7 +1412,7 @@
     <e><p><l>condició<s n="n"/><s n="f"/></l><r>conditzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>budista<s n="n"/><s n="mf"/></l><r>buddhista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>signe<s n="n"/><s n="m"/></l><r>signu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>satèl·lit<s n="n"/><s n="m"/></l><r>satellite<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>satèl·lit<s n="n"/><s n="m"/></l><r>satèllite<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ritme<s n="n"/><s n="m"/></l><r>ritmu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>planta<s n="n"/><s n="f"/></l><r>pranta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pacifista<s n="n"/><s n="mf"/></l><r>pacifista<s n="n"/><s n="mf"/></r></p></e>
@@ -1669,20 +1676,21 @@
     <e><p><l>Canadà<s n="np"/><s n="loc"/></l><r>Canada<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Àustria<s n="np"/><s n="loc"/></l><r>Austria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Sud-àfrica<s n="np"/><s n="loc"/></l><r>Sudàfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Polònia<s n="np"/><s n="loc"/></l><r>Polonia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Polònia<s n="np"/><s n="loc"/></l><r>Polània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Suïssa<s n="np"/><s n="loc"/></l><r>Isvìtzera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Chicago<s n="np"/><s n="loc"/></l><r>Chicago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Azerbaidjan<s n="np"/><s n="loc"/></l><r>Azerbaigián<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>Xicago<s n="np"/><s n="loc"/></l><r>Chicago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Azerbaidjan<s n="np"/><s n="loc"/></l><r>Azerbaigiàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Argentina<s n="np"/><s n="loc"/></l><r>Argentina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Vietnam<s n="np"/><s n="loc"/></l><r>Vietnàm<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Berlín<s n="np"/><s n="loc"/></l><r>Berlinu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Turquia<s n="np"/><s n="loc"/></l><r>Turchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Moscou<s n="np"/><s n="loc"/></l><r>Mosca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Vaticà<s n="np"/><s n="loc"/></l><r>Vaticanu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Sudan<s n="np"/><s n="loc"/></l><r>Sudan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Mesopotàmia<s n="np"/><s n="loc"/></l><r>Mesopotamia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Sudan<s n="np"/><s n="loc"/></l><r>Sudàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Mesopotàmia<s n="np"/><s n="loc"/></l><r>Mesopotàmia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Geòrgia<s n="np"/><s n="loc"/></l><r>Geòrgia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Filadèlfia<s n="np"/><s n="loc"/></l><r>Filadelfia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Filadèlfia<s n="np"/><s n="loc"/></l><r>Filadèlfia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Carbonia<s n="np"/><s n="loc"/></l><r>Carbònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Liechtenstein<s n="np"/><s n="loc"/></l><r>Liechtenstein<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Santiago<s n="np"/><s n="loc"/></l><r>Santiago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1699,12 +1707,12 @@
     <e><p><l>Cannes<s n="np"/><s n="loc"/></l><r>Cannes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Nova<b/>York<s n="np"/><s n="loc"/></l><r>New<b/>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Nova<b/>Delhi<s n="np"/><s n="loc"/></l><r>New<b/>Delhi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Teheran<s n="np"/><s n="loc"/></l><r>Teheran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Teheran<s n="np"/><s n="loc"/></l><r>Teheràn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Stanford<s n="np"/><s n="loc"/></l><r>Stanford<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Síria<s n="np"/><s n="loc"/></l><r>Sìria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Natzaret<s n="np"/><s n="loc"/></l><r>Nazaret<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Natzaret<s n="np"/><s n="loc"/></l><r>Nazarèt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Gran<b/>Bretanya<s n="np"/><s n="loc"/></l><r>Bretagna<b/>Manna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Tràcia<s n="np"/><s n="loc"/></l><r>Tracia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Tràcia<s n="np"/><s n="loc"/></l><r>Tràtzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Sant<b/>Francesc<s n="np"/><s n="loc"/></l><r>Santu<b/>Frantziscu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>San<b/>Marino<s n="np"/><s n="loc"/></l><r>San<b/>Marino<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Romania<s n="np"/><s n="loc"/></l><r>Romania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2095,8 +2103,8 @@
 
     <e><p><l>segon<s n="adj"/></l><r>segundu<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>primer<s n="adj"/></l><r>primu<s n="adj"/><s n="ord"/></r></p></e>
-    <e><p><l>últim<s n="adj"/></l><r>ùrtimu<s n="adj"/><s n="ord"/></r></p></e>
-    <e><p><l>penúltim<s n="adj"/></l><r>penùrtimu<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>últim<s n="adj"/></l><r>ùrtimu<s n="adj"/></r></p></e>
+    <e><p><l>penúltim<s n="adj"/></l><r>penùrtimu<s n="adj"/></r></p></e>
 
     <e><p><l>mateix<s n="adj"/></l><r>matessi<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
     <e r="RL"><p><l>similar<s n="adj"/></l><r>che<b/>pare<s n="adj"/></r></p><par n="mfND_mfsp"/></e>
@@ -2145,7 +2153,7 @@
     <e><p><l>japonès<s n="adj"/></l><r>giaponesu<s n="adj"/></r></p></e>
     <e><p><l>suec<s n="adj"/></l><r>isvedesu<s n="adj"/></r></p></e>
     <e><p><l>megalític<s n="adj"/></l><r>megalìticu<s n="adj"/></r></p></e>
-    <e><p><l>simple<s n="adj"/></l><r>sèmplitze<s n="adj"/></r></p><par n="sup_0"/></e>
+    <e><p><l>simple<s n="adj"/></l><r>sèmplitze<s n="adj"/></r></p><par n="sup_0_mf"/></e>
     <e><p><l>industrial<s n="adj"/></l><r>industriale<s n="adj"/></r></p></e>
     <e><p><l>provincial<s n="adj"/></l><r>provintziale<s n="adj"/></r></p></e>
     <e><p><l>físic<s n="adj"/></l><r>fìsicu<s n="adj"/></r></p></e>
@@ -2154,7 +2162,7 @@
     <e><p><l>portàtil<s n="adj"/></l><r>portàtile<s n="adj"/></r></p></e>
     <e><p><l>poderós<s n="adj"/></l><r>poderosu<s n="adj"/></r></p></e>
     <e><p><l>mecànic<s n="adj"/></l><r>mecànicu<s n="adj"/></r></p></e>
-    <e><p><l>interessant<s n="adj"/></l><r>interessante<s n="adj"/></r></p><par n="sup_0"/></e>
+    <e><p><l>interessant<s n="adj"/></l><r>interessante<s n="adj"/></r></p><par n="sup_0_mf"/></e>
     <e><p><l>impressionant<s n="adj"/></l><r>impressionante<s n="adj"/></r></p></e>
     <e><p><l>fèrtil<s n="adj"/></l><r>fèrtile<s n="adj"/></r></p></e>
     <e><p><l>electrònic<s n="adj"/></l><r>eletrònicu<s n="adj"/></r></p></e>
@@ -2240,7 +2248,7 @@
     <e><p><l>governatiu<s n="adj"/></l><r>guvernativu<s n="adj"/></r></p></e>
     <e><p><l>satíric<s n="adj"/></l><r>satìricu<s n="adj"/></r></p></e>
     <e><p><l>saharià<s n="adj"/></l><r>saharianu<s n="adj"/></r></p></e>
-    <e><p><l>evident<s n="adj"/></l><r>evidente<s n="adj"/></r></p><par n="sup_0"/></e>
+    <e><p><l>evident<s n="adj"/></l><r>evidente<s n="adj"/></r></p><par n="sup_0_mf"/></e>
     <e><p><l>autònom<s n="adj"/></l><r>autònomu<s n="adj"/></r></p></e>
     <e><p><l>plural<s n="adj"/></l><r>plurale<s n="adj"/></r></p></e>
     <e><p><l>formal<s n="adj"/></l><r>formale<s n="adj"/></r></p></e>
@@ -2288,7 +2296,7 @@
     <e><p><l>molt<s n="adj"/></l><r>meda<s n="adj"/></r></p><par n="GD_mf+sup_0"/></e>
     <e><p><l>holandès<s n="adj"/></l><r>olandesu<s n="adj"/></r></p></e>
     <e><p><l>hongarès<s n="adj"/></l><r>ungheresu<s n="adj"/></r></p></e>
-    <e><p><l>important<s n="adj"/></l><r>importante<s n="adj"/></r></p><par n="sup_0"/></e>
+    <e><p><l>important<s n="adj"/></l><r>importante<s n="adj"/></r></p><par n="sup_0_mf"/></e>
     <e><p><l>independentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p></e>
     <e><p><l>socialista<s n="adj"/></l><r>sotzialista<s n="adj"/></r></p></e>
     <e><p><l>generalista<s n="adj"/></l><r>generalista<s n="adj"/></r></p></e>
@@ -2409,7 +2417,7 @@
     <e><p><l>menor<s n="adj"/></l><r>minore<s n="adj"/></r></p></e>
     <e><p><l>mut<s n="adj"/></l><r>mudu<s n="adj"/></r></p></e>
     <e><p><l>negre<s n="adj"/></l><r>nieddu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
-    <e><p><l>potent<s n="adj"/></l><r>potente<s n="adj"/></r></p><par n="sup_0"/></e>
+    <e><p><l>potent<s n="adj"/></l><r>potente<s n="adj"/></r></p><par n="sup_0_mf"/></e>
     <e><p><l>ple<s n="adj"/></l><r>prenu<s n="adj"/></r></p></e>
     <e><p><l>professional<s n="adj"/></l><r>professionale<s n="adj"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanu<s n="adj"/></r></p></e>
@@ -3128,7 +3136,7 @@
       <e r="LR"><p><l>eixe<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>un<b/>seguit<b/>de<s n="det"/><s n="ind"/></l><r>una<b/>sèrie<b/>de<s n="det"/><s n="ind"/></r></p></e>
       <!-- <e><p><l>algun<b/>altre<s n="det"/><s n="ind"/></l><r>calicunu<b/>àteru<s n="det"/><s n="ind"/></r></p></e> -->
-      <e><p><l>sengles<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/></r></p></e>
+      <!-- <e><p><l>sengles<s n="det"/><s n="ind"/></l><r>ambos<s n="det"/><s n="ind"/></r></p></e> -->
       <e r="LR"><p><l>aqueix<s n="det"/><s n="dem"/></l><r>custu<s n="det"/><s n="dem"/></r></p></e>
       <!-- <e><p><l>tot<b/>un<b/>seguit<b/>de<s n="det"/><s n="ind"/></l><r>totu<b/>una<b/>sèrie<b/>de<s n="det"/><s n="ind"/></r></p></e> -->
       <e><p><l>ningun<s n="det"/><s n="ind"/></l><r>nessunu<s n="det"/><s n="ind"/></r></p></e>
@@ -3156,7 +3164,7 @@
       <e><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>su<b/>chi<s n="rel"/></r></p></e>
       <e r="RL"><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>cale<s n="rel"/></r></p></e>
       <e><p><l>qual<s n="rel"/></l><r>cale<s n="rel"/></r></p></e>
-      <e><p><l>el<b/>qui<s n="rel"/></l><r>su<b/>chi<s n="rel"/></r></p></e>
+      <e><p><l>el<b/>qui<s n="rel"/><s n="nn"/></l><r>su<b/>chi<s n="rel"/><s n="an"/></r></p></e>
       <e r="RL"><p><l>el<b/>qui<s n="rel"/></l><r>chie<s n="rel"/></r></p></e>
       <e><p><l>a<b/>on<s n="rel"/></l><r>a<b/>ue<s n="rel"/></r></p></e>
       <e><p><l>al<b/>qui<s n="rel"/></l><r>a<b/>su<b/>chi<s n="rel"/></r></p></e>
@@ -3502,25 +3510,25 @@
     <!-- SECTION:  Abbreviations -->
 
     <e><p><l>km<s n="n"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
-    <e><p><l>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>MIT<s n="abbr"/></r></p></e>
-    <e><p><l>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>APEC<s n="abbr"/></r></p></e>
+    <e><p><l>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>ADN<s n="abbr"/></r></p></e>
-    <e r="RL"><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DNA<s n="abbr"/></r></p></e>
-    <e><p><l>Unesco<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>Unesco<s n="abbr"/></r></p></e>
-    <e><p><l>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSC<s n="abbr"/></r></p></e>
-    <e><p><l>FAO<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>FAO<s n="abbr"/></r></p></e>
-    <e><p><l>LSU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSU<s n="abbr"/></r></p></e>
-    <e><p><l>OPEP<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>OPEC<s n="abbr"/></r></p></e>
-    <e><p><l>OTAN<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>NATO<s n="abbr"/></r></p></e>
-    <e><p><l>AIEA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>IAEA<s n="abbr"/></r></p></e>
-    <e><p><l>OSCE<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>OSCE<s n="abbr"/></r></p></e>
-    <e><p><l>sida<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>SIDA<s n="abbr"/></r></p></e>
-    <e r="RL"><p><l>SIDA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>AIDS<s n="abbr"/></r></p></e>
-    <e><p><l>CIA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>CIA<s n="abbr"/></r></p></e>
-    <e><p><l>AFI<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>IPA<s n="abbr"/></r></p></e>
-    <e><p><l>VIH<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>VIH<s n="abbr"/></r></p></e>
-    <e><p><l>GNU<s n="np"/><s n="al"/></l><r>GNU<s n="abbr"/></r></p></e>
+    <e><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>ADN<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>DNA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Unesco<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>Unesco<s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>FAO<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>Fao<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>LSU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>LSU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>OPEP<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>OPEC<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>OTAN<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>NATO<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>AIEA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>IAEA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>OSCE<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>OSCE<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>sida<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>SIDA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>SIDA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>AIDS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>CIA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>CIA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>AFI<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>IPA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>VIH<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>VIH<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>GNU<s n="np"/><s n="al"/></l><r>GNU<s n="np"/><s n="al"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
