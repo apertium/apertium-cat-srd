@@ -1,5 +1,5 @@
 echo "==Catalan->Sardinian==========================";
-bash inconsistency.sh ca-sc > /tmp/ca-sc.testvoc; sh inconsistency-summary.sh /tmp/ca-sc.testvoc ca-sc
+bash inconsistency.sh cat-srd > /tmp/cat-srd.testvoc; sh inconsistency-summary.sh /tmp/cat-srd.testvoc cat-srd
 #echo ""
 #echo "==Sardinian->Catalan===========================";
-#bash inconsistency.sh sc-ca > /tmp/sc-ca.testvoc; bash inconsistency-summary.sh /tmp/sc-ca.testvoc sc-ca
+#bash inconsistency.sh srd-cat > /tmp/srd-cat.testvoc; bash inconsistency-summary.sh /tmp/srd-cat.testvoc srd-cat
