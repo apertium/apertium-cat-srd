@@ -21,6 +21,7 @@ avaluacio/apertium-eval-translator.pl -text
 avaluacio/vent20170331.cat.txt -text
 avaluacio/vent20170331.srd.fin.txt -text
 avaluacio/vent20170331.srd.ini.txt -text
+/carregar_lexic.pl -text
 /configure.ac -text
 dev/RULES-AND-MULTIWORDS -text
 dev/adv-menti.txt -text
