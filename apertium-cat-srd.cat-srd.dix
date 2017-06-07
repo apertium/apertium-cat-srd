@@ -112,7 +112,7 @@
     </pardef>
     <pardef n="sup_0">
       <e><p><l></l><r></r></p></e>
-      <e r="LR"><p><l><s n="sup"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="sup"/></l><r></r></p></e>
     </pardef>
 
     <pardef n="mf_GD">
@@ -182,6 +182,14 @@
       <e r="LR"><p><l><s n="m"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="GD+ND_nt+sg">
+      <e r="LR"><p><l><s n="m"/><s n="sg"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="sg"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/><s n="pl"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/><s n="pl"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="el_qual_su_cale">
@@ -1671,12 +1679,12 @@
     <e><p><l>Àfrica<s n="np"/><s n="loc"/></l><r>Àfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Tanzània<s n="np"/><s n="loc"/></l><r>Tanzània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Sicília<s n="np"/><s n="loc"/></l><r>Sitzìlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Iran<s n="np"/><s n="loc"/></l><r>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Iran<s n="np"/><s n="loc"/></l><r>Iràn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cuba<s n="np"/><s n="loc"/></l><r>Cuba<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Canadà<s n="np"/><s n="loc"/></l><r>Canada<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Àustria<s n="np"/><s n="loc"/></l><r>Austria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Canadà<s n="np"/><s n="loc"/></l><r>Canadà<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Àustria<s n="np"/><s n="loc"/></l><r>Àustria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Sud-àfrica<s n="np"/><s n="loc"/></l><r>Sudàfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Polònia<s n="np"/><s n="loc"/></l><r>Polània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Polònia<s n="np"/><s n="loc"/></l><r>Polònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Suïssa<s n="np"/><s n="loc"/></l><r>Isvìtzera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Chicago<s n="np"/><s n="loc"/></l><r>Chicago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>Xicago<s n="np"/><s n="loc"/></l><r>Chicago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3455,7 +3463,7 @@
       <e><p><l>aquest<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e r="LR"><p><l>això<s n="prn"/><s n="tn"/><s n ="nt"/></l><r>custu<s n="prn"/><s n="tn"/><s n ="m"/><s n ="sg"/></r></p></e>
       <e><p><l>algun<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p></e>
-      <e r="RL"><p><l>algun<s n="prn"/><s n="tn"/></l><r>carchi<s n="prn"/><s n="tn"/></r></p></e>
+      <e r="RL"><p><l>algun<s n="prn"/><s n="tn"/></l><r>carchi<s n="prn"/><s n="tn"/></r></p><par n="GD+ND_nt+sg"/></e>
       <e><p><l>tot<s n="prn"/><s n="tn"/></l><r>totu<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
       <e><p><l>molts<s n="prn"/><s n="tn"/></l><r>medas<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
       <e><p><l>aquell<s n="prn"/><s n="tn"/></l><r>cuddu<s n="prn"/><s n="tn"/></r></p></e>
@@ -3551,6 +3559,406 @@
       <e><p><l>increment<s n="n"/><s n="m"/></l><r>acreschimentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>altre<s n="adj"/></l><r>àteru<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>morir<s n="vblex"/></l><r>mòrrere<s n="vblex"/></r></p></e>
+      <e><p><l>important<s n="adj"/></l><r>importante<s n="adj"/></r></p><par n="sup_0_mf"/></e>
+      <e><p><l>diagrama<s n="n"/><s n="m"/></l><r>diagramma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>petit<s n="adj"/></l><r>minore<s n="adj"/></r></p><par n="GD_mf+sup_0"/></e>
+      <e><p><l>equip<s n="n"/><s n="m"/></l><r>iscuadra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>municipi<s n="n"/><s n="m"/></l><r>munitzìpiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>convertir<s n="vblex"/></l><r>cunvertire<s n="vblex"/></r></p></e>
+      <e><p><l>anomenar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>anomenar<s n="vblex"/></l><r>mentovare<s n="vblex"/></r></p></e>
+      <e><p><l>major<s n="adj"/></l><r>majore<s n="adj"/></r></p></e>
+      <e><p><l>destacar<s n="vblex"/></l><r>distacare<s n="vblex"/></r></p></e>
+      <e><p><l>aparèixer<s n="vblex"/></l><r>pàrrere<s n="vblex"/></r></p></e>
+      <e><p><l>guanyar<s n="vblex"/></l><r>balangiare<s n="vblex"/></r></p></e>
+      <e><p><l>anomenat<s n="adj"/></l><r>mentovadu<s n="adj"/></r></p></e>
+      <e><p><l>mantenir<s n="vblex"/></l><r>mantènnere<s n="vblex"/></r></p></e>
+      <e><p><l>resta<s n="n"/><s n="f"/></l><r>restu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nomenar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
+      <e><p><l>pel·lícula<s n="n"/><s n="f"/></l><r>film<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fet<s n="n"/><s n="m"/></l><r>fatu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>habitatge<s n="n"/><s n="m"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
+      <e><p><l>m<s n="n"/>/><s n="f"/><s n="sg"/></l><r>m<s n="abbr"/></r></p></e>
+      <e><p><l>vertical<s n="n"/><s n="f"/></l><r>verticale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>esdevenir<s n="vblex"/></l><r>divenire<s n="vblex"/></r></p></e>
+      <e><p><l>piràmide<s n="n"/><s n="f"/></l><r>piràmide<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>temporada<s n="n"/><s n="f"/></l><r>istajone<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>unir<s n="vblex"/></l><r>unire<s n="vblex"/></r></p></e>
+      <e><p><l>vegada<s n="n"/><s n="f"/></l><r>bia<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>vegada<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pobresa<s n="n"/><s n="f"/></l><r>poberesa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>poc<s n="adj"/><s n="ind"/></l><r>pagu<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>Joan<s n="np"/><s n="ant"/></l><r>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>sols<s n="adv"/></l><r>petzi<s n="adv"/></r></p></e>
+      <e><p><l>unipersonal<s n="adj"/></l><r>unipersonale<s n="adj"/></r></p></e>
+      <e><p><l>districte<s n="n"/><s n="m"/></l><r>cussòrgia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>llindar<s n="n"/><s n="m"/></l><r>giannile<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>llindar<s n="n"/><s n="m"/></l><r>atza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>davall<s n="adv"/></l><r>suta<s n="adv"/></r></p></e>
+      <e><p><l>per<b/>capita<s n="adv"/></l><r>per<b/>òmine<s n="adv"/></r></p></e>
+      <e><p><l>llavors<s n="adv"/></l><r>tando<s n="adv"/></r></p></e>
+      <e><p><l>cos<s n="n"/><s n="m"/></l><r>corpus<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>iniciar<s n="vblex"/></l><r>cumintzare<s n="vblex"/></r></p></e>
+      <e><p><l>millor<s n="adj"/><s n="mf"/></l><r>mègius<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>càrrec<s n="n"/><s n="m"/></l><r>incàrrigu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>castell<s n="n"/><s n="m"/></l><r>casteddu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>anterior<s n="adj"/></l><r>anteriore<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>estil<s n="n"/><s n="m"/></l><r>istile<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>més<b/>tard<s n="adv"/></l><r>prus<b/>tardu<s n="adv"/></r></p></e>
+      <e><p><l>futbol<s n="n"/><s n="m"/></l><r>fùbalu<s n="n"/><s n="m"/></r></p><par n="sg_ND"/></e>
+      <e><p><l>dividir<s n="vblex"/></l><r>dividire<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>dividir<s n="vblex"/></l><r>partire<s n="vblex"/></r></p></e>
+      <e><p><l>jugar<s n="vblex"/></l><r>giogare<s n="vblex"/></r></p></e>
+      <e><p><l>base<s n="n"/><s n="f"/></l><r>base<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>darrer<s n="adj"/></l><r>ùrtimu<s n="adj"/></r></p></e>
+      <e><p><l>final<s n="n"/><s n="m"/></l><r>fine<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>monoparental<s n="adj"/></l><r>monoparentale<s n="adj"/></r></p></e>
+      <e><p><l>tercer<s n="adj"/></l><r>de<b/>tres<s n="adj"/><s n="ord"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>sovint<s n="adv"/></l><r>a<b/>s'ispissu<s n="adv"/></r></p></e>
+      <e><p><l>finalment<s n="adv"/></l><r>a<b/>sa<b/>fine<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>finalment<s n="adv"/></l><r>a<b/>ùrtimu<s n="adv"/></r></p></e>
+      <e><p><l>intentar<s n="vblex"/></l><r>intentare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>intentar<s n="vblex"/></l><r>proare<s n="vblex"/></r></p></e>
+      <e><p><l>Madrid<s n="np"/><s n="loc"/></l><r>Madrid<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>dècada<s n="n"/><s n="f"/></l><r>deghina<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>semblar<s n="vblex"/></l><r>assimigiare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>semblar<s n="vblex"/></l><r>pàrrere<s n="vblex"/></r></p></e>
+      <e><p><l>cop<s n="n"/><s n="m"/></l><r>corfu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>est<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>etc.<s n="adv"/></l><r>etz<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>etc.<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
+      <e><p><l>comarca<s n="n"/><s n="f"/></l><r>contrada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>personatge<s n="n"/><s n="m"/></l><r>personàgiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>disputar<s n="vblex"/></l><r>cuntierrare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>disputar<s n="vblex"/></l><r>chertare<s n="vblex"/></r></p></e>
+      <e><p><l>carrera<s n="n"/><s n="f"/></l><r>carriera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>estructura<s n="n"/><s n="f"/></l><r>istrutura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tropa<s n="n"/><s n="f"/></l><r>tropa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fins<b/>i<b/>tot<s n="adv"/></l><r>agiomai<s n="adv"/></r></p></e>
+      <e><p><l>bisbe<s n="n"/><s n="m"/></l><r>pìscamu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>derrotar<s n="vblex"/></l><r>bìnchere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>derrotar<s n="vblex"/></l><r>derrotare<s n="vblex"/></r></p></e>
+      <e><p><l>club<s n="n"/><s n="m"/></l><r>club<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Carles<s n="np"/><s n="ant"/></l><r>Carles<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>joc<s n="n"/><s n="m"/></l><r>giogu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>esmentar<s n="vblex"/></l><r>mentovare<s n="vblex"/></r></p></e>
+      <e><p><l>vila<s n="n"/><s n="f"/></l><r>villa<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>vila<s n="n"/><s n="f"/></l><r>bidda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>municipal<s n="adj"/></l><r>munitzipale<s n="adj"/></r></p></e>
+      <e><p><l>porta<s n="n"/><s n="f"/></l><r>porta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>traslladar<s n="vblex"/></l><r>tramudare<s n="vblex"/></r></p></e>
+      <e><p><l>estiu<s n="n"/><s n="m"/></l><r>istiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>oferir<s n="vblex"/></l><r>ofèrrere<s n="vblex"/></r></p></e>
+      <e><p><l>sobretot<s n="adv"/></l><r>mescamente<s n="adv"/></r></p></e>
+      <e><p><l>dur<s n="vblex"/></l><r>giùghere<s n="vblex"/></r></p></e>
+      <e><p><l>atac<s n="n"/><s n="m"/></l><r>atacu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mitjà<s n="adj"/></l><r>mesu<s n="adj"/></r></p></e>
+      <e><p><l>bo<s n="adj"/></l><r>bonu<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>ordre<s n="n"/><s n="f"/></l><r>òrdine<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cabre<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
+      <e><p><l>britànic<s n="adj"/></l><r>britànnicu<s n="adj"/></r></p></e>
+      <e><p><l>atacar<s n="vblex"/></l><r>atacare<s n="vblex"/></r></p></e>
+      <e><p><l>disposar<s n="vblex"/></l><r>dispònnere<s n="vblex"/></r></p></e>
+      <e><p><l>superfície<s n="n"/><s n="f"/></l><r>superfìtzie<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Pere<s n="np"/><s n="ant"/></l><r>Pere<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>afegir<s n="vblex"/></l><r>annànghere<s n="vblex"/></r></p></e>
+      <e><p><l>fer<g><b/>servir</g><s n="vblex"/></l><r>impreare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>fer<g><b/>servir</g><s n="vblex"/></l><r>tratare<s n="vblex"/></r></p></e>
+      <e><p><l>domini<s n="n"/><s n="m"/></l><r>domìniu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>domini<s n="n"/><s n="m"/></l><r>apoderamentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>succeir<s n="vblex"/></l><r>acadèssere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>succeir<s n="vblex"/></l><r>sutzèdere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>succeir<s n="vblex"/></l><r>capitare<s n="vblex"/></r></p></e>
+      <e><p><l>peça<s n="n"/><s n="f"/></l><r>cantu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>general<s n="n"/><s n="mf"/></l><r>generale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>or<s n="n"/><s n="m"/></l><r>oro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>estendre<s n="vblex"/></l><r>crèschere<s n="vblex"/></r></p></e>
+      <e><p><l>acceptar<s n="vblex"/></l><r>atzetare<s n="vblex"/></r></p></e>
+      <e><p><l>figura<s n="n"/><s n="f"/></l><r>figura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Josep<s n="np"/><s n="ant"/></l><r>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>vaixell<s n="n"/><s n="m"/></l><r>naviu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>anglès<s n="n"/></l><r>inglesu<s n="n"/></r></p></e>
+      <e><p><l>exemple<s n="n"/><s n="m"/></l><r>esempru<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>exemple<s n="n"/><s n="m"/></l><r>esèmpiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>data<s n="n"/><s n="f"/></l><r>data<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>victòria<s n="n"/><s n="f"/></l><r>vitòria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>etapa<s n="n"/><s n="f"/></l><r>tapa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>comtat<s n="n"/><s n="m"/></l><r>contea<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reduir<s n="vblex"/></l><r>minimare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>reduir<s n="vblex"/></l><r>reduire<s n="vblex"/></r></p></e>
+      <e><p><l>posteriorment<s n="adv"/></l><r>a<b/>pustis<s n="adv"/></r></p></e>
+      <e><p><l>costa<s n="n"/><s n="f"/></l><r>costera<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>costa<s n="n"/><s n="f"/></l><r>costa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lluita<s n="n"/><s n="f"/></l><r>cumbata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>explicar<s n="vblex"/></l><r>ispiegare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>explicar<s n="vblex"/></l><r>acrarire<s n="vblex"/></r></p></e>
+      <e><p><l>humà<s n="adj"/></l><r>umanu<s n="adj"/></r></p></e>
+      <e><p><l>del<b/>nord<s n="adj"/><s n="mf"/></l><r>setentrionale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+      <e><p><l>motiu<s n="n"/><s n="m"/></l><r>motivu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pas<s n="n"/><s n="m"/></l><r>passu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>caure<s n="vblex"/></l><r>rùere<s n="vblex"/></r></p></e>
+      <e><p><l>assolir<s n="vblex"/></l><r>cròmpere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>assolir<s n="vblex"/></l><r>lòmpere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>assolir<s n="vblex"/></l><r>arribare<s n="vblex"/></r></p></e>
+      <e><p><l>companyia<s n="n"/><s n="f"/></l><r>cumpannia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>català<s n="n"/></l><r>catalanu<s n="n"/></r></p></e>
+      <e><p><l>actuar<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
+      <e><p><l>governador<s n="n"/></l><r>guvernadore<s n="n"/></r></p></e>
+      <e><p><l>pintura<s n="n"/><s n="f"/></l><r>pintura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>entrada<s n="n"/><s n="f"/></l><r>intrada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>barri<s n="n"/><s n="m"/></l><r>bighinadu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>barri<s n="n"/><s n="m"/></l><r>apendìtziu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>carretera<s n="n"/><s n="f"/></l><r>caminu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>medalla<s n="n"/><s n="f"/></l><r>medàllia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>velocitat<s n="n"/><s n="f"/></l><r>lestresa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mètode<s n="n"/><s n="m"/></l><r>mètodu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>protegir<s n="vblex"/></l><r>amparare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>protegir<s n="vblex"/></l><r>bardare<s n="vblex"/></r></p></e>
+      <e><p><l>estació<s n="n"/><s n="f"/></l><r>istatzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jugador<s n="n"/></l><r>giogadore<s n="n"/></r></p></e>
+      <e><p><l>marcar<s n="vblex"/></l><r>marcare<s n="vblex"/></r></p></e>
+      <e><p><l>exercir<s n="vblex"/></l><r>fàghere<s n="vblex"/></r></p></e>
+      <e><p><l>destruir<s n="vblex"/></l><r>ispèrdere<s n="vblex"/></r></p></e>
+      <e><p><l>cursar<s n="vblex"/></l><r>cùrrere<s n="vblex"/></r></p></e>
+      <e><p><l>total<s n="n"/><s n="m"/></l><r>totale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>animal<s n="n"/><s n="m"/></l><r>animale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>introduir<s n="vblex"/></l><r>introdùere<s n="vblex"/></r></p></e>
+      <e><p><l>patir<s n="vblex"/></l><r>patire<s n="vblex"/></r></p></e>
+      <e><p><l>fugir<s n="vblex"/></l><r>fuire<s n="vblex"/></r></p></e>
+      <e><p><l>vendre<s n="vblex"/></l><r>bènnere<s n="vblex"/></r></p></e>
+      <e><p><l>fons<s n="n"/><s n="m"/></l><r>fundu<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+      <e><p><l>usuari<s n="n"/></l><r>impitadore<s n="n"/></r></p></e>
+      <e><p><l>torre<s n="n"/><s n="f"/></l><r>turre<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>explotació<s n="n"/><s n="f"/></l><r>isfrutamentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>reunir<s n="vblex"/></l><r>riunire<s n="vblex"/></r></p></e>
+      <e><p><l>número<s n="n"/><s n="m"/></l><r>nùmeru<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>correspondre<s n="vblex"/></l><r>currispòndere<s n="vblex"/></r></p></e>
+      <e><p><l>cobrir<s n="vblex"/></l><r>cobèrrere<s n="vblex"/></r></p></e>
+      <e><p><l>curt<s n="adj"/></l><r>curtzu<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>significar<s n="vblex"/></l><r>significare<s n="vblex"/></r></p></e>
+      <e><p><l>to<s n="n"/><s n="m"/></l><r>tonu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>desaparèixer<s n="vblex"/></l><r>isparire<s n="vblex"/></r></p></e>
+      <e><p><l>datar<s n="vblex"/></l><r>datare<s n="vblex"/></r></p></e>
+      <e><p><l>capella<s n="n"/><s n="f"/></l><r>capella<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inferior<s n="adj"/></l><r>inferiore<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>matar<s n="vblex"/></l><r>ochire<s n="vblex"/></r></p></e>
+      <e><p><l>nucli<s n="n"/><s n="m"/></l><r>nùcleu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>instal·lar<s n="vblex"/></l><r>installare<s n="vblex"/></r></p></e>
+      <e><p><l>José<s n="np"/><s n="ant"/></l><r>Josè<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>novel·la<s n="n"/><s n="f"/></l><r>paristòria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>adquirir<s n="vblex"/></l><r>achirire<s n="vblex"/></r></p></e>
+      <e><p><l>tant<s n="adj"/></l><r>meda<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>cantó<s n="n"/><s n="m"/></l><r>contone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>escena<s n="n"/><s n="f"/></l><r>iscena<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bosc<s n="n"/><s n="m"/></l><r>buscu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>senyor<s n="n"/></l><r>sennore<s n="n"/></r></p></e>
+      <e><p><l>temple<s n="n"/><s n="m"/></l><r>tèmpiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>reial<s n="adj"/></l><r>reale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>reial<s n="adj"/></l><r>verdaderu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>deure<s n="vblex"/></l><r>dèvere<s n="vblex"/></r></p></e>
+      <e><p><l>òpera<s n="n"/><s n="f"/></l><r>òpera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tron<s n="n"/><s n="m"/></l><r>tronu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>selecció<s n="n"/><s n="f"/></l><r>seletzione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>selecció<s n="n"/><s n="f"/></l><r>sèberu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>dependre<s n="vblex"/></l><r>dipèndere<s n="vblex"/></r></p></e>
+      <e><p><l>concedir<s n="vblex"/></l><r>cuntzèdere<s n="vblex"/></r></p></e>
+      <e><p><l>sorgir<s n="vblex"/></l><r>nàschere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>sorgir<s n="vblex"/></l><r>ispuntare<s n="vblex"/></r></p></e>
+      <e><p><l>marxar<s n="vblex"/></l><r>caminare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>marxar<s n="vblex"/></l><r>martzare<s n="vblex"/></r></p></e>
+      <e><p><l>real<s n="adj"/></l><r>reale<s n="adj"/></r></p></e>
+      <e><p><l>lletra<s n="n"/><s n="f"/></l><r>lìtera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lluitar<s n="vblex"/></l><r>gherrare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>lluitar<s n="vblex"/></l><r>peleare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>lluitar<s n="vblex"/></l><r>chertare<s n="vblex"/></r></p></e>
+      <e><p><l>escut<s n="n"/><s n="m"/></l><r>iscudu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>concepte<s n="n"/><s n="m"/></l><r>cuntzetu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>clar<s n="adj"/></l><r>craru<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>arc<s n="n"/><s n="m"/></l><r>arcu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jove<s n="adj"/></l><r>giòvanu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>mostra<s n="n"/><s n="f"/></l><r>mustra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>secundari<s n="adj"/></l><r>segundàriu<s n="adj"/></r></p></e>
+      <e><p><l>créixer<s n="vblex"/></l><r>crèschere<s n="vblex"/></r></p></e>
+      <e><p><l>tancar<s n="vblex"/></l><r>tancare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>tancar<s n="vblex"/></l><r>serrare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>tancar<s n="vblex"/></l><r>cungiare<s n="vblex"/></r></p></e>
+      <e><p><l>dur<g><b/>a<b/>terme</g><s n="vblex"/></l><r>cumprire<s n="vblex"/></r></p></e>
+      <e><p><l>fusta<s n="n"/><s n="f"/></l><r>linna<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>resultar<s n="vblex"/></l><r>resurtare<s n="vblex"/></r></p></e>
+      <e><p><l>durar<s n="vblex"/></l><r>durare<s n="vblex"/></r></p></e>
+      <e><p><l>consistir<s n="vblex"/></l><r>cunsìstere<s n="vblex"/></r></p></e>
+      <e><p><l>estrella<s n="n"/><s n="f"/></l><r>isteddu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>longitud<s n="n"/><s n="f"/></l><r>longitùdine<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>elegir<s n="vblex"/></l><r>seberare<s n="vblex"/></r></p></e>
+      <e><p><l>pèrdua<s n="n"/><s n="f"/></l><r>pèrdida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Felip<s n="np"/><s n="ant"/></l><r>Felip<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>expedició<s n="n"/><s n="f"/></l><r>ispeditzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>concert<s n="n"/><s n="m"/></l><r>cuntzertu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aproximadament<s n="adv"/></l><r>belle<s n="adv"/></r></p></e>
+      <e><p><l>revolta<s n="n"/><s n="f"/></l><r>abbolotu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>accés<s n="n"/><s n="m"/></l><r>atzessu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>combat<s n="n"/><s n="m"/></l><r>cumbata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>festa<s n="n"/><s n="f"/></l><r>festa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>comandament<s n="n"/><s n="m"/></l><r>cumandamentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>preparar<s n="vblex"/></l><r>preparare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>preparar<s n="vblex"/></l><r>aprontare<s n="vblex"/></r></p></e>
+      <e><p><l>carta<s n="n"/><s n="f"/></l><r>lìtera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Francesc<s n="np"/><s n="ant"/></l><r>Francesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>branca<s n="n"/><s n="f"/></l><r>camba<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mida<s n="n"/><s n="f"/></l><r>medida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cedir<s n="vblex"/></l><r>tzèdere<s n="vblex"/></r></p></e>
+      <e><p><l>bandera<s n="n"/><s n="f"/></l><r>bandera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>conquerir<s n="vblex"/></l><r>conchistare<s n="vblex"/></r></p></e>
+      <e><p><l>catedral<s n="n"/><s n="f"/></l><r>catedrale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>líder<s n="n"/><s n="mf"/></l><r>cabu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>líder<s n="n"/><s n="mf"/></l><r>ghia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contacte<s n="n"/><s n="m"/></l><r>cuntatu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>alemany<s n="n"/></l><r>tedescu<s n="n"/></r></p></e>
+      <e><p><l>sud-est<s n="n"/><s n="m"/></l><r>sud-est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>atorgar<s n="vblex"/></l><r>cunfèrrere<s n="vblex"/></r></p></e>
+      <e><p><l>finalitzar<s n="vblex"/></l><r>concruire<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>finalitzar<s n="vblex"/></l><r>agabbare<s n="vblex"/></r></p></e>
+      <e><p><l>generar<s n="vblex"/></l><r>generare<s n="vblex"/></r></p></e>
+      <e><p><l>afectar<s n="vblex"/></l><r>tocare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>afectar<s n="vblex"/></l><r>influire<s n="vblex"/></r></p></e>
+      <e><p><l>dissenyar<s n="vblex"/></l><r>disinnare<s n="vblex"/></r></p></e>
+      <e><p><l>ràpid<s n="adj"/></l><r>lestru<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>esperar<s n="vblex"/></l><r>isetare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>esperar<s n="vblex"/></l><r>isperare<s n="vblex"/></r></p></e>
+      <e><p><l>cort<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>rebutjar<s n="vblex"/></l><r>refudare<s n="vblex"/></r></p></e>
+      <e><p><l>proporcionar<s n="vblex"/></l><r>frunire<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>proporcionar<s n="vblex"/></l><r>partire<s n="vblex"/></r></p></e>
+      <e><p><l>tècnica<s n="n"/><s n="f"/></l><r>tècnica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contingut<s n="n"/><s n="m"/></l><r>cuntenutu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>britànic<s n="n"/></l><r>britànnicu<s n="n"/></r></p></e>
+      <e><p><l>palau<s n="n"/><s n="m"/></l><r>palatzu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>femení<s n="adj"/></l><r>feminile<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>centrar<s n="vblex"/></l><r>cuntzentrare<s n="vblex"/></r></p></e>
+      <e><p><l>constar<s n="vblex"/></l><r>cunsìstere<s n="vblex"/></r></p></e>
+      <e><p><l>enllaç<s n="n"/><s n="m"/></l><r>ligàmene<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fortalesa<s n="n"/><s n="f"/></l><r>casteddu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>comerç<s n="n"/><s n="m"/></l><r>cummèrtziu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>treure<s n="vblex"/></l><r>bogare<s n="vblex"/></r></p></e>
+      <e><p><l>masculí<s n="adj"/></l><r>maschile<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>simple<s n="adj"/></l><r>simpre<s n="adj"/></r></p><par n="sup_0_mf"/></e>
+      <e r="RL"><p><l>simple<s n="adj"/></l><r>sèmplitze<s n="adj"/></r></p><par n="sup_0_mf"/></e>
+      <e><p><l>marca<s n="n"/><s n="f"/></l><r>marca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>columna<s n="n"/><s n="f"/></l><r>colunna<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ruta<s n="n"/><s n="f"/></l><r>caminu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cert<s n="adj"/></l><r>tzertu<s n="adj"/></r></p></e>
+      <e><p><l>recollir<s n="vblex"/></l><r>collire<s n="vblex"/></r></p></e>
+      <e><p><l>cèl·lula<s n="n"/><s n="f"/></l><r>tzèllula<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hivern<s n="n"/><s n="m"/></l><r>ierru<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>químic<s n="adj"/></l><r>chìmicu<s n="adj"/></r></p></e>
+      <e><p><l>designar<s n="vblex"/></l><r>designare<s n="vblex"/></r></p></e>
+      <e><p><l>nord-est<s n="n"/><s n="m"/></l><r>nord-est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>imperi<s n="n"/><s n="m"/></l><r>impèriu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sud-oest<s n="n"/><s n="m"/></l><r>sud-ovest<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>envoltar<s n="vblex"/></l><r>inghiriare<s n="vblex"/></r></p></e>
+      <e><p><l>so<s n="n"/><s n="m"/></l><r>sonu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>requerir<s n="vblex"/></l><r>rechèdere<s n="vblex"/></r></p></e>
+      <e><p><l>denominar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
+      <e><p><l>restar<s n="vblex"/></l><r>abarrare<s n="vblex"/></r></p></e>
+      <e><p><l>habitual<s n="adj"/></l><r>fitianu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sala<s n="n"/><s n="f"/></l><r>sala<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>volum<s n="n"/><s n="m"/></l><r>volùmene<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mineral<s n="n"/><s n="m"/></l><r>minerale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aire<s n="n"/><s n="m"/></l><r>àera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>museu<s n="n"/><s n="m"/></l><r>museu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pujar<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
+      <e><p><l>nord-oest<s n="n"/><s n="m"/></l><r>nord-ovest<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>expulsar<s n="vblex"/></l><r>catzare<s n="vblex"/></r></p></e>
+      <e><p><l>posseir<s n="vblex"/></l><r>possèdere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>posseir<s n="vblex"/></l><r>tènnere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>posseir<s n="vblex"/></l><r>àere<s n="vblex"/></r></p></e>
+      <e><p><l>diòcesi<s n="n"/><s n="f"/></l><r>diòtzesi<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>arribada<s n="n"/><s n="f"/></l><r>arribu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>oficial<s n="n"/><s n="mf"/></l><r>ufitziale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>investigació<s n="n"/><s n="f"/></l><r>chirca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>diputat<s n="n"/></l><r>deputadu<s n="n"/></r></p></e>
+      <e><p><l>començament<s n="n"/><s n="m"/></l><r>cumintzu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>individual<s n="adj"/></l><r>individuale<s n="adj"/></r></p></e>
+      <e><p><l>en<b/>general<s n="adv"/></l><r>in<b/>generale<s n="adv"/></r></p></e>
+      <e><p><l>flor<s n="n"/><s n="f"/></l><r>frore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cadena<s n="n"/><s n="f"/></l><r>cadena<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ampliar<s n="vblex"/></l><r>crèschere<s n="vblex"/></r></p></e>
+      <e><p><l>pista<s n="n"/><s n="f"/></l><r>pista<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>façana<s n="n"/><s n="f"/></l><r>fatzada<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>façana<s n="n"/><s n="f"/></l><r>fronte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>complir<s n="vblex"/></l><r>cumprire<s n="vblex"/></r></p></e>
+      <e><p><l>grec<s n="n"/></l><r>gregu<s n="n"/></r></p></e>
+      <e><p><l>de<b/>vegades<s n="adv"/></l><r>a<b/>bias<s n="adv"/></r></p></e>
+      <e><p><l>escala<s n="n"/><s n="f"/></l><r>iscala<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ric<s n="adj"/></l><r>ricu<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>càrrega<s n="n"/><s n="f"/></l><r>càrriga<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Mallorca<s n="np"/><s n="loc"/></l><r>Maiorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>administratiu<s n="adj"/></l><r>amministrativu<s n="adj"/></r></p></e>
+      <e><p><l>creixement<s n="n"/><s n="m"/></l><r>crèschida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>molt<b/>més<s n="adv"/></l><r>meda<b/>de<b/>prus<s n="adv"/></r></p></e>
+      <e><p><l>tractat<s n="n"/><s n="m"/></l><r>tratadu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>assassinar<s n="vblex"/></l><r>ochìere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>assassinar<s n="vblex"/></l><r>ochire<s n="vblex"/></r></p></e>
+      <e><p><l>actuació<s n="n"/><s n="f"/></l><r>atuamentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>oposar<s n="vblex"/></l><r>opònnere<s n="vblex"/></r></p></e>
+      <e><p><l>específic<s n="adj"/></l><r>ispetzìficu<s n="adj"/></r></p></e>
+      <e><p><l>moneda<s n="n"/><s n="f"/></l><r>moneda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>presoner<s n="n"/></l><r>presoneri<s n="n"/></r></p></e>
+      <e><p><l>amor<s n="n"/><s n="m"/></l><r>amore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>entendre<s n="vblex"/></l><r>intèndere<s n="vblex"/></r></p></e>
+      <e><p><l>editar<s n="vblex"/></l><r>istèrrere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>editar<s n="vblex"/></l><r>iscrìere<s n="vblex"/></r></p></e>
+      <e><p><l>lliurar<s n="vblex"/></l><r>prànghere<s n="vblex"/></r></p></e>
+      <e><p><l>recerca<s n="n"/><s n="f"/></l><r>chirca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>senzill<s n="adj"/></l><r>simpre<s n="adj"/></r></p><par n="GD_mf+sup_0"/></e>
+      <e r="RL"><p><l>senzill<s n="adj"/></l><r>sèmplitze<s n="adj"/></r></p><par n="GD_mf+sup_0"/></e>
+      <e><p><l>naixement<s n="n"/><s n="m"/></l><r>nàschida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mena<s n="n"/><s n="f"/></l><r>casta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vermell<s n="adj"/></l><r>ruju<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>monument<s n="n"/><s n="m"/></l><r>monumentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>front<s n="n"/><s n="m"/></l><r>fronte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sortida<s n="n"/><s n="f"/></l><r>essida<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>sortida<s n="n"/><s n="f"/></l><r>bessida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>successor<s n="n"/></l><r>sutzessore<s n="n"/></r></p></e>
+      <e><p><l>accedir<s n="vblex"/></l><r>atzèdere<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>accedir<s n="vblex"/></l><r>intrare<s n="vblex"/></r></p></e>
+      <e><p><l>bàsic<s n="adj"/></l><r>fundamentale<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>emetre<s n="vblex"/></l><r>emìtere<s n="vblex"/></r></p></e>
+      <e><p><l>barranc<s n="n"/><s n="m"/></l><r>trèmene<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>idioma<s n="n"/><s n="m"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>familiar<s n="adj"/></l><r>familiare<s n="adj"/></r></p></e>
+      <e><p><l>vehicle<s n="n"/><s n="m"/></l><r>veìculu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>corrent<s n="n"/><s n="m"/></l><r>trainu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>corrent<s n="n"/><s n="m"/></l><r>ritzolu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fruit<s n="n"/><s n="m"/></l><r>frutu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parròquia<s n="n"/><s n="f"/></l><r>parròchia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>completament<s n="adv"/></l><r>de<b/>su<b/>totu<s n="adv"/></r></p></e>
+      <e><p><l>alçada<s n="n"/><s n="f"/></l><r>artura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>llatí<s n="n"/></l><r>latinu<s n="n"/></r></p></e>
+      <e><p><l>parc<s n="n"/><s n="m"/></l><r>parcu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>corona<s n="n"/><s n="f"/></l><r>corona<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>transport<s n="n"/><s n="m"/></l><r>trasportu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>exposar<s n="vblex"/></l><r>arriscare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>exposar<s n="vblex"/></l><r>atrivire<s n="vblex"/></r></p></e>
+      <e><p><l>atribuir<s n="vblex"/></l><r>atribuire<s n="vblex"/></r></p></e>
+      <e><p><l>derrota<s n="n"/><s n="f"/></l><r>derrota<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>totalment<s n="adv"/></l><r>de<b/>su<b/>totu<s n="adv"/></r></p></e>
+      <e><p><l>completar<s n="vblex"/></l><r>acabare<s n="vblex"/></r></p></e>
+      <e><p><l>escrit<s n="adj"/></l><r>iscritu<s n="adj"/></r></p></e>
+      <e><p><l>torneig<s n="n"/><s n="m"/></l><r>torneu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>connectar<s n="vblex"/></l><r>connètere<s n="vblex"/></r></p></e>
+      <e><p><l>gas<s n="n"/><s n="m"/></l><r>gas<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>extrem<s n="adj"/></l><r>estremu<s n="adj"/></r></p></e>
+      <e><p><l>esportiu<s n="adj"/></l><r>isportivu<s n="adj"/></r></p></e>
+      <e><p><l>minut<s n="n"/><s n="m"/></l><r>minutu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>estrenar<s n="vblex"/></l><r>publicare<s n="vblex"/></r></p></e>
+      <e><p><l>gol<s n="n"/><s n="m"/></l><r>gol<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>altitud<s n="n"/><s n="f"/></l><r>artària<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>setge<s n="n"/><s n="m"/></l><r>assìtiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>militar<s n="n"/><s n="mf"/></l><r>militare<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>privat<s n="adj"/></l><r>privadu<s n="adj"/></r></p><par n="sup_0"/></e>
 
 </section>
 </dictionary>

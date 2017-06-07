@@ -58,8 +58,14 @@
 <def-cat n="hi">
    <cat-item lemma="hi" tags="prn.pro.adv"/>
 </def-cat>
+<def-cat n="algun_prn">
+   <cat-item lemma="algun" tags="prn.*"/>
+</def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
+</def-cat>
+<def-cat n="de">
+   <cat-item lemma="de" tags="pr"/>
 </def-cat>
 <def-cat n="haver">
    <cat-item lemma="haver" tags="vbhaver.*"/>
@@ -98,6 +104,7 @@
    <cat-item tags="vblex.inf"/>
    <cat-item tags="vbser.inf"/>
    <cat-item tags="vbhaver.inf"/>
+   <cat-item tags="vbmod.inf"/>
 </def-cat>
 <def-cat n="vblex_inf">
    <cat-item tags="vblex.inf"/>
@@ -3559,6 +3566,81 @@
      </out>
    </action>
 </rule>
+
+<rule comment="regla: algun de det: algunes de les característiques > calicunas caraterìsticas">
+   <pattern>
+     <pattern-item n="algun_prn"/>
+     <pattern-item n="de"/>
+     <pattern-item n="det"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>     
+     <out>
+       <chunk name="SN">
+         <tags>
+           <tag><lit-tag v="prn"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit-tag v="det.ind"/>
+	   <clip pos="4" side="tl" part="gen"/>
+           <clip pos="4" side="tl" part="nbr"/>
+         </lu>
+         <b pos="3"/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: algun de det: algunes de les grans característiques > calicunas mannas caraterìsticas">
+   <pattern>
+     <pattern-item n="algun_prn"/>
+     <pattern-item n="de"/>
+     <pattern-item n="det"/>
+     <pattern-item n="adjec"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="5"/>
+       <with-param pos="4"/>
+     </call-macro>     
+     <out>
+       <chunk name="SN">
+         <tags>
+           <tag><lit-tag v="prn"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit-tag v="det.ind"/>
+	   <clip pos="5" side="tl" part="gen"/>
+           <clip pos="5" side="tl" part="nbr"/>
+         </lu>
+         <b pos="3"/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         <b pos="4"/>
+         <lu>
+           <clip pos="5" side="tl" part="lemh"/>
+           <clip pos="5" side="tl" part="tags"/>
+           <clip pos="5" side="tl" part="lemq"/>
+         </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
 
 </section-rules>
 
