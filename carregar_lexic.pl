@@ -3,17 +3,20 @@
 # En aquest programa es llegeix el fitxer amb 4 columnes separades per tabuladors amb paraules amb categories tancaes
 # 0. ocurrències
 # 1. paraula catalana
-# 2. categoria gramatical
+# 2. categoria gramatical sarda
 # 3. paraula sarda
+# 4. categoria gramatical sarda
 # El programa genera 2 fitxers per carregar als 2 fitxers de diccionari
+# Només genera paraules per als fitxers si la paraula català no té traducció prèvia en el fitxer bilingüe
 
 use strict;
 use utf8;
 
-my ($fsrd, $fbi, $fdixsrd, $fdixcat);
+my ($fsrd, $fbi, $fdixsrd, $fdixcat, $fdixbi);
 
 open($fdixsrd, "../apertium-srd/apertium-srd.srd.dix") || die "can't open apertium-srd.srd.dix: $!";
 open($fdixcat, "../apertium-cat/apertium-cat.cat.dix") || die "can't open apertium-cat.cat.dix: $!";
+open($fdixbi, "apertium-cat-srd.cat-srd.dix") || die "can't open apertium-cat.cat.dix: $!";
 
 open($fsrd, ">f_srd.dix.txt") || die "can't open f_srd.dix: $!";
 open($fbi, ">f_bi.dix.txt") || die "can't open f_bi.dix: $!";
@@ -21,6 +24,7 @@ open($fbi, ">f_bi.dix.txt") || die "can't open f_bi.dix: $!";
 binmode(STDIN, ":encoding(UTF-8)");
 binmode($fdixsrd, ":encoding(UTF-8)");
 binmode($fdixcat, ":encoding(UTF-8)");
+binmode($fdixbi, ":encoding(UTF-8)");
 binmode($fsrd, ":encoding(UTF-8)");
 binmode($fbi, ":encoding(UTF-8)");
 binmode(STDOUT, ":encoding(UTF-8)");
@@ -37,6 +41,7 @@ sub llegir_dix {
 #<e lm="intertzèdere">    <p><l>intertzed</l> <r>intertzèdere</r></p><par n="tim/o__vblex"/></e>
 #<e lm="ismòrrere">       <p><l>ismorr</l>    <r>ismòrrere</r></p><par n="tim/o__vblex"/></e>
 #<e lm="més" a="mginesti"><i>més</i><par n="multimèdia__adj"/></e>
+#<e lm="tènnere logu">    <p><l>ten</l>       <r>tènnere</r></p><par n="ten/es__vblex"/><p><l><b/>logu</l><r><g><b/>logu</g></r></p></e>
 
 	while (my $linia = <$fitx>) {
 		chop $linia;
@@ -44,7 +49,13 @@ sub llegir_dix {
 		if ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
 			$lemma = $1;
 			$par = $2;
+		} elsif ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/><p>|o) {
+			$lemma = $1;
+			$par = $2;
 		} elsif ($linia =~ m|<e lm="([^"]*)".*<p><l>.*</l>.*<par n="(.*)"/></e>|o) {
+			$lemma = $1;
+			$par = $2;
+		} elsif ($linia =~ m|<e lm="([^"]*)".*<p><l>.*</l>.*<par n="(.*)"/><p>|o) {
 			$lemma = $1;
 			$par = $2;
 		} else {
@@ -69,18 +80,75 @@ sub llegir_dix {
 	}
 }
 
+# llegeixo el fitxer bilingüe: n, adj, adv, np, abbr
+sub llegir_bidix {
+	my ($fitx, $r_struct) = @_;
+	my ($lemma_cat, $lemma_srd, $morf, $morf2);
+
+#       <e><p><l>derrota<s n="n"/><s n="f"/></l><r>derrota<s n="n"/><s n="f"/></r></p></e>
+#      <e><p><l>proper<s n="adj"/></l><r>imbeniente<s n="adj"/></r></p><par n="GD_mf"/></e>
+#      <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
+
+
+	while (my $linia = <$fitx>) {
+		chop $linia;
+		$linia =~ s|<b/>| |og;
+#print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+		if ($linia =~ m|<e> *<p><l>([^<]*)<s n="([^"]*)".*<r>([^<]*)<s|o) {
+			$lemma_cat = $1;
+			$morf = $2;
+			$lemma_srd = $3;
+		} elsif ($linia =~ m|<e r="LR"> *<p><l>([^<]*)<s n="([^"]*)".*<r>([^<]*)<s|o) {
+			$lemma_cat = $1;
+			$morf = $2;
+			$lemma_srd = $3;
+		} else {
+			next;
+		}
+		if ($morf ne 'n' && $morf ne 'adj' && $morf ne 'adv' && $morf ne 'np' && $morf ne 'vblex' && $morf ne 'abbr') {
+#			print STDERR "línia $.: $linia - morf $morf\n";
+			next;
+		}
+
+		# en el cas de n i np busco el segon membre de la definició morfològica
+		if ($morf eq 'n' || $morf eq 'np') {
+			if ($linia =~ m|<e> *<p><l>([^<]*)<s n="([^"]*)".><s n="([^"]*)".>.*<r>([^<]*)<s|o) {
+				$lemma_cat = $1;
+				$morf = $2 . $3;
+				$lemma_srd = $4;
+			} elsif ($linia =~ m|<e r="LR"> *<p><l>([^<]*)<s n="([^"]*)".><s n="([^"]*)".>.*<r>([^<]*)<s|o) {
+				$lemma_cat = $1;
+				$morf = $2 . $3;
+				$lemma_srd = $3;
+			} else {
+				print STDERR "000x línia $.: $linia - morf $morf\n" unless $morf eq 'n';	# és normal que no hi hagi gènere en noms que en poden tenir dos
+			}
+		}
+
+
+
+#print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+
+		$r_struct->{$morf}{$lemma_cat} = $lemma_srd;
+#print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $morf =~ /vblex/o;
+print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $lemma_cat =~ /conegut/o;
+#print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n";
+	}
+}
+
 my %dix_srd = ();
 my %dix_cat = ();
+my %dix_bi = ();
 
 llegir_dix('srd', $fdixsrd, \%dix_srd);
 llegir_dix('cat', $fdixcat, \%dix_cat);
+llegir_bidix($fdixbi, \%dix_bi);
 
 <STDIN>;	# saltem la primera línia
 my ($stem_cat, $stem_srd, $gen_cat, $gen_srd, $num_cat, $num_srd, $lemma_cat, $lemma_srd);
 while (my $linia = <STDIN>) {
 	chop $linia;
 	$linia =~ s/[^a-z\t]+$//o;
-#	$linia =~ tr/[A-ZÀÈÌÒÙÉÍÓÚ/a-zàèìòùéíóú/;
 	my @dades = split /\t/, $linia;
 	for (my $i=0; $i<=$#dades; $i++) { 
 		$dades[$i] =~ s/^ +//o;
@@ -89,7 +157,8 @@ while (my $linia = <STDIN>) {
 
 	next unless $dades[3];			# línia buida
 	next if $dades[5] =~ /\?/o;		# dubtes
-print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletra
+	next if length $dades[1] == 1;		# una sola lletra
+#print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletra
 
 	$stem_cat = $dades[1];
 	$stem_cat =~ s| +| |og;
@@ -101,6 +170,22 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 		$lemma_cat =~ s/#//o;
 	}
 	$stem_cat =~ s| |<b/>|og;
+
+	my $gram_cat = $dades[2];
+	$gram_cat =~ s/^ *<//og;
+	$gram_cat =~ s/> *$//og;
+	$gram_cat =~ s/><//og;
+	# verifico que la paraula no estigui ja en en diccionari bilingüe
+	if ($dix_bi{$gram_cat}{$lemma_cat}) {
+#print "No es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
+		next;
+	}
+	if ($gram_cat eq 'nm' && $dix_bi{n}{$lemma_cat}) {	# sovint apareixen com a nm paraules que són n (i.e. m+f)
+#print "No es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
+		next;
+	}
+print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
+
 
 	$dades[3] =~ s|,|;|og;
 
@@ -146,6 +231,7 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 			$gram_srd = $gram_cat;
 		}
 #print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_cat, gram_srd = $gram_srd\n" if $lemma_cat eq 'parella';
+#print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_cat, gram_srd = $gram_srd\n";
 
 		# sortida: diccionari bilingüe
 		if ($gram_cat eq 'vblex') {
@@ -159,9 +245,17 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 
 		} elsif ($gram_cat eq 'adv') {
 			# comprovo que és en el diccionari monolingüe
-			print STDERR "Falta $lemma_srd <$gram_srd>\n" unless $dix_srd{$gram_srd}{$lemma_srd};
-#			print "dix_srd{$gram_srd}{$lemma_srd} = $dix_srd{$gram_srd}{$lemma_srd}\n";
-			next unless $dix_srd{$gram_srd}{$lemma_srd};
+			unless ($dix_srd{$gram_srd}{$lemma_srd}) {
+				if ($gram_srd eq 'adv') {
+				# generem el paradigma al diccionari sard
+					my $par_srd = 'bene__adv';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} else {
+					print STDERR "Falta $lemma_srd <$gram_srd>\n" unless $dix_srd{$gram_srd}{$lemma_srd};
+#					print "dix_srd{$gram_srd}{$lemma_srd} = $dix_srd{$gram_srd}{$lemma_srd}\n";
+					next;
+				}
+			}
 
 			my $rl = ' r="RL"' unless $primer;
 			printf $fbi "      <e$rl><p><l>%s<s n=\"$gram_cat\"/></l><r>%s<s n=\"$gram_srd\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -248,6 +342,7 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 			my $par_srd = $dix_srd{$gram_srd}{$lemma_srd};
 			# comprovo que és en el diccionari monolingüe
 			print STDERR "FALTA CAT $lemma_cat <$gram_cat>\n" unless $par_cat;		# seria estranyíssim no trobar-lo!
+#			print STDERR "dades[1] = #$dades[1]#, length = ", length($dades[1]), "\n" unless $par_cat;
 			next unless $par_cat;
 			print STDERR "Falta srd $lemma_srd <$gram_srd>\n" unless $par_srd;
 			next unless $par_srd;
@@ -318,6 +413,8 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'dentista__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'albanes/e__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'pane__n') {
@@ -366,13 +463,50 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 			# comprovo que és en el diccionari monolingüe
 			print STDERR "FALTA CAT $lemma_cat <$gram_cat>\n" unless $par_cat;		# seria estranyíssim no trobar-lo!
 			next unless $par_cat;
-			print STDERR "Falta srd $lemma_srd <$gram_srd>\n" unless $par_srd;
-			next unless $par_srd;
+
+			unless ($par_srd) {
+				# generem el paradigma al diccionari sard
+				if ($gram_srd eq 'np><ant><m><sg') {
+					$par_srd = 'Antoni__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><ant><f><sg') {
+					$par_srd = 'Maria__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd =~ /^np><cog/o) {
+					$par_srd = 'Saussure__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><top><f><sg') {
+					$par_srd = 'Etiòpia__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><top><m><sg') {
+					$par_srd = 'Afganistàn__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><top><f><pl') {
+					$par_srd = 'Is_Pratzas__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><top><m><pl') {
+					$par_srd = 'Istados_Unidos__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><hyd><f><pl') {
+					$par_srd = 'Loira__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($gram_srd eq 'np><hyd><m><sg') {
+					$par_srd = 'Po__np';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} else {
+					print STDERR "Falta srd $lemma_srd <$gram_srd> - no el podem generar (falten dades)\n" unless $par_srd;
+					next;
+				} 
+			}
 
 			if ($par_cat eq 'Abad__np' && $par_srd eq 'Antoni__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Abad__np' && $par_srd eq 'Maria__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'Marc__np' && $par_srd eq 'Antoni__np') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'Maria__np' && $par_srd eq 'Maria__np') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Abad__np' && $par_srd eq 'Saussure__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"cog\"/><s n=\"mf\"/><s n=\"sp\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Afganistan__np' && $par_srd eq 'Afganistàn__np') {
@@ -387,6 +521,8 @@ print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletr
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"loc\"/></l><r>%s<s n=\"np\"/><s n=\"hyd\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Afganistan__np' && $par_srd eq 'Loira__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"loc\"/></l><r>%s<s n=\"np\"/><s n=\"top\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'ABC__np' && $par_srd eq 'Fiat__np') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"al\"/></l><r>%s<s n=\"np\"/><s n=\"top\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} else {
 				print STDERR "np 1. par_cat = $par_cat, par_srd = $par_srd, $stem_cat > $stem_srd\n";
 			}
