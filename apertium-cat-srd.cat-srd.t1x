@@ -115,6 +115,10 @@
 <def-cat n="ger">
    <cat-item tags="vblex.ger"/>
 </def-cat>
+<def-cat n="imp-ger">
+   <cat-item tags="vblex.imp.*"/>
+   <cat-item tags="vblex.ger"/>
+</def-cat>
 <def-cat n="adjec">
    <cat-item tags="adj.*"/>
    <cat-item tags="vblex.pp.*"/>
@@ -3098,6 +3102,16 @@
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
          <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
+      <choose>
+	<when> 
+	  <test>
+	    <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+	  </test>
+	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analita com a CI, en comptes de com a CD -->
+         <let><clip pos="3" side="tl" part="lem"/><lit v="lu"/></let>
+         <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+	</when> 
+      </choose>
          <out>
            <chunk name="inf_enc">
              <tags>
@@ -3181,6 +3195,16 @@
          </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+      <choose>
+	<when> 
+	  <test>
+	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
+	  </test>
+	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analita com a CI, en comptes de com a CD -->
+         <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
+         <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
+	</when> 
+      </choose>
          <out>
            <chunk name="pro_pro_vbmod_inf">
              <tags>
@@ -3214,33 +3238,25 @@
        </action>
     </rule>
 
-<rule comment="regla: imp enc">
+<rule comment="regla: imp-ger enc">
    <pattern>
-     <pattern-item n="imp"/>
+     <pattern-item n="imp-ger"/>
      <pattern-item n="enc"/>
    </pattern>
    <action>
      <out>
-       <chunk name="imp-enc">
+       <chunk name="imp-ger-enc">
          <tags>
            <tag><lit-tag v="SV"/></tag>
          </tags>
        <mlu>
          <lu>
            <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="tags"/>
          </lu>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="a_adv"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="tags"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
        </mlu>
@@ -3249,9 +3265,9 @@
    </action>
 </rule>
 
-<rule comment="regla: imp enc enc: Abaixa-l'hi. → Abbassa·nche·lu, Abaixa-l'en. → Abbassa·lu">
+<rule comment="regla: imp-ger enc enc: Abaixa-l'hi. → Abbassa·nche·lu, Abaixa-l'en. → Abbassa·lu">
    <pattern>
-     <pattern-item n="imp"/>
+     <pattern-item n="imp-ger"/>
      <pattern-item n="enc"/>
      <pattern-item n="enc"/>
    </pattern>
@@ -3265,26 +3281,19 @@
 	    </equal>
 	  </test>
           <out>
-            <chunk name="imp-enc">
+            <chunk name="imp-ger-enc">
               <tags>
                 <tag><lit-tag v="SV"/></tag>
               </tags>
             <mlu>
               <lu>
                 <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="gen"/>
-                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="tags"/>
               </lu>
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_adv"/>
-                <clip pos="2" side="tl" part="pers"/>
-                <clip pos="2" side="tl" part="gen"/>
-                <clip pos="2" side="tl" part="nbr"/>
+                <clip pos="2" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </mlu>
             </chunk>
@@ -3298,69 +3307,56 @@
 	    </equal>
 	  </test>
           <out>
-            <chunk name="imp-enc-enc">
+            <chunk name="imp-ger-enc-enc">
               <tags>
                 <tag><lit-tag v="SV"/></tag>
               </tags>
             <mlu>
               <lu>
                 <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="gen"/>
-                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="tags"/>
               </lu>
               <lu>
                 <clip pos="3" side="tl" part="lemh"/>
-                <clip pos="3" side="tl" part="a_prn"/>
-                <clip pos="3" side="tl" part="a_adv"/>
-                <clip pos="3" side="tl" part="pers"/>
-                <clip pos="3" side="tl" part="gen"/>
-                <clip pos="3" side="tl" part="nbr"/>
+                <clip pos="3" side="tl" part="tags"/>
               </lu>
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_adv"/>
-                <clip pos="2" side="tl" part="pers"/>
-                <clip pos="2" side="tl" part="gen"/>
-                <clip pos="2" side="tl" part="nbr"/>
+                <clip pos="2" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </mlu>
             </chunk>
           </out>
 	</when>
 	<otherwise>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
+	      </test>
+	     <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analita com a CI, en comptes de com a CD -->
+             <let><clip pos="3" side="tl" part="lem"/><lit v="lu"/></let>
+             <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+	    </when> 
+          </choose>
           <out>
-            <chunk name="imp-enc-enc">
+            <chunk name="imp-ger-enc-enc">
               <tags>
                 <tag><lit-tag v="SV"/></tag>
               </tags>
             <mlu>
               <lu>
                 <clip pos="1" side="tl" part="lemh"/>
-                <clip pos="1" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="temps"/>
-                <clip pos="1" side="tl" part="pers"/>
-                <clip pos="1" side="tl" part="gen"/>
-                <clip pos="1" side="tl" part="nbr"/>
+                <clip pos="1" side="tl" part="tags"/>
               </lu>
               <lu>
                 <clip pos="2" side="tl" part="lemh"/>
-                <clip pos="2" side="tl" part="a_prn"/>
-                <clip pos="2" side="tl" part="a_adv"/>
-                <clip pos="2" side="tl" part="pers"/>
-                <clip pos="2" side="tl" part="gen"/>
-                <clip pos="2" side="tl" part="nbr"/>
+                <clip pos="2" side="tl" part="tags"/>
               </lu>
               <lu>
                 <clip pos="3" side="tl" part="lemh"/>
-                <clip pos="3" side="tl" part="a_prn"/>
-                <clip pos="3" side="tl" part="a_adv"/>
-                <clip pos="3" side="tl" part="pers"/>
-                <clip pos="3" side="tl" part="gen"/>
-                <clip pos="3" side="tl" part="nbr"/>
+                <clip pos="3" side="tl" part="tags"/>
                 <clip pos="1" side="tl" part="lemq"/>
               </lu>
             </mlu>
@@ -3551,6 +3547,7 @@
 </rule>
 
 
+<!--
 <rule comment="regla: ger enc">
    <pattern>
      <pattern-item n="ger"/>
@@ -3613,6 +3610,7 @@
      </out>
    </action>
 </rule>
+-->
 
 
 <rule comment="regla: pro inf">
