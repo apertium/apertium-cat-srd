@@ -51,6 +51,7 @@ sub llegir_dix {
 		if ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
 			$lemma = $1;
 			$par = $2;
+
 		} elsif ($linia =~ m|<e r="LR" lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
 			$lemma = $1;
 			$par = $2;
@@ -61,6 +62,10 @@ sub llegir_dix {
 			$lemma = $1;
 			$par = $2;
 		} elsif ($linia =~ m|<e lm="([^"]*)".*<p><l>.*</l>.*<par n="(.*)"/><p>|o) {
+			$lemma = $1;
+			$par = $2;
+		} elsif ($linia =~ m|<e lm="([^"]*)">[^<]*<par n="(.*)"/></e>|o) {
+#<e lm="ampli">           <par n="/ampli__adj"/></e>
 			$lemma = $1;
 			$par = $2;
 		} else {
@@ -189,7 +194,7 @@ while (my $linia = <STDIN>) {
 #print "No es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
 		next;
 	}
-print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
+#print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
 
 
 	$dades[3] =~ s|,|;|og;
@@ -285,13 +290,23 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'meda__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abstract/e__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"nostre_nostru\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'a/eri__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afric/à__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'alacant/í__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'contempor/ani__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'ami/c__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'complex__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'complex__adj' && $par_srd eq 'linguìsti/cu__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abusi/u__adj' && $par_srd eq 'cunservador/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -312,6 +327,8 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 			} elsif ($par_cat eq 'triparti/t__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acadèmi/c__adj' && $par_srd eq 'linguìsti/cu__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'absolut__adj' && $par_srd eq 'cunservador/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'absolut__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -349,6 +366,8 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afortuna/t__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'bas/c__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'bas/c__adj' && $par_srd eq 'linguìsti/cu__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'blan/c__adj' && $par_srd eq 'linguìsti/cu__adj') {
@@ -359,10 +378,20 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'bo__adj' && $par_srd eq 'àter/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'important__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD+sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'important__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0_mf\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alegr/e__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'bre/u__adj' && $par_srd eq 'fàtzil/e__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup_0_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'esc/às__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'genu/í__adj' && $par_srd eq 'fàtzil/e__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'genu/í__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'altr/e__adj' && $par_srd eq 'àter/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"nostre_nostru\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'po/c__adj' && $par_srd eq 'frantzes/u__adj') {
@@ -370,7 +399,7 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 			} elsif ($par_cat eq 'multimèdia__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/><s n=\"mf\"/></l><r>%s<s n=\"adj\"/><s n=\"mf\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} else {
-				print STDERR "adj 1. par_cat = $par_cat, par_srd = $par_srd\n";
+				print STDERR "adj 1. par_cat = $par_cat, par_srd = $par_srd, $stem_cat > $stem_srd\n";
 			}
 
 		} elsif ($gram_cat eq 'n') {
@@ -436,6 +465,10 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'aband/ó__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'aband/ó__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'abd/omen__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'antic/òs__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'as__n' && $par_srd eq 'pane__n') {
@@ -448,6 +481,10 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'barre/ja__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'caf/è__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'caf/è__n' && $par_srd eq 'pane__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'carism/a__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'carism/a__n' && $par_srd eq 'mac/u__n') {
@@ -456,6 +493,10 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'acc/és__n' && $par_srd eq 'mesa__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'pane__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acc/és__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'assa/ig__n' && $par_srd eq 'mac/u__n') {
@@ -466,7 +507,11 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'cos__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'm/arge__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'pa__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'pa__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'lapis__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
@@ -474,6 +519,8 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'anarchismu__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sp\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'pane__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'temp/us__n') {
@@ -481,6 +528,8 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 			} elsif ($par_cat eq 'as__n' && $par_srd eq 'lapis__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'dentista__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'monar/ca__n' && $par_srd eq 'dentista__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'albanes/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -490,17 +539,25 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'traballador/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'av/ís__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'boc/í__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'capat/às__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'desi/g__n' && $par_srd eq 'mac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'nitr/ogen__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'pols__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 
+			} elsif ($par_cat eq 'addict/e__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"nostre_nostru\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'angl/ès__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'accionist/a__n' && $par_srd eq 'amig/u__n') {
@@ -513,6 +570,8 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'americ/à__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'amfitri/ó__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'ami/c__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'asiàti/c__n' && $par_srd eq 'amig/u__n') {
@@ -523,15 +582,29 @@ print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'indiv/idu__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'rus__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 've/í__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'ingegner/i__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'traballador/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'administrati/u__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'alcalde__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'alcalde__n' && $par_srd eq 'traballador/e__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alcalde__n' && $par_srd eq 'cont/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'emperad/or__n' && $par_srd eq 'cont/e__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'bar/ó__n' && $par_srd eq 'cont/e__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'cont/e__n' && $par_srd eq 'cont/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 
 			} elsif ($par_cat eq 'q__n' && $par_srd eq 'a.C.__abbr') {
