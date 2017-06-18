@@ -627,8 +627,7 @@
     <e><p><l>instrucció<s n="n"/><s n="f"/></l><r>istrutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lliçó<s n="n"/><s n="f"/></l><r>letzione<s n="n"/><s n="f"/></r></p></e>
     <!-- <e><p><l>lesió<s n="n"/><s n="f"/></l><r>lezione<s n="n"/><s n="f"/></r></p></e> VERIFY -->
-    <e><p><l>boig<s n="n"/><s n="m"/></l><r>macu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>boig<s n="n"/><s n="f"/></l><r>macu<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>boig<s n="n"/></l><r>macu<s n="n"/></r></p></e>
     <e><p><l>membre<s n="n"/><s n="mf"/></l><r>membru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>marit<s n="n"/><s n="m"/></l><r>maridu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>piano<s n="n"/><s n="m"/></l><r>pianu<s n="n"/><s n="m"/></r></p></e>
@@ -1642,7 +1641,7 @@
     <e><p><l>Eslovènia<s n="np"/><s n="loc"/></l><r>Islovènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Regne<b/>Unit<s n="np"/><s n="loc"/></l><r>Regnu<b/>Unidu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Estats<b/>Units<s n="np"/><s n="loc"/></l><r>Istados<b/>Unidos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-    <e><p><l>Països<b/>Baixos<s n="np"/><s n="loc"/></l><r>Logos<b/>Bascios<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+    <e><p><l>Països<b/>Baixos<s n="np"/><s n="loc"/></l><r>Paisos<b/>Bàscios<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
     <e><p><l>Sardenya<s n="np"/><s n="loc"/></l><r>Sardigna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Catalunya<s n="np"/><s n="loc"/></l><r>Catalogna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Andorra<s n="np"/><s n="loc"/></l><r>Andorra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -2710,7 +2709,7 @@
     <e><p><l>distingir<s n="vblex"/></l><r>distìnghere<s n="vblex"/></r></p></e>
     <e><p><l>analitzar<s n="vblex"/></l><r>analizare<s n="vblex"/></r></p></e>
     <e><p><l>colonitzar<s n="vblex"/></l><r>colonizare<s n="vblex"/></r></p></e>
-    <e><p><l>acompanyar<s n="vblex"/></l><r>acumpagnare<s n="vblex"/></r></p></e>
+    <e><p><l>acompanyar<s n="vblex"/></l><r>acumpangiare<s n="vblex"/></r></p></e>
     <e><p><l>servir<s n="vblex"/></l><r>serbire<s n="vblex"/></r></p></e>
     <e><p><l>proposar<s n="vblex"/></l><r>propònnere<s n="vblex"/></r></p></e>
     <e><p><l>proclamar<s n="vblex"/></l><r>proclamare<s n="vblex"/></r></p></e>
@@ -4789,6 +4788,9 @@
       <e><p><l>seriar<s n="vblex"/></l><r>fàghere<g><b/>in<b/>sèrie</g><s n="vblex"/></r></p></e>
       <e><p><l>nau<s n="n"/><s n="f"/></l><r>naviu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nord-americà<s n="adj"/></l><r>nordamericanu<s n="adj"/></r></p></e>
+      <e><p><l>nord-americà<s n="n"/></l><r>nordamericanu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>nord-americà<s n="adj"/></l><r>istadunidensu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>nord-americà<s n="n"/></l><r>istadunidensu<s n="n"/></r></p></e>
       <e><p><l>ample<s n="adj"/></l><r>largu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>paret<s n="n"/><s n="f"/></l><r>muru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>platja<s n="n"/><s n="f"/></l><r>marina<s n="n"/><s n="f"/></r></p></e>
@@ -5692,7 +5694,7 @@
       <e><p><l>aproximar<s n="vblex"/></l><r>acurtziare<s n="vblex"/></r></p></e>
       <e><p><l>acusació<s n="n"/><s n="f"/></l><r>acusa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pit<s n="n"/><s n="m"/></l><r>petorra<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>País<b/>Basc<s n="np"/><s n="loc"/></l><r>Paisu<b/>Bascu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>País<b/>Basc<s n="np"/><s n="loc"/></l><r>Paisu<b/>Bascu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>hoquei<s n="n"/><s n="m"/><s n="sp"/></l><r>hockey<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>doblar<s n="vblex"/></l><r>pinnigare<s n="vblex"/></r></p></e>
       <e><p><l>observador<s n="n"/></l><r>miradore<s n="n"/></r></p></e>
@@ -6065,7 +6067,7 @@
       <e><p><l>Williams<s n="np"/><s n="ant"/></l><r>Williams<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <e><p><l>escac<s n="n"/><s n="m"/></l><r>iscacu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>escac<b/>i<b/>mat<s n="n"/><s n="m"/><s n="sg"/></l><r>iscacu<b/>macu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>escac<b/>i<b/>mat<s n="n"/><s n="m"/><s n="sg"/></l><r>iscacu<b/>matu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>glacial<s n="adj"/></l><r>glatziale<s n="adj"/></r></p></e>
       <e><p><l>àrtic<s n="adj"/></l><r>àrticu<s n="adj"/></r></p></e>
       <e><p><l>antàrtic<s n="adj"/></l><r>antàrticu<s n="adj"/></r></p></e>
@@ -6309,7 +6311,7 @@
       <e><p><l>Nova<b/>Sibèria<s n="np"/><s n="loc"/></l><r>Sibèria<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Sierra<b/>Leone<s n="np"/><s n="loc"/></l><r>Sierra<b/>Leone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Singapur<s n="np"/><s n="loc"/></l><r>Singapore<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Siria<s n="np"/><s n="loc"/></l><r>Sìria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Síria<s n="np"/><s n="loc"/></l><r>Sìria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Somàlia<s n="np"/><s n="loc"/></l><r>Somàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Somerset<s n="np"/><s n="loc"/></l><r>Somerset<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Southampton<s n="np"/><s n="loc"/></l><r>Southampton<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6338,7 +6340,6 @@
       <e><p><l>Xile<s n="np"/><s n="loc"/></l><r>Tzile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Xina<s n="np"/><s n="loc"/></l><r>Tzina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Xipre<s n="np"/><s n="loc"/></l><r>Tzipru<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Ucraïna<s n="np"/><s n="loc"/></l><r>Ucràina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>EAU<s n="np"/><s n="loc"/></l><r>U.e.a.<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Uganda<s n="np"/><s n="loc"/></l><r>Uganda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Hongria<s n="np"/><s n="loc"/></l><r>Ungheria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6353,6 +6354,361 @@
       <e><p><l>Nova<b/>Zelanda<s n="np"/><s n="loc"/></l><r>Zelanda<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Zimbàbue<s n="np"/><s n="loc"/></l><r>Zimbawe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>Zimbabwe<s n="np"/><s n="loc"/></l><r>Zimbawe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>indi<s n="n"/></l><r>indianu<s n="n"/></r></p></e>
+      <e><p><l>indi<s n="adj"/></l><r>indianu<s n="adj"/></r></p></e>
+      <e><p><l>canari<s n="n"/></l><r>canarinu<s n="n"/></r></p></e>
+      <e><p><l>canari<s n="adj"/></l><r>canarinu<s n="adj"/></r></p></e>
+      <e><p><l>eritreu<s n="n"/></l><r>eritreu<s n="n"/></r></p></e>
+      <e><p><l>eritreu<s n="adj"/></l><r>eritreu<s n="adj"/></r></p></e>
+      <e><p><l>indonesi<s n="n"/></l><r>indonesianu<s n="n"/></r></p></e>
+      <e><p><l>indonesi<s n="adj"/></l><r>indonesianu<s n="adj"/></r></p></e>
+      <e><p><l>kenyà<s n="n"/></l><r>keniota<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>kenyà<s n="adj"/></l><r>keniota<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>tadjik<s n="n"/></l><r>tagicu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>tadjik<s n="n"/></l><r>tagiku<s n="n"/></r></p></e>
+      <e><p><l>tadjik<s n="adj"/></l><r>tagicu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>tadjik<s n="adj"/></l><r>tagiku<s n="adj"/></r></p></e>
+      <e><p><l>singalès<s n="n"/></l><r>tzingalesu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>singalès<s n="n"/></l><r>singalesu<s n="n"/></r></p></e>
+      <e><p><l>singalès<s n="adj"/></l><r>tzingalesu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>singalès<s n="adj"/></l><r>singalesu<s n="adj"/></r></p></e>
+      <e><p><l>finlandès<s n="n"/></l><r>finlandesu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>finlandès<s n="n"/></l><r>finlandesu<s n="n"/></r></p></e>
+      <e><p><l>finès<s n="adj"/></l><r>finlandesu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>finès<s n="adj"/></l><r>finlandesu<s n="adj"/></r></p></e>
+      <e><p><l>groenlandès<s n="n"/></l><r>groenlandesu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>groenlandès<s n="n"/></l><r>groenlandesu<s n="n"/></r></p></e>
+      <e><p><l>grenlandès<s n="adj"/></l><r>groenlandesu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>grenlandès<s n="adj"/></l><r>groenlandesu<s n="adj"/></r></p></e>
+      <e><p><l>laosià<s n="n"/></l><r>laotianu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>laosià<s n="n"/></l><r>laosianu<s n="n"/></r></p></e>
+      <e><p><l>laosià<s n="adj"/></l><r>laotianu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>laosià<s n="adj"/></l><r>laosianu<s n="adj"/></r></p></e>
+      <e><p><l>palauà<s n="n"/></l><r>palauanu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>palauà<s n="n"/></l><r>palaulanu<s n="n"/></r></p></e>
+      <e><p><l>palauà<s n="adj"/></l><r>palauanu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>palauà<s n="adj"/></l><r>palaulanu<s n="adj"/></r></p></e>
+      <e><p><l>afganès<s n="n"/></l><r>afganistanu<s n="n"/></r></p></e>
+      <e><p><l>algerià<s n="n"/></l><r>algerinu<s n="n"/></r></p></e>
+      <e><p><l>angolès<s n="n"/></l><r>angolesu<s n="n"/></r></p></e>
+      <e><p><l>saudita<s n="n"/></l><r>saudita<s n="n"/></r></p></e>
+      <e><p><l>argentí<s n="n"/></l><r>argentinu<s n="n"/></r></p></e>
+      <e><p><l>armeni<s n="n"/></l><r>armenu<s n="n"/></r></p></e>
+      <e><p><l>australià<s n="n"/></l><r>australianu<s n="n"/></r></p></e>
+      <e><p><l>austríac<s n="n"/></l><r>austriacu<s n="n"/></r></p></e>
+      <e><p><l>azerbaidjanès<s n="n"/></l><r>azerbaigianu<s n="n"/></r></p></e>
+      <e><p><l>bahamià<s n="n"/></l><r>bahamianu<s n="n"/></r></p></e>
+      <e><p><l>bengalí<s n="n"/></l><r>bengalesu<s n="n"/></r></p></e>
+      <e><p><l>barbadià<s n="n"/></l><r>barbadianu<s n="n"/></r></p></e>
+      <e><p><l>belizià<s n="n"/></l><r>belisianu<s n="n"/></r></p></e>
+      <e><p><l>beninès<s n="n"/></l><r>beninesu<s n="n"/></r></p></e>
+      <e><p><l>bhutanès<s n="n"/></l><r>buthanesu<s n="n"/></r></p></e>
+      <e><p><l>bielorús<s n="n"/></l><r>bielorussu<s n="n"/></r></p></e>
+      <e><p><l>bolivià<s n="n"/></l><r>bolivianu<s n="n"/></r></p></e>
+      <e><p><l>botswanès<s n="n"/></l><r>botswanesu<s n="n"/></r></p></e>
+      <e><p><l>brasiler<s n="n"/></l><r>brasilianu<s n="n"/></r></p></e>
+      <e><p><l>bruneiès<s n="n"/></l><r>bruneiesu<s n="n"/></r></p></e>
+      <e><p><l>búlgar<s n="n"/></l><r>bùlgaru<s n="n"/></r></p></e>
+      <e><p><l>burkinès<s n="n"/></l><r>burkinesu<s n="n"/></r></p></e>
+      <e><p><l>burundès<s n="n"/></l><r>burundesu<s n="n"/></r></p></e>
+      <e><p><l>capverdià<s n="n"/></l><r>cabubirdianu<s n="n"/></r></p></e>
+      <e><p><l>neocaledonià<s n="n"/></l><r>neocaledonianu<s n="n"/></r></p></e>
+      <e><p><l>camerunès<s n="n"/></l><r>camerunesu<s n="n"/></r></p></e>
+      <e><p><l>canadenc<s n="n"/></l><r>canadesu<s n="n"/></r></p></e>
+      <e><p><l>txadià<s n="n"/></l><r>ciadianu<s n="n"/></r></p></e>
+      <e><p><l>colombià<s n="n"/></l><r>colombianu<s n="n"/></r></p></e>
+      <e><p><l>comorià<s n="n"/></l><r>comorianu<s n="n"/></r></p></e>
+      <e><p><l>congolès<s n="n"/></l><r>congolesu<s n="n"/></r></p></e>
+      <e><p><l>coreà<s n="n"/></l><r>coreanu<s n="n"/></r></p></e>
+      <e><p><l>nord-coreà<s n="n"/></l><r>nordcoreanu<s n="n"/></r></p></e>
+      <e><p><l>sud-coreà<s n="n"/></l><r>sudcoreanu<s n="n"/></r></p></e>
+      <e><p><l>ivorià<s n="n"/></l><r>ivorianu<s n="n"/></r></p></e>
+      <e><p><l>costa-riqueny<s n="n"/></l><r>costaricanu<s n="n"/></r></p></e>
+      <e><p><l>cubà<s n="n"/></l><r>cubanu<s n="n"/></r></p></e>
+      <e><p><l>danès<s n="n"/></l><r>danesu<s n="n"/></r></p></e>
+      <e><p><l>dominiquès<s n="n"/></l><r>dominitzesu<s n="n"/></r></p></e>
+      <e><p><l>equatorià<s n="n"/></l><r>ecuadorianu<s n="n"/></r></p></e>
+      <e><p><l>egipci<s n="n"/></l><r>egitzianu<s n="n"/></r></p></e>
+      <e><p><l>salvadoreny<s n="n"/></l><r>salvadoregnu<s n="n"/></r></p></e>
+      <e><p><l>feroès<s n="n"/></l><r>feroesu<s n="n"/></r></p></e>
+      <e><p><l>fijià<s n="n"/></l><r>figianu<s n="n"/></r></p></e>
+      <e><p><l>filipí<s n="n"/></l><r>filipinu<s n="n"/></r></p></e>
+      <e><p><l>gabonès<s n="n"/></l><r>gabonesu<s n="n"/></r></p></e>
+      <e><p><l>gambià<s n="n"/></l><r>gambianu<s n="n"/></r></p></e>
+      <e><p><l>georgià<s n="n"/></l><r>georgianu<s n="n"/></r></p></e>
+      <e><p><l>ghanès<s n="n"/></l><r>ghanesu<s n="n"/></r></p></e>
+      <e><p><l>neoguineà<s n="n"/></l><r>neo-guineanu<s n="n"/></r></p></e>
+      <e><p><l>jamaicà<s n="n"/></l><r>giamaicanu<s n="n"/></r></p></e>
+      <e><p><l>javanès<s n="n"/></l><r>giavanesu<s n="n"/></r></p></e>
+      <e><p><l>djiboutià<s n="n"/></l><r>gibutianu<s n="n"/></r></p></e>
+      <e><p><l>jordà<s n="n"/></l><r>giordanu<s n="n"/></r></p></e>
+      <e><p><l>grenadí<s n="n"/></l><r>grenadinu<s n="n"/></r></p></e>
+      <e><p><l>guaianès<s n="n"/></l><r>guaianesu<s n="n"/></r></p></e>
+      <e><p><l>guamès<s n="n"/></l><r>guamesu<s n="n"/></r></p></e>
+      <e><p><l>guatemalenc<s n="n"/></l><r>guatemaltecu<s n="n"/></r></p></e>
+      <e><p><l>guineà<s n="n"/></l><r>guineanu<s n="n"/></r></p></e>
+      <e><p><l>guineà<s n="n"/></l><r>guineesu<s n="n"/></r></p></e>
+      <e><p><l>equatoguineà<s n="n"/></l><r>ecuatoguineanu<s n="n"/></r></p></e>
+      <e><p><l>guaianès<s n="n"/></l><r>guaianesu<s n="n"/></r></p></e>
+      <e><p><l>haitià<s n="n"/></l><r>haitianu<s n="n"/></r></p></e>
+      <e><p><l>hondureny<s n="n"/></l><r>honduregnu<s n="n"/></r></p></e>
+      <e><p><l>aleuta<s n="n"/></l><r>aleuta<s n="n"/></r></p></e>
+      <e><p><l>bermudià<s n="n"/></l><r>bermudianu<s n="n"/></r></p></e>
+      <e><p><l>guadalupès<s n="n"/></l><r>guadalupesu<s n="n"/></r></p></e>
+      <e><p><l>hawaià<s n="n"/></l><r>hawaianu<s n="n"/></r></p></e>
+      <e><p><l>marianès<s n="n"/></l><r>mariannensu<s n="n"/></r></p></e>
+      <e><p><l>marshallès<s n="n"/></l><r>marshallesu<s n="n"/></r></p></e>
+      <e><p><l>iranià<s n="n"/></l><r>iranianu<s n="n"/></r></p></e>
+      <e><p><l>iraquià<s n="n"/></l><r>irachenu<s n="n"/></r></p></e>
+      <e><p><l>irlandès<s n="n"/></l><r>irlandesu<s n="n"/></r></p></e>
+      <e><p><l>islandès<s n="n"/></l><r>islandesu<s n="n"/></r></p></e>
+      <e><p><l>israelià<s n="n"/></l><r>israelianu<s n="n"/></r></p></e>
+      <e><p><l>micronesià<s n="n"/></l><r>micronesianu<s n="n"/></r></p></e>
+      <e><p><l>suec<s n="n"/></l><r>isvedesu<s n="n"/></r></p></e>
+      <e><p><l>suís<s n="n"/></l><r>isvìtzeru<s n="n"/></r></p></e>
+      <e><p><l>verginià<s n="n"/></l><r>verginianu<s n="n"/></r></p></e>
+      <e><p><l>iemenita<s n="n"/></l><r>jemenita<s n="n"/></r></p></e>
+      <e><p><l>kazak<s n="n"/></l><r>kazaku<s n="n"/></r></p></e>
+      <e><p><l>kirguís<s n="n"/></l><r>chirghisu<s n="n"/></r></p></e>
+      <e><p><l>kiribatià<s n="n"/></l><r>gilbertesu<s n="n"/></r></p></e>
+      <e><p><l>kuwaitià<s n="n"/></l><r>kuwaitianu<s n="n"/></r></p></e>
+      <e><p><l>lesothià<s n="n"/></l><r>lesothianu<s n="n"/></r></p></e>
+      <e><p><l>libanès<s n="n"/></l><r>libanesu<s n="n"/></r></p></e>
+      <e><p><l>liberià<s n="n"/></l><r>liberianu<s n="n"/></r></p></e>
+      <e><p><l>libi<s n="n"/></l><r>lìbicu<s n="n"/></r></p></e>
+      <e><p><l>libi<s n="adj"/></l><r>lìbicu<s n="adj"/></r></p></e>
+      <e><p><l>lituà<s n="n"/></l><r>lituanu<s n="n"/></r></p></e>
+      <e><p><l>luzonià<s n="n"/></l><r>luzonianu<s n="n"/></r></p></e>
+      <e><p><l>malgaix<s n="n"/></l><r>malgàsciu<s n="n"/></r></p></e>
+      <e><p><l>malgaix<s n="adj"/></l><r>malgàsciu<s n="adj"/></r></p></e>
+      <e><p><l>malaisi<s n="n"/></l><r>malesu<s n="n"/></r></p></e>
+      <e><p><l>malawìà<s n="n"/></l><r>malawianu<s n="n"/></r></p></e>
+      <e><p><l>maldivià<s n="n"/></l><r>maldivianu<s n="n"/></r></p></e>
+      <e><p><l>malià<s n="n"/></l><r>malianu<s n="n"/></r></p></e>
+      <e><p><l>maltès<s n="n"/></l><r>maltesu<s n="n"/></r></p></e>
+      <e><p><l>marroquí<s n="n"/></l><r>marrochinu<s n="n"/></r></p></e>
+      <e><p><l>maurità<s n="n"/></l><r>maurreddinu<s n="n"/></r></p></e>
+      <e><p><l>mauricià<s n="n"/></l><r>mauritzianu<s n="n"/></r></p></e>
+      <e><p><l>mexicà<s n="n"/></l><r>messicanu<s n="n"/></r></p></e>
+      <e><p><l>mongol<s n="n"/></l><r>mòngolu<s n="n"/></r></p></e>
+      <e><p><l>moçambiquès<s n="n"/></l><r>mozambiganu<s n="n"/></r></p></e>
+      <e><p><l>birmà<s n="n"/></l><r>birmanu<s n="n"/></r></p></e>
+      <e><p><l>birmà<s n="n"/></l><r>birmanu<s n="n"/></r></p></e>
+      <e><p><l>namibià<s n="n"/></l><r>namibianu<s n="n"/></r></p></e>
+      <e><p><l>nauruà<s n="n"/></l><r>nauruanu<s n="n"/></r></p></e>
+      <e><p><l>nepalès<s n="n"/></l><r>nepalesu<s n="n"/></r></p></e>
+      <e><p><l>nicaraguès<s n="n"/></l><r>nicaraguesu<s n="n"/></r></p></e>
+      <e><p><l>nigerí<s n="n"/></l><r>nigerinu<s n="n"/></r></p></e>
+      <e><p><l>nigerià<s n="n"/></l><r>nigerianu<s n="n"/></r></p></e>
+      <e><p><l>norfolkès<s n="n"/></l><r>norfolkesu<s n="n"/></r></p></e>
+      <e><p><l>noruec<s n="n"/></l><r>norvegesu<s n="n"/></r></p></e>
+      <e><p><l>noruec<s n="adj"/></l><r>norvegesu<s n="adj"/></r></p></e>
+      <e><p><l>omanita<s n="n"/></l><r>omanesu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>atlàntic<s n="n"/></l><r>atlànticu<s n="n"/></r></p></e>
+      <e><p><l>pakistanès<s n="n"/></l><r>pakistanu<s n="n"/></r></p></e>
+      <e><p><l>panameny<s n="n"/></l><r>panamesu<s n="n"/></r></p></e>
+      <e><p><l>papú<s n="n"/></l><r>papuanu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>paraguaià<s n="n"/></l><r>paraguaianu<s n="n"/></r></p></e>
+      <e><p><l>peruà<s n="n"/></l><r>peruvianu<s n="n"/></r></p></e>
+      <e><p><l>polonès<s n="n"/></l><r>polacu<s n="n"/></r></p></e>
+      <e><p><l>porto-riqueny<s n="n"/></l><r>portoricanu<s n="n"/></r></p></e>
+      <e><p><l>qatarià<s n="n"/></l><r>qatarianu<s n="n"/></r></p></e>
+      <e><p><l>dominicà<s n="n"/></l><r>dominicanu<s n="n"/></r></p></e>
+      <e><p><l>congolès<s n="n"/></l><r>congolesu<s n="n"/></r></p></e>
+      <e><p><l>sudafricà<s n="n"/></l><r>sudafricanu<s n="n"/></r></p></e>
+      <e><p><l>centreafricà<s n="n"/></l><r>centrafricanu<s n="n"/></r></p></e>
+      <e><p><l>romanès<s n="n"/></l><r>rumenu<s n="n"/></r></p></e>
+      <e><p><l>ruandès<s n="n"/></l><r>ruandesu<s n="n"/></r></p></e>
+      <e><p><l>rus<s n="n"/></l><r>russu<s n="n"/></r></p></e>
+      <e><p><l>saharià<s n="n"/></l><r>saharianu<s n="n"/></r></p></e>
+      <e><p><l>salomonès<s n="n"/></l><r>salomonesu<s n="n"/></r></p></e>
+      <e><p><l>santalucià<s n="n"/></l><r>santalucianu<s n="n"/></r></p></e>
+      <e><p><l>saotomès<s n="n"/></l><r>saotomesu<s n="n"/></r></p></e>
+      <e><p><l>sanvincentí<s n="n"/></l><r>sanvissentinu<s n="n"/></r></p></e>
+      <e><p><l>senegalès<s n="n"/></l><r>senegalesu<s n="n"/></r></p></e>
+      <e><p><l>serbi<s n="n"/></l><r>serbu<s n="n"/></r></p></e>
+      <e><p><l>seychellès<s n="n"/></l><r>seychellesu<s n="n"/></r></p></e>
+      <e><p><l>neosiberià<s n="n"/></l><r>neo-siberianu<s n="n"/></r></p></e>
+      <e><p><l>sierraleonès<s n="n"/></l><r>sierraleonesu<s n="n"/></r></p></e>
+      <e><p><l>singaporià<s n="n"/></l><r>singaporianu<s n="n"/></r></p></e>
+      <e><p><l>sirià<s n="n"/></l><r>sirianu<s n="n"/></r></p></e>
+      <e><p><l>somali<s n="n"/></l><r>sòmalu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sudanès<s n="n"/></l><r>sudanesu<s n="n"/></r></p></e>
+      <e><p><l>surinamès<s n="n"/></l><r>surinamesu<s n="n"/></r></p></e>
+      <e><p><l>swazi<s n="n"/></l><r>swazilandesu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>tailandès<s n="n"/></l><r>tailandesu<s n="n"/></r></p></e>
+      <e><p><l>taiwanès<s n="n"/></l><r>taiwanesu<s n="n"/></r></p></e>
+      <e><p><l>tanzà<s n="n"/></l><r>tanzanianu<s n="n"/></r></p></e>
+      <e><p><l>tasmà<s n="n"/></l><r>tasmanianu<s n="n"/></r></p></e>
+      <e><p><l>timorès<s n="n"/></l><r>timoresu<s n="n"/></r></p></e>
+      <e><p><l>togolès<s n="n"/></l><r>togolesu<s n="n"/></r></p></e>
+      <e><p><l>tunisià<s n="n"/></l><r>tunisinu<s n="n"/></r></p></e>
+      <e><p><l>turcman<s n="n"/></l><r>turcmanu<s n="n"/></r></p></e>
+      <e><p><l>tuvalià<s n="n"/></l><r>tuvalianu<s n="n"/></r></p></e>
+      <e><p><l>txec<s n="n"/></l><r>tzecu<s n="n"/></r></p></e>
+      <e><p><l>txec<s n="adj"/></l><r>tzecu<s n="adj"/></r></p></e>
+      <e><p><l>xilè<s n="n"/></l><r>tzilenu<s n="n"/></r></p></e>
+      <e><p><l>xipriota<s n="n"/></l><r>tzipriota<s n="n"/></r></p></e>
+      <e><p><l>ucraïnès<s n="n"/></l><r>ucràinu<s n="n"/></r></p></e>
+      <e><p><l>ugandès<s n="n"/></l><r>ugandesu<s n="n"/></r></p></e>
+      <e><p><l>hongarès<s n="n"/></l><r>ungheresu<s n="n"/></r></p></e>
+      <e><p><l>uruguaià<s n="n"/></l><r>uruguaianu<s n="n"/></r></p></e>
+      <e><p><l>uzbek<s n="n"/></l><r>uzbecu<s n="n"/></r></p></e>
+      <e><p><l>uzbek<s n="adj"/></l><r>uzbecu<s n="adj"/></r></p></e>
+      <e><p><l>vanuatuenc<s n="n"/></l><r>vanuatecu<s n="n"/></r></p></e>
+      <e><p><l>veneçolà<s n="n"/></l><r>venezuelanu<s n="n"/></r></p></e>
+      <e><p><l>vietnamita<s n="n"/></l><r>vietnamita<s n="n"/></r></p></e>
+      <e><p><l>zambià<s n="n"/></l><r>zambianu<s n="n"/></r></p></e>
+      <e><p><l>neozelandès<s n="n"/></l><r>neozelandesu<s n="n"/></r></p></e>
+      <e><p><l>zimbabuès<s n="n"/></l><r>zimbabwesu<s n="n"/></r></p></e>
+      <e><p><l>etíop<s n="n"/></l><r>etiòpicu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>estonià<s n="n"/></l><r>èstone<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>estonià<s n="adj"/></l><r>èstone<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>letó<s n="n"/></l><r>lètone<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>letó<s n="adj"/></l><r>lètone<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>afganès<s n="adj"/></l><r>afganistanu<s n="adj"/></r></p></e>
+      <e><p><l>algerià<s n="adj"/></l><r>algerinu<s n="adj"/></r></p></e>
+      <e><p><l>angolès<s n="adj"/></l><r>angolesu<s n="adj"/></r></p></e>
+      <e><p><l>saudita<s n="adj"/></l><r>saudita<s n="adj"/></r></p></e>
+      <e><p><l>azerbaidjanès<s n="adj"/></l><r>azerbaigianu<s n="adj"/></r></p></e>
+      <e><p><l>bahamià<s n="adj"/></l><r>bahamianu<s n="adj"/></r></p></e>
+      <e><p><l>bengalí<s n="adj"/></l><r>bengalesu<s n="adj"/></r></p></e>
+      <e><p><l>barbadià<s n="adj"/></l><r>barbadianu<s n="adj"/></r></p></e>
+      <e><p><l>belizià<s n="adj"/></l><r>belisianu<s n="adj"/></r></p></e>
+      <e><p><l>beninès<s n="adj"/></l><r>beninesu<s n="adj"/></r></p></e>
+      <e><p><l>bhutanès<s n="adj"/></l><r>buthanesu<s n="adj"/></r></p></e>
+      <e><p><l>bolivià<s n="adj"/></l><r>bolivianu<s n="adj"/></r></p></e>
+      <e><p><l>botswanès<s n="adj"/></l><r>botswanesu<s n="adj"/></r></p></e>
+      <e><p><l>bruneiès<s n="adj"/></l><r>bruneiesu<s n="adj"/></r></p></e>
+      <e><p><l>burkinès<s n="adj"/></l><r>burkinesu<s n="adj"/></r></p></e>
+      <e><p><l>burundès<s n="adj"/></l><r>burundesu<s n="adj"/></r></p></e>
+      <e><p><l>capverdià<s n="adj"/></l><r>cabubirdianu<s n="adj"/></r></p></e>
+      <e><p><l>neocaledonià<s n="adj"/></l><r>neocaledonianu<s n="adj"/></r></p></e>
+      <e><p><l>camerunès<s n="adj"/></l><r>camerunesu<s n="adj"/></r></p></e>
+      <e><p><l>canadenc<s n="adj"/></l><r>canadesu<s n="adj"/></r></p></e>
+      <e><p><l>txadià<s n="adj"/></l><r>ciadianu<s n="adj"/></r></p></e>
+      <e><p><l>comorià<s n="adj"/></l><r>comorianu<s n="adj"/></r></p></e>
+      <e><p><l>congolès<s n="adj"/></l><r>congolesu<s n="adj"/></r></p></e>
+      <e><p><l>nord-coreà<s n="adj"/></l><r>nordcoreanu<s n="adj"/></r></p></e>
+      <e><p><l>sud-coreà<s n="adj"/></l><r>sudcoreanu<s n="adj"/></r></p></e>
+      <e><p><l>ivorià<s n="adj"/></l><r>ivorianu<s n="adj"/></r></p></e>
+      <e><p><l>costa-riqueny<s n="adj"/></l><r>costaricanu<s n="adj"/></r></p></e>
+      <e><p><l>cubà<s n="adj"/></l><r>cubanu<s n="adj"/></r></p></e>
+      <e><p><l>danès<s n="adj"/></l><r>danesu<s n="adj"/></r></p></e>
+      <e><p><l>dominiquès<s n="adj"/></l><r>dominitzesu<s n="adj"/></r></p></e>
+      <e><p><l>equatorià<s n="adj"/></l><r>ecuadorianu<s n="adj"/></r></p></e>
+      <e><p><l>egipci<s n="adj"/></l><r>egitzianu<s n="adj"/></r></p></e>
+      <e><p><l>salvadoreny<s n="adj"/></l><r>salvadoregnu<s n="adj"/></r></p></e>
+      <e><p><l>etíop<s n="adj"/></l><r>etiòpicu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>feroès<s n="adj"/></l><r>feroesu<s n="adj"/></r></p></e>
+      <e><p><l>fijià<s n="adj"/></l><r>figianu<s n="adj"/></r></p></e>
+      <e><p><l>filipí<s n="adj"/></l><r>filipinu<s n="adj"/></r></p></e>
+      <e><p><l>finlandès,<b/>finès<s n="adj"/></l><r>finlandesu<s n="adj"/></r></p></e>
+      <e><p><l>gabonès<s n="adj"/></l><r>gabonesu<s n="adj"/></r></p></e>
+      <e><p><l>gambià<s n="adj"/></l><r>gambianu<s n="adj"/></r></p></e>
+      <e><p><l>georgià<s n="adj"/></l><r>georgianu<s n="adj"/></r></p></e>
+      <e><p><l>ghanès<s n="adj"/></l><r>ghanesu<s n="adj"/></r></p></e>
+      <e><p><l>neoguineà<s n="adj"/></l><r>neo-guineanu<s n="adj"/></r></p></e>
+      <e><p><l>jamaicà<s n="adj"/></l><r>giamaicanu<s n="adj"/></r></p></e>
+      <e><p><l>javanès<s n="adj"/></l><r>giavanesu<s n="adj"/></r></p></e>
+      <e><p><l>djiboutià<s n="adj"/></l><r>gibutianu<s n="adj"/></r></p></e>
+      <e><p><l>jordà<s n="adj"/></l><r>giordanu<s n="adj"/></r></p></e>
+      <e><p><l>grenadí<s n="adj"/></l><r>grenadinu<s n="adj"/></r></p></e>
+      <e><p><l>groenlandès,<b/>grenlandès<s n="adj"/></l><r>groenlandesu<s n="adj"/></r></p></e>
+      <e><p><l>guaianès<s n="adj"/></l><r>guaianesu<s n="adj"/></r></p></e>
+      <e><p><l>guamès<s n="adj"/></l><r>guamesu<s n="adj"/></r></p></e>
+      <e><p><l>guatemalenc<s n="adj"/></l><r>guatemaltecu<s n="adj"/></r></p></e>
+      <e><p><l>guineà<s n="adj"/></l><r>guineanu<s n="adj"/></r></p></e>
+      <e><p><l>guineà<s n="adj"/></l><r>guineesu<s n="adj"/></r></p></e>
+      <e><p><l>equatoguineà<s n="adj"/></l><r>ecuatoguineanu<s n="adj"/></r></p></e>
+      <e><p><l>guaianès<s n="adj"/></l><r>guaianesu<s n="adj"/></r></p></e>
+      <e><p><l>haitià<s n="adj"/></l><r>haitianu<s n="adj"/></r></p></e>
+      <e><p><l>hondureny<s n="adj"/></l><r>honduregnu<s n="adj"/></r></p></e>
+      <e><p><l>aleuta<s n="adj"/></l><r>aleuta<s n="adj"/></r></p></e>
+      <e><p><l>bermudià<s n="adj"/></l><r>bermudianu<s n="adj"/></r></p></e>
+      <e><p><l>guadalupès<s n="adj"/></l><r>guadalupesu<s n="adj"/></r></p></e>
+      <e><p><l>hawaià<s n="adj"/></l><r>hawaianu<s n="adj"/></r></p></e>
+      <e><p><l>marianès<s n="adj"/></l><r>mariannensu<s n="adj"/></r></p></e>
+      <e><p><l>marshallès<s n="adj"/></l><r>marshallesu<s n="adj"/></r></p></e>
+      <e><p><l>iraquià<s n="adj"/></l><r>irachenu<s n="adj"/></r></p></e>
+      <e><p><l>islandès<s n="adj"/></l><r>islandesu<s n="adj"/></r></p></e>
+      <e><p><l>micronesià<s n="adj"/></l><r>micronesianu<s n="adj"/></r></p></e>
+      <e><p><l>suís<s n="adj"/></l><r>isvìtzeru<s n="adj"/></r></p></e>
+      <e><p><l>verginià<s n="adj"/></l><r>verginianu<s n="adj"/></r></p></e>
+      <e><p><l>iemenita<s n="adj"/></l><r>jemenita<s n="adj"/></r></p></e>
+      <e><p><l>kazak<s n="adj"/></l><r>kazaku<s n="adj"/></r></p></e>
+      <e><p><l>kirguís<s n="adj"/></l><r>chirghisu<s n="adj"/></r></p></e>
+      <e><p><l>kiribatià<s n="adj"/></l><r>gilbertesu<s n="adj"/></r></p></e>
+      <e><p><l>kuwaitià<s n="adj"/></l><r>kuwaitianu<s n="adj"/></r></p></e>
+      <e><p><l>lesothià<s n="adj"/></l><r>lesothianu<s n="adj"/></r></p></e>
+      <e><p><l>liberià<s n="adj"/></l><r>liberianu<s n="adj"/></r></p></e>
+      <e><p><l>lituà<s n="adj"/></l><r>lituanu<s n="adj"/></r></p></e>
+      <e><p><l>luzonià<s n="adj"/></l><r>luzonianu<s n="adj"/></r></p></e>
+      <e><p><l>malaisi<s n="adj"/></l><r>malesu<s n="adj"/></r></p></e>
+      <e><p><l>malawìà<s n="adj"/></l><r>malawianu<s n="adj"/></r></p></e>
+      <e><p><l>maldivià<s n="adj"/></l><r>maldivianu<s n="adj"/></r></p></e>
+      <e><p><l>malià<s n="adj"/></l><r>malianu<s n="adj"/></r></p></e>
+      <e><p><l>maltès<s n="adj"/></l><r>maltesu<s n="adj"/></r></p></e>
+      <e><p><l>marroquí<s n="adj"/></l><r>marrochinu<s n="adj"/></r></p></e>
+      <e><p><l>maurità<s n="adj"/></l><r>maurreddinu<s n="adj"/></r></p></e>
+      <e><p><l>mauricià<s n="adj"/></l><r>mauritzianu<s n="adj"/></r></p></e>
+      <e><p><l>mongol<s n="adj"/></l><r>mòngolu<s n="adj"/></r></p></e>
+      <e><p><l>moçambiquès<s n="adj"/></l><r>mozambiganu<s n="adj"/></r></p></e>
+      <e><p><l>birmà<s n="adj"/></l><r>birmanu<s n="adj"/></r></p></e>
+      <e><p><l>birmà<s n="adj"/></l><r>birmanu<s n="adj"/></r></p></e>
+      <e><p><l>namibià<s n="adj"/></l><r>namibianu<s n="adj"/></r></p></e>
+      <e><p><l>nauruà<s n="adj"/></l><r>nauruanu<s n="adj"/></r></p></e>
+      <e><p><l>nepalès<s n="adj"/></l><r>nepalesu<s n="adj"/></r></p></e>
+      <e><p><l>nicaraguès<s n="adj"/></l><r>nicaraguesu<s n="adj"/></r></p></e>
+      <e><p><l>nigerí<s n="adj"/></l><r>nigerinu<s n="adj"/></r></p></e>
+      <e><p><l>nigerià<s n="adj"/></l><r>nigerianu<s n="adj"/></r></p></e>
+      <e><p><l>norfolkès<s n="adj"/></l><r>norfolkesu<s n="adj"/></r></p></e>
+      <e><p><l>omanita<s n="adj"/></l><r>omanesu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>pakistanès<s n="adj"/></l><r>pakistanu<s n="adj"/></r></p></e>
+      <e><p><l>panameny<s n="adj"/></l><r>panamesu<s n="adj"/></r></p></e>
+      <e><p><l>papú<s n="adj"/></l><r>papuanu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>paraguaià<s n="adj"/></l><r>paraguaianu<s n="adj"/></r></p></e>
+      <e><p><l>peruà<s n="adj"/></l><r>peruvianu<s n="adj"/></r></p></e>
+      <e><p><l>porto-riqueny<s n="adj"/></l><r>portoricanu<s n="adj"/></r></p></e>
+      <e><p><l>qatarià<s n="adj"/></l><r>qatarianu<s n="adj"/></r></p></e>
+      <e><p><l>dominicà<s n="adj"/></l><r>dominicanu<s n="adj"/></r></p></e>
+      <e><p><l>congolès<s n="adj"/></l><r>congolesu<s n="adj"/></r></p></e>
+      <e><p><l>sudafricà<s n="adj"/></l><r>sudafricanu<s n="adj"/></r></p></e>
+      <e><p><l>centreafricà<s n="adj"/></l><r>centrafricanu<s n="adj"/></r></p></e>
+      <e><p><l>ruandès<s n="adj"/></l><r>ruandesu<s n="adj"/></r></p></e>
+      <e><p><l>salomonès<s n="adj"/></l><r>salomonesu<s n="adj"/></r></p></e>
+      <e><p><l>santalucià<s n="adj"/></l><r>santalucianu<s n="adj"/></r></p></e>
+      <e><p><l>saotomès<s n="adj"/></l><r>saotomesu<s n="adj"/></r></p></e>
+      <e><p><l>sanvincentí<s n="adj"/></l><r>sanvissentinu<s n="adj"/></r></p></e>
+      <e><p><l>senegalès<s n="adj"/></l><r>senegalesu<s n="adj"/></r></p></e>
+      <e><p><l>serbi<s n="adj"/></l><r>serbu<s n="adj"/></r></p></e>
+      <e><p><l>seychellès<s n="adj"/></l><r>seychellesu<s n="adj"/></r></p></e>
+      <e><p><l>neosiberià<s n="adj"/></l><r>neo-siberianu<s n="adj"/></r></p></e>
+      <e><p><l>sierraleonès<s n="adj"/></l><r>sierraleonesu<s n="adj"/></r></p></e>
+      <e><p><l>singaporià<s n="adj"/></l><r>singaporianu<s n="adj"/></r></p></e>
+      <e><p><l>somali<s n="adj"/></l><r>sòmalu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sudanès<s n="adj"/></l><r>sudanesu<s n="adj"/></r></p></e>
+      <e><p><l>surinamès<s n="adj"/></l><r>surinamesu<s n="adj"/></r></p></e>
+      <e><p><l>swazi<s n="adj"/></l><r>swazilandesu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>tailandès<s n="adj"/></l><r>tailandesu<s n="adj"/></r></p></e>
+      <e><p><l>taiwanès<s n="adj"/></l><r>taiwanesu<s n="adj"/></r></p></e>
+      <e><p><l>tanzà<s n="adj"/></l><r>tanzanianu<s n="adj"/></r></p></e>
+      <e><p><l>tasmà<s n="adj"/></l><r>tasmanianu<s n="adj"/></r></p></e>
+      <e><p><l>timorès<s n="adj"/></l><r>timoresu<s n="adj"/></r></p></e>
+      <e><p><l>togolès<s n="adj"/></l><r>togolesu<s n="adj"/></r></p></e>
+      <e><p><l>tunisià<s n="adj"/></l><r>tunisinu<s n="adj"/></r></p></e>
+      <e><p><l>turcman<s n="adj"/></l><r>turcmanu<s n="adj"/></r></p></e>
+      <e><p><l>tuvalià<s n="adj"/></l><r>tuvalianu<s n="adj"/></r></p></e>
+      <e><p><l>xilè<s n="adj"/></l><r>tzilenu<s n="adj"/></r></p></e>
+      <e><p><l>xipriota<s n="adj"/></l><r>tzipriota<s n="adj"/></r></p></e>
+      <e><p><l>ugandès<s n="adj"/></l><r>ugandesu<s n="adj"/></r></p></e>
+      <e><p><l>uruguaià<s n="adj"/></l><r>uruguaianu<s n="adj"/></r></p></e>
+      <e><p><l>vanuatuenc<s n="adj"/></l><r>vanuatecu<s n="adj"/></r></p></e>
+      <e><p><l>veneçolà<s n="adj"/></l><r>venezuelanu<s n="adj"/></r></p></e>
+      <e><p><l>vietnamita<s n="adj"/></l><r>vietnamita<s n="adj"/></r></p></e>
+      <e><p><l>zambià<s n="adj"/></l><r>zambianu<s n="adj"/></r></p></e>
+      <e><p><l>neozelandès<s n="adj"/></l><r>neozelandesu<s n="adj"/></r></p></e>
+      <e><p><l>zimbabuès<s n="adj"/></l><r>zimbabwesu<s n="adj"/></r></p></e>
 
 </section>
 </dictionary>
