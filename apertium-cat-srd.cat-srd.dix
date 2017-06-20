@@ -1662,7 +1662,7 @@
     <e><p><l>Càller<s n="np"/><s n="loc"/></l><r>Casteddu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Viena<s n="np"/><s n="loc"/></l><r>Vienna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>França<s n="np"/><s n="loc"/></l><r>Frantza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Nàpols<s n="np"/><s n="loc"/></l><r>Napoli<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Nàpols<s n="np"/><s n="loc"/></l><r>Nàpule<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Milà<s n="np"/><s n="loc"/></l><r>Milanu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Israel<s n="np"/><s n="loc"/></l><r>Israele<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Venècia<s n="np"/><s n="loc"/></l><r>Venezia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6847,6 +6847,10 @@
       <e><p><l>NBA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>NBA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>berber<s n="n"/></l><r>bèrberu<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>Williams<s n="np"/><s n="ant"/></l><r>Williams<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+
+      <e><p><l>Mediterrani<s n="np"/><s n="loc"/></l><r>Mediterràneu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>Mediterrània<s n="np"/><s n="loc"/></l><r>Mediterràneu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>jutge<s n="n"/><s n="m"/></l><r>giùighe<s n="n"/><s n="m"/></r></p></e>
 
 </section>
 </dictionary>
