@@ -52,7 +52,11 @@ sub llegir_dix {
 			$lemma = $1;
 			$par = $2;
 
-		} elsif ($linia =~ m|<e r="LR" lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
+		} elsif ($nfitx eq 'cat' && $linia =~ m|<e r="LR" lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
+			$lemma = $1;
+			$par = $2;
+		} elsif ($nfitx eq 'srd' && $linia =~ m|<e r="RL" lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
+#<e r="RL" lm="chi bennit"><i>chi<b/>benni</i><par n="chi_proveni/t__adj"/></e>
 			$lemma = $1;
 			$par = $2;
 		} elsif ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/><p>|o) {
@@ -284,10 +288,16 @@ while (my $linia = <STDIN>) {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'matessi__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/><s n=\"mf\"/></l><r>%s<s n=\"adj\"/><s n=\"mf\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'afectu/ós__adj' && $par_srd eq 'matessi__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/><s n=\"mf\"/></l><r>%s<s n=\"adj\"/><s n=\"mf\"/></r></p><par n=\"GD+ND_mf+sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'cunservador/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'bre/u__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD+sup_0\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'adept/e__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"nostre_nostru\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'meda__adj') {
@@ -329,6 +339,8 @@ while (my $linia = <STDIN>) {
 			} elsif ($par_cat eq 'acadèmi/c__adj' && $par_srd eq 'linguìsti/cu__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'absolut__adj' && $par_srd eq 'cunservador/e__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'absolut__adj' && $par_srd eq 'banduler/i__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'absolut__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -457,6 +469,10 @@ while (my $linia = <STDIN>) {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'mac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'gay__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'nord__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"ND_sg\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'region/e__n') {
@@ -592,6 +608,8 @@ while (my $linia = <STDIN>) {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'traballador/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'albanes/e__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'administrati/u__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alcalde__n' && $par_srd eq 'amig/u__n') {
@@ -613,6 +631,10 @@ while (my $linia = <STDIN>) {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"f\"/><s n=\"sg\"/></l><r>%s<s n=\"abbr\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'BBVA__n' && $par_srd eq 'a.C.__abbr') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"abbr\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'BBVA__n' && $par_srd eq 'PNB__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'BBC__n' && $par_srd eq 'TV__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"f\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'IRPF__n' && $par_srd eq 'a.C.__abbr') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"acr\"/><s n=\"m\"/><s n=\"sp\"/></l><r>%s<s n=\"abbr\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} else {
