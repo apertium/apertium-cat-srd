@@ -47,7 +47,7 @@ sub llegir_dix {
 
 	while (my $linia = <$fitx>) {
 		chop $linia;
-#print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /Aliaga/o;
 		if ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
 			$lemma = $1;
 			$par = $2;
@@ -78,18 +78,18 @@ sub llegir_dix {
 		if ($par =~ /__(.*)$/o) {
 			$morf = $1;
 		} else {
-			die "fitxer $nfitx, $linia, par=$par, morf=$morf";
+			die "fitxer $nfitx, $linia, par=$par";
 		}
-#print "2. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+print "2. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /Aliaga/o;
 		if ($morf ne 'n' && $morf ne 'adj' && $morf ne 'adv' && $morf ne 'np' && $morf ne 'vblex' && $morf ne 'abbr') {
 #			print STDERR "línia $.: $linia - morf $morf\n";
 			next;
 		}
-#print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /Aliaga/o;
 
 		$r_struct->{$morf}{$lemma} = $par;
 #print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $par =~ /vblex/o;
-#print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $lemma =~ /comarca/o;
+print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $lemma =~ /Aliaga/o;
 #print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n";
 	}
 }
@@ -107,7 +107,7 @@ sub llegir_bidix {
 	while (my $linia = <$fitx>) {
 		chop $linia;
 		$linia =~ s|<b/>| |og;
-#print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+print "1. fitxer bidix, $linia\n" if $linia =~ /Aliaga/o;
 		if ($linia =~ m|<e> *<p><l>([^<]*)<s n="([^"]*)".*<r>([^<]*)<s|o) {
 			$lemma_cat = $1;
 			$morf = $2;
@@ -141,11 +141,11 @@ sub llegir_bidix {
 
 
 
-#print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /comarca/o;
+print "3. fitxer bidix, $linia, morf=$morf\n" if $linia =~ /Aliaga/o;
 
 		$r_struct->{$morf}{$lemma_cat} = $lemma_srd;
 #print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $morf =~ /vblex/o;
-print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $lemma_cat =~ /conegut/o;
+#print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $lemma_cat =~ /conegut/o;
 #print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n";
 	}
 }
@@ -163,6 +163,8 @@ my ($stem_cat, $stem_srd, $gen_cat, $gen_srd, $num_cat, $num_srd, $lemma_cat, $l
 while (my $linia = <STDIN>) {
 	chop $linia;
 	$linia =~ s/[^a-z\t]+$//o;
+	$linia =~ s|\r| |og;
+	$linia =~ s| +| |og;
 	my @dades = split /\t/, $linia;
 	for (my $i=0; $i<=$#dades; $i++) { 
 		$dades[$i] =~ s/^ +//o;
@@ -220,6 +222,7 @@ while (my $linia = <STDIN>) {
 		$stem_srd =~ s| |<b/>|og;
 
 		my $gram_cat = $dades[2];
+		$gram_cat =~ s/ //og;
 		$gram_cat =~ s/^ *<//og;
 		$gram_cat =~ s/> *$//og;
 		if ($gram_cat =~ /></o) {
@@ -231,6 +234,7 @@ while (my $linia = <STDIN>) {
 		}
 
 		my $gram_srd = $dades[4];
+		$gram_srd =~ s/ //og;
 		if ($gram_srd) {
 			$gram_srd =~ s/^ *<//og;
 			$gram_srd =~ s/> *$//og;
@@ -281,8 +285,25 @@ while (my $linia = <STDIN>) {
 			# comprovo que és en el diccionari monolingüe
 			print STDERR "FALTA CAT $lemma_cat <$gram_cat>\n" unless $par_cat;		# seria estranyíssim no trobar-lo!
 			next unless $par_cat;
-			print STDERR "Falta srd $lemma_srd <$gram_srd>\n" unless $par_srd;
-			next unless $par_srd;
+
+			unless ($par_srd) {
+				# generem el paradigma al diccionari sard (tot i que només en alguns casos)
+				if ($lemma_srd =~ /^de /) {
+					$par_srd = 'matessi__adj';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($lemma_srd =~ /^a /) {
+					$par_srd = 'matessi__adj';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($lemma_srd =~ /^chi /) {
+					$par_srd = 'chi_proveni/t__adj';
+					my $stem_srd2 = $stem_srd;
+					$stem_srd2 =~ s/t$//o;
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd2, $par_srd;
+				} else {
+					print STDERR "Falta srd $lemma_srd <$gram_srd>\n";
+					next;
+				}
+			}
 
 			if ($par_cat eq 'multimèdia__adj' && $par_srd eq 'matessi__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -466,8 +487,20 @@ while (my $linia = <STDIN>) {
 			print STDERR "FALTA CAT $lemma_cat <$gram_cat>\n" unless $par_cat;		# seria estranyíssim no trobar-lo!
 #			print STDERR "dades[1] = #$dades[1]#, length = ", length($dades[1]), "\n" unless $par_cat;
 			next unless $par_cat;
-			print STDERR "Falta srd $lemma_srd <$gram_srd>\n" unless $par_srd;
-			next unless $par_srd;
+
+			unless ($par_srd) {
+				# generem el paradigma al diccionari sard (tot i que només en alguns casos)
+				if ($par_cat eq 'BBC__n') {
+					$par_srd = 'TV__n';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} elsif ($par_cat eq 'BBVA__n') {
+					$par_srd = 'PNB__n';
+					printf $fsrd "<e lm=\"%s\">           <i>%s</i><par n=\"%s\"/></e>\n", $lemma_srd, $stem_srd, $par_srd;
+				} else {
+					print STDERR "Falta srd $lemma_srd <$gram_srd>\n";
+					next;
+				}
+			}
 
 			if ($par_cat eq 'abell/a__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -735,6 +768,7 @@ while (my $linia = <STDIN>) {
 			next unless $par_cat;
 
 			unless ($par_srd) {
+print "No es troba dix_srd{$gram_srd}{$lemma_srd}. Es prova de generar $lemma_srd\n" if $lemma_cat =~ /Aliaga/o;
 				# generem el paradigma al diccionari sard
 				if ($gram_srd eq 'np><ant><m><sg') {
 					$par_srd = 'Antoni__np';
