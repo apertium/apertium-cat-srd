@@ -2983,9 +2983,50 @@
          </lu>
          <b pos="1"/>
          <lu>
-           <get-case-from pos="1">
            <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_verb"/>
+           <lit-tag v="pp.m.sg"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: anar_pri inf enc">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <out>
+       <chunk name="pro-aux-pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <clip pos="3" side="tl" part="lemh"/>
            </get-case-from>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <get-case-from pos="2">
+             <lit v="àere"/>
+           </get-case-from>
+           <lit-tag v="vbhaver.pri"/>
+           <clip pos="1" side="tl" part="pers"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
            <clip pos="2" side="tl" part="a_verb"/>
            <lit-tag v="pp.m.sg"/>
            <clip pos="2" side="tl" part="lemq"/>

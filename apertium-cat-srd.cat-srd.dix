@@ -610,8 +610,8 @@
     <e><p><l>barista<s n="n"/><s n="mf"/></l><r>barista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>finestra<s n="n"/><s n="f"/></l><r>bentana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lluna<s n="n"/><s n="f"/></l><r>luna<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>camioner<s n="n"/></l><r>camionista<s n="n"/>></r></p><par n="GD_mf"/></e>
-    <e><p><l>campió<s n="n"/></l><r>campione<s n="n"/>></r></p></e>
+    <e><p><l>camioner<s n="n"/></l><r>camionista<s n="n"/></r></p><par n="GD_mf"/></e>
+    <e><p><l>campió<s n="n"/></l><r>campione<s n="n"/></r></p></e>
     <e><p><l>cantant<s n="n"/><s n="mf"/></l><r>cantante<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>coneixement<s n="n"/><s n="m"/></l><r>connoschèntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>contracció<s n="n"/><s n="f"/></l><r>contratzione<s n="n"/><s n="f"/></r></p></e>
@@ -5988,12 +5988,13 @@
       <e><p><l>aeri<s n="adj"/></l><r>aèreu<s n="adj"/></r></p></e>
       <e><p><l>marí<s n="adj"/></l><r>marinu<s n="adj"/></r></p></e>
       <e><p><l>Sant<b/>Joan<s n="np"/><s n="loc"/></l><r>Sant<b/>Joan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>càmera<s n="n"/><s n="f"/></l><r>fotocàmera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>càmera<s n="n"/><s n="mf"/></l><r>fotocàmera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>marge<s n="n"/><s n="m"/></l><r>oru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>escó<s n="n"/><s n="m"/></l><r>bancu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ajuntament<s n="n"/><s n="m"/></l><r>domo<b/>comunale<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>recorregut<s n="n"/><s n="m"/></l><r>cursadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>reconstruir<s n="vblex"/></l><r>torrare<g><b/>a<b/>costrùere</g><s n="vblex"/></r></p></e>
+      <e><p><l>reedificar<s n="vblex"/></l><r>torrare<g><b/>a<b/>fragaire</g><s n="vblex"/></r></p></e>
       <e><p><l>metge<s n="n"/></l><r>dotore<s n="n"/></r></p></e>
       <e r="RL"><p><l>metge<s n="n"/></l><r>mèigu<s n="n"/></r></p></e>
       <e><p><l>veí<s n="adj"/></l><r>serente<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -6872,7 +6873,7 @@
       <e><p><l>màxim<s n="n"/><s n="m"/></l><r>màssimu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mínim<s n="n"/><s n="m"/></l><r>mìnimu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>servent<s n="n"/><s n="m"/></l><r>tzeracu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>antecedent<s n="n"/><s n="m"/></l><r>pretzedente<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>antecedent<s n="n"/><s n="m"/></l><r>pretzedente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>musical<s n="n"/><s n="m"/></l><r>musicale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tsar<s n="n"/><s n="m"/></l><r>tzar<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tsarina<s n="n"/><s n="f"/></l><r>tzar<s n="n"/><s n="f"/></r></p></e>
@@ -7176,7 +7177,7 @@
       <e><p><l>triangular<s n="adj"/></l><r>triangulare<s n="adj"/></r></p></e>
       <e><p><l>rellevància<s n="n"/><s n="f"/></l><r>rilevàntzia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>prohibició<s n="n"/><s n="f"/></l><r>proibitzione<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>precedent<s n="n"/><s n="mf"/></l><r>pretzedente<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>precedent<s n="n"/><s n="m"/></l><r>pretzedente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>moral<s n="n"/><s n="f"/></l><r>morale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>captar<s n="vblex"/></l><r>tènnere<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>captar<s n="vblex"/></l><r>agarrare<s n="vblex"/></r></p></e>
@@ -8329,7 +8330,7 @@
       <e><p><l>camió<s n="n"/><s n="m"/></l><r>càmion<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>narrativa<s n="n"/><s n="f"/></l><r>narrativa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Moià<s n="np"/><s n="loc"/></l><r>Moià<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ancestre<s n="n"/></l><r>antepassadu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>ancestre<s n="n"/></l><r>antepassadu<s n="n"/></r></p><par n="m_GD"/></e>
       <e><p><l>trofeu<s n="n"/><s n="m"/></l><r>trofeu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tàtar<s n="n"/></l><r>tàtaru<s n="n"/></r></p></e>
       <e><p><l>nadó<s n="n"/><s n="m"/></l><r>criu<s n="n"/><s n="m"/></r></p></e>
