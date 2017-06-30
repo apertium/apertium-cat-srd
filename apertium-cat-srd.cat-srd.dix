@@ -1927,7 +1927,7 @@
     <e><p><l>Dostoievski<s n="np"/><s n="ant"/></l><r>Dostoevskij<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e r="LR"><p><l>Wikipedia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Viquipèdia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Viquipèdia<s n="np"/><s n="al"/></l><r>Wikipedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Generalitat<s n="np"/><s n="loc"/></l><r>Generalitat<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Linux<s n="np"/><s n="al"/></l><r>Linux<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Le<b/>Monde<b/>Diplomatique<s n="np"/><s n="al"/></l><r>Le<b/>Monde<b/>Diplomatique<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2627,11 +2627,11 @@
     <e><p><l>erròniament<s n="adv"/></l><r>erroneamente<s n="adv"/></r></p></e>
     <e><p><l>exclusivament<s n="adv"/></l><r>esclusivamente<s n="adv"/></r></p></e>
     <e><p><l>formalment<s n="adv"/></l><r>formalmente<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>generalment<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
-    <e><p><l>in<b/>manera<b/>generale<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
-    <e r="LR"><p><l>immediatament<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
-    <e><p><l>deretu<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
-    <e><p><l>in<b/>deretura<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>generalment<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
+    <e><p><l>generalment<s n="adv"/></l><r>in<b/>manera<b/>generale<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>immediatament<s n="adv"/></l><r>immediatamente<s n="adv"/></r></p></e>
+    <e><p><l>immediatament<s n="adv"/></l><r>deretu<s n="adv"/></r></p></e>
+    <e><p><l>immediatament<s n="adv"/></l><r>in<b/>deretura<s n="adv"/></r></p></e>
     <e><p><l>momentàniament<s n="adv"/></l><r>momentaneamente<s n="adv"/></r></p></e>
     <e><p><l>màximament<s n="adv"/></l><r>massimamente<s n="adv"/></r></p></e>
     <e><p><l>naturalment<s n="adv"/></l><r>naturalmente<s n="adv"/></r></p></e>
