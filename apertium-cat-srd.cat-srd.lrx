@@ -13,5 +13,24 @@
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
+
+<!-- PP DA -->
+
+  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+
 </rules>
 

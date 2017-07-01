@@ -258,13 +258,14 @@
     <!-- SECTION:  Prepositions -->
 
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>de<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
+    <e><p><l>de<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
     <e><p><l>amb<s n="pr"/></l><r>cun<s n="pr"/></r></p></e>
     <e r="RL"><p><l>amb<s n="pr"/></l><r>paris<b/>cun<s n="pr"/></r></p></e> <!-- junts amb(?) -->
     <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
     <e><p><l>a<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>per<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+    <e><p><l>per<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
     <e r="LR"><p><l>per<b/>a<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
     <e r="RL"><p><l>per<s n="pr"/></l><r>po<s n="pr"/></r></p></e>
     <e><p><l>contra<s n="pr"/></l><r>contra<s n="pr"/></r></p></e>
@@ -396,7 +397,6 @@
     <e r="RL"><p><l>cada<s n="det"/><s n="ind"/></l><r>cada<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>tal<s n="det"/><s n="ind"/></l><r>tale<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>algun<s n="det"/><s n="ind"/></l><r>carchi<s n="det"/><s n="ind"/></r></p><par n="GD+ND_mf+sp"/></e>
-    <e><p><l>alguns<b/>dels<s n="det"/><s n="ind"/></l><r>calicunu<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>cap<s n="det"/><s n="ind"/></l><r>perunu<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 
     <e><p><l>llur<s n="det"/><s n="pos"/></l><r>issoro<s n="det"/><s n="pos"/></r></p><par n="mfND_mfsp"/></e>
@@ -1664,7 +1664,7 @@
     <e><p><l>Nàpols<s n="np"/><s n="loc"/></l><r>Nàpule<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Milà<s n="np"/><s n="loc"/></l><r>Milanu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Israel<s n="np"/><s n="loc"/></l><r>Israele<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Venècia<s n="np"/><s n="loc"/></l><r>Venezia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Venècia<s n="np"/><s n="loc"/></l><r>Venètzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Xina<s n="np"/><s n="loc"/></l><r>Tzina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Rússia<s n="np"/><s n="loc"/></l><r>Rùssia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Londres<s n="np"/><s n="loc"/></l><r>Londra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3456,7 +3456,8 @@
       <e><p><l>un<s n="prn"/><s n="tn"/></l><r>unu<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>aquest<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e r="LR"><p><l>això<s n="prn"/><s n="tn"/><s n ="nt"/></l><r>custu<s n="prn"/><s n="tn"/><s n ="m"/><s n ="sg"/></r></p></e>
-      <e><p><l>algun<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>algun<s n="prn"/><s n="tn"/><s n="m"/></l><r>calicunu<s n="prn"/><s n="tn"/><s n="m"/></r></p><par n="ND_sg"/></e> <!-- CHECK -->
+      <e><p><l>algun<s n="prn"/><s n="tn"/><s n="f"/></l><r>calicunu<s n="prn"/><s n="tn"/><s n="f"/></r></p><par n="ND_sg"/></e> <!-- CHECK -->
       <e r="RL"><p><l>algun<s n="prn"/><s n="tn"/></l><r>carchi<s n="prn"/><s n="tn"/></r></p><par n="GD+ND_nt+sg"/></e>
       <e><p><l>tot<s n="prn"/><s n="tn"/></l><r>totu<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
       <e><p><l>molts<s n="prn"/><s n="tn"/></l><r>medas<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
@@ -9023,5 +9024,16 @@
       <e><p><l>central<s n="n"/><s n="f"/></l><r>tzentrale<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>avi<s n="n"/><s n="f"/></l><r>mannai<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>avi<s n="n"/><s n="m"/></l><r>mannoi<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>alguerès<s n="adj"/></l><r>aligheresu<s n="adj"/></r></p></e>
+      <e><p><l>alguerès<s n="n"/></l><r>aligheresu<s n="n"/></r></p></e>
+      <e><p><l>sassarès<s n="adj"/></l><r>sassaresu<s n="adj"/></r></p></e>
+      <e><p><l>sassarès<s n="n"/></l><r>sassaresu<s n="n"/></r></p></e>
+      <e><p><l>ferrarès<s n="adj"/></l><r>ferraresu<s n="adj"/></r></p></e>
+      <e><p><l>ferrarès<s n="n"/></l><r>ferraresu<s n="n"/></r></p></e>
+      <e><p><l>Polinèsia<s n="np"/><s n="loc"/></l><r>Polinèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Melanèsia<s n="np"/><s n="loc"/></l><r>Melanèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Micronèsia<s n="np"/><s n="loc"/></l><r>Micronèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Oceania<s n="np"/><s n="loc"/></l><r>Otzeania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 </section>
 </dictionary>
