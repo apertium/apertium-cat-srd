@@ -2965,10 +2965,8 @@
            <tag><lit-tag v="SV"/></tag>
          </tags>
          <lu>
-           <get-case-from pos="1">
-             <lit v="dèpere"/>
-           </get-case-from>
-           <lit-tag v="vbmod.pri"/>
+           <get-case-from pos="1"><lit v="dare"/></get-case-from>
+           <lit-tag v="vblex.prs"/>
            <clip pos="1" side="tl" part="pers"/>
            <clip pos="1" side="tl" part="gen"/>
            <clip pos="1" side="tl" part="nbr"/>
@@ -3476,9 +3474,9 @@
              <b/>
              <lu>
                <get-case-from pos="2">
-                 <lit v="dèpere"/>
+                 <lit v="dare"/>
                </get-case-from>
-               <lit-tag v="vbmod.pri"/>
+               <lit-tag v="vblex.prs"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -3696,9 +3694,9 @@
              <b/>
              <lu>
                <get-case-from pos="2">
-                 <lit v="dèpere"/>
+                 <lit v="dare"/>
                </get-case-from>
-               <lit-tag v="vbmod.pri"/>
+               <lit-tag v="vblex.prs"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -3881,6 +3879,7 @@
 </rule>
 
 
+<!--
 <rule comment="regla: hi haver_p3">
    <pattern>
      <pattern-item n="hi"/>
@@ -3912,6 +3911,7 @@
      </out>
    </action>
 </rule>
+-->
 
 
 <rule comment="regla: èssere_pri ger">
