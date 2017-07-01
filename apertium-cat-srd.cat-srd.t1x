@@ -3773,10 +3773,13 @@
       <choose>
 	<when> 
 	  <test>
-	    <equal>
-	      <clip pos="3" side="sl" part="lem"/>
-	      <lit v="en"/>
-	    </equal>
+	    <or>
+	      <equal><clip pos="3" side="sl" part="lem"/><lit v="en"/></equal>
+	      <and>
+	        <equal><clip pos="2" side="sl" part="lem"/><lit v="li"/></equal>
+	        <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
+	      </and>
+	    </or>
 	  </test>
           <out>
             <chunk name="imp-ger-enc">
@@ -3799,10 +3802,10 @@
 	</when>
 	<when> 
 	  <test>
-	    <equal>
-	      <clip pos="3" side="sl" part="lem"/>
-	      <lit v="hi"/>
-	    </equal>
+	    <and>
+	      <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
+	      <not><equal><clip pos="2" side="sl" part="lem"/><lit v="es"/></equal></not>
+	    </and>
 	  </test>
           <out>
             <chunk name="imp-ger-enc-enc">
