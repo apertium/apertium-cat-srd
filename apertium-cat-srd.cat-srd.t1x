@@ -100,17 +100,31 @@
    <cat-item tags="vbhaver.inf"/>
    <cat-item tags="vbmod.inf"/>
 </def-cat>
+<def-cat n="inf-imp_p3">
+   <cat-item tags="vblex.inf"/>
+   <cat-item tags="vbser.inf"/>
+   <cat-item tags="vbhaver.inf"/>
+   <cat-item tags="vbmod.inf"/>
+   <cat-item tags="vblex.imp.p3.*"/>
+   <cat-item tags="vbser.imp.p3.*"/>
+   <cat-item tags="vbhaver.imp.p3.*"/>
+   <cat-item tags="vbmod.imp.p3.*"/>
+</def-cat>
 <def-cat n="vblex_inf">
    <cat-item tags="vblex.inf"/>
 </def-cat>
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
 </def-cat>
+<def-cat n="imp_p3">
+   <cat-item tags="vblex.imp.p3.*"/>
+</def-cat>
 <def-cat n="ger">
    <cat-item tags="vblex.ger"/>
 </def-cat>
-<def-cat n="imp-ger">
-   <cat-item tags="vblex.imp.*"/>
+<def-cat n="imp_p2-ger">
+   <cat-item tags="vblex.imp.p2.*"/>
+   <cat-item tags="vblex.imp.p1.*"/>
    <cat-item tags="vblex.ger"/>
 </def-cat>
 <def-cat n="verb-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti -->
@@ -3157,9 +3171,9 @@
 </rule>
 
 
-    <rule comment="regla: inf enc">
+    <rule comment="regla: inf-imp_p3 enc">
        <pattern>
-         <pattern-item n="inf"/>
+         <pattern-item n="inf-imp_p3"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
@@ -3191,9 +3205,9 @@
        </action>
     </rule>
 
-    <rule comment="regla: inf enc enc">
+    <rule comment="regla: inf-imp_p3 enc enc">
        <pattern>
-         <pattern-item n="inf"/>
+         <pattern-item n="inf-imp_p3"/>
          <pattern-item n="enc"/>
          <pattern-item n="enc"/>
        </pattern>
@@ -3722,9 +3736,9 @@
     </rule>
 
 
-<rule comment="regla: imp-ger enc">
+<rule comment="regla: imp_p2-ger enc">
    <pattern>
-     <pattern-item n="imp-ger"/>
+     <pattern-item n="imp_p2-ger"/>
      <pattern-item n="enc"/>
    </pattern>
    <action>
@@ -3749,9 +3763,9 @@
    </action>
 </rule>
 
-<rule comment="regla: imp-ger enc enc: Abaixa-l'hi. → Abbassa·nche·lu, Abaixa-l'en. → Abbassa·lu">
+<rule comment="regla: imp_p2-ger enc enc: Abaixa-l'hi. → Abbassa·nche·lu, Abaixa-l'en. → Abbassa·lu">
    <pattern>
-     <pattern-item n="imp-ger"/>
+     <pattern-item n="imp_p2-ger"/>
      <pattern-item n="enc"/>
      <pattern-item n="enc"/>
    </pattern>
