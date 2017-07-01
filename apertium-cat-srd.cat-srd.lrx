@@ -31,6 +31,20 @@
     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
+<!-- HI HA > B'AT -->
+
+  <rule weight="1.0">
+     <match lemma="hi" tags="prn.pro.adv"><select lemma="bi" tags="prn.*"/></match>
+     <match tags="vbhaver.*"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
+     <match tags="vbhaver.*"/>
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/><match tags="vbser.pp.*"/></or>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
+  </rule>
 
 </rules>
 

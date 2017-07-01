@@ -343,6 +343,7 @@
 
     <e><p><l>en<s n="prn"/><s n="pro"/><s n="adv"/></l><r>nde<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     <e><p><l>hi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>nche<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <e c="hi ha - b'at"><p><l>hi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 
     <e><p><l>mi<s n="prn"/><s n="tn"/></l><r>mene<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>mi<s n="prn"/><s n="tn"/></l><r>mie<s n="prn"/><s n="tn"/></r></p></e>
@@ -1183,8 +1184,8 @@
     <e><p><l>nivell<s n="n"/><s n="m"/></l><r>livellu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>voluntat<s n="n"/><s n="f"/></l><r>boluntade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>majoria<s n="n"/><s n="f"/></l><r>majoria<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>emissor<s n="n"/><s n="f"/></l><r>emitente<s n="n"/><s n="m"/></r></p></e>
-    <e r="LR"><p><l>emissor<s n="n"/><s n="m"/></l><r>emitente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>emissor<s n="n"/><s n="f"/></l><r>emitente<s n="n"/><s n="mf"/></r></p></e>
+    <e r="LR"><p><l>emissor<s n="n"/><s n="m"/></l><r>emitente<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>diari<s n="n"/><s n="m"/></l><r>cuotidianu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>recurs<s n="n"/><s n="m"/></l><r>resursa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>espècie<s n="n"/><s n="f"/></l><r>casta<s n="n"/><s n="f"/></r></p></e>
@@ -3461,8 +3462,7 @@
       <e><p><l>un<s n="prn"/><s n="tn"/></l><r>unu<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>aquest<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e r="LR"><p><l>això<s n="prn"/><s n="tn"/><s n ="nt"/></l><r>custu<s n="prn"/><s n="tn"/><s n ="m"/><s n ="sg"/></r></p></e>
-      <e><p><l>algun<s n="prn"/><s n="tn"/><s n="m"/></l><r>calicunu<s n="prn"/><s n="tn"/><s n="m"/></r></p><par n="ND_sg"/></e> <!-- CHECK -->
-      <e><p><l>algun<s n="prn"/><s n="tn"/><s n="f"/></l><r>calicunu<s n="prn"/><s n="tn"/><s n="f"/></r></p><par n="ND_sg"/></e> <!-- CHECK -->
+      <e><p><l>algun<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p></e>
       <e r="RL"><p><l>algun<s n="prn"/><s n="tn"/></l><r>carchi<s n="prn"/><s n="tn"/></r></p><par n="GD+ND_nt+sg"/></e>
       <e><p><l>tot<s n="prn"/><s n="tn"/></l><r>totu<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
       <e><p><l>molts<s n="prn"/><s n="tn"/></l><r>medas<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
