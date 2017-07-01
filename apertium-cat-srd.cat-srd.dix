@@ -834,7 +834,7 @@
     <e><p><l>mont<s n="n"/><s n="m"/></l><r>monte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>persecució<s n="n"/><s n="f"/></l><r>perzecutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>orient<s n="n"/><s n="m"/></l><r>oriente<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>lliçó<s n="n"/><s n="f"/></l><r>lezione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lliçó<s n="n"/><s n="f"/></l><r>letzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fam<s n="n"/><s n="f"/></l><r>fàmene<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>gana<s n="n"/><s n="f"/></l><r>fàmene<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>independència<s n="n"/><s n="f"/></l><r>indipendèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -1245,7 +1245,7 @@
     <e><p><l>política<s n="n"/><s n="f"/></l><r>polìtica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>desenvolupament<s n="n"/><s n="m"/></l><r>isvilupu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ministre<s n="n"/></l><r>ministru<s n="n"/></r></p><par n="nostre_nostru"/></e>
-    <e><p><l>dirigent<s n="n"/><s n="mf"/></l><r>dirigente<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>dirigent<s n="n"/><s n="mf"/></l><r>dirigente<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>camí<s n="n"/><s n="m"/></l><r>caminu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>servei<s n="n"/><s n="m"/></l><r>servìtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>poble<s n="n"/><s n="m"/></l><r>pòpulu<s n="n"/><s n="m"/></r></p></e>
@@ -1315,7 +1315,7 @@
     <e><p><l>lleure<s n="n"/><s n="m"/></l><r>disaogu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diccionari<s n="n"/><s n="m"/></l><r>ditzionàriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>descans<s n="n"/><s n="m"/></l><r>pasu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>exterminació<s n="n"/><s n="f"/></l><r>sterminiu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>exterminació<s n="n"/><s n="f"/></l><r>stermìniu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>convenció<s n="n"/><s n="f"/></l><r>cunventzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>respecte<s n="n"/><s n="m"/></l><r>rispetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anarquista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mf"/></r></p></e>
@@ -3575,8 +3575,6 @@
       <e><p><l>pel·lícula<s n="n"/><s n="f"/></l><r>film<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fet<s n="n"/><s n="m"/></l><r>fatu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>habitatge<s n="n"/><s n="m"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
-      <e><p><l>m<s n="n"/><s n="f"/><s n="sg"/></l><r>m<s n="abbr"/></r></p></e>
       <e><p><l>vertical<s n="n"/><s n="f"/></l><r>verticale<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>esdevenir<s n="vblex"/></l><r>divenire<s n="vblex"/></r></p></e>
       <e><p><l>piràmide<s n="n"/><s n="f"/></l><r>piràmide<s n="n"/><s n="f"/></r></p></e>
@@ -6794,8 +6792,9 @@
       <e><p><l>abat<s n="n"/><s n="f"/></l><r>abadissa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cm<s n="n"/><s n="acr"/></l><r>cm<s n="n"/><s n="acr"/></r></p></e>
       <e><p><l>mm<s n="n"/></l><r>mm<s n="n"/><s n="acr"/></r></p></e>
-      <e><p><l>kg<s n="n"/></l><r>kg<s n="n"/><s n="acr"/></r></p></e>
-      <e><p><l>m<s n="n"/><s n="f"/><s n="sg"/></l><r>kg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>kg<s n="n"/><s n="acr"/></l><r>kg<s n="n"/><s n="acr"/></r></p></e>
+      <e><p><l>m<s n="n"/><s n="f"/><s n="sg"/></l><r>m<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
 
       <e><p><l>arribar<g><b/>a</g><s n="vblex"/></l><r>arribare<g><b/>a</g><s n="vblex"/></r></p></e>
       <e r="RL"><p><l>arribar<g><b/>a</g><s n="vblex"/></l><r>lòmpere<g><b/>a</g><s n="vblex"/></r></p></e>
@@ -6859,7 +6858,7 @@
 
       <e><p><l>Mediterrani<s n="np"/><s n="loc"/></l><r>Mediterràneu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>Mediterrània<s n="np"/><s n="loc"/></l><r>Mediterràneu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>jutge<s n="n"/><s n="m"/></l><r>giùighe<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jutge<s n="n"/><s n="m"/></l><r>giùighe<s n="n"/><s n="mf"/></r></p></e>
 
       <e><p><l>gos<s n="n"/><s n="m"/></l><r>cane<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gos<s n="n"/><s n="f"/></l><r>cagna<s n="n"/><s n="f"/></r></p></e>
@@ -6889,7 +6888,7 @@
       <e><p><l>generador<s n="n"/><s n="m"/></l><r>generadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>indicador<s n="n"/><s n="m"/></l><r>indicadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>autobús<s n="n"/><s n="m"/></l><r>postale<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>guàrdia<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>guàrdia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fantasma<s n="n"/><s n="mf"/></l><r>pantasma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acumulació<s n="n"/><s n="f"/></l><r>muntone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>prefecte<s n="n"/><s n="m"/></l><r>perfetu<s n="n"/><s n="m"/></r></p></e>
