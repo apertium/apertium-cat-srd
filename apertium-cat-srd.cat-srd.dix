@@ -1492,7 +1492,7 @@
     <e><p><l>regularitat<s n="n"/><s n="f"/></l><r>regularidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>simplificació<s n="n"/><s n="f"/></l><r>semplificatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>temptació<s n="n"/><s n="f"/></l><r>tentatzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>variant<s n="n"/><s n="f"/></l><r>variante<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>variant<s n="n"/><s n="f"/></l><r>variante<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>varietat<s n="n"/><s n="f"/></l><r>variedade<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>enfortiment<s n="n"/><s n="m"/></l><r>afortimentu<s n="n"/><s n="m"/></r></p></e>
@@ -1964,7 +1964,7 @@
     <e><p><l>Guyana<s n="np"/><s n="loc"/></l><r>Guyana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Califòrnia<s n="np"/><s n="loc"/></l><r>Califòrnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Bob<s n="np"/><s n="ant"/></l><r>Bob<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Barcelona<s n="np"/><s n="loc"/></l><r>Barcellona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Barcelona<s n="np"/><s n="loc"/></l><r>Bartzellona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Avinyó<s n="np"/><s n="loc"/></l><r>Avignone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Zhejiang<s n="np"/><s n="loc"/></l><r>Zhejiang<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>York<s n="np"/><s n="loc"/></l><r>York<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2673,9 +2673,9 @@
     <e><p><l>donar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
     <e r="LR"><p><l>dar<s n="vblex"/></l><r>dare<s n="vblex"/></r></p></e>
     <e><p><l>practicar<s n="vblex"/></l><r>praticare<s n="vblex"/></r></p></e>
-    <e r="RL"><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
-    <e><p><l>voler<s n="vblex"/></l><r>bòlere<s n="vblex"/></r></p></e>
-    <e r="LR"><p><l>voler<s n="vbmod"/></l><r>bòlere<s n="vblex"/></r></p></e>
+    <e><p><l>voler<s n="vblex"/></l><r>chèrrere<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>voler<s n="vblex"/></l><r>bòlere<s n="vblex"/></r></p></e>
+    <e r="LR"><p><l>voler<s n="vbmod"/></l><r>chèrrere<s n="vblex"/></r></p></e>
     <e><p><l>guiar<s n="vblex"/></l><r>agiuare<s n="vblex"/></r></p></e>
     <e><p><l>viure<s n="vblex"/></l><r>bìvere<s n="vblex"/></r></p></e>
     <e><p><l>veure<s n="vblex"/></l><r>bìdere<s n="vblex"/></r></p></e>
@@ -9027,13 +9027,24 @@
 
       <e><p><l>alguerès<s n="adj"/></l><r>aligheresu<s n="adj"/></r></p></e>
       <e><p><l>alguerès<s n="n"/></l><r>aligheresu<s n="n"/></r></p></e>
-      <e><p><l>sassarès<s n="adj"/></l><r>sassaresu<s n="adj"/></r></p></e>
-      <e><p><l>sassarès<s n="n"/></l><r>sassaresu<s n="n"/></r></p></e>
+      <e><p><l>sasserès<s n="adj"/></l><r>sassaresu<s n="adj"/></r></p></e>
+      <e><p><l>sasserès<s n="n"/></l><r>sassaresu<s n="n"/></r></p></e>
+      <e><p><l>logudorès<s n="adj"/></l><r>logudoresu<s n="adj"/></r></p></e>
+      <e><p><l>logudorès<s n="n"/></l><r>logudoresu<s n="n"/></r></p></e>
       <e><p><l>ferrarès<s n="adj"/></l><r>ferraresu<s n="adj"/></r></p></e>
       <e><p><l>ferrarès<s n="n"/></l><r>ferraresu<s n="n"/></r></p></e>
+      <e><p><l>cors<s n="adj"/></l><r>corsicanu<s n="adj"/></r></p></e>
+      <e><p><l>cors<s n="n"/></l><r>corsicanu<s n="n"/></r></p></e>
       <e><p><l>Polinèsia<s n="np"/><s n="loc"/></l><r>Polinèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Melanèsia<s n="np"/><s n="loc"/></l><r>Melanèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Micronèsia<s n="np"/><s n="loc"/></l><r>Micronèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Oceania<s n="np"/><s n="loc"/></l><r>Otzeania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>balear<s n="adj"/></l><r>baleare<s n="adj"/></r></p></e>
+      <e><p><l>rossellonès<s n="adj"/></l><r>russillionesu<s n="adj"/></r></p></e>
+      <e><p><l>rossellonès<s n="n"/></l><r>russillionesu<s n="n"/></r></p></e>
+      <e><p><l>barceloní<s n="adj"/></l><r>bartzellonesu<s n="adj"/></r></p></e>
+      <e><p><l>barceloní<s n="n"/></l><r>bartzellonesu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>barcelonès<s n="adj"/></l><r>bartzellonesu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>barcelonès<s n="n"/></l><r>bartzellonesu<s n="n"/></r></p></e>
 </section>
 </dictionary>
