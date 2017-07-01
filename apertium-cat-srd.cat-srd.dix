@@ -2042,7 +2042,7 @@
     <e><p><l>Jan<s n="np"/><s n="ant"/></l><r>Jan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Jack<s n="np"/><s n="ant"/></l><r>Jack<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Istanbul<s n="np"/><s n="loc"/></l><r>Istanbul<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Escòcia<s n="np"/><s n="loc"/></l><r>Iscotzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Escòcia<s n="np"/><s n="loc"/></l><r>Iscòtzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Isabel<s n="np"/><s n="ant"/></l><r>Isabel<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Irene<s n="np"/><s n="ant"/></l><r>Irene<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Inés<s n="np"/><s n="ant"/></l><r>Inés<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3519,7 +3519,6 @@
 
     <!-- SECTION:  Abbreviations -->
 
-    <e><p><l>km<s n="n"/><s n="m"/><s n="sp"/></l><r>km<s n="abbr"/></r></p></e>
     <e><p><l>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>MIT<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>APEC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>ONU<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
@@ -9038,6 +9037,8 @@
       <e><p><l>alguerès<s n="n"/></l><r>aligheresu<s n="n"/></r></p></e>
       <e><p><l>sasserès<s n="adj"/></l><r>sassaresu<s n="adj"/></r></p></e>
       <e><p><l>sasserès<s n="n"/></l><r>sassaresu<s n="n"/></r></p></e>
+      <e><p><l>gal·lurès<s n="adj"/></l><r>galluresu<s n="adj"/></r></p></e>
+      <e><p><l>gal·lurès<s n="n"/></l><r>galluresu<s n="n"/></r></p></e>
       <e><p><l>logudorès<s n="adj"/></l><r>logudoresu<s n="adj"/></r></p></e>
       <e><p><l>logudorès<s n="n"/></l><r>logudoresu<s n="n"/></r></p></e>
       <e><p><l>campidanès<s n="adj"/></l><r>campidanesu<s n="adj"/></r></p></e>

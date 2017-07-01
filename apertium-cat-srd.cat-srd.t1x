@@ -3879,41 +3879,6 @@
 </rule>
 
 
-<!--
-<rule comment="regla: hi haver_p3">
-   <pattern>
-     <pattern-item n="hi"/>
-     <pattern-item n="haver_p3"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="hi-ha">
-         <tags>
-           <tag><lit-tag v="SV"/></tag>
-         </tags>
-       <lu>
-         <get-case-from pos="1">
-           <lit v="bi"/>
-         </get-case-from>
-         <lit-tag v="prn.pro.p3.mf.sp"/>
-       </lu>
-       <b pos="1"/>
-       <lu>
-         <get-case-from pos="2">
-           <lit v="àere"/>
-         </get-case-from>
-         <lit-tag v="vbhaver"/>
-         <clip pos="2" side="tl" part="temps"/>
-         <clip pos="2" side="tl" part="pers"/>
-         <lit-tag v="sg"/>
-       </lu>
-     </chunk>
-     </out>
-   </action>
-</rule>
--->
-
-
 <rule comment="regla: èssere_pri ger">
    <pattern>
      <pattern-item n="èssere_pri"/>
