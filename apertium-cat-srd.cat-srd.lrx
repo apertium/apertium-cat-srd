@@ -46,5 +46,23 @@
      <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
   </rule>
 
+<!-- estimar > amare, istimare -->
+
+  <rule weight="0.6">
+     <match lemma="estimar" tags="vblex.*"><select lemma="amare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estimar" tags="vblex.*"><select lemma="istimare"/></match>
+     <match lemma="en" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estimar" tags="vblex.*"><select lemma="istimare"/></match>
+     <match lemma="que" tags="cnjsub"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="es" tags="prn.pro.ref.*"/>
+     <match lemma="estimar" tags="vblex.*"><select lemma="istimare"/></match>
+  </rule>
+
 </rules>
 
