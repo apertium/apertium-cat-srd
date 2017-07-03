@@ -188,6 +188,10 @@
    <cat-item tags="adj.*"/>
    <cat-item tags="vblex.pp.*"/>
 </def-cat>
+<def-cat n="adv_preadv">
+   <cat-item tags="adv"/>
+   <cat-item tags="preadv"/>
+</def-cat>
 </section-def-cats>
 
 <section-def-attrs>
@@ -2440,7 +2444,7 @@
    <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>	<!-- FIXME: depèn del gènere i nombre del subjecte -->
 </def-macro>
 
-<def-macro n="f_vaux_pp" npar="2">
+<def-macro n="f_vaux_pp2" npar="2">
    <choose> <!-- vaux + vlex: es canvia el vaux a èssere o àere -->
      <when>
        <test>
@@ -2454,14 +2458,76 @@
        </test>
        <let><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></let>
        <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+       <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+       <!-- el gènere, l'agafem de la variable "genero", però només en 3a persona i si genero no es mf -->
+       <choose>
+         <when>
+           <test>
+           <and>
+	     <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+	     <not><equal><var n="genero"/><lit-tag v="mf"/></equal></not>
+           </and>
+           </test>
+           <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+         </when>
+         <otherwise>
+           <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+         </otherwise>
+       </choose>
      </when>
      <otherwise>
        <let><clip pos="1" side="tl" part="lem"/><lit v="àere"/></let>
        <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
      </otherwise>
    </choose>
-   <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>		<!-- FIXME: depèn del gènere i nombre del subjecte -->
-   <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>		<!-- FIXME: depèn del gènere i nombre del subjecte -->
+</def-macro>
+
+<def-macro n="f_vaux_pp3" npar="3">
+   <choose> <!-- vaux + vlex: es canvia el vaux a èssere o àere, el tercer element és un adjectiu que serveix per obtenir el gènere del pp si èssere -->
+     <when>
+       <test>
+         <or>
+           <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	   <and>
+	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	     <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	   </and>
+         </or>
+       </test>
+       <let><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></let>
+       <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+       <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+       <!-- el gènere, l'agafem en primer lloc del tercer membre (adj) o altrament de la variable "genero", però només en 3a persona i si genero no es mf -->
+       <choose>
+         <when>
+           <test>
+	     <not><equal><clip pos="3" side="tl" part="gen"/><lit-tag v="mf"/></equal></not>
+           </test>
+           <let><clip pos="2" side="tl" part="gen"/><clip pos="3" side="tl" part="gen"/></let>
+         </when>
+         <otherwise>
+           <choose>
+             <when>
+               <test>
+               <and>
+	         <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+	         <not><equal><var n="genero"/><lit-tag v="mf"/></equal></not>
+               </and>
+               </test>
+               <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+             </when>
+             <otherwise>
+               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+             </otherwise>
+           </choose>
+         </otherwise>
+       </choose>
+     </when>
+     <otherwise>
+       <let><clip pos="1" side="tl" part="lem"/><lit v="àere"/></let>
+       <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
+     </otherwise>
+   </choose>
 </def-macro>
 </section-def-macros>
 
@@ -3149,7 +3215,7 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
-     <call-macro n="f_vaux_pp">
+     <call-macro n="f_vaux_pp2">
        <with-param pos="1"/>
        <with-param pos="2"/>
      </call-macro>
@@ -3169,6 +3235,101 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: haver pp adj">
+   <pattern>
+     <pattern-item n="haver"/>
+     <pattern-item n="pp"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="3"/>
+     </call-macro>     
+     <call-macro n="f_vaux_pp3">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+       <with-param pos="3"/>
+     </call-macro>
+     <out>
+       <chunk name="aux_pp_adj">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <get-case-from pos="1">
+               <clip pos="1" side="tl" part="lem"/>
+             </get-case-from>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: haver pp adv adj">
+   <pattern>
+     <pattern-item n="haver"/>
+     <pattern-item n="pp"/>
+     <pattern-item n="adv_preadv"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>     
+     <call-macro n="f_vaux_pp3">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+       <with-param pos="4"/>
+     </call-macro>
+     <out>
+       <chunk name="aux_pp_adj">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <get-case-from pos="1">
+               <clip pos="1" side="tl" part="lem"/>
+             </get-case-from>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
            </lu>
        </chunk>
      </out>
