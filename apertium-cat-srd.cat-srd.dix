@@ -5380,6 +5380,9 @@
       <e><p><l>blat<s n="n"/><s n="m"/></l><r>trigu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>volcànic<s n="adj"/></l><r>vulcànicu<s n="adj"/></r></p></e>
       <e><p><l>Pirineus<s n="np"/><s n="loc"/></l><r>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>Pirineu<s n="np"/><s n="loc"/></l><r>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>els<b/>Pirineus<s n="np"/><s n="loc"/></l><r>sos<b/>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>el<b/>Pirineu<s n="np"/><s n="loc"/></l><r>sos<b/>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>voluntari<s n="n"/></l><r>voluntàriu<s n="n"/></r></p></e>
       <e><p><l>semifinal<s n="adj"/></l><r>semifinale<s n="adj"/></r></p></e>
       <e><p><l>criar<s n="vblex"/></l><r>criare<s n="vblex"/></r></p></e>
@@ -20390,6 +20393,13 @@
       <e><p><l>Santanyí<s n="np"/><s n="loc"/></l><r>Santanyí<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Sànchez<s n="np"/><s n="ant"/></l><r>Sànchez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
+      <e><p><l>Mar<b/>Roig<s n="np"/><s n="loc"/></l><r>mare<b/>Ruju<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>mar<b/>Negre<s n="np"/><s n="loc"/></l><r>mare<b/>Nieddu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>mar<b/>Blanc<s n="np"/><s n="loc"/></l><r>mare<b/>Biancu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mont<b/>Blanc<s n="np"/><s n="loc"/></l><r>Monte<b/>Biancu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mont<b/>Rosa<s n="np"/><s n="loc"/></l><r>Monte<b/>Rosa<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Riu<b/>Groc<s n="np"/><s n="loc"/></l><r>riu<b/>Grogu<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Riu<b/>Blau<s n="np"/><s n="loc"/></l><r>riu<b/>Asulu<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 
 
 </section>
