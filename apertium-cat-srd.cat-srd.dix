@@ -2784,7 +2784,7 @@
     <e><p><l>augmentar<s n="vblex"/></l><r>aumentare<s n="vblex"/></r></p></e>
     <e><p><l>aprovar<s n="vblex"/></l><r>aprovare<s n="vblex"/></r></p></e>
     <e><p><l>afirmar<s n="vblex"/></l><r>afirmare<s n="vblex"/></r></p></e>
-    <e><p><l>acostumar<s n="vblex"/></l><r>acostumare<s n="vblex"/></r></p></e>
+    <e><p><l>acostumar<s n="vblex"/></l><r>costumare<s n="vblex"/></r></p></e>
     <e><p><l>acumular<s n="vblex"/></l><r>acumulare<s n="vblex"/></r></p></e>
     <e><p><l>constituir<s n="vblex"/></l><r>costituire<s n="vblex"/></r></p></e>
     <e><p><l>basar<s n="vblex"/></l><r>basare<s n="vblex"/></r></p></e>
@@ -3485,7 +3485,7 @@
       <e r="LR"><p><l>eixe<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>tot<b/>plegat<s n="prn"/><s n="tn"/></l><r>totu<b/>paris<s n="prn"/><s n="tn"/></r></p></e>
       <e r="RL"><p><l>tot<b/>plegat<s n="prn"/><s n="tn"/></l><r>totu<b/>impare<s n="prn"/><s n="tn"/></r></p></e>
-      <e><p><l>res<b/>no<s n="prn"/><s n="tn"/></l><r>nudda<s n="prn"/><s n="tn"/></r></p></e>
+      <!-- <e><p><l>res<b/>no<s n="prn"/><s n="tn"/></l><r>nudda<s n="prn"/><s n="tn"/></r></p></e> -->
       <e><p><l>un<b/>de<b/>sol<s n="prn"/><s n="tn"/></l><r>unu<b/>solu<s n="prn"/><s n="tn"/></r></p></e>
       <!-- <e><p><l>amb<b/>mi<s n="prn"/><s n="tn"/></l><r>cun<b/>megus<s n="prn"/><s n="tn"/></r></p></e> -->
       <e><p><l>no<b/>res<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nudda<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -5911,7 +5911,7 @@
       <e><p><l>tanc<s n="n"/><s n="m"/></l><r>carru<b/>armatu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>oncle<s n="n"/><s n="m"/></l><r>tziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tia<s n="n"/><s n="f"/></l><r>tziu<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>quant<s n="adj"/><s n="itg"/></l><r>cantu<s n="prn"/><s n="itg"/></r></p></e>
+      <e><p><l>quant<s n="adj"/><s n="itg"/></l><r>cantu<s n="adj"/><s n="itg"/></r></p></e>
       <e><p><l>conca<s n="n"/><s n="f"/></l><r>batzinu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>afluent<s n="n"/><s n="m"/></l><r>afluente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>soci<s n="n"/><s n="m"/></l><r>sòtziu<s n="n"/><s n="m"/></r></p></e>
