@@ -45,6 +45,7 @@
 
     <sdef n="an"      c="Animate / inanimate"/>
     <sdef n="nn"      c=""/>
+    <sdef n="aa"      c=""/>
     <sdef n="tn"      c="Tónico"/>
     <sdef n="pro"     c="Proclitic"/>
     <sdef n="enc"     c="Enclitic"/>
@@ -1312,7 +1313,7 @@
     <e><p><l>lleure<s n="n"/><s n="m"/></l><r>disaogu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>diccionari<s n="n"/><s n="m"/></l><r>ditzionàriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>descans<s n="n"/><s n="m"/></l><r>pasu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>exterminació<s n="n"/><s n="f"/></l><r>stermìniu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>exterminació<s n="n"/><s n="f"/></l><r>istermìniu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>convenció<s n="n"/><s n="f"/></l><r>cunventzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>respecte<s n="n"/><s n="m"/></l><r>rispetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anarquista<s n="n"/><s n="mf"/></l><r>anarchista<s n="n"/><s n="mf"/></r></p></e>
@@ -3161,13 +3162,13 @@
       <e r="RL"><p><l>què<s n="rel"/></l><r>ca<s n="rel"/></r></p></e>
       <e><p><l>qui<s n="rel"/><s n="nn"/></l><r>chi<s n="rel"/><s n="an"/></r></p></e>
       <e r="RL"><p><l>qui<s n="rel"/><s n="nn"/></l><r>chie<s n="rel"/><s n="an"/></r></p></e>
-      <e><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>su<b/>chi<s n="rel"/></r></p></e>
-      <e r="RL"><p><l>al<b/>qual<s n="rel"/></l><r>a<b/>cale<s n="rel"/></r></p></e>
+      <e><p><l>al<b/>qual<s n="rel"/><s n="aa"/></l><r>a<b/>su<b/>chi<s n="rel"/><s n="an"/></r></p></e>
+      <e r="RL"><p><l>al<b/>qual<s n="rel"/><s n="aa"/></l><r>a<b/>cale<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>qual<s n="rel"/></l><r>cale<s n="rel"/></r></p></e>
       <e><p><l>el<b/>qui<s n="rel"/><s n="nn"/></l><r>su<b/>chi<s n="rel"/><s n="an"/></r></p></e>
       <e r="RL"><p><l>el<b/>qui<s n="rel"/></l><r>chie<s n="rel"/></r></p></e>
       <e><p><l>a<b/>on<s n="rel"/></l><r>a<b/>ue<s n="rel"/></r></p></e>
-      <e><p><l>al<b/>qui<s n="rel"/></l><r>a<b/>su<b/>chi<s n="rel"/></r></p></e>
+      <e><p><l>al<b/>qui<s n="rel"/><s n="nn"/></l><r>a<b/>su<b/>chi<s n="rel"/><s n="an"/></r></p></e>
       <e r="RL"><p><l>al<b/>qui<s n="rel"/></l><r>a<b/>chie<s n="rel"/></r></p></e>
       <!-- <e><p><l>del<b/>qui<s n="rel"/></l><r>de<b/>chi<s n="rel"/></r></p></e> -->
       <!-- <e><p><l>pel<b/>qui<s n="rel"/></l><r>pro<b/>chi<s n="rel"/></r></p></e> -->
@@ -19384,7 +19385,7 @@
       <e><p><l>cirurgia<s n="n"/><s n="f"/></l><r>chirurgia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abundar<s n="vblex"/></l><r>abbundare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>abundar<s n="vblex"/></l><r>bundare<s n="vblex"/></r></p></e>
-      <e><p><l>flanquejar<s n="vblex"/></l><r>accostiare<s n="vblex"/></r></p></e>
+      <e><p><l>flanquejar<s n="vblex"/></l><r>acostiare<s n="vblex"/></r></p></e>
       <e><p><l>alegria<s n="n"/><s n="f"/></l><r>allegria<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>aclamar<s n="vblex"/></l><r>acramare<s n="vblex"/></r></p></e>
       <e><p><l>Antàrtida<s n="np"/><s n="loc"/></l><r>Antàrtide<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
