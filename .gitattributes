@@ -51,6 +51,7 @@ dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 /evaluation.gsoc2017 -text
 /modes.xml -text
+/noms.txt -text
 t/README.org -text
 t/config.sh -text
 t/config.sh.in -text
