@@ -36,7 +36,7 @@ sub llegir_dix {
 	my ($nfitx, $fitx, $r_struct) = @_;
 	my ($lemma, $par, $morf);
 
-#<e lm="megacuntzertu"><i>megacuntzert</i><par n="mac/u__n"/></e>
+#<e lm="megacuntzertu"><i>megacuntzert</i><par n="àbac/u__n"/></e>
 #<e lm="acumandare">      <i>a</i><par n="cum/com"/><i>and</i><par n="cant/are__vblex"/></e>
 #<e lm="intertzèdere">    <p><l>intertzed</l> <r>intertzèdere</r></p><par n="tim/o__vblex"/></e>
 #<e lm="ismòrrere">       <p><l>ismorr</l>    <r>ismòrrere</r></p><par n="tim/o__vblex"/></e>
@@ -335,7 +335,11 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"capaç_capatzu\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'preco/ç__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"capaç_capatze\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'access/ori__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'a/eri__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'arqueòl/eg__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afric/à__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -357,8 +361,12 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abusi/u__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'to/u__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"sup0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abusi/u__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'to/u__adj' && $par_srd eq 'fàtzil/e__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD_mf+sup_0\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'adjudicat/ari__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afectu/ós__adj' && $par_srd eq 'frantzes/u__adj') {
@@ -471,6 +479,8 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'genu/í__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'ce/c__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'genu/í__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'altr/e__adj' && $par_srd eq 'àter/u__adj') {
@@ -522,7 +532,7 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alg/a__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'alg/a__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'alg/a__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'accessibilitat__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -532,15 +542,15 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abell/a__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'abell/a__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'abell/a__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'accessibilitat__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'accessibilitat__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acci/ó__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acci/ó__n' && $par_srd eq 'region/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'acci/ó__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'acci/ó__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acci/ó__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -548,15 +558,15 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'adre/ça__n' && $par_srd eq 'import/àntzia__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'adre/ça__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'adre/ça__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'atletisme__n' && $par_srd eq 'nord__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'atletisme__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'atletisme__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sg_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'gay__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"mf\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
@@ -570,11 +580,11 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abric__n' && $par_srd eq 'region/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'acetil/è__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'acetil/è__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'bacall/à__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'bacall/à__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'bacall/à__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'bacall/à__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -582,33 +592,33 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'aband/ó__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'aband/ó__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'aband/ó__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'abd/omen__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'abd/omen__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'antic/òs__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'antic/òs__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'passad/ís__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'passad/ís__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'as__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'as__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'as__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'as__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'barre/ja__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'barre/ja__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'barre/ja__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"f\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'caf/è__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'caf/è__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'caf/è__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'carism/a__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'carism/a__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'carism/a__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -616,9 +626,11 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abast__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'acc/és__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'acc/és__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'assa/ig__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'assa/ig__n' && $par_srd eq 'àbac/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'rebu/ig__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'assa/ig__n' && $par_srd eq 'mesa__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -626,11 +638,11 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'cos__n' && $par_srd eq 'temp/us__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'cos__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'cos__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'm/arge__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'm/arge__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'pa__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'pa__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'cos__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -646,7 +658,7 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'temp/us__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
@@ -668,7 +680,7 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"f\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"mf\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
@@ -676,15 +688,15 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'acompanyant__n' && $par_srd eq 'traballador/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'av/ís__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'av/ís__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'boc/í__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'boc/í__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'capat/às__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'capat/às__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'desi/g__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'desi/g__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'nitr/ogen__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'nitr/ogen__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'pols__n' && $par_srd eq 'pane__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -699,7 +711,7 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'advoca/t__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
-			} elsif ($par_cat eq 'advoca/t__n' && $par_srd eq 'mac/u__n') {
+			} elsif ($par_cat eq 'advoca/t__n' && $par_srd eq 'àbac/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alacant/í__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -714,6 +726,8 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 			} elsif ($par_cat eq 'adjudicat/ari__n' && $par_srd eq 'traballador/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'ate/u__n' && $par_srd eq 'amig/u__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'biòl/eg__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'indiv/idu__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
@@ -730,6 +744,8 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'albanes/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'senyor__n' && $par_srd eq 'dentista__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'adjudicat/ari__n' && $par_srd eq 'albanes/e__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'administrati/u__n' && $par_srd eq 'amig/u__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/></l><r>%s<s n=\"n\"/></r></p></e>\n", $stem_cat, $stem_srd;
