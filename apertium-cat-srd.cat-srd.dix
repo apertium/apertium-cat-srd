@@ -245,8 +245,6 @@
     <e><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>encara<b/>que<s n="cnjadv"/></l><r>mancari<b/>chi<s n="cnjsub"/></r></p></e>
 
-<!--    <e><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="cnjsub"/></r></p></e>-->
-
     <e><p><l>doncs<s n="cnjadv"/></l><r>duncas<s n="cnjadv"/></r></p></e>
     <e r="RL"><p><l>doncs<s n="cnjadv"/></l><r>gai<s n="cnjadv"/></r></p></e>
     <e><p><l>mentre<s n="cnjadv"/></l><r>mentras<s n="cnjadv"/></r></p></e>
@@ -569,7 +567,7 @@
     <e><p><l>nombre<s n="n"/><s n="m"/></l><r>nùmeru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>església<s n="n"/><s n="f"/></l><r>crèsia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hospital<s n="n"/><s n="m"/></l><r>ospidale<s n="n"/><s n="m"/></r></p></e>
-    <!--<e><p><l>formatge<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>-->
+    <e><p><l>formatge<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cas<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>alquimista<s n="n"/><s n="mf"/></l><r>alchimista<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>jesuïta<s n="n"/><s n="mf"/></l><r>gesuita<s n="n"/><s n="mf"/></r></p></e>
@@ -2543,8 +2541,6 @@
     <e r="RL"><p><l>només<s n="adv"/></l><r>isceti<s n="adv"/></r></p></e>
     <e r="RL"><p><l>només<s n="adv"/></l><r>ebbia<s n="adv"/></r></p></e>
 
-<!--    <e r="RL"><p><l>segons<s n="cnjadv"/></l><r>sigomente<s n="adv"/></r></p></e>-->
-
     <e><p><l>marginalment<s n="adv"/></l><r>oru·oru<s n="adv"/></r></p></e>
     <e r="RL"><p><l>marginalment<s n="adv"/></l><r>in<b/>s'oru<s n="adv"/></r></p></e>
     <e><p><l>almenys<s n="adv"/></l><r>a<b/>su<b/>nessi<s n="adv"/></r></p></e>
@@ -2679,7 +2675,6 @@
     <e r="LR"><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>deure<s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
-    <!-- <e><p><l>hi<b/>ha<s n="vblex"/></l><r>b'at<s n="vblex"/></r></p></e> -->
 
     <e><p><l>escampar<s n="vblex"/></l><r>ispartzinare<s n="vblex"/></r></p></e>
     <e><p><l>romandre<s n="vblex"/></l><r>abbarrare<s n="vblex"/></r></p></e>
@@ -2895,7 +2890,6 @@
     <e><p><l>catalogar<s n="vblex"/></l><r>catalogare<s n="vblex"/></r></p></e>
     <e><p><l>abocar<s n="vblex"/></l><r>betare<s n="vblex"/></r></p></e>
     <e><p><l>enviar<s n="vblex"/></l><r>aviare<s n="vblex"/></r></p></e>
-    <!--<e><p><l>baixar<s n="vblex"/></l><r>calare<s n="vblex"/></r></p></e>-->
     <e><p><l>descobrir<s n="vblex"/></l><r>iscobèrrere<s n="vblex"/></r></p></e>
     <e><p><l>informar<s n="vblex"/></l><r>informare<s n="vblex"/></r></p></e>
     <e><p><l>anticipar<s n="vblex"/></l><r>antitzipare<s n="vblex"/></r></p></e>
@@ -2983,6 +2977,8 @@
     <e><p><l>saltar<s n="vblex"/></l><r>brincare<s n="vblex"/></r></p></e>
     <e><p><l>interrogar<s n="vblex"/></l><r>interrogare<s n="vblex"/></r></p></e>
     <e><p><l>abaixar<s n="vblex"/></l><r>abassare<s n="vblex"/></r></p></e>
+    <e><p><l>baixar<s n="vblex"/></l><r>achirrare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>baixar<s n="vblex"/></l><r>abassare<s n="vblex"/></r></p></e>
     <e><p><l>assegurar<s n="vblex"/></l><r>assigurare<s n="vblex"/></r></p></e>
     <e><p><l>procurar<s n="vblex"/></l><r>procurare<s n="vblex"/></r></p></e>
     <e><p><l>confrontar<s n="vblex"/></l><r>cunfrontare<s n="vblex"/></r></p></e>
@@ -3097,7 +3093,6 @@
     <e><p><l>expressar<s n="vblex"/></l><r>espressare<s n="vblex"/></r></p></e>
 
     <e><p><l>triar<s n="vblex"/></l><r>isseperare<s n="vblex"/></r></p></e>
-    <!--<e><p><l>escollir<s n="vblex"/></l><r>isseperare<s n="vblex"/></r></p></e>-->
 
     <e><p><l>escollir<s n="vblex"/></l><r>seberare<s n="vblex"/></r></p></e>
 
