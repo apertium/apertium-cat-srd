@@ -64,5 +64,19 @@
      <match lemma="estimar" tags="vblex.*"><select lemma="istimare"/></match>
   </rule>
 
-</rules>
 
+<!-- lira > lira (música), francu (moneda) -->
+
+  <rule weight="0.6">
+     <match lemma="lira" tags="n.*"><select lemma="lira"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="num.*"/>
+     <match lemma="lira" tags="n.*"><select lemma="francu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="lira" tags="n.*"><select lemma="francu"/></match>
+     <match lemma="italià" tags="adj.*"/>
+  </rule>
+
+</rules>
