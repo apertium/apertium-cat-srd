@@ -125,9 +125,14 @@
 <def-cat n="imp_p2-ger">
    <cat-item tags="vblex.imp.p2.*"/>
    <cat-item tags="vblex.imp.p1.*"/>
+   <cat-item tags="vbmod.imp.p2.*"/>
+   <cat-item tags="vbmod.imp.p1.*"/>
+   <cat-item tags="vbser.imp.p2.*"/>
+   <cat-item tags="vbser.imp.p1.*"/>
    <cat-item tags="vblex.ger"/>
    <cat-item tags="vbhaver.ger"/>
    <cat-item tags="vbmod.ger"/>
+   <cat-item tags="vbser.ger"/>
 </def-cat>
 <def-cat n="verb-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti -->
    <cat-item tags="vblex.pri.*"/>
