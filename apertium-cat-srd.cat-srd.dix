@@ -364,6 +364,7 @@
     <e><p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
     <e><p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
     <e><p><l>ningú<s n="prn"/><s n="tn"/></l><r>nemos<s n="prn"/><s n="tn"/></r></p></e>
+    <e r="LR"><p><l>ningú<b/>no<s n="prn"/><s n="tn"/></l><r>nemos<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>cadascun<s n="prn"/><s n="tn"/></l><r>cadaunu<s n="prn"/><s n="tn"/></r></p></e>
     <e><p><l>cap<s n="prn"/><s n="tn"/></l><r>perunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
     <e><p><l>algú<s n="prn"/><s n="tn"/></l><r>calicunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
@@ -1690,7 +1691,6 @@
     <e><p><l>Alguer<s n="np"/><s n="loc"/></l><r>Alighèra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Florència<s n="np"/><s n="loc"/></l><r>Firenze<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Espanya<s n="np"/><s n="loc"/></l><r>Ispagna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Brasil<s n="np"/><s n="loc"/></l><r>Brasile<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Àfrica<s n="np"/><s n="loc"/></l><r>Àfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Tanzània<s n="np"/><s n="loc"/></l><r>Tanzània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Sicília<s n="np"/><s n="loc"/></l><r>Sitzìlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1954,7 +1954,7 @@
     <e><p><l>Hezbol·lah<s n="np"/><s n="al"/></l><r>Hezbollah<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Wikimedia<s n="np"/><s n="al"/></l><r>Wikimedia<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Dharma<s n="np"/><s n="al"/></l><r>Dharma<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Buda<s n="np"/><s n="ant"/></l><r>Buddha<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Buda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Buddha<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Wal-Mart<s n="np"/><s n="al"/></l><r>Wal-Mart<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 
     <e><p><l>Kant<s n="np"/><s n="ant"/></l><r>Kant<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -2656,6 +2656,7 @@
     <e><p><l>solament<s n="adv"/></l><r>solamente<s n="adv"/></r></p></e>
     <e><p><l>successivament<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
     <e><p><l>últimament<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
+    <e><p><l>per<b/>exemple<s n="adv"/></l><r>pro<b/>esempru<s n="adv"/></r></p></e>
 
     <e><p><l>endins<s n="adv"/></l><r>intro<s n="adv"/></r></p></e>
 
@@ -3489,10 +3490,8 @@
       <e r="RL"><p><l>quelcom<s n="prn"/><s n="tn"/></l><r>carchi<b/>cosa<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>pocs<s n="prn"/><s n="tn"/></l><r>pagu<s n="prn"/><s n="tn"/></r></p></e>
       <!-- <e><p><l>molts<b/>altres<s n="prn"/><s n="tn"/></l><r>medas<b/>àteros<s n="prn"/><s n="tn"/></r></p></e> -->
-      <e><p><l>cadascú<s n="prn"/><s n="tn"/></l><r>cadaunu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>cadascú<s n="prn"/><s n="tn"/></l><r>cadaunu<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
       <e r="LR"><p><l>açò<s n="prn"/><s n="tn"/><s n ="nt"/></l><r>cussu<s n="prn"/><s n="tn"/><s n ="m"/><s n ="sg"/></r></p></e>
-      <e><p><l>ningú<b/>no<s n="prn"/><s n="tn"/></l><r>nessunu<s n="prn"/><s n="tn"/></r></p></e>
-      <e r="RL"><p><l>ningú<b/>no<s n="prn"/><s n="tn"/></l><r>nemos<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>el<b/>nostre<s n="prn"/><s n="tn"/></l><r>su<b/>nostru<s n="prn"/></r></p></e>
       <e r="LR"><p><l>este<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>vostè<s n="prn"/><s n="tn"/></l><r>vostè<s n="prn"/><s n="tn"/></r></p></e>
@@ -3520,6 +3519,11 @@
       <e r="LR"><p><l>aqueix<s n="prn"/><s n="tn"/></l><r>custu<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>tot<b/>i<b/>res<s n="prn"/><s n="tn"/></l><r>totu<b/>e<b/>nudda<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>jo<b/>que<b/>ell<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>issu<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>jo<b/>que<b/>ella<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>issa<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>jo<b/>que<b/>tu<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>tue<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>jo<b/>que<b/>ells<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>issos<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>jo<b/>que<b/>elles<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>issas<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>jo<b/>que<b/>vosaltres<s n="prn"/><s n="tn"/></l><r>deo<b/>che<b/>a<b/>bois<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>morir<s n="vblex"/></l><r>mòrrere<s n="vblex"/></r></p></e>
 
@@ -3544,7 +3548,7 @@
     <e><p><l>CIA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>CIA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>AFI<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>IPA<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>VIH<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>VIH<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>GNU<s n="np"/><s n="al"/></l><r>GNU<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>GNU<s n="np"/><s n="al"/></l><r>GNU<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
@@ -6633,8 +6637,10 @@
       <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>Hz<s n="n"/><s n="m"/><s n="sp"/></l><r>Hz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>kHz<s n="n"/><s n="m"/><s n="sp"/></l><r>kHz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>MB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>MB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>GB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>GB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>TB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>TB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
 
       <e r="LR"><p><l>dur<g><b/>a<b/>terme</g><s n="vblex"/></l><r>cumprire<s n="vblex"/></r></p></e>
       <e><p><l>FC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>FC<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
@@ -8714,13 +8720,15 @@
 
       <e><p><l>alguerès<s n="adj"/></l><r>aligheresu<s n="adj"/></r></p></e>
       <e><p><l>alguerès<s n="n"/></l><r>aligheresu<s n="n"/></r></p></e>
-      <e><p><l>sasserès<s n="adj"/></l><r>sassaresu<s n="adj"/></r></p></e>
-      <e><p><l>sasserès<s n="n"/></l><r>sassaresu<s n="n"/></r></p></e>
-      <e><p><l>gal·lurès<s n="adj"/></l><r>galluresu<s n="adj"/></r></p></e>
-      <e><p><l>gal·lurès<s n="n"/></l><r>galluresu<s n="n"/></r></p></e>
+      <e><p><l>sasserès<s n="adj"/></l><r>tataresu<s n="adj"/></r></p></e>
+      <e><p><l>sasserès<s n="n"/></l><r>tataresu<s n="n"/></r></p></e>
+      <e><p><l>gal·lurès<s n="adj"/></l><r>gadduresu<s n="adj"/></r></p></e>
+      <e><p><l>gal·lurès<s n="n"/></l><r>gadduresu<s n="n"/></r></p></e>
       <e><p><l>logudorès<s n="n"/></l><r>logudoresu<s n="n"/></r></p></e>
       <e><p><l>campidanès<s n="adj"/></l><r>campidanesu<s n="adj"/></r></p></e>
       <e><p><l>ferrarès<s n="n"/></l><r>ferraresu<s n="n"/></r></p></e>
+      <e><p><l>giulià<s n="adj"/></l><r>giulianu<s n="adj"/></r></p></e>
+      <e><p><l>giulià<s n="n"/></l><r>giulianu<s n="n"/></r></p></e>
       <e><p><l>cors<s n="adj"/></l><r>corsicanu<s n="adj"/></r></p></e>
       <e><p><l>cors<s n="n"/></l><r>corsicanu<s n="n"/></r></p></e>
       <e><p><l>Polinèsia<s n="np"/><s n="loc"/></l><r>Polinèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
