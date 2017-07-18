@@ -14,6 +14,9 @@
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
+<def-cat n="un">
+   <cat-item lemma="un" tags="det.*"/>
+</def-cat>
 <def-cat n="adj_pos">
    <cat-item tags="adj.pos.*"/>
 </def-cat>
@@ -216,6 +219,39 @@
 <def-cat n="adv_preadv">
    <cat-item tags="adv"/>
    <cat-item tags="preadv"/>
+</def-cat>
+<def-cat n="molt">
+   <cat-item lemma="molt" tags="adv"/>
+   <cat-item lemma="molt" tags="preadv"/>
+</def-cat>
+<def-cat n="tercer_quart_etc">
+   <cat-item lemma="tercer" tags="adj.*"/>
+   <cat-item lemma="quart" tags="adj.*"/>
+   <cat-item lemma="cinquè" tags="adj.*"/>
+   <cat-item lemma="quint" tags="adj.*"/>
+   <cat-item lemma="sisè" tags="adj.*"/>
+   <cat-item lemma="setè" tags="adj.*"/>
+   <cat-item lemma="vuitè" tags="adj.*"/>
+   <cat-item lemma="novè" tags="adj.*"/>
+   <cat-item lemma="desè" tags="adj.*"/>
+   <cat-item lemma="onzè" tags="adj.*"/>
+   <cat-item lemma="dotzè" tags="adj.*"/>
+   <cat-item lemma="tretzè" tags="adj.*"/>
+   <cat-item lemma="catorzè" tags="adj.*"/>
+   <cat-item lemma="quinzè" tags="adj.*"/>
+   <cat-item lemma="setzè" tags="adj.*"/>
+   <cat-item lemma="dissetè" tags="adj.*"/>
+   <cat-item lemma="divuitè" tags="adj.*"/>
+   <cat-item lemma="dinovè" tags="adj.*"/>
+   <cat-item lemma="vintè" tags="adj.*"/>
+   <cat-item lemma="trentè" tags="adj.*"/>
+   <cat-item lemma="quarantè" tags="adj.*"/>
+   <cat-item lemma="cinquantè" tags="adj.*"/>
+   <cat-item lemma="seixantè" tags="adj.*"/>
+   <cat-item lemma="setantè" tags="adj.*"/>
+   <cat-item lemma="vuitantè" tags="adj.*"/>
+   <cat-item lemma="norantè" tags="adj.*"/>
+   <cat-item lemma="centè" tags="adj.*"/>
 </def-cat>
 </section-def-cats>
 
@@ -2663,6 +2699,155 @@
        <lu>
          <lit v="a beru"/>
          <lit-tag v="adv"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: molt adj">
+   <pattern>
+     <pattern-item n="molt"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>     
+     <out>
+       <chunk name="adj_meda">
+         <tags>
+           <tag><lit-tag v="SA"/></tag>
+         </tags>
+       <lu>
+         <get-case-from pos="1">
+           <clip pos="2" side="tl" part="lemh"/>
+         </get-case-from>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <get-case-from pos="2">
+           <clip pos="1" side="tl" part="lemh"/>
+         </get-case-from>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: un ord nom: Una tercera família. → Una de tres famìlias.">
+   <pattern>
+     <pattern-item n="un"/>
+     <pattern-item n="tercer_quart_etc"/>
+     <pattern-item n="nom"/>
+   </pattern>
+
+   <action>
+     <call-macro n="f_concord3">
+       <with-param pos="3"/>
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <choose> <!-- per a no canviar els sp -->
+       <when>
+         <test>
+	   <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="det_adj_nom">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="2"/>
+       <lu>
+         <clip pos="3" side="tl" part="lemh"/>
+         <clip pos="3" side="tl" part="tags"/>
+         <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: un ord nom: Un tercer component variable. → Unu de tres cumponentes variàbiles.">
+   <pattern>
+     <pattern-item n="un"/>
+     <pattern-item n="tercer_quart_etc"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+
+   <action>
+     <call-macro n="f_concord4">
+       <with-param pos="3"/>
+       <with-param pos="2"/>
+       <with-param pos="4"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <choose> <!-- per a no canviar els sp -->
+       <when>
+         <test>
+	   <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+       </when>
+     </choose>
+     <choose> <!-- per a no canviar els sp -->
+       <when>
+         <test>
+	   <equal><clip pos="4" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><clip pos="4" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="det_adj_nom">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="2"/>
+       <lu>
+         <clip pos="3" side="tl" part="lemh"/>
+         <clip pos="3" side="tl" part="tags"/>
+         <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+       <b pos="3"/>
+       <lu>
+         <clip pos="4" side="tl" part="lemh"/>
+         <clip pos="4" side="tl" part="tags"/>
+         <clip pos="4" side="tl" part="lemq"/>
        </lu>
      </chunk>
      </out>
