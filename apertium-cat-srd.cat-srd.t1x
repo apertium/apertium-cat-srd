@@ -2484,6 +2484,7 @@
     </def-macro>
 
 <def-macro n="f_vaux_anar_inf" npar="2">
+   <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>	<!-- FIXME: depèn del gènere i nombre del subjecte -->
    <choose> <!-- vaux + vlex: es canvia el vaux a èssere o àere i es posa el segon en pp -->
      <when>
        <test>
@@ -2497,13 +2498,13 @@
        </test>
        <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="èssere"/></get-case-from></let>
        <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+       <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
      </when>
      <otherwise>
        <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="àere"/></get-case-from></let>
        <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
      </otherwise>
    </choose>
-   <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>	<!-- FIXME: depèn del gènere i nombre del subjecte -->
 </def-macro>
 
 <def-macro n="f_vaux_pp2" npar="2">
