@@ -79,4 +79,16 @@
      <match lemma="italià" tags="adj.*"/>
   </rule>
 
+<!-- que > chi, de (comparacions) -->
+
+  <rule weight="0.6">
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <or><match tags="adj.*"/><match tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+     <match tags="np.*"/>
+  </rule>
+
 </rules>

@@ -240,6 +240,7 @@
 
     <e><p><l>si<s n="cnjadv"/></l><r>si<s n="cnjsub"/></r></p></e>
     <e><p><l>que<s n="cnjsub"/></l><r>chi<s n="cnjsub"/></r></p></e>
+    <e><p><l>que<s n="cnjsub"/></l><r>de<s n="pr"/></r></p></e>
 
     <e><p><l>perquè<s n="cnjadv"/></l><r>ca<s n="cnjsub"/></r></p></e>
     <e r="RL"><p><l>perquè<s n="cnjadv"/></l><r>pro<b/>chi<s n="cnjsub"/></r></p></e>
@@ -785,6 +786,8 @@
     <e><p><l>projecte<s n="n"/><s n="m"/></l><r>progetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>col·legi<s n="n"/><s n="m"/></l><r>collègiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lingüística<s n="n"/><s n="f"/></l><r>linguìstica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>sociolingüística<s n="n"/><s n="f"/></l><r>sotziolinguìstica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>psicolingüística<s n="n"/><s n="f"/></l><r>psicolinguìstica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pau<s n="n"/><s n="f"/></l><r>paghe<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>llum<s n="n"/><s n="f"/></l><r>lughe<s n="n"/><s n="f"/></r></p></e>
     <e r="LR"><p><l>llum<s n="n"/><s n="m"/></l><r>lughe<s n="n"/><s n="f"/></r></p></e>
@@ -2222,8 +2225,11 @@
     <e><p><l>particular<s n="adj"/></l><r>particulare<s n="adj"/></r></p></e>
     <e><p><l>recent<s n="adj"/></l><r>reghente<s n="adj"/></r></p></e>
     <e><p><l>lingüístic<s n="adj"/></l><r>linguìsticu<s n="adj"/></r></p></e>
+    <e><p><l>sociolingüístic<s n="adj"/></l><r>sotziolinguìsticu<s n="adj"/></r></p></e>
+    <e><p><l>psicolingüístic<s n="adj"/></l><r>psicolinguìsticu<s n="adj"/></r></p></e>
     <e><p><l>rar<s n="adj"/></l><r>raru<s n="adj"/></r></p></e>
     <e><p><l>polític<s n="adj"/></l><r>polìticu<s n="adj"/></r></p></e>
+    <e><p><l>sociopolític<s n="adj"/></l><r>sotziopolìticu<s n="adj"/></r></p></e>
     <e><p><l>gal·lès<s n="adj"/></l><r>gallesu<s n="adj"/></r></p></e>
     <e><p><l>idèntic<s n="adj"/></l><r>idènticu<s n="adj"/></r></p></e>
     <e><p><l>espanyol<s n="adj"/></l><r>ispagnolu<s n="adj"/></r></p></e>
@@ -8145,6 +8151,8 @@
       <e><p><l>revelació<s n="n"/><s n="f"/></l><r>rivelatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Llorenç<s n="np"/><s n="ant"/></l><r>Llorenç<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>lingüista<s n="n"/><s n="mf"/></l><r>linguista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>sociolingüista<s n="n"/><s n="mf"/></l><r>sotziolinguista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>psicolingüista<s n="n"/><s n="mf"/></l><r>psicolinguista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>Eurocopa<s n="np"/><s n="al"/></l><r>Europeu<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>crònic<s n="adj"/></l><r>crònicu<s n="adj"/></r></p></e>
       <e><p><l>al<b/>davant<s n="adv"/></l><r>a<b/>dae<b/>in<b/>antis<s n="adv"/></r></p></e>
@@ -24158,6 +24166,7 @@
       <e><p><l>nominatiu<s n="n"/><s n="m"/></l><r>nominativu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>preservatiu<s n="n"/><s n="m"/></l><r>preservativu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vocatiu<s n="n"/><s n="m"/></l><r>vocativu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cometa<s n="n"/><s n="m"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e>
 
 </section>
 </dictionary>
