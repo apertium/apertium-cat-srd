@@ -52,6 +52,11 @@
    <cat-item tags="vbhaver.ifi.*"/>
    <cat-item tags="vbser.ifi.*"/>
 </def-cat>
+<def-cat n="vbser-ifi">
+   <cat-item tags="vbser.ifi.*"/>
+   <cat-item lemma="istare" tags="vblex.ifi.*"/>
+   <cat-item lemma="restare" tags="vblex.ifi.*"/>
+</def-cat>
 <def-cat n="hi">
    <cat-item lemma="hi" tags="prn.pro.adv"/>
 </def-cat>
@@ -115,6 +120,14 @@
 </def-cat>
 <def-cat n="vblex_inf">
    <cat-item tags="vblex.inf"/>
+</def-cat>
+<def-cat n="vbser_rest_inf">
+   <cat-item tags="vbser.inf"/>
+   <cat-item lemma="istare" tags="vblex.inf"/>
+   <cat-item lemma="restare" tags="vblex.inf"/>
+</def-cat>
+<def-cat n="vbser_inf">
+   <cat-item tags="vbser.inf"/>
 </def-cat>
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
@@ -3944,7 +3957,8 @@
                <lu>
                  <clip pos="1" side="tl" part="lemh"/>
                  <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m.sg"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
+                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
+                 <clip pos="1" side="tl" part="nbr"/>
                  <clip pos="1" side="tl" part="lemq"/>
                </lu>
            </chunk>
@@ -3975,6 +3989,50 @@
          </out>
        </otherwise>
      </choose>
+   </action>
+</rule>
+
+
+<rule comment="regla: vbser-ifi pp">
+   <pattern>
+     <pattern-item n="vbser-ifi"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>     
+     <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+     <out>
+       <chunk name="èssere_pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <get-case-from pos="1">
+               <lit v="èssere"/>
+             </get-case-from>
+             <lit-tag v="vbser.pri"/>
+             <clip pos="1" side="tl" part="pers"/>
+             <clip pos="1" side="tl" part="nbr"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_verb"/>
+             <lit-tag v="pp"/>
+             <var n="genero"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
    </action>
 </rule>
 
@@ -4131,6 +4189,48 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: anar_pri inf pp">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="vbser_rest_inf"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_concord1">
+       <with-param pos="3"/>
+     </call-macro>
+     <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+     <out>
+       <chunk name="aux_pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
        </chunk>
      </out>
