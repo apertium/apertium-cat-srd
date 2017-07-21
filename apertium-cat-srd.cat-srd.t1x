@@ -4,6 +4,19 @@
 <def-cat n="prn">
    <cat-item tags="prn.*"/>
 </def-cat>
+<def-cat n="prn_tn_fort">
+   <cat-item lemma="jo" tags="prn.tn.*"/>
+   <cat-item lemma="tu" tags="prn.tn.*"/>
+   <cat-item lemma="ell" tags="prn.tn.*"/>
+   <cat-item lemma="ells" tags="prn.tn.*"/>
+   <cat-item lemma="vostè" tags="prn.tn.*"/>
+   <cat-item lemma="nosaltres" tags="prn.tn.*"/>
+   <cat-item lemma="vosaltres" tags="prn.tn.*"/>
+   <cat-item lemma="vós" tags="prn.tn.*"/>
+   <cat-item lemma="ells" tags="prn.tn.*"/>
+   <cat-item lemma="elles" tags="prn.tn.*"/>
+   <cat-item lemma="vostès" tags="prn.tn.*"/>
+</def-cat>
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
 </def-cat>
@@ -265,6 +278,9 @@
    <cat-item lemma="vuitantè" tags="adj.*"/>
    <cat-item lemma="norantè" tags="adj.*"/>
    <cat-item lemma="centè" tags="adj.*"/>
+</def-cat>
+<def-cat n="que_cnjsub">
+   <cat-item lemma="que" tags="cnjsub"/>
 </def-cat>
 </section-def-cats>
 
@@ -2904,7 +2920,7 @@
        <with-param pos="1"/>
      </call-macro>     
      <out>
-       <chunk name="p">
+       <chunk name="prn">
          <tags>
            <tag><lit-tag v="SPron"/></tag>
          </tags>
@@ -2915,6 +2931,69 @@
        </lu>
      </chunk>
      </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: que prn_tn_fort">
+   <pattern>
+     <pattern-item n="que_cnjsub"/>
+     <pattern-item n="prn_tn_fort"/>
+   </pattern>
+   <action>
+     <choose>
+       <when>
+         <test>
+	   <equal><clip pos="1" side="tl" part="lem"/><lit v="chi"/></equal>
+         </test>
+         <out>
+           <chunk name="chi_prn">
+             <tags>
+               <tag><lit-tag v="cnjsub"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+        <choose>
+          <when>
+            <test>
+	      <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="jo"/></equal>
+            </test>
+	    <let><clip pos="2" side="tl" part="lem"/><lit v="mene"/></let>
+          </when>
+        </choose>
+         <out>
+           <chunk name="de_prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
    </action>
 </rule>
 

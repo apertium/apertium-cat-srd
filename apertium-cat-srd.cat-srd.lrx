@@ -92,6 +92,11 @@
      <match tags="np.*"/>
   </rule>
   <rule weight="1.0">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+     <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
      <or><match lemma="pitjor" tags="adv"/><match lemma="millor" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
      <match tags="np.*"/>
@@ -105,6 +110,12 @@
      <match tags="n.*"/>
   </rule>
   <rule weight="1.0">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
      <or><match lemma="pitjor" tags="adv"/><match lemma="millor" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
      <match tags="det.*"/>
@@ -114,6 +125,11 @@
   <rule weight="1.0">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <or><match tags="adj.*"/><match tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+     <match tags="prn.tn.pos.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
      <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
      <match tags="prn.tn.pos.*"/>
   </rule>
@@ -171,6 +187,49 @@
      <match tags="prn.tn.p3.*.pl"/>
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
+
+  <rule weight="1.0">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+     <or><match tags="prn.tn.p1.*"/><match tags="prn.tn.p2.*"/><match tags="prn.tn.p3.*"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p1.*.sg"/>
+     <or><match tags="vblex.*.p1.sg"/><match tags="vbhaver.*.p1.sg"/><match tags="vbser.*.p1.sg"/><match tags="vbmod.*.p1.sg"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p2.*.sg"/>
+     <or><match tags="vblex.*.p2.sg"/><match tags="vbhaver.*.p2.sg"/><match tags="vbser.*.p2.sg"/><match tags="vbmod.*.p2.sg"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p3.*.sg"/>
+     <or><match tags="vblex.*.p3.sg"/><match tags="vbhaver.*.p3.sg"/><match tags="vbser.*.p3.sg"/><match tags="vbmod.*.p3.sg"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p1.*.pl"/>
+     <or><match tags="vblex.*.p1.pl"/><match tags="vbhaver.*.p1.pl"/><match tags="vbser.*.p1.pl"/><match tags="vbmod.*.p1.pl"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p2.*.pl"/>
+     <or><match tags="vblex.*.p2.pl"/><match tags="vbhaver.*.p2.pl"/><match tags="vbser.*.p2.pl"/><match tags="vbmod.*.p2.pl"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
+     <match lemma="que" tags="cnjsub"><select lemma="chi"/></match>
+     <match tags="prn.tn.p3.*.pl"/>
+     <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
+  </rule>
+
 
   <rule weight="1.2">
      <or><match lemma="més" tags="adv"/><match lemma="menys" tags="adv"/></or>
