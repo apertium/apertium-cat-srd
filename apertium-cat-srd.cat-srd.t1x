@@ -52,10 +52,10 @@
    <cat-item tags="vbhaver.ifi.*"/>
    <cat-item tags="vbser.ifi.*"/>
 </def-cat>
-<def-cat n="vbser-ifi">
+<def-cat n="vbser_estar-ifi">
    <cat-item tags="vbser.ifi.*"/>
-   <cat-item lemma="istare" tags="vblex.ifi.*"/>
-   <cat-item lemma="restare" tags="vblex.ifi.*"/>
+   <cat-item lemma="estar" tags="vblex.ifi.*"/>
+   <cat-item lemma="quedar" tags="vblex.ifi.*"/>
 </def-cat>
 <def-cat n="hi">
    <cat-item lemma="hi" tags="prn.pro.adv"/>
@@ -121,10 +121,10 @@
 <def-cat n="vblex_inf">
    <cat-item tags="vblex.inf"/>
 </def-cat>
-<def-cat n="vbser_rest_inf">
+<def-cat n="vbser_est_inf">
    <cat-item tags="vbser.inf"/>
-   <cat-item lemma="istare" tags="vblex.inf"/>
-   <cat-item lemma="restare" tags="vblex.inf"/>
+   <cat-item lemma="estar" tags="vblex.inf"/>
+   <cat-item lemma="quedar" tags="vblex.inf"/>
 </def-cat>
 <def-cat n="vbser_inf">
    <cat-item tags="vbser.inf"/>
@@ -3993,9 +3993,9 @@
 </rule>
 
 
-<rule comment="regla: vbser-ifi pp">
+<rule comment="regla: vbser_estar-ifi pp">
    <pattern>
-     <pattern-item n="vbser-ifi"/>
+     <pattern-item n="vbser_estar-ifi"/>
      <pattern-item n="pp"/>
    </pattern>
    <action>
@@ -4199,7 +4199,7 @@
 <rule comment="regla: anar_pri inf pp">
    <pattern>
      <pattern-item n="anar_pri"/>
-     <pattern-item n="vbser_rest_inf"/>
+     <pattern-item n="vbser_est_inf"/>
      <pattern-item n="pp"/>
    </pattern>
    <action>
