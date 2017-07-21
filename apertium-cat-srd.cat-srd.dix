@@ -4427,7 +4427,7 @@
       <e><p><l>festival<s n="n"/><s n="m"/></l><r>fèstival<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cambra<s n="n"/><s n="f"/></l><r>aposentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ronda<s n="n"/><s n="f"/></l><r>runda<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>clan<s n="n"/><s n="m"/></l><r>ereu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>clan<s n="n"/><s n="m"/></l><r>ereu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>suma<s n="n"/><s n="f"/></l><r>summa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>por<s n="n"/><s n="f"/></l><r>timoria<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>risc<s n="n"/><s n="m"/></l><r>arriscu<s n="n"/><s n="m"/></r></p></e>
@@ -7673,7 +7673,7 @@
       <e><p><l>Medina<s n="np"/><s n="loc"/></l><r>Medina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Lincoln<s n="np"/><s n="ant"/></l><r>Lincoln<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Lincoln<s n="np"/><s n="ant"/></l><r>Lincoln<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>nissaga<s n="n"/><s n="f"/></l><r>ereu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>nissaga<s n="n"/><s n="f"/></l><r>ereu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Antoine<s n="np"/><s n="ant"/></l><r>Antoine<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>animat<s n="adj"/></l><r>animadu<s n="adj"/></r></p><par n="sup_0"/></e>
       <e><p><l>Emilio<s n="np"/><s n="ant"/></l><r>Emilio<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -24167,6 +24167,14 @@
       <e><p><l>preservatiu<s n="n"/><s n="m"/></l><r>preservativu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vocatiu<s n="n"/><s n="m"/></l><r>vocativu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cometa<s n="n"/><s n="m"/></l><r>cometa<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>centramericà<s n="n"/></l><r>tzentramericanu<s n="n"/></r></p></e>
+      <e><p><l>centrafricà<s n="n"/></l><r>tzentrafricanu<s n="n"/></r></p></e>
+      <e><p><l>centramericà<s n="adj"/></l><r>tzentramericanu<s n="adj"/></r></p></e>
+      <e><p><l>centrafricà<s n="adj"/></l><r>tzentrafricanu<s n="adj"/></r></p></e>
+      <e><p><l>ereu<s n="n"/></l><r>erederi<s n="n"/></r></p></e>
+      <e r="LR"><p><l>ereu<s n="n"/></l><r>erede<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>ereu<s n="adj"/></l><r>erederi<s n="adj"/></r></p></e>
 
 </section>
 </dictionary>
