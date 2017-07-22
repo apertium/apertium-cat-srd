@@ -1306,6 +1306,7 @@
     <e><p><l>humà<s n="n"/><s n="f"/></l><r>umanu<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>preu<s n="n"/><s n="m"/></l><r>preju<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>opinió<s n="n"/><s n="f"/></l><r>opinione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>parer<s n="n"/><s n="m"/></l><r>parre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>frontera<s n="n"/><s n="f"/></l><r>frontera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>terrorisme<s n="n"/><s n="m"/></l><r>terrorismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>discurs<s n="n"/><s n="m"/></l><r>discursu<s n="n"/><s n="m"/></r></p></e>
@@ -2217,8 +2218,9 @@
     <e><p><l>gregorià<s n="adj"/></l><r>gregorianu<s n="adj"/></r></p></e>
 
     <e><p><l>estatal<s n="adj"/></l><r>istatale<s n="adj"/></r></p></e>
-    <e r="LR"><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>bell<s n="adj"/></l><r>bellu<s n="adj"/></r></p><par n="sup_0"/></e>
     <e><p><l>bonic<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>maco<s n="adj"/></l><r>bellu<s n="adj"/></r></p><par n="sup_0"/></e>
     <e><p><l>europeu<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
     <e><p><l>extraeuropeu<s n="adj"/></l><r>extraeuropeu<s n="adj"/></r></p></e>
     <e><p><l>nacional<s n="adj"/></l><r>natzionale<s n="adj"/></r></p></e>
@@ -24107,7 +24109,7 @@
       <e><p><l>degà<s n="n"/></l><r>decanu<s n="n"/></r></p></e>
       <e><p><l>prolífic<s n="adj"/></l><r>criajolu<s n="adj"/></r></p></e>
       <e r="RL"><p><l>prolífic<s n="adj"/></l><r>criongianu<s n="adj"/></r></p></e>
-      <e><p><l>opinar<s n="vblex"/></l><r>dare<g><b/>unu<b/>pàrre</g><s n="vblex"/></r></p></e>
+      <e><p><l>opinar<s n="vblex"/></l><r>dare<g><b/>unu<b/>parre</g><s n="vblex"/></r></p></e>
       <e><p><l>bilingüe<s n="adj"/></l><r>bilìngue<s n="adj"/></r></p></e>
       <e><p><l>desigual<s n="adj"/></l><r>diferente<s n="adj"/></r></p></e>
       <e><p><l>dirigent<s n="adj"/></l><r>dirigente<s n="adj"/></r></p></e>
