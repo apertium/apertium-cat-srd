@@ -2557,7 +2557,10 @@
            <test>
            <and>
 	     <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
-	     <not><equal><var n="genero"/><lit-tag v="mf"/></equal></not>
+	     <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+	       <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
            </and>
            </test>
            <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
