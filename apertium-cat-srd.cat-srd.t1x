@@ -88,6 +88,25 @@
 <def-cat n="haver_p3">
    <cat-item lemma="haver" tags="vbhaver.*.p3.sg"/>
 </def-cat>
+<def-cat n="haver-ifi">
+   <cat-item lemma="haver" tags="vbhaver.ifi.*"/>
+</def-cat>
+<def-cat n="haver-fti">
+   <cat-item lemma="haver" tags="vbhaver.fti.*"/>
+</def-cat>
+<def-cat n="haver-cni">
+   <cat-item lemma="haver" tags="vbhaver.cni.*"/>
+</def-cat>
+<def-cat n="haver-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti) -->
+   <cat-item lemma="haver" tags="vbhaver.pri.*"/>
+   <cat-item lemma="haver" tags="vbhaver.prs.*"/>
+   <cat-item lemma="haver" tags="vbhaver.pii.*"/>
+   <cat-item lemma="haver" tags="vbhaver.pis.*"/>
+   <cat-item lemma="haver" tags="vbhaver.imp.*"/>
+   <cat-item lemma="haver" tags="vbhaver.inf"/>
+   <cat-item lemma="haver" tags="vbhaver.ger"/>
+   <cat-item lemma="haver" tags="vbhaver.pp.*"/>
+</def-cat>
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
 </def-cat>
@@ -163,7 +182,7 @@
    <cat-item tags="vbmod.ger"/>
    <cat-item tags="vbser.ger"/>
 </def-cat>
-<def-cat n="verb-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti -->
+<def-cat n="verb-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti) -->
    <cat-item tags="vblex.pri.*"/>
    <cat-item tags="vblex.prs.*"/>
    <cat-item tags="vblex.pii.*"/>
@@ -405,7 +424,18 @@
       <list-item v="sèere"/>
       <list-item v="pròere"/>
 <!--      <list-item v="torrare"/> cas especial -->
-   </def-list>
+    </def-list>
+    <def-list n="familiars">
+      <list-item v="fill"/>
+      <list-item v="pare"/>
+      <list-item v="pare"/>
+      <list-item v="papa"/>
+      <list-item v="mama"/>
+      <list-item v="avi"/>
+      <list-item v="iaia"/>
+      <list-item v="oncle"/>
+      <list-item v="tia"/>
+    </def-list>
 </section-def-lists>
 
 <section-def-macros>
@@ -2976,6 +3006,12 @@
             </test>
 	    <let><clip pos="2" side="tl" part="lem"/><lit v="mene"/></let>
           </when>
+          <when>
+            <test>
+	      <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="tu"/></equal>
+            </test>
+	    <let><clip pos="2" side="tl" part="lem"/><lit v="tene"/></let>
+          </when>
         </choose>
          <out>
            <chunk name="de_prn">
@@ -3178,51 +3214,87 @@
   </action>
 </rule>
 
-    <rule comment="regla: det_pos nom"> 
-      <pattern>
-        <pattern-item n="det_pos"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="f_concord2">
-          <with-param pos="2"/>
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_det_to_adj_pos1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-       <chunk name="poss-nom">
-         <tags>
-           <tag><lit-tag v="SN"/></tag>
-         </tags>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="su"/>
-            </get-case-from>
-            <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="gen"/>
-            <clip pos="2" side="tl" part="nbr"/>
-            <clip pos="2" side="tl" part="lemq"/>
-          </lu>
-          <b/>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_pos"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-          </lu>
-        </chunk>
-        </out>
-      </action>
-    </rule>
+<rule comment="regla: det_pos nom"> 
+  <pattern>
+    <pattern-item n="det_pos"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_det_to_adj_pos1">
+      <with-param pos="1"/>
+    </call-macro>
+     <choose>
+       <when>
+         <test>
+           <in caseless="yes"><clip pos="2" side="sl" part="lemh"/><list n="familiars"/></in>
+         </test>
+         <out>
+           <chunk name="poss-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="a_nom"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_pos"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="poss-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="su"/>
+               </get-case-from>
+               <lit-tag v="det.def"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_nom"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_pos"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+  </action>
+</rule>
 
 
     <rule comment="regla: det nom"> 
@@ -4121,7 +4193,7 @@
 
 <rule comment="regla: haver pp">
    <pattern>
-     <pattern-item n="haver"/>
+     <pattern-item n="haver-tmp-srd"/>
      <pattern-item n="pp"/>
    </pattern>
    <action>
@@ -4152,9 +4224,269 @@
 </rule>
 
 
+<rule comment="regla: haver-ifi pp">
+   <pattern>
+     <pattern-item n="haver-ifi"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="èssere_pp_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pri"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp"/>
+                 <clip pos="2" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="àere_pp_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <lit-tag v="vbhaver.pri"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m.sg"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
+<rule comment="regla: haver-fti pp">
+   <pattern>
+     <pattern-item n="haver-fti"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <modify-case>
+       <clip pos="1" side="tl" part="lem"/>
+       <lit v="aa"/>
+     </modify-case>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="aux-a-essere-pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vblex.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="èssere"/>
+               <lit-tag v="vbser.inf"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="aux-a-aere-pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vblex.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/>
+               <lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
+<rule comment="regla: haver-cni pp">
+   <pattern>
+     <pattern-item n="haver-cni"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <modify-case>
+       <clip pos="1" side="tl" part="lem"/>
+       <lit v="aa"/>
+     </modify-case>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="mod-aux-pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="èssere"/>
+               <lit-tag v="vbser.inf"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="mod-aux-pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
 <rule comment="regla: haver pp adj">
    <pattern>
-     <pattern-item n="haver"/>
+     <pattern-item n="haver-tmp-srd"/>
      <pattern-item n="pp"/>
      <pattern-item n="adjec"/>
    </pattern>
