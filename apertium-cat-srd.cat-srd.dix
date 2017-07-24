@@ -723,8 +723,8 @@
     <e><p><l>poble<s n="n"/><s n="m"/></l><r>bidda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nord<s n="n"/><s n="m"/></l><r>nord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>província<s n="n"/><s n="f"/></l><r>provìntzia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>república<s n="n"/><s n="f"/></l><r>reppùblica<s n="n"/><s n="f"/></r></p></e>
-    <e r="RL"><p><l>república<s n="n"/><s n="f"/></l><r>reppùbrica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>república<s n="n"/><s n="f"/></l><r>repùbblica<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>república<s n="n"/><s n="f"/></l><r>repùbbrica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pràctica<s n="n"/><s n="f"/></l><r>pràtica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nom<s n="n"/><s n="m"/></l><r>nùmene<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cognom<s n="n"/><s n="m"/></l><r>sambenadu<s n="n"/><s n="m"/></r></p></e>
@@ -2241,10 +2241,10 @@
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
     <e><p><l>capaç<s n="adj"/></l><r>capatzu<s n="adj"/></r></p><par n="capaç_capatzu"/></e>
     <e r="RL"><p><l>capaç<s n="adj"/></l><r>capatze<s n="adj"/></r></p><par n="capaç_capatze"/></e>
-    <e><p><l>republicà<s n="adj"/></l><r>reppublicanu<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>republicà<s n="adj"/></l><r>reppubricanu<s n="adj"/></r></p></e>
-    <e><p><l>republicà<s n="n"/></l><r>reppublicanu<s n="n"/></r></p></e>
-    <e r="RL"><p><l>republicà<s n="n"/></l><r>reppubricanu<s n="n"/></r></p></e>
+    <e><p><l>republicà<s n="adj"/></l><r>repubblicanu<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>republicà<s n="adj"/></l><r>repubbricanu<s n="adj"/></r></p></e>
+    <e><p><l>republicà<s n="n"/></l><r>repubblicanu<s n="n"/></r></p></e>
+    <e r="RL"><p><l>republicà<s n="n"/></l><r>repubbricanu<s n="n"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
     <e><p><l>iranià<s n="adj"/></l><r>iranianu<s n="adj"/></r></p></e>
