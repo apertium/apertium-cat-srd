@@ -260,6 +260,7 @@
     <e><p><l>quan<s n="rel"/><s n="adv"/></l><r>cando<s n="rel"/><s n="adv"/></r></p></e>
 
     <e><p><l>per<b/>això<s n="cnjadv"/></l><r>pro<b/>custu<s n="cnjadv"/></r></p></e>
+    <e><p><l>per<b/>la<b/>qual<b/>cosa<s n="cnjadv"/></l><r>pro<b/>custu<s n="cnjadv"/></r></p></e>
 
 
     <!-- SECTION:  Prepositions -->
@@ -291,7 +292,7 @@
     <e><p><l>dins<s n="pr"/></l><r>intro<s n="pr"/></r></p></e>
     <e><p><l>sense<s n="pr"/></l><r>sena<s n="pr"/></r></p></e>
     <e r="RL"><p><l>sense<s n="pr"/></l><r>francu<s n="pr"/></r></p></e>
-    <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e>
+    <!-- <e><p><l>com<s n="pr"/></l><r>che<b/>a<s n="pr"/></r></p></e> -->
     <e><p><l>mitjançant<s n="pr"/></l><r>mediante<s n="pr"/></r></p></e>
     <e><p><l>segons<s n="pr"/></l><r>a<b/>pàrrere<b/>de<s n="pr"/></r></p></e>
     <e><p><l>entorn<b/>de<s n="pr"/></l><r>a<b/>inghìriu<s n="pr"/></r></p></e>
@@ -722,7 +723,8 @@
     <e><p><l>poble<s n="n"/><s n="m"/></l><r>bidda<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nord<s n="n"/><s n="m"/></l><r>nord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>província<s n="n"/><s n="f"/></l><r>provìntzia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>república<s n="n"/><s n="f"/></l><r>repùblica<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>república<s n="n"/><s n="f"/></l><r>reppùblica<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>república<s n="n"/><s n="f"/></l><r>reppùbrica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pràctica<s n="n"/><s n="f"/></l><r>pràtica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nom<s n="n"/><s n="m"/></l><r>nùmene<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cognom<s n="n"/><s n="m"/></l><r>sambenadu<s n="n"/><s n="m"/></r></p></e>
@@ -2239,7 +2241,10 @@
     <e><p><l>italià<s n="adj"/></l><r>italianu<s n="adj"/></r></p></e>
     <e><p><l>capaç<s n="adj"/></l><r>capatzu<s n="adj"/></r></p><par n="capaç_capatzu"/></e>
     <e r="RL"><p><l>capaç<s n="adj"/></l><r>capatze<s n="adj"/></r></p><par n="capaç_capatze"/></e>
-    <e><p><l>republicà<s n="adj"/></l><r>repubricanu<s n="adj"/></r></p></e>
+    <e><p><l>republicà<s n="adj"/></l><r>reppublicanu<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>republicà<s n="adj"/></l><r>reppubricanu<s n="adj"/></r></p></e>
+    <e><p><l>republicà<s n="n"/></l><r>reppublicanu<s n="n"/></r></p></e>
+    <e r="RL"><p><l>republicà<s n="n"/></l><r>reppubricanu<s n="n"/></r></p></e>
     <e><p><l>romà<s n="adj"/></l><r>romanzu<s n="adj"/></r></p></e>
     <e><p><l>blanc<s n="adj"/></l><r>biancu<s n="adj"/></r></p></e>
     <e><p><l>iranià<s n="adj"/></l><r>iranianu<s n="adj"/></r></p></e>
@@ -2851,7 +2856,7 @@
     <e><p><l>volar<s n="vblex"/></l><r>bolare<s n="vblex"/></r></p></e>
     <e><p><l>assentar<s n="vblex"/></l><r>assentare<s n="vblex"/></r></p></e>
     <e><p><l>sortir<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
-    <e><p><l>considerar<s n="vblex"/></l><r>apretziare<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>considerar<s n="vblex"/></l><r>apretziare<s n="vblex"/></r></p></e>
     <e><p><l>lligar<s n="vblex"/></l><r>apostivigare<s n="vblex"/></r></p></e>
     <e><p><l>accelerar<s n="vblex"/></l><r>allestrare<s n="vblex"/></r></p></e>
     <e><p><l>venerar<s n="vblex"/></l><r>alabare<s n="vblex"/></r></p></e>
@@ -3418,7 +3423,8 @@
       <e><p><l>res<b/>a<b/>veure<b/>amb<s n="pr"/></l><r>nudda<b/>de<b/>bìdere<b/>cun<s n="pr"/></r></p></e>
       <e><p><l>a<b/>sota<b/>de<s n="pr"/></l><r>a<b/>suta<b/>de<s n="pr"/></r></p></e>
       <e><p><l>en<b/>d'altres<s n="pr"/></l><r>in<b/>àteros<s n="pr"/></r></p></e>
-      <e><p><l>d'ençà<b/>de<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>d'ençà<b/>de<s n="pr"/></l><r>dae<s n="pr"/></r></p></e>
+      <e r="RL"><p><l>d'ençà<b/>de<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
       <e><p><l>fins<b/>a<b/>mitjan<s n="pr"/></l><r>finas<b/>a<b/>mitade<s n="pr"/></r></p></e>
       <e><p><l>pels<b/>volts<b/>de<s n="pr"/></l><r>in<b/>tundu<b/>a<s n="pr"/></r></p></e>
       <e><p><l>a<b/>raó<b/>de<s n="pr"/></l><r>a<b/>resone<b/>de<s n="pr"/></r></p></e>
@@ -3583,6 +3589,7 @@
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
 
       <e><p><l>més<s n="adj"/></l><r>prus<s n="adj"/></r></p></e>
+      <e><p><l>següent<s n="adj"/></l><r>in<b/>fatu<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>següent<s n="adj"/></l><r>imbeniente<s n="adj"/></r></p></e>
       <e><p><l>obra<s n="n"/><s n="f"/></l><r>òpera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>proper<s n="adj"/></l><r>imbeniente<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -4220,7 +4227,7 @@
       <e><p><l>distribuir<s n="vblex"/></l><r>distribuire<s n="vblex"/></r></p></e>
       <e><p><l>capítol<s n="n"/><s n="m"/></l><r>capìtulu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>maternal<s n="adj"/></l><r>maternu<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>tret<s n="n"/><s n="m"/></l><r>caraterìstica<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>tret<s n="n"/><s n="m"/></l><r>caraterìstica<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>entorn<s n="n"/><s n="m"/></l><r>ambiente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>una<b/>mica<s n="adv"/></l><r>unu<b/>pagu<s n="adv"/></r></p></e>
       <e><p><l>Luis<s n="np"/><s n="ant"/></l><r>Luis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -24360,6 +24367,10 @@
       <e><p><l>invasor<s n="n"/></l><r>invasore<s n="n"/></r></p></e>
       <e r="RL"><p><l>padrí<s n="n"/><s n="m"/></l><r>padrinu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>ase<s n="n"/><s n="m"/></l><r>molente<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>aikido<s n="n"/><s n="m"/><s n="sg"/></l><r>aikido<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>pervivència<s n="n"/><s n="f"/></l><r>costàntzia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>independentisme<s n="n"/><s n="m"/><s n="sg"/></l><r>indipendentismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 </section>
 </dictionary>
