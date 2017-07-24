@@ -97,15 +97,17 @@
 <def-cat n="haver-cni">
    <cat-item lemma="haver" tags="vbhaver.cni.*"/>
 </def-cat>
-<def-cat n="haver-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti) -->
+<def-cat n="haver-tmp-srd-cnj">	<!-- verb amb els temps verbals conjugats (amb persona) del sard (sense cni, ifi, fti) -->
    <cat-item lemma="haver" tags="vbhaver.pri.*"/>
    <cat-item lemma="haver" tags="vbhaver.prs.*"/>
    <cat-item lemma="haver" tags="vbhaver.pii.*"/>
    <cat-item lemma="haver" tags="vbhaver.pis.*"/>
    <cat-item lemma="haver" tags="vbhaver.imp.*"/>
+<!--
    <cat-item lemma="haver" tags="vbhaver.inf"/>
    <cat-item lemma="haver" tags="vbhaver.ger"/>
    <cat-item lemma="haver" tags="vbhaver.pp.*"/>
+-->
 </def-cat>
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
@@ -2626,7 +2628,10 @@
        <choose>
          <when>
            <test>
-	     <not><equal><clip pos="3" side="tl" part="gen"/><lit-tag v="mf"/></equal></not>
+	     <or>
+               <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
+               <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
+             </or>
            </test>
            <let><clip pos="2" side="tl" part="gen"/><clip pos="3" side="tl" part="gen"/></let>
          </when>
@@ -2636,7 +2641,10 @@
                <test>
                <and>
 	         <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
-	         <not><equal><var n="genero"/><lit-tag v="mf"/></equal></not>
+	         <or>
+                   <equal><var n="genero"/><lit-tag v="m"/></equal>
+                   <equal><var n="genero"/><lit-tag v="f"/></equal>
+                 </or>
                </and>
                </test>
                <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
@@ -4193,7 +4201,7 @@
 
 <rule comment="regla: haver pp">
    <pattern>
-     <pattern-item n="haver-tmp-srd"/>
+     <pattern-item n="haver-tmp-srd-cnj"/>
      <pattern-item n="pp"/>
    </pattern>
    <action>
@@ -4486,7 +4494,7 @@
 
 <rule comment="regla: haver pp adj">
    <pattern>
-     <pattern-item n="haver-tmp-srd"/>
+     <pattern-item n="haver-tmp-srd-cnj"/>
      <pattern-item n="pp"/>
      <pattern-item n="adjec"/>
    </pattern>
