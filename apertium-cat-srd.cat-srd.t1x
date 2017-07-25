@@ -160,6 +160,9 @@
 <def-cat n="vbser_inf">
    <cat-item tags="vbser.inf"/>
 </def-cat>
+<def-cat n="vbhaver_inf">
+   <cat-item tags="vbhaver.inf"/>
+</def-cat>
 <def-cat n="imp">
    <cat-item tags="vblex.imp.*"/>
 </def-cat>
@@ -4276,7 +4279,7 @@
            </or>
          </test>
          <out>
-           <chunk name="èssere_pp_pp">
+           <chunk name="èssere_pp">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -4284,23 +4287,17 @@
                  <get-case-from pos="1">
                    <lit v="èssere"/>
                  </get-case-from>
-                 <lit-tag v="vbser.pri"/>
+                 <lit-tag v="vbser.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp"/>
-                 <clip pos="2" side="tl" part="gen"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <b pos="1"/>
                <lu>
                  <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="pp"/>
+                 <clip pos="2" side="tl" part="gen"/>		<!-- FIXME -->
+                 <clip pos="1" side="tl" part="nbr"/>
                  <clip pos="2" side="tl" part="lemq"/>
                </lu>
            </chunk>
@@ -4308,7 +4305,7 @@
        </when>
        <otherwise>
          <out>
-           <chunk name="àere_pp_pp">
+           <chunk name="àere_pp">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -4316,16 +4313,9 @@
                  <get-case-from pos="1">
                    <lit v="àere"/>
                  </get-case-from>
-                 <lit-tag v="vbhaver.pri"/>
+                 <lit-tag v="vbhaver.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m.sg"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <b pos="1"/>
                <lu>
@@ -4643,7 +4633,79 @@
 </rule>
 
 
-<rule comment="regla: anar_pri inf pp">
+<rule comment="regla: anar_pri haver_inf pp">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="vbhaver_inf"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="3" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="3" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="èssere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pii"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="a_verb"/>
+                 <lit-tag v="pp"/>
+                 <clip pos="3" side="tl" part="gen"/>		<!-- FIXME -->
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="àere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <lit-tag v="vbhaver.pii"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
+<rule comment="regla: anar_pri ser_inf pp">
    <pattern>
      <pattern-item n="anar_pri"/>
      <pattern-item n="vbser_est_inf"/>
