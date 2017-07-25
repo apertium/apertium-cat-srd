@@ -1235,7 +1235,6 @@
     <e><p><l>evolució<s n="n"/><s n="f"/></l><r>evolutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>finalitat<s n="n"/><s n="f"/></l><r>finalidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>funció<s n="n"/><s n="f"/></l><r>funtzione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>integració<s n="n"/><s n="f"/></l><r>integratzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>estabilitat<s n="n"/><s n="f"/></l><r>istabilidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>alliberament<s n="n"/><s n="m"/></l><r>liberatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>modernitat<s n="n"/><s n="f"/></l><r>modernidade<s n="n"/><s n="f"/></r></p></e>
@@ -3628,6 +3627,7 @@
       <e r="RL"><p><l>vegada<s n="n"/><s n="f"/></l><r>borta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pobresa<s n="n"/><s n="f"/></l><r>poberesa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>poc<s n="adj"/><s n="ind"/></l><r>pagu<s n="adj"/></r></p><par n="sup_0"/></e>
+      <e><p><l>molt<b/>poc<s n="adj"/></l><r>pagu<g><b/>meda</g><s n="adj"/></r></p></e>
       <e><p><l>Joan<s n="np"/><s n="ant"/></l><r>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sols<s n="adv"/></l><r>petzi<s n="adv"/></r></p></e>
       <e><p><l>unipersonal<s n="adj"/></l><r>unipersonale<s n="adj"/></r></p></e>
@@ -5759,7 +5759,7 @@
       <e><p><l>got<s n="n"/><s n="m"/></l><r>tassa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>canya<s n="n"/><s n="f"/></l><r>canna<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>alimentari<s n="adj"/></l><r>alimentare<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Tòquio<s n="np"/><s n="loc"/></l><r>Tòrquio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tòquio<s n="np"/><s n="loc"/></l><r>Tòkyo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>alternar<s n="vblex"/></l><r>achidare<s n="vblex"/></r></p></e>
       <e><p><l>alternar<g><b/>amb</g><s n="vblex"/></l><r>cambiare<g><b/>cun</g><s n="vblex"/></r></p></e>
       <e><p><l>sentència<s n="n"/><s n="f"/></l><r>sentèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -24383,7 +24383,6 @@
       <e><p><l>rival<s n="n"/><s n="mf"/></l><r>rivale<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>ciclisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tziclismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sobirà<s n="n"/></l><r>soberanu<s n="n"/></r></p></e>
-      <e><p><l>molt<b/>poc<s n="adj"/></l><r>pagu<b/>meda<s n="adj"/></r></p></e>
       <e><p><l>professional<s n="n"/><s n="mf"/></l><r>professionista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>polític<s n="n"/></l><r>polìticu<s n="n"/></r></p></e>
       <e><p><l>record<s n="n"/><s n="m"/></l><r>record<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -24566,6 +24565,47 @@
       <e><p><l>concertista<s n="n"/><s n="mf"/></l><r>solista<s n="n"/><s n="mf"/></r></p></e>
       <e r="RL"><p><l>padrí<s n="n"/><s n="m"/></l><r>padrinu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>ase<s n="n"/><s n="m"/></l><r>molente<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>projector<s n="n"/><s n="m"/></l><r>projetore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tractor<s n="n"/><s n="m"/></l><r>tratore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>installadore<s n="adj"/></l><r>instal·lador<s n="adj"/></r></p></e>
+      <e><p><l>constitutiu<s n="adj"/></l><r>costitutivu<s n="adj"/></r></p></e>
+      <e><p><l>instintiu<s n="adj"/></l><r>istintivu<s n="adj"/></r></p></e>
+      <e><p><l>instrumental<s n="adj"/><s n="mf"/></l><r>istrumentale<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>calmant<s n="n"/><s n="m"/></l><r>calmante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>carburant<s n="n"/><s n="m"/></l><r>carburante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>conservant<s n="n"/><s n="m"/></l><r>cunservante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>detonant<s n="n"/><s n="m"/></l><r>detonante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>portant<s n="n"/><s n="m"/></l><r>portante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>quadrant<s n="n"/><s n="m"/></l><r>cuadrante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tirant<s n="n"/><s n="m"/></l><r>tirante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>turbant<s n="n"/><s n="m"/></l><r>turbante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aglutinant<s n="adj"/><s n="mf"/></l><r>aglutinante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>ambulant<s n="adj"/><s n="mf"/></l><r>ambulante<s n="adj"/><s n="mf"/></r></p></e>
+      <e r="LR"><p><l>atacant<s n="adj"/><s n="mf"/></l><r>atacante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>atenuant<s n="adj"/><s n="mf"/></l><r>atenuante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>comunicant<s n="adj"/><s n="mf"/></l><r>comunicante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>edificant<s n="adj"/><s n="mf"/></l><r>edificante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>entrant<s n="adj"/><s n="mf"/></l><r>entrante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>errant<s n="adj"/><s n="mf"/></l><r>errante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>farsant<s n="adj"/><s n="mf"/></l><r>farsante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>fulminant<s n="adj"/><s n="mf"/></l><r>fulminante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>galant<s n="adj"/><s n="mf"/></l><r>galante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>ignorant<s n="adj"/><s n="mf"/></l><r>ignorante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>insignificant<s n="adj"/><s n="mf"/></l><r>insignificante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>picant<s n="adj"/><s n="mf"/></l><r>picante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>rutilant<s n="adj"/><s n="mf"/></l><r>rutilante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>sobrant<s n="adj"/><s n="mf"/></l><r>sobrante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>vinculant<s n="adj"/><s n="mf"/></l><r>vinculante<s n="adj"/><s n="mf"/></r></p></e>
+      <e r="LR"><p><l>volant<s n="adj"/><s n="mf"/></l><r>volante<s n="adj"/><s n="mf"/></r></p></e>
+      <e r="RL"><p><l>quartet<s n="n"/><s n="m"/></l><r>cuartetu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>esquerda<s n="n"/><s n="f"/></l><r>ischerda<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>maquinista<s n="n"/></l><r>machinista<s n="n"/></r></p></e>
+      <e r="RL"><p><l>requisit<s n="n"/><s n="m"/></l><r>recuisitu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antiquari<s n="n"/><s n="m"/></l><r>anticuàriu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>quadrant<s n="n"/><s n="m"/></l><r>cuadrante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>quaternari<s n="adj"/></l><r>cuaternàriu<s n="adj"/></r></p></e>
+
 
 </section>
 </dictionary>
