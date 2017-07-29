@@ -260,6 +260,17 @@
    <cat-item tags="adj.pos.*"/>
    <cat-item tags="adj.itg.*"/>
 </def-cat>
+<def-cat n="adjec_adv">	<!-- sense sup -->
+   <cat-item tags="adj.m.*"/>
+   <cat-item tags="adj.f.*"/>
+   <cat-item tags="adj.mf.*"/>
+   <cat-item tags="adj.ord.*"/>
+   <cat-item tags="adj.ind.*"/>
+   <cat-item tags="adj.pos.*"/>
+   <cat-item tags="adj.itg.*"/>
+   <cat-item tags="vblex.pp.*"/>
+   <cat-item tags="adv"/>
+</def-cat>
 <def-cat n="adjsup">
    <cat-item tags="adj.sup.*"/>
 </def-cat>
@@ -273,6 +284,12 @@
 <def-cat n="molt">
    <cat-item lemma="molt" tags="adv"/>
    <cat-item lemma="molt" tags="preadv"/>
+</def-cat>
+<def-cat n="tan">
+   <cat-item lemma="tan" tags="preadv"/>
+</def-cat>
+<def-cat n="com">
+   <cat-item lemma="com" tags="rel.adv"/>
 </def-cat>
 <def-cat n="tercer_quart_etc">
    <cat-item lemma="tercer" tags="adj.*"/>
@@ -2812,6 +2829,77 @@
          </get-case-from>
          <clip pos="1" side="tl" part="tags"/>
          <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: tan adjec com">
+   <pattern>
+     <pattern-item n="tan"/>
+     <pattern-item n="adjec_adv"/>
+     <pattern-item n="com"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>     
+     <out>
+       <chunk name="adj_comente_a">
+         <tags>
+           <tag><lit-tag v="SA"/></tag>
+         </tags>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="2"/>
+       <lu>
+         <clip pos="3" side="tl" part="lemh"/>
+         <clip pos="3" side="tl" part="tags"/>
+         <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: tan adjec nom com">
+   <pattern>
+     <pattern-item n="tan"/>
+     <pattern-item n="adjec"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="com"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>     
+     <out>
+       <chunk name="adj_n_comente_a">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="2"/>
+       <lu>
+         <clip pos="3" side="tl" part="lemh"/>
+         <clip pos="3" side="tl" part="tags"/>
+         <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+       <b pos="3"/>
+       <lu>
+         <clip pos="4" side="tl" part="lemh"/>
+         <clip pos="4" side="tl" part="tags"/>
+         <clip pos="4" side="tl" part="lemq"/>
        </lu>
      </chunk>
      </out>
