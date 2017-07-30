@@ -24665,8 +24665,8 @@
       <e r="RL"><p><l>rogenc<s n="adj"/></l><r>rubanu<s n="adj"/></r></p></e>
       <e><p><l>políedre<s n="n"/><s n="m"/></l><r>poliedru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>maluc<s n="n"/><s n="m"/></l><r>anca<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>íntimament<s n="adv"/></l><r>cun<b/>intimidade<s n="adv"/></r></p></e>
-      <e r="RL"><p><l>íntimament<s n="adv"/></l><r>in<b/>manera<b/>intima<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>íntimament<s n="adv"/></l><r>cun<b/>intimidade<s n="adv"/></r></p></e>
+      <e><p><l>íntimament<s n="adv"/></l><r>in<b/>manera<b/>intima<s n="adv"/></r></p></e>
       <e><p><l>exaltar<s n="vblex"/></l><r>esaltare<s n="vblex"/></r></p></e>
       <e><p><l>UB<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>UB<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>simpatitzant<s n="n"/><s n="mf"/></l><r>simpatizante<s n="n"/><s n="mf"/></r></p></e>
@@ -24677,7 +24677,8 @@
       <e r="RL"><p><l>erosionar<s n="vblex"/></l><r>ratzigare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>erosionar<s n="vblex"/></l><r>fresare<s n="vblex"/></r></p></e>
       <e><p><l>enlloc<s n="adv"/></l><r>neddue<s n="adv"/></r></p></e>
-      <e><p><l>desfavorable<s n="adj"/></l><r>chi<b/>no<b/>favorit<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>desfavorable<s n="adj"/></l><r>contràriu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>desfavorable<s n="adj"/></l><r>chi<b/>no<b/>favorit<s n="adj"/></r></p></e>
       <e><p><l>decidit<s n="adj"/></l><r>detzisu<s n="adj"/></r></p><par n="sup_0"/></e>
       <e><p><l>rebuda<s n="n"/><s n="f"/></l><r>retzida<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>punxegut<s n="adj"/></l><r>agudu<s n="adj"/></r></p><par n="sup_0"/></e>
