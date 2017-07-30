@@ -382,4 +382,34 @@
      <match lemma="com" tags="rel.adv"><select lemma="comente a"/></match>
   </rule>
 
+<!-- guanyar > bìnchere, balangiare -->
+
+  <rule weight="0.6">
+     <match lemma="guanyar" tags="vblex.*"><select lemma="bìnchere"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guanyar" tags="vblex.*"><select lemma="balangiare"/></match>
+     <match lemma="diner" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guanyar" tags="vblex.*"><select lemma="balangiare"/></match>
+     <match tags="adj.*"/>
+     <match lemma="diner" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guanyar" tags="vblex.*"><select lemma="balangiare"/></match>
+     <or><match tags="num.*"/><match tags="adj.*"/></or>
+     <or><match lemma="euro" tags="n.*"/><match lemma="pesseta" tags="n.*"/><match lemma="lira" tags="n.*"/><match lemma="franc" tags="n.*"/><match lemma="marc" tags="n.*"/><match lemma="dòlar" tags="n.*"/></or>
+  </rule>
+
+<!-- segons (pr) > segundu, a parrere de -->
+
+  <rule weight="0.6">
+     <match lemma="segons" tags="pr"><select lemma="segundu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="segons" tags="pr"><select lemma="a pàrrere de"/></match>
+     <match tags="np.*"/>
+  </rule>
+
 </rules>
