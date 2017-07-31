@@ -436,10 +436,10 @@
 <!-- tractar de > tratare de, proare de -->
 
   <rule weight="0.6">
-     <match lemma="tractar de" tags="vblex.*"><select lemma="tratare de"/></match>
+     <match lemma="tractar# de" tags="vblex.*"><select lemma="tratare# de"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="tractar de" tags="vblex.*"><select lemma="proare de"/></match>
+     <match lemma="tractar# de" tags="vblex.*"><select lemma="proare# de"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
