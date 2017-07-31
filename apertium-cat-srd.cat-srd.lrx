@@ -7,7 +7,7 @@
   </rule>
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="np.loc"/>
+    <or><match tags="np.loc"/><match tags="np.top.*"/></or>
   </rule>
   <rule weight="0.6">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
@@ -16,12 +16,33 @@
 
 <!-- PP DA -->
 
-  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+  <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
-  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+  <rule weight="1.0">
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match tags="adv"/>
+     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.2">
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.2">
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match tags="adv"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match tags="adv"/>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
   <rule weight="0.6">
