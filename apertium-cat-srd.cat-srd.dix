@@ -3220,7 +3220,7 @@
       <!-- <e><p><l>pel<b/>qui<s n="rel"/></l><r>pro<b/>chi<s n="rel"/></r></p></e> -->
       <e><p><l>quant<s n="rel"/><s n="nn"/></l><r>cantu<s n="rel"/><s n="an"/></r></p></e>
 
-      <e><p><l>ja<b/>que<s n="cnjadv"/></l><r>sigomente<s n="cnjadv"/></r></p></e>
+      <e><p><l>ja<b/>que<s n="cnjadv"/></l><r>dae<b/>chi<s n="cnjadv"/></r></p></e>
       <e><p><l>així<b/>com<s n="cnjadv"/></l><r>gosi<b/>comente<s n="cnjadv"/></r></p></e>
       <e><p><l>sinó<s n="cnjcoo"/></l><r>si<b/>nono<s n="cnjcoo"/></r></p></e>
       <e><p><l>tot<b/>i<b/>que<s n="cnjadv"/></l><r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
@@ -4748,7 +4748,8 @@
       <e><p><l>menció<s n="n"/><s n="f"/></l><r>mentovu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pròxim<s n="adj"/></l><r>pròssimu<s n="adj"/></r></p></e>
       <e><p><l>enfonsar<s n="vblex"/></l><r>afundare<s n="vblex"/></r></p></e>
-      <e><p><l>pertanyent<s n="adj"/></l><r>pertinente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>pertanyent<s n="adj"/></l><r>pertinente<s n="adj"/></r></p></e>
+      <e><p><l>pertanyent<s n="adj"/></l><r>chi<b/>apartenet<s n="adj"/></r></p></e>
       <e><p><l>tesi<s n="n"/><s n="f"/></l><r>tesi<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>omplir<s n="vblex"/></l><r>prenare<s n="vblex"/></r></p></e>
       <e><p><l>acer<s n="n"/><s n="m"/></l><r>atzàrgiu<s n="n"/><s n="m"/></r></p></e>
@@ -24347,7 +24348,7 @@
       <e><p><l>periòdic<s n="n"/><s n="m"/></l><r>periòdicu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>objectiu<s n="adj"/></l><r>obietivu<s n="adj"/></r></p></e>
       <e><p><l>civil<s n="n"/><s n="mf"/></l><r>tzivile<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>regència<s n="n"/><s n="f"/></l><r>reghèntia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>regència<s n="n"/><s n="f"/></l><r>reghèntzia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cabell<s n="n"/><s n="m"/></l><r>pilos<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>motivar<s n="vblex"/></l><r>motivare<s n="vblex"/></r></p></e>
       <e><p><l>soviètic<s n="n"/></l><r>sovièticu<s n="n"/></r></p></e>
@@ -24378,7 +24379,7 @@
       <e><p><l>ornamental<s n="adj"/></l><r>ornamentale<s n="adj"/></r></p></e>
       <e><p><l>vaca<s n="n"/><s n="f"/></l><r>baca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pesseta<s n="n"/><s n="f"/></l><r>peseta<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>incendiar<s n="vblex"/></l><r>pònnere<b/>fogu<s n="vblex"/></r></p></e>
+      <e><p><l>incendiar<s n="vblex"/></l><r>pònnere<g><b/>fogu</g><s n="vblex"/></r></p></e>
       <e r="RL"><p><l>incendiar<s n="vblex"/></l><r>allùghere<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>incendiar<s n="vblex"/></l><r>allumare<s n="vblex"/></r></p></e>
       <e><p><l>píxel<s n="n"/><s n="m"/></l><r>pixel<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -24543,7 +24544,6 @@
       <e><p><l>timó<s n="n"/><s n="m"/></l><r>timone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>purificar<s n="vblex"/></l><r>purificare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>purificar<s n="vblex"/></l><r>limpiare<s n="vblex"/></r></p></e>
-      <e><p><l>innombrable<s n="adj"/></l><r>chi<b/>non<b/>si<b/>podet<b/>numenare<s n="adj"/></r></p></e>
       <e><p><l>indefinit<s n="adj"/></l><r>indefinidu<s n="adj"/></r></p><par n="sup_0"/></e>
       <e><p><l>golfa<s n="n"/><s n="f"/></l><r>desvanu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>golfa<s n="n"/><s n="f"/></l><r>sostre<s n="n"/><s n="m"/></r></p></e>
