@@ -670,6 +670,8 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'temp/us__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"sp_ND\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'campus__n' && $par_srd eq 'lapis__n') {
+					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'as__n' && $par_srd eq 'lapis__n') {
 					printf $fbi "      <e$rl><p><l>%s<s n=\"n\"/><s n=\"m\"/></l><r>%s<s n=\"n\"/><s n=\"m\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'accionist/a__n' && $par_srd eq 'dentista__n') {

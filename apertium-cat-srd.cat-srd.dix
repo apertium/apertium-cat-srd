@@ -4013,6 +4013,7 @@
 
       <e><p><l>sola<s n="n"/><s n="f"/></l><r>sola<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>conjunt<s n="n"/><s n="m"/></l><r>annantu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>subconjunt<s n="n"/><s n="m"/></l><r>sutannantu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sobre<s n="n"/><s n="m"/></l><r>busta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>junt<s n="adj"/></l><r>giuntu<s n="adj"/></r></p></e>
       <e><p><l>escolar<s n="adj"/></l><r>iscolare<s n="adj"/></r></p></e>
@@ -7141,6 +7142,7 @@
       <e><p><l>lloctinent<s n="n"/><s n="mf"/></l><r>logutenente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>enriquir<s n="vblex"/></l><r>arrichire<s n="vblex"/></r></p></e>
       <e><p><l>flamenc<s n="adj"/></l><r>fiammingu<s n="adj"/></r></p></e>
+      <e><p><l>flamenc<s n="n"/></l><r>fiammingu<s n="n"/></r></p></e>
       <e><p><l>Solsona<s n="np"/><s n="loc"/></l><r>Salsona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>referent<s n="n"/><s n="m"/></l><r>referente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>partició<s n="n"/><s n="f"/></l><r>partidura<s n="n"/><s n="f"/></r></p></e>
@@ -8138,7 +8140,7 @@
       <e><p><l>feix<s n="n"/><s n="m"/></l><r>fàsciu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>feix<s n="n"/><s n="m"/></l><r>crispione<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>evolutiu<s n="adj"/></l><r>evolutivu<s n="adj"/></r></p></e>
-      <e><p><l>agrair<s n="vblex"/></l><r>agradare<s n="vblex"/></r></p></e>
+      <e><p><l>agrair<s n="vblex"/></l><r>torrare<g><b/>sas<b/>gràtzias<g/><s n="vblex"/></r></p></e>
       <e><p><l>abandonament<s n="n"/><s n="m"/></l><r>abbandonu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Guipúscoa<s n="np"/><s n="loc"/></l><r>Guipùzcoa<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Charlie<s n="np"/><s n="ant"/></l><r>Charlie<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -8212,7 +8214,7 @@
       <e><p><l>debatre<s n="vblex"/></l><r>cuntierrare<s n="vblex"/></r></p></e>
       <e><p><l>Wimbledon<s n="np"/><s n="loc"/></l><r>Wimbledon<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Pons<s n="np"/><s n="ant"/></l><r>Pons<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>Homer<s n="np"/><s n="ant"/></l><r>Homer<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Homer<s n="np"/><s n="ant"/></l><r>Omeru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>despatx<s n="n"/><s n="m"/></l><r>ufìtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>a<b/>gran<b/>escala<s n="adv"/></l><r>in<b/>manna<b/>iscala<s n="adv"/></r></p></e>
       <e><p><l>acampar<s n="vblex"/></l><r>acampare<s n="vblex"/></r></p></e>
@@ -24991,6 +24993,10 @@
       <e><p><l>arxiducal<s n="adj"/></l><r>archiducale<s n="adj"/></r></p></e>
       <e><p><l>ducat<s n="n"/><s n="m"/></l><r>ducadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arxiducat<s n="n"/><s n="m"/></l><r>archiducadu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>paràsit<s n="n"/><s n="m"/></l><r>parassitu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Prim<s n="np"/><s n="cog"/></l><r>Prim<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Mola<s n="np"/><s n="cog"/></l><r>Mola<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>missatger<s n="n"/><s n="m"/></l><r>missu<s n="n"/><s n="m"/></r></p></e>
 
 
 </section>
