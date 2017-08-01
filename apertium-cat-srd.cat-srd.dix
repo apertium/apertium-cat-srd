@@ -523,6 +523,8 @@
     <e><p><l>pa<s n="n"/><s n="m"/></l><r>pane<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>duc<s n="n"/><s n="m"/></l><r>duca<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>duc<s n="n"/><s n="f"/></l><r>duchessa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>arxiduc<s n="n"/><s n="m"/></l><r>archiduca<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>arxiduc<s n="n"/><s n="f"/></l><r>archiduchessa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>euro<s n="n"/><s n="m"/></l><r>èuro<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>treball<s n="n"/><s n="m"/></l><r>òpera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>treball<s n="n"/><s n="m"/></l><r>traballu<s n="n"/><s n="m"/></r></p></e>
@@ -15646,6 +15648,7 @@
       <e><p><l>Molet<s n="np"/><s n="cog"/></l><r>Molet<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Molière<s n="np"/><s n="ant"/></l><r>Molière<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Molina<s n="np"/><s n="ant"/></l><r>Molina<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Molina<s n="np"/><s n="loc"/></l><r>Molina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Molinas<s n="np"/><s n="cog"/></l><r>Molinas<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Molinero<s n="np"/><s n="cog"/></l><r>Molinero<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Moliner<s n="np"/><s n="cog"/></l><r>Moliner<s n="np"/><s n="cog"/></r></p></e>
@@ -24979,6 +24982,15 @@
       <e><p><l>mutu<s n="adj"/></l><r>pari-pari<s n="adj"/><s n="ord"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
       <e><p><l>diable<s n="n"/><s n="m"/></l><r>diàulu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>saxó<s n="adj"/></l><r>sàssone<s n="adj"/></r></p></e>
+      <e><p><l>anglosaxó<s n="adj"/></l><r>anglosàssone<s n="adj"/></r></p></e>
+      <e><p><l>saxó<s n="n"/></l><r>sàssone<s n="n"/></r></p></e>
+      <e><p><l>anglosaxó<s n="n"/></l><r>anglosàssone<s n="n"/></r></p></e>
+      <e><p><l>secà<s n="n"/><s n="m"/></l><r>sicu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/></r></p></e>
+      <e><p><l>arxiducal<s n="adj"/></l><r>archiducale<s n="adj"/></r></p></e>
+      <e><p><l>ducat<s n="n"/><s n="m"/></l><r>ducadu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>arxiducat<s n="n"/><s n="m"/></l><r>archiducadu<s n="n"/><s n="m"/></r></p></e>
 
 
 </section>

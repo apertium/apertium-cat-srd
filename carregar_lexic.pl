@@ -347,6 +347,8 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'sangu/ini__adj' && $par_srd eq 'frantzes/u__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'far/ingi__adj' && $par_srd eq 'frantzes/u__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afric/à__adj' && $par_srd eq 'fàtzil/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD_mf\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'alacant/í__adj' && $par_srd eq 'frantzes/u__adj') {
