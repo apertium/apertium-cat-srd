@@ -577,6 +577,9 @@
     <e><p><l>plaça<s n="n"/><s n="f"/></l><r>pratza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pont<s n="n"/><s n="m"/></l><r>ponte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nombre<s n="n"/><s n="m"/></l><r>nùmeru<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nombre<b/>primer<s n="n"/><s n="m"/></l><r>nùmeru<b/>primu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nombre<b/>real<s n="n"/><s n="m"/></l><r>nùmeru<b/>reale<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nombre<b/>natural<s n="n"/><s n="m"/></l><r>nùmeru<b/>naturale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>església<s n="n"/><s n="f"/></l><r>crèsia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>hospital<s n="n"/><s n="m"/></l><r>ospidale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>formatge<s n="n"/><s n="m"/></l><r>casu<s n="n"/><s n="m"/></r></p></e>
@@ -6704,7 +6707,7 @@
       <e><p><l>visir<s n="n"/><s n="m"/></l><r>visir<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e><p><l>golf<s n="n"/><s n="m"/></l><r>golf<s n="n"/><s n="m"/></r></p><par n="ND_sg"/></e>
       <e><p><l>ATP<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>ATP<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>prestigiós<s n="adj"/><s n="mf"/></l><r>de<b/>primore<s n="adj"/><s n="mf"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>prestigiós<s n="adj"/></l><r>de<b/>primore<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>passatger<s n="adj"/></l><r>passigeri<s n="adj"/></r></p></e>
       <e><p><l>NBA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>NBA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 
@@ -8734,7 +8737,7 @@
       <e><p><l>canviar<g><b/>el<b/>nom</g><s n="vblex"/></l><r>cambiare<g><b/>su<b/>nùmene</g><s n="vblex"/></r></p></e>
       <e><p><l>comarcal<s n="adj"/><s n="mf"/></l><r>de<b/>sa<b/>contrada<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e><p><l>concentrar<g><b/>en</g><s n="vblex"/></l><r>cuntzentrare<g><b/>in</g><s n="vblex"/></r></p></e>
-      <e><p><l>amorós<s n="adj"/><s n="mf"/></l><r>de<b/>amore<s n="adj"/><s n="mf"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>amorós<s n="adj"/></l><r>de<b/>amore<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>restant<s n="adj"/></l><r>chi<b/>abarrat<s n="adj"/></r></p></e>
       <e r="RL"><p><l>restant<s n="adj"/></l><r>chi<b/>sobrat<s n="adj"/></r></p></e>
       <e><p><l>dorsal<s n="adj"/><s n="mf"/></l><r>de<b/>palas<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
@@ -20231,7 +20234,7 @@
       <e><p><l>culpa<s n="n"/><s n="f"/></l><r>curpa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sancionar<s n="vblex"/></l><r>santzionare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>sancionar<s n="vblex"/></l><r>multare<s n="vblex"/></r></p></e>
-      <e><p><l>luxós<s n="adj"/><s n="mf"/></l><r>de<b/>lussu<s n="adj"/><s n="mf"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>luxós<s n="adj"/></l><r>de<b/>lussu<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>impregnar<s n="vblex"/></l><r>infùndere<s n="vblex"/></r></p></e>
       <e><p><l>honorar<s n="vblex"/></l><r>onorare<s n="vblex"/></r></p></e>
       <e><p><l>encetar<s n="vblex"/></l><r>cumintzare<s n="vblex"/></r></p></e>
@@ -22839,6 +22842,11 @@
       <e><p><l>monòton<s n="adj"/></l><r>monòtonu<s n="adj"/></r></p></e>
       <e><p><l>moribund<s n="adj"/></l><r>moribundu<s n="adj"/></r></p></e>
       <e><p><l>morisc<s n="adj"/></l><r>moriscu<s n="adj"/></r></p></e>
+      <e><p><l>morisc<s n="n"/></l><r>moriscu<s n="n"/></r></p></e>
+      <e><p><l>blat<b/>de<b/>moro<s n="n"/></l><r>trigu<b/>moriscu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>moresc<s n="n"/></l><r>trigu<b/>moriscu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>dacsa<s n="f"/></l><r>trigu<b/>moriscu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>panís<s n="n"/></l><r>trigu<b/>moriscu<s n="n"/></r></p></e>
       <e><p><l>narcisista<s n="adj"/><s n="mf"/></l><r>nartzisista<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>nefast<s n="adj"/></l><r>nefastu<s n="adj"/></r></p></e>
       <e><p><l>neoclàssic<s n="adj"/></l><r>neoclàssicu<s n="adj"/></r></p></e>
@@ -24948,6 +24956,7 @@
       <e><p><l>marró<s n="adj"/></l><r>castàngiu<s n="adj"/></r></p></e>
       <e><p><l>islam<s n="n"/><s n="m"/></l><r>islam<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>monjo<s n="n"/></l><r>mòngiu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>pres<s n="n"/></l><r>presoneri<s n="n"/></r></p></e>
       <e><p><l>paral·lel<s n="n"/><s n="m"/></l><r>parallelu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>notable<s n="n"/><s n="m"/></l><r>notèvole<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>lleó<s n="n"/><s n="m"/></l><r>leone<s n="n"/><s n="m"/></r></p></e>
@@ -24964,6 +24973,12 @@
       <e><p><l>nòmada<s n="n"/><s n="mf"/></l><r>nòmade<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>efectiu<s n="n"/><s n="m"/></l><r>efetivu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>llop<s n="n"/><s n="m"/></l><r>lupu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fresc<s n="n"/><s n="m"/></l><r>friscu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>coma<s n="n"/><s n="f"/></l><r>vìrgula<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>noces<s n="n"/><s n="f"/></l><r>coja<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+      <e><p><l>mutu<s n="adj"/></l><r>pari-pari<s n="adj"/><s n="ord"/></r></p><par n="GD+ND_mf+sp"/></e>
+      <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
+      <e><p><l>diable<s n="n"/><s n="m"/></l><r>diàulu<s n="n"/><s n="m"/></r></p></e>
 
 
 </section>
