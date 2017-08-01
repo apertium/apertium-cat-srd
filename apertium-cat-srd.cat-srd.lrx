@@ -443,4 +443,34 @@
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
+<!-- guàrdia > guàrdia, guardianu -->
+
+  <rule weight="0.6">
+     <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guàrdia" tags="n.*"><select lemma="guàrdia"/></match>
+     <match tags="adj.f.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.f.*"/>
+     <match lemma="guàrdia" tags="n.*"><select lemma="guàrdia"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match tags="det.*.f.*"/>
+     <match lemma="guàrdia" tags="n.*"><select lemma="guàrdia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
+     <match tags="adj.m.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.m.*"/>
+     <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match tags="det.*.m.*"/>
+     <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+
 </rules>

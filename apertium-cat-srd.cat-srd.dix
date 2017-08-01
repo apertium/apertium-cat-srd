@@ -3173,6 +3173,7 @@
       <e><p><l>molt<s n="preadv"/></l><r>meda<s n="preadv"/></r></p></e>
       <e><p><l>ben<s n="preadv"/></l><r>bene<s n="preadv"/></r></p></e>
       <e><p><l>tan<s n="preadv"/></l><r>tantu<s n="preadv"/></r></p></e>
+      <e><p><l>tan<s n="preadv"/></l><r>gasi<s n="preadv"/></r></p></e>
       <e r="RL"><p><l>tan<s n="preadv"/></l><r>gosi<s n="preadv"/></r></p></e>
       <e><p><l>bastant<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
       <e r="LR"><p><l>gaire<s n="preadv"/></l><r>tropu<s n="preadv"/></r></p></e>
@@ -4458,8 +4459,8 @@
       <e><p><l>retrat<s n="n"/><s n="m"/></l><r>ritratu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>videojoc<s n="n"/><s n="m"/></l><r>video-giogu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>observació<s n="n"/><s n="f"/></l><r>pompiadura<s n="n"/><s n="f"/></r></p></e>
-      <!-- <e><p><l>jaciment<s n="n"/><s n="m"/></l><r>bàtzinu<s n="n"/><s n="m"/></r></p></e> -->
-      <e><p><l>jaciment<s n="n"/><s n="m"/></l><r>istèrrida<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>jaciment<s n="n"/><s n="m"/></l><r>batzinu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>jaciment<s n="n"/><s n="m"/></l><r>istèrrida<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>disciplina<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>visible<s n="adj"/></l><r>visìbile<s n="adj"/></r></p></e>
       <e><p><l>fama<s n="n"/><s n="f"/></l><r>fama<s n="n"/><s n="f"/></r></p></e>
@@ -6746,6 +6747,9 @@
       <e><p><l>indicador<s n="n"/><s n="m"/></l><r>indicadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>autobús<s n="n"/><s n="m"/></l><r>postale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>guàrdia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>guardianu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>bàrdia<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>guàrdia<s n="n"/><s n="mf"/></l><r>bardianu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fantasma<s n="n"/><s n="mf"/></l><r>pantasma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acumulació<s n="n"/><s n="f"/></l><r>muntone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>prefecte<s n="n"/><s n="m"/></l><r>perfetu<s n="n"/><s n="m"/></r></p></e>
@@ -24806,8 +24810,8 @@
       <e><p><l>Compromís<s n="np"/><s n="al"/></l><r>Compromís<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Sant<b/>Gregori<s n="np"/><s n="loc"/></l><r>Sant<b/>Gregori<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>regressió<s n="n"/><s n="f"/></l><r>peoramentu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>Leonardo<b/>da<b/>Vinci<s n="np"/><s n="ant"/></l><r>Lenardu<b/>dae<b/>Vintzi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Roger<b/>de<b/>Llúria<s n="np"/><s n="ant"/></l><r>Ruggiero<b/>dae<b/>Làuria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Leonardo<b/>da<b/>Vinci<s n="np"/><s n="ant"/></l><r>Lenardu<b/>de<b/>Vintzi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Roger<b/>de<b/>Llúria<s n="np"/><s n="ant"/></l><r>Ruggiero<b/>de<b/>Làuria<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Vitruvi<s n="np"/><s n="ant"/></l><r>Vitrùviu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>fer<g><b/>costat</g><s n="vblex"/></l><r>acostagiare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>fer<g><b/>costat</g><s n="vblex"/></l><r>afiantzare<s n="vblex"/></r></p></e>
