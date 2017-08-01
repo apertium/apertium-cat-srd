@@ -445,6 +445,8 @@
       <list-item v="bàlere"/>
       <list-item v="sèere"/>
       <list-item v="pròere"/>
+      <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
+      <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
 <!--      <list-item v="torrare"/> cas especial -->
     </def-list>
     <def-list n="familiars">

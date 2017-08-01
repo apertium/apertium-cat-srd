@@ -314,7 +314,9 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'matessi__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/><s n=\"mf\"/></l><r>%s<s n=\"adj\"/><s n=\"mf\"/></r></p><par n=\"ND_sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'afectu/ós__adj' && $par_srd eq 'matessi__adj') {
-				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/><s n=\"mf\"/></l><r>%s<s n=\"adj\"/><s n=\"mf\"/></r></p><par n=\"GD+ND_mf+sp\"/></e>\n", $stem_cat, $stem_srd;
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD+ND_mf+sp\"/></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'afortuna/t__adj' && $par_srd eq 'matessi__adj') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"GD+ND_mf+sp\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'cunservador/e__adj') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"adj\"/></l><r>%s<s n=\"adj\"/></r></p><par n=\"mf_GD\"/></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'abdominal__adj' && $par_srd eq 'frantzes/u__adj') {
