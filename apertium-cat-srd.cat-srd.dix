@@ -924,7 +924,9 @@
     <e><p><l>control<s n="n"/><s n="m"/></l><r>controllu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>model<s n="n"/><s n="mf"/></l><r>modellu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>resultat<s n="n"/><s n="m"/></l><r>resurtadu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>frigorífic<s n="n"/><s n="m"/></l><r>frigorìferu<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>resultat<s n="n"/><s n="f"/></l><r>risultadu<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>frigorífic<s n="n"/><s n="m"/></l><r>frigorìferu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nevera<s n="n"/><s n="m"/></l><r>frigorìferu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>títol<s n="n"/><s n="m"/></l><r>tìtulu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>càlcul<s n="n"/><s n="m"/></l><r>càlculu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>registre<s n="n"/><s n="m"/></l><r>registru<s n="n"/><s n="m"/></r></p></e>
@@ -938,6 +940,7 @@
     <e><p><l>àbac<s n="n"/><s n="m"/></l><r>àbacu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>continent<s n="n"/><s n="m"/></l><r>continente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bilingüisme<s n="n"/><s n="m"/></l><r>bilinguismu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>trilingüisme<s n="n"/><s n="m"/></l><r>trilinguismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>confederació<s n="n"/><s n="f"/></l><r>confederatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vista<s n="n"/><s n="f"/></l><r>vista<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>comunista<s n="n"/><s n="mf"/></l><r>comunista<s n="n"/><s n="mf"/></r></p></e>
@@ -1183,6 +1186,7 @@
     <e><p><l>clític<s n="n"/><s n="m"/></l><r>clìticu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>estudi<s n="n"/><s n="m"/></l><r>aprendimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>matèria<s n="n"/><s n="f"/></l><r>matèria<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>antimatèria<s n="n"/><s n="f"/></l><r>antimatèria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>natura<s n="n"/><s n="f"/></l><r>natura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>memòria<s n="n"/><s n="f"/></l><r>memòria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>combinació<s n="n"/><s n="f"/></l><r>cumbinatzione<s n="n"/><s n="f"/></r></p></e>
@@ -3172,7 +3176,7 @@
 
       <e><p><l>molt<s n="preadv"/></l><r>meda<s n="preadv"/></r></p></e>
       <e><p><l>ben<s n="preadv"/></l><r>bene<s n="preadv"/></r></p></e>
-      <e><p><l>tan<s n="preadv"/></l><r>tantu<s n="preadv"/></r></p></e>
+      <e r="RL"><p><l>tan<s n="preadv"/></l><r>tantu<s n="preadv"/></r></p></e>
       <e><p><l>tan<s n="preadv"/></l><r>gasi<s n="preadv"/></r></p></e>
       <e r="RL"><p><l>tan<s n="preadv"/></l><r>gosi<s n="preadv"/></r></p></e>
       <e><p><l>bastant<s n="preadv"/></l><r>bastante<s n="preadv"/></r></p></e>
@@ -4126,7 +4130,7 @@
       <e><p><l>imperial<s n="adj"/></l><r>imperiale<s n="adj"/></r></p></e>
       <e><p><l>armar<s n="vblex"/></l><r>armare<s n="vblex"/></r></p></e>
       <e><p><l>restaurar<s n="vblex"/></l><r>acontzare<s n="vblex"/></r></p></e>
-      <e><p><l>ajut<s n="n"/><s n="m"/></l><r>agiudu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>ajut<s n="n"/><s n="m"/></l><r>agiudu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>musulmà<s n="adj"/></l><r>musulmanu<s n="adj"/></r></p></e>
       <e><p><l>esquerra<s n="n"/><s n="f"/></l><r>manca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tomba<s n="n"/><s n="f"/></l><r>tumba<s n="n"/><s n="f"/></r></p></e>
@@ -4665,7 +4669,7 @@
       <e><p><l>estàndard<s n="n"/><s n="m"/></l><r>istandard<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>prometre<s n="vblex"/></l><r>promìtere<s n="vblex"/></r></p></e>
       <e><p><l>cuina<s n="n"/><s n="f"/></l><r>coghina<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>resulta<s n="n"/><s n="f"/></l><r>risultadu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>resulta<s n="n"/><s n="f"/></l><r>risultadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>separació<s n="n"/><s n="f"/></l><r>separatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>privilegi<s n="n"/><s n="m"/></l><r>privilègiu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>parroquial<s n="adj"/></l><r>parrochiale<s n="adj"/></r></p></e>
@@ -18294,6 +18298,8 @@
       <e><p><l>Térmens<s n="np"/><s n="cog"/></l><r>Térmens<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Termes<s n="np"/><s n="cog"/></l><r>Termes<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Terol<s n="np"/><s n="cog"/></l><r>Terol<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Terol<s n="np"/><s n="loc"/></l><r>Teruel<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Osca<s n="np"/><s n="loc"/></l><r>Huesca<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Terradas<s n="np"/><s n="cog"/></l><r>Terradas<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Terradellas<s n="np"/><s n="cog"/></l><r>Terradellas<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Terrades<s n="np"/><s n="cog"/></l><r>Terrades<s n="np"/><s n="cog"/></r></p></e>
@@ -21841,47 +21847,47 @@
       <e><p><l>tipològic<s n="adj"/></l><r>tipològicu<s n="adj"/></r></p></e>
       <e><p><l>unànime<s n="adj"/><s n="mf"/></l><r>unànime<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>venerable<s n="adj"/><s n="mf"/></l><r>veneràbile<s n="adj"/><s n="mf"/></r></p></e>
-      <e r="RL"><p><l>anestesista<s n="n"/></l><r>anestesista<s n="n"/></r></p></e>
-      <e><p><l>anticomunista<s n="n"/></l><r>anticomunista<s n="n"/></r></p></e>
-      <e><p><l>antimilitarista<s n="n"/></l><r>antimilitarista<s n="n"/></r></p></e>
-      <e><p><l>automobilista<s n="n"/></l><r>automobilista<s n="n"/></r></p></e>
-      <e><p><l>castrista<s n="n"/></l><r>castrista<s n="n"/></r></p></e>
-      <e><p><l>catalanista<s n="n"/></l><r>catalanista<s n="n"/></r></p></e>
-      <e><p><l>colonialista<s n="n"/></l><r>colonialista<s n="n"/></r></p></e>
-      <e><p><l>congressista<s n="n"/></l><r>cungressista<s n="n"/></r></p></e>
-      <e><p><l>consumista<s n="n"/></l><r>consumista<s n="n"/></r></p></e>
+      <e r="RL"><p><l>anestesista<s n="n"/><s n="mf"/></l><r>anestesista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>anticomunista<s n="n"/><s n="mf"/></l><r>anticomunista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>antimilitarista<s n="n"/><s n="mf"/></l><r>antimilitarista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>automobilista<s n="n"/><s n="mf"/></l><r>automobilista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>castrista<s n="n"/><s n="mf"/></l><r>castrista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>catalanista<s n="n"/><s n="mf"/></l><r>catalanista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>colonialista<s n="n"/><s n="mf"/></l><r>colonialista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>congressista<s n="n"/><s n="mf"/></l><r>cungressista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>consumista<s n="n"/><s n="mf"/></l><r>consumista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>cristalleria<s n="n"/><s n="f"/></l><r>cristalleria<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>cubista<s n="n"/></l><r>cubista<s n="n"/></r></p></e>
-      <e><p><l>darwinista<s n="n"/></l><r>darwinista<s n="n"/></r></p></e>
-      <e><p><l>ecologista<s n="n"/></l><r>ecologista<s n="n"/></r></p></e>
-      <e><p><l>elitista<s n="n"/></l><r>elitista<s n="n"/></r></p></e>
-      <e><p><l>esperantista<s n="n"/></l><r>esperantista<s n="n"/></r></p></e>
-      <e><p><l>federalista<s n="n"/></l><r>federalista<s n="n"/></r></p></e>
-      <e><p><l>feminista<s n="n"/></l><r>feminista<s n="n"/></r></p></e>
-      <e><p><l>fonetista<s n="n"/></l><r>fonetista<s n="n"/></r></p></e>
-      <e><p><l>futurista<s n="n"/></l><r>futurista<s n="n"/></r></p></e>
-      <e><p><l>idealista<s n="n"/></l><r>idealista<s n="n"/></r></p></e>
-      <e><p><l>imperialista<s n="n"/></l><r>imperialista<s n="n"/></r></p></e>
-      <e><p><l>impressionista<s n="n"/></l><r>impressionista<s n="n"/></r></p></e>
-      <e><p><l>individualista<s n="n"/></l><r>individualista<s n="n"/></r></p></e>
-      <e><p><l>integrista<s n="n"/></l><r>integrista<s n="n"/></r></p></e>
-      <e><p><l>materialista<s n="n"/></l><r>materialista<s n="n"/></r></p></e>
-      <e><p><l>miniaturista<s n="n"/></l><r>miniaturista<s n="n"/></r></p></e>
-      <e><p><l>moralista<s n="n"/></l><r>moralista<s n="n"/></r></p></e>
-      <e><p><l>motorista<s n="n"/></l><r>motorista<s n="n"/></r></p></e>
-      <e><p><l>naturista<s n="n"/></l><r>naturista<s n="n"/></r></p></e>
-      <e><p><l>peronista<s n="n"/></l><r>peronista<s n="n"/></r></p></e>
-      <e><p><l>pluralista<s n="n"/></l><r>pluralista<s n="n"/></r></p></e>
-      <e><p><l>populista<s n="n"/></l><r>populista<s n="n"/></r></p></e>
-      <e><p><l>postcomunista<s n="n"/></l><r>postcomunista<s n="n"/></r></p></e>
-      <e><p><l>propagandista<s n="n"/></l><r>propagandista<s n="n"/></r></p></e>
-      <e><p><l>purista<s n="n"/></l><r>purista<s n="n"/></r></p></e>
-      <e><p><l>regionalista<s n="n"/></l><r>regionalista<s n="n"/></r></p></e>
-      <e><p><l>sandinista<s n="n"/></l><r>sandinista<s n="n"/></r></p></e>
-      <e><p><l>separatista<s n="n"/></l><r>separatista<s n="n"/></r></p></e>
-      <e><p><l>surrealista<s n="n"/></l><r>surrealista<s n="n"/></r></p></e>
-      <e><p><l>telefonista<s n="n"/></l><r>telefonista<s n="n"/></r></p></e>
-      <e><p><l>vocalista<s n="n"/></l><r>vocalista<s n="n"/></r></p></e>
+      <e><p><l>cubista<s n="n"/><s n="mf"/></l><r>cubista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>darwinista<s n="n"/><s n="mf"/></l><r>darwinista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>ecologista<s n="n"/><s n="mf"/></l><r>ecologista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>elitista<s n="n"/><s n="mf"/></l><r>elitista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>esperantista<s n="n"/><s n="mf"/></l><r>esperantista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>federalista<s n="n"/><s n="mf"/></l><r>federalista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>feminista<s n="n"/><s n="mf"/></l><r>feminista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>fonetista<s n="n"/><s n="mf"/></l><r>fonetista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>futurista<s n="n"/><s n="mf"/></l><r>futurista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>idealista<s n="n"/><s n="mf"/></l><r>idealista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>imperialista<s n="n"/><s n="mf"/></l><r>imperialista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>impressionista<s n="n"/><s n="mf"/></l><r>impressionista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>individualista<s n="n"/><s n="mf"/></l><r>individualista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>integrista<s n="n"/><s n="mf"/></l><r>integrista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>materialista<s n="n"/><s n="mf"/></l><r>materialista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>miniaturista<s n="n"/><s n="mf"/></l><r>miniaturista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>moralista<s n="n"/><s n="mf"/></l><r>moralista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>motorista<s n="n"/><s n="mf"/></l><r>motorista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>naturista<s n="n"/><s n="mf"/></l><r>naturista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>peronista<s n="n"/><s n="mf"/></l><r>peronista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>pluralista<s n="n"/><s n="mf"/></l><r>pluralista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>populista<s n="n"/><s n="mf"/></l><r>populista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>postcomunista<s n="n"/><s n="mf"/></l><r>postcomunista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>propagandista<s n="n"/><s n="mf"/></l><r>propagandista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>purista<s n="n"/><s n="mf"/></l><r>purista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>regionalista<s n="n"/><s n="mf"/></l><r>regionalista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>sandinista<s n="n"/><s n="mf"/></l><r>sandinista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>separatista<s n="n"/><s n="mf"/></l><r>separatista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>surrealista<s n="n"/><s n="mf"/></l><r>surrealista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>telefonista<s n="n"/><s n="mf"/></l><r>telefonista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>vocalista<s n="n"/><s n="mf"/></l><r>vocalista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>abdicació<s n="n"/><s n="f"/></l><r>abdicatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>aberració<s n="n"/><s n="f"/></l><r>aberratzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ablació<s n="n"/><s n="f"/></l><r>ablatzione<s n="n"/><s n="f"/></r></p></e>
@@ -23440,7 +23446,7 @@
       <e><p><l>faristol<s n="n"/><s n="m"/></l><r>faristolu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>faràndula<s n="n"/><s n="f"/></l><r>faràndula<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>favada<s n="n"/><s n="f"/></l><r>fasolada<s n="n"/><s n="f"/></r></p></e>
-      <e r="RL"><p><l>feminista<s n="n"/></l><r>femminista<s n="n"/></r></p></e>
+      <e r="RL"><p><l>feminista<s n="n"/><s n="mf"/></l><r>femminista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>fera<s n="n"/><s n="f"/></l><r>fera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ferida<s n="n"/><s n="f"/></l><r>ferida<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ferida<s n="n"/><s n="f"/></l><r>ferta<s n="n"/><s n="f"/></r></p></e>
@@ -24145,6 +24151,7 @@
       <e r="RL"><p><l>prolífic<s n="adj"/></l><r>criongianu<s n="adj"/></r></p></e>
       <e><p><l>opinar<s n="vblex"/></l><r>dare<g><b/>unu<b/>parre</g><s n="vblex"/></r></p></e>
       <e><p><l>bilingüe<s n="adj"/></l><r>bilìngue<s n="adj"/></r></p></e>
+      <e><p><l>trilingüe<s n="adj"/></l><r>trilìngue<s n="adj"/></r></p></e>
       <e><p><l>desigual<s n="adj"/></l><r>diferente<s n="adj"/></r></p></e>
       <e><p><l>dirigent<s n="adj"/></l><r>dirigente<s n="adj"/></r></p></e>
       <e><p><l>vestíbul<s n="n"/><s n="m"/></l><r>bestidura<s n="n"/><s n="f"/></r></p></e>
@@ -24994,7 +25001,6 @@
       <e><p><l>secà<s n="n"/><s n="m"/></l><r>sicu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/></r></p></e>
       <e><p><l>arxiducal<s n="adj"/></l><r>archiducale<s n="adj"/></r></p></e>
-      <e><p><l>ducat<s n="n"/><s n="m"/></l><r>ducadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arxiducat<s n="n"/><s n="m"/></l><r>archiducadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>paràsit<s n="n"/><s n="m"/></l><r>parassitu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Prim<s n="np"/><s n="cog"/></l><r>Prim<s n="np"/><s n="cog"/></r></p></e>
@@ -25072,7 +25078,32 @@
       <e><p><l>comentarista<s n="n"/></l><r>cummentadore<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>estadístic<s n="n"/><s n="m"/></l><r>istatìsticu<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>estadístic<s n="n"/><s n="f"/></l><r>istatìstica<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>besar<s n="vblex"/></l><r>basare<s n="vblex"/></r></p></e>
+
+      <e r="RL"><p><l>ascensió<s n="n"/><s n="f"/></l><r>ascensione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>autogestió<s n="n"/><s n="f"/></l><r>autogestione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>col·lisió<s n="n"/><s n="f"/></l><r>collisione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>comissió<s n="n"/><s n="f"/></l><r>commissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>compassió<s n="n"/><s n="f"/></l><r>compassione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>concussió<s n="n"/><s n="f"/></l><r>concussione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contorsió<s n="n"/><s n="f"/></l><r>contorsione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>convulsió<s n="n"/><s n="f"/></l><r>convulsione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>comissió<s n="n"/><s n="f"/></l><r>cummissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>compassió<s n="n"/><s n="f"/></l><r>cumpassione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>congestió<s n="n"/><s n="f"/></l><r>cungestione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>digressió<s n="n"/><s n="f"/></l><r>digressione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>evasió<s n="n"/><s n="f"/></l><r>evasione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>indigestió<s n="n"/><s n="f"/></l><r>indigestione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>escissió<s n="n"/><s n="f"/></l><r>iscissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>perversió<s n="n"/><s n="f"/></l><r>perversione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>possessió<s n="n"/><s n="f"/></l><r>possessione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>rebel·lió<s n="n"/><s n="f"/></l><r>rebellione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reclusió<s n="n"/><s n="f"/></l><r>reclusione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reconversió<s n="n"/><s n="f"/></l><r>reconversione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>remissió<s n="n"/><s n="f"/></l><r>remissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>rondó<s n="n"/><s n="m"/></l><r>rondone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>usucapió<s n="n"/><s n="f"/></l><r>usucapione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>pertinència<s n="n"/><s n="f"/></l><r>pertinèntzia<s n="n"/><s n="f"/></r></p></e>
+
 
 </section>
 </dictionary>

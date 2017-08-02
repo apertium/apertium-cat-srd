@@ -70,6 +70,9 @@
 <def-cat n="hi">
    <cat-item lemma="hi" tags="prn.pro.adv"/>
 </def-cat>
+<def-cat n="es">
+   <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
+</def-cat>
 <def-cat n="algun_prn">
    <cat-item lemma="algun" tags="prn.*"/>
 </def-cat>
@@ -105,6 +108,13 @@
    <cat-item lemma="haver" tags="vbhaver.ger"/>
    <cat-item lemma="haver" tags="vbhaver.pp.*"/>
 -->
+</def-cat>
+<def-cat n="haver-tmp-srd-cnj-p3">	<!-- verb amb els temps verbals conjugats (amb persona) del sard (sense cni, ifi, fti) -->
+   <cat-item lemma="haver" tags="vbhaver.pri.p3.*"/>
+   <cat-item lemma="haver" tags="vbhaver.prs.p3.*"/>
+   <cat-item lemma="haver" tags="vbhaver.pii.p3.*"/>
+   <cat-item lemma="haver" tags="vbhaver.pis.p3.*"/>
+   <cat-item lemma="haver" tags="vbhaver.imp.p3.*"/>
 </def-cat>
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
@@ -4350,6 +4360,48 @@
 </rule>
 
 
+<!--
+<rule comment="regla: es haver pp">
+   <pattern>
+     <pattern-item n="es"/>
+     <pattern-item n="haver-tmp-srd-cnj-p3"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="prn_aux_pp">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="èssere"/>
+             <lit-tag v="vbser"/>
+             <clip pos="2" side="tl" part="temps"/>
+             <clip pos="2" side="tl" part="pers"/>
+             <clip pos="2" side="tl" part="nbr"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_verb"/>
+             <lit-tag v="pp"/>
+             <clip pos="3" side="tl" part="gen"/>		- FIXME -
+             <clip pos="2" side="tl" part="nbr"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+-->
+
+
 <rule comment="regla: haver-ifi pp">
    <pattern>
      <pattern-item n="haver-ifi"/>
@@ -4641,6 +4693,69 @@
 </rule>
 
 
+<!--
+<rule comment="regla: es haver pp adjec">
+   <pattern>
+     <pattern-item n="es"/>
+     <pattern-item n="haver-tmp-srd-cnj-p3"/>
+     <pattern-item n="pp"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>     
+     <choose>
+       <when> 
+         <test>
+           <or>
+             <equal><clip pos="4" side="sl" part="gen"/><lit-tag v="m"/></equal>
+             <equal><clip pos="4" side="sl" part="gen"/><lit-tag v="f"/></equal>
+           </or>
+         </test>
+           <let><clip pos="3" side="tl" part="gen"/><clip pos="4" side="sl" part="gen"/></let>
+       </when> 
+     </choose>
+     <out>
+       <chunk name="prn_aux_pp_adj">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="èssere"/>
+             <lit-tag v="vbser"/>
+             <clip pos="2" side="tl" part="temps"/>
+             <clip pos="2" side="tl" part="pers"/>
+             <clip pos="2" side="tl" part="nbr"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_verb"/>
+             <lit-tag v="pp"/>
+             <clip pos="3" side="tl" part="gen"/>
+             <clip pos="2" side="tl" part="nbr"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+-->
+
+
 <rule comment="regla: haver pp adv adj">
    <pattern>
      <pattern-item n="haver"/>
@@ -4658,7 +4773,7 @@
        <with-param pos="4"/>
      </call-macro>
      <out>
-       <chunk name="aux_pp_adj">
+       <chunk name="aux_pp_adv_adj">
          <tags>
            <tag><lit-tag v="SV"/></tag>
          </tags>
@@ -4690,6 +4805,76 @@
      </out>
    </action>
 </rule>
+
+
+<!--
+<rule comment="regla: es haver pp adv adjec">
+   <pattern>
+     <pattern-item n="es"/>
+     <pattern-item n="haver-tmp-srd-cnj-p3"/>
+     <pattern-item n="pp"/>
+     <pattern-item n="adv_preadv"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="5"/>
+     </call-macro>     
+     <choose>
+       <when> 
+         <test>
+           <or>
+             <equal><clip pos="5" side="sl" part="gen"/><lit-tag v="m"/></equal>
+             <equal><clip pos="5" side="sl" part="gen"/><lit-tag v="f"/></equal>
+           </or>
+         </test>
+           <let><clip pos="3" side="tl" part="gen"/><clip pos="5" side="sl" part="gen"/></let>
+       </when> 
+     </choose>
+     <out>
+       <chunk name="prn_aux_pp_adv_aj">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="èssere"/>
+             <lit-tag v="vbser"/>
+             <clip pos="2" side="tl" part="temps"/>
+             <clip pos="2" side="tl" part="pers"/>
+             <clip pos="2" side="tl" part="nbr"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="a_verb"/>
+             <lit-tag v="pp"/>
+             <clip pos="3" side="tl" part="gen"/>
+             <clip pos="2" side="tl" part="nbr"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="5" side="tl" part="lemh"/>
+             <clip pos="5" side="tl" part="tags"/>
+             <clip pos="5" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+-->
 
 
 <rule comment="regla: anar_pri inf">
