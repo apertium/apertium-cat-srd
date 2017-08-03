@@ -912,6 +912,7 @@
     <e><p><l>institució<s n="n"/><s n="f"/></l><r>istitutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>interpretació<s n="n"/><s n="f"/></l><r>interpretatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fundació<s n="n"/><s n="f"/></l><r>fundatzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>refundació<s n="n"/><s n="f"/></l><r>rifundatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>disposició<s n="n"/><s n="f"/></l><r>dispositzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>direcció<s n="n"/><s n="f"/></l><r>diretzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>confessió<s n="n"/><s n="f"/></l><r>cunfessione<s n="n"/><s n="f"/></r></p></e>
@@ -928,7 +929,10 @@
     <e r="LR"><p><l>frigorífic<s n="n"/><s n="m"/></l><r>frigorìferu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nevera<s n="n"/><s n="m"/></l><r>frigorìferu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>títol<s n="n"/><s n="m"/></l><r>tìtulu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>càlcul<s n="n"/><s n="m"/></l><r>càlculu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>càlcul<s n="n"/><s n="m"/></l><r>càrculu<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>càlcul<s n="n"/><s n="m"/></l><r>càlculu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>recàlcul<s n="n"/><s n="m"/></l><r>ricàrculu<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>recàlcul<s n="n"/><s n="m"/></l><r>ricàlculu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>registre<s n="n"/><s n="m"/></l><r>registru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>circuit<s n="n"/><s n="m"/></l><r>tzircuidu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>complement<s n="n"/><s n="m"/></l><r>cumplementu<s n="n"/><s n="m"/></r></p></e>
@@ -1230,7 +1234,8 @@
     <e><p><l>emissor<s n="n"/><s n="f"/></l><r>emitente<s n="n"/><s n="mf"/></r></p></e>
     <e r="LR"><p><l>emissor<s n="n"/><s n="m"/></l><r>emitente<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>diari<s n="n"/><s n="m"/></l><r>cuotidianu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>recurs<s n="n"/><s n="m"/></l><r>resursa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>recurs<s n="n"/><s n="m"/></l><r>risorsa<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>recurs<s n="n"/><s n="m"/></l><r>resursa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>espècie<s n="n"/><s n="f"/></l><r>casta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>víctima<s n="n"/><s n="f"/></l><r>vìtima<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>atenció<s n="n"/><s n="f"/></l><r>atentzione<s n="n"/><s n="f"/></r></p></e>
@@ -1242,6 +1247,9 @@
     <e><p><l>constitució<s n="n"/><s n="f"/></l><r>costitutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>condició<s n="n"/><s n="f"/></l><r>cunditzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>definició<s n="n"/><s n="f"/></l><r>definitzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>redefinició<s n="n"/><s n="f"/></l><r>ridefinitzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>capitalització<s n="n"/><s n="f"/></l><r>capitalizatzione<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>recapitalització<s n="n"/><s n="f"/></l><r>ricapitalizatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>evolució<s n="n"/><s n="f"/></l><r>evolutzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>finalitat<s n="n"/><s n="f"/></l><r>finalidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>funció<s n="n"/><s n="f"/></l><r>funtzione<s n="n"/><s n="f"/></r></p></e>
@@ -1600,7 +1608,7 @@
     <e><p><l>propietat<s n="n"/><s n="f"/></l><r>propiedade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>representant<s n="n"/><s n="mf"/></l><r>rapresentante<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>raça<s n="n"/><s n="f"/></l><r>ratza<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>recurs<s n="n"/><s n="m"/></l><r>recursu<s n="n"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>recurs<s n="n"/><s n="m"/></l><r>recursu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>respecte<s n="n"/><s n="m"/></l><r>respetu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>reunió<s n="n"/><s n="f"/></l><r>reunione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>riquesa<s n="n"/><s n="f"/></l><r>richesa<s n="n"/><s n="f"/></r></p></e>
@@ -2736,7 +2744,7 @@
     <e><p><l>portar<s n="vblex"/></l><r>batire<s n="vblex"/></r></p></e>
     <e><p><l>recuperar<s n="vblex"/></l><r>recuberare<s n="vblex"/></r></p></e>
     <e><p><l>fundar<s n="vblex"/></l><r>fundare<s n="vblex"/></r></p></e>
-    <e><p><l>fundar<s n="vblex"/></l><r>torrare<g><b/>a<b/>fundare</g><s n="vblex"/></r></p></e>
+    <e><p><l>refundar<s n="vblex"/></l><r>torrare<g><b/>a<b/>fundare</g><s n="vblex"/></r></p></e>
     <e><p><l>passar<s n="vblex"/></l><r>passare<s n="vblex"/></r></p></e>
     <e><p><l>realitzar<s n="vblex"/></l><r>realizare<s n="vblex"/></r></p></e>
     <e><p><l>continuar<s n="vblex"/></l><r>continuare<s n="vblex"/></r></p></e>
@@ -2943,7 +2951,6 @@
     <e><p><l>escoltar<s n="vblex"/></l><r>ascurtare<s n="vblex"/></r></p></e>
     <e><p><l>activar<s n="vblex"/></l><r>ativare<s n="vblex"/></r></p></e>
     <e><p><l>viatjar<s n="vblex"/></l><r>biagiare<s n="vblex"/></r></p></e>
-    <e><p><l>viure<s n="vblex"/></l><r>bìdere<s n="vblex"/></r></p></e>
     <e><p><l>vèncer<s n="vblex"/></l><r>bìnchere<s n="vblex"/></r></p></e>
     <e><p><l>manejar<s n="vblex"/></l><r>campare<s n="vblex"/></r></p></e>
     <e><p><l>cobrar<s n="vblex"/></l><r>cobèrrere<s n="vblex"/></r></p></e>
@@ -3683,6 +3690,7 @@
       <e r="RL"><p><l>etc.<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
       <e><p><l>comarca<s n="n"/><s n="f"/></l><r>contrada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>personatge<s n="n"/><s n="m"/></l><r>personàgiu<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>disputar<s n="vblex"/></l><r>disputare<s n="vblex"/></r></p></e>
       <e><p><l>disputar<s n="vblex"/></l><r>cuntierrare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>disputar<s n="vblex"/></l><r>chertare<s n="vblex"/></r></p></e>
       <e><p><l>carrera<s n="n"/><s n="f"/></l><r>carriera<s n="n"/><s n="f"/></r></p></e>
@@ -3905,6 +3913,7 @@
       <e><p><l>cèl·lula<s n="n"/><s n="f"/></l><r>tzèllula<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>hivern<s n="n"/><s n="m"/></l><r>ierru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>químic<s n="adj"/></l><r>chìmicu<s n="adj"/></r></p></e>
+      <e><p><l>bioquímic<s n="adj"/></l><r>biochìmicu<s n="adj"/></r></p></e>
       <e><p><l>designar<s n="vblex"/></l><r>designare<s n="vblex"/></r></p></e>
       <e><p><l>nord-est<s n="n"/><s n="m"/></l><r>nord-est<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>imperi<s n="n"/><s n="m"/></l><r>impèriu<s n="n"/><s n="m"/></r></p></e>
@@ -3932,6 +3941,7 @@
       <e><p><l>investigació<s n="n"/><s n="f"/></l><r>chirca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>diputat<s n="n"/></l><r>deputadu<s n="n"/></r></p></e>
       <e><p><l>començament<s n="n"/><s n="m"/></l><r>cumintzu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>recomençament<s n="n"/><s n="m"/></l><r>riinìtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>individual<s n="adj"/></l><r>individuale<s n="adj"/></r></p></e>
       <e><p><l>en<b/>general<s n="adv"/></l><r>in<b/>generale<s n="adv"/></r></p></e>
       <e><p><l>flor<s n="n"/><s n="f"/></l><r>frore<s n="n"/><s n="m"/></r></p></e>
@@ -4499,7 +4509,9 @@
       <e><p><l>realment<s n="adv"/></l><r>a<b/>beru<s n="adv"/></r></p></e>
       <e><p><l>au<s n="n"/><s n="f"/></l><r>pugione<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>resistir<s n="vblex"/></l><r>aguantare<s n="vblex"/></r></p></e>
-      <e><p><l>bit<s n="n"/><s n="m"/></l><r>bit<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bit<s n="n"/><s n="m"/></l><r>bit<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>karate<s n="n"/><s n="m"/></l><r>karate<s n="n"/><s n="m"/></r></p><par n="ND_sg"/></e>
+      <e><p><l>judo<s n="n"/><s n="m"/></l><r>judo<s n="n"/><s n="m"/></r></p><par n="ND_sg"/></e>
       <e><p><l>noblesa<s n="n"/><s n="f"/></l><r>nobilesa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>saquejar<s n="vblex"/></l><r>assachigiare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>saquejar<s n="vblex"/></l><r>isrobare<s n="vblex"/></r></p></e>
@@ -6824,6 +6836,7 @@
       <e><p><l>gegant<s n="n"/></l><r>gigante<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>associat<s n="n"/><s n="m"/></l><r>sòtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>conductor<s n="n"/></l><r>autista<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>conductor<s n="adj"/></l><r>condutore<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>Frankfurt<s n="np"/><s n="loc"/></l><r>Francoforte<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Ginebra<s n="np"/><s n="loc"/></l><r>Ginevra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>pantà<s n="n"/><s n="m"/></l><r>pantamu<s n="n"/><s n="m"/></r></p></e>
@@ -22071,9 +22084,11 @@
       <e><p><l>organ<s n="n"/><s n="m"/></l><r>òrganu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>hola<s n="ij"/></l><r>salude<s n="ij"/></r></p></e>
       <e><p><l>química<s n="n"/><s n="f"/></l><r>chìmica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bioquímica<s n="n"/><s n="f"/></l><r>biochìmica<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>patriarca<s n="n"/><s n="m"/></l><r>patriarca<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>matriarca<s n="n"/><s n="f"/></l><r>patriarca<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>gramàtic<s n="n"/><s n="f"/></l><r>grammàtica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>gramàtic<s n="n"/><s n="m"/></l><r>grammàticu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>examen<s n="n"/><s n="m"/></l><r>esame<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>elefant<s n="n"/><s n="m"/></l><r>elefante<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Cervera<s n="np"/><s n="loc"/></l><r>Cervera<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -22082,7 +22097,8 @@
       <e><p><l>reactor<s n="n"/><s n="m"/></l><r>reatore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mag<s n="n"/></l><r>magu<s n="n"/></r></p></e>
       <e><p><l>conill<s n="n"/><s n="m"/></l><r>cunìlliu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>sarraí<s n="n"/><s n="m"/></l><r>saratzenu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sarraí<s n="n"/></l><r>saratzenu<s n="n"/></r></p></e>
+      <e><p><l>sarraí<s n="adj"/></l><r>saratzenu<s n="adj"/></r></p></e>
 
       <e><p><l>propietari<s n="n"/></l><r>mere<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>aleatori<s n="adj"/></l><r>aleatòriu<s n="adj"/></r></p></e>
@@ -24346,7 +24362,7 @@
       <e><p><l>isòtop<s n="n"/><s n="m"/></l><r>isòtopu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mobilitzar<s n="vblex"/></l><r>mobilitare<s n="vblex"/></r></p></e>
       <e><p><l>judaisme<s n="n"/><s n="m"/><s n="sg"/></l><r>giudaismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>informàtic<s n="n"/><s n="m"/></l><r>informàticu<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>informàtic<s n="n"/><s n="m"/></l><r>informàticu<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>informàtic<s n="n"/><s n="f"/></l><r>informàtica<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>neolític<s n="n"/><s n="m"/></l><r>neolìticu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>il·lustre<s n="adj"/></l><r>illustre<s n="adj"/></r></p><par n="sup_0_mf"/></e>
@@ -24993,10 +25009,10 @@
       <e><p><l>mutu<s n="adj"/></l><r>pari-pari<s n="adj"/><s n="ord"/></r></p><par n="GD+ND_mf+sp"/></e>
       <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
       <e><p><l>diable<s n="n"/><s n="m"/></l><r>diàulu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>saxó<s n="adj"/></l><r>sàssone<s n="adj"/></r></p></e>
-      <e><p><l>anglosaxó<s n="adj"/></l><r>anglosàssone<s n="adj"/></r></p></e>
-      <e><p><l>saxó<s n="n"/></l><r>sàssone<s n="n"/></r></p></e>
-      <e><p><l>anglosaxó<s n="n"/></l><r>anglosàssone<s n="n"/></r></p></e>
+      <e><p><l>saxó<s n="adj"/></l><r>sàssone<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>anglosaxó<s n="adj"/></l><r>anglosàssone<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>saxó<s n="n"/></l><r>sàssone<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>anglosaxó<s n="n"/></l><r>anglosàssone<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>secà<s n="n"/><s n="m"/></l><r>sicu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ducal<s n="adj"/></l><r>ducale<s n="adj"/></r></p></e>
       <e><p><l>arxiducal<s n="adj"/></l><r>archiducale<s n="adj"/></r></p></e>
@@ -25017,6 +25033,7 @@
       <e><p><l>botànic<s n="n"/></l><r>botànicu<s n="n"/></r></p></e>
       <e><p><l>processador<s n="n"/><s n="m"/></l><r>protzessadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>químic<s n="n"/></l><r>chìmicu<s n="n"/></r></p></e>
+      <e><p><l>bioquímic<s n="n"/></l><r>biochìmicu<s n="n"/></r></p></e>
       <e><p><l>senyor<s n="n"/></l><r>sennore<s n="n"/></r></p></e>
       <e><p><l>futbolista<s n="n"/></l><r>giogadore<g><b/>de<b/>fùbalu</g><s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>èmfasi<s n="n"/><s n="mf"/></l><r>ènfasi<s n="n"/><s n="f"/></r></p></e>
@@ -25119,343 +25136,343 @@
       <e><p><l>plurilingüe<s n="adj"/><s n="mf"/></l><r>plurilìngue<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>biennal<s n="adj"/><s n="mf"/></l><r>biennale<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>monoteista<s n="adj"/><s n="mf"/></l><r>monoteista<s n="adj"/><s n="mf"/></r></p></e>
-      <e><p><l>agilitat<s n="n"/><s n="f"/></l><r>agilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>anualitat<s n="n"/><s n="f"/></l><r>annualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>anul·labilitat<s n="n"/><s n="f"/></l><r>annullabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>ansietat<s n="n"/><s n="f"/></l><r>ansiedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>antítesi<s n="n"/><s n="f"/></l><r>antìtesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>arbitrarietat<s n="n"/><s n="f"/></l><r>arbitrariedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>agilitat<s n="n"/><s n="f"/></l><r>agilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anualitat<s n="n"/><s n="f"/></l><r>annualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anul·labilitat<s n="n"/><s n="f"/></l><r>annullabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ansietat<s n="n"/><s n="f"/></l><r>ansiedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>antítesi<s n="n"/><s n="f"/></l><r>antìtesi<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>arbitrarietat<s n="n"/><s n="f"/></l><r>arbitrariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ascetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ascetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ateisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ateismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>austeritat<s n="n"/><s n="f"/></l><r>austeridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>austeritat<s n="n"/><s n="f"/></l><r>austeridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>autisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>automobilisme<s n="n"/><s n="m"/><s n="sg"/></l><r>automobilismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>autonomisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autonomismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>autoritarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autoritarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>banalitat<s n="n"/><s n="f"/></l><r>banalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>barbàrie<s n="n"/><s n="f"/></l><r>barbàrie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>banalitat<s n="n"/><s n="f"/></l><r>banalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>barbàrie<s n="n"/><s n="f"/></l><r>barbàrie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bipartidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>bipartidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>calamitat<s n="n"/><s n="f"/></l><r>calamidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>calamitat<s n="n"/><s n="f"/></l><r>calamidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>canibalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cannibalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>castrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>castrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>catabolisme<s n="n"/><s n="m"/><s n="sg"/></l><r>catabolismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>catequisme<s n="n"/><s n="m"/><s n="sg"/></l><r>catechismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>catàstrofe<s n="n"/><s n="f"/></l><r>catàstrofe<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>causalitat<s n="n"/><s n="f"/></l><r>causalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>catàstrofe<s n="n"/><s n="f"/></l><r>catàstrofe<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>causalitat<s n="n"/><s n="f"/></l><r>causalidade<s n="n"/><s n="f"/></r></p></e>
       <e r="RL"><p><l>conformisme<s n="n"/><s n="m"/><s n="sg"/></l><r>conformismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>consonantisme<s n="n"/><s n="m"/><s n="sg"/></l><r>consonantismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>consumisme<s n="n"/><s n="m"/><s n="sg"/></l><r>consumismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cosmopolitisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cosmopolitismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>credibilitat<s n="n"/><s n="f"/></l><r>credibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>criminalitat<s n="n"/><s n="f"/></l><r>criminalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>credibilitat<s n="n"/><s n="f"/></l><r>credibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>criminalitat<s n="n"/><s n="f"/></l><r>criminalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cromatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cromatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cubisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cubismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>culpabilitat<s n="n"/><s n="f"/></l><r>culpabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>competitivitat<s n="n"/><s n="f"/></l><r>cumpetitividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>conformitat<s n="n"/><s n="f"/></l><r>cunformidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>quotidianitat<s n="n"/><s n="f"/></l><r>cuotidianidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>culpabilitat<s n="n"/><s n="f"/></l><r>culpabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>competitivitat<s n="n"/><s n="f"/></l><r>cumpetitividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>conformitat<s n="n"/><s n="f"/></l><r>cunformidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>quotidianitat<s n="n"/><s n="f"/></l><r>cuotidianidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>darwinisme<s n="n"/><s n="m"/><s n="sg"/></l><r>darwinismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>deisme<s n="n"/><s n="m"/><s n="sg"/></l><r>deismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>dogmatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>dogmatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>dualitat<s n="n"/><s n="f"/></l><r>dualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>equanimitat<s n="n"/><s n="f"/></l><r>ecuanimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>equitat<s n="n"/><s n="f"/></l><r>ecuidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>dualitat<s n="n"/><s n="f"/></l><r>dualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>equanimitat<s n="n"/><s n="f"/></l><r>ecuanimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>equitat<s n="n"/><s n="f"/></l><r>ecuidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>egoisme<s n="n"/><s n="m"/><s n="sg"/></l><r>egoismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>emotivitat<s n="n"/><s n="f"/></l><r>emotividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>emotivitat<s n="n"/><s n="f"/></l><r>emotividade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>erotisme<s n="n"/><s n="m"/><s n="sg"/></l><r>erotismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>eternitat<s n="n"/><s n="f"/></l><r>eternidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>eventualitat<s n="n"/><s n="f"/></l><r>eventualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>familiaritat<s n="n"/><s n="f"/></l><r>familiaridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>eternitat<s n="n"/><s n="f"/></l><r>eternidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>eventualitat<s n="n"/><s n="f"/></l><r>eventualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>familiaritat<s n="n"/><s n="f"/></l><r>familiaridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fanatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>fanatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>fatalitat<s n="n"/><s n="f"/></l><r>fatalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fatalitat<s n="n"/><s n="f"/></l><r>fatalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fatalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>fatalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>fecunditat<s n="n"/><s n="f"/></l><r>fecundidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fecunditat<s n="n"/><s n="f"/></l><r>fecundidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>federalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>federalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>feminisme<s n="n"/><s n="m"/><s n="sg"/></l><r>femminismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>fiscalitat<s n="n"/><s n="f"/></l><r>fiscalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>fogositat<s n="n"/><s n="f"/></l><r>fogosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>formalitat<s n="n"/><s n="f"/></l><r>formalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fiscalitat<s n="n"/><s n="f"/></l><r>fiscalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fogositat<s n="n"/><s n="f"/></l><r>fogosidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>formalitat<s n="n"/><s n="f"/></l><r>formalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>formalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>formalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>foto<s n="n"/><s n="f"/></l><r>foto<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>fragilitat<s n="n"/><s n="f"/></l><r>fragilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>foto<s n="n"/><s n="f"/></l><r>foto<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fragilitat<s n="n"/><s n="f"/></l><r>fragilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>futurisme<s n="n"/><s n="m"/><s n="sg"/></l><r>futurismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>generalitat<s n="n"/><s n="f"/></l><r>generalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>grandiositat<s n="n"/><s n="f"/></l><r>grandiosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>generalitat<s n="n"/><s n="f"/></l><r>generalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>grandiositat<s n="n"/><s n="f"/></l><r>grandiosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>idealisme<s n="n"/><s n="m"/><s n="sg"/></l><r>idealismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>il·legitimitat<s n="n"/><s n="f"/></l><r>illegitimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>impopularitat<s n="n"/><s n="f"/></l><r>impopularidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>il·legitimitat<s n="n"/><s n="f"/></l><r>illegitimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>impopularitat<s n="n"/><s n="f"/></l><r>impopularidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>impressionisme<s n="n"/><s n="m"/><s n="sg"/></l><r>impressionismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>incredulitat<s n="n"/><s n="f"/></l><r>incredulidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>individualitat<s n="n"/><s n="f"/></l><r>individualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>incredulitat<s n="n"/><s n="f"/></l><r>incredulidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>individualitat<s n="n"/><s n="f"/></l><r>individualidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>individualisme<s n="n"/><s n="m"/><s n="sg"/></l><r>individualismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>inelegibilitat<s n="n"/><s n="f"/></l><r>inelegibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>infal·libilitat<s n="n"/><s n="f"/></l><r>infallibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inferioritat<s n="n"/><s n="f"/></l><r>inferioridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>infidelitat<s n="n"/><s n="f"/></l><r>infidelidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>inelegibilitat<s n="n"/><s n="f"/></l><r>inelegibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>infal·libilitat<s n="n"/><s n="f"/></l><r>infallibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inferioritat<s n="n"/><s n="f"/></l><r>inferioridade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>infidelitat<s n="n"/><s n="f"/></l><r>infidelidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>integrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>integrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>interdisciplinaritat<s n="n"/><s n="f"/></l><r>interdisciplinaridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>intimitat<s n="n"/><s n="f"/></l><r>intimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inutilitat<s n="n"/><s n="f"/></l><r>inutilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>escolaritat<s n="n"/><s n="f"/></l><r>iscolaridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>interdisciplinaritat<s n="n"/><s n="f"/></l><r>interdisciplinaridade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>intimitat<s n="n"/><s n="f"/></l><r>intimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inutilitat<s n="n"/><s n="f"/></l><r>inutilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>escolaritat<s n="n"/><s n="f"/></l><r>iscolaridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>isomorfisme<s n="n"/><s n="m"/><s n="sg"/></l><r>isomorfismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>espiritisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ispiritismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>estalinisme<s n="n"/><s n="m"/><s n="sg"/></l><r>istalinismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>esterilitat<s n="n"/><s n="f"/></l><r>isterilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>legitimitat<s n="n"/><s n="f"/></l><r>legitimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>esterilitat<s n="n"/><s n="f"/></l><r>isterilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>legitimitat<s n="n"/><s n="f"/></l><r>legitimidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>leninisme<s n="n"/><s n="m"/><s n="sg"/></l><r>leninismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>levitat<s n="n"/><s n="f"/></l><r>levidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>levitat<s n="n"/><s n="f"/></l><r>levidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>lirisme<s n="n"/><s n="m"/><s n="sg"/></l><r>lirismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>localisme<s n="n"/><s n="m"/><s n="sg"/></l><r>localismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>magnetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>magnetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>manierisme<s n="n"/><s n="m"/><s n="sg"/></l><r>manierismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>maoisme<s n="n"/><s n="m"/><s n="sg"/></l><r>maoismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>masculinitat<s n="n"/><s n="f"/></l><r>masculinidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>materialitat<s n="n"/><s n="f"/></l><r>materialidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>masculinitat<s n="n"/><s n="f"/></l><r>masculinidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>materialitat<s n="n"/><s n="f"/></l><r>materialidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>materialisme<s n="n"/><s n="m"/><s n="sg"/></l><r>materialismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>megalitisme<s n="n"/><s n="m"/><s n="sg"/></l><r>megalitismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>meitat<s n="n"/><s n="f"/></l><r>meidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>meitat<s n="n"/><s n="f"/></l><r>meidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>militarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>militarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>monolingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>monolinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>monoteisme<s n="n"/><s n="m"/><s n="sg"/></l><r>monoteismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>monumentalitat<s n="n"/><s n="f"/></l><r>monumentalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>moralitat<s n="n"/><s n="f"/></l><r>moralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>monumentalitat<s n="n"/><s n="f"/></l><r>monumentalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>moralitat<s n="n"/><s n="f"/></l><r>moralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>moralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>moralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>multiculturalitat<s n="n"/><s n="f"/></l><r>multiculturalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>multiculturalitat<s n="n"/><s n="f"/></l><r>multiculturalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>multiculturalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multiculturalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>multilingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multilinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>multipartidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multipartidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>natalitat<s n="n"/><s n="f"/></l><r>natalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>naturalitat<s n="n"/><s n="f"/></l><r>naturalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>natalitat<s n="n"/><s n="f"/></l><r>natalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>naturalitat<s n="n"/><s n="f"/></l><r>naturalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>naturalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>naturalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>nebulositat<s n="n"/><s n="f"/></l><r>nebulosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>nebulositat<s n="n"/><s n="f"/></l><r>nebulosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>neorealisme<s n="n"/><s n="m"/><s n="sg"/></l><r>neorealismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nomadisme<s n="n"/><s n="m"/><s n="sg"/></l><r>nomadismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nominalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>nominalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l>novetat<s n="n"/><s n="f"/></l><r>novedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>nul·litat<s n="n"/><s n="f"/></l><r>nullidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>obesitat<s n="n"/><s n="f"/></l><r>obesidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>obligatorietat<s n="n"/><s n="f"/></l><r>obligatoriedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>operativitat<s n="n"/><s n="f"/></l><r>operatividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>oralitat<s n="n"/><s n="f"/></l><r>oralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>novetat<s n="n"/><s n="f"/></l><r>novedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nul·litat<s n="n"/><s n="f"/></l><r>nullidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>obesitat<s n="n"/><s n="f"/></l><r>obesidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>obligatorietat<s n="n"/><s n="f"/></l><r>obligatoriedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>operativitat<s n="n"/><s n="f"/></l><r>operatividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>oralitat<s n="n"/><s n="f"/></l><r>oralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>panteisme<s n="n"/><s n="m"/><s n="sg"/></l><r>panteismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>paritat<s n="n"/><s n="f"/></l><r>paridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>paritat<s n="n"/><s n="f"/></l><r>paridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>parlamentarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>parlamentarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>partidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>partidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>paternalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>paternalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>paternitat<s n="n"/><s n="f"/></l><r>paternidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>paternitat<s n="n"/><s n="f"/></l><r>paternidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>patriotisme<s n="n"/><s n="m"/><s n="sg"/></l><r>patriotismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>penalitat<s n="n"/><s n="f"/></l><r>penalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>penalitat<s n="n"/><s n="f"/></l><r>penalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>peronisme<s n="n"/><s n="m"/><s n="sg"/></l><r>peronismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>pluralitat<s n="n"/><s n="f"/></l><r>pluralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>pluralitat<s n="n"/><s n="f"/></l><r>pluralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pluralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>pluralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>plurilingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>plurilinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>pop<s n="n"/><s n="m"/><s n="sg"/></l><r>pop<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>posteritat<s n="n"/><s n="f"/></l><r>posteridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>posteritat<s n="n"/><s n="f"/></l><r>posteridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pragmatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>pragmatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>precarietat<s n="n"/><s n="f"/></l><r>precariedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>precarietat<s n="n"/><s n="f"/></l><r>precariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>progressisme<s n="n"/><s n="m"/><s n="sg"/></l><r>progressismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>puntualitat<s n="n"/><s n="f"/></l><r>puntualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>puntualitat<s n="n"/><s n="f"/></l><r>puntualidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>rap<s n="n"/><s n="m"/><s n="sg"/></l><r>rap<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>regionalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>regionalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>religiositat<s n="n"/><s n="f"/></l><r>religiosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>religiositat<s n="n"/><s n="f"/></l><r>religiosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>reumatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>reumatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>reversibilitat<s n="n"/><s n="f"/></l><r>reversibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>reversibilitat<s n="n"/><s n="f"/></l><r>reversibilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>revisionisme<s n="n"/><s n="m"/><s n="sg"/></l><r>revisionismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sedentarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>sedentarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>sensualitat<s n="n"/><s n="f"/></l><r>sensualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>serenitat<s n="n"/><s n="f"/></l><r>serenidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>serietat<s n="n"/><s n="f"/></l><r>seriedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>severitat<s n="n"/><s n="f"/></l><r>severidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>sensualitat<s n="n"/><s n="f"/></l><r>sensualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>serenitat<s n="n"/><s n="f"/></l><r>serenidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>serietat<s n="n"/><s n="f"/></l><r>seriedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>severitat<s n="n"/><s n="f"/></l><r>severidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sincronisme<s n="n"/><s n="m"/><s n="sg"/></l><r>sincronismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>suavitat<s n="n"/><s n="f"/></l><r>suavidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>síncope<s n="n"/><s n="f"/></l><r>sìncope<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>territorialitat<s n="n"/><s n="f"/></l><r>territorialidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="RL"><p><l>totalitat<s n="n"/><s n="f"/></l><r>totalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>tranchillidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>trancuillidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>trinitat<s n="n"/><s n="f"/></l><r>trinidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>unanimitat<s n="n"/><s n="f"/></l><r>unanimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>uniformitat<s n="n"/><s n="f"/></l><r>uniformidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>universalitat<s n="n"/><s n="f"/></l><r>universalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>vanitat<s n="n"/><s n="f"/></l><r>vanidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>variabilitat<s n="n"/><s n="f"/></l><r>variabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="RL"><p><l>veritat<s n="n"/><s n="f"/></l><r>veridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>versatilitat<s n="n"/><s n="f"/></l><r>versatilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>viabilitat<s n="n"/><s n="f"/></l><r>viabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>virginitat<s n="n"/><s n="f"/></l><r>virginidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>virtualitat<s n="n"/><s n="f"/></l><r>virtualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>agilitat<s n="n"/><s n="f"/></l><r>agilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>ansietat<s n="n"/><s n="f"/></l><r>ansiedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>suavitat<s n="n"/><s n="f"/></l><r>suavidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>síncope<s n="n"/><s n="f"/></l><r>sìncope<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>territorialitat<s n="n"/><s n="f"/></l><r>territorialidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>totalitat<s n="n"/><s n="f"/></l><r>totalidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>tranchillidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>trancuillidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>trinitat<s n="n"/><s n="f"/></l><r>trinidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>unanimitat<s n="n"/><s n="f"/></l><r>unanimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>uniformitat<s n="n"/><s n="f"/></l><r>uniformidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>universalitat<s n="n"/><s n="f"/></l><r>universalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vanitat<s n="n"/><s n="f"/></l><r>vanidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>variabilitat<s n="n"/><s n="f"/></l><r>variabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>veritat<s n="n"/><s n="f"/></l><r>veridade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>versatilitat<s n="n"/><s n="f"/></l><r>versatilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>viabilitat<s n="n"/><s n="f"/></l><r>viabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virginitat<s n="n"/><s n="f"/></l><r>virginidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virtualitat<s n="n"/><s n="f"/></l><r>virtualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>agilitat<s n="n"/><s n="f"/></l><r>agilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ansietat<s n="n"/><s n="f"/></l><r>ansiedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>antítesi<s n="n"/><s n="f"/></l><r>antìtesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>arbitrarietat<s n="n"/><s n="f"/></l><r>arbitrariedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>arbitrarietat<s n="n"/><s n="f"/></l><r>arbitrariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ascetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ascetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ateisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ateismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>autisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>automobilisme<s n="n"/><s n="m"/><s n="sg"/></l><r>automobilismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>autonomisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autonomismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>autoritarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>autoritarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>banalitat<s n="n"/><s n="f"/></l><r>banalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>barbàrie<s n="n"/><s n="f"/></l><r>barbàrie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>banalitat<s n="n"/><s n="f"/></l><r>banalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>barbàrie<s n="n"/><s n="f"/></l><r>barbàrie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bipartidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>bipartidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>calamitat<s n="n"/><s n="f"/></l><r>calamidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>calamitat<s n="n"/><s n="f"/></l><r>calamidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>castrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>castrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>catabolisme<s n="n"/><s n="m"/><s n="sg"/></l><r>catabolismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>catequisme<s n="n"/><s n="m"/><s n="sg"/></l><r>catechismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>causalitat<s n="n"/><s n="f"/></l><r>causalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>causalitat<s n="n"/><s n="f"/></l><r>causalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>centralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzentralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>centralitat<s n="n"/><s n="f"/></l><r>tzentralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>centralitat<s n="n"/><s n="f"/></l><r>tzentralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>centrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzentrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cinisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzinismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>civisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzivismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>col·lectivitat<s n="n"/><s n="f"/></l><r>colletividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="LR"><p><l>compatibilitat<s n="n"/><s n="f"/></l><r>cumpatibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>competitivitat<s n="n"/><s n="f"/></l><r>cumpetitividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>conformitat<s n="n"/><s n="f"/></l><r>cunformidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>col·lectivitat<s n="n"/><s n="f"/></l><r>colletividade<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>compatibilitat<s n="n"/><s n="f"/></l><r>cumpatibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>competitivitat<s n="n"/><s n="f"/></l><r>cumpetitividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>conformitat<s n="n"/><s n="f"/></l><r>cunformidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>consonantisme<s n="n"/><s n="m"/><s n="sg"/></l><r>consonantismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>consumisme<s n="n"/><s n="m"/><s n="sg"/></l><r>consumismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>contrarietat<s n="n"/><s n="f"/></l><r>contrariedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>contrarietat<s n="n"/><s n="f"/></l><r>contrariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cosmopolitisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cosmopolitismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>credibilitat<s n="n"/><s n="f"/></l><r>credibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>criminalitat<s n="n"/><s n="f"/></l><r>criminalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>credibilitat<s n="n"/><s n="f"/></l><r>credibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>criminalitat<s n="n"/><s n="f"/></l><r>criminalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cromatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cromatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cubisme<s n="n"/><s n="m"/><s n="sg"/></l><r>cubismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>culpabilitat<s n="n"/><s n="f"/></l><r>culpabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>culpabilitat<s n="n"/><s n="f"/></l><r>culpabilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>darwinisme<s n="n"/><s n="m"/><s n="sg"/></l><r>darwinismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>deisme<s n="n"/><s n="m"/><s n="sg"/></l><r>deismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>dogmatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>dogmatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>dualitat<s n="n"/><s n="f"/></l><r>dualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>dualitat<s n="n"/><s n="f"/></l><r>dualidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>efectisme<s n="n"/><s n="m"/><s n="sg"/></l><r>efetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>egoisme<s n="n"/><s n="m"/><s n="sg"/></l><r>egoismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>electoralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>eletoralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>emotivitat<s n="n"/><s n="f"/></l><r>emotividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>equanimitat<s n="n"/><s n="f"/></l><r>ecuanimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>emotivitat<s n="n"/><s n="f"/></l><r>emotividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>equanimitat<s n="n"/><s n="f"/></l><r>ecuanimidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>erotisme<s n="n"/><s n="m"/><s n="sg"/></l><r>erotismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>eternitat<s n="n"/><s n="f"/></l><r>eternidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>eventualitat<s n="n"/><s n="f"/></l><r>eventualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>familiaritat<s n="n"/><s n="f"/></l><r>familiaridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>eternitat<s n="n"/><s n="f"/></l><r>eternidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>eventualitat<s n="n"/><s n="f"/></l><r>eventualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>familiaritat<s n="n"/><s n="f"/></l><r>familiaridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fanatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>fanatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>fatalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>fatalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>fatalitat<s n="n"/><s n="f"/></l><r>fatalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>fecunditat<s n="n"/><s n="f"/></l><r>fecundidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fatalitat<s n="n"/><s n="f"/></l><r>fatalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fecunditat<s n="n"/><s n="f"/></l><r>fecundidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>federalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>federalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>fiscalitat<s n="n"/><s n="f"/></l><r>fiscalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>fogositat<s n="n"/><s n="f"/></l><r>fogosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fiscalitat<s n="n"/><s n="f"/></l><r>fiscalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fogositat<s n="n"/><s n="f"/></l><r>fogosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>formalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>formalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>formalitat<s n="n"/><s n="f"/></l><r>formalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>fragilitat<s n="n"/><s n="f"/></l><r>fragilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>formalitat<s n="n"/><s n="f"/></l><r>formalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fragilitat<s n="n"/><s n="f"/></l><r>fragilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>futurisme<s n="n"/><s n="m"/><s n="sg"/></l><r>futurismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>generalitat<s n="n"/><s n="f"/></l><r>generalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>grandiositat<s n="n"/><s n="f"/></l><r>grandiosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>habitabilitat<s n="n"/><s n="f"/></l><r>abitabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>hecatombe<s n="n"/><s n="f"/></l><r>ecatombe<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>generalitat<s n="n"/><s n="f"/></l><r>generalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>grandiositat<s n="n"/><s n="f"/></l><r>grandiosidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>habitabilitat<s n="n"/><s n="f"/></l><r>abitabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hecatombe<s n="n"/><s n="f"/></l><r>ecatombe<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>hermetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ermetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>heroisme<s n="n"/><s n="m"/><s n="sg"/></l><r>eroismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>higiene<s n="n"/><s n="f"/></l><r>igiene<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>hiperactivitat<s n="n"/><s n="f"/></l><r>iperatividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>hipersensibilitat<s n="n"/><s n="f"/></l><r>ipersensibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>hospitalitat<s n="n"/><s n="f"/></l><r>ospitalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>humilitat<s n="n"/><s n="f"/></l><r>umilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>higiene<s n="n"/><s n="f"/></l><r>igiene<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hiperactivitat<s n="n"/><s n="f"/></l><r>iperatividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hipersensibilitat<s n="n"/><s n="f"/></l><r>ipersensibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>hospitalitat<s n="n"/><s n="f"/></l><r>ospitalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>humilitat<s n="n"/><s n="f"/></l><r>umilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>idealisme<s n="n"/><s n="m"/><s n="sg"/></l><r>idealismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>il·legitimitat<s n="n"/><s n="f"/></l><r>illegitimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>immobilitat<s n="n"/><s n="f"/></l><r>immobilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>immoralitat<s n="n"/><s n="f"/></l><r>immoralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>immortalitat<s n="n"/><s n="f"/></l><r>immortalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>impopularitat<s n="n"/><s n="f"/></l><r>impopularidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>il·legitimitat<s n="n"/><s n="f"/></l><r>illegitimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>immobilitat<s n="n"/><s n="f"/></l><r>immobilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>immoralitat<s n="n"/><s n="f"/></l><r>immoralidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>immortalitat<s n="n"/><s n="f"/></l><r>immortalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>impopularitat<s n="n"/><s n="f"/></l><r>impopularidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>impressionisme<s n="n"/><s n="m"/><s n="sg"/></l><r>impressionismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>inactivitat<s n="n"/><s n="f"/></l><r>inatividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>incredulitat<s n="n"/><s n="f"/></l><r>incredulidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>inactivitat<s n="n"/><s n="f"/></l><r>inatividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>incredulitat<s n="n"/><s n="f"/></l><r>incredulidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>individualisme<s n="n"/><s n="m"/><s n="sg"/></l><r>individualismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>individualitat<s n="n"/><s n="f"/></l><r>individualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inelegibilitat<s n="n"/><s n="f"/></l><r>inelegibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>infal·libilitat<s n="n"/><s n="f"/></l><r>infallibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inferioritat<s n="n"/><s n="f"/></l><r>inferioridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>infidelitat<s n="n"/><s n="f"/></l><r>infidelidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inhabilitat<s n="n"/><s n="f"/></l><r>inabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>individualitat<s n="n"/><s n="f"/></l><r>individualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inelegibilitat<s n="n"/><s n="f"/></l><r>inelegibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>infal·libilitat<s n="n"/><s n="f"/></l><r>infallibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inferioritat<s n="n"/><s n="f"/></l><r>inferioridade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>infidelitat<s n="n"/><s n="f"/></l><r>infidelidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inhabilitat<s n="n"/><s n="f"/></l><r>inabilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>integrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>integrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>interdisciplinaritat<s n="n"/><s n="f"/></l><r>interdisciplinaridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>intimitat<s n="n"/><s n="f"/></l><r>intimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>inutilitat<s n="n"/><s n="f"/></l><r>inutilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>interdisciplinaritat<s n="n"/><s n="f"/></l><r>interdisciplinaridade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>intimitat<s n="n"/><s n="f"/></l><r>intimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>inutilitat<s n="n"/><s n="f"/></l><r>inutilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>isomorfisme<s n="n"/><s n="m"/><s n="sg"/></l><r>isomorfismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>legitimitat<s n="n"/><s n="f"/></l><r>legitimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>legitimitat<s n="n"/><s n="f"/></l><r>legitimidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>leninisme<s n="n"/><s n="m"/><s n="sg"/></l><r>leninismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>levitat<s n="n"/><s n="f"/></l><r>levidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>levitat<s n="n"/><s n="f"/></l><r>levidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>lirisme<s n="n"/><s n="m"/><s n="sg"/></l><r>lirismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>localisme<s n="n"/><s n="m"/><s n="sg"/></l><r>localismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>magnetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>magnetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>manierisme<s n="n"/><s n="m"/><s n="sg"/></l><r>manierismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>manualitat<s n="n"/><s n="f"/></l><r>manualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>manualitat<s n="n"/><s n="f"/></l><r>manualidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>maoisme<s n="n"/><s n="m"/><s n="sg"/></l><r>maoismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>masculinitat<s n="n"/><s n="f"/></l><r>masculinidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>masculinitat<s n="n"/><s n="f"/></l><r>masculinidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>materialisme<s n="n"/><s n="m"/><s n="sg"/></l><r>materialismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>materialitat<s n="n"/><s n="f"/></l><r>materialidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>materialitat<s n="n"/><s n="f"/></l><r>materialidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>megalitisme<s n="n"/><s n="m"/><s n="sg"/></l><r>megalitismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>militarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>militarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>monolingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>monolinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>monoteisme<s n="n"/><s n="m"/><s n="sg"/></l><r>monoteismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>monumentalitat<s n="n"/><s n="f"/></l><r>monumentalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>monumentalitat<s n="n"/><s n="f"/></l><r>monumentalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>moralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>moralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>moralitat<s n="n"/><s n="f"/></l><r>moralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>moralitat<s n="n"/><s n="f"/></l><r>moralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>multiculturalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multiculturalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>multiculturalitat<s n="n"/><s n="f"/></l><r>multiculturalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>multiculturalitat<s n="n"/><s n="f"/></l><r>multiculturalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>multilingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multilinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>multipartidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>multipartidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>natalitat<s n="n"/><s n="f"/></l><r>natalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>natalitat<s n="n"/><s n="f"/></l><r>natalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>naturalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>naturalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>naturalitat<s n="n"/><s n="f"/></l><r>naturalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>nebulositat<s n="n"/><s n="f"/></l><r>nebulosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>naturalitat<s n="n"/><s n="f"/></l><r>naturalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nebulositat<s n="n"/><s n="f"/></l><r>nebulosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>neorealisme<s n="n"/><s n="m"/><s n="sg"/></l><r>neorealismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nomadisme<s n="n"/><s n="m"/><s n="sg"/></l><r>nomadismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nominalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>nominalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>nul·litat<s n="n"/><s n="f"/></l><r>nullidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>obesitat<s n="n"/><s n="f"/></l><r>obesidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>obligatorietat<s n="n"/><s n="f"/></l><r>obligatoriedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>operativitat<s n="n"/><s n="f"/></l><r>operatividade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>oralitat<s n="n"/><s n="f"/></l><r>oralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>nul·litat<s n="n"/><s n="f"/></l><r>nullidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>obesitat<s n="n"/><s n="f"/></l><r>obesidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>obligatorietat<s n="n"/><s n="f"/></l><r>obligatoriedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>operativitat<s n="n"/><s n="f"/></l><r>operatividade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>oralitat<s n="n"/><s n="f"/></l><r>oralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>panteisme<s n="n"/><s n="m"/><s n="sg"/></l><r>panteismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>paritat<s n="n"/><s n="f"/></l><r>paridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>paritat<s n="n"/><s n="f"/></l><r>paridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>parlamentarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>parlamentarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>partidisme<s n="n"/><s n="m"/><s n="sg"/></l><r>partidismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>paternalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>paternalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>paternitat<s n="n"/><s n="f"/></l><r>paternidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>paternitat<s n="n"/><s n="f"/></l><r>paternidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>patriotisme<s n="n"/><s n="m"/><s n="sg"/></l><r>patriotismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>penalitat<s n="n"/><s n="f"/></l><r>penalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>penalitat<s n="n"/><s n="f"/></l><r>penalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>peronisme<s n="n"/><s n="m"/><s n="sg"/></l><r>peronismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>pluralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>pluralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>pluralitat<s n="n"/><s n="f"/></l><r>pluralidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>pluralitat<s n="n"/><s n="f"/></l><r>pluralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>plurilingüisme<s n="n"/><s n="m"/><s n="sg"/></l><r>plurilinguismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>posteritat<s n="n"/><s n="f"/></l><r>posteridade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>posteritat<s n="n"/><s n="f"/></l><r>posteridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pragmatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>pragmatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>precarietat<s n="n"/><s n="f"/></l><r>precariedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>precarietat<s n="n"/><s n="f"/></l><r>precariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>progressisme<s n="n"/><s n="m"/><s n="sg"/></l><r>progressismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>puntualitat<s n="n"/><s n="f"/></l><r>puntualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>quotidianitat<s n="n"/><s n="f"/></l><r>cuotidianidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>puntualitat<s n="n"/><s n="f"/></l><r>puntualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>quotidianitat<s n="n"/><s n="f"/></l><r>cuotidianidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>rap<s n="n"/><s n="m"/><s n="sg"/></l><r>rap<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>regionalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>regionalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>religiositat<s n="n"/><s n="f"/></l><r>religiosidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>religiositat<s n="n"/><s n="f"/></l><r>religiosidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>reumatisme<s n="n"/><s n="m"/><s n="sg"/></l><r>reumatismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>reversibilitat<s n="n"/><s n="f"/></l><r>reversibilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>reversibilitat<s n="n"/><s n="f"/></l><r>reversibilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>revisionisme<s n="n"/><s n="m"/><s n="sg"/></l><r>revisionismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sedentarisme<s n="n"/><s n="m"/><s n="sg"/></l><r>sedentarismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>sensualitat<s n="n"/><s n="f"/></l><r>sensualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>serenitat<s n="n"/><s n="f"/></l><r>serenidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>serietat<s n="n"/><s n="f"/></l><r>seriedade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>severitat<s n="n"/><s n="f"/></l><r>severidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>sensualitat<s n="n"/><s n="f"/></l><r>sensualidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>serenitat<s n="n"/><s n="f"/></l><r>serenidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>serietat<s n="n"/><s n="f"/></l><r>seriedade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>severitat<s n="n"/><s n="f"/></l><r>severidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sincronisme<s n="n"/><s n="m"/><s n="sg"/></l><r>sincronismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>suavitat<s n="n"/><s n="f"/></l><r>suavidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>síncope<s n="n"/><s n="f"/></l><r>sìncope<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>territorialitat<s n="n"/><s n="f"/></l><r>territorialidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>trinitat<s n="n"/><s n="f"/></l><r>trinidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>unanimitat<s n="n"/><s n="f"/></l><r>unanimidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>uniformitat<s n="n"/><s n="f"/></l><r>uniformidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>universalitat<s n="n"/><s n="f"/></l><r>universalidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>vanitat<s n="n"/><s n="f"/></l><r>vanidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>variabilitat<s n="n"/><s n="f"/></l><r>variabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>versatilitat<s n="n"/><s n="f"/></l><r>versatilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>viabilitat<s n="n"/><s n="f"/></l><r>viabilidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>virginitat<s n="n"/><s n="f"/></l><r>virginidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>virtualitat<s n="n"/><s n="f"/></l><r>virtualidade<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>suavitat<s n="n"/><s n="f"/></l><r>suavidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>subunitat<s n="n"/><s n="f"/></l><r>subunidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>síncope<s n="n"/><s n="f"/></l><r>sìncope<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>territorialitat<s n="n"/><s n="f"/></l><r>territorialidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>trinitat<s n="n"/><s n="f"/></l><r>trinidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>unanimitat<s n="n"/><s n="f"/></l><r>unanimidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>uniformitat<s n="n"/><s n="f"/></l><r>uniformidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>universalitat<s n="n"/><s n="f"/></l><r>universalidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vanitat<s n="n"/><s n="f"/></l><r>vanidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>variabilitat<s n="n"/><s n="f"/></l><r>variabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>versatilitat<s n="n"/><s n="f"/></l><r>versatilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>viabilitat<s n="n"/><s n="f"/></l><r>viabilidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virginitat<s n="n"/><s n="f"/></l><r>virginidade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virtualitat<s n="n"/><s n="f"/></l><r>virtualidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>acusador<s n="n"/></l><r>acusadore<s n="n"/></r></p></e>
       <e><p><l>adorador<s n="n"/></l><r>adoradore<s n="n"/></r></p></e>
       <e><p><l>assegurador<s n="n"/></l><r>asseguradore<s n="n"/></r></p></e>
@@ -25522,7 +25539,40 @@
       <e><p><l>tafetà<s n="n"/><s n="m"/></l><r>tafetanu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tità<s n="n"/><s n="m"/></l><r>titanu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acusatiu<s n="n"/><s n="m"/></l><r>acusativu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>comensal<s n="n"/></l><r>cummensale<s n="n"/></r></p></e>
+      <e><p><l>extraterrestre<s n="n"/></l><r>extraterrestre<s n="n"/></r></p></e>
+      <e><p><l>practicant<s n="n"/></l><r>praticante<s n="n"/></r></p></e>
+      <e r="LR"><p><l>compatibilitat<s n="n"/><s n="f"/></l><r>cumpatibilidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>contrarietat<s n="n"/><s n="f"/></l><r>contrariedade<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>donador<s n="n"/></l><r>donadore<s n="n"/></r></p></e>
+      <e r="LR"><p><l>manualitat<s n="n"/><s n="f"/></l><r>manualidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>rugby<s n="n"/><s n="m"/><s n="sg"/></l><r>rugby<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>austeritat<s n="n"/><s n="f"/></l><r>austeridade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>catàstrofe<s n="n"/><s n="f"/></l><r>catàstrofe<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>computador<s n="n"/></l><r>cumputadore<s n="n"/></r></p></e>
+      <e r="RL"><p><l>conformisme<s n="n"/><s n="m"/><s n="sg"/></l><r>conformismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>fan<s n="n"/></l><r>fan<s n="n"/></r></p></e>
+      <e r="RL"><p><l>feminisme<s n="n"/><s n="m"/><s n="sg"/></l><r>femminismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>foto<s n="n"/><s n="f"/></l><r>foto<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>investigador<s n="n"/></l><r>investigadore<s n="n"/></r></p></e>
+      <e r="RL"><p><l>lema<s n="n"/><s n="m"/></l><r>lema<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>meitat<s n="n"/><s n="f"/></l><r>meidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>narrador<s n="n"/></l><r>narradore<s n="n"/></r></p></e>
+      <e r="RL"><p><l>novetat<s n="n"/><s n="f"/></l><r>novedade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>orador<s n="n"/></l><r>oradore<s n="n"/></r></p></e>
+      <e r="RL"><p><l>papa<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>pop<s n="n"/><s n="m"/><s n="sg"/></l><r>pop<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>totalitat<s n="n"/><s n="f"/></l><r>totalidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>tranchillidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>tranquil·litat<s n="n"/><s n="f"/></l><r>trancuillidade<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>veritat<s n="n"/><s n="f"/></l><r>veridade<s n="n"/><s n="f"/></r></p></e>
 
+      <e><p><l>al-Àndalus<s n="np"/><s n="loc"/></l><r>al-Àndalus<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Olímpia<s n="np"/><s n="loc"/></l><r>Olìmpia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Asclepi<s n="np"/><s n="ant"/></l><r>Asclèpiu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>demora<s n="n"/><s n="f"/></l><r>dimora<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>majestat<s n="n"/><s n="f"/></l><r>maestade<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>viu<s n="adj"/></l><r>bivu<s n="adj"/></r></p></e>
 
 </section>
 </dictionary>
