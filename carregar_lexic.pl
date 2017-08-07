@@ -851,12 +851,17 @@ print "No es troba dix_srd{$gram_srd}{$lemma_srd}. Es prova de generar $lemma_sr
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Abad__np' && $par_srd eq 'Maria__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'Pau__np' && $par_srd eq 'Antoni__np') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'Abad__np' && $par_srd eq 'Maria__np') {
 			} elsif ($par_cat eq 'Marc__np' && $par_srd eq 'Antoni__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Maria__np' && $par_srd eq 'Maria__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></l><r>%s<s n=\"np\"/><s n=\"ant\"/><s n=\"f\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Abad__np' && $par_srd eq 'Saussure__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"ant\"/></l><r>%s<s n=\"np\"/><s n=\"cog\"/><s n=\"mf\"/><s n=\"sp\"/></r></p></e>\n", $stem_cat, $stem_srd;
+			} elsif ($par_cat eq 'Saussure__np' && $par_srd eq 'Saussure__np') {
+				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"cog\"/></l><r>%s<s n=\"np\"/><s n=\"cog\"/>></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Afganistan__np' && $par_srd eq 'Afganistàn__np') {
 				printf $fbi "      <e$rl><p><l>%s<s n=\"np\"/><s n=\"loc\"/></l><r>%s<s n=\"np\"/><s n=\"top\"/><s n=\"m\"/><s n=\"sg\"/></r></p></e>\n", $stem_cat, $stem_srd;
 			} elsif ($par_cat eq 'Afganistan__np' && $par_srd eq 'Etiòpia__np') {
