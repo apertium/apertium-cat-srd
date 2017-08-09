@@ -1115,7 +1115,6 @@
     <e><p><l>poder<s n="n"/><s n="m"/></l><r>podere<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abús<s n="n"/><s n="m"/></l><r>abusu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>salvació<s n="n"/><s n="f"/></l><r>sarbamentu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>programari<s n="n"/><s n="m"/></l><r>programàriu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pena<s n="n"/><s n="f"/></l><r>punitzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>promoció<s n="n"/><s n="f"/></l><r>promotzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pàgina<s n="n"/><s n="f"/></l><r>pàgina<s n="n"/><s n="f"/></r></p></e>
@@ -24294,7 +24293,7 @@
       <e><p><l>la<b/>Llotja<s n="np"/><s n="loc"/></l><r>sa<b/>Llotja<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>infermer<s n="n"/></l><r>infermieri<s n="n"/></r></p></e>
       <e><p><l>CBS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>CBS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>algoritme<s n="n"/><s n="m"/></l><r>algoritmu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>algoritme<s n="n"/><s n="m"/></l><r>algoritmu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sintàctic<s n="adj"/></l><r>sintàticu<s n="adj"/></r></p></e>
       <e><p><l>pinzellada<s n="n"/><s n="f"/></l><r>pinzellada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Phil<s n="np"/><s n="ant"/></l><r>Phil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -26743,6 +26742,17 @@
       <e r="RL"><p><l>anhelar<s n="vblex"/></l><r>disigiare<s n="vblex"/></r></p></e>
       <e><p><l>admirable<s n="adj"/><s n="mf"/></l><r>de<b/>ammirare<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e><p><l>vivenda<s n="n"/><s n="f"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>reglamentar<s n="vblex"/></l><r>regulamentare<s n="vblex"/></r></p></e>
+      <e><p><l>reglamentació<s n="n"/><s n="f"/></l><r>regulamentatzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reglament<s n="n"/><s n="m"/></l><r>regulamentu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>extrajudicial<s n="adj"/></l><r>extra-giuditziale<s n="adj"/></r></p></e>
+      <e><p><l>extraparlamentari<s n="adj"/></l><r>extra-parlamentare<s n="adj"/></r></p></e>
+      <e><p><l>programari<s n="n"/><s n="m"/></l><r>software<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>software<s n="n"/><s n="m"/></l><r>software<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>maquinari<s n="n"/><s n="m"/></l><r>hardware<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>hardware<s n="n"/><s n="m"/></l><r>hardware<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+
 
     <!-- SECTION:  Punctuation -->
 
