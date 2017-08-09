@@ -473,4 +473,14 @@
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
   </rule>
 
+<!-- romànic (adj) > romànicu, romantzu -->
+
+  <rule weight="0.6">
+     <match lemma="romànic" tags="adj.*"><select lemma="romànicu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="llengua" tags="n.f.*"/>
+     <match lemma="romànic" tags="adj.*"><select lemma="romantzu"/></match>
+  </rule>
+
 </rules>
