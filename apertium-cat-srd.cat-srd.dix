@@ -6723,7 +6723,7 @@
       <e><p><l>kg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>kg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>mm<s n="n"/><s n="m"/><s n="sp"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
-      <e><p><l>mg<s n="n"/><s n="m"/><s n="sp"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>mg<s n="n"/><s n="m"/><s n="sp"/></l><r>mg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>Hz<s n="n"/><s n="m"/><s n="sp"/></l><r>Hz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>kHz<s n="n"/><s n="m"/><s n="sp"/></l><r>kHz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
@@ -25060,7 +25060,7 @@
       <e><p><l>liti<s n="n"/><s n="m"/></l><r>lìtiu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>comentarista<s n="n"/></l><r>cummentadore<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>estadístic<s n="n"/><s n="m"/></l><r>istatìsticu<s n="n"/><s n="m"/></r></p></e>
-      <e r="LR"><p><l>estadístic<s n="n"/><s n="f"/></l><r>istatìstica<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>estadístic<s n="n"/><s n="f"/></l><r>istatìstica<s n="n"/><s n="f"/></r></p></e>
 
       <e r="RL"><p><l>ascensió<s n="n"/><s n="f"/></l><r>ascensione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>autogestió<s n="n"/><s n="f"/></l><r>autogestione<s n="n"/><s n="f"/></r></p></e>
