@@ -6723,6 +6723,7 @@
       <e><p><l>kg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>kg<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>km<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>mm<s n="n"/><s n="m"/><s n="sp"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>mg<s n="n"/><s n="m"/><s n="sp"/></l><r>mm<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>Hz<s n="n"/><s n="m"/><s n="sp"/></l><r>Hz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>kHz<s n="n"/><s n="m"/><s n="sp"/></l><r>kHz<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></l><r>KB<s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
@@ -24668,7 +24669,7 @@
       <e r="RL"><p><l>Zenó<s n="np"/><s n="ant"/></l><r>Zeno<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Toyota<s n="np"/><s n="al"/></l><r>Toyota<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Sogorb<s n="np"/><s n="loc"/></l><r>Segorbe<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>reialme<s n="n"/><s n="m"/></l><r>regnu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>reialme<s n="n"/><s n="m"/></l><r>regnu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pedestal<s n="n"/><s n="m"/></l><r>pedutzu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Macintosh<s n="np"/><s n="al"/></l><r>Macintosh<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>florí<s n="n"/><s n="m"/></l><r>fiorinu<s n="n"/><s n="m"/></r></p></e>
@@ -26869,7 +26870,15 @@
       <e><p><l>capricorn<s n="n"/><s n="m"/></l><r>capricornu<s n="n"/><s n="mf"/></r></p><par n="sp_ND"/></e>
       <e><p><l>escorpió<s n="n"/><s n="m"/></l><r>iscorpione<s n="n"/><s n="mf"/></r></p><par n="sp_ND"/></e>
       <e><p><l>holding<s n="n"/><s n="m"/></l><r>holding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-
+      <e><p><l>tigre<s n="n"/></l><r>tigre<s n="n"/></r></p><par n="GD_f"/></e>
+      <e><p><l>goril·la<s n="n"/><s n="mf"/></l><r>gorilla<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>puma<s n="n"/><s n="m"/></l><r>puma<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>prisma<s n="n"/><s n="m"/></l><r>prisma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>al·luvió<s n="n"/><s n="m"/></l><r>alluvione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lobby<s n="n"/><s n="m"/><s n="sp"/></l><r>lobby<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>manga<s n="n"/><s n="m"/></l><r>manga<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>mega<s n="n"/><s n="m"/></l><r>mega<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>giga<s n="n"/><s n="m"/></l><r>giga<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 
     <!-- SECTION:  Punctuation -->
 
