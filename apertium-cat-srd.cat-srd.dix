@@ -3810,7 +3810,6 @@
       <e><p><l>matar<s n="vblex"/></l><r>ochire<s n="vblex"/></r></p></e>
       <e><p><l>nucli<s n="n"/><s n="m"/></l><r>nùcleu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>instal·lar<s n="vblex"/></l><r>installare<s n="vblex"/></r></p></e>
-      <e><p><l>José<s n="np"/><s n="ant"/></l><r>Josè<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>novel·la<s n="n"/><s n="f"/></l><r>paristòria<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>adquirir<s n="vblex"/></l><r>achirire<s n="vblex"/></r></p></e>
       <e><p><l>tant<s n="adj"/></l><r>meda<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -24753,7 +24752,6 @@
       <e r="RL"><p><l>punxegut<s n="adj"/></l><r>puntzurudu<s n="adj"/></r></p><par n="sup_0"/></e>
       <e><p><l>maltractar<s n="vblex"/></l><r>maltratare<s n="vblex"/></r></p></e>
       <e><p><l>lliscar<s n="vblex"/></l><r>lassinare<s n="vblex"/></r></p></e>
-      <e><p><l>Jefferson<s n="np"/><s n="ant"/></l><r>Jafferson<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>galeta<s n="n"/><s n="f"/></l><r>galleta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>errada<s n="n"/><s n="f"/></l><r>errore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>desconfiar<s n="vblex"/></l><r>iscrèere<s n="vblex"/></r></p></e>
@@ -26879,6 +26877,17 @@
       <e><p><l>manga<s n="n"/><s n="m"/></l><r>manga<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>mega<s n="n"/><s n="m"/></l><r>mega<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e><p><l>giga<s n="n"/><s n="m"/></l><r>giga<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+
+      <e><p><l>Beda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Beda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Chuck<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Chuck<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Dave<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Dave<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Doris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Doris<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Medea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Medea<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Wally<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Wally<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>Aníbal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Aníbal<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Jefferson<s n="np"/><s n="ant"/></l><r>Jefferson<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>José<s n="np"/><s n="ant"/></l><r>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>José<s n="np"/><s n="ant"/></l><r>Josè<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
