@@ -1724,7 +1724,7 @@
     <e><p><l>Irlanda<s n="np"/><s n="loc"/></l><r>Irlanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Alemanya<s n="np"/><s n="loc"/></l><r>Germània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>Germània<s n="np"/><s n="loc"/></l><r>Germània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Alguer<s n="np"/><s n="loc"/></l><r>Alighèra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Alguer<s n="np"/><s n="loc"/></l><r>Alighera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Florència<s n="np"/><s n="loc"/></l><r>Firenze<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Espanya<s n="np"/><s n="loc"/></l><r>Ispagna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Àfrica<s n="np"/><s n="loc"/></l><r>Àfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6005,6 +6005,8 @@
       <e><p><l>Pau<s n="np"/><s n="ant"/></l><r>Pau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Pau<s n="np"/><s n="loc"/></l><r>Pau<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>alcalde<s n="n"/><s n="m"/></l><r>sìndigu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>batlle<s n="n"/><s n="m"/></l><r>sìndigu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>sìndic<s n="n"/><s n="m"/></l><r>sìndigu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sacerdot<s n="n"/><s n="m"/></l><r>satzerdote<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mapa<s n="n"/><s n="m"/></l><r>mapa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mandat<s n="n"/><s n="m"/></l><r>mandadu<s n="n"/><s n="m"/></r></p></e>
@@ -7864,7 +7866,6 @@
       <e><p><l>gram<s n="n"/><s n="m"/></l><r>grammu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>adscriure<s n="vblex"/></l><r>apònnere<s n="vblex"/></r></p></e>
       <e><p><l>Occitània<s n="np"/><s n="loc"/></l><r>Otzitània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>batlle<s n="n"/><s n="m"/></l><r>sìndigu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>apte<s n="adj"/></l><r>adatu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>alfa<s n="n"/><s n="f"/></l><r>alfa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>meteorològic<s n="adj"/></l><r>meteorològicu<s n="adj"/></r></p></e>
@@ -19661,7 +19662,7 @@
       <e><p><l>digne<s n="adj"/></l><r>dignu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>contraposició<s n="n"/><s n="f"/></l><r>contrariedade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>compaginar<s n="vblex"/></l><r>collegare<s n="vblex"/></r></p></e>
-      <e><p><l>Alger<s n="np"/><s n="loc"/></l><r>Algèri<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Alger<s n="np"/><s n="loc"/></l><r>Algeri<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Volga<s n="np"/><s n="loc"/></l><r>Volga<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Po<s n="np"/><s n="loc"/></l><r>Po<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tectònic<s n="adj"/></l><r>tetònicu<s n="adj"/></r></p></e>
@@ -24891,6 +24892,8 @@
       <e><p><l>sacsejar<s n="vblex"/></l><r>iscotzulare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>sacsejar<s n="vblex"/></l><r>tzantzigare<s n="vblex"/></r></p></e>
       <e><p><l>malai<s n="n"/></l><r>malesu<s n="n"/></r></p></e>
+      <e><p><l>malai<s n="adj"/></l><r>malesu<s n="adj"/></r></p></e>
+
       <e><p><l>Gustavo<s n="np"/><s n="ant"/></l><r>Gustavo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Dorothy<s n="np"/><s n="ant"/></l><r>Dorothy<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>coratge<s n="n"/><s n="m"/></l><r>coràgiu<s n="n"/><s n="m"/></r></p></e>
@@ -26888,6 +26891,19 @@
       <e><p><l>Jefferson<s n="np"/><s n="ant"/></l><r>Jefferson<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>José<s n="np"/><s n="ant"/></l><r>José<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>José<s n="np"/><s n="ant"/></l><r>Josè<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Argos<s n="np"/><s n="loc"/></l><r>Argos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Àvila<s n="np"/><s n="loc"/></l><r>Àvila<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Bernoulli<s n="np"/><s n="loc"/></l><r>Bernoulli<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Indiana<s n="np"/><s n="loc"/></l><r>Indiana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Osaka<s n="np"/><s n="loc"/></l><r>Osaka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Tales<s n="np"/><s n="loc"/></l><r>Tales<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>finoúgric<s n="adj"/></l><r>ugrofìnnicu<s n="adj"/></r></p></e>
+      <e><p><l>polinesi<s n="adj"/></l><r>polinesianu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>polinèsic<s n="adj"/></l><r>polinesianu<s n="adj"/></r></p></e>
+      <e><p><l>malaiopolinèsic<s n="adj"/></l><r>maleo-polinesianu<s n="adj"/></r></p></e>
+      <e><p><l>caucàsic<s n="adj"/></l><r>caucàsicu<s n="adj"/></r></p></e>
+      <e><p><l>dravídic<s n="adj"/></l><r>dravìdicu<s n="adj"/></r></p></e>
+      <e><p><l>úgric<s n="adj"/></l><r>ùgricu<s n="adj"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
