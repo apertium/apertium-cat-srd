@@ -747,7 +747,7 @@
     <e><p><l>moviment<s n="n"/><s n="m"/></l><r>movimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>guerra<s n="n"/><s n="f"/></l><r>gherra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ortografia<s n="n"/><s n="f"/></l><r>ortografia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>film<s n="n"/><s n="m"/></l><r>film<s n="n"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>film<s n="n"/><s n="m"/></l><r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
     <e><p><l>universitat<s n="n"/><s n="f"/></l><r>universidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>unitat<s n="n"/><s n="f"/></l><r>unidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tradició<s n="n"/><s n="f"/></l><r>traditzione<s n="n"/><s n="f"/></r></p></e>
@@ -2523,7 +2523,7 @@
     <e><p><l>proclític<s n="adj"/></l><r>proclìticu<s n="adj"/></r></p></e>
     <e><p><l>romanès<s n="adj"/></l><r>rumenu<s n="adj"/></r></p></e>
     <e><p><l>singular<s n="adj"/></l><r>singulare<s n="adj"/></r></p></e>
-    <e><p><l>cinematogràfic<s n="adj"/></l><r>tzinematograficu<s n="adj"/></r></p></e>
+    <e><p><l>cinematogràfic<s n="adj"/></l><r>tzinematogràficu<s n="adj"/></r></p></e>
     <e><p><l>útil<s n="adj"/></l><r>ùtile<s n="adj"/></r></p></e>
 
     <e><p><l>aplicable<s n="adj"/></l><r>aplicàbile<s n="adj"/></r></p></e>
@@ -3640,7 +3640,7 @@
       <e><p><l>mantenir<s n="vblex"/></l><r>mantènnere<s n="vblex"/></r></p></e>
       <e><p><l>resta<s n="n"/><s n="f"/></l><r>restu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nomenar<s n="vblex"/></l><r>numenare<s n="vblex"/></r></p></e>
-      <e><p><l>pel·lícula<s n="n"/><s n="f"/></l><r>film<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pel·lícula<s n="n"/><s n="f"/></l><r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>fet<s n="n"/><s n="m"/></l><r>fatu<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>habitatge<s n="n"/><s n="m"/></l><r>domo<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>vertical<s n="n"/><s n="f"/></l><r>verticale<s n="n"/><s n="f"/></r></p></e>
@@ -23571,10 +23571,12 @@
       <e><p><l>escuma<s n="n"/><s n="f"/></l><r>iscuma<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>escòria<s n="n"/><s n="f"/></l><r>iscòria<s n="n"/><s n="f"/></r></p></e>
       <e r="RL"><p><l>esgrima<s n="n"/><s n="f"/></l><r>isgrima<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>eslàlom<s n="n"/><s n="m"/></l><r>islàlom<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>eslàlom<s n="n"/><s n="m"/></l><r>islalom<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>isoglossa<s n="n"/><s n="f"/></l><r>isoglossa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>esparadrap<s n="n"/><s n="m"/></l><r>isparadrapu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>espeleologia<s n="n"/><s n="f"/></l><r>ispeleologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>espeleòleg<s n="n"/></l><r>ispeleòlogu<s n="n"/></r></p></e>
+      <e><p><l>espeleològic<s n="adj"/></l><r>ispeleològicu<s n="adj"/></r></p></e>
       <e><p><l>espelta<s n="n"/><s n="f"/></l><r>farru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>espinada<s n="n"/><s n="f"/></l><r>ispinada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>espineta<s n="n"/><s n="f"/></l><r>ispineta<s n="n"/><s n="f"/></r></p></e>
