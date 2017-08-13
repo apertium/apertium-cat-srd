@@ -483,4 +483,19 @@
      <match lemma="romànic" tags="adj.*"><select lemma="romantzu"/></match>
   </rule>
 
+<!-- xic (n) > pizocu, pagu -->
+
+  <rule weight="0.6">
+     <match lemma="xic" tags="n.m.*"><select lemma="pizocu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="xic" tags="n.m.*"><select lemma="pagu"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="xic" tags="n.m.*"><select lemma="pizocu"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="np.*"/>
+  </rule>
+
 </rules>
