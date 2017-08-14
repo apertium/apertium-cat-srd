@@ -112,6 +112,7 @@
    <attr-item tags="pis"/>
    <attr-item tags="prs"/>
    <attr-item tags="pii"/>
+   <attr-item tags="ifi"/> <!-- @!LSC -->
    <attr-item tags="pp"/>
    <attr-item tags="inf"/>
    <attr-item tags="ger"/>
@@ -169,6 +170,7 @@
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
   <def-var n="concTercero"/>
+  <def-var n="temp"/>
 </section-def-vars>
 
 <section-def-macros>
@@ -192,6 +194,26 @@
             <lit-tag v="prn.enc"/>
           </let>
         </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="conv_enc_enc" npar="2">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.enc.adv"/></equal>
+              <or>
+                <equal><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.enc.p1.*"/></equal>
+                <equal><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.enc.p2.*"/></equal>
+                <equal><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.enc.p3.*"/></equal>
+              </or>
+            </and>
+          </test>
+          <let><var n="temp"/><clip pos="1" side="tl" part="whole"/></let>
+          <let><clip pos="1" side="tl" part="whole"/><clip pos="2" side="tl" part="whole"/></let>
+          <let><clip pos="2" side="tl" part="whole"/><var n="temp"/></let>
+        </when>
       </choose>
     </def-macro>
 
@@ -2793,6 +2815,10 @@
      <pattern-item n="enc"/>
    </pattern>
    <action>
+     <call-macro n="conv_enc_enc"> <!-- no funciona la macro --> <!-- no funciona la macro -->
+       <with-param pos="2"/>
+       <with-param pos="3"/>
+     </call-macro>
      <out>
        <chunk name="x">
          <tags>
@@ -2808,18 +2834,10 @@
            <clip pos="1" side="tl" part="nbr"/>
          </lu>
          <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="whole"/>
          </lu>
          <lu>
-           <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="whole"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
 
@@ -3190,84 +3208,6 @@
      </out>
    </action>
 </rule>
-
-<rule comment="regla: inf enc">
-   <pattern>
-     <pattern-item n="inf"/>
-     <pattern-item n="enc"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="x">
-         <tags>
-           <tag><lit-tag v="SX"/></tag>
-         </tags>
-       <mlu>
-         <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
-           <clip pos="1" side="tl" part="lemq"/>
-         </lu>
-       </mlu>
-       </chunk>
-     </out>
-   </action>
-</rule>
-
-<rule comment="regla: inf enc enc">
-   <pattern>
-     <pattern-item n="inf"/>
-     <pattern-item n="enc"/>
-     <pattern-item n="enc"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="x">
-         <tags>
-           <tag><lit-tag v="SX"/></tag>
-         </tags>
-       <mlu>
-         <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="a_verb"/>
-           <clip pos="1" side="tl" part="temps"/>
-           <clip pos="1" side="tl" part="pers"/>
-           <clip pos="1" side="tl" part="gen"/>
-           <clip pos="1" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="2" side="tl" part="lemh"/>
-           <clip pos="2" side="tl" part="a_prn"/>
-           <clip pos="2" side="tl" part="pers"/>
-           <clip pos="2" side="tl" part="gen"/>
-           <clip pos="2" side="tl" part="nbr"/>
-         </lu>
-         <lu>
-           <clip pos="3" side="tl" part="lemh"/>
-           <clip pos="3" side="tl" part="a_prn"/>
-           <clip pos="3" side="tl" part="pers"/>
-           <clip pos="3" side="tl" part="gen"/>
-           <clip pos="3" side="tl" part="nbr"/>
-           <clip pos="1" side="tl" part="lemq"/>
-         </lu>
-
-       </mlu>
-       </chunk>
-     </out>
-   </action>
-</rule>
-
 
 <rule comment="regla: dare_prs inf">
    <pattern>
