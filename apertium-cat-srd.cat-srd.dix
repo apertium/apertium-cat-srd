@@ -25032,7 +25032,8 @@
       <e><p><l>benefactor<s n="adj"/></l><r>benefatore<s n="adj"/></r></p></e>
       <e r="LR"><p><l>conquistador<s n="adj"/></l><r>conchistadore<s n="adj"/></r></p></e>
       <e><p><l>corrector<s n="adj"/></l><r>corretore<s n="adj"/></r></p></e>
-      <e><p><l>creditor<s n="adj"/></l><r>creditore<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>creditor<s n="adj"/></l><r>creditore<s n="adj"/></r></p></e>
+      <e><p><l>creditor<s n="adj"/></l><r>credidore<s n="adj"/></r></p></e>
       <e><p><l>destructor<s n="adj"/></l><r>distrutore<s n="adj"/></r></p></e>
       <e r="LR"><p><l>dominador<s n="adj"/></l><r>dominadore<s n="adj"/></r></p></e>
       <e><p><l>lector<s n="adj"/></l><r>letore<s n="adj"/></r></p></e>
@@ -25312,7 +25313,6 @@
       <e><p><l>viabilitat<s n="n"/><s n="f"/></l><r>viabilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>virginitat<s n="n"/><s n="f"/></l><r>virginidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>virtualitat<s n="n"/><s n="f"/></l><r>virtualidade<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>antítesi<s n="n"/><s n="f"/></l><r>antìtesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>centralisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzentralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>centralitat<s n="n"/><s n="f"/></l><r>tzentralidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>centrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>tzentrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -25346,8 +25346,10 @@
       <e><p><l>contenidor<s n="n"/></l><r>cuntenidore<s n="n"/></r></p></e>
       <e><p><l>contestador<s n="n"/></l><r>cuntestadore<s n="n"/></r></p></e>
       <e><p><l>cosidor<s n="n"/></l><r>cosidore<s n="n"/></r></p></e>
-      <e><p><l>creditor<s n="n"/></l><r>creditore<s n="n"/></r></p></e>
-      <e><p><l>deutor<s n="n"/></l><r>depitore<s n="n"/></r></p></e>
+      <e r="RL"><p><l>creditor<s n="n"/></l><r>creditore<s n="n"/></r></p></e>
+      <e><p><l>creditor<s n="n"/></l><r>credidore<s n="n"/></r></p></e>
+      <e><p><l>deutor<s n="n"/></l><r>depidore<s n="n"/></r></p></e>
+      <e><p><l>deutor<s n="adj"/></l><r>depidore<s n="adj"/></r></p></e>
       <e><p><l>criador<s n="n"/></l><r>criadore<s n="n"/></r></p></e>
       <e><p><l>decorador<s n="n"/></l><r>decoradore<s n="n"/></r></p></e>
       <e><p><l>denominador<s n="n"/></l><r>denominadore<s n="n"/></r></p></e>
@@ -25466,7 +25468,7 @@
       <e><p><l>paisà<s n="n"/><s n="m"/></l><r>paisanu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>amarg<s n="adj"/></l><r>amargu<s n="adj"/></r></p></e>
       <e><p><l>bufó<s n="adj"/></l><r>bufone<s n="adj"/></r></p></e>
-      <e><p><l>carmelita<s n="adj"/></l><r>carmelitanu<s n="adj"/></r></p></e>
+      <e><p><l>carmelita<s n="adj"/></l><r>carmelitanu<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>fanfarró<s n="adj"/></l><r>fanfarrone<s n="adj"/></r></p></e>
       <e r="RL"><p><l>ràpid<s n="adj"/></l><r>ràpidu<s n="adj"/></r></p></e>
       <e><p><l>e-mail<s n="n"/><s n="m"/></l><r>e-mail<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -26092,12 +26094,12 @@
       <e><p><l>indignar<s n="vblex"/></l><r>indignare<s n="vblex"/></r></p></e>
       <e><p><l>esperó<s n="n"/><s n="m"/></l><r>isprone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>complicitat<s n="n"/><s n="f"/></l><r>complitzidade<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>basquetbol<s n="n"/><s n="m"/><s n="sg"/></l><r>pallacanestro<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>atri<s n="n"/><s n="m"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>artificialment<s n="adv"/></l><r>in<b/>manera<b/>artìfitziale<s n="adv"/></r></p></e>
       <e r="RL"><p><l>artificialment<s n="adv"/></l><r>artifitzialmente<s n="adv"/></r></p></e>
       <e><p><l>apaivagar<s n="vblex"/></l><r>asseliare<s n="vblex"/></r></p></e>
-      <e><p><l>alto<b/>el<b/>foc<s n="n"/><s n="m"/></l><r>armistìtziu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>alto<b/>el<b/>foc<s n="n"/><s n="m"/></l><r>armistìtziu<s n="n"/><s n="m"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>alto<g><b/>el<b/>foc</g><s n="n"/><s n="m"/></l><r>armistìtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sagnar<s n="vblex"/></l><r>sambenare<s n="vblex"/></r></p></e>
       <e><p><l>prudent<s n="adj"/></l><r>prudente<s n="adj"/></r></p><par n="sup_0_mf"/></e>
       <e><p><l>peatge<s n="n"/><s n="m"/></l><r>pedàgiu<s n="n"/><s n="m"/></r></p></e>
@@ -26105,7 +26107,6 @@
       <e><p><l>Mollet<s n="np"/><s n="loc"/></l><r>Mollet<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>desvincular<s n="vblex"/></l><r>isvinculare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>desvincular<s n="vblex"/></l><r>isòrvere<s n="vblex"/></r></p></e>
-      <e><p><l>d'entreguerres<s n="adj"/></l><r>de<b/>sa<b/>gherra<s n="adj"/></r></p></e>
       <e><p><l>burla<s n="n"/><s n="f"/></l><r>brulla<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>arxivar<s n="vblex"/></l><r>archiviare<s n="vblex"/></r></p></e>
       <e><p><l>apreciable<s n="adj"/><s n="mf"/></l><r>de<b/>apretziare<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
@@ -26990,6 +26991,9 @@
       <e r="LR"><p><l>primogènit<s n="n"/><s n="m"/></l><r>primu<b/>fìgiu<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>primogènit<s n="n"/><s n="m"/></l><r>mannìmene<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tallat<s n="n"/><s n="m"/></l><r>macradu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pastanaga<s n="n"/><s n="f"/></l><r>pistinaga<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carlota<s n="n"/><s n="f"/></l><r>pistinaga<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>safanòria<s n="n"/><s n="f"/></l><r>pistinaga<s n="n"/><s n="f"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
