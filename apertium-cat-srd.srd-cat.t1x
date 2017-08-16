@@ -143,6 +143,7 @@
 <def-attr n="a_prn">
    <attr-item tags="rel.an"/>
    <attr-item tags="prn.tn"/>
+   <attr-item tags="prn.tn.pos"/>
    <attr-item tags="prn.pro"/>
    <attr-item tags="prn.enc"/>
    <attr-item tags="prn.itg"/>

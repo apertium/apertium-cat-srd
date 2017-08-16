@@ -498,4 +498,13 @@
      <match tags="np.*"/>
   </rule>
 
+<!-- caragol, cargol (n) > corrobaca, vite -->
+
+  <rule weight="0.6">
+     <match lemma="caragol" tags="n.m.*"><select lemma="corrobaca"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="cargol" tags="n.m.*"><select lemma="corrobaca"/></match>
+  </rule>
+
 </rules>
