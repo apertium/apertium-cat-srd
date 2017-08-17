@@ -958,6 +958,8 @@
     <e><p><l>vegetarianisme<s n="n"/><s n="m"/></l><r>vegetarianismu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vegetarià<s n="n"/></l><r>vegetarianu<s n="n"/></r></p></e>
     <e><p><l>vegetarià<s n="adj"/></l><r>vegetarianu<s n="adj"/></r></p></e>
+    <e><p><l>egeu<s n="adj"/></l><r>egeu<s n="adj"/></r></p></e>
+    <e><p><l>adriàtic<s n="adj"/></l><r>adriàticu<s n="adj"/></r></p></e>
     <e><p><l>sentiment<s n="n"/><s n="m"/></l><r>sentimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>civilització<s n="n"/><s n="f"/></l><r>tzivilizatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pestilència<s n="n"/><s n="f"/></l><r>pestilèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -1009,6 +1011,7 @@
     <e><p><l>novetat<s n="n"/><s n="f"/></l><r>novidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>notació<s n="n"/><s n="f"/></l><r>notatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>muller<s n="n"/><s n="f"/></l><r>mugere<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>paranoia<s n="n"/><s n="f"/></l><r>paranoja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>manifest<s n="n"/><s n="m"/></l><r>manifestu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>manifestació<s n="n"/><s n="f"/></l><r>manifestatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>localitat<s n="n"/><s n="f"/></l><r>localidade<s n="n"/><s n="f"/></r></p></e>
@@ -1292,10 +1295,11 @@
     <e><p><l>dirigent<s n="n"/><s n="mf"/></l><r>dirigente<s n="n"/><s n="mf"/></r></p></e>
     <e><p><l>camí<s n="n"/><s n="m"/></l><r>caminu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>servei<s n="n"/><s n="m"/></l><r>servìtziu<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>servici<s n="n"/><s n="m"/></l><r>servìtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>poble<s n="n"/><s n="m"/></l><r>pòpulu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>interès<s n="n"/><s n="m"/></l><r>interessu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>conflicte<s n="n"/><s n="m"/></l><r>cunflitu<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>muller<s n="n"/><s n="f"/></l><r>fèmina<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>muller<s n="n"/><s n="f"/></l><r>fèmina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>exèrcit<s n="n"/><s n="m"/></l><r>esèrtzitu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>valor<s n="n"/><s n="m"/></l><r>balore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>economia<s n="n"/><s n="f"/></l><r>economia<s n="n"/><s n="f"/></r></p></e>
@@ -1574,7 +1578,7 @@
     <e><p><l>jurisdicció<s n="n"/><s n="f"/></l><r>giurisditzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>satisfacció<s n="n"/><s n="f"/></l><r>godimentu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>restricció<s n="n"/><s n="f"/></l><r>impedimentu<s n="n"/><s n="m"/></r></p></e>
-    <e r="RL"><p><l>persona<s n="n"/><s n="f"/></l><r>individuu<s n="n"/><s n="m"/></r></p></e>
+    <e i="yes"><p><l>persona<s n="n"/><s n="f"/></l><r>indivìduu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>infància<s n="n"/><s n="f"/></l><r>infàntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>intromissió<s n="n"/><s n="f"/></l><r>intromissione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>esclau<s n="n"/><s n="m"/></l><r>iscrau<s n="n"/><s n="m"/></r></p></e>
@@ -1589,6 +1593,7 @@
     <e><p><l>llibertat<s n="n"/><s n="f"/></l><r>libertade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>limitació<s n="n"/><s n="f"/></l><r>limitatzione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>conquesta<s n="n"/><s n="f"/></l><r>conquista<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>conquista<s n="n"/><s n="f"/></l><r>conquista<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>maternitat<s n="n"/><s n="f"/></l><r>maternidade<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mèrit<s n="n"/><s n="m"/></l><r>mèritu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>límit<s n="n"/><s n="m"/></l><r>lìmite<s n="n"/><s n="m"/></r></p></e>
@@ -3761,6 +3766,7 @@
       <e><p><l>reduir<s n="vblex"/></l><r>minimare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>reduir<s n="vblex"/></l><r>reduire<s n="vblex"/></r></p></e>
       <e><p><l>posteriorment<s n="adv"/></l><r>a<b/>pustis<s n="adv"/></r></p></e>
+      <e><p><l>posteriorment<s n="adv"/></l><r>pustis<s n="adv"/></r></p></e>
       <e><p><l>costa<s n="n"/><s n="f"/></l><r>costera<s n="n"/><s n="f"/></r></p></e>
       <e r="RL"><p><l>costa<s n="n"/><s n="f"/></l><r>costa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>lluita<s n="n"/><s n="f"/></l><r>cumbata<s n="n"/><s n="f"/></r></p></e>
@@ -3883,6 +3889,7 @@
       <e><p><l>cedir<s n="vblex"/></l><r>tzèdere<s n="vblex"/></r></p></e>
       <e><p><l>bandera<s n="n"/><s n="f"/></l><r>bandera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>conquerir<s n="vblex"/></l><r>conchistare<s n="vblex"/></r></p></e>
+      <e><p><l>conquistar<s n="vblex"/></l><r>conchistare<s n="vblex"/></r></p></e>
       <e><p><l>catedral<s n="n"/><s n="f"/></l><r>catedrale<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>líder<s n="n"/><s n="mf"/></l><r>cabu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>líder<s n="n"/><s n="mf"/></l><r>ghia<s n="n"/><s n="f"/></r></p></e>
@@ -6036,7 +6043,7 @@
       <e><p><l>Serrat<s n="np"/><s n="ant"/></l><r>Serrat<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Sant<b/>Pere<s n="np"/><s n="loc"/></l><r>Sant<b/>Pere<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>capità<s n="n"/><s n="m"/></l><r>capitanu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>individu<s n="n"/><s n="m"/></l><r>individuu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>individu<s n="n"/><s n="m"/></l><r>indivìduu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>campionat<s n="n"/><s n="m"/></l><r>campionadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sultà<s n="n"/><s n="m"/></l><r>sultanu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>futur<s n="n"/><s n="m"/></l><r>benidore<s n="n"/><s n="m"/></r></p></e>
@@ -6419,7 +6426,7 @@
       <e><p><l>argentí<s n="n"/></l><r>argentinu<s n="n"/></r></p></e>
       <e><p><l>armeni<s n="n"/></l><r>armenu<s n="n"/></r></p></e>
       <e><p><l>australià<s n="n"/></l><r>australianu<s n="n"/></r></p></e>
-      <e><p><l>austríac<s n="n"/></l><r>austriacu<s n="n"/></r></p></e>
+      <e><p><l>austríac<s n="n"/></l><r>austrìacu<s n="n"/></r></p></e>
       <e><p><l>azerbaidjanès<s n="n"/></l><r>azerbaigianu<s n="n"/></r></p></e>
       <e><p><l>bahamià<s n="n"/></l><r>bahamianu<s n="n"/></r></p></e>
       <e><p><l>bengalí<s n="n"/></l><r>bengalesu<s n="n"/></r></p></e>
@@ -26232,7 +26239,7 @@
       <e><p><l>vici<s n="n"/><s n="m"/></l><r>vìtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Sant<b/>Joan<b/>de<b/>les<b/>Abadesses<s n="np"/><s n="loc"/></l><r>Sant<b/>Joan<b/>de<b/>les<b/>Abadesses<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>pòstumament<s n="adv"/></l><r>in<b/>manera<b/>pòstuma<s n="adv"/></r></p></e>
-      <e r="RL"><p><l>pòstumament<s n="adv"/></l><r>a<b/>pustis<s n="adv"/></r></p></e>
+      <e i="yes"><p><l>pòstumament<s n="adv"/></l><r>a<b/>pustis<s n="adv"/></r></p></e>
       <e><p><l>escarabat<s n="n"/><s n="m"/></l><r>carrabusu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>escarabat<s n="n"/><s n="m"/></l><r>sisaja<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cessament<s n="n"/><s n="m"/></l><r>agabbu<s n="n"/><s n="m"/></r></p></e>
