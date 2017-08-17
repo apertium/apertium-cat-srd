@@ -2240,6 +2240,7 @@
     <e><p><l>bonic<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
     <e r="LR"><p><l>maco<s n="adj"/></l><r>bellu<s n="adj"/></r></p></e>
     <e><p><l>europeu<s n="adj"/></l><r>europeu<s n="adj"/></r></p></e>
+    <e><p><l>paneuropeu<s n="adj"/></l><r>paneuropeu<s n="adj"/></r></p></e>
     <e><p><l>extraeuropeu<s n="adj"/></l><r>extraeuropeu<s n="adj"/></r></p></e>
     <e><p><l>nacional<s n="adj"/></l><r>natzionale<s n="adj"/></r></p></e>
     <e><p><l>particular<s n="adj"/></l><r>particulare<s n="adj"/></r></p></e>
@@ -4899,6 +4900,8 @@
 
       <e><p><l>seriar<s n="vblex"/></l><r>fàghere<g><b/>in<b/>sèrie</g><s n="vblex"/></r></p></e>
       <e r="LR"><p><l>nau<s n="n"/><s n="f"/></l><r>naviu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>centreamericà<s n="adj"/></l><r>tzentruamericanu<s n="adj"/></r></p></e>
+      <e><p><l>centreamericà<s n="n"/></l><r>tzentruamericanu<s n="n"/></r></p></e>
       <e><p><l>nord-americà<s n="adj"/></l><r>nordamericanu<s n="adj"/></r></p></e>
       <e><p><l>nord-americà<s n="n"/></l><r>nordamericanu<s n="n"/></r></p></e>
       <e r="RL"><p><l>nord-americà<s n="adj"/></l><r>istadunidensu<s n="adj"/></r></p></e>
@@ -5974,6 +5977,7 @@
       <e><p><l>enterrament<s n="n"/><s n="m"/></l><r>interru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>bloqueig<s n="n"/><s n="m"/></l><r>blocu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>soprano<s n="n"/><s n="mf"/></l><r>sopranu<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mezzosoprano<s n="n"/><s n="mf"/></l><r>messusopranu<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>net<s n="adj"/></l><r>netu<s n="adj"/></r></p></e>
       <e r="RL"><p><l>net<s n="adj"/></l><r>lìmpiu<s n="adj"/></r></p></e>
       <e><p><l>endèmic<s n="adj"/></l><r>endèmicu<s n="adj"/></r></p></e>
@@ -6145,7 +6149,7 @@
       <e><p><l>atlàntic<s n="adj"/></l><r>atlànticu<s n="adj"/></r></p></e>
 
       <e><p><l>Algèria<s n="np"/><s n="loc"/></l><r>Algeria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Angola<s n="np"/><s n="loc"/></l><r>Angola<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Angola<s n="np"/><s n="loc"/></l><r>Angola<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Antigua<b/>i<b/>Barbuda<s n="np"/><s n="loc"/></l><r>Antìgua<b/>e<b/>Barbuda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Bahames<s n="np"/><s n="loc"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Bahrain<s n="np"/><s n="loc"/></l><r>Bahrain<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6157,7 +6161,7 @@
       <e><p><l>Bielorússia<s n="np"/><s n="loc"/></l><r>Bielorùssia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Bolívia<s n="np"/><s n="loc"/></l><r>Bolìvia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Borneo<s n="np"/><s n="loc"/></l><r>Bòrneo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Botswana<s n="np"/><s n="loc"/></l><r>Botswana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Botswana<s n="np"/><s n="loc"/></l><r>Botswana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Brasil<s n="np"/><s n="loc"/></l><r>Brasile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Brunei<s n="np"/><s n="loc"/></l><r>Brunei<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Bulgària<s n="np"/><s n="loc"/></l><r>Bulgaria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6301,14 +6305,14 @@
       <e><p><l>Mali<s n="np"/><s n="loc"/></l><r>Malì<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Malpelo<s n="np"/><s n="loc"/></l><r>Malpelo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>mar<b/>de<b/>Beaufort<s n="np"/><s n="loc"/></l><r>mare<b/>de<b/>Beaufort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Maurici<s n="np"/><s n="loc"/></l><r>Maurìtziu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>Maurici<s n="np"/><s n="loc"/></l><r>Maurìtziu<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Melville<s n="np"/><s n="loc"/></l><r>Melville<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Mindanao<s n="np"/><s n="loc"/></l><r>Mindanao<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Mindanao<s n="np"/><s n="loc"/></l><r>Mindanao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Mongòlia<s n="np"/><s n="loc"/></l><r>Mongòlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Moçambic<s n="np"/><s n="loc"/></l><r>Mozambicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Myanmar<s n="np"/><s n="loc"/></l><r>Myanmàr<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Myanmar<s n="np"/><s n="loc"/></l><r>Myanmàr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Namíbia<s n="np"/><s n="loc"/></l><r>Namìbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Nauru<s n="np"/><s n="loc"/></l><r>Nauru<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Nauru<s n="np"/><s n="loc"/></l><r>Nauru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Nepal<s n="np"/><s n="loc"/></l><r>Nepàl<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Nicaragua<s n="np"/><s n="loc"/></l><r>Nicaràgua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Níger<s n="np"/><s n="loc"/></l><r>Niger<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6344,7 +6348,7 @@
       <e><p><l>Somàlia<s n="np"/><s n="loc"/></l><r>Somàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Somerset<s n="np"/><s n="loc"/></l><r>Somerset<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Southampton<s n="np"/><s n="loc"/></l><r>Southampton<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Sri<b/>Lanka<s n="np"/><s n="loc"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sri<b/>Lanka<s n="np"/><s n="loc"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Saint-Pierre<b/>i<b/>Miquelon<s n="np"/><s n="loc"/></l><r>St-Pierre-et-Miquelon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Sumatra<s n="np"/><s n="loc"/></l><r>Sumatra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Surinam<s n="np"/><s n="loc"/></l><r>Suriname<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6362,7 +6366,7 @@
       <e r="LR"><p><l>República<b/>Txeca<s n="np"/><s n="loc"/></l><r>Tzèchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Xipre<s n="np"/><s n="loc"/></l><r>Tzipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>EAU<s n="np"/><s n="loc"/></l><r>U.e.a.<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Uganda<s n="np"/><s n="loc"/></l><r>Uganda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Uganda<s n="np"/><s n="loc"/></l><r>Uganda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Hongria<s n="np"/><s n="loc"/></l><r>Ungheria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Uruguai<s n="np"/><s n="loc"/></l><r>Uruguai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Uzbekistan<s n="np"/><s n="loc"/></l><r>Uzbekistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -22746,6 +22750,7 @@
       <e><p><l>bretxa<s n="n"/><s n="f"/></l><r>giassu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>resar<s n="vblex"/></l><r>pregare<s n="vblex"/></r></p></e>
       <e><p><l>puny<s n="n"/><s n="m"/></l><r>pùngiu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pòlio<s n="n"/><s n="f"/></l><r>pòliu<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>polir<s n="vblex"/></l><r>lustrare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>polir<s n="vblex"/></l><r>lughidare<s n="vblex"/></r></p></e>
       <e><p><l>metal·lúrgia<s n="n"/><s n="f"/></l><r>metallurgia<s n="n"/><s n="f"/></r></p></e>
@@ -23607,6 +23612,7 @@
       <e><p><l>frau<s n="n"/><s n="m"/></l><r>frau<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fritada<s n="n"/><s n="f"/></l><r>fritada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>frontissa<s n="n"/><s n="f"/></l><r>frontissa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>frontispici<s n="n"/><s n="m"/></l><r>frontespìtziu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fuetada<s n="n"/><s n="f"/></l><r>fuetada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fumera<s n="n"/><s n="f"/></l><r>fumera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fura<s n="n"/><s n="f"/></l><r>furitu<s n="n"/><s n="m"/></r></p></e>
@@ -25502,7 +25508,6 @@
       <e><p><l>condensador<s n="n"/><s n="m"/></l><r>cundensadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>estimador<s n="n"/><s n="m"/></l><r>istimadore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>garant<s n="n"/><s n="mf"/></l><r>garante<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>guardó<s n="n"/><s n="m"/></l><r>guardone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mesurador<s n="n"/><s n="m"/></l><r>mesuradore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>numerador<s n="n"/><s n="m"/></l><r>numeradore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ocupant<s n="n"/><s n="mf"/></l><r>ocupante<s n="n"/><s n="m"/></r></p></e>
@@ -25729,8 +25734,9 @@
       <e><p><l>destil·lació<s n="n"/><s n="f"/></l><r>lambicadura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>deserció<s n="n"/><s n="f"/></l><r>abbandonu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>comiat<s n="n"/><s n="m"/></l><r>dispedida<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>xou<s n="n"/><s n="m"/></l><r>ispetàculu<s n="n"/><s n="m"/></r></p></e>
-      <e r="RL"><p><l>xou<s n="n"/><s n="m"/></l><r>esibitzione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>xou<s n="n"/><s n="m"/></l><r>ispetàculu<s n="n"/><s n="m"/></r></p></e>
+      <e i="yes"><p><l>xou<s n="n"/><s n="m"/></l><r>esibitzione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>show<s n="n"/><s n="m"/></l><r>ispetàculu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>summament<s n="adv"/></l><r>summamente<s n="adv"/></r></p></e>
       <e><p><l>saludable<s n="adj"/></l><r>chi<b/>faghet<b/>bene<s n="adj"/></r></p></e>
       <e><p><l>refineria<s n="n"/><s n="f"/></l><r>rafineria<s n="n"/><s n="f"/></r></p></e>
@@ -25743,7 +25749,7 @@
       <e><p><l>Palau<b/>de<b/>la<b/>Música<s n="np"/><s n="al"/></l><r>Palatzu<b/>de<b/>sa<b/>Mùsica<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>estrall<s n="n"/><s n="m"/></l><r>istragu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>estrall<s n="n"/><s n="m"/></l><r>ruina<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>Ceilan<s n="np"/><s n="loc"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>Ceilan<s n="np"/><s n="loc"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>veïnal<s n="adj"/><s n="mf"/></l><r>de<b/>su<b/>bighinadu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e><p><l>supermercat<s n="n"/><s n="m"/></l><r>supermercadu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>supermercat<s n="n"/><s n="m"/></l><r>butega<s n="n"/><s n="f"/></r></p></e>
@@ -26294,8 +26300,12 @@
       <e><p><l>Logronyo<s n="np"/><s n="loc"/></l><r>Logrogno<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Ellen<s n="np"/><s n="ant"/></l><r>Ellen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Gautier<s n="np"/><s n="ant"/></l><r>Gautier<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>escèptic<s n="adj"/></l><r>iscrètidu<s n="adj"/></r></p></e>
-      <e r="RL"><p><l>escèptic<s n="adj"/></l><r>dudosu<s n="adj"/></r></p></e>
+      <e><p><l>escepticisme<s n="n"/><s n="m"/><s n="sg"/></l><r>iscetitzismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>euroescepticisme<s n="n"/><s n="m"/><s n="sg"/></l><r>euroiscetitzismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>euroescèptic<s n="adj"/></l><r>euroiscèticu<s n="adj"/></r></p></e>
+      <e><p><l>escèptic<s n="adj"/></l><r>iscèticu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>escèptic<s n="adj"/></l><r>iscrètidu<s n="adj"/></r></p></e>
+      <e i="yes"><p><l>escèptic<s n="adj"/></l><r>dudosu<s n="adj"/></r></p></e>
       <e><p><l>enllà<s n="adv"/></l><r>in<b/>cue<s n="adv"/></r></p></e>
       <e><p><l>Elvis<s n="np"/><s n="ant"/></l><r>Elvis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>culturalment<s n="adv"/></l><r>culturalmente<s n="adv"/></r></p></e>
