@@ -1791,11 +1791,12 @@
     <e><p><l>Iugoslàvia<s n="np"/><s n="loc"/></l><r>Jugoslàvia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Calàbria<s n="np"/><s n="loc"/></l><r>Calàbria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Ucraïna<s n="np"/><s n="loc"/></l><r>Ucràina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-    <e><p><l>Veneçuela<s n="np"/><s n="loc"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Veneçuela<s n="np"/><s n="loc"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e><p><l>Washington<s n="np"/><s n="loc"/></l><r>Washington<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Bush<s n="np"/><s n="ant"/></l><r>Bush<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>Iraq<s n="np"/><s n="loc"/></l><r>Iràq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>Irac<s n="np"/><s n="loc"/></l><r>Iràq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Líban<s n="np"/><s n="loc"/></l><r>Lìbanu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>al-Qaida<s n="np"/><s n="al"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Abbas<s n="np"/><s n="ant"/></l><r>Abbas<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -5510,7 +5511,6 @@
       <e><p><l>prim<s n="adj"/></l><r>làngiu<s n="adj"/></r></p></e>
       <e><p><l>intel·ligència<s n="n"/><s n="f"/></l><r>intellighèntzia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Hamburg<s n="np"/><s n="loc"/></l><r>Amburgu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>l'Iraq<s n="np"/><s n="loc"/></l><r>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>innovació<s n="n"/><s n="f"/></l><r>innovatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>blat<s n="n"/><s n="m"/></l><r>trigu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>volcànic<s n="adj"/></l><r>vulcànicu<s n="adj"/></r></p></e>
@@ -6278,8 +6278,6 @@
       <e><p><l>Illes<b/>Nicobar<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Nikobar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illes<b/>Ogasawara<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Ogasawara<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illes<b/>Palau<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Palau<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>Iran<s n="np"/><s n="loc"/></l><r>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Iraq<s n="np"/><s n="loc"/></l><r>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Illes<b/>Revillagigedo<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Revillagigedo<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illes<b/>Ryukyu<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Ryukyu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illa<b/>de<b/>Sant<b/>Llorenç<s n="np"/><s n="loc"/></l><r>Ìsula<b/>San<b/>Lorenzo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
