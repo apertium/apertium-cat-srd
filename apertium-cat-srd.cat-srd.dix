@@ -527,6 +527,8 @@
     <e r="RL"><p><l>lloc<s n="n"/><s n="m"/></l><r>situ<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>comte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>comte<s n="n"/><s n="f"/></l><r>conte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vescomte<s n="n"/><s n="m"/></l><r>visconte<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>vescomte<s n="n"/><s n="f"/></l><r>visconte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>actor<s n="n"/><s n="m"/></l><r>atore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>actor<s n="n"/><s n="f"/></l><r>atore<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>partit<s n="n"/><s n="m"/></l><r>partidu<s n="n"/><s n="m"/></r></p></e>
@@ -5449,7 +5451,7 @@
       <e><p><l>Cardona<s n="np"/><s n="loc"/></l><r>Cardona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>bloquejar<s n="vblex"/></l><r>blocare<s n="vblex"/></r></p></e>
       <e><p><l>restablir<s n="vblex"/></l><r>ristabilire<s n="vblex"/></r></p></e>
-      <e><p><l>Valls<s n="np"/><s n="loc"/></l><r>Valls<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>Valls<s n="np"/><s n="loc"/></l><r>Valls<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Torres<s n="np"/><s n="ant"/></l><r>Torres<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>obrer<s n="adj"/></l><r>operaju<s n="adj"/></r></p></e>
       <e><p><l>himne<s n="n"/><s n="m"/></l><r>innu<s n="n"/><s n="m"/></r></p></e>
@@ -6272,8 +6274,8 @@
       <e><p><l>Illa<b/>Macquarie<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Macquari<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Illes<b/>Malvines<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Malvinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>Illes<b/>Falkland<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Malvinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>Illes<b/>Marqueses<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Marchesas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>Illes<b/>Marianes<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Mariannas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>Illes<b/>Marqueses<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Marchesas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>Illes<b/>Mariannes<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Mariannas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illa<b/>Marion<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Marion<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Illes<b/>Marshall<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Marshall<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>Illa<b/>Mayotte<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Mayotte<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
@@ -6952,7 +6954,7 @@
       <e><p><l>oscil·lar<s n="vblex"/></l><r>bantzigare<s n="vblex"/></r></p></e>
       <e><p><l>ruptura<s n="n"/><s n="f"/></l><r>segadura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>litre<s n="n"/><s n="m"/></l><r>litru<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>Oviedo<s n="np"/><s n="loc"/></l><r>Oviedo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Oviedo<s n="np"/><s n="loc"/></l><r>Oviedo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a<b/>cavall<s n="adv"/></l><r>a<b/>caddu<s n="adv"/></r></p></e>
       <e><p><l>autopista<s n="n"/><s n="f"/></l><r>caminu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acadèmia<s n="n"/><s n="f"/></l><r>acadèmia<s n="n"/><s n="f"/></r></p></e>
@@ -22204,7 +22206,7 @@
       <e><p><l>gramàtic<s n="n"/><s n="m"/></l><r>grammàticu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>examen<s n="n"/><s n="m"/></l><r>esame<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>elefant<s n="n"/><s n="m"/></l><r>elefante<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>Cervera<s n="np"/><s n="loc"/></l><r>Cervera<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Cervera<s n="np"/><s n="loc"/></l><r>Cervera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>mariscal<s n="n"/><s n="m"/></l><r>maresciallu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acabat<s n="n"/><s n="m"/></l><r>acabadu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>reactor<s n="n"/><s n="m"/></l><r>reatore<s n="n"/><s n="m"/></r></p></e>
@@ -22413,6 +22415,8 @@
       <e><p><l>Maó<s n="np"/><s n="loc"/></l><r>Maó<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Llimiana<s n="np"/><s n="loc"/></l><r>Llimiana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lèxic<s n="n"/><s n="m"/></l><r>lèssicu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>lèxic<s n="adj"/></l><r>lèssicu<s n="adj"/></r></p></e>
+      <e><p><l>lèsbic<s n="adj"/></l><r>lèsbicu<s n="adj"/></r></p></e>
       <e><p><l>cintura<s n="n"/><s n="f"/></l><r>chintòrgia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>aptitud<s n="n"/><s n="f"/></l><r>atitudine<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>apassionat<s n="adj"/></l><r>apassionadu<s n="adj"/></r></p></e>
@@ -27093,16 +27097,18 @@
       <e><p><l>mandarina<s n="n"/><s n="f"/></l><r>mandarinu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mandariner<s n="n"/><s n="m"/></l><r>àrbore<g><b/>de<b/>mandarinu</g><s n="n"/><s n="mf"/></r></p></e>
       <e r="RL"><p><l>mandariner<s n="n"/><s n="m"/></l><r>fundu<g><b/>de<b/>mandarinu</g><s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>catalanoparlant<s n="adj"/></l><r>catalanòfonu<s n="adj"/></r></p></e>
-      <e><p><l>catalanoparlant<s n="n"/></l><r>catalanòfonu<s n="n"/></r></p></e>
-      <e r="RL"><p><l>castellanoparlant<s n="adj"/></l><r>castillanòfonu<s n="adj"/></r></p></e>
-      <e r="RL"><p><l>castellanoparlant<s n="n"/></l><r>castillanòfonu<s n="n"/></r></p></e>
-      <e><p><l>castellanoparlant<s n="adj"/></l><r>castiglianòfonu<s n="adj"/></r></p></e>
-      <e><p><l>castellanoparlant<s n="n"/></l><r>castiglianòfonu<s n="n"/></r></p></e>
-      <e><p><l>hispanoparlant<s n="adj"/></l><r>ispanòfonu<s n="adj"/></r></p></e>
-      <e><p><l>hispanoparlant<s n="n"/></l><r>ispanòfonu<s n="n"/></r></p></e>
-      <e r="LR"><p><l>angloparlant<s n="adj"/></l><r>anglòfonu<s n="adj"/></r></p></e>
-      <e r="LR"><p><l>angloparlant<s n="n"/></l><r>anglòfonu<s n="n"/></r></p></e>
+      <e><p><l>catalanoparlant<s n="adj"/></l><r>catalanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>catalanoparlant<s n="n"/></l><r>catalanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>valencianoparlant<s n="adj"/></l><r>catalanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>valencianoparlant<s n="n"/></l><r>catalanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>castellanoparlant<s n="adj"/></l><r>castillanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>castellanoparlant<s n="n"/></l><r>castillanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>castellanoparlant<s n="adj"/></l><r>castiglianòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>castellanoparlant<s n="n"/></l><r>castiglianòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>hispanoparlant<s n="adj"/></l><r>ispanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>hispanoparlant<s n="n"/></l><r>ispanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>angloparlant<s n="adj"/></l><r>anglòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>angloparlant<s n="n"/></l><r>anglòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>anglòfon<s n="adj"/></l><r>anglòfonu<s n="adj"/></r></p></e>
       <e><p><l>anglòfon<s n="n"/></l><r>anglòfonu<s n="n"/></r></p></e>
       <e><p><l>bascòfon<s n="adj"/></l><r>bascòfonu<s n="adj"/></r></p></e>
@@ -27183,6 +27189,7 @@
 
       <e><p><l>Antígona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Antìgone<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>morè<s n="adj"/></l><r>mùrinu<s n="adj"/></r></p></e>
+      <e><p><l>metal·lúrgic<s n="adj"/></l><r>metallùrgicu<s n="adj"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
