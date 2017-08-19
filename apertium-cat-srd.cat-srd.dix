@@ -8357,7 +8357,7 @@
       <e><p><l>Li<s n="np"/><s n="ant"/></l><r>Li<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>madrileny<s n="adj"/></l><r>madrilenu<s n="adj"/></r></p></e>
       <e><p><l>estadística<s n="n"/><s n="f"/></l><r>istatìstica<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>comboi<s n="n"/><s n="m"/></l><r>caravana<s n="n"/><s n="f"/></r></p></e>
+       r="RL"<e><p><l>comboi<s n="n"/><s n="m"/></l><r>caravana<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Belgrad<s n="np"/><s n="loc"/></l><r>Belgradu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Alvèrnia<s n="np"/><s n="loc"/></l><r>Auvèrnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>Alvèrnia<s n="np"/><s n="loc"/></l><r>Alvèrnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -21303,7 +21303,7 @@
       <e><p><l>Montse<s n="np"/><s n="ant"/></l><r>Montse<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Najwa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Najwa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Naroa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Naroa<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Nazaret<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nazaret<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Nazaret<s n="np"/><s n="loc"/></l><r>Nazarèt<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Nelly<s n="np"/><s n="ant"/></l><r>Nelly<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Nia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Nídia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Nídia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -24584,7 +24584,7 @@
       <e r="RL"><p><l>endur<s n="vblex"/></l><r>giùghere<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>endur<s n="vblex"/></l><r>portare<s n="vblex"/></r></p></e>
       <e><p><l>submergir<s n="vblex"/></l><r>pònnere<g><b/>a<b/>modde</g><s n="vblex"/></r></p></e>
-      <e><p><l>oboè<s n="n"/><s n="m"/></l><r>oboe<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>oboè<s n="n"/><s n="m"/></l><r>òboe<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>impressionar<s n="vblex"/></l><r>impressionare<s n="vblex"/></r></p></e>
       <e><p><l>mutació<s n="n"/><s n="f"/></l><r>mudamentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>institucional<s n="adj"/></l><r>istitutzionale<s n="adj"/></r></p></e>
@@ -24593,7 +24593,7 @@
       <e><p><l>inclusió<s n="n"/><s n="f"/></l><r>inclusione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>planificar<s n="vblex"/></l><r>pranificare<s n="vblex"/></r></p></e>
       <e><p><l>violoncel<s n="n"/><s n="m"/></l><r>violontzellu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>horitzó<s n="n"/><s n="m"/></l><r>oritzonte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>horitzó<s n="n"/><s n="m"/></l><r>orizonte<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>esfèric<s n="adj"/></l><r>tundu<s n="adj"/></r></p></e>
       <e><p><l>recollit<s n="n"/></l><r>regollidu<s n="n"/></r></p></e>
       <e><p><l>retratar<s n="vblex"/></l><r>torrare<g><b/>a<b/>tratare</g><s n="vblex"/></r></p></e>
@@ -26265,7 +26265,7 @@
       <e><p><l>inert<s n="adj"/></l><r>isfainadu<s n="adj"/></r></p></e>
       <e r="RL"><p><l>inert<s n="adj"/></l><r>preitzosu<s n="adj"/></r></p></e>
       <e r="RL"><p><l>inert<s n="adj"/></l><r>mandrone<s n="adj"/></r></p></e>
-      <e><p><l>horitzontalment<s n="adv"/></l><r>in<b/>manera<b/>oritzontale<s n="adv"/></r></p></e>
+      <e><p><l>horitzontalment<s n="adv"/></l><r>in<b/>manera<b/>orizontale<s n="adv"/></r></p></e>
       <e r="RL"><p><l>horitzontalment<s n="adv"/></l><r>in<b/>pianu<s n="adv"/></r></p></e>
       <e><p><l>Guadalquivir<s n="np"/><s n="loc"/></l><r>Guadalquivir<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>emmascarar<s n="vblex"/></l><r>mascarare<s n="vblex"/></r></p></e>
@@ -27180,6 +27180,7 @@
       <e><p><l>Salvini<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Salvini<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Shelley<s n="np"/><s n="ant"/></l><r>Shelley<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
+      <e><p><l>Antígona<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Antìgone<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
