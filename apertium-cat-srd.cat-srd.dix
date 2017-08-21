@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -116,12 +115,15 @@
       <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="sup"/></l><r></r></p></e>
     </pardef>
 
     <pardef n="GD_mf">
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="sup"/><s n="m"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="sup"/><s n="f"/></l><r><s n="mf"/></r></p></e>
     </pardef>
 
     <pardef n="GD_m">
@@ -2373,7 +2375,6 @@
     <e><p><l>occità<s n="adj"/></l><r>otzitanu<s n="adj"/></r></p></e>
     <e><p><l>fonamental<s n="adj"/></l><r>fundamentale<s n="adj"/></r></p></e>
     <e><p><l>gran<s n="adj"/></l><r>mannu<s n="adj"/></r></p><par n="mf_GD"/></e>
-    <e r="LR"><p><l>gran<s n="adj"/><s n="sup"/></l><r>mannu<s n="adj"/></r></p></e>
     <e r="RL"><p><l>gran<s n="adj"/></l><r>grandu<s n="adj"/></r></p><par n="mf_GD"/></e> 
     <e r="RL"><p><l>gran<s n="adj"/></l><r>grande<s n="adj"/></r></p></e> 
     <e><p><l>grec<s n="adj"/></l><r>gregu<s n="adj"/></r></p></e>
@@ -3653,7 +3654,6 @@
       <e><p><l>altre<s n="adj"/></l><r>àteru<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>diagrama<s n="n"/><s n="m"/></l><r>diagramma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>petit<s n="adj"/></l><r>minore<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e r="LR"><p><l>petit<s n="adj"/><s n="sup"/></l><r>minore<s n="adj"/></r></p></e>
       <e><p><l>equip<s n="n"/><s n="m"/></l><r>iscuadra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>municipi<s n="n"/><s n="m"/></l><r>munitzìpiu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>convertir<s n="vblex"/></l><r>cunvertire<s n="vblex"/></r></p></e>
