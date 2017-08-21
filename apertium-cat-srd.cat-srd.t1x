@@ -330,6 +330,41 @@
    <cat-item lemma="norantè" tags="adj.*"/>
    <cat-item lemma="centè" tags="adj.*"/>
 </def-cat>
+<def-cat n="III_IV_etc"> <!-- algun error fa que els lemes s'hagin de posar en minúscules, o bé no es reconeixen -->
+   <cat-item lemma="iii" tags="num.*"/>
+   <cat-item lemma="iv" tags="num.*"/>
+   <cat-item lemma="v" tags="num.*"/>
+   <cat-item lemma="vi" tags="num.*"/>
+   <cat-item lemma="vii" tags="num.*"/>
+   <cat-item lemma="viii" tags="num.*"/>
+   <cat-item lemma="ix" tags="num.*"/>
+   <cat-item lemma="x" tags="num.*"/>
+   <cat-item lemma="xi" tags="num.*"/>
+   <cat-item lemma="xii" tags="num.*"/>
+   <cat-item lemma="xiii" tags="num.*"/>
+   <cat-item lemma="xiv" tags="num.*"/>
+   <cat-item lemma="xv" tags="num.*"/>
+   <cat-item lemma="xvi" tags="num.*"/>
+   <cat-item lemma="xvii" tags="num.*"/>
+   <cat-item lemma="xviii" tags="num.*"/>
+   <cat-item lemma="xix" tags="num.*"/>
+   <cat-item lemma="xx" tags="num.*"/>
+   <cat-item lemma="xxi" tags="num.*"/>
+   <cat-item lemma="xxi" tags="num.*"/>
+   <cat-item lemma="xxii" tags="num.*"/>
+   <cat-item lemma="xxiii" tags="num.*"/>
+   <cat-item lemma="xxiv" tags="num.*"/>
+   <cat-item lemma="xxv" tags="num.*"/>
+   <cat-item lemma="xxvi" tags="num.*"/>
+   <cat-item lemma="xxvii" tags="num.*"/>
+   <cat-item lemma="xxviii" tags="num.*"/>
+   <cat-item lemma="xxix" tags="num.*"/>
+   <cat-item lemma="xxx" tags="num.*"/>
+</def-cat>
+<def-cat n="periode">
+   <cat-item lemma="segle" tags="n.*"/>
+   <cat-item lemma="any" tags="n*"/>
+</def-cat>
 <def-cat n="que_cnjsub">
    <cat-item lemma="que" tags="cnjsub"/>
 </def-cat>
@@ -2968,7 +3003,7 @@
 </rule>
 
 
-<rule comment="regla: un ord nom: Un tercer component variable. → Unu de tres cumponentes variàbiles.">
+<rule comment="regla: un ord nom adj: Un tercer component variable. → Unu de tres cumponentes variàbiles.">
    <pattern>
      <pattern-item n="un"/>
      <pattern-item n="tercer_quart_etc"/>
@@ -3041,8 +3076,8 @@
      <call-macro n="f_concord1">
        <with-param pos="1"/>
      </call-macro>     
-     <out>
-       <chunk name="z">
+    <out>
+       <chunk name="num">
          <tags>
            <tag><lit-tag v="SNum"/></tag>
          </tags>
@@ -3054,6 +3089,175 @@
          <clip pos="1" side="tl" part="lemq"/>
        </lu>
      </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: III_IV_etc nom">
+   <pattern>
+     <pattern-item n="III_IV_etc"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>
+     <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+     <out>
+       <chunk name="det_adjord_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <lit v="su"/><lit-tag v="det"/><lit-tag v="def"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <lit-tag v="sg"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="de"/><lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: det III_IV_etc nom">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="III_IV_etc"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+   <call-macro n="f_concord2">
+     <with-param pos="3"/>
+     <with-param pos="1"/>
+   </call-macro>
+     <out>
+       <chunk name="det_adjord_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <lit v="de"/><lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: nom III_IV_etc: segle III su de III sèculos ">
+   <pattern>
+     <pattern-item n="periode"/>
+     <pattern-item n="III_IV_etc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+     <out>
+       <chunk name="det_adjord_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <lit v="su"/><lit-tag v="det"/><lit-tag v="def"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <lit-tag v="sg"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="de"/><lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: det nom III_IV_etc: el segle III su de III sèculos ">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="periode"/>
+     <pattern-item n="III_IV_etc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+     <out>
+       <chunk name="det_adjord_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <lit v="de"/><lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
      </out>
    </action>
 </rule>

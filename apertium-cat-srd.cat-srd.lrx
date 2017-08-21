@@ -14,6 +14,17 @@
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
 
+<!-- estar > èssere, istare -->
+
+  <rule weight="0.6">
+     <match lemma="estar" tags="vblex.*"><select lemma="èssere"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estar" tags="vblex.*"><select lemma="istare"/></match>
+    <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
+  </rule>
+
+
 <!-- PP DA -->
 
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
