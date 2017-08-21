@@ -25,6 +25,27 @@
   </rule>
 
 
+<!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) -->
+
+  <rule weight="0.6">
+     <match lemma="arrencar" tags="vblex.*"><select lemma="irraighinare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="arrencar" tags="vblex.*"><select lemma="pònnere# in motu"/></match>
+     <match tags="det.*"/>
+     <or><match lemma="vehicle"/><match lemma="cotxe"/><match lemma="moto"/></or>
+  </rule>
+
+  <rule weight="0.6">
+     <match lemma="arrancar" tags="vblex.*"><select lemma="irraighinare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="arrancar" tags="vblex.*"><select lemma="pònnere# in motu"/></match>
+     <match tags="det.*"/>
+     <or><match lemma="vehicle"/><match lemma="cotxe"/><match lemma="moto"/></or>
+  </rule>
+
+
 <!-- PP DA -->
 
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
@@ -517,5 +538,26 @@
   <rule weight="0.6">
      <match lemma="cargol" tags="n.m.*"><select lemma="corrobaca"/></match>
   </rule>
+
+<!-- presumpte > presumidu, crètidu -->
+
+  <rule weight="0.6">
+     <match lemma="presumpte" tags="adj.*"><select lemma="presumidu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="presumpte" tags="adj.*"><select lemma="crètidu"/></match>
+     <match tags="n.*"/>
+  </rule>
+
+<!-- tret > caraterìstica, disparu -->
+
+  <rule weight="0.6">
+     <match lemma="tret" tags="n.*"><select lemma="caraterìstica"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="tret" tags="n.*"><select lemma="disparu"/></match>
+     <match lemma="a" tags="pr"/>
+  </rule>
+
 
 </rules>
