@@ -1622,7 +1622,8 @@
     <e><p><l>associació<s n="n"/><s n="f"/></l><r>assòtziu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sobirania<s n="n"/><s n="f"/></l><r>soverania<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>sobirania<s n="n"/><s n="f"/></l><r>soveranidade<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>tolerància<s n="n"/><s n="f"/></l><r>toleràntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tolerància<s n="n"/><s n="f"/></l><r>tolleràntzia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>intolerància<s n="n"/><s n="f"/></l><r>intolleràntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tribunal<s n="n"/><s n="m"/></l><r>tribunale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vot<s n="n"/><s n="m"/></l><r>votu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>topònim<s n="n"/><s n="m"/></l><r>topònimu<s n="n"/><s n="m"/></r></p></e>
@@ -2655,8 +2656,8 @@
     <e><p><l>ràpidament<s n="adv"/></l><r>a<b/>lestru<s n="adv"/></r></p></e>
     <e><p><l>al<b/>revés<s n="adv"/></l><r>a<b/>sa<b/>revessa<s n="adv"/></r></p></e>
     <e><p><l>bellament<s n="adv"/></l><r>a<b/>bellu<s n="adv"/></r></p></e>
-    <e><p><l>de<b/>fet<s n="adv"/></l><r>in<b/>fatu<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>de<b/>fet<s n="adv"/></l><r>difatis<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>de<b/>fet<s n="adv"/></l><r>in<b/>fatu<s n="adv"/></r></p></e>
+    <e><p><l>de<b/>fet<s n="adv"/></l><r>difatis<s n="adv"/></r></p></e>
     <e><p><l>ahir<s n="adv"/></l><r>eris<s n="adv"/></r></p></e>
     <e><p><l>mitjanit<s n="adv"/></l><r>a<b/>mesu<b/>note<s n="adv"/></r></p></e>
     <e><p><l>a<b/>migdia<s n="adv"/></l><r>a<b/>mesu<b/>die<s n="adv"/></r></p></e>
@@ -2746,8 +2747,8 @@
     <e><p><l>estar<s n="vblex"/></l><r>èssere<s n="vbser"/></r></p></e>
     <e><p><l>haver<s n="vbhaver"/></l><r>àere<s n="vbhaver"/></r></p></e>
     <e><p><l>poder<s n="vbmod"/></l><r>pòdere<s n="vbmod"/></r></p></e>
-    <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>de</g><s n="vbmod"/></r></p></e>
-    <e r="LR"><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
+    <e r="RL"><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>àere<g><b/>de</g><s n="vbmod"/></r></p></e>
+    <e><p><l>haver<g><b/>de</g><s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>deure<s n="vbmod"/></l><r>dèpere<s n="vbmod"/></r></p></e>
     <e><p><l>caldre<s n="vbmod"/></l><r>bisogniare<s n="vblex"/></r></p></e>
 
@@ -25346,7 +25347,7 @@
       <e><p><l>infal·libilitat<s n="n"/><s n="f"/></l><r>infallibilidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>inferioritat<s n="n"/><s n="f"/></l><r>inferioridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>infidelitat<s n="n"/><s n="f"/></l><r>infidelidade<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>integrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>integrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>integrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>integrismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>interdisciplinaritat<s n="n"/><s n="f"/></l><r>interdisciplinaridade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>intimitat<s n="n"/><s n="f"/></l><r>intimidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>inutilitat<s n="n"/><s n="f"/></l><r>inutilidade<s n="n"/><s n="f"/></r></p></e>
@@ -26803,6 +26804,8 @@
       <e><p><l>xiprer<s n="n"/><s n="m"/></l><r>tzipressu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>úter<s n="n"/><s n="m"/></l><r>burba<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tolerant<s n="adj"/></l><r>passentziosu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>tolerant<s n="adj"/></l><r>tollerante<s n="adj"/></r></p></e>
+      <e><p><l>intolerant<s n="adj"/></l><r>intollerante<s n="adj"/></r></p></e>
       <e><p><l>Quixot<s n="np"/><s n="al"/></l><r>Chisciote<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>paciència<s n="n"/><s n="f"/></l><r>passèntzia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>malson<s n="n"/><s n="m"/></l><r>pesàdighe<s n="n"/><s n="m"/></r></p></e>
@@ -27292,10 +27295,9 @@
       <e><p><l>luteranisme<s n="n"/><s n="m"/><s n="sg"/></l><r>luteranismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>luterà<s n="n"/></l><r>luteranu<s n="n"/></r></p></e>
       <e><p><l>integrisme<s n="n"/><s n="m"/><s n="sg"/></l><r>integralismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>de<b/>fet<s n="adv"/></l><r>infatis<s n="adv"/></r></p></e>
       <e><p><l>financerament<s n="adv"/></l><r>finantziariamente<s n="adv"/></r></p></e>
-      <e><p><l>embrutar<s n="adv"/></l><r>brutare<s n="adv"/></r></p></e>
-      <e r="LR"><p><l>embrutir<s n="adv"/></l><r>brutare<s n="adv"/></r></p></e>
+      <e><p><l>embrutar<s n="vblex"/></l><r>brutare<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>embrutir<s n="vblex"/></l><r>brutare<s n="vblex"/></r></p></e>
       <e><p><l>culpabilització<s n="n"/><s n="f"/></l><r>neghe<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>jihadista<s n="adj"/><s n="mf"/></l><r>jihadista<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>jihadista<s n="n"/></l><r>jihadista<s n="n"/></r></p></e>
