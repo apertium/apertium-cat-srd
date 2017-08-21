@@ -459,6 +459,8 @@
 <section-def-vars>
 <def-var n="genero"/>
 <def-var n="numero"/>
+<def-var n="genero_tmp"/>
+<def-var n="numero_tmp"/>
 <def-var n="concPrimero"/>
 <def-var n="concSegundo"/>
 <def-var n="concTercero"/>
@@ -2518,6 +2520,56 @@
       </choose>
     </def-macro>
 
+    <def-macro n="set_gen_tmp_no_mf" npar="2">
+	<!-- posa a la variable genero_tmp el genere del primer parametre si no és mf, sinó el del segon paràmetre, sinó posa el valor de la var genero -->
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+              </test>
+              <let><var n="genero_tmp"/><var n="genero"/></let>
+            </when>
+            <otherwise>
+              <let><var n="genero_tmp"/><clip pos="2" side="tl" part="gen"/></let>
+            </otherwise>
+          </choose>
+        </when>
+        <otherwise>
+          <let><var n="genero_tmp"/><clip pos="1" side="tl" part="gen"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="set_num_tmp_no_sp" npar="2">
+	<!-- posa a la variable numero_tmp el nombre del primer parametre si no és sp, sinó el del segon paràmetre, sinó posa el valor de la var numero -->
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+              </test>
+              <let><var n="numero_tmp"/><var n="numero"/></let>
+            </when>
+            <otherwise>
+              <let><var n="numero_tmp"/><clip pos="2" side="tl" part="nbr"/></let>
+            </otherwise>
+          </choose>
+        </when>
+        <otherwise>
+          <let><var n="numero_tmp"/><clip pos="1" side="tl" part="nbr"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_li2bi" npar="1">
       <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
 	<when> 
@@ -3533,7 +3585,7 @@
   </action>
 </rule>
 
-<rule comment="regla: det_pos nom"> 
+<rule comment="regla: det_pos nom: : mon pare > babbu meu, les seves urelles > sas origras suas, llurs orelles > sas origras issoro"> 
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -3545,6 +3597,14 @@
     </call-macro>
     <call-macro n="f_det_to_adj_pos1">
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="set_gen_tmp_no_mf">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+    </call-macro>
+    <call-macro n="set_num_tmp_no_sp">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
     </call-macro>
      <choose>
        <when>
@@ -3588,8 +3648,8 @@
                  <lit v="su"/>
                </get-case-from>
                <lit-tag v="det.def"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
+               <var n="genero_tmp"/>
+               <var n="numero_tmp"/>
              </lu>
              <b pos="1"/>
              <lu>
@@ -3646,7 +3706,7 @@
     </rule>
 
 
-    <rule comment="regla: det_pos nom adjec"> 
+    <rule comment="regla: det_pos nom adjec: llurs orelles grans > sas origras mannas issoro"> 
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="nom"/>
@@ -3661,6 +3721,14 @@
         <call-macro n="f_det_to_adj_pos1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_gen_tmp_no_mf">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_num_tmp_no_sp">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj-pos">
          <tags>
@@ -3671,8 +3739,8 @@
               <lit v="su"/>
             </get-case-from>
             <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="genero_tmp"/>
+            <var n="numero_tmp"/>
           </lu>
           <b pos="1"/>
           <lu>
@@ -3703,7 +3771,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det_pos nom adjsup"> 
+    <rule comment="regla: det_pos nom adjsup: llurs orelles grandíssimes > sas origras mannas a beru issoro"> 
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="nom"/>
@@ -3718,6 +3786,14 @@
         <call-macro n="f_det_to_adj_pos1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_gen_tmp_no_mf">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_num_tmp_no_sp">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj-pos">
          <tags>
@@ -3728,8 +3804,8 @@
               <lit v="su"/>
             </get-case-from>
             <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="genero_tmp"/>
+            <var n="numero_tmp"/>
           </lu>
           <b pos="1"/>
           <lu>
@@ -3766,7 +3842,7 @@
     </rule>
 
 
-<rule comment="regla: det_pos adjec nom"> 
+<rule comment="regla: det_pos adjec nom: : llurs grans orelles > sas mannas origras issoro"> 
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="adjec"/>
@@ -3780,6 +3856,14 @@
   </call-macro>
   <call-macro n="f_det_to_adj_pos1">
     <with-param pos="1"/>
+  </call-macro>
+  <call-macro n="set_gen_tmp_no_mf">
+    <with-param pos="3"/>
+    <with-param pos="2"/>
+  </call-macro>
+  <call-macro n="set_num_tmp_no_sp">
+    <with-param pos="3"/>
+    <with-param pos="2"/>
   </call-macro>
    <choose>
      <when>
@@ -3800,8 +3884,8 @@
                <lit v="su"/>
              </get-case-from>
              <lit-tag v="det.def"/>
-             <clip pos="1" side="tl" part="gen"/>
-             <clip pos="1" side="tl" part="nbr"/>
+             <var n="genero_tmp"/>
+             <var n="numero_tmp"/>
            </lu>
            <b pos="1"/>
            <lu>
@@ -3852,8 +3936,8 @@
                 <lit v="su"/>
               </get-case-from>
               <lit-tag v="det.def"/>
-              <clip pos="1" side="tl" part="gen"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <var n="genero_tmp"/>
+              <var n="numero_tmp"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -3886,7 +3970,7 @@
   </action>
 </rule>
 
-    <rule comment="regla: det_pos adjsup nom"> 
+    <rule comment="regla: det_pos adjsup nom: : llurs grandíssimes orelles > sas mannas a beru origras issoro"> 
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="adjsup"/>
@@ -3901,6 +3985,14 @@
         <call-macro n="f_det_to_adj_pos1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_gen_tmp_no_mf">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_num_tmp_no_sp">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
        <chunk name="det-adj-nom-pos">
          <tags>
@@ -3911,8 +4003,8 @@
               <lit v="su"/>
             </get-case-from>
             <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="genero_tmp"/>
+            <var n="numero_tmp"/>
           </lu>
           <b pos="1"/>
           <lu>
@@ -3965,6 +4057,14 @@
         <call-macro n="f_det_to_adj_pos1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_gen_tmp_no_mf">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_num_tmp_no_sp">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj-adj-pos">
          <tags>
@@ -3975,8 +4075,8 @@
               <lit v="su"/>
             </get-case-from>
             <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="genero_tmp"/>
+            <var n="numero_tmp"/>
           </lu>
           <b pos="1"/>
           <lu>
@@ -4032,6 +4132,14 @@
         <call-macro n="f_det_to_adj_pos1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_gen_tmp_no_mf">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_num_tmp_no_sp">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj-adj-pos">
          <tags>
@@ -4042,8 +4150,8 @@
               <lit v="su"/>
             </get-case-from>
             <lit-tag v="det.def"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <var n="genero_tmp"/>
+            <var n="numero_tmp"/>
           </lu>
           <b pos="1"/>
           <lu>
