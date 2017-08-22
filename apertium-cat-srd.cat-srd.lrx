@@ -560,4 +560,105 @@
   </rule>
 
 
+<!-- Carles > Carles, Càralu -->
+
+  <rule weight="0.6">
+     <match lemma="Carles" tags="np.*"><select lemma="Carles"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Carles" tags="np.*"><select lemma="Càralu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Carles" tags="np.*"><select lemma="Càralu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Carles" tags="np.*"><select lemma="Càralu"/></match>
+  </rule>
+
+
+<!-- Felip > Felip, Tilipu -->
+
+  <rule weight="0.6">
+     <match lemma="Felip" tags="np.*"><select lemma="Felip"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Felip" tags="np.*"><select lemma="Tilipu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Felip" tags="np.*"><select lemma="Tilipu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Felip" tags="np.*"><select lemma="Tilipu"/></match>
+  </rule>
+
+<!-- Alexandre > Alexandre, Alexandru -->
+
+  <rule weight="0.6">
+     <match lemma="Alexandre" tags="np.*"><select lemma="Alexandre"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Alexandre" tags="np.*"><select lemma="Alexandru"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Alexandre" tags="np.*"><select lemma="Alexandru"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Alexandre" tags="np.*"><select lemma="Alexandru"/></match>
+  </rule>
+
+
 </rules>
