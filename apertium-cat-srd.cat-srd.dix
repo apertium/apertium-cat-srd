@@ -5875,7 +5875,10 @@
       <e><p><l>reclutar<s n="vblex"/></l><r>reclutare<s n="vblex"/></r></p></e>
       <e><p><l>legítim<s n="adj"/></l><r>legìtimu<s n="adj"/></r></p></e>
       <e><p><l>esclat<s n="n"/><s n="m"/></l><r>atzessu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>trigar<s n="vblex"/></l><r>trigare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>trigar<s n="vblex"/></l><r>trigare<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>trigar<s n="vblex"/></l><r>istentare<s n="vblex"/></r></p></e>
+      <e><p><l>tardar<s n="vblex"/></l><r>istentare<s n="vblex"/></r></p></e>
+      <e r="RL"><p><l>tardar<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
       <e><p><l>diferir<s n="vblex"/></l><r>diferentziare<s n="vblex"/></r></p></e>
       <e><p><l>auxiliar<s n="adj"/></l><r>ausiliare<s n="adj"/></r></p></e>
       <e><p><l>argumentar<s n="vblex"/></l><r>chistionare<s n="vblex"/></r></p></e>
@@ -7693,7 +7696,6 @@
       <e><p><l>cobla<s n="n"/><s n="f"/></l><r>croba<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ascensió<s n="n"/><s n="f"/></l><r>artziada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>apropiar<s n="vblex"/></l><r>apropiare<s n="vblex"/></r></p></e>
-      <e><p><l>tardar<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
       <e><p><l>repetició<s n="n"/><s n="f"/></l><r>ripetitzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Guadalajara<s n="np"/><s n="loc"/></l><r>Guadalajara<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Mateu<s n="np"/><s n="ant"/></l><r>Mateu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -19915,7 +19917,7 @@
       <e><p><l>confeccionar<s n="vblex"/></l><r>cunfetzionare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>confeccionar<s n="vblex"/></l><r>sestare<s n="vblex"/></r></p></e>
       <e><p><l>heroic<s n="adj"/></l><r>eròicu<s n="adj"/></r></p></e>
-      <e><p><l>Gant<s n="np"/><s n="loc"/></l><r>Gant<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Gant<s n="np"/><s n="loc"/></l><r>Gand<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>desmuntar<s n="vblex"/></l><r>ismontare<s n="vblex"/></r></p></e>
       <e><p><l>congelar<s n="vblex"/></l><r>congelare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>congelar<s n="vblex"/></l><r>cancarare<s n="vblex"/></r></p></e>
@@ -19926,7 +19928,7 @@
       <e><p><l>estipular<s n="vblex"/></l><r>istèrrere<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>estipular<s n="vblex"/></l><r>istipulare<s n="vblex"/></r></p></e>
       <e><p><l>ceba<s n="n"/><s n="f"/></l><r>chibudda<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>Amazones<s n="np"/><s n="loc"/></l><r>Amatzonia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Amazònia<s n="np"/><s n="loc"/></l><r>Amatzonia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>activació<s n="n"/><s n="f"/></l><r>ativatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>UGT<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>UGT<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>per<b/>fi<s n="adv"/></l><r>a<b/>ùrtimu<s n="adv"/></r></p></e>
@@ -24467,7 +24469,6 @@
       <e><p><l>Lausana<s n="np"/><s n="loc"/></l><r>Losanna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Euclides<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Euclide<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>distreure<s n="vblex"/></l><r>distràere<s n="vblex"/></r></p></e>
-      <e><p><l>cola<s n="n"/><s n="f"/></l><r>fila<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Xbox<s n="np"/><s n="al"/></l><r>Xbox<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Portland<s n="np"/><s n="loc"/></l><r>Portland<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>maligne<s n="adj"/></l><r>malignu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
@@ -24488,7 +24489,8 @@
       <e><p><l>mentalitat<s n="n"/><s n="f"/></l><r>mentalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Judes<s n="np"/><s n="ant"/></l><r>Giuda<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>gestació<s n="n"/><s n="f"/></l><r>printzesa<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>computador<s n="n"/></l><r>elaboradore<s n="n"/></r></p></e>
+      <e r="LR"><p><l>computador<s n="n"/><s n="m"/></l><r>computer<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>computadora<s n="n"/><s n="f"/></l><r>computer<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e r="RL"><p><l>ase<s n="n"/><s n="m"/></l><r>molente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>transitar<s n="vblex"/></l><r>colare<s n="vblex"/></r></p></e>
       <e r="RL"><p><l>transitar<s n="vblex"/></l><r>rugrare<s n="vblex"/></r></p></e>
@@ -24502,11 +24504,13 @@
       <e><p><l>vitalitat<s n="n"/><s n="f"/></l><r>vitalidade<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Lucy<s n="np"/><s n="ant"/></l><r>Lucy<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>londinenc<s n="adj"/></l><r>londinesu<s n="adj"/></r></p></e>
+      <e><p><l>londinenc<s n="n"/></l><r>londinesu<s n="n"/></r></p></e>
       <e><p><l>la<b/>Llotja<s n="np"/><s n="loc"/></l><r>sa<b/>Llotja<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>infermer<s n="n"/></l><r>infermieri<s n="n"/></r></p></e>
       <e><p><l>CBS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>CBS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>algoritme<s n="n"/><s n="m"/></l><r>algoritmu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sintàctic<s n="adj"/></l><r>sintàticu<s n="adj"/></r></p></e>
+      <e><p><l>asturlleonès<s n="adj"/></l><r>asturianuleonesu<s n="adj"/></r></p></e>
       <e><p><l>pinzellada<s n="n"/><s n="f"/></l><r>pinzellada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Phil<s n="np"/><s n="ant"/></l><r>Phil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>maledicció<s n="n"/><s n="f"/></l><r>maleditzione<s n="n"/><s n="f"/></r></p></e>
