@@ -1090,6 +1090,7 @@
     <e><p><l>centre<s n="n"/><s n="m"/></l><r>tzentru<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ciència<s n="n"/><s n="f"/></l><r>iscièntzia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cor<s n="n"/><s n="m"/></l><r>coro<s n="n"/><s n="m"/></r></p></e>
+    <e i="yes"><p><l>cor<s n="n"/><s n="m"/></l><r>coraddu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>terreny<s n="n"/><s n="m"/></l><r>terrinu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mode<s n="n"/><s n="m"/></l><r>modu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pilar<s n="n"/><s n="m"/></l><r>pilastru<s n="n"/><s n="m"/></r></p></e>
@@ -1882,9 +1883,19 @@
     <e><p><l>Alfredo<s n="np"/><s n="ant"/></l><r>Alfredo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Alfonso<s n="np"/><s n="ant"/></l><r>Alfonso<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Alexandre<s n="np"/><s n="ant"/></l><r>Alexandre<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Alexandre<s n="np"/><s n="ant"/></l><r>Alexandru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Alexandre<b/>el<b/>Gran<s n="np"/><s n="ant"/></l><r>Alexandru<b/>Mannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Alexandre<s n="np"/><s n="ant"/></l><r>Lisandru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Alexandre<b/>el<b/>Gran<s n="np"/><s n="ant"/></l><r>Lisandru<b/>Mannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e a="LR"><p><l>Alexandre<b/>el<b/>Magne<s n="np"/><s n="ant"/></l><r>Lisandru<b/>Mannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Pere<b/>el<b/>Gran<s n="np"/><s n="ant"/></l><r>Pedru<b/>Mannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Caterina<b/>la<b/>Gran<s n="np"/><s n="ant"/></l><r>Callina<b/>Manna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Isabel<b/>la<b/>Catòlica<s n="np"/><s n="ant"/></l><r>Isabella<b/>sa<b/>Catòlica<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Ferran<b/>el<b/>Catòlic<s n="np"/><s n="ant"/></l><r>Ferrante<b/>su<b/>Catòlicu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Martí<b/>l'Humà<s n="np"/><s n="ant"/></l><r>Martine<b/>s'Umanu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Jaume<b/>el<b/>Conqueridor<s n="np"/><s n="ant"/></l><r>Giacu<b/>su<b/>Conchistadore<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Guillem<b/>el<b/>Conqueridor<s n="np"/><s n="ant"/></l><r>Gullielmu<b/>su<b/>Conchistadore<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Alfons<b/>el<b/>Magnànim<s n="np"/><s n="ant"/></l><r>Alfonsu<b/>su<b/>Corimannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Pere<b/>el<b/>Cerimoniós<s n="np"/><s n="ant"/></l><r>Pedru<b/>su<b/>Tzerimoniosu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Ricard<b/>Cor<b/>de<b/>Lleó<s n="np"/><s n="ant"/></l><r>Ricardu<b/>Coru<b/>de<b/>Leone<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Alessandro<s n="np"/><s n="ant"/></l><r>Alessandro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
     <e><p><l>Adolf<s n="np"/><s n="ant"/></l><r>Adolf<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2151,6 +2162,7 @@
     <e><p><l>Christian<s n="np"/><s n="ant"/></l><r>Christian<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Cecilia<s n="np"/><s n="ant"/></l><r>Cecilia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Caterina<s n="np"/><s n="ant"/></l><r>Caterina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>Caterina<s n="np"/><s n="ant"/></l><r>Callina<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
     <e><p><l>Casanova<s n="np"/><s n="ant"/></l><r>Casanova<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>Carreras<s n="np"/><s n="ant"/></l><r>Carreras<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
     <e><p><l>Budapest<s n="np"/><s n="loc"/></l><r>Budapèst<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3931,6 +3943,8 @@
       <e><p><l>carta<s n="n"/><s n="f"/></l><r>lìtera<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Francesc<s n="np"/><s n="ant"/></l><r>Francesc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Francesc<s n="np"/><s n="ant"/></l><r>Frantziscu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Francesc<b/>Xavier<s n="np"/><s n="ant"/></l><r>Francesc<b/>Xavier<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Francesc<b/>Xavier<s n="np"/><s n="ant"/></l><r>Frantziscu<b/>Savèriu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Innocenci<s n="np"/><s n="ant"/></l><r>Innocenci<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Innocenci<s n="np"/><s n="ant"/></l><r>Innocentzu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Sixt<s n="np"/><s n="ant"/></l><r>Sixt<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -5163,6 +5177,7 @@
       <e><p><l>feta<s n="n"/><s n="f"/></l><r>fatu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tornada<s n="n"/><s n="f"/></l><r>torrada<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Elisabet<s n="np"/><s n="ant"/></l><r>Elisabet<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Elisabet<s n="np"/><s n="ant"/></l><r>Elisabeta<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>destí<s n="n"/><s n="m"/></l><r>destinu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Benet<s n="np"/><s n="ant"/></l><r>Benet<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Benet<s n="np"/><s n="ant"/></l><r>Beneitu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6945,7 +6960,8 @@
       <e><p><l>Company<s n="np"/><s n="ant"/></l><r>Company<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>considerat<s n="n"/><s n="m"/></l><r>poderiu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>TV<s n="np"/><s n="al"/></l><r>TV<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Ricard<s n="np"/><s n="ant"/></l><r>Ricard<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Ricard<s n="np"/><s n="ant"/></l><r>Ricard<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ricard<s n="np"/><s n="ant"/></l><r>Ricardu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>intermedi<s n="adj"/></l><r>intermèdiu<s n="adj"/></r></p></e>
       <e><p><l>Damasc<s n="np"/><s n="loc"/></l><r>Damascu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>apartar<s n="vblex"/></l><r>pònnere<g><b/>a<b/>un<b/>ala</g><s n="vblex"/></r></p></e>
@@ -13983,8 +13999,8 @@
       <e><p><l>Guillaumes<s n="np"/><s n="cog"/></l><r>Guillaumes<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Guillemette<s n="np"/><s n="cog"/></l><r>Guillemette<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Guillem<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Guillem<s n="np"/><s n="ant"/><s n="m"/><s n="sp"/></r></p></e>
-      <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Gullielmu<s n="np"/><s n="ant"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Guillem<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guillem<s n="np"/><s n="ant"/></l><r>Gullielmu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Guillen<s n="np"/><s n="cog"/></l><r>Guillen<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>Guillermo<s n="np"/><s n="ant"/></l><r>Guillermo<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Guillette<s n="np"/><s n="cog"/></l><r>Guillette<s n="np"/><s n="cog"/></r></p></e>
@@ -22528,8 +22544,8 @@
       <e><p><l>mantega<s n="n"/><s n="f"/></l><r>botinu<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>mantega<s n="n"/><s n="f"/></l><r>butirru<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>coral<s n="n"/><s n="f"/></l><r>coraddu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>sinus<s n="n"/><s n="f"/></l><r>senu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>cosinus<s n="n"/><s n="f"/></l><r>cosenu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sinus<s n="n"/><s n="m"/></l><r>senu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cosinus<s n="n"/><s n="m"/></l><r>cosenu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>autogovern<s n="n"/><s n="m"/></l><r>autoguvernu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vassallatge<s n="n"/><s n="m"/></l><r>vassallàgiu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>afany<s n="n"/><s n="m"/></l><r>afannu<s n="n"/><s n="m"/></r></p></e>
@@ -27144,7 +27160,8 @@
       <e><p><l>lígur<s n="adj"/></l><r>lìgure<s n="adj"/></r></p></e>
       <e><p><l>lígur<s n="n"/></l><r>lìgure<s n="n"/></r></p></e>
 
-      <e><p><l>Maximilià<s n="np"/><s n="ant"/></l><r>Massimiliano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Maximilià<s n="np"/><s n="ant"/></l><r>Maximilià<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Maximilià<s n="np"/><s n="ant"/></l><r>Massimilianu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Saxònia<s n="np"/><s n="loc"/></l><r>Sassònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>annexionista<s n="adj"/><s n="mf"/></l><r>annessionista<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>annexionista<s n="n"/></l><r>annessionista<s n="n"/></r></p></e>
@@ -28579,6 +28596,8 @@
       <e r="LR"><p><l>elaborador<s n="adj"/></l><r>elaboradore<s n="adj"/></r></p></e>
       <e r="LR"><p><l>elisabetià<s n="adj"/></l><r>elisabetianu<s n="adj"/></r></p></e>
       <e r="LR"><p><l>estimulador<s n="adj"/></l><r>istimuladore<s n="adj"/></r></p></e>
+      <e><p><l>magnànim<s n="adj"/></l><r>corimannu<s n="adj"/></r></p></e>
+      <e><p><l>cerimoniós<s n="adj"/></l><r>tzerimoniosu<s n="adj"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->
