@@ -4901,6 +4901,7 @@
       <e><p><l>alçar<s n="vblex"/></l><r>artziare<s n="vblex"/></r></p></e>
       <e><p><l>Alacant<s n="np"/><s n="loc"/></l><r>Alicante<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sorprendre<s n="vblex"/></l><r>ispantare<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>estranyar<s n="vblex"/></l><r>ispantare<s n="vblex"/></r></p></e>
       <e><p><l>lliura<s n="n"/><s n="f"/></l><r>lira<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sessió<s n="n"/><s n="f"/></l><r>sessione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Pérez<s n="np"/><s n="ant"/></l><r>Pérez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -4908,6 +4909,7 @@
       <e><p><l>Borgonya<s n="np"/><s n="loc"/></l><r>Borgogna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>perspectiva<s n="n"/><s n="f"/></l><r>prospetiva<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>barra<s n="n"/><s n="f"/></l><r>bangu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>segrest<s n="n"/><s n="m"/></l><r>rapimentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>genètic<s n="adj"/></l><r>genèticu<s n="adj"/></r></p></e>
       <e><p><l>otomà<s n="n"/></l><r>otomanu<s n="n"/></r></p></e>
       <e><p><l>reservar<s n="vblex"/></l><r>abbandare<s n="vblex"/></r></p></e>
@@ -6599,6 +6601,7 @@
       <e><p><l>verginià<s n="n"/></l><r>verginianu<s n="n"/></r></p></e>
       <e><p><l>iemenita<s n="n"/></l><r>jemenita<s n="n"/></r></p></e>
       <e><p><l>kazak<s n="n"/></l><r>kazaku<s n="n"/></r></p></e>
+      <e><p><l>txetxè<s n="n"/></l><r>tzetzenu<s n="n"/></r></p></e>
       <e><p><l>kirguís<s n="n"/></l><r>chirghisu<s n="n"/></r></p></e>
       <e><p><l>kiribatià<s n="n"/></l><r>gilbertesu<s n="n"/></r></p></e>
       <e><p><l>kuwaitià<s n="n"/></l><r>kuwaitianu<s n="n"/></r></p></e>
@@ -6764,6 +6767,7 @@
       <e><p><l>verginià<s n="adj"/></l><r>verginianu<s n="adj"/></r></p></e>
       <e><p><l>iemenita<s n="adj"/></l><r>jemenita<s n="adj"/></r></p></e>
       <e><p><l>kazak<s n="adj"/></l><r>kazaku<s n="adj"/></r></p></e>
+      <e><p><l>txetxè<s n="adj"/></l><r>tzetzenu<s n="adj"/></r></p></e>
       <e><p><l>kirguís<s n="adj"/></l><r>chirghisu<s n="adj"/></r></p></e>
       <e><p><l>kiribatià<s n="adj"/></l><r>gilbertesu<s n="adj"/></r></p></e>
       <e><p><l>kuwaitià<s n="adj"/></l><r>kuwaitianu<s n="adj"/></r></p></e>
@@ -7104,7 +7108,8 @@
       <e><p><l>Alt<b/>Empordà<s n="np"/><s n="loc"/></l><r>Alt<b/>Empordà<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>polèmica<s n="n"/><s n="f"/></l><r>chistione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Bengala<s n="np"/><s n="loc"/></l><r>Bengala<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>empleat<s n="n"/></l><r>impreadu<s n="n"/></r></p></e>
+      <e r="RL"><p><l>empleat<s n="n"/></l><r>impreadu<s n="n"/></r></p></e>
+      <e><p><l>empleat<s n="n"/></l><r>impiegadu<s n="n"/></r></p></e>
       <e><p><l>llacuna<s n="n"/><s n="f"/></l><r>laguna<s n="n"/><s n="f"/></r></p></e>
       <e r="RL"><p><l>llacuna<s n="n"/><s n="f"/></l><r>lurtzina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>promulgar<s n="vblex"/></l><r>emanare<s n="vblex"/></r></p></e>
@@ -27918,14 +27923,16 @@
       <e><p><l>comparèixer<s n="vblex"/></l><r>cumpàrrere<s n="vblex"/></r></p></e>
       <e><p><l>Borbons<s n="np"/><s n="ant"/></l><r>Borbone<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>argumentació<s n="n"/><s n="f"/></l><r>tema<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>tell<s n="n"/><s n="m"/></l><r>tìlliu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>tell<s n="n"/><s n="m"/></l><r>tìlliu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>til·ler<s n="n"/><s n="m"/></l><r>tìlliu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Siemens<s n="np"/><s n="al"/></l><r>Siemens<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Schumacher<s n="np"/><s n="ant"/></l><r>Schumacher<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>ressentiment<s n="n"/><s n="m"/></l><r>resentimentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pollancre<s n="n"/><s n="m"/></l><r>fustiarbu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>magne<s n="adj"/></l><r>mannu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
       <e><p><l>Kingston<s n="np"/><s n="ant"/></l><r>Kingston<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>kazakh<s n="adj"/></l><r>kazaku<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>kazakh<s n="adj"/></l><r>kazaku<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e r="LR"><p><l>kazakh<s n="n"/></l><r>kazaku<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>hoteler<s n="adj"/></l><r>locanderi<s n="adj"/></r></p></e>
       <e><p><l>General<b/>Motors<s n="np"/><s n="al"/></l><r>General<b/>Motors<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>flagel<s n="n"/><s n="m"/></l><r>fragellu<s n="n"/><s n="m"/></r></p></e>
@@ -27934,9 +27941,9 @@
       <e><p><l>Carpats<s n="np"/><s n="loc"/></l><r>Carpàtzios<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>vulnerabilitat<s n="n"/><s n="f"/></l><r>fertura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>uniformar<s n="vblex"/></l><r>uniformare<s n="vblex"/></r></p></e>
-      <e><p><l>Txetxènia<s n="np"/><s n="loc"/></l><r>Cecènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Txetxènia<s n="np"/><s n="loc"/></l><r>Tzetzènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>temible<s n="adj"/><s n="mf"/></l><r>de<b/>tìmere<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>Saona<s n="np"/><s n="loc"/></l><r>Saona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Saona<s n="np"/><s n="loc"/></l><r>Saona<s n="np"/><s n="hyd"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Santa<b/>Eugènia<s n="np"/><s n="loc"/></l><r>Santa<b/>Eugènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>rotllo<s n="n"/><s n="m"/></l><r>ròdulu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nupcial<s n="adj"/><s n="mf"/></l><r>de<b/>sa<b/>coja<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
