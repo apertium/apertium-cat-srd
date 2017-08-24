@@ -132,6 +132,31 @@
      <match lemma="italià" tags="adj.*"/>
   </rule>
 
+<!-- policia > politzia, politziotu -->
+
+  <rule weight="0.6">
+     <match lemma="policia" tags="n.*"><select lemma="politzia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="policia" tags="n.mf.pl"><select lemma="politziotu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.m.*"/>
+     <match lemma="policia" tags="n.*"><select lemma="politziotu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.m.*"/>
+     <match lemma="policia" tags="n.*"><select lemma="politziotu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="num.m.*"/>
+     <match lemma="policia" tags="n.*"><select lemma="politziotu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="policia" tags="n.*"><select lemma="politziotu"/></match>
+     <match tags="adj.m.*"/>
+  </rule>
+
 <!-- que > chi, de (comparacions) -->
 
   <rule weight="0.6">
