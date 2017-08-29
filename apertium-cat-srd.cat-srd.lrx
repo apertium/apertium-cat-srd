@@ -746,6 +746,54 @@
      <match lemma="Alexandre" tags="np.*"><select lemma="Lisandru"/></match>
   </rule>
 
+<!-- Guifré > Guifré, Gofredu -->
+
+  <rule weight="0.6">
+     <match lemma="Guifré" tags="np.*"><select lemma="Guifré"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
+  </rule>
+
 <!-- Gregori > Gregori, Gregòriu -->
 
   <rule weight="0.6">
