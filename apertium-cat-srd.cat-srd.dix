@@ -1917,6 +1917,7 @@
 <e>       <p><l>Jaume<b/>el<b/>Conqueridor<s n="np"/><s n="ant"/></l><r>Giacu<b/>su<b/>Conchistadore<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Guillem<b/>el<b/>Conqueridor<s n="np"/><s n="ant"/></l><r>Gullielmu<b/>su<b/>Conchistadore<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Alfons<b/>el<b/>Magnànim<s n="np"/><s n="ant"/></l><r>Alfonsu<b/>su<b/>Corimannu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Alfons<b/>el<b/>Bataller<s n="np"/><s n="ant"/></l><r>Alfonsu<b/>su<b/>Batallieru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Pere<b/>el<b/>Cerimoniós<s n="np"/><s n="ant"/></l><r>Pedru<b/>su<b/>Tzerimoniosu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Ricard<b/>Cor<b/>de<b/>Lleó<s n="np"/><s n="ant"/></l><r>Ricardu<b/>Coru<b/>de<b/>Leone<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Alessandro<s n="np"/><s n="ant"/></l>       <r>Alessandro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3859,6 +3860,7 @@
 <e>       <p><l>victòria<s n="n"/><s n="f"/></l>            <r>vitòria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>etapa<s n="n"/><s n="f"/></l>               <r>tapa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>comtat<s n="n"/><s n="m"/></l>              <r>contea<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>vescomtat<s n="n"/><s n="m"/></l>           <r>viscontea<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>reduir<s n="vblex"/></l>                    <r>minimare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>reduir<s n="vblex"/></l>                    <r>reduire<s n="vblex"/></r></p></e>
 <e>       <p><l>posteriorment<s n="adv"/></l>               <r>a<b/>pustis<s n="adv"/></r></p></e>
@@ -6937,6 +6939,7 @@
 <e>       <p><l>financer<s n="adj"/></l>                    <r>finantzieri<s n="adj"/></r></p></e>
 <e>       <p><l>CD<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l><r>CD<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>guerrer<s n="adj"/></l>                     <r>gherreri<s n="adj"/></r></p></e>
+<e>       <p><l>guerrer<s n="n"/></l>                       <r>gherreri<s n="n"/></r></p></e>
 <e>       <p><l>mestre<s n="adj"/></l>                      <r>mastru<s n="adj"/></r></p><par n="nostre_nostru"/></e>
 <e>       <p><l>URSS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>URSS<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>suau<s n="adj"/></l>                        <r>masedu<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -19866,7 +19869,9 @@
 <e>       <p><l>algebraic<s n="adj"/></l>                   <r>algèbricu<s n="adj"/></r></p></e>
 <e>       <p><l>agressiu<s n="adj"/></l>                    <r>malarrimadu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>agressiu<s n="adj"/></l>                    <r>abbetiosu<s n="adj"/></r></p></e>
-<e>       <p><l>combatent<s n="adj"/></l>                   <r>gherradore<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="LR"><p><l>combatent<s n="adj"/></l>                   <r>gherradore<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>guerrer<s n="adj"/></l>                     <r>gherradore<s n="adj"/></r></p></e>
+<e r="RL"><p><l>guerrer<s n="n"/></l>                       <r>gherradore<s n="n"/></r></p></e>
 <e>       <p><l>adornar<s n="vblex"/></l>                   <r>abellire<s n="vblex"/></r></p></e>
 <e>       <p><l>àguila<s n="n"/><s n="f"/></l>              <r>àbbila<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>acadèmic<s n="n"/></l>                      <r>acadèmicu<s n="n"/></r></p></e>
@@ -20242,7 +20247,10 @@
 <e>       <p><l>oxidar<s n="vblex"/></l>                    <r>ossidare<s n="vblex"/></r></p></e>
 <e>       <p><l>supremacia<s n="n"/><s n="f"/></l>          <r>altivesa<s n="n"/><s n="f"/></r></p></e>
       <!-- <e><p><l>supremacisme<s n="n"/><s n="m"/></l><r>suprematismu<s n="n"/><s n="m"/></r></p></e> -->
-<e>       <p><l>lluitador<s n="n"/></l>                     <r>gherradore<s n="n"/></r></p></e>
+<e r="LR"><p><l>lluitador<s n="n"/></l>                     <r>gherradore<s n="n"/></r></p></e>
+<e>       <p><l>lluitador<s n="adj"/></l>                   <r>gherradore<s n="adj"/></r></p></e>
+<e r="LR"><p><l>bel·licós<s n="adj"/></l>                   <r>gherradore<s n="adj"/></r></p></e>
+<e r="LR"><p><l>guerrejador<s n="adj"/></l>                 <r>gherradore<s n="adj"/></r></p></e>
 <e>       <p><l>adoptiu<s n="adj"/></l>                     <r>adotivu<s n="adj"/></r></p></e>
 <e>       <p><l>absurd<s n="adj"/></l>                      <r>assurdu<s n="adj"/></r></p></e>
 <e>       <p><l>repetidament<s n="adv"/></l>                <r>torra<s n="adv"/></r></p></e>
@@ -24880,7 +24888,7 @@
 <e>       <p><l>sobirà<s n="n"/></l>                        <r>soberanu<s n="n"/></r></p></e>
 <e>       <p><l>professional<s n="n"/><s n="mf"/></l>       <r>professionista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>record<s n="n"/><s n="m"/></l>              <r>record<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>original<s n="n"/><s n="mf"/></l>           <r>originale<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>original<s n="n"/><s n="mf"/></l>           <r>originale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>web<s n="adj"/><s n="mf"/></l>              <r>web<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>web<s n="n"/><s n="mf"/></l>                <r>web<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>webcam<s n="n"/><s n="f"/></l>              <r>webcam<s n="n"/><s n="f"/></r></p></e>
@@ -28279,7 +28287,10 @@
 <e r="RL"><p><l>exclamar<s n="vblex"/></l>                  <r>iscramare<s n="vblex"/></r></p></e>
 <e>       <p><l>copsar<s n="vblex"/></l>                    <r>agarrare<s n="vblex"/></r></p></e>
 <e>       <p><l>boix<s n="n"/><s n="m"/></l>                <r>bussu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>batallar<s n="vblex"/></l>                  <r>peleare<s n="vblex"/></r></p></e>
+<e>       <p><l>batallar<s n="vblex"/></l>                  <r>batalliare<s n="vblex"/></r></p></e>
+<e>       <p><l>batallador<s n="adj"/></l>                  <r>batalliadore<s n="adj"/></r></p></e>
+<e r="LR"><p><l>bataller<s n="adj"/></l>                    <r>batalliadore<s n="adj"/></r></p></e>
+<e r="RL"><p><l>batallar<s n="vblex"/></l>                  <r>peleare<s n="vblex"/></r></p></e>
 <e>       <p><l>atenir<s n="vblex"/></l>                    <r>atènnere<s n="vblex"/></r></p></e>
 <e>       <p><l>antifeixista<s n="adj"/><s n="mf"/></l>     <r>antifascista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Alessandria<s n="np"/><s n="loc"/></l>      <r>Alessandria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -29899,11 +29910,12 @@
 
 <e>       <p><l>terç<s n="n"/><s n="m"/></l>                <r>tres<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>quart<s n="n"/><s n="m"/></l>               <r>bator<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>cinquè<s n="n"/><s n="m"/></l>               <r>chimbe<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>sisè<s n="n"/><s n="m"/></l>               <r>ses<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>setè<s n="n"/><s n="m"/></l>               <r>sete<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>cinquè<s n="n"/><s n="m"/></l>              <r>chimbe<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>quint<s n="n"/><s n="m"/></l>               <r>chimbe<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>sisè<s n="n"/><s n="m"/></l>                <r>ses<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>setè<s n="n"/><s n="m"/></l>                <r>sete<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>vuitè<s n="n"/><s n="m"/></l>               <r>oto<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>novè<s n="n"/><s n="m"/></l>               <r>nou<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>novè<s n="n"/><s n="m"/></l>                <r>nou<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 
     <!-- SECTION:  Punctuation -->
 
