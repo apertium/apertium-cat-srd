@@ -2342,6 +2342,7 @@
 <e>       <p><l>alt<s n="adj"/></l>                         <r>artu<s n="adj"/></r></p></e>
 <e>       <p><l>africà<s n="adj"/></l>                      <r>africanu<s n="adj"/></r></p></e>
 <e>       <p><l>alemany<s n="adj"/></l>                     <r>tedescu<s n="adj"/></r></p></e>
+<e>       <p><l>francoalemany<s n="adj"/></l>               <r>franco-tedescu<s n="adj"/></r></p></e>
 <e>       <p><l>alfabètic<s n="adj"/></l>                   <r>alfabèticu<s n="adj"/></r></p></e>
 <e>       <p><l>acadèmic<s n="adj"/></l>                    <r>acadèmicu<s n="adj"/></r></p></e>
 <e>       <p><l>disponible<s n="adj"/></l>                  <r>disponìbile<s n="adj"/></r></p></e>
@@ -5042,6 +5043,9 @@
 <e>       <p><l>seriar<s n="vblex"/></l>                    <r>fàghere<g><b/>in<b/>sèrie</g><s n="vblex"/></r></p></e>
 <e r="LR"><p><l>nau<s n="n"/><s n="f"/></l>                 <r>naviu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>astronau<s n="n"/><s n="f"/></l>            <r>astronaviu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>italoamericà<s n="adj"/></l>                <r>italo-americanu<s n="adj"/></r></p></e>
+<e>       <p><l>italoamericà<s n="n"/></l>                  <r>italo-americanu<s n="n"/></r></p></e>
+<e>       <p><l>centreamericà<s n="n"/></l>                 <r>tzentruamericanu<s n="n"/></r></p></e>
 <e>       <p><l>centreamericà<s n="adj"/></l>               <r>tzentruamericanu<s n="adj"/></r></p></e>
 <e>       <p><l>centreamericà<s n="n"/></l>                 <r>tzentruamericanu<s n="n"/></r></p></e>
 <e>       <p><l>nord-americà<s n="adj"/></l>                <r>nordamericanu<s n="adj"/></r></p></e>
@@ -5500,8 +5504,8 @@
 <e>       <p><l>Castellar<s n="np"/><s n="loc"/></l>        <r>Castellar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>provençal<s n="adj"/></l>                   <r>proventzale<s n="adj"/></r></p></e>
 <e>       <p><l>provençal<s n="n"/></l>                     <r>proventzale<s n="n"/></r></p></e>
-<e>       <p><l>francoprovençal<s n="n"/><s n="m"/></l>     <r>francuproventzale<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>francoprovençal<s n="n"/><s n="m"/></l>     <r>francu-proventzale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>francoprovençal<s n="n"/><s n="m"/></l>     <r>francoproventzale<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>francoprovençal<s n="n"/><s n="m"/></l>     <r>franco-proventzale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>arpità<s n="adj"/></l>                      <r>arpitanu<s n="adj"/></r></p></e>
 <e>       <p><l>arpità<s n="n"/></l>                        <r>arpitanu<s n="n"/></r></p></e>
 <e>       <p><l>Castellanos<s n="np"/><s n="ant"/></l>      <r>Castellanos<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -8561,6 +8565,7 @@
 <e>       <p><l>Andrew<s n="np"/><s n="ant"/></l>           <r>Andrew<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>testimoniar<s n="vblex"/></l>               <r>testimoniare<s n="vblex"/></r></p></e>
 <e>       <p><l>prussià<s n="adj"/></l>                     <r>prussianu<s n="adj"/></r></p></e>
+<e>       <p><l>francoprussià<s n="adj"/></l>               <r>franco-prussianu<s n="adj"/></r></p></e>
 <e>       <p><l>pròsper<s n="adj"/></l>                     <r>ricu<s n="adj"/></r></p></e>
 <e>       <p><l>en<b/>secret<s n="adv"/></l>                <r>a<b/>fura<s n="adv"/></r></p></e>
 <e>       <p><l>descompondre<s n="vblex"/></l>              <r>iscontzare<s n="vblex"/></r></p></e>
