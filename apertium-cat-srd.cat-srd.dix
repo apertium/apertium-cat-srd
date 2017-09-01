@@ -3815,8 +3815,9 @@
 <e>       <p><l>intentar<s n="vblex"/></l>             <r>intentare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>intentar<s n="vblex"/></l>             <r>proare<s n="vblex"/></r></p></e>
 <e>       <p><l>Madrid<s n="np"/><s n="loc"/></l>      <r>Madrid<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>dècada<s n="n"/><s n="f"/></l>         <r>deghina<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>decenni<s n="n"/><s n="m"/></l>        <r>deghina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dècada<s n="n"/><s n="f"/></l>         <r>dècada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>decenni<s n="n"/><s n="m"/></l>        <r>deghènniu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>decenna<s n="n"/><s n="f"/></l>        <r>deghina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>semblar<s n="vblex"/></l>              <r>assimigiare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>semblar<s n="vblex"/></l>              <r>pàrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>cop<s n="n"/><s n="m"/></l>            <r>corfu<s n="n"/><s n="m"/></r></p></e>
@@ -30126,7 +30127,7 @@
 <e>       <p><l>texidor<s n="n"/></l>                  <r>tessidore<s n="n"/></r></p></e>
 
 <e>       <p><l>cel·luloide<s n="n"/><s n="m"/></l>    <r>tzellulòide<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>docte<s n="adj"/></l>                  <r>dotu<s n="adj"/></r></p></e>
+<e>       <p><l>docte<s n="adj"/></l>                  <r>dotu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>potentat<s n="n"/></l>                 <r>potentadu<s n="n"/></r></p></e>
 
 <e>       <p><l>atribuïble<s n="adj"/><s n="mf"/></l>  <r>atribuìbile<s n="adj"/><s n="mf"/></r></p></e>
