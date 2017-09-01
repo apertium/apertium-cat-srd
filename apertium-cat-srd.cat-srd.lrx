@@ -25,6 +25,17 @@
   </rule>
 
 
+<!-- ensenyar > insegnare, mustrare -->
+
+  <rule weight="0.6">
+     <match lemma="ensenyar" tags="vblex.*"><select lemma="insingiare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="ensenyar" tags="vblex.*"><select lemma="mustrare"/></match>
+     <match lemma="a" tags="pr"/>
+  </rule>
+
+
 <!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) -->
 
   <rule weight="0.6">
