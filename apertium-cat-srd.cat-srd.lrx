@@ -1644,8 +1644,11 @@
 
 <!-- Jaume > Jaume, Giacu -->
 
-  <rule weight="0.6">
+  <rule weight="1.0">
      <match lemma="Jaume" tags="np.*"><select lemma="Jaume"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="Jaume" tags="np.*"><select lemma="Giacu"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="Jaume" tags="np.*"><select lemma="Giacu"/></match>
