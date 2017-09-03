@@ -201,11 +201,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . cat-srd | tee .test-mt
-	@echo "house" > .test-ref
+	echo "casa" | apertium -d . cat-srd | tee .test-mt
+	@echo "domo" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . srd-cat | tee .test-mt
-	@echo "house" > .test-ref
+	echo "casa" | apertium -d . srd-cat | tee .test-mt
+	@echo "domo" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
