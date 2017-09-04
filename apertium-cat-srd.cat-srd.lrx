@@ -58,6 +58,8 @@
 
 
 <!-- PP DA -->
+<!-- per > pro, dae -->
+<!-- per > pro, dae -->
 
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -88,8 +90,20 @@
      <match tags="adv"/>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
+
+  <rule weight="1.0">
+     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="un" tags="det.*"/>
+     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
+  </rule>
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="un" tags="det.*"/>
+     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
   <rule weight="0.6">
     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
@@ -137,6 +151,30 @@
   <rule weight="1.0">
      <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
      <match lemma="de" tags="pr"/>
+  </rule>
+
+<!-- costat > costàgiu, ala -->
+
+  <rule weight="0.6">
+     <match lemma="costat" tags="n.*"><select lemma="costàgiu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match lemma="de" tags="pr"/><match lemma="per" tags="pr"/></or>
+     <match lemma="un" tags="det.*"/>
+     <match lemma="costat" tags="n.*"><select lemma="ala"/></match>
+     <match lemma="," tags="cm"/>
+  </rule>
+
+<!-- banda > banda, ala -->
+
+  <rule weight="0.6">
+     <match lemma="banda" tags="n.*"><select lemma="banda"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match lemma="de" tags="pr"/><match lemma="per" tags="pr"/></or>
+     <match lemma="un" tags="det.*"/>
+     <match lemma="banda" tags="n.*"><select lemma="ala"/></match>
+     <match lemma="," tags="cm"/>
   </rule>
 
 <!-- pinya > pigna, ananassu -->
