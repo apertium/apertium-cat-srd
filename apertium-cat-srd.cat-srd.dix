@@ -3512,7 +3512,8 @@
 <e>       <p><l>pel<b/>que<b/>fa<b/>a<s n="pr"/></l>   <r>pro<b/>su<b/>chi<b/>pertocat<s n="pr"/></r></p></e>
 <e r="RL"><p><l>pel<b/>que<b/>fa<b/>a<s n="pr"/></l>   <r>pro<b/>cantu<b/>pertocat<s n="pr"/></r></p></e>
 <e>       <p><l>milers<b/>de<s n="pr"/></l>            <r>mìgias<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>arran<b/>de<s n="pr"/></l>             <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>arran<b/>de<s n="pr"/></l>             <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
+<e>       <p><l>després<b/>de<s n="pr"/></l>           <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>el<b/>cas<b/>de<s n="pr"/></l>   <r>in<b/>su<b/>casu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>comptes<b/>de<s n="pr"/></l>     <r>in<b/>contu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>arreu<b/>de<s n="pr"/></l>             <r>totu<b/>in<b/>tundu<b/>de<s n="pr"/></r></p></e>
@@ -3888,15 +3889,15 @@
 <e>       <p><l>vescomtat<s n="n"/><s n="m"/></l>      <r>viscontea<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>reduir<s n="vblex"/></l>               <r>minimare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>reduir<s n="vblex"/></l>               <r>reduire<s n="vblex"/></r></p></e>
-<e>       <p><l>posteriorment<s n="adv"/></l>          <r>a<b/>pustis<s n="adv"/></r></p></e>
-<e>       <p><l>posteriorment<s n="adv"/></l>          <r>pustis<s n="adv"/></r></p></e>
+<e r="LR"><p><l>posteriorment<s n="adv"/></l>          <r>a<b/>pustis<s n="adv"/></r></p></e>
+<e i="yes"><p><l>posteriorment<s n="adv"/></l>          <r>pustis<s n="adv"/></r></p></e>
 <e>       <p><l>costa<s n="n"/><s n="f"/></l>          <r>costera<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>costa<s n="n"/><s n="f"/></l>          <r>costa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>lluita<s n="n"/><s n="f"/></l>         <r>cumbata<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>explicar<s n="vblex"/></l>             <r>ispiegare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>explicar<s n="vblex"/></l>             <r>acrarire<s n="vblex"/></r></p></e>
 <e>       <p><l>humà<s n="adj"/></l>                   <r>umanu<s n="adj"/></r></p></e>
-<e>       <p><l>del<b/>nord<s n="adj"/><s n="mf"/></l> <r>setentrionale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e r="LR"><p><l>del<b/>nord<s n="adj"/><s n="mf"/></l> <r>setentrionale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>motiu<s n="n"/><s n="m"/></l>          <r>motivu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pas<s n="n"/><s n="m"/></l>            <r>passu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>caure<s n="vblex"/></l>                <r>rùere<s n="vblex"/></r></p></e>
