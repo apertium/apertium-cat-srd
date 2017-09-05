@@ -2251,7 +2251,6 @@
 <e>       <p><l>sistèmic<s n="adj"/></l>               <r>sistèmicu<s n="adj"/></r></p></e>
 <e>       <p><l>metàl·lic<s n="adj"/></l>              <r>metàllicu<s n="adj"/></r></p></e>
 <e>       <p><l>vinent<s n="adj"/></l>                 <r>benidore<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>multilingüe<s n="adj"/></l>            <r>multilìngue<s n="adj"/></r></p></e>
 <e r="LR"><p><l>ex<s n="adj"/></l>                     <r>ex<s n="adj"/></r></p></e>
 <e>       <p><l>tècnic<s n="adj"/></l>                 <r>tècnicu<s n="adj"/></r></p></e>
 <e>       <p><l>fràgil<s n="adj"/></l>                 <r>dìligu<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -5758,6 +5757,12 @@
 <e>       <p><l>llogaret<s n="n"/><s n="m"/></l>       <r>bidditzolu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>assemblar<s n="vblex"/></l>            <r>assimigiare<s n="vblex"/></r></p></e>
 <e>       <p><l>polinomi<s n="n"/><s n="m"/></l>       <r>polinòmiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>monomi<s n="n"/><s n="m"/></l>         <r>monòmiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>binomi<s n="n"/><s n="m"/></l>         <r>binòmiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>trinomi<s n="n"/><s n="m"/></l>        <r>trinòmiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>binomial<s n="adj"/><s n="mf"/></l>    <r>binomiale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>trinomial<s n="adj"/><s n="mf"/></l>   <r>trinomiale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>multinomial<s n="adj"/><s n="mf"/></l> <r>multinomiale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>milla<s n="n"/><s n="f"/></l>          <r>mìlliu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mixt<s n="adj"/></l>                   <r>ammisturadu<s n="adj"/></r></p></e>
 <e>       <p><l>castigar<s n="vblex"/></l>             <r>castigare<s n="vblex"/></r></p></e>
@@ -24708,8 +24713,6 @@
 <e>       <p><l>prolífic<s n="adj"/></l>               <r>criajolu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>prolífic<s n="adj"/></l>               <r>criongianu<s n="adj"/></r></p></e>
 <e>       <p><l>opinar<s n="vblex"/></l>               <r>dare<g><b/>unu<b/>parre</g><s n="vblex"/></r></p></e>
-<e>       <p><l>bilingüe<s n="adj"/></l>               <r>bilìngue<s n="adj"/></r></p></e>
-<e>       <p><l>trilingüe<s n="adj"/></l>              <r>trilìngue<s n="adj"/></r></p></e>
 <e>       <p><l>desigual<s n="adj"/></l>               <r>diferente<s n="adj"/></r></p></e>
 <e>       <p><l>dirigent<s n="adj"/></l>               <r>dirigente<s n="adj"/></r></p></e>
 <e>       <p><l>vestíbul<s n="n"/><s n="m"/></l>       <r>bestidura<s n="n"/><s n="f"/></r></p></e>
@@ -25651,9 +25654,17 @@
 <e>       <p><l>desintegració<s n="n"/><s n="f"/></l>  <r>disintegratzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>desunió<s n="n"/><s n="f"/></l>        <r>disunione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>desànim<s n="n"/><s n="m"/></l>        <r>disànimu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>monolingüe<s n="adj"/><s n="mf"/></l>  <r>monolìngue<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>monoteista<s n="adj"/><s n="mf"/></l>  <r>monoteista<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>monolingüe<s n="adj"/><s n="mf"/></l>  <r>monolìngue<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>bilingüe<s n="adj"/><s n="mf"/></l>    <r>bilìngue<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>trilingüe<s n="adj"/><s n="mf"/></l>   <r>trilìngue<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>plurilingüe<s n="adj"/><s n="mf"/></l> <r>plurilìngue<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>multilingüe<s n="adj"/><s n="mf"/></l> <r>multilìngue<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>monolingüe<s n="n"/><s n="mf"/></l>  <r>monolìngue<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>bilingüe<s n="n"/><s n="mf"/></l>    <r>bilìngue<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>trilingüe<s n="n"/><s n="mf"/></l>   <r>trilìngue<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>plurilingüe<s n="n"/><s n="mf"/></l> <r>plurilìngue<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>multilingüe<s n="n"/><s n="mf"/></l> <r>multilìngue<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>biennal<s n="adj"/><s n="mf"/></l>     <r>biennale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>agilitat<s n="n"/><s n="f"/></l>       <r>agilidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>anualitat<s n="n"/><s n="f"/></l>      <r>annualidade<s n="n"/><s n="f"/></r></p></e>
@@ -28718,7 +28729,7 @@
 <e r="RL"><p><l>processador<s n="adj"/></l>            <r>protzessore<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>insegur<s n="adj"/></l>                <r>inseguru<s n="adj"/></r></p></e>
 <e>       <p><l>granadí<s n="adj"/></l>                <r>grandinu<s n="adj"/></r></p></e>
-<e>       <p><l>binomial<s n="adj"/></l>               <r>binominale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>binomial<s n="adj"/></l>               <r>binominale<s n="adj"/></r></p></e>
 <e>       <p><l>argilós<s n="adj"/></l>                <r>marimundu<s n="adj"/></r></p></e>
 <e>       <p><l>intracel·lular<s n="adj"/></l>         <r>intratzellulare<s n="adj"/></r></p></e>
 <e>       <p><l>hidròfob<s n="adj"/></l>               <r>idròfobu<s n="adj"/></r></p></e>
@@ -30107,6 +30118,7 @@
 
 <e>       <p><l>penjant<s n="adj"/></l>                <r>pendente<s n="adj"/></r></p></e>
 <e>       <p><l>polinòmic<s n="adj"/></l>              <r>polinòmicu<s n="adj"/></r></p></e>
+<e>       <p><l>binòmic<s n="adj"/></l>                <r>binòmicu<s n="adj"/></r></p></e>
 <e>       <p><l>comptador<s n="n"/><s n="m"/></l>      <r>contadore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>envàs<s n="n"/><s n="m"/></l>          <r>istèrgiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cobert<s n="adj"/></l>                 <r>cobertu<s n="adj"/></r></p></e>
