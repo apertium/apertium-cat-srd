@@ -691,7 +691,7 @@
 <e>       <p><l>emigrant<s n="n"/><s n="mf"/></l>      <r>emigrante<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>extensió<s n="n"/><s n="f"/></l>       <r>estensione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ferrocarril<s n="n"/><s n="m"/></l>    <r>ferrovia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>freqüència<s n="n"/><s n="f"/></l>     <r>frequèntzia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>freqüència<s n="n"/><s n="f"/></l>     <r>frecuèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>garantia<s n="n"/><s n="f"/></l>       <r>garàntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>gestió<s n="n"/><s n="f"/></l>         <r>gestione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>importància<s n="n"/><s n="f"/></l>    <r>importàntzia<s n="n"/><s n="f"/></r></p></e>
@@ -721,7 +721,6 @@
 <e>       <p><l>protestant<s n="adj"/><s n="mf"/></l>  <r>protestante<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>referència<s n="n"/><s n="f"/></l>     <r>referèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>reverència<s n="n"/><s n="f"/></l>     <r>reverèntzia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>seqüència<s n="n"/><s n="f"/></l>      <r>sequèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>seguiment<s n="n"/><s n="m"/></l>      <r>sighimentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>estratificació<s n="n"/><s n="f"/></l> <r>istratificatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>substància<s n="n"/><s n="f"/></l>     <r>sustàntzia<s n="n"/><s n="f"/></r></p></e>
@@ -1261,7 +1260,6 @@
 <e>       <p><l>responsabilitat<s n="n"/><s n="f"/></l><r>responsabilidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sensibilitat<s n="n"/><s n="f"/></l>   <r>sensibilidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sostenibilitat<s n="n"/><s n="f"/></l> <r>sustenibilidade<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>tranquil·litat<s n="n"/><s n="f"/></l> <r>tranquillidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>educació<s n="n"/><s n="f"/></l>       <r>tzivilidade<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <p><l>sentit<s n="n"/><s n="m"/></l>         <r>sensu<s n="n"/><s n="m"/></r></p></e>
@@ -1650,8 +1648,6 @@
 <e>       <p><l>incitació<s n="n"/><s n="f"/></l>      <r>istigamentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>llibertat<s n="n"/><s n="f"/></l>      <r>libertade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>limitació<s n="n"/><s n="f"/></l>      <r>limitatzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>conquesta<s n="n"/><s n="f"/></l>      <r>conquista<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>conquista<s n="n"/><s n="f"/></l>      <r>conquista<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>maternitat<s n="n"/><s n="f"/></l>     <r>maternidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mèrit<s n="n"/><s n="m"/></l>          <r>mèritu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>límit<s n="n"/><s n="m"/></l>          <r>lìmite<s n="n"/><s n="m"/></r></p></e>
@@ -1919,6 +1915,7 @@
 <e>       <p><l>Federico<s n="np"/><s n="ant"/></l>    <r>Federico<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Ernest<s n="np"/><s n="ant"/></l>      <r>Ernest<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Eleonora<s n="np"/><s n="ant"/></l>    <r>Eleonora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Elionor<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Lionora<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Montserrat<s n="np"/><s n="ant"/></l>  <r>Montserrat<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Carmen<s n="np"/><s n="ant"/></l>      <r>Carmen<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Juan<s n="np"/><s n="ant"/></l>        <r>Juan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6295,6 +6292,8 @@
 <e>       <p><l>aeri<s n="adj"/></l>                   <r>aèreu<s n="adj"/></r></p></e>
 <e>       <p><l>marí<s n="adj"/></l>                   <r>marinu<s n="adj"/></r></p></e>
 <e>       <p><l>càmera<s n="n"/><s n="mf"/></l>        <r>fotocàmera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>càmera<s n="n"/><s n="f"/></l>         <r>fotocàmera<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>càmera<s n="n"/><s n="f"/></l>         <r>càmera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>marge<s n="n"/><s n="m"/></l>          <r>oru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>escó<s n="n"/><s n="m"/></l>           <r>bancu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ajuntament<s n="n"/><s n="m"/></l>     <r>domo<b/>comunale<s n="n"/><s n="f"/></r></p></e>
@@ -7298,6 +7297,7 @@
 <e>       <p><l>sigla<s n="n"/><s n="f"/></l>          <r>sigla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>desena<s n="n"/><s n="f"/></l>         <r>deghina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tranquil<s n="adj"/></l>               <r>chietu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>tranquil<s n="adj"/></l>               <r>trancuillu<s n="adj"/></r></p></e>
 <e>       <p><l>munició<s n="n"/><s n="f"/></l>        <r>munitzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Jackson<s n="np"/><s n="ant"/></l>     <r>Jackson<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>fugida<s n="n"/><s n="f"/></l>         <r>fua<s n="n"/><s n="f"/></r></p></e>
@@ -7707,7 +7707,7 @@
 <e>       <p><l>enfocar<s n="vblex"/></l>              <r>cuntzentrare<s n="vblex"/></r></p></e>
 <e>       <p><l>Carme<s n="np"/><s n="ant"/></l>       <r>Carme<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>aguantar<s n="vblex"/></l>             <r>aguantare<s n="vblex"/></r></p></e>
-<e>       <p><l>sepulcre<s n="n"/><s n="m"/></l>       <r>tumba<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sepulcre<s n="n"/><s n="m"/></l>       <r>sepurcru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>renaixement<s n="n"/><s n="m"/></l>    <r>rinaschimentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ocult<s n="adj"/></l>                  <r>ocultu<s n="adj"/></r></p></e>
 <e>       <p><l>Eslovàquia<s n="np"/><s n="loc"/></l>  <r>Islovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -19915,7 +19915,6 @@
 
 <e>       <p><l>Milošević<s n="np"/><s n="ant"/></l>   <r>Milošević<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
-<e>       <p><l>càmera<s n="n"/><s n="f"/></l>         <r>fotocàmera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>administrar<s n="vblex"/></l>          <r>amministrare<s n="vblex"/></r></p></e>
 <e>       <p><l>Sant<b/>Antoni<s n="np"/><s n="loc"/></l><r>Santu<b/>Antoni<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>analògic<s n="adj"/></l>               <r>analògicu<s n="adj"/></r></p></e>
@@ -23599,7 +23598,7 @@
 <e>       <p><l>valència<s n="n"/><s n="f"/></l>       <r>valèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>vigència<s n="n"/><s n="f"/></l>       <r>vigèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>confidència<s n="n"/><s n="f"/></l>    <r>cunfidèntzia<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>sequència<s n="n"/><s n="f"/></l>      <r>sequèntzia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>seqüència<s n="n"/><s n="f"/></l>      <r>secuèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>acústica<s n="n"/><s n="f"/></l>       <r>acùstica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>aerodinàmica<s n="n"/><s n="f"/></l>   <r>aerodinàmica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fonètica<s n="n"/><s n="f"/></l>       <r>fonètica<s n="n"/><s n="f"/></r></p></e>
@@ -23940,7 +23939,6 @@
 <e>       <p><l>convit<s n="n"/><s n="m"/></l>         <r>cunvitu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>custòdia<s n="n"/><s n="f"/></l>       <r>custòdia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cutícula<s n="n"/><s n="f"/></l>       <r>còtzula<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>càmera<s n="n"/><s n="f"/></l>         <r>càmera<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>càncer<s n="n"/><s n="m"/></l>         <r>càncaru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>còmput<s n="n"/><s n="m"/></l>         <r>còmputu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>còmput<s n="n"/><s n="m"/></l>         <r>càlculu<s n="n"/><s n="m"/></r></p></e>
@@ -27580,7 +27578,8 @@
 <e>       <p><l>unionista<s n="adj"/><s n="mf"/></l>   <r>unionista<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>uzbek<s n="adj"/></l>                  <r>uzbeku<s n="adj"/></r></p></e>
 <e>       <p><l>boa<s n="n"/><s n="f"/></l>            <r>boa<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>conquista<s n="n"/><s n="f"/></l>      <r>conchista<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>conquesta<s n="n"/><s n="f"/></l>      <r>conchista<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>conquista<s n="n"/><s n="f"/></l>      <r>conchista<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>radicalisme<s n="n"/><s n="m"/><s n="sg"/></l><r>radicalismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>sardòfon<s n="n"/></l>                 <r>sardòfonu<s n="n"/></r></p></e>
 <e>       <p><l>baptista<s n="adj"/><s n="mf"/></l>    <r>batista<s n="adj"/><s n="mf"/></r></p></e>
@@ -30196,6 +30195,15 @@
       <e><p><l>polièdric<s n="adj"/></l><r>polièdricu<s n="adj"/></r></p></e>
       <e><p><l>taxonòmic<s n="adj"/></l><r>tassonòmicu<s n="adj"/></r></p></e>
       <e><p><l>variat<s n="adj"/></l><r>variadu<s n="adj"/></r></p></e>
+      <e><p><l>fagòcit<s n="n"/><s n="m"/></l><r>fagòcit<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fagocitosi<s n="n"/><s n="f"/></l><r>fagotzitosi<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fagocitar<s n="vblex"/></l><r>fagotzitare<s n="vblex"/></r></p></e>
+      <e><p><l>dendrìticu<s n="adj"/></l><r>dendrìticu<s n="adj"/></r></p></e>
+      <e><p><l>dendrita<s n="n"/><s n="f"/></l><r>dendrite<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sepulcral<s n="adj"/><s n="mf"/></l><r>sepurcrale<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>panteó<s n="n"/><s n="m"/></l><r>pànteon<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>legitimador<s n="adj"/></l><r>legitimadore<s n="adj"/></r></p></e>
+      <e><p><l>concertant<s n="adj"/><s n="mf"/></l><r>cuntzertende<s n="adj"/><s n="mf"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
