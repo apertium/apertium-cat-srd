@@ -1,18 +1,41 @@
+<!-- estar > èssere, istare -->
+
 <rules>
-  <rule weight="0.4">
+  <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
-  <rule weight="0.6">
+  <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
-  <rule weight="0.6">
+  <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
   </rule>
-  <rule weight="0.6">
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det./"/>
+    <or>
+      <match lemma="nord"/>
+      <match lemma="nord-est"/>
+      <match lemma="nord-oest"/>
+      <match lemma="sud"/>
+      <match lemma="sud-est"/>
+      <match lemma="sud-oest"/>
+      <match lemma="est"/>
+      <match lemma="oest"/>
+
+      <match lemma="hora"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
+  <rule weight="1.0">
+    <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+  </rule>
+
 
 <!-- estar > èssere, istare -->
 
@@ -118,6 +141,16 @@
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
 
+<!-- al llarg de > durante, a largu de -->
+
+  <rule weight="0.6">
+    <match lemma="al llarg de" tags="pr"><select lemma="durante" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="al llarg de" tags="pr"><select lemma="al llarg de" tags="pr"/></match>
+    <match tags="np.*"/>
+  </rule>
+
 <!-- HI HA > B'AT -->
 
   <rule weight="1.0">
@@ -196,6 +229,16 @@
      <match lemma="un" tags="det.*"/>
      <match lemma="costat" tags="n.*"><select lemma="ala"/></match>
      <match lemma="," tags="cm"/>
+  </rule>
+
+<!-- poble > bidda, pòpulu -->
+
+  <rule weight="0.6">
+     <match lemma="poble" tags="n.*"><select lemma="bidda"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="poble" tags="n.*"><select lemma="pòpulu"/></match>
+     <match tags="adj.*"/>
   </rule>
 
 <!-- banda > banda, ala -->
@@ -1172,6 +1215,57 @@
      <match lemma="Berenguer" tags="np.*"><select lemma="Berengàriu"/></match>
   </rule>
 
+<!-- Joana > Joana, Giuanna -->
+
+  <rule weight="0.6">
+     <match lemma="Joana" tags="np.*"><select lemma="Joana"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
+  </rule>
+
 <!-- Joan > Joan, Giuanne -->
 
   <rule weight="0.6">
@@ -1183,7 +1277,7 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/></or>
   </rule>
   <rule weight="1.0">
-     <match lemma="Joan" tags="np.*"><select lemma="Joan"/></match>
+     <match lemma="Joan" tags="np.*"><select lemma="Giuanne"/></match>
      <match tags="det.*"/>
      <match tags="adj.*"/>
   </rule>
@@ -1221,6 +1315,57 @@
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan" tags="np.*"><select lemma="Giuanne"/></match>
+  </rule>
+
+<!-- Joan Manuel > Joan Manuel, Giuanne Manuelle -->
+
+  <rule weight="0.6">
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Joan Manuel"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
   </rule>
 
 <!-- Joan Carles > Joan Carles, Giuanne Càralu -->
@@ -1272,6 +1417,57 @@
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan Carles" tags="np.*"><select lemma="Giuanne Càralu"/></match>
+  </rule>
+
+<!-- Manuel > Manuel, Manuelle -->
+
+  <rule weight="0.6">
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuel"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
   </rule>
 
 <!-- Pau > Pau, Pàule -->
