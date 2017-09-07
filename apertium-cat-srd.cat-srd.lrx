@@ -153,6 +153,26 @@
      <match lemma="de" tags="pr"/>
   </rule>
 
+<!-- infant > pipiu, prìntzipe -->
+
+  <rule weight="0.6">
+     <match lemma="infant" tags="n.*"><select lemma="pipiu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="infant" tags="n.*"><select lemma="prìntzipe"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+
+<!-- cambra > aposentu, càmera -->
+
+  <rule weight="0.6">
+     <match lemma="cambra" tags="n.*"><select lemma="aposentu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match lemma="cambra" tags="n.*"><select lemma="càmera"/></match>
+  </rule>
+
 <!-- costat > costàgiu, ala -->
 
   <rule weight="0.6">
@@ -709,6 +729,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -760,6 +781,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -810,6 +832,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -860,6 +883,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -910,6 +934,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -960,6 +985,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1010,6 +1036,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1060,6 +1087,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1110,6 +1138,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1160,6 +1189,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1210,6 +1240,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1260,6 +1291,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1310,6 +1342,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1360,6 +1393,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1410,6 +1444,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1460,6 +1495,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1510,6 +1546,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1560,6 +1597,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1610,6 +1648,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1660,6 +1699,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1713,6 +1753,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1763,6 +1804,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1813,6 +1855,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1863,6 +1906,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1913,6 +1957,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -1963,6 +2008,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2013,6 +2059,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2063,6 +2110,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2113,6 +2161,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2163,6 +2212,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2213,6 +2263,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2263,6 +2314,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2313,6 +2365,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2363,6 +2416,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
@@ -2413,6 +2467,7 @@
        <match lemma="tsar" tags="n.*"/>
        <match lemma="virrei" tags="n.*"/>
        <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
