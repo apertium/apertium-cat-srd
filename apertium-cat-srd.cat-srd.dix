@@ -3898,7 +3898,6 @@
 <e>       <p><l>explicar<s n="vblex"/></l>             <r>ispiegare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>explicar<s n="vblex"/></l>             <r>acrarire<s n="vblex"/></r></p></e>
 <e>       <p><l>humà<s n="adj"/></l>                   <r>umanu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>del<b/>nord<s n="adj"/><s n="mf"/></l> <r>setentrionale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>motiu<s n="n"/><s n="m"/></l>          <r>motivu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pas<s n="n"/><s n="m"/></l>            <r>passu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>caure<s n="vblex"/></l>                <r>rùere<s n="vblex"/></r></p></e>
@@ -4068,6 +4067,7 @@
 <e>       <p><l>bioquímic<s n="adj"/></l>              <r>biochìmicu<s n="adj"/></r></p></e>
 <e>       <p><l>designar<s n="vblex"/></l>             <r>designare<s n="vblex"/></r></p></e>
 <e>       <p><l>nord-est<s n="n"/><s n="m"/></l>       <r>nord-est<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>nord-oest<s n="n"/><s n="m"/></l>      <r>nord-ovest<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>imperi<s n="n"/><s n="m"/></l>         <r>impèriu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sud-oest<s n="n"/><s n="m"/></l>       <r>sud-ovest<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>envoltar<s n="vblex"/></l>             <r>inghiriare<s n="vblex"/></r></p></e>
@@ -4082,7 +4082,6 @@
 <e>       <p><l>aire<s n="n"/><s n="m"/></l>           <r>àera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>museu<s n="n"/><s n="m"/></l>          <r>museu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pujar<s n="vblex"/></l>                <r>artziare<s n="vblex"/></r></p></e>
-<e>       <p><l>nord-oest<s n="n"/><s n="m"/></l>      <r>nord-ovest<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>posseir<s n="vblex"/></l>              <r>possèdere<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>posseir<s n="vblex"/></l>              <r>tènnere<s n="vblex"/></r></p></e>
@@ -4482,7 +4481,8 @@
 <e>       <p><l>provar<s n="vblex"/></l>               <r>proare<s n="vblex"/></r></p></e>
 <e>       <p><l>Sant<b/>Joan<s n="np"/><s n="loc"/></l><r>Sant<b/>Joan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>infant<s n="n"/><s n="m"/></l>         <r>pipiu<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>infant<s n="n"/></l>                   <r>prìntzipe<s n="n"/></r></p></e>
+<e r="LR"><p><l>infant<s n="n"/><s n="m"/></l>         <r>prìntzipe<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>infant<s n="n"/><s n="f"/></l>         <r>prìntzipe<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cost<s n="n"/><s n="m"/></l>           <r>preju<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>recolzar<s n="vblex"/></l>             <r>arrumbare<s n="vblex"/></r></p></e>
 <e>       <p><l>italià<s n="n"/></l>                   <r>italianu<s n="n"/></r></p></e>
@@ -6260,6 +6260,8 @@
 <e r="LR"><p><l>batlle<s n="n"/><s n="m"/></l>         <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>sìndic<s n="n"/><s n="m"/></l>         <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sacerdot<s n="n"/><s n="m"/></l>       <r>satzerdote<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>sacerdot<s n="n"/><s n="m"/></l>       <r>satzerdotu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sacerdot<s n="n"/><s n="f"/></l>       <r>satzerdotissa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mapa<s n="n"/><s n="m"/></l>           <r>mapa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mandat<s n="n"/><s n="m"/></l>         <r>mandadu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>heroi<s n="n"/></l>                    <r>eroe<s n="n"/></r></p></e>
@@ -6485,6 +6487,7 @@
 <e r="LR"><p><l>Illes<b/>Falkland<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Malvinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Illes<b/>Marqueses<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Marchesas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Illes<b/>Mariannes<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Mariannas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Mariannes<s n="np"/><s n="loc"/></l><r>Mariannas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Illa<b/>Marion<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Marion<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Illes<b/>Marshall<s n="np"/><s n="loc"/></l><r>Ìsulas<b/>Marshall<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>Illa<b/>Mayotte<s n="np"/><s n="loc"/></l><r>Ìsula<b/>Mayotte<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
@@ -26578,7 +26581,7 @@
 <e>       <p><l>subcontinent<s n="n"/><s n="m"/></l>   <r>subcontinente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>silenciós<s n="adj"/></l>              <r>silentziosu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>silenciós<s n="adj"/></l>              <r>mudu<s n="adj"/></r></p></e>
-<e>       <p><l>Pròxim<b/>Orient<s n="np"/><s n="loc"/></l><r>Bighinu<b/>Oriente<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Pròxim<b/>Orient<s n="np"/><s n="loc"/></l><r>Bighinu<b/>Oriente<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>propens<s n="adj"/></l>                <r>dispostu<s n="adj"/></r></p></e>
 <e>       <p><l>ortodòxia<s n="n"/><s n="f"/></l>      <r>ortodossia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>obstaculitzar<s n="vblex"/></l>        <r>impedire<s n="vblex"/></r></p></e>
@@ -29975,7 +29978,6 @@
 <e>       <p><l>insecticida<s n="n"/><s n="mf"/></l>   <r>insetitzida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>estrateg<s n="n"/></l>                 <r>sestadore<s n="n"/></r></p></e>
 <e>       <p><l>pàncrees<s n="n"/><s n="m"/></l>       <r>carrisàpida<s n="n"/><s n="f"/></r></p><par n="sp_ND"/></e>
-<e>       <p><l>sacerdot<s n="n"/><s n="f"/></l>       <r>satzerdotissa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>profusió<s n="n"/><s n="f"/></l>       <r>bundàntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>coma<s n="n"/><s n="m"/></l>           <r>coma<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>làtex<s n="n"/><s n="m"/></l>          <r>late<g><b/>de<b/>figu</g><s n="n"/><s n="f"/></r></p><par n="sp_ND"/></e>
@@ -30216,6 +30218,21 @@
       <e><p><l>vienès<s n="adj"/></l><r>viennesu<s n="adj"/></r></p></e>
       <e><p><l>vienès<s n="n"/></l><r>viennesu<s n="n"/></r></p></e>
       <e><p><l>pianístic<s n="adj"/></l><r>pianìsticu<s n="adj"/></r></p></e>
+      <e><p><l>copte<s n="adj"/></l><r>coptu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
+      <e><p><l>copte<s n="n"/></l><r>coptu<s n="n"/></r></p><par n="nostre_nostru"/></e>
+      <e><p><l>dendrític<s n="adj"/></l><r>dendrític<s n="adj"/></r></p></e>
+      <e><p><l>drus<s n="adj"/></l><r>drusu<s n="adj"/></r></p></e>
+      <e><p><l>drus<s n="n"/></l><r>drusu<s n="n"/></r></p></e>
+      <e><p><l>maronita<s n="adj"/><s n="mf"/></l><r>maronita<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>maronita<s n="n"/></l><r>maronita<s n="n"/></r></p></e>
+      <e><p><l>siríac<s n="adj"/></l><r>sirìacu<s n="adj"/></r></p></e>
+      <e><p><l>siríac<s n="n"/><s n="m"/></l><r>sirìacu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>arameu<s n="adj"/></l><r>arameu<s n="adj"/></r></p></e>
+      <e><p><l>arameu<s n="n"/></l><r>arameu<s n="n"/></r></p></e>
+      <e><p><l>nabateu<s n="adj"/></l><r>nabateu<s n="adj"/></r></p></e>
+      <e><p><l>nabateu<s n="n"/></l><r>nabateu<s n="n"/></r></p></e>
+      <e><p><l>circassià<s n="adj"/></l><r>tzircassu<s n="adj"/></r></p></e>
+      <e><p><l>circassià<s n="n"/><s n="m"/></l><r>tzircassu<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 

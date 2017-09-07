@@ -58,8 +58,15 @@
 
 
 <!-- PP DA -->
+<!-- de > de, dae -->
 <!-- per > pro, dae -->
-<!-- per > pro, dae -->
+
+  <rule weight="0.6">
+    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+  </rule>
 
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
@@ -92,21 +99,23 @@
   </rule>
 
   <rule weight="1.0">
+     <or>
+       <match lemma="venir" tags="vblex.*"/>
+       <match lemma="arribar" tags="vblex.*"/>
+     </or>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
      <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
      <match lemma="un" tags="det.*"/>
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
-  </rule>
-  <rule weight="0.6">
-    <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
   </rule>
 
   <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
      <match lemma="un" tags="det.*"/>
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
-  </rule>
-  <rule weight="0.6">
-    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
 <!-- HI HA > B'AT -->
@@ -161,6 +170,10 @@
   <rule weight="1.0">
      <match lemma="infant" tags="n.*"><select lemma="prìntzipe"/></match>
      <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="infant" tags="n.*"><select lemma="prìntzipe"/></match>
+     <match tags="np.*"/>
   </rule>
 
 <!-- cambra > aposentu, càmera -->
