@@ -1421,6 +1421,7 @@
 <e>       <p><l>marxista<s n="n"/><s n="mf"/></l>      <r>marxista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>leninista<s n="n"/><s n="mf"/></l>     <r>leninista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>maoista<s n="n"/><s n="mf"/></l>       <r>maoista<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>hel·lenista<s n="n"/><s n="mf"/></l>   <r>ellenista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>existencialista<s n="n"/><s n="mf"/></l><r>esistentzialista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>fonamentalista<s n="n"/><s n="mf"/></l><r>fundamentalista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>capitalisme<s n="n"/><s n="m"/></l>    <r>capitalismu<s n="n"/><s n="m"/></r></p></e>
@@ -2345,8 +2346,8 @@
 <e>       <p><l>gal·lès<s n="adj"/></l>                <r>gallesu<s n="adj"/></r></p></e>
 <e>       <p><l>idèntic<s n="adj"/></l>                <r>idènticu<s n="adj"/></r></p></e>
 <e>       <p><l>espanyol<s n="adj"/></l>               <r>ispagnolu<s n="adj"/></r></p></e>
-<e>       <p><l>castellà<s n="adj"/></l>               <r>castiglianu<s n="adj"/></r></p></e>
-<e r="RL"><p><l>castellà<s n="adj"/></l>               <r>castillianu<s n="adj"/></r></p></e>
+<e>       <p><l>castellà<s n="adj"/></l>               <r>castillianu<s n="adj"/></r></p></e>
+<e>       <p><l>castellà<s n="n"/></l>                 <r>castillianu<s n="n"/></r></p></e>
 <e>       <p><l>italià<s n="adj"/></l>                 <r>italianu<s n="adj"/></r></p></e>
 <e>       <p><l>capaç<s n="adj"/></l>                  <r>capatzu<s n="adj"/></r></p><par n="capaç_capatzu"/></e>
 <e r="RL"><p><l>capaç<s n="adj"/></l>                  <r>capatze<s n="adj"/></r></p><par n="capaç_capatze"/></e>
@@ -2677,8 +2678,8 @@
 
 <e>       <p><l>com<s n="adv"/></l>                    <r>comente<s n="adv"/></r></p></e>
 
-<e>       <p><l>després<s n="adv"/></l>                <r>poi<s n="adv"/></r></p></e>
-<e r="RL"><p><l>després<s n="adv"/></l>                <r>a<b/>pustis<s n="adv"/></r></p></e>
+<e>       <p><l>després<s n="adv"/></l>                <r>a<b/>pustis<s n="adv"/></r></p></e>
+<e r="RL"><p><l>després<s n="adv"/></l>                <r>a<b/>coa<s n="adv"/></r></p></e>
 <e r="RL"><p><l>després<s n="adv"/></l>                <r>posca<s n="adv"/></r></p></e>
 
 <e>       <p><l>endavant<s n="adv"/></l>               <r>a<b/>in<b/>antis<s n="adv"/></r></p></e>
@@ -3517,8 +3518,7 @@
 <e r="RL"><p><l>pel<b/>que<b/>fa<b/>a<s n="pr"/></l>   <r>pro<b/>cantu<b/>pertocat<s n="pr"/></r></p></e>
 <e>       <p><l>milers<b/>de<s n="pr"/></l>            <r>mìgias<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>arran<b/>de<s n="pr"/></l>             <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
-<e r="RL"><p><l>després<b/>de<s n="pr"/></l>           <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>després<b/>de<s n="pr"/></l>           <r>poi<b/>de<s n="pr"/></r></p></e>
+<e>       <p><l>després<b/>de<s n="pr"/></l>           <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>el<b/>cas<b/>de<s n="pr"/></l>   <r>in<b/>su<b/>casu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>comptes<b/>de<s n="pr"/></l>     <r>in<b/>contu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>arreu<b/>de<s n="pr"/></l>             <r>totu<b/>in<b/>tundu<b/>de<s n="pr"/></r></p></e>
@@ -4089,14 +4089,16 @@
 <e>       <p><l>pujar<s n="vblex"/></l>                <r>artziare<s n="vblex"/></r></p></e>
 <e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>posseir<s n="vblex"/></l>              <r>possèdere<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>posseir<s n="vblex"/></l>              <r>tènnere<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>posseir<s n="vblex"/></l>              <r>àere<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>posseir<s n="vblex"/></l>              <r>tènnere<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>posseir<s n="vblex"/></l>              <r>àere<s n="vblex"/></r></p></e>
 <e>       <p><l>diòcesi<s n="n"/><s n="f"/></l>        <r>diòtzesi<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>arribada<s n="n"/><s n="f"/></l>       <r>arribu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>oficial<s n="n"/><s n="mf"/></l>       <r>ufitziale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>investigació<s n="n"/><s n="f"/></l>   <r>chirca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>diputat<s n="n"/></l>                  <r>deputadu<s n="n"/></r></p></e>
 <e>       <p><l>començament<s n="n"/><s n="m"/></l>    <r>cumintzu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>inici<s n="n"/><s n="m"/></l>          <r>inìtziu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>inici<s n="n"/><s n="m"/></l>          <r>cumintzu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>recomençament<s n="n"/><s n="m"/></l>  <r>riinìtziu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>individual<s n="adj"/></l>             <r>individuale<s n="adj"/></r></p></e>
 <e>       <p><l>en<b/>general<s n="adv"/></l>          <r>in<b/>generale<s n="adv"/></r></p></e>
@@ -4218,7 +4220,6 @@
 <e>       <p><l>nou<s n="n"/><s n="f"/></l>            <r>nughe<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>meitat<s n="n"/><s n="f"/></l>         <r>metade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cola<s n="n"/><s n="f"/></l>           <r>colla<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>inici<s n="n"/><s n="m"/></l>          <r>cumintzu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>suposar<s n="vblex"/></l>              <r>supònnere<s n="vblex"/></r></p></e>
 <e>       <p><l>tribu<s n="n"/><s n="f"/></l>          <r>tribù<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>temperatura<s n="n"/><s n="f"/></l>    <r>temperadura<s n="n"/><s n="f"/></r></p></e>
@@ -4258,8 +4259,6 @@
 <e>       <p><l>roca<s n="n"/><s n="f"/></l>           <r>roca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Abu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Abu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>equació<s n="n"/><s n="f"/></l>        <r>ecuatzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>castellà<s n="n"/></l>                 <r>castiglianu<s n="n"/></r></p></e>
-<e r="RL"><p><l>castellà<s n="n"/></l>                 <r>castillianu<s n="n"/></r></p></e>
 <e>       <p><l>obertura<s n="n"/><s n="f"/></l>       <r>abertura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>esport<s n="n"/><s n="m"/></l>         <r>isport<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>feina<s n="n"/><s n="f"/></l>          <r>traballu<s n="n"/><s n="m"/></r></p></e>
@@ -8455,6 +8454,7 @@
 <e>       <p><l>marxista<s n="adj"/><s n="mf"/></l>    <r>marxista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>leninista<s n="adj"/><s n="mf"/></l>   <r>leninista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>maoista<s n="adj"/><s n="mf"/></l>     <r>maoista<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>hel·lenista<s n="adj"/><s n="mf"/></l>  <r>ellenista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>existencialista<s n="adj"/><s n="mf"/></l><r>esistentzialista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>fonamentalista<s n="adj"/><s n="mf"/></l><r>fundamentalista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>deïtat<s n="n"/><s n="f"/></l>         <r>divinidade<s n="n"/><s n="f"/></r></p></e>
@@ -25775,6 +25775,7 @@
 <e>       <p><l>magnetisme<s n="n"/><s n="m"/><s n="sg"/></l><r>magnetismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>manierisme<s n="n"/><s n="m"/><s n="sg"/></l><r>manierismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>maoisme<s n="n"/><s n="m"/><s n="sg"/></l><r>maoismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>hel·lenisme<s n="n"/><s n="m"/><s n="sg"/></l><r>ellenismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>existencialisme<s n="n"/><s n="m"/><s n="sg"/></l><r>esistentzialismu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>atletisme<s n="n"/><s n="m"/><s n="sg"/></l><r>atlètica<b/>ligera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>ultradreta<s n="n"/><s n="f"/><s n="sg"/></l><r>estrema<b/>dereta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -27572,10 +27573,8 @@
 <e>       <p><l>catalanoparlant<s n="n"/></l>          <r>catalanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
 <e r="LR"><p><l>valencianoparlant<s n="adj"/></l>      <r>catalanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="LR"><p><l>valencianoparlant<s n="n"/></l>        <r>catalanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
-<e r="RL"><p><l>castellanoparlant<s n="adj"/></l>      <r>castillanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL"><p><l>castellanoparlant<s n="n"/></l>        <r>castillanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>castellanoparlant<s n="adj"/></l>      <r>castiglianòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>castellanoparlant<s n="n"/></l>        <r>castiglianòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>castellanoparlant<s n="adj"/></l>      <r>castillianòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>castellanoparlant<s n="n"/></l>        <r>castillianòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>hispanoparlant<s n="adj"/></l>         <r>ispanòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>hispanoparlant<s n="n"/></l>           <r>ispanòfonu<s n="n"/></r></p><par n="mf_GD"/></e>
 <e r="LR"><p><l>angloparlant<s n="adj"/></l>           <r>anglòfonu<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -28356,7 +28355,6 @@
 <e>       <p><l>dutxa<s n="n"/><s n="f"/></l>          <r>dòtzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>defugir<s n="vblex"/></l>              <r>evitare<s n="vblex"/></r></p></e>
 <e>       <p><l>cercavila<s n="n"/><s n="f"/></l>      <r>caminera<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>castellà<s n="n"/></l>                 <r>castillianu<s n="n"/></r></p></e>
 <e>       <p><l>arquejar<s n="vblex"/></l>             <r>unchinare<s n="vblex"/></r></p></e>
 <e>       <p><l>trencall<s n="n"/><s n="m"/></l>       <r>disviu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>RNA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>RNA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
