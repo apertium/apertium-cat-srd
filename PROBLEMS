@@ -4,9 +4,6 @@
 
 Principle problems:
 
-* Low coverage
-* Poor implementation of clitics in Sardinian analyser, needs to be completely
-    revised
-* Default translation decisions also need to be checked by a native speaker
-* Spelling, and adherence to LSC also needs to be checked.
+* see TODO
+* Sardinian morphologic analysers and all modules for translators from Sardinian
 

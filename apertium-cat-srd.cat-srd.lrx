@@ -1,4 +1,4 @@
-<!-- estar > èssere, istare -->
+<!-- a > a, in -->
 
 <rules>
   <rule weight="0.6">
@@ -9,7 +9,7 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
@@ -36,6 +36,24 @@
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
 
+
+<!-- davant > in antis, ante -->
+
+<rules>
+  <rule weight="0.6">
+    <match lemma="davant" tags="pr"><select lemma="in antis" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="davant" tags="pr"><select lemma="ante" tags="pr"/></match>
+    <match tags="det./"/>
+    <or>
+      <match lemma="policia" tags="pr"/>
+      <match lemma="mosso" tags="pr"/>
+      <match lemma="jutge" tags="pr"/>
+      <match lemma="magistrat" tags="pr"/>
+      <match lemma="tribunal" tags="pr"/>
+    </or>
+  </rule>
 
 <!-- estar > èssere, istare -->
 
@@ -217,6 +235,20 @@
   <rule weight="1.0">
      <match lemma="de" tags="pr"/>
      <match lemma="cambra" tags="n.*"><select lemma="càmera"/></match>
+  </rule>
+
+<!-- mosso > camerieri, mosso -->
+
+  <rule weight="0.6">
+     <match lemma="mosso" tags="n.*"><select lemma="camerieri"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Mosso" tags="n.*"><select lemma="mosso"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="mosso" tags="n.*"><select lemma="mosso"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="esquadra" tags="n.*"/>
   </rule>
 
 <!-- costat > costàgiu, ala -->
