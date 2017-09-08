@@ -1376,7 +1376,8 @@
 <e>       <p><l>discurs<s n="n"/><s n="m"/></l>        <r>discursu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>policia<s n="n"/><s n="mf"/></l>       <r>politzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>policia<s n="n"/><s n="mf"/></l>       <r>politziotu<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><par n="ND_sp"/><p><l>mosso<b/>d'esquadra<s n="n"/><s n="m"/></l><r>politziotu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>mosso<g><b/>d'esquadra</g><s n="n"/><s n="m"/><s n="sg"/></l><r>politziotu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>mosso<g><b/>d'esquadra</g><s n="n"/><s n="m"/><s n="pl"/></l><r>politzia<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>batalla<s n="n"/><s n="f"/></l>        <r>batalla<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>planeta<s n="n"/><s n="m"/></l>        <r>pianeta<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>planeta<s n="n"/><s n="m"/></l>        <r>praneta<s n="n"/><s n="m"/></r></p></e>
@@ -4131,7 +4132,8 @@
 <e>       <p><l>moneda<s n="n"/><s n="f"/></l>         <r>moneda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>presoner<s n="n"/></l>                 <r>presoneri<s n="n"/></r></p></e>
 <e>       <p><l>amor<s n="n"/><s n="m"/></l>           <r>amore<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>entendre<s n="vblex"/></l>             <r>intèndere<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>entendre<s n="vblex"/></l>             <r>intèndere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>entendre<s n="vblex"/></l>             <r>cumprèndere<s n="vblex"/></r></p></e>
 <e>       <p><l>editar<s n="vblex"/></l>               <r>istèrrere<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>editar<s n="vblex"/></l>               <r>iscrìere<s n="vblex"/></r></p></e>
 <e>       <p><l>lliurar<s n="vblex"/></l>              <r>prànghere<s n="vblex"/></r></p></e>
