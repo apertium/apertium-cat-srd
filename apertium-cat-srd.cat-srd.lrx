@@ -11,7 +11,7 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al.*"/></or>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
