@@ -209,6 +209,38 @@
   </rule>
 
 
+<!-- gran > mannu, grandu -->
+
+  <rule weight="0.6">
+     <match lemma="gran" tags="adj.*"><select lemma="mannu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="gran" tags="adj.*"><select lemma="grandu"/></match>
+     <match tags="n.*"/>
+  </rule>
+
+<!-- anterior > anteriore, in antis -->
+
+  <rule weight="0.6">
+     <match lemma="anterior" tags="adj.*"><select lemma="anteriore"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or> <!-- temps -->
+       <match lemma="minut" tags="n.*"/>
+       <match lemma="hora" tags="n.*"/>
+       <match lemma="dia" tags="n.*"/>
+       <match lemma="setmana" tags="n.*"/>
+       <match lemma="mes" tags="n.*"/>
+       <match lemma="any" tags="n.*"/>
+       <match lemma="dècada" tags="n.*"/>
+       <match lemma="segle" tags="n.*"/>
+       <match lemma="periode" tags="n.*"/>
+       <match lemma="període" tags="n.*"/>
+       <match lemma="etapa" tags="n.*"/>
+     </or>
+     <match lemma="anterior" tags="adj.*"><select lemma="in antis"/></match>
+  </rule>
+
 <!-- sospitós > suspetadu, suspetosu -->
 
   <rule weight="0.6">
@@ -217,6 +249,10 @@
   <rule weight="1.0">
      <or> <!-- objectes, no animats -->
        <match lemma="cosa" tags="n.*"/>
+       <match lemma="objecte" tags="n.*"/>
+       <match lemma="bossa" tags="n.*"/>
+       <match lemma="motxilla" tags="n.*"/>
+       <match lemma="cotxe" tags="n.*"/>
        <match lemma="acció" tags="n.*"/>
        <match lemma="moviment" tags="n.*"/>
        <match lemma="actitud" tags="n.*"/>

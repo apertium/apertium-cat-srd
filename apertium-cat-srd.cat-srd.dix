@@ -2462,7 +2462,7 @@
 <e>       <p><l>occità<s n="adj"/></l>                 <r>otzitanu<s n="adj"/></r></p></e>
 <e>       <p><l>fonamental<s n="adj"/></l>             <r>fundamentale<s n="adj"/></r></p></e>
 <e>       <p><l>gran<s n="adj"/></l>                   <r>mannu<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL"><p><l>gran<s n="adj"/></l>                   <r>grandu<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>gran<s n="adj"/></l>                   <r>grandu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>gran<s n="adj"/></l>                   <r>grande<s n="adj"/></r></p></e>
 <e>       <p><l>grec<s n="adj"/></l>                   <r>gregu<s n="adj"/></r></p></e>
 <e>       <p><l>melòdic<s n="adj"/></l>                <r>melodiosu<s n="adj"/></r></p></e>
@@ -3294,6 +3294,7 @@
 <e>       <p><l>col·locar<s n="vblex"/></l>            <r>collocare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>col·locar<s n="vblex"/></l>            <r>collochere<s n="vblex"/></r></p></e>
 <e>       <p><l>violar<s n="vblex"/></l>               <r>bìolare<s n="vblex"/></r></p></e>
+<e>       <p><l>violar<s n="vblex"/></l>               <r>violentare<s n="vblex"/></r></p></e>
 <e>       <p><l>formalitzar<s n="vblex"/></l>          <r>formalizare<s n="vblex"/></r></p></e>
 <e>       <p><l>creure<s n="vblex"/></l>               <r>crèere<s n="vblex"/></r></p></e>
 <e>       <p><l>perdonar<s n="vblex"/></l>             <r>perdonare<s n="vblex"/></r></p></e>
@@ -3372,6 +3373,7 @@
 
 <e>       <p><l>ja<b/>que<s n="cnjadv"/></l>           <r>dae<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>així<b/>com<s n="cnjadv"/></l>         <r>gosi<b/>comente<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>així<b/>com<s n="cnjadv"/></l>         <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>sinó<s n="cnjcoo"/></l>                <r>si<b/>nono<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>fins<b/>que<s n="cnjadv"/></l>         <r>finas<b/>a<b/>cando<s n="cnjadv"/></r></p></e>
@@ -3383,6 +3385,7 @@
 <e r="LR"><p><l>llavors<s n="cnjadv"/></l>             <r>tando<s n="cnjadv"/></r></p></e>
 <e>       <p><l>abans<b/>que<s n="cnjadv"/></l>        <r>in<b/>antis<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tal<b/>com<s n="cnjadv"/></l>          <r>gosi<b/>comente<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>tal<b/>com<s n="cnjadv"/></l>          <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>després<b/>que<s n="cnjadv"/></l>      <r>a<b/>pustis<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tanmateix<s n="cnjadv"/></l>           <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>nogensmenys<s n="cnjadv"/></l>         <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
@@ -3811,6 +3814,7 @@
 <e>       <p><l>càrrec<s n="n"/><s n="m"/></l>         <r>incàrrigu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>castell<s n="n"/><s n="m"/></l>        <r>casteddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anterior<s n="adj"/></l>               <r>anteriore<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anterior<s n="adj"/><s n="mf"/></l>    <r>anteriore<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>estil<s n="n"/><s n="m"/></l>          <r>istile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>més<b/>tard<s n="adv"/></l>            <r>prus<b/>tardu<s n="adv"/></r></p></e>
 <e>       <p><l>futbol<s n="n"/><s n="m"/></l>         <r>fùbalu<s n="n"/><s n="m"/></r></p><par n="sg_ND"/></e>
