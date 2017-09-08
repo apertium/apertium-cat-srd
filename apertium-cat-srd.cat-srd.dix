@@ -2997,6 +2997,7 @@
 <e>       <p><l>atendre<s n="vblex"/></l>              <r>isetare<s n="vblex"/></r></p></e>
 <e>       <p><l>empresonar<s n="vblex"/></l>           <r>impresonare<s n="vblex"/></r></p></e>
 <e>       <p><l>enviar<s n="vblex"/></l>               <r>imbiare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>trametre<s n="vblex"/></l>             <r>imbiare<s n="vblex"/></r></p></e>
 <e>       <p><l>emergir<s n="vblex"/></l>              <r>istupare<s n="vblex"/></r></p></e>
 <e>       <p><l>soler<s n="vblex"/></l>                <r>costumare<s n="vblex"/></r></p></e>
 <e>       <p><l>aprovar<s n="vblex"/></l>              <r>colare<s n="vblex"/></r></p></e>
@@ -3065,7 +3066,7 @@
 <e>       <p><l>classificar<s n="vblex"/></l>          <r>classificare<s n="vblex"/></r></p></e>
 <e>       <p><l>catalogar<s n="vblex"/></l>            <r>catalogare<s n="vblex"/></r></p></e>
 <e>       <p><l>abocar<s n="vblex"/></l>               <r>betare<s n="vblex"/></r></p></e>
-<e>       <p><l>enviar<s n="vblex"/></l>               <r>aviare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>enviar<s n="vblex"/></l>               <r>aviare<s n="vblex"/></r></p></e>
 <e>       <p><l>descobrir<s n="vblex"/></l>            <r>iscobèrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>informar<s n="vblex"/></l>             <r>informare<s n="vblex"/></r></p></e>
 <e>       <p><l>anticipar<s n="vblex"/></l>            <r>antitzipare<s n="vblex"/></r></p></e>
@@ -22942,6 +22943,7 @@
 <e>       <p><l>aplec<s n="n"/><s n="m"/></l>          <r>incontru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>útil<s n="n"/><s n="m"/></l>           <r>ùtile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Stravinski<s n="np"/><s n="ant"/></l>  <r>Stravinski<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>sospitós<s n="adj"/></l>               <r>suspetadu<s n="adj"/></r></p></e>
 <e>       <p><l>sospitós<s n="adj"/></l>               <r>suspetosu<s n="adj"/></r></p></e>
 <e>       <p><l>homosexual<s n="n"/><s n="mf"/></l>    <r>omosessuale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>abreviatura<s n="n"/><s n="f"/></l>    <r>incurtzadura<s n="n"/><s n="f"/></r></p></e>
@@ -24176,6 +24178,7 @@
 <e r="RL"><p><l>masia<s n="n"/><s n="f"/></l>          <r>masia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>matrona<s n="n"/><s n="f"/></l>        <r>matrona<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>matrícula<s n="n"/><s n="f"/></l>      <r>matrìcula<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>matrícula<s n="n"/><s n="f"/></l>      <r>targa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mat<s n="n"/><s n="m"/></l>            <r>impannadu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>macedònia<s n="n"/><s n="f"/></l>      <r>matzedònia<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>maçoneria<s n="n"/><s n="f"/></l>      <r>matzoneria<s n="n"/><s n="f"/></r></p></e>
@@ -25280,7 +25283,8 @@
 <e>       <p><l>esvelt<s n="adj"/></l>                 <r>istrìgile<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>Dakar<s n="np"/><s n="loc"/></l>       <r>Dakar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>bulb<s n="n"/><s n="m"/></l>           <r>conca<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>a<b/>l'esquena<s n="adv"/></l>         <r>in<b/>palas<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>l'esquena<s n="adv"/></l>         <r>in<b/>palas<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>l'esquena<s n="adv"/></l>         <r>a<b/>coddu<s n="adv"/></r></p></e>
 <e>       <p><l>Yves<s n="np"/><s n="ant"/></l>        <r>Yves<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Terra<b/>Alta<s n="np"/><s n="loc"/></l><r>Terra<b/>Alta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>tacte<s n="n"/><s n="m"/></l>          <r>garbu<s n="n"/><s n="m"/></r></p></e>
@@ -25975,6 +25979,7 @@
 <e>       <p><l>espigó<s n="n"/><s n="m"/></l>         <r>ispigone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>fogó<s n="n"/><s n="m"/></l>           <r>fogone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>furgó<s n="n"/><s n="m"/></l>          <r>furgone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>furgoneta<s n="n"/><s n="f"/></l>      <r>furgone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>immutable<s n="adj"/><s n="mf"/></l>   <r>immutàbile<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>macarró<s n="n"/><s n="m"/></l>        <r>macarrone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>meló<s n="n"/><s n="m"/></l>           <r>melone<s n="n"/><s n="m"/></r></p></e>
@@ -29879,7 +29884,8 @@
 <e r="RL"><p><l>usurpador<s n="n"/><s n="m"/></l>      <r>furone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>transmissor<s n="n"/><s n="m"/></l>    <r>trasmitidore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mediador<s n="n"/><s n="m"/></l>       <r>mandadàrgiu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>sospitós<s n="n"/></l>                 <r>suspetosu<s n="n"/></r></p></e>
+<e>       <p><l>sospitós<s n="n"/></l>                 <r>suspetadu<s n="n"/></r></p></e>
+<e r="RL"><p><l>sospitós<s n="n"/></l>                 <r>suspetosu<s n="n"/></r></p></e>
 <e>       <p><l>carregador<s n="n"/><s n="m"/></l>     <r>carrigadore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>àries<s n="n"/><s n="mf"/></l>         <r>ariete<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>fortí<s n="n"/><s n="m"/></l>          <r>forteza<s n="n"/><s n="f"/></r></p></e>
@@ -30254,6 +30260,15 @@
       <e><p><l>van<b/>Beethoven<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>van<b/>Beethoven<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>gel·laba<s n="n"/><s n="f"/></l><r>gellaba<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>impune<s n="adj"/></l><r>impunidu<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>motxilla<s n="n"/><s n="f"/></l><r>bèrtula<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Castell-Platja<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Castell-Platja<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Platja<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Castell-Platja<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>magribí<s n="adj"/></l><r>magrebinu<s n="adj"/></r></p></e>
+      <e><p><l>magribí<s n="n"/></l><r>magrebinu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>magrebí<s n="adj"/></l><r>magrebinu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>magrebí<s n="n"/></l><r>magrebinu<s n="n"/></r></p></e>
+      <e><p><l>maleter<s n="n"/><s n="m"/></l><r>còfanu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>embalum<s n="n"/><s n="m"/></l><r>pacu<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 

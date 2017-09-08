@@ -209,6 +209,32 @@
   </rule>
 
 
+<!-- sospitós > suspetadu, suspetosu -->
+
+  <rule weight="0.6">
+     <match lemma="sospitós" tags="adj.*"><select lemma="suspetadu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or> <!-- objectes, no animats -->
+       <match lemma="cosa" tags="n.*"/>
+       <match lemma="acció" tags="n.*"/>
+       <match lemma="moviment" tags="n.*"/>
+       <match lemma="actitud" tags="n.*"/>
+     </or>
+     <match lemma="sospitós" tags="adj.*"><select lemma="suspetosu"/></match>
+  </rule>
+
+<!-- matrícula > matrìcula, targa -->
+
+  <rule weight="0.6">
+     <match lemma="matrícula" tags="n.*"><select lemma="matrìcula"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="matrícula" tags="n.*"><select lemma="targa"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="cotxe" tags="n.*"/>
+  </rule>
+
 <!-- tassa > tassa, tassu -->
 
   <rule weight="0.6">
