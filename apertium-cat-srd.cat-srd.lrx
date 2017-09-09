@@ -33,6 +33,13 @@
       <match lemma="assamblea"/>
       <match lemma="conferència"/>
 
+      <match lemma="escrit"/>
+      <match lemma="text"/>
+      <match lemma="llibre"/>
+      <match lemma="revista"/>
+      <match lemma="publicació"/>
+      <match lemma="article"/>
+
       <match lemma="hora"/>
     </or>
   </rule>
@@ -107,12 +114,21 @@
      <or>
        <match lemma="venir" tags="vblex.*"/>
        <match lemma="arribar" tags="vblex.*"/>
+       <match lemma="eliminar" tags="vblex.*"/>
+       <match lemma="treure" tags="vblex.*"/>
+       <match lemma="esborrar" tags="vblex.*"/>
      </or>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
   <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="un" tags="det.*"/>
+     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
      <match lemma="un" tags="det.*"/>
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
@@ -165,7 +181,6 @@
     <or><match lemma="sempre"/><match lemma="tot" tags="predet.*"/></or>
   </rule>
 
-
 <!-- ensenyar > insegnare, mustrare -->
 
   <rule weight="0.6">
@@ -174,6 +189,105 @@
   <rule weight="1.0">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="mustrare"/></match>
      <match lemma="a" tags="pr"/>
+  </rule>
+
+<!-- permetre > permìtere, permìtere de -->
+
+  <rule weight="0.6">
+     <match lemma="permetre" tags="vblex.*"><select lemma="permìtere"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="permetre" tags="vblex.*"><select lemma="permìtere# de"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+<!-- demanar > pregontare, pedire -->
+
+  <rule weight="0.6">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pregontare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="que" tags="cnjsub"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match lemma="que"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match lemma="que"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="vblex.inf"/>
+     <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match lemma="de" tags="pr"/>
+     <match tags="vblex.inf"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="demanar" tags="vblex.*"><select lemma="pedire"/></match>
+     <match lemma="a" tags="pr"/>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match lemma="de" tags="pr"/>
+     <match tags="vblex.inf"/>
   </rule>
 
 <!-- arrencar, arrancar > irraighinare, istratzare, pònnere# in motu (la primera traducción es para "sradicare"; la segunda para "strappare" la tercera es "mettere in moto" (arrancar el coche)) -->
@@ -625,10 +739,47 @@
 
 <!-- **************** N **************** -->
 
+<!-- recurs > risorsa, ricursu -->
+
+  <rule weight="0.6">
+     <match lemma="recurs" tags="n.*"><select lemma="risorsa"/></match>
+  </rule>
   <rule weight="1.0">
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
-     <match lemma="un" tags="det.*"/>
-     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
+     <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
+     <match lemma="contra" tags="pr"/>
+  </rule>
+
+<!-- carta > lìtera, carta -->
+
+  <rule weight="0.6">
+     <match lemma="carta" tags="n.*"><select lemma="lìtera"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="dret" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="dret" tags="n.*"/>
+       <match lemma="nació" tags="n.*"/>
+     </or>
+  </rule>
+
+<!-- càrrec > incàrrigu, funtzionàriu -->
+
+  <rule weight="0.6">
+     <match lemma="càrrec" tags="n.*"><select lemma="incàrrigu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="càrrec" tags="n.*"><select lemma="funtzionàriu"/></match>
+     <or>
+       <match lemma="públic" tags="adj.*"/>
+       <match lemma="electe" tags="adj.*"/>
+     </or>
   </rule>
 
 <!-- matrícula > matrìcula, targa -->
