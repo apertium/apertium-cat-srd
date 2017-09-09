@@ -4436,8 +4436,9 @@
 <e>       <p><l>pràcticament<s n="adv"/></l>           <r>in<b/>pràtica<s n="adv"/></r></p></e>
 <e>       <p><l>concret<s n="adj"/></l>                <r>cuncretu<s n="adj"/></r></p></e>
 <e>       <p><l>Jordi<s n="np"/><s n="ant"/></l>       <r>Jordi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>retorn<s n="n"/><s n="m"/></l>         <r>torrada<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>retorn<s n="n"/><s n="m"/></l>         <r>torrada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Bèlgica<s n="np"/><s n="loc"/></l>     <r>Bèlgiu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Brussel·les<s n="np"/><s n="loc"/></l> <r>Bruxelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Marc<s n="np"/><s n="ant"/></l>        <r>Marc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>pell<s n="n"/><s n="f"/></l>           <r>pedde<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>espanyol<s n="n"/></l>                 <r>ispagnolu<s n="n"/></r></p></e>
@@ -4615,13 +4616,13 @@
 <e r="RL"><p><l>veritable<s n="adj"/></l>              <r>verdaderu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>enorme<s n="adj"/></l>                 <r>enorme<s n="adj"/></r></p></e>
 <e>       <p><l>Bernat<s n="np"/><s n="ant"/></l>      <r>Bernat<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Bernat<s n="np"/><s n="ant"/></l>      <r>Bernardu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>indret<s n="n"/><s n="m"/></l>         <r>logu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>reemplaçar<s n="vblex"/></l>           <r>remplasare<s n="vblex"/></r></p></e>
 <e>       <p><l>conseller<s n="n"/></l>                <r>cussigeri<s n="n"/></r></p></e>
 <e>       <p><l>revelar<s n="vblex"/></l>              <r>iscobiare<s n="vblex"/></r></p></e>
 <e>       <p><l>noi<s n="n"/></l>                      <r>pitzinnu<s n="n"/></r></p></e>
 <e>       <p><l>carboni<s n="n"/><s n="m"/></l>        <r>carbòniu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>donar<g><b/>suport</g><s n="vblex"/></l><r>suportare<s n="vblex"/></r></p></e>
 <e>       <p><l>Joseph<s n="np"/><s n="ant"/></l>      <r>Joseph<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>enfrontament<s n="n"/><s n="m"/></l>   <r>atapada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>retirada<s n="n"/><s n="f"/></l>       <r>ritirada<s n="n"/><s n="f"/></r></p></e>
@@ -5136,9 +5137,11 @@
 <e>       <p><l>impost<s n="n"/><s n="m"/></l>         <r>imposta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>reprendre<s n="vblex"/></l>            <r>torrare<g><b/>a<b/>pigare</g><s n="vblex"/></r></p></e>
 <e>       <p><l>comunista<s n="adj"/><s n="mf"/></l>   <r>comunista<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>donar<g><b/>suport<b/>a</g><s n="vblex"/></l><r>suportare<g><b/>a</g><s n="vblex"/></r></p></e>
-<e r="RL"><p><l>donar<g><b/>suport<b/>a</g><s n="vblex"/></l><r>amparare<g><b/>a</g><s n="vblex"/></r></p></e>
+<e r="RL"><p><l>donar<g><b/>suport</g><s n="vblex"/></l><r>suportare<s n="vblex"/></r></p></e>
+<e>       <p><l>donar<g><b/>suport</g><s n="vblex"/></l><r>amparare<s n="vblex"/></r></p></e>
+<e>       <p><l>donar<g><b/>suport<b/>a</g><s n="vblex"/></l><r>amparare<g><b/>a</g><s n="vblex"/></r></p></e>
 <e r="RL"><p><l>donar<g><b/>suport<b/>a</g><s n="vblex"/></l><r>amparare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>donar<g><b/>suport<b/>a</g><s n="vblex"/></l><r>suportare<g><b/>a</g><s n="vblex"/></r></p></e>
 <e>       <p><l>absència<s n="n"/><s n="f"/></l>       <r>ausèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ascens<s n="n"/><s n="m"/></l>         <r>artziada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>rock<s n="n"/><s n="m"/><s n="sp"/></l><r>rock<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
