@@ -110,6 +110,10 @@
   <e>       <p><l><s n="m"/><s n="sp"/></l><r><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><s n="f"/><s n="sp"/></l><r><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+<pardef n="nombre"> <!-- aquest paradigma cal a vegades perquè no es perdi una equivalència en favor d'una més llarga -->
+  <e>       <p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+</pardef>
 
 <pardef n="mf_GD">
   <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
@@ -852,7 +856,8 @@
 <e>       <p><l>organització<s n="n"/><s n="f"/></l>   <r>organizatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mort<s n="n"/><s n="f"/></l>           <r>morte<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cosa<s n="n"/><s n="f"/></l>           <r>cosa<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>mesa<s n="n"/><s n="f"/></r></p></e> <!-- falta el sentit tècnic de 'quadre' -->
+<e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>mesa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>taula<s n="n"/><s n="f"/></l>          <r>tabella<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>causa<s n="n"/><s n="f"/></l>          <r>càusa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>energia<s n="n"/><s n="f"/></l>        <r>energia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>papa<s n="n"/><s n="m"/></l>           <r>paba<s n="n"/><s n="m"/></r></p></e>
@@ -3155,7 +3160,7 @@
 <e>       <p><l>abaixar<s n="vblex"/></l>              <r>abassare<s n="vblex"/></r></p></e>
 <e>       <p><l>baixar<s n="vblex"/></l>               <r>achirrare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>baixar<s n="vblex"/></l>               <r>abassare<s n="vblex"/></r></p></e>
-<e>       <p><l>assegurar<s n="vblex"/></l>            <r>assigurare<s n="vblex"/></r></p></e>
+<e>       <p><l>assegurar<s n="vblex"/></l>            <r>assegurare<s n="vblex"/></r></p></e>
 <e>       <p><l>procurar<s n="vblex"/></l>             <r>procurare<s n="vblex"/></r></p></e>
 <e>       <p><l>confrontar<s n="vblex"/></l>           <r>cunfrontare<s n="vblex"/></r></p></e>
 <e>       <p><l>augmentar<s n="vblex"/></l>            <r>ismanniare<s n="vblex"/></r></p></e>
@@ -3813,8 +3818,8 @@
 <e>       <p><l>millor<s n="adj"/><s n="mf"/></l>      <r>mègius<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>càrrec<s n="n"/><s n="m"/></l>         <r>incàrrigu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>castell<s n="n"/><s n="m"/></l>        <r>casteddu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>anterior<s n="adj"/></l>               <r>anteriore<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>anterior<s n="adj"/><s n="mf"/></l>    <r>anteriore<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>anterior<s n="adj"/></l>               <r>anteriore<s n="adj"/></r></p><par n="mf_GD"/><par n="nombre"/></e>
+<e>       <p><l>anterior<s n="adj"/><s n="mf"/></l>    <r>in<b/>antis<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>estil<s n="n"/><s n="m"/></l>          <r>istile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>més<b/>tard<s n="adv"/></l>            <r>prus<b/>tardu<s n="adv"/></r></p></e>
 <e>       <p><l>futbol<s n="n"/><s n="m"/></l>         <r>fùbalu<s n="n"/><s n="m"/></r></p><par n="sg_ND"/></e>
@@ -7320,8 +7325,9 @@
 <e>       <p><l>encunyar<s n="vblex"/></l>             <r>coniare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>contrarellotge<s n="n"/><s n="f"/></l> <r>cronòmetru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>afiliar<s n="vblex"/></l>              <r>assòtziare<s n="vblex"/></r></p></e>
-<e>       <p><l>fong<s n="n"/><s n="m"/></l>           <r>antunna<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>fong<s n="n"/><s n="m"/></l>           <r>tuntunnu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fong<s n="n"/><s n="m"/></l>           <r>fungu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bolet<s n="n"/><s n="m"/></l>          <r>antunna<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>bolet<s n="n"/><s n="m"/></l>          <r>tuntunnu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>dificultar<s n="vblex"/></l>           <r>impedire<s n="vblex"/></r></p></e>
 <e>       <p><l>sigla<s n="n"/><s n="f"/></l>          <r>sigla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>desena<s n="n"/><s n="f"/></l>         <r>deghina<s n="n"/><s n="f"/></r></p></e>
@@ -26366,7 +26372,7 @@
 <e>       <p><l>Coromines<s n="np"/><s n="ant"/></l>   <r>Coromines<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>clon<s n="n"/><s n="m"/></l>           <r>clone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>avalar<s n="vblex"/></l>               <r>afiantzare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>avalar<s n="vblex"/></l>               <r>assegurare<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>avalar<s n="vblex"/></l>               <r>assegurare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>avalar<s n="vblex"/></l>               <r>garantire<s n="vblex"/></r></p></e>
 <e>       <p><l>Annie<s n="np"/><s n="ant"/></l>       <r>Annie<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Ángeles<s n="np"/><s n="ant"/></l>     <r>Ángeles<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -28950,7 +28956,7 @@
 <e>       <p><l>enviar<g><b/>una<b/>carta</g><s n="vblex"/></l><r>imbiare<g><b/>una<b/>lìtera</g><s n="vblex"/></r></p></e>
 <e>       <p><l>personificar<s n="vblex"/></l>         <r>personificare<s n="vblex"/></r></p></e>
 <e>       <p><l>revitalitzar<s n="vblex"/></l>         <r>rivitalizare<s n="vblex"/></r></p></e>
-<e>       <p><l>repercutir<s n="vblex"/></l>           <r>fàghere<g><b/>intèndere</g><s n="vblex"/></r></p></e>
+<!-- <e>       <p><l>repercutir<s n="vblex"/></l>           <r>fàghere<g><b/>intèndere</g><s n="vblex"/></r></p></e> TBD SRD PRONOMINAL -->
 <e>       <p><l>automatitzar<s n="vblex"/></l>         <r>automаtizare<s n="vblex"/></r></p></e>
 <e>       <p><l>ponderar<s n="vblex"/></l>             <r>ponderare<s n="vblex"/></r></p></e>
 <e>       <p><l>impossibilitar<s n="vblex"/></l>       <r>rèndere<g><b/>impossìbile</g><s n="vblex"/></r></p></e>
@@ -30266,13 +30272,15 @@
       <e><p><l>impune<s n="adj"/></l><r>impunidu<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>motxilla<s n="n"/><s n="f"/></l><r>bèrtula<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Castell-Platja<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Castell-Platja<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Platja<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Castell-Platja<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Platja<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Platja<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Castell<b/>d'Aro<s n="np"/><s n="loc"/></l><r>Castell<b/>d'Aro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>magribí<s n="adj"/></l><r>magrebinu<s n="adj"/></r></p></e>
       <e><p><l>magribí<s n="n"/></l><r>magrebinu<s n="n"/></r></p></e>
       <e r="LR"><p><l>magrebí<s n="adj"/></l><r>magrebinu<s n="adj"/></r></p></e>
       <e r="LR"><p><l>magrebí<s n="n"/></l><r>magrebinu<s n="n"/></r></p></e>
       <e><p><l>maleter<s n="n"/><s n="m"/></l><r>còfanu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>embalum<s n="n"/><s n="m"/></l><r>pacu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>microbi<s n="n"/><s n="m"/></l><r>mìcrobu<s n="n"/><s n="m"/></r></p></e>
 
     <!-- SECTION:  Punctuation -->
 
