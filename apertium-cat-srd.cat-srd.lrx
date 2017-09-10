@@ -69,16 +69,6 @@
     </or>
   </rule>
 
-<!-- en > in, a<b/>pustis<b/>de -->
-
-  <rule weight="0.6">
-    <match lemma="en" tags="pr"><select lemma="in" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="en" tags="pr"><select lemma="a pustis de" tags="pr"/></match>
-    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-
 <!-- de > de, dae -->
 <!-- per > pro, dae -->
 <!-- pp dae -->
@@ -213,6 +203,62 @@
   <rule weight="1.0">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="mustrare"/></match>
      <match lemma="a" tags="pr"/>
+  </rule>
+
+<!-- desitjar > disigiare, augurare -->
+
+  <rule weight="0.6">
+     <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="desitjar" tags="vblex.*"><select lemma="augurare"/></match>
+     <match lemma="a" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match tags="prn.pro.*"/>
+     <match lemma="desitjar" tags="vblex.*"><select lemma="augurare"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="el" tags="prn.pro.*"/>
+     <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match tags="prn.pro.ref.*"/>
+     <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="desitjar" tags="vblex.*"><select lemma="augurare"/></match>
+     <match tags="prn.enc.*"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
+     <match lemma="el" tags="prn.enc.*"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="desitjar" tags="vblex.*"><select lemma="disigiare"/></match>
+     <match tags="prn.enc.ref.*"/>
+  </rule>
+
+<!-- violare > violare, violentare -->
+
+  <rule weight="0.6">
+     <match lemma="violar" tags="vblex.*"><select lemma="violare"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="violar" tags="vblex.*"><select lemma="violentare"/></match>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="persona" tags="n.*"/>
+       <match lemma="dona" tags="n.*"/>
+       <match lemma="home" tags="n.*"/>
+       <match lemma="nen" tags="n.*"/>
+       <match lemma="noi" tags="n.*"/>
+       <match lemma="jove" tags="n.*"/>
+       <match lemma="estudiant" tags="n.*"/>
+       <match lemma="fill" tags="n.*"/>
+       <match lemma="germà" tags="n.*"/>
+       <match lemma="cunyat" tags="n.*"/>
+     </or>
   </rule>
 
 <!-- permetre > permìtere, permìtere de -->
