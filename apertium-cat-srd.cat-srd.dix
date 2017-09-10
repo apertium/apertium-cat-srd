@@ -273,6 +273,7 @@
 <e>       <p><l>a<s n="pr"/></l>                       <r>a<s n="pr"/></r></p></e>
 <e>       <p><l>a<s n="pr"/></l>                       <r>in<s n="pr"/></r></p></e>
 <e>       <p><l>en<s n="pr"/></l>                      <r>in<s n="pr"/></r></p></e>
+<!-- <e>       <p><l>en<s n="pr"/></l>                      <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e> -->
 <e>       <p><l>per<s n="pr"/></l>                     <r>pro<s n="pr"/></r></p></e>
 <e>       <p><l>per<s n="pr"/></l>                     <r>dae<s n="pr"/></r></p></e>
 <e r="LR"><p><l>per<b/>a<s n="pr"/></l>                <r>pro<s n="pr"/></r></p></e>
@@ -2853,7 +2854,9 @@
 <e>       <p><l>poder<s n="vbmod"/></l>                <r>pòdere<s n="vbmod"/></r></p></e>
 <e r="RL"><p><l>haver<g><b/>de</g><s n="vbmod"/></l>   <r>àere<g><b/>de</g><s n="vbmod"/></r></p></e>
 <e>       <p><l>haver<g><b/>de</g><s n="vbmod"/></l>   <r>dèpere<s n="vbmod"/></r></p></e>
+<e r="RL"><p><l>haver<g><b/>de</g><s n="vbmod"/></l>   <r>dèvere<s n="vbmod"/></r></p></e>
 <e>       <p><l>deure<s n="vbmod"/></l>                <r>dèpere<s n="vbmod"/></r></p></e>
+<e r="RL"><p><l>deure<s n="vbmod"/></l>                <r>dèvere<s n="vbmod"/></r></p></e>
 <e>       <p><l>caldre<s n="vbmod"/></l>               <r>bisogniare<s n="vblex"/></r></p></e>
 
 <e>       <p><l>escampar<s n="vblex"/></l>             <r>ispartzinare<s n="vblex"/></r></p></e>
@@ -3989,7 +3992,8 @@
 <e>       <p><l>temple<s n="n"/><s n="m"/></l>         <r>tèmpiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>reial<s n="adj"/></l>                  <r>reale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>reial<s n="adj"/></l>                  <r>verdaderu<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>deure<s n="vblex"/></l>                <r>dèvere<s n="vblex"/></r></p></e>
+<e>       <p><l>deure<s n="vblex"/></l>                <r>dèpere<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>deure<s n="vblex"/></l>                <r>dèvere<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>òpera<s n="n"/><s n="f"/></l>          <r>òpera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tron<s n="n"/><s n="m"/></l>           <r>tronu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>selecció<s n="n"/><s n="f"/></l>       <r>seletzione<s n="n"/><s n="f"/></r></p></e>
@@ -12660,7 +12664,7 @@
 <e>       <p><l>del<b/>Pozo<s n="np"/><s n="cog"/></l> <r>del<b/>Pozo<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>del<b/>Rey<s n="np"/><s n="cog"/></l>  <r>del<b/>Rey<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>del<b/>Río<s n="np"/><s n="cog"/></l>  <r>del<b/>Río<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>del<b/>Sol<s n="np"/><s n="cog"/></l>  <r>del<b/>Sol<s n="np"/><s n="cog"/></r></p></e>
+<!-- <e>       <p><l>del<b/>Sol<s n="np"/><s n="cog"/></l>  <r>del<b/>Sol<s n="np"/><s n="cog"/></r></p></e> -->
 <e>       <p><l>del<b/>Toro<s n="np"/><s n="cog"/></l> <r>del<b/>Toro<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>del<b/>Valle<s n="np"/><s n="cog"/></l><r>del<b/>Valle<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>del<b/>Val<s n="np"/><s n="cog"/></l>  <r>del<b/>Val<s n="np"/><s n="cog"/></r></p></e>

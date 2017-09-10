@@ -69,6 +69,16 @@
     </or>
   </rule>
 
+<!-- en > in, a<b/>pustis<b/>de -->
+
+  <rule weight="0.6">
+    <match lemma="en" tags="pr"><select lemma="in" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"><select lemma="a pustis de" tags="pr"/></match>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
 <!-- de > de, dae -->
 <!-- per > pro, dae -->
 <!-- pp dae -->
