@@ -287,8 +287,9 @@
 <e r="RL"><p><l>fins<s n="pr"/></l>                    <r>fintzas<s n="pr"/></r></p></e>
 <e>       <p><l>fins<s n="pr"/></l>                    <r>finas<s n="pr"/></r></p></e>
 <e>       <p><l>sota<s n="pr"/></l>                    <r>suta<s n="pr"/></r></p></e>
-<e>       <p><l>fora<b/>de<s n="pr"/></l>              <r>foras<s n="pr"/></r></p></e>
+<e r="RL"><p><l>fora<b/>de<s n="pr"/></l>              <r>foras<s n="pr"/></r></p></e>
 <e>       <p><l>fora<b/>de<s n="pr"/></l>              <r>foras<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>fora<b/>de<s n="pr"/></l>              <r>francu<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>fora<b/>de<s n="pr"/></l>         <r>a<b/>foras<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>a<b/>fora<b/>de<s n="pr"/></l>         <r>in<b/>foras<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>dins<s n="pr"/></l>                    <r>intro<s n="pr"/></r></p></e>
@@ -536,6 +537,7 @@
 <e>       <p><l>nuca<s n="n"/><s n="f"/></l>           <r>gatzile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>força<s n="n"/><s n="f"/></l>          <r>fortza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>paper<s n="n"/><s n="m"/></l>          <r>pabiru<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>paper<s n="n"/><s n="m"/></l>          <r>ruolu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>vi<s n="n"/><s n="m"/></l>             <r>binu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>codi<s n="n"/><s n="m"/></l>           <r>còdighe<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pa<s n="n"/><s n="m"/></l>             <r>pane<s n="n"/><s n="m"/></r></p></e>
@@ -3508,7 +3510,6 @@
 <e r="LR"><p><l>al<b/>davant<s n="pr"/></l>            <r>in<b/>antis<s n="pr"/></r></p></e>
 <e>       <p><l>al<b/>voltant<b/>de<s n="pr"/></l>     <r>a<b/>inghìriu<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>més<b/>de<s n="pr"/></l>          <r>prus<b/>a<b/>dae<b/>in<b/>antis<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>al<b/>llarg<b/>de<s n="pr"/></l>       <r>a<b/>largu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>gràcies<b/>a<s n="pr"/></l>            <r>gràtzias<b/>a<s n="pr"/></r></p></e>
 <e r="LR"><p><l>mercès<b/>a<s n="pr"/></l>             <r>gràtzias<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>per<b/>tal<b/>de<s n="pr"/></l>        <r>pro<s n="pr"/></r></p></e>
@@ -3526,6 +3527,7 @@
 <e>       <p><l>a<b/>finals<b/>de<s n="pr"/></l>       <r>a<b/>sa<b/>fine<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>prop<b/>de<s n="pr"/></l>         <r>a<b/>curtzu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>excepte<s n="pr"/></l>                 <r>francu<s n="pr"/></r></p></e>
+<e r="LR"><p><l>tret<b/>de<s n="pr"/></l>              <r>francu<s n="pr"/></r></p></e>
 <e>       <p><l>respecte<b/>a<s n="pr"/></l>           <r>rispetu<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>entre<b/>d'altres<s n="pr"/></l>       <r>intre<b/>àteros<s n="pr"/></r></p></e>
 <e>       <p><l>al<b/>final<b/>de<s n="pr"/></l>       <r>a<b/>sa<b/>fine<b/>de<s n="pr"/></r></p></e>
@@ -3585,7 +3587,7 @@
 <e>       <p><l>als<b/>peus<b/>de<s n="pr"/></l>       <r>in<b/>sos<b/>pedes<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>banda<b/>de<s n="pr"/></l>        <r>a<b/>s'ala<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>sobre<b/>la<b/>base<b/>de<s n="pr"/></l><r>in<b/>sa<b/>base<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>a<b/>largu<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
 <e r="RL"><p><l>en<b/>el<b/>transcurs<b/>de<s n="pr"/></l><r>in<b/>su<b/>cursu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>meitat<b/>de<s n="pr"/></l> <r>a<b/>sa<b/>metade<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>les<b/>mans<b/>de<s n="pr"/></l>  <r>in<b/>sas<b/>manos<b/>de<s n="pr"/></r></p></e>

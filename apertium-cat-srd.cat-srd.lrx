@@ -143,6 +143,20 @@
     <match tags="np.*"/>
   </rule>
 
+<!-- fora de > foras de, francu -->
+
+  <rule weight="0.6">
+    <match lemma="fora de" tags="pr"><select lemma="foras de" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fora de" tags="pr"><select lemma="francu" tags="pr"/></match>
+    <match tags="np.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="fora de" tags="pr"><select lemma="foras de" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+
 <!-- segons (pr) > segundu, a parrere de -->
 
   <rule weight="0.6">
@@ -747,6 +761,63 @@
   <rule weight="1.0">
      <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
      <match lemma="de" tags="pr"/>
+  </rule>
+
+<!-- paper > pabiru, ruolu -->
+
+  <rule weight="0.6">
+     <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match tags="adv.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
+     <or>
+       <match lemma="blanc" tags="adj.*"/>
+       <match lemma="groc" tags="adj.*"/>
+       <match lemma="blau" tags="adj.*"/>
+
+       <match lemma="gran" tags="adj.*"/>
+       <match lemma="petit" tags="adj.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.*"/>
+     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="tenir" tags="vblex.*"/>
+       <match lemma="fer" tags="vblex.*"/>
+       <match lemma="jugar" tags="vblex.*"/>
+
+       <match lemma="entendre" tags="vblex.*"/>
+       <match lemma="comprendre" tags="vblex.*"/>
+       <match lemma="saber" tags="vblex.*"/>
+       <match lemma="conèixer" tags="vblex.*"/>
+     </or>
+     <match tags="det.*"/>
+     <match lemma="paper" tags="n.*"><select lemma="rulu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.2">
+     <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="estrassa" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="paper" tags="n.*"><select lemma="ruolu"/></match>
+     <match lemma="com"/>
   </rule>
 
 <!-- recurs > risorsa, ricursu -->

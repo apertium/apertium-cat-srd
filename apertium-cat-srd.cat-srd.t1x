@@ -30,6 +30,9 @@
 <def-cat n="un">
    <cat-item lemma="un" tags="det.*"/>
 </def-cat>
+<def-cat n="el_m_sg">
+   <cat-item lemma="el" tags="det.def.m.sg"/>
+</def-cat>
 <def-cat n="num">
    <cat-item tags="num.*"/>
 </def-cat>
@@ -81,6 +84,9 @@
 </def-cat>
 <def-cat n="de">
    <cat-item lemma="de" tags="pr"/>
+</def-cat>
+<def-cat n="en">
+   <cat-item lemma="en" tags="pr"/>
 </def-cat>
 <def-cat n="haver">
    <cat-item lemma="haver" tags="vbhaver.*"/>
@@ -6770,7 +6776,6 @@
            <clip pos="3" side="tl" part="lemq"/>
            <clip pos="1" side="tl" part="lemq"/>
          </lu>
-
        </mlu>
      </chunk>
      </out>
@@ -6779,16 +6784,14 @@
 -->
 
 
+<!--
 <rule comment="regla: pro inf">
    <pattern>
      <pattern-item n="pro"/>
      <pattern-item n="inf"/>
    </pattern>
    <action>
-     <let>
-       <clip pos="1" side="tl" part="a_prn"/>
-       <lit-tag v="prn.enc"/>
-     </let>
+     <let><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.enc"/></let>
      <out>
        <chunk name="inf-enc">
          <tags>
@@ -6800,19 +6803,105 @@
              <clip pos="2" side="tl" part="lemh"/>
            </get-case-from>
            <clip pos="2" side="tl" part="tags"/>
-           <clip pos="2" side="tl" part="tags"/>
          </lu>
          <lu>
            <get-case-from pos="2">
              <clip pos="1" side="tl" part="lemh"/>
            </get-case-from>
            <clip pos="1" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
        </mlu>
      </chunk>
      </out>
    </action>
 </rule>
+-->
+
+
+<!--
+<rule comment="regla: en inf: en voler > cherende">
+   <pattern>
+     <pattern-item n="en"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="ger">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: a el inf: al voler > cherende">
+   <pattern>
+     <pattern-item n="a"/>
+     <pattern-item n="el_m_sg"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="ger">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <clip pos="3" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: en inf: en voler > cherende">
+   <pattern>
+     <pattern-item n="en"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="ger-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <mlu>
+           <lu>
+           <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+-->
+
 
 <rule comment="regla: algun de det: algunes de les característiques > calicunas caraterìsticas">
    <pattern>
