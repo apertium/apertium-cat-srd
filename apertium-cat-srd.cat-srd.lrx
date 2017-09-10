@@ -739,6 +739,16 @@
 
 <!-- **************** N **************** -->
 
+<!-- tassa > tassa, tassu -->
+
+  <rule weight="0.6">
+     <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+
 <!-- recurs > risorsa, ricursu -->
 
   <rule weight="0.6">
@@ -747,6 +757,34 @@
   <rule weight="1.0">
      <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
      <match lemma="contra" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or>
+       <match lemma="inconstitucionalitat" tags="n.*"/>
+       <match lemma="apel·lació" tags="n.*"/>
+       <match lemma="cassació" tags="n.*"/>
+       <match lemma="nul·litat" tags="n.*"/>
+       <match lemma="ampara" tags="n.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="presentar" tags="vblex.*"/>
+       <match lemma="interposar" tags="vblex.*"/>
+       <match lemma="resoldre" tags="vblex.*"/>
+     </or>
+     <match tags="det.*"/>
+     <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="presentar" tags="vblex.*"/>
+       <match lemma="interposar" tags="vblex.*"/>
+       <match lemma="resoldre" tags="vblex.*"/>
+     </or>
+     <match lemma="recurs" tags="n.*"><select lemma="ricursu"/></match>
   </rule>
 
 <!-- carta > lìtera, carta -->
@@ -791,16 +829,6 @@
      <match lemma="matrícula" tags="n.*"><select lemma="targa"/></match>
      <match lemma="de" tags="pr"/>
      <match lemma="cotxe" tags="n.*"/>
-  </rule>
-
-<!-- tassa > tassa, tassu -->
-
-  <rule weight="0.6">
-     <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
-     <match lemma="de" tags="pr"/>
   </rule>
 
 <!-- infant > pipiu, prìntzipe -->

@@ -3459,7 +3459,7 @@
 <e>       <p><l>només<b/>que<s n="cnjadv"/></l>        <r>petzi<b/>pro<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>només<b/>que<s n="cnjadv"/></l>        <r>solu<b/>pro<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tan<b/>bon<b/>punt<s n="cnjadv"/></l>  <r>a<b/>su<b/>puntu<b/>chi<s n="cnjadv"/></r></p></e>
-<e>       <p><l>a<b/>fi<b/>que<s n="cnjadv"/></l>      <r>pro<b/>chi<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>a<b/>fi<b/>que<s n="cnjadv"/></l>      <r>pro<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>a<b/>fi<b/>que<s n="cnjadv"/></l>      <r>a<b/>manera<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>la<b/>veritat<b/>és<b/>que<s n="cnjadv"/></l><r>est<b/>beru<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>a<b/>causa<b/>d'això<s n="cnjadv"/></l><r>a<b/>causa<b/>de<b/>custu<s n="cnjadv"/></r></p></e>
@@ -4978,6 +4978,8 @@
 <e r="LR"><p><l>Savoia<s n="np"/><s n="loc"/></l>      <r>Savoia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>medi<s n="n"/><s n="m"/></l>           <r>mèdiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tradicionalment<s n="adv"/></l>        <r>segundu<b/>sa<b/>traditzione<s n="adv"/></r></p></e>
+<e>       <p><l>constitucionalment<s n="adv"/></l>     <r>segundu<b/>sa<b/>costitutzione<s n="adv"/></r></p></e>
+<e>       <p><l>inconstitucionalment<s n="adv"/></l>   <r>contra<b/>sa<b/>costitutzione<s n="adv"/></r></p></e>
 <e>       <p><l>Nicolau<s n="np"/><s n="ant"/></l>     <r>Nicolau<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Nicolau<s n="np"/><s n="ant"/></l>     <r>Nigola<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>mineral<s n="adj"/></l>                <r>minerale<s n="adj"/></r></p></e>
@@ -5811,6 +5813,8 @@
 <e>       <p><l>faraó<s n="n"/><s n="m"/></l>          <r>faraone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>depressió<s n="n"/><s n="f"/></l>      <r>depressione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>constitucional<s n="adj"/></l>         <r>costitutzionale<s n="adj"/></r></p></e>
+<e>       <p><l>constitucionalitat<s n="n"/><s n="f"/></l><r>costitutzionalidade<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>inconstitucionalitat<s n="n"/><s n="f"/></l><r>incostitutzionalidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>demostració<s n="n"/><s n="f"/></l>    <r>dimustratzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>demostratiu<s n="adj"/></l>            <r>dimustrativu<s n="adj"/></r></p></e>
 <e>       <p><l>audiència<s n="n"/><s n="f"/></l>      <r>udièntzia<s n="n"/><s n="f"/></r></p></e>
