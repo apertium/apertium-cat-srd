@@ -819,6 +819,18 @@
      <match lemma="de" tags="pr"/>
   </rule>
 
+<!-- eixida > essida, corte -->
+
+  <rule weight="0.6">
+     <match lemma="eixida" tags="n.*"><select lemma="essida"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="eixida" tags="n.*"><select lemma="corte"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="det.*"/>
+     <match lemma="casa" tags="n.*"/>
+  </rule>
+
 <!-- paper > pabiru, ruolu -->
 
   <rule weight="0.6">
