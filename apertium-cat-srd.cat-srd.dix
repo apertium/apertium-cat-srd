@@ -3105,7 +3105,10 @@
 <e>       <p><l>comandar<s n="vblex"/></l>             <r>cumandare<s n="vblex"/></r></p></e>
 <e>       <p><l>interactuar<s n="vblex"/></l>          <r>cuncambiare<s n="vblex"/></r></p></e>
 <e>       <p><l>conduir<s n="vblex"/></l>              <r>cunduire<s n="vblex"/></r></p></e>
-<e>       <p><l>aconseguir<s n="vblex"/></l>           <r>cunsighire<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>aconseguir<s n="vblex"/></l>           <r>cunsighire<s n="vblex"/></r></p></e>
+<e>       <p><l>aconseguir<s n="vblex"/></l>           <r>resèssere<s n="vblex"/></r></p></e>
+<e>       <p><l>aconseguir<s n="vblex"/></l>           <r>resèssere<g><b/>a</g><s n="vblex"/></r></p></e>
+<e>       <p><l>aconseguir<s n="vblex"/></l>           <r>otènnere<s n="vblex"/></r></p></e>
 <e>       <p><l>guarir<s n="vblex"/></l>               <r>curare<s n="vblex"/></r></p></e>
 <e>       <p><l>endevinar<s n="vblex"/></l>            <r>divenire<s n="vblex"/></r></p></e>
 <e>       <p><l>equivocar<s n="vblex"/></l>            <r>faddire<s n="vblex"/></r></p></e>
@@ -4467,6 +4470,7 @@
 <e r="LR"><p><l>maternal<s n="adj"/></l>               <r>maternu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="LR"><p><l>tret<s n="n"/><s n="m"/></l>           <r>caraterìstica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tret<s n="n"/><s n="m"/></l>           <r>disparu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>tret<s n="n"/><s n="m"/></l>           <r>isparu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>entorn<s n="n"/><s n="m"/></l>         <r>ambiente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>una<b/>mica<s n="adv"/></l>            <r>unu<b/>pagu<s n="adv"/></r></p></e>
 <e>       <p><l>Luis<s n="np"/><s n="ant"/></l>        <r>Luis<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -8181,6 +8185,8 @@
 <e>       <p><l>fetge<s n="n"/><s n="m"/></l>          <r>fìgadu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Bordeus<s n="np"/><s n="loc"/></l>     <r>Bordeux<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>guardó<s n="n"/><s n="m"/></l>         <r>prèmiu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>reeixir<s n="vblex"/></l>              <r>resessire<s n="vblex"/></r></p></e>
+<e>       <p><l>reeixir<s n="vblex"/></l>              <r>resèssere<s n="vblex"/></r></p></e>
 <e>       <p><l>eixir<s n="vblex"/></l>                <r>essire<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>eixir<s n="vblex"/></l>                <r>abbandonare<s n="vblex"/></r></p></e>
 <e>       <p><l>declinar<s n="vblex"/></l>             <r>declinare<s n="vblex"/></r></p></e>
@@ -20737,9 +20743,10 @@
 <e>       <p><l>pineda<s n="n"/><s n="f"/></l>         <r>pineta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ovalat<s n="adj"/></l>                 <r>ovale<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>Llúcia<s n="np"/><s n="ant"/></l>      <r>Llùcia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Llúcia<s n="np"/><s n="ant"/></l>      <r>Lughia<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>entrellaçar<s n="vblex"/></l>          <r>intritzare<s n="vblex"/></r></p></e>
 <e>       <p><l>Vílnius<s n="np"/><s n="loc"/></l>     <r>Vìlnius<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Sant<b/>Vicent<s n="np"/><s n="loc"/></l><r>Sant<b/>Vocent<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Sant<b/>Vicent<s n="np"/><s n="loc"/></l><r>Sant<b/>Vicent<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>lamentar<s n="vblex"/></l>             <r>lamentare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>lamentar<s n="vblex"/></l>             <r>murrungiare<s n="vblex"/></r></p></e>
 <e>       <p><l>endarrerir<s n="vblex"/></l>           <r>allonghiare<s n="vblex"/></r></p></e>
@@ -25129,7 +25136,7 @@
 <e>       <p><l>supervisió<s n="n"/><s n="f"/></l>     <r>supervisione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>polímer<s n="adj"/></l>                <r>polìmeru<s n="adj"/></r></p></e>
 <e>       <p><l>cinètic<s n="adj"/></l>                <r>tzinèticu<s n="adj"/></r></p></e>
-<e>       <p><l>recalar<s n="vblex"/></l>              <r>resèssere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>recalar<s n="vblex"/></l>              <r>resèssere<s n="vblex"/></r></p></e>
 <e>       <p><l>honorífic<s n="adj"/></l>              <r>onorìficu<s n="adj"/></r></p></e>
 <e>       <p><l>comparable<s n="adj"/></l>             <r>paragonàbile<s n="adj"/></r></p></e>
 <e>       <p><l>revolucionari<s n="n"/></l>            <r>rivolutzionàriu<s n="n"/></r></p></e>
@@ -26302,10 +26309,7 @@
 <e>       <p><l>caçador<s n="adj"/></l>                <r>cassadore<s n="adj"/></r></p></e>
 <e>       <p><l>al<b/>bell<b/>mig<s n="adv"/></l>      <r>in<b/>mesu<s n="adv"/></r></p></e>
 <e>       <p><l>afermar<s n="vblex"/></l>              <r>afirmare<s n="vblex"/></r></p></e>
-<e>       <p><l>versar<s n="vblex"/></l>               <r>versare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>versar<s n="vblex"/></l>               <r>betare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>versar<s n="vblex"/></l>               <r>bessare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>versar<s n="vblex"/></l>               <r>ghetare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>versar<s n="vblex"/></l>               <r>tratare<s n="vblex"/></r></p></e>
 <e>       <p><l>Tarn<s n="np"/><s n="loc"/></l>        <r>Tarn<s n="np"/><s n="hyd"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>èxode<s n="n"/><s n="m"/></l>          <r>disterru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>en<b/>curs<s n="adv"/></l>             <r>in<b/>caminu<s n="adv"/></r></p></e>
@@ -29864,6 +29868,7 @@
 <e>       <p><l>detectiu<s n="n"/><s n="m"/></l>       <r>indagadore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rosegador<s n="n"/><s n="m"/></l>      <r>roidore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>boxa<s n="n"/><s n="f"/><s n="sg"/></l><r>pugiladu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>pugilat<s n="n"/><s n="f"/><s n="sg"/></l><r>pugiladu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>fra<s n="n"/><s n="m"/><s n="sg"/></l> <r>padre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>estrès<s n="n"/><s n="m"/><s n="sg"/></l><r>istrachidùdine<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>finestral<s n="n"/><s n="m"/></l>      <r>ventaneri<s n="n"/><s n="m"/></r></p></e>
@@ -30336,6 +30341,19 @@
 
       <e><p><l>entrepà<s n="n"/><s n="m"/></l><r>cocone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>viola<s n="n"/><s n="f"/></l><r>viola<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>com<b/>si<s n="cnjadv"/></l><r>comente<b/>chi<s n="cnjadv"/></r></p></e>
+
+      <e><p><l>comitent<s n="n"/><s n="mf"/></l><r>cummitente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>concedent<s n="adj"/><s n="mf"/></l><r>cuntzedente<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>parroquià<s n="n"/></l><r>parrochianu<s n="n"/></r></p></e>
+      <e><p><l>pelleteria<s n="n"/><s n="f"/></l><r>pelleteria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sonant<s n="adj"/><s n="mf"/></l><r>sonante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>decatló<s n="n"/><s n="m"/><s n="sg"/></l><r>decathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>heptatló<s n="n"/><s n="m"/><s n="sg"/></l><r>eptathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>pentatló<s n="n"/><s n="m"/><s n="sg"/></l><r>pentathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>biatló<s n="n"/><s n="m"/><s n="sg"/></l><r>biathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>triatló<s n="n"/><s n="m"/><s n="sg"/></l><r>triathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
 
     <!-- SECTION:  Punctuation -->
 

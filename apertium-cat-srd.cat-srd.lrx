@@ -205,6 +205,20 @@
      <match lemma="a" tags="pr"/>
   </rule>
 
+<!-- aconseguir > otènnere, resèssere, resèssere a -->
+
+  <rule weight="0.6">
+     <match lemma="aconseguir" tags="vblex.*"><select lemma="otènnere"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aconseguir" tags="vblex.*"><select lemma="resèssere"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aconseguir" tags="vblex.*"><select lemma="resèssere# a"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
 <!-- desitjar > disigiare, augurare -->
 
   <rule weight="0.6">
@@ -1276,6 +1290,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1290,6 +1305,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Carles" tags="np.*"><select lemma="Càralu"/></match>
@@ -1328,6 +1344,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1342,6 +1359,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Felip" tags="np.*"><select lemma="Tilipu"/></match>
@@ -1379,6 +1397,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1393,6 +1412,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Alexandre" tags="np.*"><select lemma="Lisandru"/></match>
@@ -1430,6 +1450,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1444,6 +1465,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Guifré" tags="np.*"><select lemma="Gofredu"/></match>
@@ -1481,6 +1503,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1495,6 +1518,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Gregori" tags="np.*"><select lemma="Gregòriu"/></match>
@@ -1532,6 +1556,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1546,6 +1571,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Miró" tags="np.*"><select lemma="Mirò"/></match>
@@ -1583,6 +1609,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1597,6 +1624,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Ramir" tags="np.*"><select lemma="Ramiru"/></match>
@@ -1634,6 +1662,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1648,6 +1677,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Ramon" tags="np.*"><select lemma="Raimundu"/></match>
@@ -1685,6 +1715,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1699,6 +1730,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Berenguer" tags="np.*"><select lemma="Berengàriu"/></match>
@@ -1736,6 +1768,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1750,6 +1783,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joana" tags="np.*"><select lemma="Giuanna"/></match>
@@ -1787,6 +1821,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1801,6 +1836,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan" tags="np.*"><select lemma="Giuanne"/></match>
@@ -1838,6 +1874,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1852,6 +1889,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan Manuel" tags="np.*"><select lemma="Giuanne Manuelle"/></match>
@@ -1889,6 +1927,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1903,6 +1942,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan Carles" tags="np.*"><select lemma="Giuanne Càralu"/></match>
@@ -1940,6 +1980,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -1954,6 +1995,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Manuel" tags="np.*"><select lemma="Manuelle"/></match>
@@ -1991,6 +2033,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2005,6 +2048,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Pau" tags="np.*"><select lemma="Pàule"/></match>
@@ -2042,6 +2086,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2056,6 +2101,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Joan Pau" tags="np.*"><select lemma="Giuanne Pàule"/></match>
@@ -2093,6 +2139,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2107,6 +2154,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Benet" tags="np.*"><select lemma="Beneitu"/></match>
@@ -2144,6 +2192,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2158,6 +2207,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Francesc" tags="np.*"><select lemma="Frantziscu"/></match>
@@ -2195,6 +2245,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2209,6 +2260,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Francesc Xavier" tags="np.*"><select lemma="Frantziscu Savèriu"/></match>
@@ -2246,6 +2298,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2260,6 +2313,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Sixt" tags="np.*"><select lemma="Sistu"/></match>
@@ -2297,6 +2351,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2311,6 +2366,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Innocenci" tags="np.*"><select lemma="Innocentzu"/></match>
@@ -2348,6 +2404,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2362,6 +2419,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Lleó" tags="np.*"><select lemma="Leone"/></match>
@@ -2399,6 +2457,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2413,6 +2472,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Pere" tags="np.*"><select lemma="Pedru"/></match>
@@ -2453,6 +2513,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2467,6 +2528,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Jaume" tags="np.*"><select lemma="Giacu"/></match>
@@ -2504,6 +2566,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2518,6 +2581,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Ferran" tags="np.*"><select lemma="Ferrante"/></match>
@@ -2555,6 +2619,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2569,6 +2634,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Ricard" tags="np.*"><select lemma="Ricardu"/></match>
@@ -2606,6 +2672,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2620,6 +2687,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Martí" tags="np.*"><select lemma="Martine"/></match>
@@ -2657,6 +2725,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2671,6 +2740,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Alfons" tags="np.*"><select lemma="Alfonsu"/></match>
@@ -2708,6 +2778,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2722,6 +2793,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Humbert" tags="np.*"><select lemma="Umbertu"/></match>
@@ -2759,6 +2831,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2773,6 +2846,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Lluís" tags="np.*"><select lemma="Luisi"/></match>
@@ -2810,6 +2884,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2824,6 +2899,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Guillem" tags="np.*"><select lemma="Gullielmu"/></match>
@@ -2861,6 +2937,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2875,6 +2952,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Enric" tags="np.*"><select lemma="Erricu"/></match>
@@ -2912,6 +2990,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2926,6 +3005,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Nicolau" tags="np.*"><select lemma="Nigola"/></match>
@@ -2963,6 +3043,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -2977,6 +3058,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Maximilià" tags="np.*"><select lemma="Massimilianu"/></match>
@@ -3014,6 +3096,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -3028,6 +3111,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Isabel" tags="np.*"><select lemma="Isabella"/></match>
@@ -3065,6 +3149,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -3079,6 +3164,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Caterina" tags="np.*"><select lemma="Callina"/></match>
@@ -3116,6 +3202,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -3130,6 +3217,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Elisabet" tags="np.*"><select lemma="Elisabeta"/></match>
@@ -3167,6 +3255,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -3181,6 +3270,7 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Bernat" tags="np.*"><select lemma="Bernardu"/></match>
@@ -3218,6 +3308,7 @@
        <match lemma="príncep" tags="n.*"/>
        <match lemma="infant" tags="n.*"/>
        <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
        <match lemma="duc" tags="n.*"/>
        <match lemma="arxiduc" tags="n.*"/>
        <match lemma="marquès" tags="n.*"/>
@@ -3232,9 +3323,63 @@
        <match lemma="imperi" tags="n.*"/>
        <match lemma="regne" tags="n.*"/>
        <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Frederic" tags="np.*"><select lemma="Federicu"/></match>
+  </rule>
+
+<!-- Llúcia > Llùcia, Lughia -->
+
+  <rule weight="0.6">
+     <match lemma="Frederic" tags="np.*"><select lemma="Llùcia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
   </rule>
 
 </rules>
