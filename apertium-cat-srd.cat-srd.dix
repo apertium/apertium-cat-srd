@@ -2914,6 +2914,7 @@
 <e>       <p><l>colonitzar<s n="vblex"/></l>           <r>colonizare<s n="vblex"/></r></p></e>
 <e>       <p><l>acompanyar<s n="vblex"/></l>           <r>acumpangiare<s n="vblex"/></r></p></e>
 <e>       <p><l>servir<s n="vblex"/></l>               <r>serbire<s n="vblex"/></r></p></e>
+<e>       <p><l>servir<s n="vblex"/></l>               <r>servire<s n="vblex"/></r></p></e>
 <e>       <p><l>proposar<s n="vblex"/></l>             <r>propònnere<s n="vblex"/></r></p></e>
 <e>       <p><l>proclamar<s n="vblex"/></l>            <r>proclamare<s n="vblex"/></r></p></e>
 <e>       <p><l>educar<s n="vblex"/></l>               <r>educare<s n="vblex"/></r></p></e>
@@ -3099,6 +3100,7 @@
 <e>       <p><l>cobrar<s n="vblex"/></l>               <r>cobèrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>agafar<s n="vblex"/></l>               <r>còghere<s n="vblex"/></r></p></e>
 <e i="yes"><p><l>agafar<s n="vblex"/></l>              <r>collire<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>agafar<s n="vblex"/></l>              <r>tènnere<s n="vblex"/></r></p></e>
 <e>       <p><l>comunicar<s n="vblex"/></l>            <r>comunicare<s n="vblex"/></r></p></e>
 <e>       <p><l>cosir<s n="vblex"/></l>                <r>cosire<s n="vblex"/></r></p></e>
 <e>       <p><l>crear<s n="vblex"/></l>                <r>creare<s n="vblex"/></r></p></e>
@@ -3185,7 +3187,6 @@
 <e>       <p><l>negociar<s n="vblex"/></l>             <r>afare<s n="vblex"/></r></p></e>
 <e>       <p><l>torturar<s n="vblex"/></l>             <r>torturare<s n="vblex"/></r></p></e>
 <e>       <p><l>declarar<s n="vblex"/></l>             <r>decrarare<s n="vblex"/></r></p></e>
-<e>       <p><l>servir<s n="vblex"/></l>               <r>servire<s n="vblex"/></r></p></e>
 <e>       <p><l>negar<s n="vblex"/></l>                <r>negare<s n="vblex"/></r></p></e>
 <e>       <p><l>bastar<s n="vblex"/></l>               <r>bastare<s n="vblex"/></r></p></e>
 <e>       <p><l>evitar<s n="vblex"/></l>               <r>evitare<s n="vblex"/></r></p></e>
@@ -7372,7 +7373,7 @@
 <e>       <p><l>prohibició<s n="n"/><s n="f"/></l>     <r>proibitzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>precedent<s n="n"/><s n="m"/></l>      <r>pretzedente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>moral<s n="n"/><s n="f"/></l>          <r>morale<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>captar<s n="vblex"/></l>               <r>tènnere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>captar<s n="vblex"/></l>               <r>tènnere<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>captar<s n="vblex"/></l>               <r>agarrare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>captar<s n="vblex"/></l>               <r>picare<s n="vblex"/></r></p></e>
 <e>       <p><l>aproximat<s n="adj"/></l>              <r>serente<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -27384,7 +27385,7 @@
 <e>       <p><l>allunyament<s n="n"/><s n="m"/></l>    <r>distàntzia<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>allunyament<s n="n"/><s n="m"/></l>    <r>tretu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>adjuntar<s n="vblex"/></l>             <r>allegare<s n="vblex"/></r></p></e>
-<e>       <p><l>travar<s n="vblex"/></l>               <r>tènnere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>travar<s n="vblex"/></l>               <r>tènnere<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>travar<s n="vblex"/></l>               <r>cautivare<s n="vblex"/></r></p></e>
 <e>       <p><l>inoxidable<s n="adj"/></l>             <r>inossidàbile<s n="adj"/></r></p></e>
 <e>       <p><l>imposta<s n="n"/><s n="f"/></l>        <r>imposta<s n="n"/><s n="f"/></r></p></e>

@@ -47,7 +47,7 @@ sub llegir_dix {
 
 	while (my $linia = <$fitx>) {
 		chop $linia;
-print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /polític/o;
+print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /solter/o;
 		if ($linia =~ m|<e lm="([^"]*)".*<i>.*</i>.*<par n="(.*)"/></e>|o) {
 			$lemma = $1;
 			$par = $2;
@@ -80,16 +80,16 @@ print "1. fitxer $nfitx, $linia\n" if $nfitx eq 'cat' && $linia =~ /polític/o;
 		} else {
 			die "fitxer $nfitx, $linia, par=$par";
 		}
-print "2. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /polític/o;
+print "2. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /solter/o;
 		if ($morf ne 'n' && $morf ne 'adj' && $morf ne 'adv' && $morf ne 'np' && $morf ne 'vblex' && $morf ne 'abbr') {
 #			print STDERR "línia $.: $linia - morf $morf\n";
 			next;
 		}
-print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /polític/o;
+print "3. fitxer $nfitx, $linia, par=$par, morf=$morf\n" if $nfitx eq 'cat' && $linia =~ /solter/o;
 
 		$r_struct->{$morf}{$lemma} = $par;
 #print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $par =~ /vblex/o;
-print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $lemma =~ /polític/o;
+print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n" if $lemma =~ /solter/o;
 #print "r_struct->{$morf}{$lemma} = $r_struct->{$morf}{$lemma}\n";
 	}
 }
@@ -109,7 +109,7 @@ sub llegir_bidix {
 		$linia =~ s|<b/>| |og;
 		$linia =~ s|<g>|#|og;
 		$linia =~ s|</g>||og;
-print "1. fitxer bidix, $linia\n" if $linia =~ /polític/o;
+print "1. fitxer bidix, $linia\n" if $linia =~ /solter/o;
 		if ($linia =~ m|<e> *<p><l>([^<]*)<s n="([^"]*)".*<r>([^<]*)<s|o) {
 			$lemma_cat = $1;
 			$morf = $2;
@@ -141,11 +141,11 @@ print "1. fitxer bidix, $linia\n" if $linia =~ /polític/o;
 			}
 		}
 
-print "3. fitxer bidix, $linia, morf=$morf\n" if $linia =~ /polític/o;
+print "3. fitxer bidix, $linia, morf=$morf\n" if $linia =~ /solter/o;
 
 		$r_struct->{$morf}{$lemma_cat} = $lemma_srd;
 #print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $morf =~ /vblex/o;
-print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $lemma_cat =~ /polític/o;
+print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n" if $lemma_cat =~ /solter/o;
 #print "r_struct->{$morf}{$lemma_cat} = $r_struct->{$morf}{$lemma_cat}\n";
 	}
 }
@@ -197,11 +197,13 @@ while (my $linia = <STDIN>) {
 	}
 	if ($gram_cat eq 'nm' && $dix_bi{n}{$lemma_cat}) {	# sovint apareixen com a nm paraules que són n (i.e. m+f)
 #print "No es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
-		next;
+$gram_cat = 'n';
+#		next;
 	}
 	if ($gram_cat eq 'nmf' && $dix_bi{n}{$lemma_cat}) {	# sovint apareixen com a nmf paraules que estan posades com a n
 #print "No es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
-		next;
+$gram_cat = 'n';
+#		next;
 	}
 #print "Sí es carrega: dix_bi{$gram_cat}{$lemma_cat} = $dix_bi{$gram_cat}{$lemma_cat}\n";
 	$lemma_cat =~ s/#//o;
@@ -209,7 +211,7 @@ while (my $linia = <STDIN>) {
 
 	$dades[3] =~ s|,|;|og;
 
-print "11. $linia - stem_cat=$stem_cat, lemma_cat=$lemma_cat, gram_cat = $gram_cat, dades[3]=$dades[3]\n" if $lemma_cat =~ /polític/o;
+print "11. $linia - stem_cat=$stem_cat, lemma_cat=$lemma_cat, gram_cat = $gram_cat, dades[3]=$dades[3]\n" if $lemma_cat =~ /solter/o;
 	my @stem_srd = split /;/o, $dades[3];
 	my $primer = 1;
 	my $n = 0; 	# index en @stem_srd
@@ -252,7 +254,7 @@ print "11. $linia - stem_cat=$stem_cat, lemma_cat=$lemma_cat, gram_cat = $gram_c
 		} else {
 			$gram_srd = $gram_cat;
 		}
-print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_cat, gram_srd = $gram_srd\n" if $lemma_cat =~ /polític/o;
+print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_cat, gram_srd = $gram_srd\n" if $lemma_cat =~ /solter/o;
 #print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_cat, gram_srd = $gram_srd\n";
 
 		# sortida: diccionari bilingüe
@@ -835,7 +837,7 @@ print "12. $linia - stem_srd=$stem_srd, lemma_srd=$lemma_srd, gram_cat = $gram_c
 			next unless $par_cat;
 
 			unless ($par_srd) {
-print "No es troba dix_srd{$gram_srd}{$lemma_srd}. Es prova de generar $lemma_srd\n" if $lemma_cat =~ /polític/o;
+print "No es troba dix_srd{$gram_srd}{$lemma_srd}. Es prova de generar $lemma_srd\n" if $lemma_cat =~ /solter/o;
 				# generem el paradigma al diccionari sard
 				if ($gram_srd eq 'np><ant><m><sg') {
 					$par_srd = 'Antoni__np';
