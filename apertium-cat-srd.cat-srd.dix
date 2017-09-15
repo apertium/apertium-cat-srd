@@ -390,8 +390,9 @@
 <e>       <p><l>ell<s n="prn"/><s n="tn"/></l>         <r>issu<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>nosaltres<s n="prn"/><s n="tn"/></l>   <r>nois<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>vosaltres<s n="prn"/><s n="tn"/></l>   <r>bois<s n="prn"/><s n="tn"/></r></p></e>
-<e>       <p><l>un<b/>altre<s n="prn"/><s n="tn"/></l> <r>unu<b/>àteru<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>si<s n="prn"/><s n="tn"/><s n="ref"/></l><r>sese<s n="prn"/><s n="tn"/><s n="ref"/></r></p></e>
 
+<e>       <p><l>un<b/>altre<s n="prn"/><s n="tn"/></l> <r>unu<b/>àteru<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>ambdós<s n="prn"/><s n="tn"/><s n="m"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 <e>       <p><l>ambdues<s n="prn"/><s n="tn"/><s n="f"/></l><r>ambos<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <e>       <p><l>ningú<s n="prn"/><s n="tn"/></l>       <r>nemos<s n="prn"/><s n="tn"/></r></p></e>
@@ -25255,6 +25256,8 @@
 <e r="RL"><p><l>prescindir<s n="vblex"/></l>           <r>pònnere<b/>a<b/>banda<s n="vblex"/></r></p></e>
 <e>       <p><l>plomatge<s n="n"/><s n="m"/></l>       <r>piuma<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Llatinoamèrica<s n="np"/><s n="loc"/></l><r>Latinoamèrica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Hispanoamèrica<s n="np"/><s n="loc"/></l><r>Latinoamèrica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Iberooamèrica<s n="np"/><s n="loc"/></l><r>Latinoamèrica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>hivernal<s n="adj"/></l>               <r>ierrile<s n="adj"/></r></p></e>
 <e r="RL"><p><l>hivernal<s n="adj"/></l>               <r>berrile<s n="adj"/></r></p></e>
 <e r="RL"><p><l>hivernal<s n="adj"/><s n="mf"/></l>    <r>de<b/>ierru<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>

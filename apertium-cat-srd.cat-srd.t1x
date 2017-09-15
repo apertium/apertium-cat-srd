@@ -17,6 +17,12 @@
    <cat-item lemma="elles" tags="prn.tn.*"/>
    <cat-item lemma="vostès" tags="prn.tn.*"/>
 </def-cat>
+<def-cat n="tn-pers">
+   <cat-item tags="prn.tn.p1.*"/>
+   <cat-item tags="prn.tn.p2.*"/>
+   <cat-item tags="prn.tn.p3.*"/>
+   <cat-item tags="prn.tn.ref.p3.*"/>
+</def-cat>
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
 </def-cat>
@@ -78,6 +84,9 @@
 </def-cat>
 <def-cat n="algun_prn">
    <cat-item lemma="algun" tags="prn.*"/>
+</def-cat>
+<def-cat n="pr">
+   <cat-item tags="pr"/>
 </def-cat>
 <def-cat n="a">
    <cat-item lemma="a" tags="pr"/>
@@ -2613,7 +2622,7 @@
       <choose>	<!-- To change to personal pronoun depending on the preposition -->
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="mi"/></equal>
 	  </test>
           <choose>
 	    <when> 
@@ -2635,7 +2644,7 @@
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="tu"/></equal>
 	  </test>
           <choose>
 	    <when> 
@@ -2657,35 +2666,33 @@
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="ell"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="nosaltres"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="nois"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="vosaltres"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="bois"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="ells"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="si"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
-	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
-	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="sese"/></get-case-from></let>
 	</when>
       </choose>
     </def-macro>
@@ -3398,6 +3405,47 @@
          <b pos="6"/>
          <lu>
            <clip pos="7" side="tl" part="whole"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: pr prn (Norme p. 28)">
+   <pattern>
+     <pattern-item n="pr"/>
+     <pattern-item n="tn-pers"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_pr_tn-pers">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+
+     <out>
+       <chunk name="pr">
+         <tags>
+           <tag><lit-tag v="pr"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       </chunk>
+       <b pos="1"/>
+       <chunk name="tn">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
        </chunk>
      </out>

@@ -15,6 +15,13 @@
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
+    <match tags="vblex.*"/>
+    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
     <match tags="det./"/>
     <or>
@@ -32,6 +39,9 @@
       <match lemma="senat"/>
       <match lemma="assamblea"/>
       <match lemma="conferència"/>
+      <match lemma="universitat"/>
+      <match lemma="escola"/>
+      <match lemma="facultat"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -39,9 +49,83 @@
       <match lemma="revista"/>
       <match lemma="publicació"/>
       <match lemma="article"/>
+      <match lemma="televisió"/>
+      <match lemma="ràdio"/>
 
       <match lemma="hora"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="estudiar" tags="vblex.*"/>
+      <match lemma="treballar" tags="vblex.*"/>
+      <match lemma="viure" tags="vblex.*"/>
+      <match lemma="parlar" tags="vblex.*"/>
+      <match lemma="xerrar" tags="vblex.*"/>
+      <match lemma="xarrar" tags="vblex.*"/>
+      <match lemma="conversar" tags="vblex.*"/>
+      <match lemma="discutir" tags="vblex.*"/>
+      <match lemma="negociar" tags="vblex.*"/>
+      <match lemma="menjar" tags="vblex.*"/>
+      <match lemma="esmorzar" tags="vblex.*"/>
+      <match lemma="dinar" tags="vblex.*"/>
+      <match lemma="berenar" tags="vblex.*"/>
+      <match lemma="sopar" tags="vblex.*"/>
+      <match lemma="dominar" tags="vblex.*"/>
+      <match lemma="acceptar" tags="vblex.*"/>
+      <match lemma="rebre" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="estudiar" tags="vblex.*"/>
+      <match lemma="treballar" tags="vblex.*"/>
+      <match lemma="viure" tags="vblex.*"/>
+      <match lemma="parlar" tags="vblex.*"/>
+      <match lemma="xerrar" tags="vblex.*"/>
+      <match lemma="xarrar" tags="vblex.*"/>
+      <match lemma="conversar" tags="vblex.*"/>
+      <match lemma="discutir" tags="vblex.*"/>
+      <match lemma="negociar" tags="vblex.*"/>
+      <match lemma="menjar" tags="vblex.*"/>
+      <match lemma="esmorzar" tags="vblex.*"/>
+      <match lemma="dinar" tags="vblex.*"/>
+      <match lemma="berenar" tags="vblex.*"/>
+      <match lemma="sopar" tags="vblex.*"/>
+      <match lemma="dominar" tags="vblex.*"/>
+      <match lemma="acceptar" tags="vblex.*"/>
+      <match lemma="rebre" tags="vblex.*"/>
+    </or>
+    <match tags="adv"/>
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="anar" tags="vblex.*"/>
+      <match lemma="cörrer" tags="vblex.*"/>
+      <match lemma="volar" tags="vblex.*"/>
+      <match lemma="viatjar" tags="vblex.*"/>
+      <match lemma="tornar" tags="vblex.*"/>
+      <match lemma="arribar" tags="vblex.*"/>
+      <match lemma="pujar" tags="vblex.*"/>
+      <match lemma="baixar" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="anar" tags="vblex.*"/>
+      <match lemma="cörrer" tags="vblex.*"/>
+      <match lemma="volar" tags="vblex.*"/>
+      <match lemma="viatjar" tags="vblex.*"/>
+      <match lemma="tornar" tags="vblex.*"/>
+      <match lemma="arribar" tags="vblex.*"/>
+      <match lemma="pujar" tags="vblex.*"/>
+      <match lemma="baixar" tags="vblex.*"/>
+    </or>
+    <match tags="adv"/>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
@@ -117,7 +201,50 @@
        <match lemma="eliminar" tags="vblex.*"/>
        <match lemma="treure" tags="vblex.*"/>
        <match lemma="esborrar" tags="vblex.*"/>
+       <match lemma="provenir" tags="vblex.*"/>
+       <match lemma="viatjar" tags="vblex.*"/>
+       <match lemma="volar" tags="vblex.*"/>
+       <match lemma="anar" tags="vblex.*"/>
+       <match lemma="tornar" tags="vblex.*"/>
+       <match lemma="saltar" tags="vblex.*"/>
+       <match lemma="nedar" tags="vblex.*"/>
+       <match lemma="navegar" tags="vblex.*"/>
+       <match lemma="sortir" tags="vblex.*"/>
+       <match lemma="eixir" tags="vblex.*"/>
+       <match lemma="salpar" tags="vblex.*"/>
+       <match lemma="pujar" tags="vblex.*"/>
+       <match lemma="baixar" tags="vblex.*"/>
+       <match lemma="traduir" tags="vblex.*"/>
+       <match lemma="dependre" tags="vblex.*"/>
+       <match lemma="separar" tags="vblex.*"/>
      </or>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="venir" tags="vblex.*"/>
+       <match lemma="arribar" tags="vblex.*"/>
+       <match lemma="eliminar" tags="vblex.*"/>
+       <match lemma="treure" tags="vblex.*"/>
+       <match lemma="esborrar" tags="vblex.*"/>
+       <match lemma="provenir" tags="vblex.*"/>
+       <match lemma="viatjar" tags="vblex.*"/>
+       <match lemma="volar" tags="vblex.*"/>
+       <match lemma="anar" tags="vblex.*"/>
+       <match lemma="tornar" tags="vblex.*"/>
+       <match lemma="saltar" tags="vblex.*"/>
+       <match lemma="nedar" tags="vblex.*"/>
+       <match lemma="navegar" tags="vblex.*"/>
+       <match lemma="sortir" tags="vblex.*"/>
+       <match lemma="eixir" tags="vblex.*"/>
+       <match lemma="salpar" tags="vblex.*"/>
+       <match lemma="pujar" tags="vblex.*"/>
+       <match lemma="baixar" tags="vblex.*"/>
+       <match lemma="traduir" tags="vblex.*"/>
+       <match lemma="dependre" tags="vblex.*"/>
+     </or>
+     <match tags="adv"/>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
