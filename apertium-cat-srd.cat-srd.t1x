@@ -5103,7 +5103,6 @@
 </rule>
 
 
-<!--
 <rule comment="regla: es haver pp">
    <pattern>
      <pattern-item n="es"/>
@@ -5134,7 +5133,7 @@
              <clip pos="3" side="tl" part="lemh"/>
              <clip pos="3" side="tl" part="a_verb"/>
              <lit-tag v="pp"/>
-             <clip pos="3" side="tl" part="gen"/>		- FIXME -
+             <var n="genero"/>
              <clip pos="2" side="tl" part="nbr"/>
              <clip pos="3" side="tl" part="lemq"/>
            </lu>
@@ -5142,7 +5141,6 @@
      </out>
    </action>
 </rule>
--->
 
 
 <rule comment="regla: haver-ifi pp">
@@ -5436,7 +5434,6 @@
 </rule>
 
 
-<!--
 <rule comment="regla: es haver pp adjec">
    <pattern>
      <pattern-item n="es"/>
@@ -5496,7 +5493,6 @@
      </out>
    </action>
 </rule>
--->
 
 
 <rule comment="regla: haver pp adv adj">
@@ -5550,7 +5546,6 @@
 </rule>
 
 
-<!--
 <rule comment="regla: es haver pp adv adjec">
    <pattern>
      <pattern-item n="es"/>
@@ -5617,7 +5612,6 @@
      </out>
    </action>
 </rule>
--->
 
 
 <rule comment="regla: anar_pri inf">
