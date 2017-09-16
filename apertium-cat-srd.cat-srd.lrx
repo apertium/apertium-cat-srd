@@ -23,7 +23,7 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det./"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="nord"/>
       <match lemma="nord-est"/>
@@ -53,6 +53,9 @@
       <match lemma="ràdio"/>
 
       <match lemma="hora"/>
+      <match lemma="any"/>
+      <match lemma="segle"/>
+      <match lemma="mil·lenni"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -143,7 +146,7 @@
   </rule>
   <rule weight="1.0">
     <match lemma="davant" tags="pr"><select lemma="ante" tags="pr"/></match>
-    <match tags="det./"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="policia" tags="n.*"/>
       <match lemma="mosso" tags="n.*"/>
