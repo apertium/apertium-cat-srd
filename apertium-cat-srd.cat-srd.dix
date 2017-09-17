@@ -245,7 +245,7 @@
 <e>       <p><l>que<s n="cnjsub"/></l>                 <r>de<s n="pr"/></r></p></e>
 
 <e>       <p><l>perquè<s n="cnjadv"/></l>              <r>ca<s n="cnjsub"/></r></p></e>
-<e r="RL"><p><l>perquè<s n="cnjadv"/></l>              <r>pro<b/>chi<s n="cnjsub"/></r></p></e>
+<e>       <p><l>perquè<s n="cnjadv"/></l>              <r>pro<b/>chi<s n="cnjsub"/></r></p></e>
 <e r="RL"><p><l>perquè<s n="cnjadv"/></l>              <r>pro<b/>ite<s n="cnjsub"/></r></p></e>
 <e r="RL"><p><l>perquè<s n="cnjadv"/></l>              <r>pro<b/>ite<b/>ca<s n="cnjsub"/></r></p></e>
 
@@ -3371,12 +3371,12 @@
 <e r="LR"><p><l>cosa<b/>que<s n="rel"/></l>            <r>cosa<b/>chi<s n="rel"/></r></p></e>
 <e>       <p><l>que<s n="rel"/></l>                    <r>chi<s n="rel"/></r></p></e>
 <e r="RL"><p><l>que<s n="rel"/></l>                    <r>ite<s n="rel"/></r></p></e>
-<e r="RL"><p><l>que<s n="rel"/></l>                    <r>ca<s n="rel"/></r></p></e>
+<e i="yes"><p><l>que<s n="rel"/></l>                    <r>ca<s n="rel"/></r></p></e>
 <e>       <p><l>on<s n="rel"/></l>                     <r>ue<s n="rel"/></r></p></e>
 <e>       <p><l>el<b/>que<s n="rel"/></l>              <r>su<b/>chi<s n="rel"/></r></p></e>
 <e>       <p><l>què<s n="rel"/></l>                    <r>chi<s n="rel"/></r></p></e>
 <e r="RL"><p><l>què<s n="rel"/></l>                    <r>ite<s n="rel"/></r></p></e>
-<e r="RL"><p><l>què<s n="rel"/></l>                    <r>ca<s n="rel"/></r></p></e>
+<e i="yes"><p><l>què<s n="rel"/></l>                    <r>ca<s n="rel"/></r></p></e>
 <e>       <p><l>qui<s n="rel"/><s n="nn"/></l>         <r>chi<s n="rel"/><s n="an"/></r></p></e>
 <e r="RL"><p><l>qui<s n="rel"/><s n="nn"/></l>         <r>chie<s n="rel"/><s n="an"/></r></p></e>
 <e>       <p><l>al<b/>qual<s n="rel"/><s n="aa"/></l>  <r>a<b/>su<b/>chi<s n="rel"/><s n="an"/></r></p></e>
@@ -3413,7 +3413,7 @@
 <e r="LR"><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
-<e>       <p><l>car<s n="cnjadv"/></l>                 <r>bidu<b/>chi<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>car<s n="cnjadv"/></l>                 <r>bidu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>atès<b/>que<s n="cnjadv"/></l>         <r>bidu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>així<b/>que<s n="cnjadv"/></l>         <r>a<b/>manera<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>així<b/>que<s n="cnjadv"/></l>         <r>gasi<b/>chi<s n="cnjadv"/></r></p></e>
@@ -3861,6 +3861,7 @@
 <e>       <p><l>semblar<s n="vblex"/></l>              <r>assimigiare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>semblar<s n="vblex"/></l>              <r>pàrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>cop<s n="n"/><s n="m"/></l>            <r>corfu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>cop<s n="n"/><s n="m"/></l>            <r>bia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>colp<s n="n"/><s n="m"/></l>           <r>corfu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>est<s n="n"/><s n="m"/></l>            <r>est<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>comarca<s n="n"/><s n="f"/></l>        <r>contrada<s n="n"/><s n="f"/></r></p></e>
@@ -23484,7 +23485,7 @@
 <e>       <p><l>sègol<s n="n"/><s n="m"/></l>          <r>trigu<b/>nieddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>blat<g><b/>de<b/>moro</g><s n="n"/><s n="m"/></l><r>trigu<b/>moriscu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>moresc<s n="n"/><s n="m"/></l>         <r>trigu<b/>moriscu<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>dacsa<s n="f"/><s n="f"/></l>          <r>trigu<b/>moriscu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>dacsa<s n="n"/><s n="f"/></l>          <r>trigu<b/>moriscu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>panís<s n="n"/><s n="m"/></l>          <r>trigu<b/>moriscu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>narcisista<s n="adj"/><s n="mf"/></l>  <r>nartzisista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>nefast<s n="adj"/></l>                 <r>nefastu<s n="adj"/></r></p></e>
