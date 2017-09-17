@@ -3034,7 +3034,6 @@
 <e r="RL"><p><l>confinar<s n="vblex"/></l>             <r>cunfinare<s n="vblex"/></r></p></e>
 <e>       <p><l>integrar<s n="vblex"/></l>             <r>integrare<s n="vblex"/></r></p></e>
 <e>       <p><l>consumar<s n="vblex"/></l>             <r>consumare<s n="vblex"/></r></p></e>
-<e>       <p><l>traduir<s n="vblex"/></l>              <r>bortare<s n="vblex"/></r></p></e>
 <e>       <p><l>existir<s n="vblex"/></l>              <r>esìstere<s n="vblex"/></r></p></e>
 <e>       <p><l>coexistir<s n="vblex"/></l>            <r>coesistire<s n="vblex"/></r></p></e>
 <e>       <p><l>ajudar<s n="vblex"/></l>               <r>agiudare<s n="vblex"/></r></p></e>
@@ -3137,7 +3136,9 @@
 <e>       <p><l>produir<s n="vblex"/></l>              <r>produire<s n="vblex"/></r></p></e>
 <e>       <p><l>reconèixer<s n="vblex"/></l>           <r>reconnòschere<s n="vblex"/></r></p></e>
 <e>       <p><l>conèixer<s n="vblex"/></l>             <r>connòschere<s n="vblex"/></r></p></e>
-<e>       <p><l>traduir<s n="vblex"/></l>              <r>tradùere<s n="vblex"/></r></p></e>
+<e>       <p><l>traduir<s n="vblex"/></l>              <r>bortare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>traduir<s n="vblex"/></l>              <r>tradùere<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>traduir<s n="vblex"/></l>              <r>traduire<s n="vblex"/></r></p></e>
 <e>       <p><l>limitar<s n="vblex"/></l>              <r>limitare<s n="vblex"/></r></p></e>
 <e>       <p><l>sostenir<s n="vblex"/></l>             <r>sustènnere<s n="vblex"/></r></p></e>
 <e>       <p><l>adaptar<s n="vblex"/></l>              <r>adatare<s n="vblex"/></r></p></e>
@@ -4147,6 +4148,8 @@
 <e>       <p><l>vulnerar<s n="vblex"/></l>             <r>fertzire<s n="vblex"/></r></p></e>
 <e>       <p><l>grec<s n="n"/></l>                     <r>gregu<s n="n"/></r></p></e>
 <e>       <p><l>de<b/>vegades<s n="adv"/></l>          <r>a<b/>bias<s n="adv"/></r></p></e>
+<e r="LR"><p><l>a<b/>vegades<s n="adv"/></l>           <r>a<b/>bias<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>voltes<s n="adv"/></l>            <r>a<b/>bias<s n="adv"/></r></p></e>
 <e>       <p><l>escala<s n="n"/><s n="f"/></l>         <r>iscala<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ric<s n="adj"/></l>                    <r>ricu<s n="adj"/></r></p></e>
 <e>       <p><l>càrrega<s n="n"/><s n="f"/></l>        <r>càrriga<s n="n"/><s n="f"/></r></p></e>
@@ -20650,7 +20653,7 @@
 <e>       <p><l>petjada<s n="n"/><s n="f"/></l>        <r>sèmida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mortalitat<s n="n"/><s n="f"/></l>     <r>mortalidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Liszt<s n="np"/><s n="ant"/></l>       <r>Liszt<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>intensament<s n="adv"/></l>            <r>a<b/>forrte<s n="adv"/></r></p></e>
+<e>       <p><l>intensament<s n="adv"/></l>            <r>a<b/>forte<s n="adv"/></r></p></e>
 <e r="RL"><p><l>intensament<s n="adv"/></l>            <r>a<b/>ispàinu<s n="adv"/></r></p></e>
 <e>       <p><l>Friburg<s n="np"/><s n="loc"/></l>     <r>Friburgu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>desxifrar<s n="vblex"/></l>            <r>detzifrare<s n="vblex"/></r></p></e>

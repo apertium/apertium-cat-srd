@@ -15,7 +15,7 @@
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
-    <match tags="vblex.*"/>
+<!-- <match tags="vblex.*"/> -->
     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -42,6 +42,61 @@
       <match lemma="universitat"/>
       <match lemma="escola"/>
       <match lemma="facultat"/>
+
+      <match lemma="poble"/>
+      <match lemma="ciutat"/>
+      <match lemma="illa"/>
+      <match lemma="pla"/>
+      <match lemma="plana"/>
+      <match lemma="vall"/>
+      <match lemma="muntanya"/>
+      <match lemma="puig"/>
+      <match lemma="turó"/>
+      <match lemma="mar"/>
+      <match lemma="oceà"/>
+      <match lemma="riu"/>
+      <match lemma="llac"/>
+
+      <match lemma="escrit"/>
+      <match lemma="text"/>
+      <match lemma="llibre"/>
+      <match lemma="revista"/>
+      <match lemma="publicació"/>
+      <match lemma="article"/>
+      <match lemma="televisió"/>
+      <match lemma="ràdio"/>
+
+      <match lemma="hora"/>
+      <match lemma="any"/>
+      <match lemma="segle"/>
+      <match lemma="mil·lenni"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <or>
+      <match lemma="parlament"/>
+      <match lemma="congrés"/>
+      <match lemma="senat"/>
+      <match lemma="assamblea"/>
+      <match lemma="conferència"/>
+      <match lemma="universitat"/>
+      <match lemma="escola"/>
+      <match lemma="facultat"/>
+
+      <match lemma="poble"/>
+      <match lemma="ciutat"/>
+      <match lemma="illa"/>
+      <match lemma="pla"/>
+      <match lemma="plana"/>
+      <match lemma="vall"/>
+      <match lemma="muntanya"/>
+      <match lemma="puig"/>
+      <match lemma="turó"/>
+      <match lemma="mar"/>
+      <match lemma="oceà"/>
+      <match lemma="riu"/>
+      <match lemma="llac"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -77,6 +132,7 @@
       <match lemma="dominar" tags="vblex.*"/>
       <match lemma="acceptar" tags="vblex.*"/>
       <match lemma="rebre" tags="vblex.*"/>
+      <match lemma="aterrar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
@@ -99,6 +155,7 @@
       <match lemma="dominar" tags="vblex.*"/>
       <match lemma="acceptar" tags="vblex.*"/>
       <match lemma="rebre" tags="vblex.*"/>
+      <match lemma="aterrar" tags="vblex.*"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
@@ -113,6 +170,8 @@
       <match lemma="arribar" tags="vblex.*"/>
       <match lemma="pujar" tags="vblex.*"/>
       <match lemma="baixar" tags="vblex.*"/>
+      <match lemma="sortir" tags="vblex.*"/>
+      <match lemma="eixir" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -249,6 +308,39 @@
      </or>
      <match tags="adv"/>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <or>
+       <match lemma="cotó" tags="n.*"/>
+       <match lemma="llana" tags="n.*"/>
+       <match lemma="seda" tags="n.*"/>
+       <match lemma="fil" tags="n.*"/>
+       <match lemma="paper" tags="n.*"/>
+       <match lemma="drap" tags="n.*"/>
+       <match lemma="roba" tags="n.*"/>
+       <match lemma="plàstic" tags="n.*"/>
+       <match lemma="polièster" tags="n.*"/>
+       <match lemma="nailon" tags="n.*"/>
+       <match lemma="ceràmica" tags="n.*"/>
+       <match lemma="porcellana" tags="n.*"/>
+       <match lemma="bambú" tags="n.*"/>
+       <match lemma="fang" tags="n.*"/>
+       <match lemma="palla" tags="n.*"/>
+       <match lemma="maó" tags="n.*"/>
+       <match lemma="ciment" tags="n.*"/>
+
+       <match lemma="metall" tags="n.*"/>
+       <match lemma="bronze" tags="n.*"/>
+       <match lemma="ferro" tags="n.*"/>
+<!--       <match lemma="or" tags="n.*"/> -->
+       <match lemma="plata" tags="n.*"/>
+       <match lemma="argent" tags="n.*"/>
+       <match lemma="diamant" tags="n.*"/>
+       <match lemma="rubí" tags="n.*"/>
+       <match lemma="maragda" tags="n.*"/>
+     </or>
   </rule>
 
   <rule weight="1.0">

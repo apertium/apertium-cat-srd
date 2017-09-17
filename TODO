@@ -18,6 +18,10 @@ perquè les xarxes socials no siguin "un espai impune" > pro chi sas retes sotzi
 
 ===Transferència===
 
+cat ../apertium-cat/corpus/corpus_ca_wp20000.txt | grep 00173 | apertium -d . cat-srd-disam | head -n 20
+es + ifi > ref + essere + pp
+
+
 les tres últimes components > sos tres ùrtimos cumponentes
 
 DET N POS ADJ
