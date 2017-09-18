@@ -43,6 +43,26 @@
       <match lemma="escola"/>
       <match lemma="facultat"/>
 
+      <match lemma="habitació"/>
+      <match lemma="cambra"/>
+      <match lemma="despatx"/>
+      <match lemma="laboratori"/>
+      <match lemma="entrada"/>
+      <match lemma="sortida"/>
+      <match lemma="rebedor"/>
+      <match lemma="menjador"/>
+      <match lemma="saló"/>
+      <match lemma="teulada"/>
+      <match lemma="terrat"/>
+
+      <match lemma="carrer"/>
+      <match lemma="plaça"/>
+      <match lemma="avinguda"/>
+      <match lemma="passeig"/>
+      <match lemma="rambla"/>
+      <match lemma="pujada"/>
+      <match lemma="baixada"/>
+
       <match lemma="poble"/>
       <match lemma="ciutat"/>
       <match lemma="illa"/>
@@ -56,6 +76,7 @@
       <match lemma="oceà"/>
       <match lemma="riu"/>
       <match lemma="llac"/>
+      <match lemma="bosc"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -70,6 +91,52 @@
       <match lemma="any"/>
       <match lemma="segle"/>
       <match lemma="mil·lenni"/>
+
+      <match lemma="braç"/>
+      <match lemma="mà"/>
+      <match lemma="cama"/>
+      <match lemma="peu"/>
+      <match lemma="cap"/>
+      <match lemma="cos"/>
+      <match lemma="coll"/>
+      <match lemma="pit"/>
+      <match lemma="panxa"/>
+      <match lemma="cul"/>
+      <match lemma="maluc"/>
+      <match lemma="fetge"/>
+      <match lemma="estòmac"/>
+      <match lemma="cor"/>
+      <match lemma="pulmó"/>
+      <match lemma="budell"/>
+
+      <match lemma="samarreta"/>
+      <match lemma="camisa"/>
+      <match lemma="pantaló"/>
+      <match lemma="faldilla"/>
+      <match lemma="calces"/>
+      <match lemma="calçotets"/>
+      <match lemma="màniga"/>
+      <match lemma="mitjó"/>
+      <match lemma="mitja"/>
+      <match lemma="sabata"/>
+
+      <match lemma="gener"/>
+      <match lemma="febrer"/>
+      <match lemma="març"/>
+      <match lemma="abril"/>
+      <match lemma="maig"/>
+      <match lemma="juny"/>
+      <match lemma="juliol"/>
+      <match lemma="agost"/>
+      <match lemma="setembre"/>
+      <match lemma="octubre"/>
+      <match lemma="novembre"/>
+      <match lemma="desembre"/>
+
+      <match lemma="primavera"/>
+      <match lemma="estiu"/>
+      <match lemma="tardor"/>
+      <match lemma="hivern"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -84,6 +151,26 @@
       <match lemma="escola"/>
       <match lemma="facultat"/>
 
+      <match lemma="habitació"/>
+      <match lemma="cambra"/>
+      <match lemma="despatx"/>
+      <match lemma="laboratori"/>
+      <match lemma="entrada"/>
+      <match lemma="sortida"/>
+      <match lemma="rebedor"/>
+      <match lemma="menjador"/>
+      <match lemma="saló"/>
+      <match lemma="teulada"/>
+      <match lemma="terrat"/>
+
+      <match lemma="carrer"/>
+      <match lemma="plaça"/>
+      <match lemma="avinguda"/>
+      <match lemma="passeig"/>
+      <match lemma="rambla"/>
+      <match lemma="pujada"/>
+      <match lemma="baixada"/>
+
       <match lemma="poble"/>
       <match lemma="ciutat"/>
       <match lemma="illa"/>
@@ -97,6 +184,7 @@
       <match lemma="oceà"/>
       <match lemma="riu"/>
       <match lemma="llac"/>
+      <match lemma="bosc"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -115,9 +203,12 @@
   </rule>
   <rule weight="1.0">
     <or>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="estar" tags="vblex.*"/>
       <match lemma="estudiar" tags="vblex.*"/>
       <match lemma="treballar" tags="vblex.*"/>
       <match lemma="viure" tags="vblex.*"/>
+      <match lemma="residir" tags="vblex.*"/>
       <match lemma="parlar" tags="vblex.*"/>
       <match lemma="xerrar" tags="vblex.*"/>
       <match lemma="xarrar" tags="vblex.*"/>
@@ -138,9 +229,12 @@
   </rule>
   <rule weight="1.0">
     <or>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="estar" tags="vblex.*"/>
       <match lemma="estudiar" tags="vblex.*"/>
       <match lemma="treballar" tags="vblex.*"/>
       <match lemma="viure" tags="vblex.*"/>
+      <match lemma="residir" tags="vblex.*"/>
       <match lemma="parlar" tags="vblex.*"/>
       <match lemma="xerrar" tags="vblex.*"/>
       <match lemma="xarrar" tags="vblex.*"/>
@@ -172,6 +266,8 @@
       <match lemma="baixar" tags="vblex.*"/>
       <match lemma="sortir" tags="vblex.*"/>
       <match lemma="eixir" tags="vblex.*"/>
+      <match lemma="traslladar" tags="vblex.*"/>
+      <match lemma="dirigir" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -185,6 +281,10 @@
       <match lemma="arribar" tags="vblex.*"/>
       <match lemma="pujar" tags="vblex.*"/>
       <match lemma="baixar" tags="vblex.*"/>
+      <match lemma="sortir" tags="vblex.*"/>
+      <match lemma="eixir" tags="vblex.*"/>
+      <match lemma="traslladar" tags="vblex.*"/>
+      <match lemma="dirigir" tags="vblex.*"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -343,6 +443,14 @@
      </or>
   </rule>
 
+  <rule weight="1.0">
+     <or>
+       <match lemma="majoria" tags="n.*"/>
+       <match lemma="minoria" tags="n.*"/>
+       <match lemma="part" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
   <rule weight="1.0">
      <or>
        <match lemma="camp" tags="n.*"/>

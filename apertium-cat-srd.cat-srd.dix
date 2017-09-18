@@ -1213,6 +1213,7 @@
 <e>       <p><l>emanació<s n="n"/><s n="f"/></l>       <r>emanatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>element<s n="n"/><s n="m"/></l>        <r>elementu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>elaboració<s n="n"/><s n="f"/></l>     <r>elaboratzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>reelaboració<s n="n"/><s n="f"/></l>   <r>rielaboratzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>educació<s n="n"/><s n="f"/></l>       <r>educatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>llista<s n="n"/><s n="f"/></l>         <r>lista<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>edifici<s n="n"/><s n="m"/></l>        <r>edificiu<s n="n"/><s n="m"/></r></p></e>
@@ -3549,6 +3550,7 @@
 <e>       <p><l>milers<b/>de<s n="pr"/></l>            <r>mìgias<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>arran<b/>de<s n="pr"/></l>             <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>després<b/>de<s n="pr"/></l>           <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
+<e r="LR"><p><l>al<b/>cap<b/>de<s n="pr"/></l>         <r>a<b/>pustis<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>el<b/>cas<b/>de<s n="pr"/></l>   <r>in<b/>su<b/>casu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>comptes<b/>de<s n="pr"/></l>     <r>in<b/>contu<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>arreu<b/>de<s n="pr"/></l>             <r>totu<b/>in<b/>tundu<b/>de<s n="pr"/></r></p></e>
@@ -4925,7 +4927,7 @@
 <e>       <p><l>separació<s n="n"/><s n="f"/></l>      <r>separatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>privilegi<s n="n"/><s n="m"/></l>      <r>privilègiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>parroquial<s n="adj"/></l>             <r>parrochiale<s n="adj"/></r></p></e>
-<e>       <p><l>negociació<s n="n"/><s n="f"/></l>     <r>negatzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>negociació<s n="n"/><s n="f"/></l>     <r>negotziatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>paral·lel<s n="adj"/></l>              <r>parallelu<s n="adj"/></r></p></e>
 <e>       <p><l>capçalera<s n="n"/><s n="f"/></l>      <r>lìtera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bellesa<s n="n"/><s n="f"/></l>        <r>bellesa<s n="n"/><s n="f"/></r></p></e>
@@ -6197,7 +6199,8 @@
 <e>       <p><l>criatura<s n="n"/><s n="f"/></l>       <r>criadura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Acuitània<s n="np"/><s n="loc"/></l>   <r>Aquitània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Oxford<s n="np"/><s n="loc"/></l>      <r>Oxford<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>cotó<s n="n"/><s n="m"/></l>           <r>bambaghe<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cotó<s n="n"/><s n="m"/></l>           <r>cotone<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cotó<s n="n"/><s n="m"/></l>           <r>bambaghe<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>compacte<s n="adj"/></l>               <r>cumpatu<s n="adj"/></r></p><par n="nostre_nostru"/></e>
 <e>       <p><l>traïció<s n="n"/><s n="f"/></l>        <r>traitoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>llegendari<s n="adj"/></l>             <r>legendàriu<s n="adj"/></r></p></e>
@@ -23781,7 +23784,6 @@
 <e>       <p><l>manutenció<s n="n"/><s n="f"/></l>     <r>manutentzione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>migració<s n="n"/><s n="f"/></l>       <r>mesuratzione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>migració<s n="n"/><s n="f"/></l>       <r>migratzione<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>negociació<s n="n"/><s n="f"/></l>     <r>negotziatzione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>nominació<s n="n"/><s n="f"/></l>      <r>nominatzione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>noció<s n="n"/><s n="f"/></l>          <r>notzione<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>obligació<s n="n"/><s n="f"/></l>      <r>obligatzione<s n="n"/><s n="f"/></r></p></e>
