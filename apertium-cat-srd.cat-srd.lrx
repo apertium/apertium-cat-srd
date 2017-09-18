@@ -344,6 +344,46 @@
   </rule>
 
   <rule weight="1.0">
+     <or>
+       <match lemma="camp" tags="n.*"/>
+       <match lemma="fàbrica" tags="n.*"/>
+       <match lemma="factoria" tags="n.*"/>
+       <match lemma="mina" tags="n.*"/>
+       <match lemma="explotació" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+     <or>
+       <match lemma="cotó" tags="n.*"/>
+       <match lemma="llana" tags="n.*"/>
+       <match lemma="seda" tags="n.*"/>
+       <match lemma="fil" tags="n.*"/>
+       <match lemma="paper" tags="n.*"/>
+       <match lemma="drap" tags="n.*"/>
+       <match lemma="roba" tags="n.*"/>
+       <match lemma="plàstic" tags="n.*"/>
+       <match lemma="polièster" tags="n.*"/>
+       <match lemma="nailon" tags="n.*"/>
+       <match lemma="ceràmica" tags="n.*"/>
+       <match lemma="porcellana" tags="n.*"/>
+       <match lemma="bambú" tags="n.*"/>
+       <match lemma="fang" tags="n.*"/>
+       <match lemma="palla" tags="n.*"/>
+       <match lemma="maó" tags="n.*"/>
+       <match lemma="ciment" tags="n.*"/>
+
+       <match lemma="metall" tags="n.*"/>
+       <match lemma="bronze" tags="n.*"/>
+       <match lemma="ferro" tags="n.*"/>
+<!--       <match lemma="or" tags="n.*"/> -->
+       <match lemma="plata" tags="n.*"/>
+       <match lemma="argent" tags="n.*"/>
+       <match lemma="diamant" tags="n.*"/>
+       <match lemma="rubí" tags="n.*"/>
+       <match lemma="maragda" tags="n.*"/>
+     </or>
+  </rule>
+
+  <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
      <match lemma="un" tags="det.*"/>
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
