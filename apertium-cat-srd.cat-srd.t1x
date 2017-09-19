@@ -23,6 +23,16 @@
    <cat-item tags="prn.tn.p3.*"/>
    <cat-item tags="prn.tn.ref.p3.*"/>
 </def-cat>
+<def-cat n="prnproref">
+  <cat-item lemma="em" tags="prn.pro.p1.mf.sg"/>
+  <cat-item lemma="et" tags="prn.pro.p2.mf.sg"/>
+  <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
+  <cat-item lemma="ens" tags="prn.pro.p1.mf.pl"/>
+  <cat-item lemma="us" tags="prn.pro.p2.mf.pl"/>
+</def-cat>
+<def-cat n="es">
+   <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
+</def-cat>
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
 </def-cat>
@@ -78,16 +88,6 @@
 </def-cat>
 <def-cat n="hi">
    <cat-item lemma="hi" tags="prn.pro.adv"/>
-</def-cat>
-<def-cat n="prnproref">
-  <cat-item lemma="em" tags="prn.pro.p1.mf.sg"/>
-  <cat-item lemma="et" tags="prn.pro.p2.mf.sg"/>
-  <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
-  <cat-item lemma="ens" tags="prn.pro.p1.mf.pl"/>
-  <cat-item lemma="us" tags="prn.pro.p2.mf.pl"/>
-</def-cat>
-<def-cat n="es">
-   <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
 </def-cat>
 <def-cat n="algun_prn">
    <cat-item lemma="algun" tags="prn.*"/>
@@ -184,7 +184,7 @@
 <def-cat n="vblex_inf">
    <cat-item tags="vblex.inf"/>
 </def-cat>
-<def-cat n="vbser_est_inf">
+<def-cat n="vbser_estar_inf">
    <cat-item tags="vbser.inf"/>
    <cat-item lemma="estar" tags="vblex.inf"/>
    <cat-item lemma="quedar" tags="vblex.inf"/>
@@ -2557,6 +2557,24 @@
           </let>
         </when>
       </choose>
+    </def-macro>
+
+    <def-macro n="set_gen_tmp_no_mf0" npar="0">
+	<!-- posa a la variable genero_tmp el genere la variable genero si no és mf, sinó posa "m" -->
+        <choose>
+          <when>
+            <test>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+            </test>
+            <let><var n="genero_tmp"/><var n="genero"/></let>
+          </when>
+          <otherwise>
+            <let><var n="genero_tmp"/><lit-tag v="m"/></let>
+          </otherwise>
+        </choose>
     </def-macro>
 
     <def-macro n="set_gen_tmp_no_mf" npar="2">
@@ -5110,47 +5128,6 @@
 </rule>
 
 
-<!--
-<rule comment="regla: es haver pp">
-   <pattern>
-     <pattern-item n="es"/>
-     <pattern-item n="haver-tmp-srd-cnj-p3"/>
-     <pattern-item n="pp"/>
-   </pattern>
-   <action>
-     <out>
-       <chunk name="prn_aux_pp">
-         <tags>
-           <tag><lit-tag v="SV"/></tag>
-         </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <lit v="èssere"/>
-             <lit-tag v="vbser"/>
-             <clip pos="2" side="tl" part="temps"/>
-             <clip pos="2" side="tl" part="pers"/>
-             <clip pos="2" side="tl" part="nbr"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="a_verb"/>
-             <lit-tag v="pp"/>
-             <var n="genero"/>
-             <clip pos="2" side="tl" part="nbr"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-       </chunk>
-     </out>
-   </action>
-</rule>
--->
-
 <rule comment="prnref haver pp > prnref èssere pp: s'ha incorporat > s'est achiridu, m'ha dit > mi at naradu, m'ha arribat > mi est arribadu"> 
   <pattern>
     <pattern-item n="prnproref"/>
@@ -5214,7 +5191,158 @@
     </out>
   </action>
 </rule>  
-    
+
+
+<rule comment="prnref anar_pri inf > prnref èssere pp: es va incorporar > s'est achiridu, em va dir > mi at naradu, em va arribar > mi est arribadu"> 
+  <pattern>
+    <pattern-item n="prnproref"/>
+    <pattern-item n="anar_pri"/>
+    <pattern-item n="inf"/>
+  </pattern>
+  <action>
+    <call-macro n="f_vaux_anar_inf">
+      <with-param pos="2"/>
+      <with-param pos="3"/>
+    </call-macro>
+    <choose>
+      <when>
+        <test>
+          <or>
+            <and>
+              <equal><clip pos="1" side="sl" part="pers"/><clip pos="2" side="sl" part="pers"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></equal>
+                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+              </or>
+            </and>
+            <in caseless="yes"><clip pos="3" side="tl" part="lemh"/><list n="vbambser"/></in>
+          </or>
+        </test>
+        <let><clip pos="2" side="tl" part="lem"/><lit v="èssere"/></let>
+        <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+        <let><clip pos="3" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>
+        <choose>
+          <when>
+            <test>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+            </test>
+            <let><clip pos="3" side="tl" part="gen"/><var n="genero"/></let>
+          </when>
+        </choose>
+      </when>
+    </choose>
+    <out>
+      <chunk name="prn_aux_pp">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>  
+
+
+<rule comment="prnref ifi > prnref èssere pp: s'incorporà > s'est achiridu, em digué > mi at naradu, m'arribà > mi est arribadu"> 
+  <pattern>
+    <pattern-item n="prnproref"/>
+     <pattern-item n="ifi"/>
+  </pattern>
+  <action>
+    <choose>
+      <when>
+        <test>
+          <or>
+            <and>
+              <equal><clip pos="1" side="sl" part="pers"/><clip pos="2" side="sl" part="pers"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></equal>
+                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+              </or>
+            </and>
+            <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+          </or>
+        </test>
+        <call-macro n="set_gen_tmp_no_mf0"></call-macro>
+        <out>
+          <chunk name="prn_aux_pp1">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="èssere"/>
+              <lit-tag v="vbser.pri"/>
+              <clip pos="2" side="tl" part="pers"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="pp"/>
+              <var n="genero_tmp"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+         </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="prn_aux_pp2">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="àere"/>
+              <lit-tag v="vbhaver.pri"/>
+              <clip pos="2" side="tl" part="pers"/>
+              <clip pos="2" side="tl" part="nbr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="pp.m.sg"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>  
 
 
 <rule comment="regla: haver-ifi pp">
@@ -5794,7 +5922,7 @@
 <rule comment="regla: anar_pri ser_inf pp">
    <pattern>
      <pattern-item n="anar_pri"/>
-     <pattern-item n="vbser_est_inf"/>
+     <pattern-item n="vbser_estar_inf"/>
      <pattern-item n="pp"/>
    </pattern>
    <action>
