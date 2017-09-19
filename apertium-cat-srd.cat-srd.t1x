@@ -486,6 +486,7 @@
 <def-var n="concPrimero"/>
 <def-var n="concSegundo"/>
 <def-var n="concTercero"/>
+<def-var n="set_sg"/>
 </section-def-vars>
 
 <section-def-lists>
@@ -2490,6 +2491,69 @@
       </choose>      
     </def-macro>      
 
+
+    <def-macro n="f_carchi2" npar="2">
+      <choose>
+        <when>
+          <test>
+            <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="carchi"/></equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+              </test>
+              <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+            </when>
+          </choose>      
+          <!-- si comença amb consonant, entenc que és subjecte i el verb haurà de passar a singular si va en plural -->
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" side="tl" part="lem"/><lit v="Carchi"/></equal>
+              </test>
+              <let><var n="set_sg"/><lit v="1"/></let>
+            </when>
+            <otherwise>
+              <let><var n="set_sg"/><lit v="0"/></let>
+            </otherwise>
+          </choose>      
+        </when>
+      </choose>      
+    </def-macro>      
+
+    <def-macro n="f_carchi3" npar="3">
+      <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="3"/></call-macro>
+    </def-macro>      
+
+    <def-macro n="f_carchi4" npar="4">
+      <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="3"/></call-macro>
+      <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="4"/></call-macro>
+    </def-macro>      
+
+    <def-macro n="f_set_sg1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><var n="set_sg"/><lit v="1"/></equal>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>      
+      <let><var n="set_sg"/><lit v="0"/></let>
+    </def-macro>      
+
+    <def-macro n="f_set_sg2" npar="2">
+      <call-macro n="f_set_sg1"><with-param pos="1"/></call-macro>
+      <call-macro n="f_set_sg1"><with-param pos="2"/></call-macro>
+    </def-macro>      
+
+
     <def-macro n="f_det_to_adj_pos1" npar="1">
       <let>
         <clip pos="1" side="tl" part="a_pos"/>
@@ -3887,6 +3951,10 @@
       <with-param pos="2"/>
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="f_carchi2">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -4445,6 +4513,11 @@
           <with-param pos="3"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_carchi3">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj">
          <tags>
@@ -4482,6 +4555,11 @@
           <with-param pos="3"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_carchi3">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-nom-adj">
          <tags>
@@ -4512,6 +4590,59 @@
       </action>
     </rule>
 
+<!--
+    <rule comment="regla: det nom adjec adjec"> 
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord4">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_carchi4">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+       <chunk name="det-nom-adj-adj">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="tags"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="3" side="tl" part="lemh"/>
+            <clip pos="3" side="tl" part="tags"/>
+            <clip pos="3" side="tl" part="lemq"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="4" side="tl" part="lemh"/>
+            <clip pos="4" side="tl" part="tags"/>
+            <clip pos="4" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+        </out>
+      </action>
+    </rule>
+-->
+
 <rule comment="regla: det adjec nom"> 
   <pattern>
     <pattern-item n="det"/>
@@ -4523,6 +4654,11 @@
       <with-param pos="3"/>
       <with-param pos="2"/>
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_carchi3">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+      <with-param pos="3"/>
     </call-macro>
     <choose>
       <when>
@@ -4612,6 +4748,11 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_carchi3">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-adj-nom">
          <tags>
@@ -4659,6 +4800,12 @@
       <with-param pos="2"/>
       <with-param pos="4"/>
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_carchi4">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+      <with-param pos="3"/>
+      <with-param pos="4"/>
     </call-macro>
     <choose>
       <when>
@@ -4735,6 +4882,11 @@
       <with-param pos="3"/>
       <with-param pos="2"/>
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_carchi3">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+      <with-param pos="3"/>
     </call-macro>
     <choose>
       <when>
@@ -4879,6 +5031,11 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_carchi3">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+        </call-macro>
         <out>
        <chunk name="det-det-nom">
          <tags>
@@ -4917,6 +5074,12 @@
           <with-param pos="2"/>
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_carchi4">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
         <out>
        <chunk name="det-det-nom-adj">
          <tags>
@@ -4952,6 +5115,9 @@
      <pattern-item n="cni"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case>
        <clip pos="1" side="tl" part="lem"/>
        <lit v="aa"/>
@@ -4986,6 +5152,9 @@
      <pattern-item n="ifi"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
      <choose>
        <when>
@@ -4998,6 +5167,7 @@
 	     </and>
            </or>
          </test>
+        <call-macro n="set_gen_tmp_no_mf0"></call-macro>
          <out>
            <chunk name="èssere_pp">
              <tags>
@@ -5015,7 +5185,8 @@
                <lu>
                  <clip pos="1" side="tl" part="lemh"/>
                  <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
+                 <lit-tag v="pp"/>
+                 <var n="genero_tmp"/>
                  <clip pos="1" side="tl" part="nbr"/>
                  <clip pos="1" side="tl" part="lemq"/>
                </lu>
@@ -5060,6 +5231,10 @@
      <call-macro n="f_concord1">
        <with-param pos="2"/>
      </call-macro>     
+     <call-macro n="f_set_sg2">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
      <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
      <out>
        <chunk name="èssere_pp">
@@ -5104,6 +5279,9 @@
      <call-macro n="f_vaux_pp2">
        <with-param pos="1"/>
        <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
      </call-macro>
      <out>
        <chunk name="aux_pp">
@@ -5351,6 +5529,9 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
      <choose>
        <when>
@@ -5422,6 +5603,9 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case>
        <clip pos="1" side="tl" part="lem"/>
        <lit v="aa"/>
@@ -5517,6 +5701,9 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case>
        <clip pos="1" side="tl" part="lem"/>
        <lit v="aa"/>
@@ -5602,6 +5789,10 @@
      <call-macro n="f_concord1">
        <with-param pos="3"/>
      </call-macro>     
+     <call-macro n="f_set_sg2">
+       <with-param pos="1"/>
+       <with-param pos="3"/>
+     </call-macro>
      <call-macro n="f_vaux_pp3">
        <with-param pos="1"/>
        <with-param pos="2"/>
@@ -5708,6 +5899,10 @@
      <call-macro n="f_concord1">
        <with-param pos="4"/>
      </call-macro>     
+     <call-macro n="f_set_sg2">
+       <with-param pos="1"/>
+       <with-param pos="4"/>
+     </call-macro>
      <call-macro n="f_vaux_pp3">
        <with-param pos="1"/>
        <with-param pos="2"/>
@@ -5826,6 +6021,9 @@
        <with-param pos="1"/>
        <with-param pos="2"/>
      </call-macro>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <chunk name="aux_pp">
          <tags>
@@ -5854,6 +6052,10 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg2">
+       <with-param pos="1"/>
+       <with-param pos="3"/>
+     </call-macro>
      <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
      <choose>
        <when>
@@ -5930,6 +6132,10 @@
        <with-param pos="1"/>
        <with-param pos="2"/>
      </call-macro>
+     <call-macro n="f_set_sg2">
+       <with-param pos="1"/>
+       <with-param pos="3"/>
+     </call-macro>
      <call-macro n="f_concord1">
        <with-param pos="3"/>
      </call-macro>
@@ -5968,6 +6174,9 @@
      <pattern-item n="enc"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
      <call-macro n="f_vaux_anar_inf">
        <with-param pos="1"/>
@@ -6012,6 +6221,9 @@
      <pattern-item n="enc"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <call-macro n="f_li2bi">
        <with-param pos="3"/>
      </call-macro>
@@ -6063,6 +6275,9 @@
      <pattern-item n="fti"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <modify-case>
        <clip pos="1" side="tl" part="lem"/>
        <lit v="aa"/>
@@ -6104,6 +6319,9 @@
      <pattern-item n="vblex"/>
    </pattern>
    <action>
+   <call-macro n="f_set_sg1">
+     <with-param pos="1"/>
+   </call-macro>
      <out>
        <chunk name="v">
          <tags>
@@ -6216,6 +6434,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="pro_vbmod_inf">
@@ -6256,6 +6477,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
          </call-macro>
@@ -6315,6 +6539,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="pro_aere_vbmodpp_inf">
@@ -6365,6 +6592,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="pro_aux-a-inf">
@@ -6421,6 +6651,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="pro_aux-inf">
@@ -6473,6 +6706,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
          </call-macro>
@@ -6544,6 +6780,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
          </call-macro>
@@ -6621,6 +6860,9 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_set_sg1">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
          </call-macro>
@@ -6823,6 +7065,9 @@
      <pattern-item n="estat_sigut"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <chunk name="v-pp">
          <tags>
@@ -6851,6 +7096,9 @@
      <pattern-item n="ger"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <chunk name="estar-ger">
          <tags>
@@ -6888,6 +7136,9 @@
      <pattern-item n="enc"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <chunk name="estar-ger-enc">
          <tags>
@@ -6927,6 +7178,9 @@
      <pattern-item n="enc"/>
    </pattern>
    <action>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
      <out>
        <chunk name="estar-ger-enc-enc">
          <tags>

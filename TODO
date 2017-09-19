@@ -16,10 +16,6 @@
 
 ===Transferència===
 
-cat ../apertium-cat/corpus/corpus_ca_wp20000.txt | grep 00173 | apertium -d . cat-srd-disam | head -n 20
-es + ifi > ref + essere + pp
-
-
 les tres últimes components > sos tres ùrtimos cumponentes
 
 DET N POS ADJ
@@ -32,9 +28,10 @@ ADJ ADV
 Custa iscola est mescamente bella
 (mirar què passa amb N ADV ADJ, ADV ADJ N
 És una noia molt maca
-És un molt gran castell
-
-Està molt ben fet)
+És un molt bon amic
+És un molt bon amic francès
+És un molt bon amic meu
+Està molt ben fet
 
 en alguns països asiàtics > in carchi paisu asiàticu
 alguns escriptors i historiadors han descrit > carchi iscritore e istòricu at descritu
@@ -43,11 +40,12 @@ algunes amebes es comporten com macròfags > carchi ameba si cumportat comente m
 ** es va realitzar > est istadu realizadu
 ** es va constituir > est istadu costituidu
 ** s'han viscut > sunt istados bìvidos
+** es + ifi > ref + essere + pp
 El mateix per al futur i el condicional
 
-al veure, en veure > bidende
+** al veure > bidende
 
-les sinfonies han estat > sas sinfonias sunt istadas
+** les sinfonies han estat > sas sinfonias sunt istadas
 
 hi ha nens > bi ant pitzinnos
 
