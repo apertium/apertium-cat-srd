@@ -1119,9 +1119,10 @@
 <e>       <p><l>densitat<s n="n"/><s n="f"/></l>       <r>densidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>xarxa<s n="n"/><s n="f"/></l>          <r>rete<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>escola<s n="n"/><s n="f"/></l>         <r>iscola<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>insignamentu<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>ensenyança<s n="n"/><s n="f"/></l>     <r>insignamentu<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>amaestramentu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>imparu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>imparòngiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ensenyança<s n="n"/><s n="f"/></l>     <r>insignamentu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ensinistrament<s n="n"/><s n="m"/></l> <r>amaestramentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>destinació<s n="n"/><s n="f"/></l>     <r>destinu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>harmonia<s n="n"/><s n="f"/></l>       <r>armonia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>conte<s n="n"/><s n="m"/></l>          <r>contu<s n="n"/><s n="m"/></r></p></e>
@@ -3820,10 +3821,13 @@
 <e>       <p><l>poc<s n="adj"/><s n="ind"/></l>        <r>pagu<s n="adj"/></r></p></e>
 <e>       <p><l>molt<b/>poc<s n="adj"/></l>            <r>pagu<g><b/>meda</g><s n="adj"/></r></p></e>
 <e>       <p><l>Joan<s n="np"/><s n="ant"/></l>        <r>Joan<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Joan<s n="np"/><s n="ant"/></l>        <r>Giuanne<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e> <e>       <p><l>Joan<b/>Carles<s n="np"/><s n="ant"/></l><r>Joan<b/>Carles<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Joan<s n="np"/><s n="ant"/></l>        <r>Giuanne<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Joan<b/>Carles<s n="np"/><s n="ant"/></l><r>Joan<b/>Carles<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Joan<b/>Carles<s n="np"/><s n="ant"/></l><r>Giuanne<b/>Càralu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Joan<b/>Manuel<s n="np"/><s n="ant"/></l><r>Joan<b/>Manuel<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Joan<b/>Manuel<s n="np"/><s n="ant"/></l><r>Giuanne<b/>Manuelle<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Joan<b/>Josep<s n="np"/><s n="ant"/></l><r>Joan<b/>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Joan<b/>Josep<s n="np"/><s n="ant"/></l><r>Giuanne<b/>Giosepe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>sols<s n="adv"/></l>                   <r>petzi<s n="adv"/></r></p></e>
 <e r="LR"><p><l>solament<s n="adv"/></l>               <r>petzi<s n="adv"/></r></p></e>
 <e r="RL"><p><l>solament<s n="adv"/></l>               <r>solamente<s n="adv"/></r></p></e>
@@ -3922,6 +3926,8 @@
 <e>       <p><l>acceptar<s n="vblex"/></l>             <r>atzetare<s n="vblex"/></r></p></e>
 <e>       <p><l>figura<s n="n"/><s n="f"/></l>         <r>figura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Josep<s n="np"/><s n="ant"/></l>       <r>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Josep<s n="np"/><s n="ant"/></l>       <r>Giosepe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Francesc<b/>Josep<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Frantziscu<b/>Giosepe<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>vaixell<s n="n"/><s n="m"/></l>        <r>naviu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anglès<s n="n"/></l>                   <r>inglesu<s n="n"/></r></p></e>
 <e>       <p><l>exemple<s n="n"/><s n="m"/></l>        <r>esempru<s n="n"/><s n="m"/></r></p></e>
@@ -4460,6 +4466,7 @@
 <e>       <p><l>Bèlgica<s n="np"/><s n="loc"/></l>     <r>Bèlgiu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Brussel·les<s n="np"/><s n="loc"/></l> <r>Bruxelles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Marc<s n="np"/><s n="ant"/></l>        <r>Marc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Marc<s n="np"/><s n="ant"/></l>        <r>Marcu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>pell<s n="n"/><s n="f"/></l>           <r>pedde<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>espanyol<s n="n"/></l>                 <r>ispagnolu<s n="n"/></r></p></e>
 <e>       <p><l>legislatiu<s n="adj"/></l>             <r>legislativu<s n="adj"/></r></p></e>
@@ -5556,6 +5563,9 @@
 <e>       <p><l>decadència<s n="n"/><s n="f"/></l>     <r>decadèntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>pagès<s n="n"/></l>                    <r>massaju<s n="n"/></r></p></e>
 <e>       <p><l>Juli<s n="np"/><s n="ant"/></l>        <r>Juli<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Juli<s n="np"/><s n="ant"/></l>        <r>Giùliu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Gai<s n="np"/><s n="ant"/></l>         <r>Gàiu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Juli<b/>Cèsar<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Giùliu<b/>Tzèsare<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>adreça<s n="n"/><s n="f"/></l>         <r>indiritzu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>adreça<s n="n"/><s n="f"/></l>         <r>filada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>editorial<s n="n"/><s n="mf"/></l>     <r>editoriale<s n="n"/><s n="m"/></r></p></e>
@@ -21128,6 +21138,7 @@
 <e>       <p><l>Nicolàs<s n="np"/><s n="ant"/></l>     <r>Nicolàs<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Judith<s n="np"/><s n="ant"/></l>      <r>Judith<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Lluc<s n="np"/><s n="ant"/></l>        <r>Lluc<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Lluc<s n="np"/><s n="ant"/></l>        <r>Luca<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Blanca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Blanca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Blanca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Bianca<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Eloi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Eloi<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -30368,6 +30379,8 @@
       <e><p><l>pentatló<s n="n"/><s n="m"/><s n="sg"/></l><r>pentathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>biatló<s n="n"/><s n="m"/><s n="sg"/></l><r>biathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>triatló<s n="n"/><s n="m"/><s n="sg"/></l><r>triathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>terratrèmol<s n="n"/><s n="m"/></l><r>terremotu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>terratrèmol<b/>submarí<s n="n"/><s n="m"/></l><r>maremotu<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->

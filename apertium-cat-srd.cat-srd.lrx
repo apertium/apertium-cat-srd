@@ -3987,6 +3987,281 @@
      <match lemma="Llúcia" tags="np.*"><select lemma="Lughia"/></match>
   </rule>
 
+<!-- Josep > Josep, Giosepe -->
+
+  <rule weight="0.6">
+     <match lemma="Josep" tags="np.*"><select lemma="Josep"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Josep" tags="np.*"><select lemma="Giosepe"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Josep" tags="np.*"><select lemma="Giosepe"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Josep" tags="np.*"><select lemma="Giosepe"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Josep" tags="np.*"><select lemma="Giosepe"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Josep" tags="np.*"><select lemma="Giosepe"/></match>
+  </rule>
+
+<!-- Juli > Juli, Giùliu -->
+
+  <rule weight="0.6">
+     <match lemma="Juli" tags="np.*"><select lemma="Juli"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Juli" tags="np.*"><select lemma="Giùliu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Juli" tags="np.*"><select lemma="Giùliu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Juli" tags="np.*"><select lemma="Giùliu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Juli" tags="np.*"><select lemma="Giùliu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Juli" tags="np.*"><select lemma="Giùliu"/></match>
+  </rule>
+
+<!-- Marc > Marc, Marcu -->
+
+  <rule weight="0.6">
+     <match lemma="Marc" tags="np.*"><select lemma="Marc"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marc" tags="np.*"><select lemma="Marcu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marc" tags="np.*"><select lemma="Marcu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marc" tags="np.*"><select lemma="Marcu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Marc" tags="np.*"><select lemma="Marcu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Marc" tags="np.*"><select lemma="Marcu"/></match>
+  </rule>
+
+<!-- Lluc > Lluc, Luca -->
+
+  <rule weight="0.6">
+     <match lemma="Lluc" tags="np.*"><select lemma="Lluc"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
+  </rule>
+
+<!-- Blanca > Blanca, Bianca -->
+
+  <rule weight="0.6">
+     <match lemma="Blanca" tags="np.*"><select lemma="Blanca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="bisbe" tags="n.*"/>
+       <match lemma="arquebisbe" tags="n.*"/>
+       <match lemma="sant" tags="n.*"/>
+       <match lemma="sant" tags="adj.*"/>
+       <match lemma="apòstol" tags="n.*"/>
+       <match lemma="emperador" tags="n.*"/>
+       <match lemma="rei" tags="n.*"/>
+       <match lemma="tsar" tags="n.*"/>
+       <match lemma="virrei" tags="n.*"/>
+       <match lemma="príncep" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="comte" tags="n.*"/>
+       <match lemma="vescomte" tags="n.*"/>
+       <match lemma="duc" tags="n.*"/>
+       <match lemma="arxiduc" tags="n.*"/>
+       <match lemma="marquès" tags="n.*"/>
+       <match lemma="baró" tags="n.*"/>
+     </or>
+     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papat" tags="n.*"/>
+       <match lemma="pontificat" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="regnat" tags="n.*"/>
+       <match lemma="regència" tags="n.*"/>
+     </or>
+     <match lemma="de" tags="pr"/>
+     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
+  </rule>
+
 <!-- Blanca > Blanca, Bianca -->
 
   <rule weight="0.6">
