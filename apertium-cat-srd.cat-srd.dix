@@ -1122,7 +1122,10 @@
 <e>       <p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>imparu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>ensenyament<s n="n"/><s n="m"/></l>    <r>imparòngiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ensenyança<s n="n"/><s n="f"/></l>     <r>insignamentu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>ensinistrament<s n="n"/><s n="m"/></l> <r>amaestramentu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ensinistrament<s n="n"/><s n="m"/></l> <r>annestru<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ensinistrat<s n="adj"/></l>            <r>ammaestradu<s n="adj"/></r></p></e>
+<e>       <p><l>ensinistrar<s n="vblex"/></l>          <r>addestrare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>ensinistrar<s n="vblex"/></l>          <r>ammaestrare<s n="vblex"/></r></p></e>
 <e>       <p><l>destinació<s n="n"/><s n="f"/></l>     <r>destinu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>harmonia<s n="n"/><s n="f"/></l>       <r>armonia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>conte<s n="n"/><s n="m"/></l>          <r>contu<s n="n"/><s n="m"/></r></p></e>
@@ -3401,6 +3404,8 @@
 <e r="RL"><p><l>així<b/>com<s n="cnjadv"/></l>         <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>sinó<s n="cnjcoo"/></l>                <r>si<b/>nono<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>sende<b/>chi<s n="cnjadv"/></r></p></e>
+<e i="yes"><p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>mancari<s n="cnjadv"/></r></p></e>
 <e>       <p><l>fins<b/>que<s n="cnjadv"/></l>         <r>finas<b/>a<b/>cando<s n="cnjadv"/></r></p></e>
 <e>       <p><l>per<b/>tant<s n="cnjadv"/></l>         <r>duncas<s n="cnjadv"/></r></p></e>
 <e>       <p><l>segons<s n="cnjadv"/></l>              <r>segundu<s n="cnjadv"/></r></p></e>
@@ -3414,6 +3419,8 @@
 <e r="RL"><p><l>tal<b/>com<s n="cnjadv"/></l>          <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>després<b/>que<s n="cnjadv"/></l>      <r>a<b/>pustis<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tanmateix<s n="cnjadv"/></l>           <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>tanmateix<s n="cnjadv"/></l>           <r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>tanmateix<s n="cnjadv"/></l>           <r>nointames<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>nogensmenys<s n="cnjadv"/></l>         <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>no<b/>obstant<b/>això<s n="cnjadv"/></l><r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
@@ -3422,6 +3429,7 @@
 <e>       <p><l>atès<b/>que<s n="cnjadv"/></l>         <r>bidu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>així<b/>que<s n="cnjadv"/></l>         <r>a<b/>manera<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>així<b/>que<s n="cnjadv"/></l>         <r>gasi<b/>chi<s n="cnjadv"/></r></p></e>
+<e>       <p><l>així<b/>que<s n="cnjadv"/></l>         <r>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>per<b/>tal<b/>que<s n="cnjadv"/></l>   <r>a<b/>manera<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>sempre<b/>que<s n="cnjadv"/></l>       <r>semper<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>que<b/>no<b/>pas<s n="cnjsub"/></l>    <r>chi<b/>no<s n="cnjsub"/></r></p></e>
@@ -3431,8 +3439,8 @@
 <e r="RL"><p><l>no<b/>obstant<s n="cnjadv"/></l>       <r>sende<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>des<b/>que<s n="cnjadv"/></l>          <r>dae<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>d'ençà<b/>que<s n="cnjadv"/></l>       <r>dae<b/>chi<s n="cnjadv"/></r></p></e>
-<e>       <p><l>tot<b/>i<b/>així<s n="cnjadv"/></l>    <r>in<b/>cada<b/>casu<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>tot<b/>i<b/>així<s n="cnjadv"/></l>    <r>in<b/>cada<b/>manera<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>tot<b/>i<b/>així<s n="cnjadv"/></l>    <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
+<e i="yes"><p><l>tot<b/>i<b/>així<s n="cnjadv"/></l>   <r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>això<b/>no<b/>obstant<s n="cnjadv"/></l><r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>això<b/>no<b/>obstant<s n="cnjadv"/></l><r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>això<b/>no<b/>obstant<s n="cnjadv"/></l><r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
@@ -3444,8 +3452,8 @@
 <e r="RL"><p><l>en<b/>cas<b/>que<s n="cnjadv"/></l>    <r>in<b/>su<b/>casu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>per<b/>a<b/>això<s n="cnjadv"/></l>    <r>pro<b/>su<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>per<b/>a<b/>això<s n="cnjadv"/></l>    <r>pro<b/>cuddu<s n="cnjadv"/></r></p></e>
-<e>       <p><l>tot<b/>i<b/>això<s n="cnjadv"/></l>    <r>però<s n="cnjadv"/></r></p></e>
-<e i="yes"><p><l>tot<b/>i<b/>això<s n="cnjadv"/></l>   <r>nointames<s n="cnjadv"/></r></p></e>
+<e r="LR"><p><l>tot<b/>i<b/>això<s n="cnjadv"/></l>    <r>sende<b/>gasi<s n="cnjadv"/></r></p></e>
+<e i="yes"><p><l>tot<b/>i<b/>això<s n="cnjadv"/></l>   <r>mancari<b/>gasi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>llevat<b/>que<s n="cnjadv"/></l>       <r>a<b/>mancu<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>llevat<b/>que<s n="cnjadv"/></l>       <r>francu<b/>chi<s n="cnjadv"/></r></p></e>
 <e>       <p><l>pel<b/>que<b/>sembla<s n="cnjadv"/></l><r>pro<b/>su<b/>chi<b/>paret<s n="cnjadv"/></r></p></e>
@@ -8280,6 +8288,7 @@
 <e r="LR"><p><l>al<b/>juny<s n="adv"/></l>             <r>in<b/>lampadas<s n="adv"/></r></p></e>
 <e>       <p><l>repte<s n="n"/><s n="m"/></l>          <r>disafiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>enverinar<s n="vblex"/></l>            <r>abbenenare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>emmetzinar<s n="vblex"/></l>           <r>abbenenare<s n="vblex"/></r></p></e>
 <e>       <p><l>emocional<s n="adj"/></l>              <r>emotivu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>Dresden<s n="np"/><s n="loc"/></l>     <r>Dresden<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>consagració<s n="n"/><s n="f"/></l>    <r>beneditzione<s n="n"/><s n="f"/></r></p></e>
@@ -20913,8 +20922,9 @@
 <e>       <p><l>brutal<s n="adj"/></l>                 <r>brutale<s n="adj"/></r></p></e>
 <e>       <p><l>afluència<s n="n"/><s n="f"/></l>      <r>lòmpida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Westfàlia<s n="np"/><s n="loc"/></l>   <r>Westfàlia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>verinós<s n="adj"/></l>                <r>benenosu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>metzinós<s n="adj"/></l>               <r>benenosu<s n="adj"/></r></p></e>
+<e>       <p><l>verinós<s n="adj"/></l>                <r>venenosu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>verinós<s n="adj"/></l>                <r>benenosu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>metzinós<s n="adj"/></l>               <r>venenosu<s n="adj"/></r></p></e>
 <e>       <p><l>fer<g><b/>fora</g><s n="vblex"/></l>   <r>eliminare<s n="vblex"/></r></p></e>
 <e>       <p><l>culminant<s n="adj"/></l>              <r>detzisivu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>culminant<s n="adj"/></l>              <r>chi<b/>àrtziat<b/>a<b/>punta<s n="adj"/></r></p></e>
@@ -26385,6 +26395,7 @@
 <e>       <p><l>mosquit<s n="n"/><s n="m"/></l>        <r>tzìntzula<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Falange<s n="np"/><s n="al"/></l>      <r>Falange<s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>enverinament<s n="n"/><s n="m"/></l>   <r>abbenenamentu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>emmetzinament<s n="n"/><s n="m"/></l>  <r>abbenenamentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>encarnació<s n="n"/><s n="f"/></l>     <r>incarnatzione<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>deixalla<s n="n"/><s n="f"/></l>       <r>restu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>deixalla<s n="n"/><s n="f"/></l>       <r>sobru<s n="n"/><s n="m"/></r></p></e>
