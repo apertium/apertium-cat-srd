@@ -6340,7 +6340,8 @@
 <e>       <p><l>Pau<s n="np"/><s n="loc"/></l>         <r>Pau<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>alcalde<s n="n"/><s n="m"/></l>        <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>batlle<s n="n"/><s n="m"/></l>         <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>sìndic<s n="n"/><s n="m"/></l>         <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>batle<s n="n"/><s n="m"/></l>          <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>síndic<s n="n"/><s n="m"/></l>         <r>sìndigu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sacerdot<s n="n"/><s n="m"/></l>       <r>satzerdote<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>sacerdot<s n="n"/><s n="m"/></l>       <r>satzerdotu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sacerdot<s n="n"/><s n="f"/></l>       <r>satzerdotissa<s n="n"/><s n="f"/></r></p></e>
@@ -7854,6 +7855,7 @@
 <e>       <p><l>llana<s n="n"/><s n="f"/></l>          <r>lana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>independentista<s n="n"/><s n="mf"/></l><r>indipendentista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>espatlla<s n="n"/><s n="f"/></l>       <r>coddu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>espatla<s n="n"/><s n="f"/></l>       <r>coddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Lorena<s n="np"/><s n="loc"/></l>      <r>Lorena<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Arizona<s n="np"/><s n="loc"/></l>     <r>Aritzona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>triple<s n="adj"/></l>                 <r>triplu<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -23271,7 +23273,9 @@
 <e>       <p><l>Discovery<s n="np"/><s n="al"/></l>    <r>Discovery<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>decisivament<s n="adv"/></l>           <r>detzisamente<s n="adv"/></r></p></e>
 <e>       <p><l>ametlla<s n="n"/><s n="f"/></l>        <r>mèndula<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>ametla<s n="n"/><s n="f"/></l>        <r>mèndula<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ametller<s n="n"/><s n="m"/></l>       <r>àrbore<g><b/>de<b/>mèndula</g><s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>ametler<s n="n"/><s n="m"/></l>       <r>àrbore<g><b/>de<b/>mèndula</g><s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>força<s n="adv"/></l>       <r>a<b/>fortza<s n="adv"/></r></p></e>
 <e>       <p><l>Segrià<s n="np"/><s n="loc"/></l>      <r>Segrià<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>esvair<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
