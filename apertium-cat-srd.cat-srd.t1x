@@ -6163,7 +6163,7 @@
 </rule>
 
 
-<rule comment="regla: hi haver npl: hi ha altres nens > b'ant àterus pitzinnos, hi ha alguns nens > b'at carchi pitzinnu">
+<rule comment="regla: hi haver det_pl nom: hi ha altres nens > b'ant àterus pitzinnos, hi ha alguns nens > b'at carchi pitzinnu">
    <pattern>
      <pattern-item n="hi"/>
      <pattern-item n="haver-tmp-srd-cnj-p3sg"/>
@@ -6219,6 +6219,102 @@
      </out>
    </action>
 </rule>
+
+
+<rule comment="regla: hi haver num nom: hi ha dos nens > b'ant duos pitzinnos, hi ha dos terços > b'ant sos tres duos">
+   <pattern>
+     <pattern-item n="hi"/>
+     <pattern-item n="haver-tmp-srd-cnj-p3sg"/>
+     <pattern-item n="num"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="4"/>
+       <with-param pos="3"/>
+     </call-macro>
+     <choose>
+       <when>
+         <test>
+           <not><equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></equal></not>
+         </test>
+         <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="b'ant">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+       <b pos="2"/>
+    </out>
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes"><clip pos="4" side="sl" part="lemh"/><list n="trencats"/></in>
+        </test>
+        <out>
+          <chunk name="det-nom-num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="3">
+                <lit v="su"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <var n="genero"/>
+              <var n="numero"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="num-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <clip pos="3" side="tl" part="whole"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+  </action>
+</rule>
+
 
 
 <rule comment="regla: anar_pri inf">

@@ -8919,7 +8919,6 @@
 <e>       <p><l>kurd<s n="n"/></l>                     <r>curdu<s n="n"/></r></p></e>
 <e>       <p><l>dubtós<s n="adj"/></l>                 <r>dudosu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>dubtós<s n="adj"/></l>                 <r>indetzisu<s n="adj"/></r></p></e>
-<e>       <p><l>costós<s n="adj"/></l>                 <r>caru<s n="adj"/></r></p></e>
 <e>       <p><l>tirà<s n="n"/></l>                     <r>tirannu<s n="n"/></r></p></e>
 <e>       <p><l>preservació<s n="n"/><s n="f"/></l>    <r>amparu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>per<b/>segona<b/>vegada<s n="adv"/></l><r>pro<b/>sa<b/>segunda<b/>borta<s n="adv"/></r></p></e>
@@ -9301,7 +9300,6 @@
 <e>       <p><l>canviar<g><b/>el<b/>nom</g><s n="vblex"/></l><r>cambiare<g><b/>su<b/>nùmene</g><s n="vblex"/></r></p></e>
 <e>       <p><l>comarcal<s n="adj"/><s n="mf"/></l>    <r>de<b/>sa<b/>contrada<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>concentrar<g><b/>en</g><s n="vblex"/></l><r>cuntzentrare<g><b/>in</g><s n="vblex"/></r></p></e>
-<e>       <p><l>amorós<s n="adj"/></l>                 <r>de<b/>amore<s n="adj"/></r></p><par n="GD+ND_mf+sp"/></e>
 <e>       <p><l>restant<s n="adj"/></l>                <r>chi<b/>abarrat<s n="adj"/></r></p></e>
 <e r="RL"><p><l>restant<s n="adj"/></l>                <r>chi<b/>sobrat<s n="adj"/></r></p></e>
 <e>       <p><l>dorsal<s n="adj"/><s n="mf"/></l>      <r>de<b/>palas<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
@@ -23017,7 +23015,11 @@
 <e>       <p><l>sepultar<s n="vblex"/></l>             <r>interrare<s n="vblex"/></r></p></e>
 <e>       <p><l>secretaria<s n="n"/><s n="f"/></l>     <r>segreteria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>paradís<s n="n"/><s n="m"/></l>        <r>paradisu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>moc<s n="n"/><s n="m"/></l>            <r>mucu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mucosa<s n="n"/><s n="f"/></l>         <r>mucosa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mucositat<s n="n"/><s n="f"/></l>      <r>muscosidade<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mucós<s n="adj"/></l>                  <r>muscosu<s n="adj"/></r></p></e>
+<e>       <p><l>musculós<s n="adj"/></l>               <r>musculosu<s n="adj"/></r></p></e>
 <e>       <p><l>Marràqueix<s n="np"/><s n="loc"/></l>  <r>Marrakech<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Madeira<s n="np"/><s n="loc"/></l>     <r>Madèira<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>donzella<s n="n"/><s n="f"/></l>       <r>bajana<s n="n"/><s n="f"/></r></p></e>
@@ -28585,13 +28587,11 @@
 <e>       <p><l>palès<s n="adj"/></l>                  <r>palesu<s n="adj"/></r></p></e>
 <e>       <p><l>confús<s n="adj"/></l>                 <r>confusu<s n="adj"/></r></p></e>
 <e>       <p><l>soterrat<s n="adj"/></l>               <r>suterradu<s n="adj"/></r></p></e>
-<e>       <p><l>calorós<s n="adj"/></l>                <r>caente<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>convers<s n="adj"/></l>                <r>cunvertidu<s n="adj"/></r></p></e>
 <e>       <p><l>admirador<s n="adj"/></l>              <r>ammiradore<s n="adj"/></r></p></e>
 <e>       <p><l>exponencial<s n="adj"/></l>            <r>esponentziale<s n="adj"/></r></p></e>
 <e>       <p><l>inorgànic<s n="adj"/></l>              <r>inorgànicu<s n="adj"/></r></p></e>
 <e>       <p><l>aeronàutic<s n="adj"/></l>             <r>aeronàuticu<s n="adj"/></r></p></e>
-<e>       <p><l>virtuós<s n="adj"/></l>                <r>balente<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>colonitzador<s n="adj"/></l>           <r>colonizadore<s n="adj"/></r></p></e>
 <e>       <p><l>antiaeri<s n="adj"/></l>               <r>antiaèreu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>antiaeri<s n="adj"/></l>               <r>contraaèreu<s n="adj"/></r></p></e>
@@ -30396,6 +30396,65 @@
       <e><p><l>triatló<s n="n"/><s n="m"/><s n="sg"/></l><r>triathlon<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>terratrèmol<s n="n"/><s n="m"/></l><r>terremotu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>terratrèmol<b/>submarí<s n="n"/><s n="m"/></l><r>maremotu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>conjuntivitis<s n="n"/><s n="f"/></l><r>congiuntivite<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+      <e><p><l>subjuntiu<s n="adj"/></l><r>congiuntivu<s n="adj"/></r></p></e>
+      <e><p><l>acabat<s n="adj"/></l><r>acabadu<s n="adj"/></r></p></e>
+      <e><p><l>carenat<s n="n"/><s n="m"/></l><r>carenadu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>granat<s n="adj"/></l><r>granadu<s n="adj"/></r></p></e>
+      <e><p><l>gruista<s n="n"/></l><r>gruista<s n="n"/></r></p></e>
+      <e><p><l>hipermercat<s n="n"/><s n="m"/></l><r>ipermercadu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>honrat<s n="adj"/></l><r>onradu<s n="adj"/></r></p></e>
+      <e><p><l>immaculat<s n="adj"/></l><r>immaculadu<s n="adj"/></r></p></e>
+      <e><p><l>immigrat<s n="adj"/></l><r>immigradu<s n="adj"/></r></p></e>
+      <e><p><l>lenitiu<s n="adj"/></l><r>lenitivu<s n="adj"/></r></p></e>
+      <e><p><l>malaurat<s n="adj"/></l><r>malauradu<s n="adj"/></r></p></e>
+      <e><p><l>orientalista<s n="n"/></l><r>orientalista<s n="n"/></r></p></e>
+      <e><p><l>pecador<s n="n"/></l><r>pecadore<s n="n"/></r></p></e>
+      <e><p><l>performatiu<s n="adj"/></l><r>performativu<s n="adj"/></r></p></e>
+      <e><p><l>peroració<s n="n"/><s n="f"/></l><r>peroratzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>purificat<s n="adj"/></l><r>purificadu<s n="adj"/></r></p></e>
+      <e><p><l>rectorat<s n="n"/><s n="m"/></l><r>retoradu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>satiritzar<s n="vblex"/></l><r>satirizare<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>destacat<s n="adj"/></l><r>distacadu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>documentat<s n="adj"/></l><r>documentadu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>extremat<s n="adj"/></l><r>estremadu<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>conglomerat<s n="n"/><s n="m"/></l><r>conglomeradu<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>desocupat<s n="n"/></l><r>disocupadu<s n="n"/></r></p></e>
+      <e r="LR"><p><l>pugilat<s n="n"/><s n="m"/></l><r>pugiladu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>airós<s n="adj"/></l><r>airosu<s n="adj"/></r></p></e>
+      <e><p><l>contenciós<s n="adj"/></l><r>cuntentziosu<s n="adj"/></r></p></e>
+      <e><p><l>deliciós<s n="adj"/></l><r>delitziosu<s n="adj"/></r></p></e>
+      <e><p><l>dolós<s n="adj"/></l><r>dolosu<s n="adj"/></r></p></e>
+      <e><p><l>escandalós<s n="adj"/></l><r>iscandalosu<s n="adj"/></r></p></e>
+      <e><p><l>escumós<s n="adj"/></l><r>iscumosu<s n="adj"/></r></p></e>
+      <e><p><l>gustós<s n="adj"/></l><r>gustosu<s n="adj"/></r></p></e>
+      <e><p><l>mafiós<s n="adj"/></l><r>mafiosu<s n="adj"/></r></p></e>
+      <e><p><l>maliciós<s n="adj"/></l><r>malitziosu<s n="adj"/></r></p></e>
+      <e><p><l>merdós<s n="adj"/></l><r>merdosu<s n="adj"/></r></p></e>
+      <e><p><l>morbós<s n="adj"/></l><r>morbosu<s n="adj"/></r></p></e>
+      <e><p><l>morós<s n="adj"/></l><r>morosu<s n="adj"/></r></p></e>
+      <e><p><l>onerós<s n="adj"/></l><r>onerosu<s n="adj"/></r></p></e>
+      <e><p><l>penós<s n="adj"/></l><r>penosu<s n="adj"/></r></p></e>
+      <e><p><l>piadós<s n="adj"/></l><r>piadosu<s n="adj"/></r></p></e>
+      <e><p><l>populós<s n="adj"/></l><r>populosu<s n="adj"/></r></p></e>
+      <e><p><l>portentós<s n="adj"/></l><r>portentosu<s n="adj"/></r></p></e>
+      <e><p><l>primorós<s n="adj"/></l><r>primorosu<s n="adj"/></r></p></e>
+      <e><p><l>prodigiós<s n="adj"/></l><r>prodigiosu<s n="adj"/></r></p></e>
+      <e><p><l>sedós<s n="adj"/></l><r>sedosu<s n="adj"/></r></p></e>
+      <e><p><l>sucós<s n="adj"/></l><r>sutzosu<s n="adj"/></r></p></e>
+      <e><p><l>supersticiós<s n="adj"/></l><r>superstitziosu<s n="adj"/></r></p></e>
+      <e><p><l>tenebrós<s n="adj"/></l><r>tenebrosu<s n="adj"/></r></p></e>
+      <e><p><l>viciós<s n="adj"/></l><r>vitziosu<s n="adj"/></r></p></e>
+      <e><p><l>voluntariós<s n="adj"/></l><r>voluntariosu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>abundós<s n="adj"/></l><r>abbundosu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>acabat<s n="adj"/></l><r>acabbadu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>ambiciós<s n="adj"/></l><r>ambitziosu<s n="adj"/></r></p></e>
+      <e><p><l>amorós<s n="adj"/></l><r>amorosu<s n="adj"/></r></p></e>
+      <e><p><l>calorós<s n="adj"/></l><r>calorosu<s n="adj"/></r></p></e>
+      <e><p><l>costós<s n="adj"/></l><r>costosu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>grandiós<s n="adj"/></l><r>grandiosu<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>nerviós<s n="adj"/></l><r>nerviosu<s n="adj"/></r></p></e>
+      <e><p><l>virtuós<s n="adj"/></l><r>virtuosu<s n="adj"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->
