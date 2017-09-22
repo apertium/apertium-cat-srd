@@ -764,17 +764,22 @@
 
 <!-- hi ha > b'at -->
 
+  <rule weight="0.6">
+     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
+  </rule>
   <rule weight="1.0">
      <match lemma="hi" tags="prn.pro.adv"><select lemma="bi" tags="prn.*"/></match>
      <match tags="vbhaver.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="hi" tags="prn.pro.adv"><select lemma="bi" tags="prn.*"/></match>
+     <match lemma="anar" tags="vblex.pri.p3.*"/>
+     <match tags="vbhaver.inf"/>
   </rule>
   <rule weight="1.2">
      <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
      <match tags="vbhaver.*"/>
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/><match tags="vbser.pp.*"/></or>
-  </rule>
-  <rule weight="0.6">
-     <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
   </rule>
 
 <!-- estar > èssere, istare -->

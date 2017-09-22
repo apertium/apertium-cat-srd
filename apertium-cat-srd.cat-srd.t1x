@@ -46,6 +46,9 @@
 <def-cat n="det_pl">
    <cat-item tags="det.*.pl"/>
 </def-cat>
+<def-cat n="det_pos_pl">
+   <cat-item tags="det.pos.*.pl"/>
+</def-cat>
 <def-cat n="un">
    <cat-item lemma="un" tags="det.*"/>
 </def-cat>
@@ -116,6 +119,9 @@
 <def-cat n="haver_p3">
    <cat-item lemma="haver" tags="vbhaver.*.p3.sg"/>
 </def-cat>
+<def-cat n="haver-inf">
+   <cat-item lemma="haver" tags="vbhaver.inf"/>
+</def-cat>
 <def-cat n="haver-ifi">
    <cat-item lemma="haver" tags="vbhaver.ifi.*"/>
 </def-cat>
@@ -153,6 +159,9 @@
 </def-cat>
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
+</def-cat>
+<def-cat n="anar_pri_p3sg">
+   <cat-item lemma="anar" tags="vblex.pri.p3.sg"/>
 </def-cat>
 <def-cat n="nptop">
    <cat-item tags="np.top.*"/>
@@ -6163,6 +6172,111 @@
 </rule>
 
 
+<rule comment="regla: hi haver det_pos_pl nom: hi ha els meus amics > b'ant sus amigos meos, hi havia els meus pares > b'aiant babbos meos">
+   <pattern>
+     <pattern-item n="hi"/>
+     <pattern-item n="haver-tmp-srd-cnj-p3sg"/>
+     <pattern-item n="det_pos_pl"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="4"/>
+       <with-param pos="3"/>
+     </call-macro>
+    <call-macro n="f_det_to_adj_pos1">
+      <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="set_gen_tmp_no_mf">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+    </call-macro>
+    <call-macro n="set_num_tmp_no_sp">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+    </call-macro>
+    <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+    <out>
+       <chunk name="b'ant_det_n">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+       <b pos="2"/>
+    </out>
+     <choose>
+       <when>
+         <test>
+           <in caseless="yes"><clip pos="4" side="sl" part="lemh"/><list n="familiars"/></in>
+         </test>
+         <out>
+           <chunk name="poss-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="gen"/>
+               <clip pos="4" side="tl" part="nbr"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <clip pos="3" side="tl" part="a_pos"/>
+               <clip pos="3" side="tl" part="gen"/>
+               <clip pos="3" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="poss-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <lit v="su"/>
+               <lit-tag v="det.def"/>
+               <var n="genero_tmp"/>
+               <var n="numero_tmp"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="a_nom"/>
+               <clip pos="4" side="tl" part="gen"/>
+               <clip pos="4" side="tl" part="nbr"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <clip pos="3" side="tl" part="a_pos"/>
+               <clip pos="3" side="tl" part="gen"/>
+               <clip pos="3" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+  </action>
+</rule>
+
+
 <rule comment="regla: hi haver det_pl nom: hi ha altres nens > b'ant àterus pitzinnos, hi ha alguns nens > b'at carchi pitzinnu">
    <pattern>
      <pattern-item n="hi"/>
@@ -6315,6 +6429,62 @@
   </action>
 </rule>
 
+
+<rule comment="regla: hi va haver npl: hi va haver nens > b'ant àpidu pitzinnos">
+   <pattern>
+     <pattern-item n="hi"/>
+     <pattern-item n="anar_pri_p3sg"/>
+     <pattern-item n="haver-inf"/>
+     <pattern-item n="nom_pl"/>
+   </pattern>
+   <action>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="2"/>
+       <with-param pos="3"/>
+     </call-macro>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>
+     <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+     <choose>
+       <when>
+         <test>
+	   <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="èssere"/></equal>
+         </test>
+         <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+       </when>
+     </choose>
+     <let><var n="set_sg"/><lit v="0"/></let>
+     <out>
+       <chunk name="bi_aux_pp_n">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="tags"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
 
 <rule comment="regla: anar_pri inf">
