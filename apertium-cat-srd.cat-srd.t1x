@@ -3868,7 +3868,45 @@
       </lu>
     </chunk>
     </out>
+  </action>
+</rule>
 
+<rule comment="regla: nom adjec adjec"> 
+  <pattern>
+    <pattern-item n="nom"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="adjec_no_pp"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord3">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+      <with-param pos="3"/>
+    </call-macro>
+    <out>
+   <chunk name="nom-adj-adj">
+     <tags>
+       <tag><lit-tag v="SN"/></tag>
+     </tags>
+      <lu>
+        <clip pos="1" side="tl" part="lemh"/>
+        <clip pos="1" side="tl" part="tags"/>
+        <clip pos="1" side="tl" part="lemq"/>
+      </lu>
+      <b pos="1"/>
+      <lu>
+        <clip pos="2" side="tl" part="lemh"/>
+        <clip pos="2" side="tl" part="tags"/>
+        <clip pos="2" side="tl" part="lemq"/>
+      </lu>
+      <b pos="2"/>
+      <lu>
+        <clip pos="3" side="tl" part="lemh"/>
+        <clip pos="3" side="tl" part="tags"/>
+        <clip pos="3" side="tl" part="lemq"/>
+      </lu>
+    </chunk>
+    </out>
   </action>
 </rule>
 
@@ -4038,7 +4076,7 @@
 </rule>
 
 
-<rule comment="regla: det_pos nom adjec: la meva ciutat estimada > sa tzitade mea amada, llurs orelles grans > sas origras mannas issoro"> 
+<rule comment="regla: det_pos nom adjec: la meva ciutat estimada > sa tzitade amada mea, llurs orelles grans > sas origras mannas issoro"> 
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -4061,97 +4099,49 @@
       <with-param pos="2"/>
       <with-param pos="3"/>
     </call-macro>
-    <choose>
-      <when>
-        <test>
-          <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="issoro"/></equal>
-        </test>
-        <out>
-          <chunk name="det-nom-adj-pos">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <lit v="su"/>
-               </get-case-from>
-               <lit-tag v="det.def"/>
-               <var n="genero_tmp"/>
-               <var n="numero_tmp"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_nom"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <clip pos="3" side="tl" part="lemh"/>
-               <clip pos="3" side="tl" part="a_adjec"/>
-               <clip pos="3" side="tl" part="gen"/>
-               <clip pos="3" side="tl" part="nbr"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_pos"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-      </when>
-      <otherwise>
-        <out>
-          <chunk name="det-nom-adj-pos">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <lit v="su"/>
-               </get-case-from>
-               <lit-tag v="det.def"/>
-               <var n="genero_tmp"/>
-               <var n="numero_tmp"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_nom"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_pos"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <clip pos="3" side="tl" part="lemh"/>
-               <clip pos="3" side="tl" part="a_adjec"/>
-               <clip pos="3" side="tl" part="gen"/>
-               <clip pos="3" side="tl" part="nbr"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-      </otherwise>
-    </choose>
+    <out>
+      <chunk name="det-nom-adj-pos">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="su"/>
+           </get-case-from>
+           <lit-tag v="det.def"/>
+           <var n="genero_tmp"/>
+           <var n="numero_tmp"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_nom"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_adjec"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_pos"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
   </action>
 </rule>
 
-<rule comment="regla: det_pos nom adjec: les meves orelles grandíssimes > sas origras meas mannas a beru, llurs orelles grans > sas origras mannas issoro"> 
+<rule comment="regla: det_pos nom adjec: les meves orelles grandíssimes > sas origras meas mannas a beru, llurs orelles grans > sas origras issoro mannas a beru"> 
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -4174,103 +4164,50 @@
       <with-param pos="2"/>
       <with-param pos="3"/>
     </call-macro>
-    <choose>
-      <when>
-        <test>
-          <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="issoro"/></equal>
-        </test>
-        <out>
-          <chunk name="det-nom-adj-pos">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <lit v="su"/>
-               </get-case-from>
-               <lit-tag v="det.def"/>
-               <var n="genero_tmp"/>
-               <var n="numero_tmp"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_nom"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <clip pos="3" side="tl" part="lemh"/>
-               <clip pos="3" side="tl" part="a_adjec"/>
-               <clip pos="3" side="tl" part="gen"/>
-               <clip pos="3" side="tl" part="nbr"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <lit v="a beru"/>
-               <lit-tag v="adv"/>
-             </lu>
-             <b/>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_pos"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-      </when>
-      <otherwise>
-        <out>
-          <chunk name="det-nom-adj-pos">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <lit v="su"/>
-               </get-case-from>
-               <lit-tag v="det.def"/>
-               <var n="genero_tmp"/>
-               <var n="numero_tmp"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="a_nom"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <clip pos="1" side="tl" part="lemh"/>
-               <clip pos="1" side="tl" part="a_pos"/>
-               <clip pos="1" side="tl" part="gen"/>
-               <clip pos="1" side="tl" part="nbr"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-             <b pos="2"/>
-             <lu>
-               <clip pos="3" side="tl" part="lemh"/>
-               <clip pos="3" side="tl" part="a_adjec"/>
-               <clip pos="3" side="tl" part="gen"/>
-               <clip pos="3" side="tl" part="nbr"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <lit v="a beru"/>
-               <lit-tag v="adv"/>
-             </lu>
-           </chunk>
-         </out>
-      </otherwise>
-    </choose>
+    <out>
+      <chunk name="det-nom-adj-pos">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="su"/>
+           </get-case-from>
+           <lit-tag v="det.def"/>
+           <var n="genero_tmp"/>
+           <var n="numero_tmp"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="a_nom"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_pos"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_adjec"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a beru"/>
+           <lit-tag v="adv"/>
+         </lu>
+       </chunk>
+     </out>
   </action>
 </rule>
 
@@ -4712,13 +4649,12 @@
       </action>
     </rule>
 
-<!--
     <rule comment="regla: det nom adjec adjec"> 
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
         <pattern-item n="adjec"/>
-        <pattern-item n="adjec"/>
+        <pattern-item n="adjec_no_pp"/>
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -4763,7 +4699,6 @@
         </out>
       </action>
     </rule>
--->
 
 <rule comment="regla: det adjec nom"> 
   <pattern>
