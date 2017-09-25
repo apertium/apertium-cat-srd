@@ -56,6 +56,7 @@
    <cat-item lemma="el" tags="det.def.m.sg"/>
 </def-cat>
 <def-cat n="num">
+   <cat-item tags="num"/>
    <cat-item tags="num.*"/>
 </def-cat>
 <def-cat n="nom">
@@ -344,6 +345,20 @@
 </def-cat>
 <def-cat n="com">
    <cat-item lemma="com" tags="rel.adv"/>
+</def-cat>
+<def-cat n="mes">
+   <cat-item lemma="gener" tags="n.*"/>
+   <cat-item lemma="febrer" tags="n.*"/>
+   <cat-item lemma="març" tags="n.*"/>
+   <cat-item lemma="abril" tags="n.*"/>
+   <cat-item lemma="maig" tags="n.*"/>
+   <cat-item lemma="juny" tags="n.*"/>
+   <cat-item lemma="juliol" tags="n.*"/>
+   <cat-item lemma="agost" tags="n.*"/>
+   <cat-item lemma="setembre" tags="n.*"/>
+   <cat-item lemma="octubre" tags="n.*"/>
+   <cat-item lemma="novembre" tags="n.*"/>
+   <cat-item lemma="desembre" tags="n.*"/>
 </def-cat>
 <def-cat n="tercer_quart_etc">
    <cat-item lemma="tercer" tags="adj.*"/>
@@ -5167,6 +5182,49 @@
     </rule>
 
 
+<rule comment="regla: mes de num: maig de 2017 > maju de su 2017">
+  <pattern>
+    <pattern-item n="mes"/>
+    <pattern-item n="de"/>
+    <pattern-item n="num"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>
+    <out>
+      <chunk name="mes-de-su-any">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <lit v="su"/>
+          <lit-tag v="det.def.m.sg"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+
 <rule comment="regla: cni">
    <pattern>
      <pattern-item n="cni"/>
@@ -7827,7 +7885,6 @@
 </rule>
 
 
-
 <rule comment="regla: algun de det: algunes de les característiques > calicunas caraterìsticas">
    <pattern>
      <pattern-item n="algun_prn"/>
@@ -7901,7 +7958,6 @@
      </out>
    </action>
 </rule>
-
 
 </section-rules>
 
