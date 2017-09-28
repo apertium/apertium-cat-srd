@@ -158,6 +158,8 @@ llegir_dix('srd', $fdixsrd, \%dix_srd);
 llegir_dix('cat', $fdixcat, \%dix_cat);
 llegir_bidix($fdixbi, \%dix_bi);
 
+my $nbr_entrades = 0;
+
 <STDIN>;	# saltem la primera línia
 my ($stem_cat, $stem_srd, $gen_cat, $gen_srd, $num_cat, $num_srd, $lemma_cat, $lemma_srd);
 while (my $linia = <STDIN>) {
@@ -172,6 +174,7 @@ while (my $linia = <STDIN>) {
 	}
 
 	next unless $dades[3];			# línia buida
+	$nbr_entrades++;
 	next if $dades[5] =~ /\?/o;		# dubtes
 	next if length $dades[1] == 1;		# una sola lletra
 #print "99. $. dades[1] = $dades[1]\n" if length $dades[1] == 1;	# una sola lletra
@@ -925,3 +928,5 @@ print "No es troba dix_srd{$gram_srd}{$lemma_srd}. Es prova de generar $lemma_sr
 	}
 
 }
+
+print "nbr_entrades = $nbr_entrades\n";
