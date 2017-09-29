@@ -1440,7 +1440,8 @@
 <e>       <p><l>respecte<s n="n"/><s n="m"/></l>       <r>rispetu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anarquista<s n="n"/><s n="mf"/></l>    <r>anarchista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>marxista<s n="n"/><s n="mf"/></l>      <r>marxista<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>xintoista<s n="n"/><s n="mf"/></l>      <r>shintoista<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>fauvista<s n="n"/><s n="mf"/></l>      <r>fauvista<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>xintoista<s n="n"/><s n="mf"/></l>     <r>shintoista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>leninista<s n="n"/><s n="mf"/></l>     <r>leninista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>maoista<s n="n"/><s n="mf"/></l>       <r>maoista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>hel·lenista<s n="n"/><s n="mf"/></l>   <r>ellenista<s n="n"/><s n="mf"/></r></p></e>
@@ -1473,7 +1474,8 @@
 <e>       <p><l>aviació<s n="n"/><s n="f"/></l>        <r>aviatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>productivitat<s n="n"/><s n="f"/></l>  <r>produtividade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>marxisme<s n="n"/><s n="m"/></l>       <r>marxismu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>xintoisme<s n="n"/><s n="m"/></l>       <r>shintoismu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fauvisme<s n="n"/><s n="m"/></l>       <r>fauvismu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>xintoisme<s n="n"/><s n="m"/></l>      <r>shintoismu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>autista<s n="n"/><s n="mf"/></l>       <r>autista<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>unilateralisme<s n="n"/><s n="m"/></l> <r>unilateralismu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>imperialisme<s n="n"/><s n="m"/></l>   <r>imperialismu<s n="n"/><s n="m"/></r></p></e>
@@ -2511,6 +2513,7 @@
 <e>       <p><l>mundial<s n="adj"/></l>                <r>mundiale<s n="adj"/></r></p></e>
 <e>       <p><l>musical<s n="adj"/></l>                <r>musicale<s n="adj"/></r></p></e>
 <e>       <p><l>napolità<s n="adj"/></l>               <r>napuletanu<s n="adj"/></r></p></e>
+<e>       <p><l>napolità<s n="n"/></l>                 <r>napuletanu<s n="n"/></r></p></e>
 <e>       <p><l>occidental<s n="adj"/></l>             <r>otzidentale<s n="adj"/></r></p></e>
 <e>       <p><l>oficial<s n="adj"/></l>                <r>ufitziale<s n="adj"/></r></p></e>
 <e>       <p><l>cooficial<s n="adj"/></l>              <r>coufitziale<s n="adj"/></r></p></e>
@@ -3860,6 +3863,7 @@
 <e>       <p><l>iniciar<s n="vblex"/></l>              <r>cumintzare<s n="vblex"/></r></p></e>
 <e>       <p><l>millor<s n="adj"/><s n="mf"/></l>      <r>mègius<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e r="LR"><p><l>càrrec<s n="n"/><s n="m"/></l>         <r>incàrrigu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>càrrec<s n="n"/><s n="m"/></l>         <r>càrrigu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>càrrec<s n="n"/><s n="m"/></l>         <r>funtzionàriu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>castell<s n="n"/><s n="m"/></l>        <r>casteddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anterior<s n="adj"/></l>               <r>anteriore<s n="adj"/></r></p><par n="mf_GD"/><par n="nombre"/></e>
@@ -3874,6 +3878,7 @@
 <e>       <p><l>darrer<s n="adj"/></l>                 <r>ùrtimu<s n="adj"/></r></p></e>
 <e>       <p><l>final<s n="n"/><s n="m"/></l>          <r>fine<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>final<s n="n"/><s n="f"/></l>          <r>finale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>semifinal<s n="n"/><s n="f"/></l>      <r>semifinale<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>monoparental<s n="adj"/></l>           <r>monoparentale<s n="adj"/></r></p></e>
 <e>       <p><l>tercer<s n="adj"/></l>                 <r>de<b/>tres<s n="adj"/><s n="ord"/></r></p><par n="GD+ND_mf+sp"/></e>
 <e>       <p><l>sovint<s n="adv"/></l>                 <r>a<b/>s'ispissu<s n="adv"/></r></p></e>
@@ -8548,10 +8553,11 @@
 <e>       <p><l>ciment<s n="n"/><s n="m"/></l>         <r>tzimentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anarquista<s n="adj"/><s n="mf"/></l>  <r>anarchista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>marxista<s n="adj"/><s n="mf"/></l>    <r>marxista<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>xintoista<s n="adj"/><s n="mf"/></l>    <r>shintoista<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>fauvista<s n="adj"/><s n="mf"/></l>    <r>fauvista<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>xintoista<s n="adj"/><s n="mf"/></l>   <r>shintoista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>leninista<s n="adj"/><s n="mf"/></l>   <r>leninista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>maoista<s n="adj"/><s n="mf"/></l>     <r>maoista<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>hel·lenista<s n="adj"/><s n="mf"/></l>  <r>ellenista<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>hel·lenista<s n="adj"/><s n="mf"/></l> <r>ellenista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>existencialista<s n="adj"/><s n="mf"/></l><r>esistentzialista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>fonamentalista<s n="adj"/><s n="mf"/></l><r>fundamentalista<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>deïtat<s n="n"/><s n="f"/></l>         <r>divinidade<s n="n"/><s n="f"/></r></p></e>
@@ -27373,7 +27379,7 @@
 <e>       <p><l>embellir<s n="vblex"/></l>             <r>abbellire<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>embellir<s n="vblex"/></l>             <r>imbellire<s n="vblex"/></r></p></e>
 <e>       <p><l>Cecil<s n="np"/><s n="ant"/></l>       <r>Cecil<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Caldea<s n="np"/><s n="loc"/></l>      <r>Caldea<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Caldea<s n="np"/><s n="loc"/></l>      <r>Caldea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Caldes<b/>de<b/>Montbui<s n="np"/><s n="loc"/></l><r>Caldes<b/>de<b/>Montbui<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>arcàngel<s n="n"/><s n="m"/></l>       <r>arcànghelu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>afaitar<s n="vblex"/></l>              <r>ratzigare<s n="vblex"/></r></p></e>
@@ -28943,7 +28949,7 @@
 <e>       <p><l>distanciar<s n="vblex"/></l>           <r>distantziare<s n="vblex"/></r></p></e>
 <e>       <p><l>reagrupar<s n="vblex"/></l>            <r>torrare<g><b/>a<b/>recollire</g><s n="vblex"/></r></p></e>
 <e>       <p><l>remodelar<s n="vblex"/></l>            <r>torrare<g><b/>a<b/>modellare</g><s n="vblex"/></r></p></e>
-<e>       <p><l>anar<g><b/>fent</g><s n="vblex"/></l>  <r>andare<g><b/>bene</g><s n="vblex"/></r></p></e>
+<!-- <e>       <p><l>anar<g><b/>fent</g><s n="vblex"/></l>  <r>andare<g><b/>bene</g><s n="vblex"/></r></p></e> -->
 <e>       <p><l>cooperar<s n="vblex"/></l>             <r>cooperare<s n="vblex"/></r></p></e>
 <e>       <p><l>segellar<s n="vblex"/></l>             <r>bullare<s n="vblex"/></r></p></e>
 <e>       <p><l>jubilar<s n="vblex"/></l>              <r>andare<g><b/>in<b/>pensione</g><s n="vblex"/></r></p></e>
@@ -32055,6 +32061,25 @@
       <e><p><l>orientalitzar<s n="vblex"/></l><r>orientalizare<s n="vblex"/></r></p></e>
       <e><p><l>occidentalitzar<s n="vblex"/></l><r>otzidentalizare<s n="vblex"/></r></p></e>
       <e><p><l>occidentalització<s n="n"/><s n="f"/></l><r>otzidentalizatzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>florentí<s n="adj"/></l><r>fiorentinu<s n="adj"/></r></p></e>
+      <e><p><l>florentí<s n="n"/></l><r>fiorentinu<s n="n"/></r></p></e>
+      <e><p><l>harmonització<s n="n"/><s n="f"/></l><r>armonizatzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Tennessee<s n="np"/><s n="loc"/></l><r>Tennessee<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Boas<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Boas<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Durkheim<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Durkheim<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Entença<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Entença<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Fishman<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Fishman<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Kroeber<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Kroeber<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Labov<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Labov<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Lakoff<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Lakoff<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Levi<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Levi<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Lowie<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Lowie<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Malinowski<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Malinowski<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Radcliffe<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Radcliffe<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Ramírez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Ramírez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Sapir<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Sapir<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>Trubetskoi<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Trubeckoj<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>van<b/>Gaal<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>van<b/>Gaal<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
 
 
 

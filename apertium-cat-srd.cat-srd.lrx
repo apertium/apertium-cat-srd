@@ -77,6 +77,13 @@
       <match lemma="riu"/>
       <match lemma="llac"/>
       <match lemma="bosc"/>
+      <match lemma="regne"/>
+      <match lemma="corona"/>
+      <match lemma="principat"/>
+      <match lemma="imperi"/>
+      <match lemma="sultanat"/>
+      <match lemma="califat"/>
+      <match lemma="república"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -87,10 +94,43 @@
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
 
-      <match lemma="hora"/>
-      <match lemma="any"/>
-      <match lemma="segle"/>
-      <match lemma="mil·lenni"/>
+      <match lemma="minut" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="dia" tags="n.*"/>
+      <match lemma="setmana" tags="n.*"/>
+      <match lemma="mes" tags="n.*"/>
+      <match lemma="any" tags="n.*"/>
+      <match lemma="dècada" tags="n.*"/>
+      <match lemma="segle" tags="n.*"/>
+      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="periode" tags="n.*"/>
+      <match lemma="període" tags="n.*"/>
+      <match lemma="etapa" tags="n.*"/>
+      <match lemma="infantesa" tags="n.*"/>
+      <match lemma="adolescència" tags="n.*"/>
+      <match lemma="vellesa" tags="n.*"/>
+      <match lemma="edat" tags="n.*"/>
+      <match lemma="edat mitjana" tags="n.*"/>
+      <match lemma="era" tags="n.*"/>
+      <match lemma="època" tags="n.*"/>
+      <match lemma="renaixement" tags="n.*"/>
+      <match lemma="paleozoic" tags="n.*"/>
+      <match lemma="silurià" tags="n.*"/>
+      <match lemma="devonià" tags="n.*"/>
+      <match lemma="carbonífer" tags="n.*"/>
+      <match lemma="permià" tags="n.*"/>
+      <match lemma="mesozoic" tags="n.*"/>
+      <match lemma="cretaci" tags="n.*"/>
+      <match lemma="juràssic" tags="n.*"/>
+      <match lemma="triàsic" tags="n.*"/>
+      <match lemma="cenozoic" tags="n.*"/>
+      <match lemma="paleocè" tags="n.*"/>
+      <match lemma="eocè" tags="n.*"/>
+      <match lemma="oligocè" tags="n.*"/>
+      <match lemma="miocè" tags="n.*"/>
+      <match lemma="pliocè" tags="n.*"/>
+      <match lemma="plistocè" tags="n.*"/>
+      <match lemma="holocè" tags="n.*"/>
 
       <match lemma="braç"/>
       <match lemma="mà"/>
@@ -185,6 +225,13 @@
       <match lemma="riu"/>
       <match lemma="llac"/>
       <match lemma="bosc"/>
+      <match lemma="regne"/>
+      <match lemma="corona"/>
+      <match lemma="principat"/>
+      <match lemma="imperi"/>
+      <match lemma="sultanat"/>
+      <match lemma="califat"/>
+      <match lemma="república"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -195,10 +242,44 @@
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
 
-      <match lemma="hora"/>
-      <match lemma="any"/>
-      <match lemma="segle"/>
-      <match lemma="mil·lenni"/>
+      <match lemma="minut" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="dia" tags="n.*"/>
+      <match lemma="setmana" tags="n.*"/>
+      <match lemma="mes" tags="n.*"/>
+      <match lemma="any" tags="n.*"/>
+      <match lemma="dècada" tags="n.*"/>
+      <match lemma="segle" tags="n.*"/>
+      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="periode" tags="n.*"/>
+      <match lemma="període" tags="n.*"/>
+      <match lemma="etapa" tags="n.*"/>
+      <match lemma="infantesa" tags="n.*"/>
+      <match lemma="adolescència" tags="n.*"/>
+      <match lemma="vellesa" tags="n.*"/>
+      <match lemma="edat" tags="n.*"/>
+      <match lemma="edat mitjana" tags="n.*"/>
+      <match lemma="era" tags="n.*"/>
+      <match lemma="època" tags="n.*"/>
+      <match lemma="renaixement" tags="n.*"/>
+      <match lemma="paleozoic" tags="n.*"/>
+      <match lemma="silurià" tags="n.*"/>
+      <match lemma="devonià" tags="n.*"/>
+      <match lemma="carbonífer" tags="n.*"/>
+      <match lemma="permià" tags="n.*"/>
+      <match lemma="mesozoic" tags="n.*"/>
+      <match lemma="cretaci" tags="n.*"/>
+      <match lemma="juràssic" tags="n.*"/>
+      <match lemma="triàsic" tags="n.*"/>
+      <match lemma="cenozoic" tags="n.*"/>
+      <match lemma="paleocè" tags="n.*"/>
+      <match lemma="eocè" tags="n.*"/>
+      <match lemma="oligocè" tags="n.*"/>
+      <match lemma="miocè" tags="n.*"/>
+      <match lemma="pliocè" tags="n.*"/>
+      <match lemma="plistocè" tags="n.*"/>
+      <match lemma="holocè" tags="n.*"/>
+
     </or>
   </rule>
   <rule weight="1.0">
@@ -379,6 +460,7 @@
        <match lemma="traduir" tags="vblex.*"/>
        <match lemma="dependre" tags="vblex.*"/>
        <match lemma="separar" tags="vblex.*"/>
+       <match lemma="resultar" tags="vblex.*"/>
      </or>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
@@ -405,8 +487,20 @@
        <match lemma="baixar" tags="vblex.*"/>
        <match lemma="traduir" tags="vblex.*"/>
        <match lemma="dependre" tags="vblex.*"/>
+       <match lemma="separar" tags="vblex.*"/>
+       <match lemma="resultar" tags="vblex.*"/>
      </or>
      <match tags="adv"/>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="procedent" tags="vblex.adj*"/>
+       <match lemma="provinent" tags="vblex.adj*"/>
+       <match lemma="sortint" tags="vblex.adj*"/>
+       <match lemma="resultant" tags="vblex.adj*"/>
+     </or>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
@@ -1416,9 +1510,35 @@
        <match lemma="any" tags="n.*"/>
        <match lemma="dècada" tags="n.*"/>
        <match lemma="segle" tags="n.*"/>
+       <match lemma="mil·leni" tags="n.*"/>
        <match lemma="periode" tags="n.*"/>
        <match lemma="període" tags="n.*"/>
        <match lemma="etapa" tags="n.*"/>
+       <match lemma="infantesa" tags="n.*"/>
+       <match lemma="adolescència" tags="n.*"/>
+       <match lemma="vellesa" tags="n.*"/>
+       <match lemma="edat" tags="n.*"/>
+       <match lemma="edat mitjana" tags="n.*"/>
+       <match lemma="era" tags="n.*"/>
+       <match lemma="època" tags="n.*"/>
+       <match lemma="renaixement" tags="n.*"/>
+       <match lemma="paleozoic" tags="n.*"/>
+       <match lemma="silurià" tags="n.*"/>
+       <match lemma="devonià" tags="n.*"/>
+       <match lemma="carbonífer" tags="n.*"/>
+       <match lemma="permià" tags="n.*"/>
+       <match lemma="mesozoic" tags="n.*"/>
+       <match lemma="cretaci" tags="n.*"/>
+       <match lemma="juràssic" tags="n.*"/>
+       <match lemma="triàsic" tags="n.*"/>
+       <match lemma="cenozoic" tags="n.*"/>
+       <match lemma="paleocè" tags="n.*"/>
+       <match lemma="eocè" tags="n.*"/>
+       <match lemma="oligocè" tags="n.*"/>
+       <match lemma="miocè" tags="n.*"/>
+       <match lemma="pliocè" tags="n.*"/>
+       <match lemma="plistocè" tags="n.*"/>
+       <match lemma="holocè" tags="n.*"/>
      </or>
      <match lemma="anterior" tags="adj.*"><select lemma="in antis"/></match>
   </rule>
@@ -1630,10 +1750,10 @@
      </or>
   </rule>
 
-<!-- càrrec > incàrrigu, funtzionàriu -->
+<!-- càrrec > càrrigu, incàrrigu, funtzionàriu -->
 
   <rule weight="0.6">
-     <match lemma="càrrec" tags="n.*"><select lemma="incàrrigu"/></match>
+     <match lemma="càrrec" tags="n.*"><select lemma="càrrigu"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="càrrec" tags="n.*"><select lemma="funtzionàriu"/></match>
