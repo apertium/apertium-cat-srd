@@ -5,9 +5,6 @@
 
 <rules>
   <rule weight="0.6">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
@@ -854,9 +851,9 @@
   </rule>
 
 
-<!-- **************** VBLEX **************** -->
+<!-- **************** PRN **************** -->
 
-<!-- hi ha > b'at -->
+<!-- hi > nche, bi (hi ha > b'at) -->
 
   <rule weight="0.6">
      <match lemma="hi" tags="prn.pro.adv"><select lemma="nche" tags="prn.*"/></match>
@@ -875,6 +872,9 @@
      <match tags="vbhaver.*"/>
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/><match tags="vbser.pp.*"/></or>
   </rule>
+
+
+<!-- **************** VBLEX **************** -->
 
 <!-- estar > èssere, istare -->
 
@@ -989,7 +989,7 @@
      <match tags="prn.enc.ref.*"/>
   </rule>
 
-<!-- violare > violare, violentare -->
+<!-- violar > violare, violentare -->
 
   <rule weight="0.6">
      <match lemma="violar" tags="vblex.*"><select lemma="violare"/></match>
@@ -1741,6 +1741,11 @@
      <match lemma="dret" tags="n.*"/>
   </rule>
   <rule weight="1.0">
+     <match lemma="joc" tags="n.*"/>
+     <match lemma="de" tags="pr"/>
+     <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
+  </rule>
+  <rule weight="1.0">
      <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
      <match lemma="de" tags="pr"/>
      <match tags="det.*"/>
@@ -1919,6 +1924,15 @@
   <rule weight="0.6">
      <match lemma="got" tags="n.*"><select lemma="gotu"/></match>
   </rule>
+  <rule weight="1.0">
+     <match lemma="got" tags="n.*"><select lemma="tassa"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="got" tags="n.*"><select lemma="gotu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
 
 <!-- guàrdia > guàrdia, guardianu -->
 
@@ -1972,6 +1986,50 @@
   </rule>
   <rule weight="0.6">
      <match lemma="cargol" tags="n.m.*"><select lemma="corrobaca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="caragol" tags="n.m.*"><select lemma="vite"/></match>
+     <or>
+       <match lemma="pla" tags="adj.*"/>
+       <match lemma="quadrat" tags="adj.*"/>
+       <match lemma="hexagonal" tags="adj.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="caragol" tags="n.m.*"><select lemma="vite"/></match>
+     <match lemma="en" tags="pr"/>
+     <match lemma="estrella" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="caragol" tags="n.m.*"><select lemma="vite"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="pala" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="caragol" tags="n.m.*"><select lemma="vite"/></match>
+     <or><match tags="np.cog.*"/><match tags="np.al.*"/></or> <!-- Philips, Allen, etc. -->
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cargol" tags="n.m.*"><select lemma="vite"/></match>
+     <or>
+       <match lemma="pla" tags="adj.*"/>
+       <match lemma="quadrat" tags="adj.*"/>
+       <match lemma="hexagonal" tags="adj.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cargol" tags="n.m.*"><select lemma="vite"/></match>
+     <match lemma="en" tags="pr"/>
+     <match lemma="estrella" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cargol" tags="n.m.*"><select lemma="vite"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="pala" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cargol" tags="n.m.*"><select lemma="vite"/></match>
+     <or><match tags="np.cog.*"/><match tags="np.al.*"/></or> <!-- Philips, Allen, etc. -->
   </rule>
 
 <!-- tret > caraterìstica, disparu -->
@@ -3316,11 +3374,8 @@
 
 <!-- Jaume > Jaume, Giacu -->
 
-  <rule weight="1.0">
-     <match lemma="Jaume" tags="np.*"><select lemma="Jaume"/></match>
-  </rule>
   <rule weight="0.6">
-     <match lemma="Jaume" tags="np.*"><select lemma="Giacu"/></match>
+     <match lemma="Jaume" tags="np.*"><select lemma="Jaume"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="Jaume" tags="np.*"><select lemma="Giacu"/></match>
@@ -4470,61 +4525,6 @@
      </or>
      <match lemma="de" tags="pr"/>
      <match lemma="Lluc" tags="np.*"><select lemma="Luca"/></match>
-  </rule>
-
-<!-- Blanca > Blanca, Bianca -->
-
-  <rule weight="0.6">
-     <match lemma="Blanca" tags="np.*"><select lemma="Blanca"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
-     <match lemma="de" tags="pr"/>
-     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
-     <match tags="det.*"/>
-     <match tags="adj.*"/>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
-     <match tags="num.*"/>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <match lemma="papa" tags="n.*"/>
-       <match lemma="bisbe" tags="n.*"/>
-       <match lemma="arquebisbe" tags="n.*"/>
-       <match lemma="sant" tags="n.*"/>
-       <match lemma="sant" tags="adj.*"/>
-       <match lemma="apòstol" tags="n.*"/>
-       <match lemma="emperador" tags="n.*"/>
-       <match lemma="rei" tags="n.*"/>
-       <match lemma="tsar" tags="n.*"/>
-       <match lemma="virrei" tags="n.*"/>
-       <match lemma="príncep" tags="n.*"/>
-       <match lemma="infant" tags="n.*"/>
-       <match lemma="comte" tags="n.*"/>
-       <match lemma="vescomte" tags="n.*"/>
-       <match lemma="duc" tags="n.*"/>
-       <match lemma="arxiduc" tags="n.*"/>
-       <match lemma="marquès" tags="n.*"/>
-       <match lemma="baró" tags="n.*"/>
-     </or>
-     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <match lemma="papat" tags="n.*"/>
-       <match lemma="pontificat" tags="n.*"/>
-       <match lemma="imperi" tags="n.*"/>
-       <match lemma="regne" tags="n.*"/>
-       <match lemma="regnat" tags="n.*"/>
-       <match lemma="regència" tags="n.*"/>
-     </or>
-     <match lemma="de" tags="pr"/>
-     <match lemma="Blanca" tags="np.*"><select lemma="Bianca"/></match>
   </rule>
 
 <!-- Blanca > Blanca, Bianca -->
