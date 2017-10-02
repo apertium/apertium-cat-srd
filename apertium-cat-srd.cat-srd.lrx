@@ -12,6 +12,11 @@
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
   </rule>
   <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
 <!-- <match tags="vblex.*"/> -->
     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
@@ -40,6 +45,15 @@
       <match lemma="escola"/>
       <match lemma="facultat"/>
 
+      <match lemma="casa"/>
+      <match lemma="pis"/>
+      <match lemma="mas"/>
+      <match lemma="masia"/>
+      <match lemma="escala"/>
+      <match lemma="torre"/>
+      <match lemma="edifici"/>
+      <match lemma="castell"/>
+      <match lemma="muralla"/>
       <match lemma="habitació"/>
       <match lemma="cambra"/>
       <match lemma="despatx"/>
@@ -81,6 +95,13 @@
       <match lemma="sultanat"/>
       <match lemma="califat"/>
       <match lemma="república"/>
+      <match lemma="municipi"/>
+      <match lemma="comarca"/>
+      <match lemma="regió"/>
+      <match lemma="província"/>
+      <match lemma="territori"/>
+      <match lemma="comunitat"/>
+      <match lemma="estat"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -88,6 +109,12 @@
       <match lemma="revista"/>
       <match lemma="publicació"/>
       <match lemma="article"/>
+      <match lemma="contracte"/>
+      <match lemma="clàusula"/>
+      <match lemma="acord"/>
+      <match lemma="constitució"/>
+      <match lemma="estatut"/>
+      <match lemma="títol"/>
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
 
@@ -100,7 +127,6 @@
       <match lemma="dècada" tags="n.*"/>
       <match lemma="segle" tags="n.*"/>
       <match lemma="mil·leni" tags="n.*"/>
-      <match lemma="periode" tags="n.*"/>
       <match lemma="període" tags="n.*"/>
       <match lemma="etapa" tags="n.*"/>
       <match lemma="infantesa" tags="n.*"/>
@@ -174,6 +200,15 @@
       <match lemma="estiu"/>
       <match lemma="tardor"/>
       <match lemma="hivern"/>
+
+      <match lemma="meitat"/>
+      <match lemma="terç"/>
+      <match lemma="quart"/>
+      <match lemma="cinquè"/>
+      <match lemma="sisè"/>
+      <match lemma="setè"/>
+      <match lemma="vuitè"/>
+      <match lemma="novè"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -229,6 +264,13 @@
       <match lemma="sultanat"/>
       <match lemma="califat"/>
       <match lemma="república"/>
+      <match lemma="municipi"/>
+      <match lemma="comarca"/>
+      <match lemma="regió"/>
+      <match lemma="província"/>
+      <match lemma="territori"/>
+      <match lemma="comunitat"/>
+      <match lemma="estat"/>
 
       <match lemma="escrit"/>
       <match lemma="text"/>
@@ -236,6 +278,12 @@
       <match lemma="revista"/>
       <match lemma="publicació"/>
       <match lemma="article"/>
+      <match lemma="contracte"/>
+      <match lemma="clàusula"/>
+      <match lemma="acord"/>
+      <match lemma="constitució"/>
+      <match lemma="estatut"/>
+      <match lemma="títol"/>
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
 
@@ -248,7 +296,140 @@
       <match lemma="dècada" tags="n.*"/>
       <match lemma="segle" tags="n.*"/>
       <match lemma="mil·leni" tags="n.*"/>
-      <match lemma="periode" tags="n.*"/>
+      <match lemma="període" tags="n.*"/>
+      <match lemma="etapa" tags="n.*"/>
+      <match lemma="infantesa" tags="n.*"/>
+      <match lemma="adolescència" tags="n.*"/>
+      <match lemma="vellesa" tags="n.*"/>
+      <match lemma="edat" tags="n.*"/>
+      <match lemma="edat mitjana" tags="n.*"/>
+      <match lemma="era" tags="n.*"/>
+      <match lemma="època" tags="n.*"/>
+      <match lemma="renaixement" tags="n.*"/>
+      <match lemma="paleozoic" tags="n.*"/>
+      <match lemma="silurià" tags="n.*"/>
+      <match lemma="devonià" tags="n.*"/>
+      <match lemma="carbonífer" tags="n.*"/>
+      <match lemma="permià" tags="n.*"/>
+      <match lemma="mesozoic" tags="n.*"/>
+      <match lemma="cretaci" tags="n.*"/>
+      <match lemma="juràssic" tags="n.*"/>
+      <match lemma="triàsic" tags="n.*"/>
+      <match lemma="cenozoic" tags="n.*"/>
+      <match lemma="paleocè" tags="n.*"/>
+      <match lemma="eocè" tags="n.*"/>
+      <match lemma="oligocè" tags="n.*"/>
+      <match lemma="miocè" tags="n.*"/>
+      <match lemma="pliocè" tags="n.*"/>
+      <match lemma="plistocè" tags="n.*"/>
+      <match lemma="holocè" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <match tags="adj.*"/>
+    <or>
+      <match lemma="nord"/>
+      <match lemma="nord-est"/>
+      <match lemma="nord-oest"/>
+      <match lemma="sud"/>
+      <match lemma="sud-est"/>
+      <match lemma="sud-oest"/>
+      <match lemma="est"/>
+      <match lemma="oest"/>
+
+      <match lemma="parlament"/>
+      <match lemma="congrés"/>
+      <match lemma="senat"/>
+      <match lemma="assamblea"/>
+      <match lemma="conferència"/>
+      <match lemma="universitat"/>
+      <match lemma="escola"/>
+      <match lemma="facultat"/>
+
+      <match lemma="casa"/>
+      <match lemma="pis"/>
+      <match lemma="mas"/>
+      <match lemma="masia"/>
+      <match lemma="escala"/>
+      <match lemma="torre"/>
+      <match lemma="edifici"/>
+      <match lemma="castell"/>
+      <match lemma="muralla"/>
+      <match lemma="habitació"/>
+      <match lemma="cambra"/>
+      <match lemma="despatx"/>
+      <match lemma="laboratori"/>
+      <match lemma="entrada"/>
+      <match lemma="sortida"/>
+      <match lemma="rebedor"/>
+      <match lemma="menjador"/>
+      <match lemma="saló"/>
+      <match lemma="teulada"/>
+      <match lemma="terrat"/>
+
+      <match lemma="carrer"/>
+      <match lemma="plaça"/>
+      <match lemma="avinguda"/>
+      <match lemma="passeig"/>
+      <match lemma="rambla"/>
+      <match lemma="pujada"/>
+      <match lemma="baixada"/>
+
+      <match lemma="poble"/>
+      <match lemma="ciutat"/>
+      <match lemma="illa"/>
+      <match lemma="pla"/>
+      <match lemma="plana"/>
+      <match lemma="vall"/>
+      <match lemma="muntanya"/>
+      <match lemma="puig"/>
+      <match lemma="turó"/>
+      <match lemma="mar"/>
+      <match lemma="oceà"/>
+      <match lemma="riu"/>
+      <match lemma="llac"/>
+      <match lemma="bosc"/>
+      <match lemma="regne"/>
+      <match lemma="corona"/>
+      <match lemma="principat"/>
+      <match lemma="imperi"/>
+      <match lemma="sultanat"/>
+      <match lemma="califat"/>
+      <match lemma="república"/>
+      <match lemma="municipi"/>
+      <match lemma="comarca"/>
+      <match lemma="regió"/>
+      <match lemma="província"/>
+      <match lemma="territori"/>
+      <match lemma="comunitat"/>
+      <match lemma="estat"/>
+
+      <match lemma="escrit"/>
+      <match lemma="text"/>
+      <match lemma="llibre"/>
+      <match lemma="revista"/>
+      <match lemma="publicació"/>
+      <match lemma="article"/>
+      <match lemma="contracte"/>
+      <match lemma="clàusula"/>
+      <match lemma="acord"/>
+      <match lemma="constitució"/>
+      <match lemma="estatut"/>
+      <match lemma="títol"/>
+      <match lemma="televisió"/>
+      <match lemma="ràdio"/>
+
+      <match lemma="minut" tags="n.*"/>
+      <match lemma="hora" tags="n.*"/>
+      <match lemma="dia" tags="n.*"/>
+      <match lemma="setmana" tags="n.*"/>
+      <match lemma="mes" tags="n.*"/>
+      <match lemma="any" tags="n.*"/>
+      <match lemma="dècada" tags="n.*"/>
+      <match lemma="segle" tags="n.*"/>
+      <match lemma="mil·leni" tags="n.*"/>
       <match lemma="període" tags="n.*"/>
       <match lemma="etapa" tags="n.*"/>
       <match lemma="infantesa" tags="n.*"/>
@@ -277,6 +458,60 @@
       <match lemma="plistocè" tags="n.*"/>
       <match lemma="holocè" tags="n.*"/>
 
+      <match lemma="braç"/>
+      <match lemma="mà"/>
+      <match lemma="cama"/>
+      <match lemma="peu"/>
+      <match lemma="cap"/>
+      <match lemma="cos"/>
+      <match lemma="coll"/>
+      <match lemma="pit"/>
+      <match lemma="panxa"/>
+      <match lemma="cul"/>
+      <match lemma="maluc"/>
+      <match lemma="fetge"/>
+      <match lemma="estòmac"/>
+      <match lemma="cor"/>
+      <match lemma="pulmó"/>
+      <match lemma="budell"/>
+
+      <match lemma="samarreta"/>
+      <match lemma="camisa"/>
+      <match lemma="pantaló"/>
+      <match lemma="faldilla"/>
+      <match lemma="calces"/>
+      <match lemma="calçotets"/>
+      <match lemma="màniga"/>
+      <match lemma="mitjó"/>
+      <match lemma="mitja"/>
+      <match lemma="sabata"/>
+
+      <match lemma="gener"/>
+      <match lemma="febrer"/>
+      <match lemma="març"/>
+      <match lemma="abril"/>
+      <match lemma="maig"/>
+      <match lemma="juny"/>
+      <match lemma="juliol"/>
+      <match lemma="agost"/>
+      <match lemma="setembre"/>
+      <match lemma="octubre"/>
+      <match lemma="novembre"/>
+      <match lemma="desembre"/>
+
+      <match lemma="primavera"/>
+      <match lemma="estiu"/>
+      <match lemma="tardor"/>
+      <match lemma="hivern"/>
+
+      <match lemma="meitat"/>
+      <match lemma="terç"/>
+      <match lemma="quart"/>
+      <match lemma="cinquè"/>
+      <match lemma="sisè"/>
+      <match lemma="setè"/>
+      <match lemma="vuitè"/>
+      <match lemma="novè"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -346,6 +581,18 @@
       <match lemma="eixir" tags="vblex.*"/>
       <match lemma="traslladar" tags="vblex.*"/>
       <match lemma="dirigir" tags="vblex.*"/>
+
+      <match lemma="donar" tags="vblex.*"/>
+      <match lemma="atorgar" tags="vblex.*"/>
+      <match lemma="atribuir" tags="vblex.*"/>
+      <match lemma="assignar" tags="vblex.*"/>
+      <match lemma="conquerir" tags="vblex.*"/>
+      <match lemma="conquistar" tags="vblex.*"/>
+      <match lemma="associar" tags="vblex.*"/>
+      <match lemma="vincular" tags="vblex.*"/>
+      <match lemma="dir" tags="vblex.*"/>
+      <match lemma="parlar" tags="vblex.*"/>
+      <match lemma="cridar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -363,6 +610,17 @@
       <match lemma="eixir" tags="vblex.*"/>
       <match lemma="traslladar" tags="vblex.*"/>
       <match lemma="dirigir" tags="vblex.*"/>
+
+      <match lemma="donar" tags="vblex.*"/>
+      <match lemma="atribuir" tags="vblex.*"/>
+      <match lemma="assignar" tags="vblex.*"/>
+      <match lemma="conquerir" tags="vblex.*"/>
+      <match lemma="conquistar" tags="vblex.*"/>
+      <match lemma="associar" tags="vblex.*"/>
+      <match lemma="vincular" tags="vblex.*"/>
+      <match lemma="dir" tags="vblex.*"/>
+      <match lemma="parlar" tags="vblex.*"/>
+      <match lemma="cridar" tags="vblex.*"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -376,13 +634,13 @@
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
 
-<!-- davant > in antis, ante -->
+<!-- davant > in antis, in antis de -->
 
   <rule weight="0.6">
     <match lemma="davant" tags="pr"><select lemma="in antis" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="davant" tags="pr"><select lemma="ante" tags="pr"/></match>
+    <match lemma="davant" tags="pr"><select lemma="in antis de" tags="pr"/></match>
     <match tags="det.*"/>
     <or>
       <match lemma="policia" tags="n.*"/>
@@ -393,17 +651,11 @@
     </or>
   </rule>
 
-<!-- de > de, dae -->
 <!-- per > pro, dae -->
-<!-- pp dae -->
 
-  <rule weight="0.6">
-    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
-  </rule>
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
   </rule>
-
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
@@ -424,6 +676,21 @@
      <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
+
+  <rule weight="1.0">
+     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match lemma="un" tags="det.*"/>
+     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
+  </rule>
+
+
+<!-- de > de, dae -->
+<!-- pp dae -->
+
+  <rule weight="0.6">
+    <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
   <rule weight="1.0">
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
@@ -588,12 +855,6 @@
 
   <rule weight="1.0">
      <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-     <match lemma="un" tags="det.*"/>
-     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
-  </rule>
-
-  <rule weight="1.0">
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
      <match lemma="un" tags="det.*"/>
      <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
@@ -874,7 +1135,7 @@
   </rule>
 
 
-<!-- **************** VBLEX **************** -->
+<!-- **************** V VBLEX **************** -->
 
 <!-- estar > èssere, istare -->
 
@@ -1019,6 +1280,24 @@
   <rule weight="1.0">
      <match lemma="permetre" tags="vblex.*"><select lemma="permìtere# de"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+<!-- portar > batire, portare, giùghere -->
+
+  <rule weight="0.6">
+     <match lemma="portar" tags="vblex.*"><select lemma="batire"/></match> <!-- sep -->
+  </rule>
+  <rule weight="0.6">
+     <match lemma="portar" tags="vblex.*"><select lemma="portare"/></match> <!-- mer -->
+  </rule>
+  <rule weight="1.0">
+     <match lemma="portar" tags="vblex.*"><select lemma="giùghere"/></match>
+     <match lemma="a sobre" tags="adv"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="portar" tags="vblex.*"><select lemma="giùghere"/></match>
+     <match lemma="amb" tags="pr"/>
+     <match tags="prn.*"/>
   </rule>
 
 <!-- demanar > pregontare, pedire -->
@@ -1511,7 +1790,6 @@
        <match lemma="dècada" tags="n.*"/>
        <match lemma="segle" tags="n.*"/>
        <match lemma="mil·leni" tags="n.*"/>
-       <match lemma="periode" tags="n.*"/>
        <match lemma="període" tags="n.*"/>
        <match lemma="etapa" tags="n.*"/>
        <match lemma="infantesa" tags="n.*"/>
@@ -1593,6 +1871,48 @@
   <rule weight="1.0">
      <match lemma="tassa" tags="n.*"><select lemma="tassu"/></match>
      <match lemma="de" tags="pr"/>
+  </rule>
+
+<!-- dona > fèmina, mugere -->
+
+  <rule weight="0.6">
+     <match lemma="dona" tags="n.*"><select lemma="fèmina"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.pos.*"/>
+     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="dona" tags="n.*"><select lemma="mugere"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+
+<!-- home > òmine, maridu -->
+
+  <rule weight="0.6">
+     <match lemma="home" tags="n.*"><select lemma="òmine"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.pos.*"/>
+     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
+     <match lemma="de" tags="pr"/>
+     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="home" tags="n.*"><select lemma="maridu"/></match>
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
 <!-- eixida > essida, corte -->
@@ -1737,8 +2057,11 @@
   </rule>
   <rule weight="1.0">
      <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
-     <match lemma="de" tags="pr"/>
-     <match lemma="dret" tags="n.*"/>
+     <or>
+       <match lemma="blanc" tags="adj.*"/>
+       <match lemma="francès" tags="adj.*"/>
+       <match lemma="espanyol" tags="adj.*"/>
+     </or>
   </rule>
   <rule weight="1.0">
      <match lemma="joc" tags="n.*"/>
@@ -1748,10 +2071,9 @@
   <rule weight="1.0">
      <match lemma="carta" tags="n.*"><select lemma="carta"/></match>
      <match lemma="de" tags="pr"/>
-     <match tags="det.*"/>
      <or>
        <match lemma="dret" tags="n.*"/>
-       <match lemma="nació" tags="n.*"/>
+       <match lemma="poblaciö" tags="n.*"/>
      </or>
   </rule>
 
@@ -2105,6 +2427,21 @@
 
 
 <!-- **************** NP **************** -->
+
+<!-- Virgili > Virgili, Virgìliu -->
+
+  <rule weight="0.6">
+     <match lemma="Virgili" tags="np.*"><select lemma="Virgìliu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
+     <match lemma="i" tags="pr"/>
+     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
+  </rule>
 
 <!-- Carles > Carles, Càralu -->
 
