@@ -107,14 +107,15 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 .deps/%.lrx: metalrx-to-lrx.xslt %.metalrx
+	if [[ ! -d .deps ]]; then mkdir .deps; fi
 	xsltproc $^ > $@.tmp
 	@xmllint --format $@.tmp > $@
 	@rm $@.tmp
 
-$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+$(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
 
-$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+$(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
 	lrx-comp $< $@
 
 ###############################################################################
