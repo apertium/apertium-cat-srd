@@ -6,8 +6,7 @@
 <metalrx>
 
   <def-seqs>
-    <def-seq n="lloc-concret">
-
+    <def-seq n="lloc_concret">
       <match lemma="parlament"/>
       <match lemma="congrés"/>
       <match lemma="senat"/>
@@ -37,12 +36,9 @@
       <match lemma="saló"/>
       <match lemma="teulada"/>
       <match lemma="terrat"/>
-
-
     </def-seq>
 
-
-    <def-seq n="punt-cardinal">
+    <def-seq n="punt_cardinal">
       <match lemma="nord"/>
       <match lemma="nord-est"/>
       <match lemma="nord-oest"/>
@@ -53,58 +49,13 @@
       <match lemma="oest"/>
     </def-seq>
 
-  </def-seqs>
-
-
-<rules>
-  <rule weight="0.6">
-    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det.*"/>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-<!-- <match tags="vblex.*"/> -->
-    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det.*"/>
-    <or>
-      <seq n="punt-cardinal"/>
-      <seq n="lloc-concret"/>
-
-      <match lemma="carrer"/>
-      <match lemma="plaça"/>
-      <match lemma="avinguda"/>
-      <match lemma="passeig"/>
-      <match lemma="rambla"/>
-      <match lemma="pujada"/>
-      <match lemma="baixada"/>
-
+    <def-seq n="territori">
       <match lemma="poble"/>
+      <match lemma="població"/>
+      <match lemma="localitat"/>
+      <match lemma="comarca"/>
       <match lemma="ciutat"/>
-      <match lemma="illa"/>
-      <match lemma="pla"/>
-      <match lemma="plana"/>
-      <match lemma="vall"/>
-      <match lemma="muntanya"/>
-      <match lemma="puig"/>
-      <match lemma="turó"/>
-      <match lemma="mar"/>
-      <match lemma="oceà"/>
-      <match lemma="riu"/>
-      <match lemma="llac"/>
-      <match lemma="bosc"/>
+      <match lemma="capital"/>
       <match lemma="regne"/>
       <match lemma="corona"/>
       <match lemma="principat"/>
@@ -119,7 +70,30 @@
       <match lemma="territori"/>
       <match lemma="comunitat"/>
       <match lemma="estat"/>
+    </def-seq>
 
+    <def-seq n="accident_geogr">
+      <match lemma="pla"/>
+      <match lemma="plana"/>
+      <match lemma="vall"/>
+      <match lemma="muntanya"/>
+      <match lemma="puig"/>
+      <match lemma="turó"/>
+    </def-seq>
+
+    <def-seq n="part_ciutat">
+      <match lemma="carrer"/>
+      <match lemma="plaça"/>
+      <match lemma="avinguda"/>
+      <match lemma="passeig"/>
+      <match lemma="rambla"/>
+      <match lemma="pujada"/>
+      <match lemma="baixada"/>
+      <match lemma="centre"/>
+      <match lemma="perifèria"/>
+    </def-seq>
+
+    <def-seq n="escrit">
       <match lemma="escrit"/>
       <match lemma="text"/>
       <match lemma="llibre"/>
@@ -132,9 +106,9 @@
       <match lemma="constitució"/>
       <match lemma="estatut"/>
       <match lemma="títol"/>
-      <match lemma="televisió"/>
-      <match lemma="ràdio"/>
+    </def-seq>
 
+    <def-seq n="periode">
       <match lemma="minut" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
       <match lemma="dia" tags="n.*"/>
@@ -171,7 +145,9 @@
       <match lemma="pliocè" tags="n.*"/>
       <match lemma="plistocè" tags="n.*"/>
       <match lemma="holocè" tags="n.*"/>
+    </def-seq>
 
+    <def-seq n="part_cos">
       <match lemma="braç"/>
       <match lemma="mà"/>
       <match lemma="cama"/>
@@ -188,7 +164,9 @@
       <match lemma="cor"/>
       <match lemma="pulmó"/>
       <match lemma="budell"/>
+    </def-seq>
 
+    <def-seq n="vestit">
       <match lemma="samarreta"/>
       <match lemma="camisa"/>
       <match lemma="pantaló"/>
@@ -199,7 +177,9 @@
       <match lemma="mitjó"/>
       <match lemma="mitja"/>
       <match lemma="sabata"/>
+    </def-seq>
 
+    <def-seq n="mes">
       <match lemma="gener"/>
       <match lemma="febrer"/>
       <match lemma="març"/>
@@ -212,12 +192,16 @@
       <match lemma="octubre"/>
       <match lemma="novembre"/>
       <match lemma="desembre"/>
+    </def-seq>
 
+    <def-seq n="estacio">
       <match lemma="primavera"/>
       <match lemma="estiu"/>
       <match lemma="tardor"/>
       <match lemma="hivern"/>
+    </def-seq>
 
+    <def-seq n="num_trencat">
       <match lemma="meitat"/>
       <match lemma="terç"/>
       <match lemma="quart"/>
@@ -226,81 +210,115 @@
       <match lemma="setè"/>
       <match lemma="vuitè"/>
       <match lemma="novè"/>
+    </def-seq>
+
+    <def-seq n="llengua">
+       <match lemma="català" tags="n.*"/>
+       <match lemma="castellà" tags="n.*"/>
+       <match lemma="espanyol" tags="n.*"/>
+       <match lemma="francès" tags="n.*"/>
+       <match lemma="anglès" tags="n.*"/>
+       <match lemma="alemany" tags="n.*"/>
+       <match lemma="italià" tags="n.*"/>
+       <match lemma="portuguès" tags="n.*"/>
+       <match lemma="rus" tags="n.*"/>
+       <match lemma="xinès" tags="n.*"/>
+       <match lemma="japonès" tags="n.*"/>
+       <match lemma="gallec" tags="n.*"/>
+       <match lemma="basc" tags="n.*"/>
+       <match lemma="occità" tags="n.*"/>
+       <match lemma="sard" tags="n.*"/>
+       <match lemma="suec" tags="n.*"/>
+       <match lemma="noruec" tags="n.*"/>
+       <match lemma="danès" tags="n.*"/>
+       <match lemma="irlandès" tags="n.*"/>
+       <match lemma="ucraïnès" tags="n.*"/>
+       <match lemma="polonès" tags="n.*"/>
+       <match lemma="txec" tags="n.*"/>
+       <match lemma="eslovac" tags="n.*"/>
+       <match lemma="eslovè" tags="n.*"/>
+       <match lemma="croat" tags="n.*"/>
+       <match lemma="serbi" tags="n.*"/>
+       <match lemma="bosnià" tags="n.*"/>
+       <match lemma="serbocroat" tags="n.*"/>
+       <match lemma="macedoni" tags="n.*"/>
+       <match lemma="bielorús" tags="n.*"/>
+       <match lemma="búlgar" tags="n.*"/>
+       <match lemma="turc" tags="n.*"/>
+       <match lemma="àrab" tags="n.*"/>
+       <match lemma="persa" tags="n.*"/>
+       <match lemma="hindi" tags="n.*"/>
+       <match lemma="urdu" tags="n.*"/>
+    </def-seq>
+
+  </def-seqs>
+
+
+<rules>
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+<!-- <match tags="vblex.*"/> -->
+    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <or>
+      <seq n="punt_cardinal"/>
+      <seq n="lloc_concret"/>
+      <seq n="territori"/>
+      <seq n="accident_geogr"/>
+      <seq n="part_ciutat"/>
+      <seq n="escrit"/>
+      <seq n="periode"/>
+      <seq n="part_cos"/>
+      <seq n="vestit"/>
+      <seq n="mes"/>
+      <seq n="estacio"/>
+      <seq n="num_trencat"/>
+
+      <match lemma="mar"/>
+      <match lemma="oceà"/>
+      <match lemma="riu"/>
+      <match lemma="llac"/>
+      <match lemma="illa"/>
+
+      <match lemma="bosc"/>
+
+      <match lemma="televisió"/>
+      <match lemma="ràdio"/>
     </or>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
     <or>
-      <match lemma="parlament"/>
-      <match lemma="congrés"/>
-      <match lemma="senat"/>
-      <match lemma="assamblea"/>
-      <match lemma="conferència"/>
-      <match lemma="universitat"/>
-      <match lemma="escola"/>
-      <match lemma="facultat"/>
+      <seq n="lloc_concret"/>
+      <seq n="territori"/>
+      <seq n="accident_geogr"/>
+      <seq n="part_ciutat"/>
 
-      <match lemma="habitació"/>
-      <match lemma="cambra"/>
-      <match lemma="despatx"/>
-      <match lemma="laboratori"/>
-      <match lemma="entrada"/>
-      <match lemma="sortida"/>
-      <match lemma="rebedor"/>
-      <match lemma="menjador"/>
-      <match lemma="saló"/>
-      <match lemma="teulada"/>
-      <match lemma="terrat"/>
-
-      <match lemma="carrer"/>
-      <match lemma="plaça"/>
-      <match lemma="avinguda"/>
-      <match lemma="passeig"/>
-      <match lemma="rambla"/>
-      <match lemma="pujada"/>
-      <match lemma="baixada"/>
-
-      <match lemma="poble"/>
-      <match lemma="ciutat"/>
-      <match lemma="illa"/>
-      <match lemma="pla"/>
-      <match lemma="plana"/>
-      <match lemma="vall"/>
-      <match lemma="muntanya"/>
-      <match lemma="puig"/>
-      <match lemma="turó"/>
       <match lemma="mar"/>
       <match lemma="oceà"/>
       <match lemma="riu"/>
       <match lemma="llac"/>
-      <match lemma="bosc"/>
-      <match lemma="regne"/>
-      <match lemma="corona"/>
-      <match lemma="principat"/>
-      <match lemma="imperi"/>
-      <match lemma="sultanat"/>
-      <match lemma="califat"/>
-      <match lemma="república"/>
-      <match lemma="municipi"/>
-      <match lemma="comarca"/>
-      <match lemma="regió"/>
-      <match lemma="província"/>
-      <match lemma="territori"/>
-      <match lemma="comunitat"/>
-      <match lemma="estat"/>
+      <match lemma="illa"/>
 
-      <match lemma="escrit"/>
-      <match lemma="text"/>
-      <match lemma="llibre"/>
-      <match lemma="revista"/>
-      <match lemma="publicació"/>
-      <match lemma="article"/>
-      <match lemma="contracte"/>
-      <match lemma="clàusula"/>
-      <match lemma="acord"/>
-      <match lemma="constitució"/>
-      <match lemma="estatut"/>
-      <match lemma="títol"/>
+      <match lemma="bosc"/>
+
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
 
@@ -347,189 +365,81 @@
     <match tags="det.*"/>
     <match tags="adj.*"/>
     <or>
-      <match lemma="nord"/>
-      <match lemma="nord-est"/>
-      <match lemma="nord-oest"/>
-      <match lemma="sud"/>
-      <match lemma="sud-est"/>
-      <match lemma="sud-oest"/>
-      <match lemma="est"/>
-      <match lemma="oest"/>
+      <seq n="punt_cardinal"/>
+      <seq n="lloc_concret"/>
+      <seq n="territori"/>
+      <seq n="accident_geogr"/>
+      <seq n="part_ciutat"/>
+      <seq n="escrit"/>
+      <seq n="periode"/>
+      <seq n="part_cos"/>
+      <seq n="vestit"/>
+      <seq n="mes"/>
+      <seq n="estacio"/>
+      <seq n="num_trencat"/>
 
-      <match lemma="parlament"/>
-      <match lemma="congrés"/>
-      <match lemma="senat"/>
-      <match lemma="assamblea"/>
-      <match lemma="conferència"/>
-      <match lemma="universitat"/>
-      <match lemma="escola"/>
-      <match lemma="facultat"/>
-
-      <match lemma="casa"/>
-      <match lemma="pis"/>
-      <match lemma="mas"/>
-      <match lemma="masia"/>
-      <match lemma="escala"/>
-      <match lemma="torre"/>
-      <match lemma="edifici"/>
-      <match lemma="castell"/>
-      <match lemma="muralla"/>
-      <match lemma="habitació"/>
-      <match lemma="cambra"/>
-      <match lemma="despatx"/>
-      <match lemma="laboratori"/>
-      <match lemma="entrada"/>
-      <match lemma="sortida"/>
-      <match lemma="rebedor"/>
-      <match lemma="menjador"/>
-      <match lemma="saló"/>
-      <match lemma="teulada"/>
-      <match lemma="terrat"/>
-
-      <match lemma="carrer"/>
-      <match lemma="plaça"/>
-      <match lemma="avinguda"/>
-      <match lemma="passeig"/>
-      <match lemma="rambla"/>
-      <match lemma="pujada"/>
-      <match lemma="baixada"/>
-
-      <match lemma="poble"/>
-      <match lemma="ciutat"/>
-      <match lemma="illa"/>
-      <match lemma="pla"/>
-      <match lemma="plana"/>
-      <match lemma="vall"/>
-      <match lemma="muntanya"/>
-      <match lemma="puig"/>
-      <match lemma="turó"/>
       <match lemma="mar"/>
       <match lemma="oceà"/>
       <match lemma="riu"/>
       <match lemma="llac"/>
-      <match lemma="bosc"/>
-      <match lemma="regne"/>
-      <match lemma="corona"/>
-      <match lemma="principat"/>
-      <match lemma="imperi"/>
-      <match lemma="sultanat"/>
-      <match lemma="califat"/>
-      <match lemma="república"/>
-      <match lemma="municipi"/>
-      <match lemma="comarca"/>
-      <match lemma="regió"/>
-      <match lemma="província"/>
-      <match lemma="territori"/>
-      <match lemma="comunitat"/>
-      <match lemma="estat"/>
+      <match lemma="illa"/>
 
-      <match lemma="escrit"/>
-      <match lemma="text"/>
-      <match lemma="llibre"/>
-      <match lemma="revista"/>
-      <match lemma="publicació"/>
-      <match lemma="article"/>
-      <match lemma="contracte"/>
-      <match lemma="clàusula"/>
-      <match lemma="acord"/>
-      <match lemma="constitució"/>
-      <match lemma="estatut"/>
-      <match lemma="títol"/>
+      <match lemma="bosc"/>
+
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
-
-      <match lemma="minut" tags="n.*"/>
-      <match lemma="hora" tags="n.*"/>
-      <match lemma="dia" tags="n.*"/>
-      <match lemma="setmana" tags="n.*"/>
-      <match lemma="mes" tags="n.*"/>
-      <match lemma="any" tags="n.*"/>
-      <match lemma="dècada" tags="n.*"/>
-      <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
-      <match lemma="període" tags="n.*"/>
-      <match lemma="etapa" tags="n.*"/>
-      <match lemma="infantesa" tags="n.*"/>
-      <match lemma="adolescència" tags="n.*"/>
-      <match lemma="vellesa" tags="n.*"/>
-      <match lemma="edat" tags="n.*"/>
-      <match lemma="edat mitjana" tags="n.*"/>
-      <match lemma="era" tags="n.*"/>
-      <match lemma="època" tags="n.*"/>
-      <match lemma="renaixement" tags="n.*"/>
-      <match lemma="paleozoic" tags="n.*"/>
-      <match lemma="silurià" tags="n.*"/>
-      <match lemma="devonià" tags="n.*"/>
-      <match lemma="carbonífer" tags="n.*"/>
-      <match lemma="permià" tags="n.*"/>
-      <match lemma="mesozoic" tags="n.*"/>
-      <match lemma="cretaci" tags="n.*"/>
-      <match lemma="juràssic" tags="n.*"/>
-      <match lemma="triàsic" tags="n.*"/>
-      <match lemma="cenozoic" tags="n.*"/>
-      <match lemma="paleocè" tags="n.*"/>
-      <match lemma="eocè" tags="n.*"/>
-      <match lemma="oligocè" tags="n.*"/>
-      <match lemma="miocè" tags="n.*"/>
-      <match lemma="pliocè" tags="n.*"/>
-      <match lemma="plistocè" tags="n.*"/>
-      <match lemma="holocè" tags="n.*"/>
-
-      <match lemma="braç"/>
-      <match lemma="mà"/>
-      <match lemma="cama"/>
-      <match lemma="peu"/>
-      <match lemma="cap"/>
-      <match lemma="cos"/>
-      <match lemma="coll"/>
-      <match lemma="pit"/>
-      <match lemma="panxa"/>
-      <match lemma="cul"/>
-      <match lemma="maluc"/>
-      <match lemma="fetge"/>
-      <match lemma="estòmac"/>
-      <match lemma="cor"/>
-      <match lemma="pulmó"/>
-      <match lemma="budell"/>
-
-      <match lemma="samarreta"/>
-      <match lemma="camisa"/>
-      <match lemma="pantaló"/>
-      <match lemma="faldilla"/>
-      <match lemma="calces"/>
-      <match lemma="calçotets"/>
-      <match lemma="màniga"/>
-      <match lemma="mitjó"/>
-      <match lemma="mitja"/>
-      <match lemma="sabata"/>
-
-      <match lemma="gener"/>
-      <match lemma="febrer"/>
-      <match lemma="març"/>
-      <match lemma="abril"/>
-      <match lemma="maig"/>
-      <match lemma="juny"/>
-      <match lemma="juliol"/>
-      <match lemma="agost"/>
-      <match lemma="setembre"/>
-      <match lemma="octubre"/>
-      <match lemma="novembre"/>
-      <match lemma="desembre"/>
-
-      <match lemma="primavera"/>
-      <match lemma="estiu"/>
-      <match lemma="tardor"/>
-      <match lemma="hivern"/>
-
-      <match lemma="meitat"/>
-      <match lemma="terç"/>
-      <match lemma="quart"/>
-      <match lemma="cinquè"/>
-      <match lemma="sisè"/>
-      <match lemma="setè"/>
-      <match lemma="vuitè"/>
-      <match lemma="novè"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="missatge" tags="n.*"/>
+      <match lemma="salutaciö" tags="n.*"/>
+      <match lemma="epístola" tags="n.*"/>
+      <match lemma="ordre" tags="n.f.*"/>
+      <match lemma="comiat" tags="n.*"/>
+      <match lemma="traducció" tags="n.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="missatge" tags="n.*"/>
+      <match lemma="salutaciö" tags="n.*"/>
+      <match lemma="epístola" tags="n.*"/>
+      <match lemma="ordre" tags="n.f.*"/>
+      <match lemma="comiat" tags="n.*"/>
+      <match lemma="traducció" tags="n.*"/>
+    </or>
+   <or><match tags="adj.*"/><match tags="vblex.pp.*"/></or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="traducció" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="traducció" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+    <match tags="det.*"/>
+    <match tags="n.*"/>
+    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="traducció" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="traducció" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match tags="n.*"/>
+    <match tags="adj.*"/>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -726,6 +636,7 @@
        <match lemma="treure" tags="vblex.*"/>
        <match lemma="esborrar" tags="vblex.*"/>
        <match lemma="provenir" tags="vblex.*"/>
+       <match lemma="procedir" tags="vblex.*"/>
        <match lemma="viatjar" tags="vblex.*"/>
        <match lemma="volar" tags="vblex.*"/>
        <match lemma="anar" tags="vblex.*"/>
@@ -754,6 +665,7 @@
        <match lemma="treure" tags="vblex.*"/>
        <match lemma="esborrar" tags="vblex.*"/>
        <match lemma="provenir" tags="vblex.*"/>
+       <match lemma="procedir" tags="vblex.*"/>
        <match lemma="viatjar" tags="vblex.*"/>
        <match lemma="volar" tags="vblex.*"/>
        <match lemma="anar" tags="vblex.*"/>
@@ -818,6 +730,15 @@
        <match lemma="rubí" tags="n.*"/>
        <match lemma="maragda" tags="n.*"/>
      </or>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="traducció" tags="n.*"/>
+     <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+     <match tags="det.def.m.sg"/>
+    <or>
+      <seq n="llengua"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
@@ -897,7 +818,7 @@
   </rule>
   <rule weight="1.2">
     <match lemma="fora de" tags="pr"><select lemma="foras de" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
 <!-- segons (pr) > segundu, a parrere de -->
@@ -1171,7 +1092,7 @@
   </rule>
   <rule weight="1.0">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="mustrare"/></match>
-     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
   <rule weight="1.0">
      <match lemma="ensenyar" tags="vblex.*"><select lemma="mustrare"/></match>
@@ -1206,16 +1127,7 @@
        <match lemma="dret" tags="n.*"/>
        <match lemma="filosofia" tags="n.*"/>
 
-       <match lemma="català" tags="n.*"/>
-       <match lemma="castellà" tags="n.*"/>
-       <match lemma="espanyol" tags="n.*"/>
-       <match lemma="francès" tags="n.*"/>
-       <match lemma="anglès" tags="n.*"/>
-       <match lemma="alemany" tags="n.*"/>
-       <match lemma="italià" tags="n.*"/>
-       <match lemma="portuguès" tags="n.*"/>
-       <match lemma="rus" tags="n.*"/>
-       <match lemma="xinès" tags="n.*"/>
+      <seq n="llengua"/>
      </or>
   </rule>
 
@@ -2090,7 +2002,7 @@
      <match lemma="de" tags="pr"/>
      <or>
        <match lemma="dret" tags="n.*"/>
-       <match lemma="poblaciö" tags="n.*"/>
+       <match lemma="població" tags="n.*"/>
      </or>
   </rule>
 
@@ -2270,7 +2182,7 @@
   <rule weight="1.0">
      <match lemma="got" tags="n.*"><select lemma="gotu"/></match>
      <match lemma="de" tags="pr"/>
-     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
 <!-- guàrdia > guàrdia, guardianu -->

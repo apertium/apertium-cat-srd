@@ -835,7 +835,7 @@
 <e>       <p><l>oceà<s n="n"/><s n="m"/></l>           <r>otzèanu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>reconeixement<s n="n"/><s n="m"/></l>  <r>reconnoschimentu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>activitat<s n="n"/><s n="f"/></l>      <r>atividade<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>sèrie<s n="n"/><s n="f"/></l>          <r>serie<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sèrie<s n="n"/><s n="f"/></l>          <r>sèrie<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>segle<s n="n"/><s n="m"/></l>          <r>sèculu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>deure<s n="n"/><s n="m"/></l>          <r>dovere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>població<s n="n"/><s n="f"/></l>       <r>populatzione<s n="n"/><s n="f"/></r></p></e>
@@ -1305,6 +1305,8 @@
 <e>       <p><l>actualitat<s n="n"/><s n="f"/></l>     <r>atualidade<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>coalició<s n="n"/><s n="f"/></l>       <r>coalitzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>colonització<s n="n"/><s n="f"/></l>   <r>colonizatzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>descolonització<s n="n"/><s n="f"/></l><r>decolonizatzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>recolonització<s n="n"/><s n="f"/></l> <r>ricolonizatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cooperació<s n="n"/><s n="f"/></l>     <r>cooperatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>corrupció<s n="n"/><s n="f"/></l>      <r>corrutzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>constitució<s n="n"/><s n="f"/></l>    <r>costitutzione<s n="n"/><s n="f"/></r></p></e>
@@ -1426,7 +1428,6 @@
 <e>       <p><l>filòsof<s n="n"/><s n="f"/></l>        <r>filòsofu<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>missió<s n="n"/><s n="f"/></l>         <r>missione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>socialista<s n="n"/><s n="mf"/></l>    <r>sotzialista<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>sèrie<s n="n"/><s n="f"/></l>          <r>sèrie<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>agricultura<s n="n"/><s n="f"/></l>    <r>agricultura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>malaltia<s n="n"/><s n="f"/></l>       <r>maladia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>incapacitat<s n="n"/><s n="f"/></l>    <r>imbàlida<s n="n"/><s n="f"/></r></p></e>
@@ -2937,6 +2938,7 @@
 <e>       <p><l>distingir<s n="vblex"/></l>            <r>distìnghere<s n="vblex"/></r></p></e>
 <e>       <p><l>analitzar<s n="vblex"/></l>            <r>analizare<s n="vblex"/></r></p></e>
 <e>       <p><l>colonitzar<s n="vblex"/></l>           <r>colonizare<s n="vblex"/></r></p></e>
+<e>       <p><l>descolonitzar<s n="vblex"/></l>        <r>decolonizare<s n="vblex"/></r></p></e>
 <e>       <p><l>acompanyar<s n="vblex"/></l>           <r>acumpangiare<s n="vblex"/></r></p></e>
 <e>       <p><l>servir<s n="vblex"/></l>               <r>serbire<s n="vblex"/></r></p></e>
 <e>       <p><l>servir<s n="vblex"/></l>               <r>servire<s n="vblex"/></r></p></e>
@@ -3066,7 +3068,7 @@
 <e>       <p><l>informatitzar<s n="vblex"/></l>        <r>informatizare<s n="vblex"/></r></p></e>
 <e>       <p><l>separar<s n="vblex"/></l>              <r>separare<s n="vblex"/></r></p></e>
 <e>       <p><l>lligar<s n="vblex"/></l>               <r>ligare<s n="vblex"/></r></p></e>
-<e>       <p><l>emprar<s n="vblex"/></l>               <r>impreare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>emprar<s n="vblex"/></l>               <r>impreare<s n="vblex"/></r></p></e>
 <e>       <p><l>repartir<s n="vblex"/></l>             <r>partzire<s n="vblex"/></r></p></e>
 <e>       <p><l>consentir<s n="vblex"/></l>            <r>cunsentire<s n="vblex"/></r></p></e>
 <e>       <p><l>cercar<s n="vblex"/></l>               <r>chircare<s n="vblex"/></r></p></e>
@@ -3096,7 +3098,8 @@
 <e>       <p><l>programar<s n="vblex"/></l>            <r>programmare<s n="vblex"/></r></p></e>
 <e>       <p><l>gaudir<s n="vblex"/></l>               <r>isfrutare<s n="vblex"/></r></p></e>
 <e>       <p><l>fomentar<s n="vblex"/></l>             <r>fomentare<s n="vblex"/></r></p></e>
-<e>       <p><l>escortar<s n="vblex"/></l>             <r>esortare<s n="vblex"/></r></p></e>
+<e>       <p><l>exortar<s n="vblex"/></l>              <r>esortare<s n="vblex"/></r></p></e>
+<e>       <p><l>escortar<s n="vblex"/></l>             <r>iscortare<s n="vblex"/></r></p></e>
 <e>       <p><l>documentar<s n="vblex"/></l>           <r>documentare<s n="vblex"/></r></p></e>
 <e>       <p><l>desenvolupar<s n="vblex"/></l>         <r>disvilupare<s n="vblex"/></r></p></e>
 <e>       <p><l>consumir<s n="vblex"/></l>             <r>consumire<s n="vblex"/></r></p></e>
@@ -3107,7 +3110,7 @@
 <e>       <p><l>descobrir<s n="vblex"/></l>            <r>iscobèrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>informar<s n="vblex"/></l>             <r>informare<s n="vblex"/></r></p></e>
 <e>       <p><l>anticipar<s n="vblex"/></l>            <r>antitzipare<s n="vblex"/></r></p></e>
-<e>       <p><l>finir<s n="vblex"/></l>                <r>finire<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>finir<s n="vblex"/></l>                <r>finire<s n="vblex"/></r></p></e>
 <e>       <p><l>definir<s n="vblex"/></l>              <r>definire<s n="vblex"/></r></p></e>
 <e>       <p><l>pesar<s n="vblex"/></l>                <r>pesare<s n="vblex"/></r></p></e>
 <e>       <p><l>guiar<s n="vblex"/></l>                <r>ghiare<s n="vblex"/></r></p></e>
@@ -5808,7 +5811,9 @@
 <e>       <p><l>volcànic<s n="adj"/></l>               <r>vulcànicu<s n="adj"/></r></p></e>
 <e>       <p><l>Pirineus<s n="np"/><s n="loc"/></l>    <r>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>Pirineu<s n="np"/><s n="loc"/></l>     <r>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>Prepirineu<s n="np"/><s n="loc"/></l>  <r>Prepireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>els<b/>Pirineus<s n="np"/><s n="loc"/></l><r>sos<b/>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>el<b/>Prepirineu<s n="np"/><s n="loc"/></l><r>sos<b/>Prepireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>el<b/>Pirineu<s n="np"/><s n="loc"/></l><r>sos<b/>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>voluntari<s n="n"/></l>                <r>voluntàriu<s n="n"/></r></p></e>
 <e>       <p><l>semifinal<s n="adj"/></l>              <r>semifinale<s n="adj"/></r></p></e>
@@ -28607,6 +28612,7 @@
 <e>       <p><l>inorgànic<s n="adj"/></l>              <r>inorgànicu<s n="adj"/></r></p></e>
 <e>       <p><l>aeronàutic<s n="adj"/></l>             <r>aeronàuticu<s n="adj"/></r></p></e>
 <e>       <p><l>colonitzador<s n="adj"/></l>           <r>colonizadore<s n="adj"/></r></p></e>
+<e>       <p><l>descolonitzador<s n="adj"/></l>        <r>decolonizadore<s n="adj"/></r></p></e>
 <e>       <p><l>antiaeri<s n="adj"/></l>               <r>antiaèreu<s n="adj"/></r></p></e>
 <e r="RL"><p><l>antiaeri<s n="adj"/></l>               <r>contraaèreu<s n="adj"/></r></p></e>
 <e>       <p><l>metabòlic<s n="adj"/></l>              <r>metabòlicu<s n="adj"/></r></p></e>
@@ -29244,7 +29250,8 @@
 <e>       <p><l>coreògraf<s n="n"/></l>                <r>coreògrafu<s n="n"/></r></p></e>
 <e>       <p><l>corol·la<s n="n"/><s n="f"/></l>       <r>corodda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>corresponsal<s n="n"/><s n="mf"/></l>  <r>currispondente<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>còrtex<s n="n"/><s n="m"/></l>         <r>iscortza<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>còrtex<s n="n"/><s n="m"/></l>         <r>iscortza<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>escorça<s n="n"/><s n="f"/></l>        <r>iscortza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>creient<s n="n"/><s n="mf"/></l>       <r>credente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>criptografia<s n="n"/><s n="f"/></l>   <r>criptografia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cristianització<s n="n"/><s n="f"/></l><r>cristianizatzione<s n="n"/><s n="f"/></r></p></e>
@@ -35000,6 +35007,11 @@
 <e>       <p><l>germanet<s n="n"/><s n="f"/></l>       <r>sorrighedda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>vellet<s n="n"/><s n="m"/></l>         <r>betzeddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>vellet<s n="n"/><s n="f"/></l>         <r>betzeddu<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>troià<s n="n"/></l><r>troianu<s n="n"/></r></p></e>
+      <e><p><l>troià<s n="adj"/></l><r>troianu<s n="adj"/></r></p></e>
+<e>       <p><l>gall<b/>dindi<s n="n"/><s n="m"/></l>      <r>dindu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>indiot<s n="n"/><s n="m"/></l>      <r>dindu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>escorta<s n="n"/><s n="mf"/></l><r>iscorta<s n="n"/><s n="f"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->
