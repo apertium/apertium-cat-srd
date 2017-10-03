@@ -8,11 +8,11 @@
 /README -text
 /TODO -text
 /apertium-cat-srd.cat-srd.dix -text
-/apertium-cat-srd.cat-srd.lrx -text
+/apertium-cat-srd.cat-srd.metalrx -text
 /apertium-cat-srd.cat-srd.t1x -text
 /apertium-cat-srd.cat-srd.t2x -text
 /apertium-cat-srd.cat-srd.t3x -text
-/apertium-cat-srd.srd-cat.lrx -text
+/apertium-cat-srd.srd-cat.metalrx -text
 /apertium-cat-srd.srd-cat.t1x -text
 /apertium-cat-srd.srd-cat.t2x -text
 /apertium-cat-srd.srd-cat.t3x -text
@@ -86,6 +86,7 @@ dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 /evaluation.gsoc2017 -text
+/metalrx-to-lrx.xslt -text
 /modes.xml -text
 t/README.org -text
 t/config.sh -text
