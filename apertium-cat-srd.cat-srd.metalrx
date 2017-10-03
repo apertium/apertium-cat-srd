@@ -3,38 +3,10 @@
 <!-- **************** PR **************** -->
 <!-- a > a, in -->
 
-<rules>
-  <rule weight="0.6">
-    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det.*"/>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-<!-- <match tags="vblex.*"/> -->
-    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
-    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
-    <match tags="det.*"/>
-    <or>
-      <match lemma="nord"/>
-      <match lemma="nord-est"/>
-      <match lemma="nord-oest"/>
-      <match lemma="sud"/>
-      <match lemma="sud-est"/>
-      <match lemma="sud-oest"/>
-      <match lemma="est"/>
-      <match lemma="oest"/>
+<metalrx>
+
+  <def-seqs>
+    <def-seq n="lloc-concret">
 
       <match lemma="parlament"/>
       <match lemma="congrés"/>
@@ -65,6 +37,51 @@
       <match lemma="saló"/>
       <match lemma="teulada"/>
       <match lemma="terrat"/>
+
+
+    </def-seq>
+
+
+    <def-seq n="punt-cardinal">
+      <match lemma="nord"/>
+      <match lemma="nord-est"/>
+      <match lemma="nord-oest"/>
+      <match lemma="sud"/>
+      <match lemma="sud-est"/>
+      <match lemma="sud-oest"/>
+      <match lemma="est"/>
+      <match lemma="oest"/>
+    </def-seq>
+
+  </def-seqs>
+
+
+<rules>
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+<!-- <match tags="vblex.*"/> -->
+    <match lemma="de" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
+    <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <or>
+      <seq n="punt-cardinal"/>
+      <seq n="lloc-concret"/>
 
       <match lemma="carrer"/>
       <match lemma="plaça"/>
@@ -4920,3 +4937,4 @@
   </rule>
 
 </rules>
+</metalrx>
