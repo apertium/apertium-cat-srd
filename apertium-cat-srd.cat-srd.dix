@@ -1143,7 +1143,7 @@
 <e>       <p><l>dia<s n="n"/><s n="m"/></l>            <r>die<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>àrea<s n="n"/><s n="f"/></l>           <r>àrea<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>centre<s n="n"/><s n="m"/></l>         <r>tzentru<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>ciència<s n="n"/><s n="f"/></l>        <r>iscièntzia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ciència<s n="n"/><s n="f"/></l>        <r>sièntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cor<s n="n"/><s n="m"/></l>            <r>coro<s n="n"/><s n="m"/></r></p></e>
 <e i="yes"><p><l>cor<s n="n"/><s n="m"/></l>           <r>coraddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>terreny<s n="n"/><s n="m"/></l>        <r>terrinu<s n="n"/><s n="m"/></r></p></e>
@@ -5605,8 +5605,7 @@
 <e>       <p><l>mancar<s n="vblex"/></l>               <r>mancare<s n="vblex"/></r></p></e>
 <e>       <p><l>edificació<s n="n"/><s n="f"/></l>     <r>edilìtzia<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>edificació<s n="n"/><s n="f"/></l>     <r>edificatzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>apropar<s n="vblex"/></l>              <r>acumandare<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>apropar<s n="vblex"/></l>              <r>afidare<s n="vblex"/></r></p></e>
+<e>       <p><l>apropar<s n="vblex"/></l>              <r>acurtziare<s n="vblex"/></r></p></e>
 <e>       <p><l>relíquia<s n="n"/><s n="f"/></l>       <r>relìchia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>recompensar<s n="vblex"/></l>          <r>ricumpensare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>recompensar<s n="vblex"/></l>          <r>grangeare<s n="vblex"/></r></p></e>
@@ -29415,6 +29414,7 @@
 <e>       <p><l>isòmer<s n="n"/><s n="m"/></l>         <r>isòmeru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>istme<s n="n"/><s n="m"/></l>          <r>istmu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ivori<s n="n"/><s n="m"/></l>          <r>màrfilu<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>vori<s n="n"/><s n="m"/></l>           <r>màrfilu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jardineria<s n="n"/><s n="f"/></l>     <r>giardinàgiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>jota<s n="n"/><s n="f"/></l>           <r>jota<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>jugabilitat<s n="n"/><s n="f"/></l>    <r>giogabilidade<s n="n"/><s n="f"/></r></p></e>

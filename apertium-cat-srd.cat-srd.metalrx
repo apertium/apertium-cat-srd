@@ -251,8 +251,14 @@
        <match lemma="urdu" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="verb_per_a_inf">
+       <match lemma="fer" tags="vblex.*"/>
+       <match lemma="realitzar" tags="vblex.*"/>
+       <match lemma="utilitzar" tags="vblex.*"/>
+       <match lemma="emprar" tags="vblex.*"/>
+       <match lemma="lluitar" tags="vblex.*"/>
+    </def-seq>
   </def-seqs>
-
 
 <rules>
   <rule weight="0.6">
@@ -285,10 +291,10 @@
       <seq n="part_ciutat"/>
       <seq n="escrit"/>
       <seq n="periode"/>
-      <seq n="part_cos"/>
-      <seq n="vestit"/>
       <seq n="mes"/>
       <seq n="estacio"/>
+      <seq n="part_cos"/>
+      <seq n="vestit"/>
       <seq n="num_trencat"/>
 
       <match lemma="mar"/>
@@ -310,6 +316,7 @@
       <seq n="territori"/>
       <seq n="accident_geogr"/>
       <seq n="part_ciutat"/>
+      <seq n="periode"/>
 
       <match lemma="mar"/>
       <match lemma="oceà"/>
@@ -321,43 +328,6 @@
 
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
-
-      <match lemma="minut" tags="n.*"/>
-      <match lemma="hora" tags="n.*"/>
-      <match lemma="dia" tags="n.*"/>
-      <match lemma="setmana" tags="n.*"/>
-      <match lemma="mes" tags="n.*"/>
-      <match lemma="any" tags="n.*"/>
-      <match lemma="dècada" tags="n.*"/>
-      <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
-      <match lemma="període" tags="n.*"/>
-      <match lemma="etapa" tags="n.*"/>
-      <match lemma="infantesa" tags="n.*"/>
-      <match lemma="adolescència" tags="n.*"/>
-      <match lemma="vellesa" tags="n.*"/>
-      <match lemma="edat" tags="n.*"/>
-      <match lemma="edat mitjana" tags="n.*"/>
-      <match lemma="era" tags="n.*"/>
-      <match lemma="època" tags="n.*"/>
-      <match lemma="renaixement" tags="n.*"/>
-      <match lemma="paleozoic" tags="n.*"/>
-      <match lemma="silurià" tags="n.*"/>
-      <match lemma="devonià" tags="n.*"/>
-      <match lemma="carbonífer" tags="n.*"/>
-      <match lemma="permià" tags="n.*"/>
-      <match lemma="mesozoic" tags="n.*"/>
-      <match lemma="cretaci" tags="n.*"/>
-      <match lemma="juràssic" tags="n.*"/>
-      <match lemma="triàsic" tags="n.*"/>
-      <match lemma="cenozoic" tags="n.*"/>
-      <match lemma="paleocè" tags="n.*"/>
-      <match lemma="eocè" tags="n.*"/>
-      <match lemma="oligocè" tags="n.*"/>
-      <match lemma="miocè" tags="n.*"/>
-      <match lemma="pliocè" tags="n.*"/>
-      <match lemma="plistocè" tags="n.*"/>
-      <match lemma="holocè" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -510,16 +480,18 @@
       <match lemma="dirigir" tags="vblex.*"/>
 
       <match lemma="donar" tags="vblex.*"/>
+      <match lemma="apropar" tags="vblex.*"/>
+      <match lemma="servir" tags="vblex.*"/>
       <match lemma="atorgar" tags="vblex.*"/>
       <match lemma="atribuir" tags="vblex.*"/>
       <match lemma="assignar" tags="vblex.*"/>
-      <match lemma="conquerir" tags="vblex.*"/>
-      <match lemma="conquistar" tags="vblex.*"/>
       <match lemma="associar" tags="vblex.*"/>
       <match lemma="vincular" tags="vblex.*"/>
       <match lemma="dir" tags="vblex.*"/>
       <match lemma="parlar" tags="vblex.*"/>
       <match lemma="cridar" tags="vblex.*"/>
+      <match lemma="incorporar" tags="vblex.*"/>
+      <match lemma="correspondre" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -539,15 +511,17 @@
       <match lemma="dirigir" tags="vblex.*"/>
 
       <match lemma="donar" tags="vblex.*"/>
+      <match lemma="apropar" tags="vblex.*"/>
+      <match lemma="servir" tags="vblex.*"/>
       <match lemma="atribuir" tags="vblex.*"/>
       <match lemma="assignar" tags="vblex.*"/>
-      <match lemma="conquerir" tags="vblex.*"/>
-      <match lemma="conquistar" tags="vblex.*"/>
       <match lemma="associar" tags="vblex.*"/>
       <match lemma="vincular" tags="vblex.*"/>
       <match lemma="dir" tags="vblex.*"/>
       <match lemma="parlar" tags="vblex.*"/>
       <match lemma="cridar" tags="vblex.*"/>
+      <match lemma="incorporar" tags="vblex.*"/>
+      <match lemma="correspondre" tags="vblex.*"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
@@ -601,6 +575,103 @@
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match tags="adv"/>
      <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="adv"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <match tags="adv"/>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <match tags="adv"/>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <match tags="adv"/>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <seq n="verb_per_a_inf"/>
+     </or>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <match tags="adv"/>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+
+  <rule weight="1.0">
+     <match lemma="base" tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="base" tags="n.*"/>
+     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+     <match tags="adv"/>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
@@ -1710,42 +1781,7 @@
   </rule>
   <rule weight="1.0">
      <or> <!-- temps -->
-       <match lemma="minut" tags="n.*"/>
-       <match lemma="hora" tags="n.*"/>
-       <match lemma="dia" tags="n.*"/>
-       <match lemma="setmana" tags="n.*"/>
-       <match lemma="mes" tags="n.*"/>
-       <match lemma="any" tags="n.*"/>
-       <match lemma="dècada" tags="n.*"/>
-       <match lemma="segle" tags="n.*"/>
-       <match lemma="mil·leni" tags="n.*"/>
-       <match lemma="període" tags="n.*"/>
-       <match lemma="etapa" tags="n.*"/>
-       <match lemma="infantesa" tags="n.*"/>
-       <match lemma="adolescència" tags="n.*"/>
-       <match lemma="vellesa" tags="n.*"/>
-       <match lemma="edat" tags="n.*"/>
-       <match lemma="edat mitjana" tags="n.*"/>
-       <match lemma="era" tags="n.*"/>
-       <match lemma="època" tags="n.*"/>
-       <match lemma="renaixement" tags="n.*"/>
-       <match lemma="paleozoic" tags="n.*"/>
-       <match lemma="silurià" tags="n.*"/>
-       <match lemma="devonià" tags="n.*"/>
-       <match lemma="carbonífer" tags="n.*"/>
-       <match lemma="permià" tags="n.*"/>
-       <match lemma="mesozoic" tags="n.*"/>
-       <match lemma="cretaci" tags="n.*"/>
-       <match lemma="juràssic" tags="n.*"/>
-       <match lemma="triàsic" tags="n.*"/>
-       <match lemma="cenozoic" tags="n.*"/>
-       <match lemma="paleocè" tags="n.*"/>
-       <match lemma="eocè" tags="n.*"/>
-       <match lemma="oligocè" tags="n.*"/>
-       <match lemma="miocè" tags="n.*"/>
-       <match lemma="pliocè" tags="n.*"/>
-       <match lemma="plistocè" tags="n.*"/>
-       <match lemma="holocè" tags="n.*"/>
+       <seq n="periode"/>
      </or>
      <match lemma="anterior" tags="adj.*"><select lemma="in antis"/></match>
   </rule>
@@ -2331,10 +2367,15 @@
        <match lemma="astronòmic" tags="adj.*"/>
        <match lemma="cronològic" tags="adj.*"/>
        <match lemma="següent" tags="adj.*"/>
+       <match lemma="anterior" tags="adj.*"/>
+       <match tags="num"/>
      </or>
   </rule>
   <rule weight="1.0">
-     <match lemma="següent" tags="adj.*"/>
+     <or>
+       <match lemma="següent" tags="adj.*"/>
+       <match lemma="anterior" tags="adj.*"/>
+     </or>
      <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
   </rule>
   <rule weight="1.0">
@@ -2346,7 +2387,8 @@
   </rule>
   <rule weight="1.0">
      <match lemma="taula" tags="n.*"><select lemma="tabella"/></match>
-     <match lemma="es" tags="prn.pro.ref.*"/>
+     <!-- <match lemma="es" tags="prn.pro.ref.*"/> -->
+     <match tags="*"/> <!-- prn, adv, adj, num -->
      <or>
        <match lemma="mostrar" tags="vblex.*"/>
        <match lemma="veure" tags="vblex.*"/>
