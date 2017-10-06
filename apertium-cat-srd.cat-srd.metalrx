@@ -251,13 +251,6 @@
        <match lemma="urdu" tags="n.*"/>
     </def-seq>
 
-    <def-seq n="verb_per_a_inf">
-       <match lemma="fer" tags="vblex.*"/>
-       <match lemma="realitzar" tags="vblex.*"/>
-       <match lemma="utilitzar" tags="vblex.*"/>
-       <match lemma="emprar" tags="vblex.*"/>
-       <match lemma="lluitar" tags="vblex.*"/>
-    </def-seq>
   </def-seqs>
 
 <rules>
@@ -576,109 +569,6 @@
      <match tags="adv"/>
      <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
      <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="adv"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <match tags="adv"/>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="n.*"/>
-     <match tags="adj.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="adj.*"/>
-     <match tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <match tags="adv"/>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="n.*"/>
-     <match tags="adj.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <match tags="adv"/>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <or>
-       <seq n="verb_per_a_inf"/>
-     </or>
-     <match tags="det.*"/>
-     <match tags="adj.*"/>
-     <match tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <match tags="adv"/>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-
-  <rule weight="1.0">
-     <match lemma="base" tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="base" tags="n.*"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <match tags="adv"/>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
-  </rule>
-
-  <rule weight="1.0">
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
-     <match lemma="un" tags="det.*"/>
-     <or><match lemma="costat" tags="n.*"/><match lemma="banda" tags="n.*"/></or>
   </rule>
 
 

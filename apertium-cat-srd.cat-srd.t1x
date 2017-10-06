@@ -4050,7 +4050,11 @@
               <tag><lit-tag v="SN"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <get-case-from pos="1">
+                <clip pos="1" side="tl" part="lemh"/>
+              </get-case-from>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -6493,6 +6497,20 @@
      <call-macro n="f_set_sg1">
        <with-param pos="1"/>
      </call-macro>
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></equal>
+             <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+               <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
+           </and>
+         </test>
+         <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+       </when>
+     </choose>
      <out>
        <chunk name="aux_pp">
          <tags>
