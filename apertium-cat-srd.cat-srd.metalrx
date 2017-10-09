@@ -832,8 +832,42 @@
   </rule>
   <rule weight="1.0">
      <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
-     <match tags="adv"/>
      <match tags="prn.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="prn.*"/>
+     <match tags="adv"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="adv"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="adv"/>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
      <or>
        <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
        <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
@@ -868,6 +902,58 @@
      <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
      <match tags="det.*"/>
      <match tags="n.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adv"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adv"/>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
      <match tags="adj.*"/>
      <or>
        <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
@@ -892,6 +978,33 @@
   <rule weight="1.0">
      <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
      <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="n.*"/>
+     <match tags="adj.*"/>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
      <match tags="adj.*"/>
      <match tags="n.*"/>
      <or>
@@ -907,6 +1020,33 @@
      <match tags="adj.*"/>
      <match tags="n.*"/>
      <match tags="adv"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+     <match tags="prn.pro.*"/>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="pro chi"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+     <match tags="prn.pro.*"/>
+     <match tags="prn.pro.*"/>
      <or>
        <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
        <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>

@@ -235,6 +235,7 @@
 
 <e>       <p><l>i<s n="cnjcoo"/></l>                   <r>e<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>o<s n="cnjcoo"/></l>                   <r>o<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>o<b/>bé<s n="cnjcoo"/></l>             <r>o<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>però<s n="cnjcoo"/></l>                <r>ma<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>però<s n="cnjcoo"/></l>                <r>però<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>ni<s n="cnjcoo"/></l>                  <r>ne<s n="cnjcoo"/></r></p></e>
@@ -762,7 +763,7 @@
 <e>       <p><l>verb<s n="n"/><s n="m"/></l>           <r>verbu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>any<s n="n"/><s n="m"/></l>            <r>annu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>dret<s n="n"/><s n="m"/></l>           <r>deretu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>plana<s n="n"/><s n="f"/></l>          <r>paris<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>plana<s n="n"/><s n="f"/></l>          <r>pranu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>vida<s n="n"/><s n="f"/></l>           <r>vida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ocasió<s n="n"/><s n="f"/></l>         <r>ocasione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>barba<s n="n"/><s n="f"/></l>          <r>barba<s n="n"/><s n="f"/></r></p></e>
@@ -2490,7 +2491,7 @@
 <e>       <p><l>occità<s n="adj"/></l>                 <r>otzitanu<s n="adj"/></r></p></e>
 <e>       <p><l>fonamental<s n="adj"/></l>             <r>fundamentale<s n="adj"/></r></p></e>
 <e>       <p><l>gran<s n="adj"/></l>                   <r>mannu<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>gran<s n="adj"/></l>                   <r>grandu<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>gran<s n="adj"/><s n="mf"/></l>        <r>grandu<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
 <e r="RL"><p><l>gran<s n="adj"/></l>                   <r>grande<s n="adj"/></r></p></e>
 <e>       <p><l>grec<s n="adj"/></l>                   <r>gregu<s n="adj"/></r></p></e>
 <e>       <p><l>melòdic<s n="adj"/></l>                <r>melodiosu<s n="adj"/></r></p></e>
@@ -2842,7 +2843,8 @@
 <e>       <p><l>exclusivament<s n="adv"/></l>          <r>esclusivamente<s n="adv"/></r></p></e>
 <e>       <p><l>formalment<s n="adv"/></l>             <r>formalmente<s n="adv"/></r></p></e>
 <e r="RL"><p><l>generalment<s n="adv"/></l>            <r>generalmente<s n="adv"/></r></p></e>
-<e>       <p><l>generalment<s n="adv"/></l>            <r>in<b/>manera<b/>generale<s n="adv"/></r></p></e>
+<e r="RL"><p><l>generalment<s n="adv"/></l>            <r>in<b/>manera<b/>generale<s n="adv"/></r></p></e>
+<e r="LR"><p><l>generalment<s n="adv"/></l>            <r>in<b/>generale<s n="adv"/></r></p></e>
 <e r="RL"><p><l>immediatament<s n="adv"/></l>          <r>immediatamente<s n="adv"/></r></p></e>
 <e>       <p><l>immediatament<s n="adv"/></l>          <r>deretu<s n="adv"/></r></p></e>
 <e>       <p><l>immediatament<s n="adv"/></l>          <r>in<b/>deretura<s n="adv"/></r></p></e>
@@ -3419,8 +3421,8 @@
 <e>       <p><l>quant<s n="rel"/><s n="nn"/></l>       <r>cantu<s n="rel"/><s n="an"/></r></p></e>
 
 <e>       <p><l>ja<b/>que<s n="cnjadv"/></l>           <r>dae<b/>chi<s n="cnjadv"/></r></p></e>
-<e>       <p><l>així<b/>com<s n="cnjadv"/></l>         <r>gosi<b/>comente<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>així<b/>com<s n="cnjadv"/></l>         <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>així<b/>com<s n="cnjadv"/></l>         <r>gosi<b/>comente<s n="cnjadv"/></r></p></e>
+<e>       <p><l>així<b/>com<s n="cnjadv"/></l>         <r>gasi<b/>comente<s n="cnjadv"/></r></p></e>
 <e>       <p><l>sinó<s n="cnjcoo"/></l>                <r>si<b/>nono<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>cun<b/>totu<b/>chi<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>tot<b/>i<b/>que<s n="cnjadv"/></l>     <r>sende<b/>chi<s n="cnjadv"/></r></p></e>
@@ -4163,7 +4165,6 @@
 <e>       <p><l>aire<s n="n"/><s n="m"/></l>           <r>àera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>museu<s n="n"/><s n="m"/></l>          <r>museu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pujar<s n="vblex"/></l>                <r>artziare<s n="vblex"/></r></p></e>
-<e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>posseir<s n="vblex"/></l>              <r>possèdere<s n="vblex"/></r></p></e>
 <e i="yes"><p><l>posseir<s n="vblex"/></l>              <r>tènnere<s n="vblex"/></r></p></e>
 <e i="yes"><p><l>posseir<s n="vblex"/></l>              <r>àere<s n="vblex"/></r></p></e>
@@ -4724,7 +4725,7 @@
 <e>       <p><l>califa<s n="n"/><s n="m"/></l>         <r>califu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>separat<s n="adj"/></l>                <r>separadu<s n="adj"/></r></p></e>
 <e>       <p><l>sexual<s n="adj"/></l>                 <r>sessuale<s n="adj"/></r></p></e>
-<e>       <p><l>únicament<s n="adv"/></l>              <r>in<b/>manera<b/>ùnica<s n="adv"/></r></p></e>
+<e>       <p><l>únicament<s n="adv"/></l>              <r>petzi<s n="adv"/></r></p></e>
 <e>       <p><l>cristià<s n="n"/></l>                  <r>cristianu<s n="n"/></r></p></e>
 <e r="LR"><p><l>cristianodemòcrata<s n="n"/></l>       <r>democristianu<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>democratacristià<s n="n"/></l>         <r>democristianu<s n="n"/></r></p></e>
@@ -7809,7 +7810,6 @@
 <e>       <p><l>terror<s n="n"/><s n="m"/></l>         <r>terrore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>terrassa<s n="n"/><s n="f"/></l>       <r>terratzu<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>terrassa<s n="n"/><s n="f"/></l>       <r>passìgiu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>llevar<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>cunyat<s n="n"/></l>                   <r>connadu<s n="n"/></r></p></e>
 <e>       <p><l>amplitud<s n="n"/><s n="f"/></l>       <r>mannària<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>proposició<s n="n"/><s n="f"/></l>     <r>propositzione<s n="n"/><s n="f"/></r></p></e>
@@ -23298,6 +23298,8 @@
 <e>       <p><l>a<b/>la<b/>força<s n="adv"/></l>       <r>a<b/>fortza<s n="adv"/></r></p></e>
 <e>       <p><l>Segrià<s n="np"/><s n="loc"/></l>      <r>Segrià<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>esvair<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
+<e>       <p><l>llevar<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
+<e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>corb<s n="n"/><s n="m"/></l>           <r>corbu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Suez<s n="np"/><s n="loc"/></l>        <r>Suez<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Euràsia<s n="np"/><s n="loc"/></l>     <r>Euràsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -31021,7 +31023,6 @@
 <e>       <p><l>evangèlicament<s n="adv"/></l> <r>in<b/>manera<b/>evangèlica<s n="adv"/></r></p></e>
 <e>       <p><l>evolutivament<s n="adv"/></l> <r>in<b/>manera<b/>evolutiva<s n="adv"/></r></p></e>
 <e>       <p><l>exageradament<s n="adv"/></l> <r>in<b/>manera<b/>esagerada<s n="adv"/></r></p></e>
-<e>       <p><l>excel·lentment<s n="adv"/></l> <r>in<b/>manera<b/>estremada<s n="adv"/></r></p></e>
 <e>       <p><l>excèntricament<s n="adv"/></l> <r>in<b/>manera<b/>istramba<s n="adv"/></r></p></e>
 <e>       <p><l>executivament<s n="adv"/></l> <r>in<b/>manera<b/>esecutiva<s n="adv"/></r></p></e>
 <e>       <p><l>exemplarment<s n="adv"/></l> <r>in<b/>manera<b/>esemplare<s n="adv"/></r></p></e>
@@ -31401,7 +31402,7 @@
 <e>       <p><l>lloablement<s n="adv"/></l> <r>in<b/>manera<b/>loàbile<s n="adv"/></r></p></e>
 <e>       <p><l>lluïdament<s n="adv"/></l> <r>in<b/>manera<b/>luta<s n="adv"/></r></p></e>
 <e>       <p><l>lluminosament<s n="adv"/></l> <r>in<b/>manera<b/>lughente<s n="adv"/></r></p></e>
-<e>       <p><l>llunyanament<s n="adv"/></l> <r>in<b/>manera<b/>largana<s n="adv"/></r></p></e>
+<e>       <p><l>llunyanament<s n="adv"/></l> <r>indedda<s n="adv"/></r></p></e>
 <e>       <p><l>localistament<s n="adv"/></l> <r>in<b/>manera<b/>localista<s n="adv"/></r></p></e>
 <e>       <p><l>logarítmicament<s n="adv"/></l> <r>in<b/>manera<b/>logarìtmica<s n="adv"/></r></p></e>
 <e>       <p><l>logísticament<s n="adv"/></l> <r>in<b/>manera<b/>logìstica<s n="adv"/></r></p></e>
@@ -31737,7 +31738,7 @@
 <e>       <p><l>propagandísticament<s n="adv"/></l> <r>in<b/>manera<b/>propagandìstica<s n="adv"/></r></p></e>
 <e>       <p><l>propensament<s n="adv"/></l> <r>in<b/>manera<b/>disposta<s n="adv"/></r></p></e>
 <e>       <p><l>properament<s n="adv"/></l> <r>in<b/>manera<b/>imbeniente<s n="adv"/></r></p></e>
-<e>       <p><l>proporcionalment<s n="adv"/></l> <r>in<b/>manera<b/>proportzionale<s n="adv"/></r></p></e>
+<e>       <p><l>proporcionalment<s n="adv"/></l> <r>in<b/>proportzione<s n="adv"/></r></p></e>
 <e>       <p><l>pròsperament<s n="adv"/></l> <r>in<b/>manera<b/>rica<s n="adv"/></r></p></e>
 <e>       <p><l>proveïdament<s n="adv"/></l> <r>in<b/>manera<b/>frunida<s n="adv"/></r></p></e>
 <e>       <p><l>proverbialment<s n="adv"/></l> <r>in<b/>manera<b/>proverbiale<s n="adv"/></r></p></e>
@@ -32064,7 +32065,6 @@
       <e><p><l>Lowie<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Lowie<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Malinowski<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Malinowski<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Radcliffe<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Radcliffe<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l>Ramírez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Ramírez<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Sapir<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Sapir<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>Trubetskoi<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>Trubeckoj<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>van<b/>Gaal<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l><r>van<b/>Gaal<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -35011,6 +35011,23 @@
 <e>       <p><l>gall<b/>dindi<s n="n"/><s n="m"/></l>      <r>dindu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>indiot<s n="n"/><s n="m"/></l>      <r>dindu<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>escorta<s n="n"/><s n="mf"/></l><r>iscorta<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>gènesi<s n="n"/><s n="mf"/></l><r>gènesi<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>cadiratge<s n="n"/><s n="m"/></l><r>istàulu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cadiratge<s n="n"/><s n="m"/></l><r>cadreone<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>més<b/>o<b/>menys<s n="adv"/></l><r>belle<s n="adv"/></r></p></e>
+<e><p><l>hadrosaure<s n="n"/><s n="m"/></l><r>hadrosàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>albertosaure<s n="n"/><s n="m"/></l><r>albertosàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gorgosaure<s n="n"/><s n="m"/></l><r>gorgosàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ontogènesi<s n="n"/><s n="f"/></l><r>ontogènesi<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>postimpressionista<s n="adj"/><s n="mf"/></l><r>postimpressionista<s n="adj"/><s n="mf"/></r></p></e>
+<e><p><l>postimpressionista<s n="n"/></l><r>postimpressionista<s n="n"/></r></p></e>
+<e><p><l>predador<s n="n"/><s n="m"/></l><r>predadore<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>depredador<s n="n"/><s n="m"/></l><r>predadore<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>saure<s n="n"/><s n="m"/></l><r>sàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tiranosaure<s n="n"/><s n="m"/></l><r>tiranosàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>daspletosaure<s n="n"/><s n="m"/></l><r>daspletosàuru<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>tiranosàurid<s n="n"/><s n="m"/></l><r>tiranosàuride<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ceratòpsid<s n="n"/><s n="m"/></l><r>tzeratòpside<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->
