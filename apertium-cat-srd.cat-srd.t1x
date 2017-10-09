@@ -23,6 +23,9 @@
    <cat-item tags="prn.tn.p3.*"/>
    <cat-item tags="prn.tn.ref.p3.*"/>
 </def-cat>
+<def-cat n="prnpro">
+   <cat-item tags="prn.pro.*"/>
+</def-cat>
 <def-cat n="prnproref">
   <cat-item lemma="em" tags="prn.pro.p1.mf.sg"/>
   <cat-item lemma="et" tags="prn.pro.p2.mf.sg"/>
@@ -548,7 +551,7 @@
       <list-item v="essire"/>
       <list-item v="falare"/>
       <list-item v="frenare"/>
-      <list-item v="fugire"/>
+      <list-item v="fuire"/>
       <list-item v="intrare"/>
       <list-item v="isfugire"/>
       <list-item v="istare"/>
@@ -557,6 +560,7 @@
       <list-item v="restare"/>
       <list-item v="pèndere"/>
       <list-item v="sèere"/>
+      <list-item v="bìvere"/>
       <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
 <!--      <list-item v="torrare"/> cas especial -->
     </def-list>
@@ -5199,7 +5203,7 @@
     <out>
       <chunk name="mes-de-su-any">
         <tags>
-          <tag><lit-tag v="SV"/></tag>
+          <tag><lit-tag v="SN"/></tag>
         </tags>
         <lu>
           <clip pos="1" side="tl" part="lemh"/>
@@ -5222,6 +5226,57 @@
           <clip pos="3" side="tl" part="lemh"/>
           <clip pos="3" side="tl" part="tags"/>
           <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+
+<rule comment="regla: det mes de num: el maig de 2017 > su maju de su 2017">
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="mes"/>
+    <pattern-item n="de"/>
+    <pattern-item n="num"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <out>
+      <chunk name="det-mes-de-su-any">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <lit v="su"/>
+          <lit-tag v="det.def.m.sg"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
         </lu>
       </chunk>
     </out>
@@ -5490,6 +5545,78 @@
 </rule>  
 
 
+<rule comment="prnref prnpro haver pp > prnref prnpro èssere pp: s'hi ha incorporat > si nch'est achiridu, m'ho ha dit > mi l'at naradu, m'hi ha arribat > mi nch'est arribadu"> 
+  <pattern>
+    <pattern-item n="prnproref"/>
+    <pattern-item n="prnpro"/>
+    <pattern-item n="haver"/>
+    <pattern-item n="pp"/>
+  </pattern>
+  <action>
+    <choose>
+      <when>
+        <test>
+          <or>
+            <and>
+              <equal><clip pos="1" side="sl" part="pers"/><clip pos="3" side="sl" part="pers"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="nbr"/><clip pos="3" side="sl" part="nbr"/></equal>
+                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+              </or>
+            </and>
+            <in caseless="yes"><clip pos="4" side="tl" part="lemh"/><list n="vbambser"/></in>
+          </or>
+        </test>
+        <let><clip pos="3" side="tl" part="lem"/><lit v="èssere"/></let>
+        <let><clip pos="3" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+        <let><clip pos="4" side="tl" part="nbr"/><clip pos="3" side="sl" part="nbr"/></let>
+        <choose>
+          <when>
+            <test>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+            </test>
+            <let><clip pos="4" side="tl" part="gen"/><var n="genero"/></let>
+          </when>
+        </choose>
+      </when>
+    </choose>
+    <out>
+      <chunk name="prn_aux_pp">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>  
+
+
 <rule comment="prnref anar_pri inf > prnref èssere pp: es va incorporar > s'est achiridu, em va dir > mi at naradu, em va arribar > mi est arribadu"> 
   <pattern>
     <pattern-item n="prnproref"/>
@@ -5552,6 +5679,82 @@
           <clip pos="3" side="tl" part="lemh"/>
           <clip pos="3" side="tl" part="tags"/>
           <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>  
+
+
+<rule comment="prnref prnpro anar_pri inf > prnref èssere pp: s'hi va incorporar > s nch'est achiridu, m'ho va dir > mi l'at naradu, m'hi va arribar > mi nch'est arribadu"> 
+  <pattern>
+    <pattern-item n="prnproref"/>
+    <pattern-item n="prnpro"/>
+    <pattern-item n="anar_pri"/>
+    <pattern-item n="inf"/>
+  </pattern>
+  <action>
+    <call-macro n="f_vaux_anar_inf">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+    </call-macro>
+    <choose>
+      <when>
+        <test>
+          <or>
+            <and>
+              <equal><clip pos="1" side="sl" part="pers"/><clip pos="3" side="sl" part="pers"/></equal>
+              <or>
+                <equal><clip pos="1" side="sl" part="nbr"/><clip pos="3" side="sl" part="nbr"/></equal>
+                <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+              </or>
+            </and>
+            <in caseless="yes"><clip pos="4" side="tl" part="lemh"/><list n="vbambser"/></in>
+          </or>
+        </test>
+        <let><clip pos="3" side="tl" part="lem"/><lit v="èssere"/></let>
+        <let><clip pos="3" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+        <let><clip pos="4" side="tl" part="nbr"/><clip pos="3" side="sl" part="nbr"/></let>
+        <choose>
+          <when>
+            <test>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+            </test>
+            <let><clip pos="4" side="tl" part="gen"/><var n="genero"/></let>
+          </when>
+        </choose>
+      </when>
+    </choose>
+    <out>
+      <chunk name="prn_prn_aux_pp">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
         </lu>
       </chunk>
     </out>

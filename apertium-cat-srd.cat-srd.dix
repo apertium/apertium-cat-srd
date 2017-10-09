@@ -2366,6 +2366,9 @@
 <e>       <p><l>paneuropeu<s n="adj"/></l>             <r>paneuropeu<s n="adj"/></r></p></e>
 <e>       <p><l>extraeuropeu<s n="adj"/></l>           <r>extraeuropeu<s n="adj"/></r></p></e>
 <e>       <p><l>nacional<s n="adj"/></l>               <r>natzionale<s n="adj"/></r></p></e>
+<e>       <p><l>mononacional<s n="adj"/></l>           <r>mononatzionale<s n="adj"/></r></p></e>
+<e>       <p><l>binacional<s n="adj"/></l>             <r>binatzionale<s n="adj"/></r></p></e>
+<e>       <p><l>trinacional<s n="adj"/></l>            <r>trinatzionale<s n="adj"/></r></p></e>
 <e>       <p><l>particular<s n="adj"/></l>             <r>particulare<s n="adj"/></r></p></e>
 <e>       <p><l>recent<s n="adj"/></l>                 <r>reghente<s n="adj"/></r></p></e>
 <e>       <p><l>lingüístic<s n="adj"/></l>             <r>linguìsticu<s n="adj"/></r></p></e>
@@ -4004,7 +4007,7 @@
 <e>       <p><l>estació<s n="n"/><s n="f"/></l>        <r>istatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>jugador<s n="n"/></l>                  <r>giogadore<s n="n"/></r></p></e>
 <e>       <p><l>marcar<s n="vblex"/></l>               <r>marcare<s n="vblex"/></r></p></e>
-<e>       <p><l>exercir<s n="vblex"/></l>              <r>fàghere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>exercir<s n="vblex"/></l>              <r>fàghere<s n="vblex"/></r></p></e>
 <e>       <p><l>destruir<s n="vblex"/></l>             <r>ispèrdere<s n="vblex"/></r></p></e>
 <e>       <p><l>cursar<s n="vblex"/></l>               <r>cùrrere<s n="vblex"/></r></p></e>
 <e>       <p><l>total<s n="n"/><s n="m"/></l>          <r>totale<s n="n"/><s n="m"/></r></p></e>
@@ -28673,6 +28676,7 @@
 <e>       <p><l>xiïta<s n="adj"/><s n="mf"/></l>       <r>sciita<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>innecessari<s n="adj"/></l>            <r>innetzesàriu<s n="adj"/></r></p></e>
 <e>       <p><l>focal<s n="adj"/></l>                  <r>focale<s n="adj"/></r></p></e>
+<e>       <p><l>bifocal<s n="adj"/></l>                <r>bifocale<s n="adj"/></r></p></e>
 <e>       <p><l>immobiliari<s n="adj"/></l>            <r>immobiliare<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>devastador<s n="adj"/></l>             <r>devastante<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>col·laborador<s n="adj"/></l>          <r>collaboradore<s n="adj"/></r></p></e>
@@ -35028,6 +35032,26 @@
 <e><p><l>daspletosaure<s n="n"/><s n="m"/></l><r>daspletosàuru<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>tiranosàurid<s n="n"/><s n="m"/></l><r>tiranosàuride<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ceratòpsid<s n="n"/><s n="m"/></l><r>tzeratòpside<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>cretaci<s n="n"/><s n="m"/></l><r>cretàtzeu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>bípede<s n="adj"/></l><r>bìpede<s n="adj"/></r></p><par n="deixeble_dischente"/></e>
+<e><p><l>baldaquí<s n="n"/><s n="m"/></l><r>baldachinu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>comodí<s n="n"/><s n="m"/></l><r>comodinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>comodí<s n="n"/><s n="m"/></l><r>cumodinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>espí<s n="n"/><s n="m"/></l><r>ispinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>festí<s n="n"/><s n="m"/></l><r>festinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>querubí<s n="n"/><s n="m"/></l><r>cherubinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>remolí<s n="n"/><s n="m"/></l><r>remolinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>setí<s n="n"/><s n="m"/></l><r>setinu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>teròpode<s n="adj"/></l><r>teròpode<s n="adj"/></r></p><par n="deixeble_dischente"/></e>
+<e><p><l>volantí<s n="n"/><s n="m"/></l><r>volantinu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>fortí<s n="n"/><s n="m"/></l><r>fortinu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>molí<s n="n"/><s n="m"/></l><r>molinu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>pergamí<s n="n"/><s n="m"/></l><r>pergaminu<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>montenegrí<s n="adj"/></l><r>montenegrinu<s n="adj"/></r></p></e>
+<e><p><l>montenegrí<s n="n"/></l><r>montenegrinu<s n="n"/></r></p></e>
+<e><p><l>taurí<s n="adj"/></l><r>taurinu<s n="adj"/></r></p></e>
+<e><p><l>ultramarí<s n="adj"/></l><r>ultramarinu<s n="adj"/></r></p></e>
+<e r="RL"><p><l>masculí<s n="adj"/></l><r>masculinu<s n="adj"/></r></p></e>
 
 
     <!-- SECTION:  Punctuation -->
