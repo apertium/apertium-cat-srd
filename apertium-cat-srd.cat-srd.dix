@@ -2856,7 +2856,8 @@
 <e>       <p><l>naturalment<s n="adv"/></l>            <r>naturalmente<s n="adv"/></r></p></e>
 
 <e r="RL"><p><l>principalment<s n="adv"/></l>          <r>notadamente<s n="adv"/></r></p></e>
-<e>       <p><l>principalment<s n="adv"/></l>          <r>printzipalmente<s n="adv"/></r></p></e>
+<e r="RL"><p><l>principalment<s n="adv"/></l>          <r>printzipalmente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>principalment<s n="adv"/></l>          <r>mescamente<s n="adv"/></r></p></e>
 
 <e>       <p><l>successivament<s n="adv"/></l>         <r>successivamente<s n="adv"/></r></p></e>
 <e>       <p><l>últimament<s n="adv"/></l>             <r>ultimamente<s n="adv"/></r></p></e>
@@ -4140,7 +4141,8 @@
 <e>       <p><l>fortalesa<s n="n"/><s n="f"/></l>      <r>casteddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>comerç<s n="n"/><s n="m"/></l>         <r>cummèrtziu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>treure<s n="vblex"/></l>               <r>bogare<s n="vblex"/></r></p></e>
-<e>       <p><l>treure<s n="vblex"/></l>               <r>bogare<s n="vblex"/></r></p></e>
+<e>       <p><l>traure<s n="vblex"/></l>               <r>bogare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>llevar<s n="vblex"/></l>               <r>bogare<s n="vblex"/></r></p></e>
 <e>       <p><l>masculí<s n="adj"/></l>                <r>maschile<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>marca<s n="n"/><s n="f"/></l>          <r>marca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>columna<s n="n"/><s n="f"/></l>        <r>colunna<s n="n"/><s n="f"/></r></p></e>
@@ -4728,7 +4730,7 @@
 <e>       <p><l>califa<s n="n"/><s n="m"/></l>         <r>califu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>separat<s n="adj"/></l>                <r>separadu<s n="adj"/></r></p></e>
 <e>       <p><l>sexual<s n="adj"/></l>                 <r>sessuale<s n="adj"/></r></p></e>
-<e>       <p><l>únicament<s n="adv"/></l>              <r>petzi<s n="adv"/></r></p></e>
+<e r="LR"><p><l>únicament<s n="adv"/></l>              <r>petzi<s n="adv"/></r></p></e>
 <e>       <p><l>cristià<s n="n"/></l>                  <r>cristianu<s n="n"/></r></p></e>
 <e r="LR"><p><l>cristianodemòcrata<s n="n"/></l>       <r>democristianu<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>democratacristià<s n="n"/></l>         <r>democristianu<s n="n"/></r></p></e>
@@ -4856,7 +4858,7 @@
 <e r="RL"><p><l>mot<s n="n"/><s n="m"/></l>            <r>allega<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>enginyer<s n="n"/></l>                 <r>ingegneri<s n="n"/></r></p></e>
 <e>       <p><l>transició<s n="n"/><s n="f"/></l>      <r>transitzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>possiblement<s n="adv"/></l>           <r>si<b/>est<b/>possìbile<s n="adv"/></r></p></e>
+<e r="LR"><p><l>possiblement<s n="adv"/></l>           <r>forsis<s n="adv"/></r></p></e>
 <e>       <p><l>demanda<s n="n"/><s n="f"/></l>        <r>dimanda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>a<b/>l'esquerra<s n="adv"/></l>        <r>a<b/>sa<b/>manca<s n="adv"/></r></p></e>
 <e>       <p><l>marítim<s n="adj"/></l>                <r>marìtimu<s n="adj"/></r></p></e>
@@ -5438,7 +5440,7 @@
 <e>       <p><l>tros<s n="n"/><s n="m"/></l>           <r>biculeddu<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>bocí<s n="n"/><s n="m"/></l>           <r>biculeddu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>explicació<s n="n"/><s n="f"/></l>     <r>ispiegatzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>dent<s n="n"/><s n="f"/></l>           <r>dente<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dent<s n="n"/><s n="f"/></l>           <r>dente<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>contreure<s n="vblex"/></l>            <r>incrispare<s n="vblex"/></r></p></e>
 <e>       <p><l>mencionar<s n="vblex"/></l>            <r>mentovare<s n="vblex"/></r></p></e>
 <e>       <p><l>entrenament<s n="n"/><s n="m"/></l>    <r>allenamentu<s n="n"/><s n="m"/></r></p></e>
@@ -5673,6 +5675,7 @@
 <e>       <p><l>mitjana<s n="n"/><s n="f"/></l>        <r>mèdia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mal<s n="adj"/></l>                    <r>malu<s n="adj"/></r></p></e>
 <e>       <p><l>caça<s n="n"/><s n="f"/></l>           <r>catza<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>caça<s n="n"/><s n="f"/></l>           <r>cassa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>responsable<s n="n"/><s n="mf"/></l>   <r>responsàbile<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>ensenyar<s n="vblex"/></l>             <r>insingiare<s n="vblex"/></r></p></e>
 <e>       <p><l>ensenyar<s n="vblex"/></l>             <r>mustrare<s n="vblex"/></r></p></e>
@@ -5890,7 +5893,7 @@
 <e>       <p><l>audiència<s n="n"/><s n="f"/></l>      <r>udièntzia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>carro<s n="n"/><s n="m"/></l>          <r>carru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>míssil<s n="n"/><s n="m"/></l>         <r>mìssile<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>extremadament<s n="adv"/></l>          <r>a<b/>manera<b/>estrema<s n="adv"/></r></p></e>
+<e r="LR"><p><l>extremadament<s n="adv"/></l>          <r>meda<s n="adv"/></r></p></e>
 <e>       <p><l>cita<s n="n"/><s n="f"/></l>           <r>tzita<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Castellcir<s n="np"/><s n="loc"/></l>  <r>Castellcir<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>l'endemà<s n="adv"/></l>               <r>s'incràs<s n="adv"/></r></p></e>
@@ -6204,7 +6207,8 @@
 <e>       <p><l>nominació<s n="n"/><s n="f"/></l>      <r>denominatzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>propaganda<s n="n"/><s n="f"/></l>     <r>propaganda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>clergat<s n="n"/><s n="m"/></l>        <r>cleru<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>caçar<s n="vblex"/></l>                <r>cassare<s n="vblex"/></r></p></e>
+<e>       <p><l>caçar<s n="vblex"/></l>                <r>catziare<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>caçar<s n="vblex"/></l>                <r>cassare<s n="vblex"/></r></p></e>
 <e>       <p><l>Alps<s n="np"/><s n="loc"/></l>        <r>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>anunci<s n="n"/><s n="m"/></l>         <r>annùntziu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pobla<s n="n"/><s n="f"/></l>          <r>residèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -7497,7 +7501,8 @@
 <e>       <p><l>fiable<s n="adj"/></l>                 <r>fidadu<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>nominal<s n="adj"/></l>                <r>nominale<s n="adj"/></r></p></e>
 <e>       <p><l>estrictament<s n="adv"/></l>           <r>in<b/>manera<b/>istrinta<s n="adv"/></r></p></e>
-<e>       <p><l>caçador<s n="n"/></l>                  <r>cassadore<s n="n"/></r></p></e>
+<e>       <p><l>caçador<s n="n"/></l>                  <r>catzadore<s n="n"/></r></p></e>
+<e r="RL"><p><l>caçador<s n="n"/></l>                  <r>cassadore<s n="n"/></r></p></e>
 <e>       <p><l>breument<s n="adv"/></l>               <r>in<b/>curtzu<s n="adv"/></r></p></e>
 <e>       <p><l>jerarquia<s n="n"/><s n="f"/></l>      <r>gerarchia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Màlaga<s n="np"/><s n="loc"/></l>      <r>Màlaga<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
@@ -23301,7 +23306,6 @@
 <e>       <p><l>a<b/>la<b/>força<s n="adv"/></l>       <r>a<b/>fortza<s n="adv"/></r></p></e>
 <e>       <p><l>Segrià<s n="np"/><s n="loc"/></l>      <r>Segrià<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>esvair<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
-<e>       <p><l>llevar<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>corb<s n="n"/><s n="m"/></l>           <r>corbu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Suez<s n="np"/><s n="loc"/></l>        <r>Suez<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
@@ -26364,7 +26368,8 @@
 <e>       <p><l>endurir<s n="vblex"/></l>              <r>tostare<s n="vblex"/></r></p></e>
 <e>       <p><l>dràsticament<s n="adv"/></l>           <r>in<b/>mànera<b/>dràstica<s n="adv"/></r></p></e>
 <e>       <p><l>Cambó<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></l>       <r>Cambó<s n="np"/><s n="cog"/><s n="mf"/><s n="sp"/></r></p></e>
-<e>       <p><l>caçador<s n="adj"/></l>                <r>cassadore<s n="adj"/></r></p></e>
+<e>       <p><l>caçador<s n="adj"/></l>                <r>catzadore<s n="adj"/></r></p></e>
+<e r="RL"><p><l>caçador<s n="adj"/></l>                <r>cassadore<s n="adj"/></r></p></e>
 <e>       <p><l>al<b/>bell<b/>mig<s n="adv"/></l>      <r>in<b/>mesu<s n="adv"/></r></p></e>
 <e>       <p><l>afermar<s n="vblex"/></l>              <r>afirmare<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>versar<s n="vblex"/></l>               <r>tratare<s n="vblex"/></r></p></e>

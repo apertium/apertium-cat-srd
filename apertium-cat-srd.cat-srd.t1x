@@ -174,6 +174,9 @@
 <def-cat n="predet">
    <cat-item tags="predet.*"/>
 </def-cat>
+<def-cat n="rel">
+   <cat-item tags="rel.*"/>
+</def-cat>
 <def-cat n="pro">
    <cat-item tags="prn.pro.p1.*"/>
    <cat-item tags="prn.pro.p2.*"/>
@@ -3583,6 +3586,30 @@
 </rule>
 
 
+<rule comment="regla: rel">
+   <pattern>
+     <pattern-item n="rel"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <out>
+       <chunk name="rel">
+         <tags>
+           <tag><lit-tag v="Rel"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: prn">
    <pattern>
      <pattern-item n="prn"/>
@@ -5479,6 +5506,84 @@
    </action>
 </rule>
 
+
+<!--
+S'ha de millorar:
+- "tapa" la regla del reflexiu (l'ha d'incloure)
+- ha de tenir en compte si els pronoms són de CD (no "li", per exemple). El problema és que "ens", "us" i "els" poden ser CD i CI - millor no fer canvis amb ells... o tenir una llista de verbs transitius o que (no) admetin CI (per evitar "els ha dit > los at narrados").
+<rule comment="pro haver pp > pro aux pp: els ha unit > los at unidos, m'ha arribat > mi est arribadu"> 
+  <pattern>
+    <pattern-item n="pro"/>
+    <pattern-item n="haver"/>
+    <pattern-item n="pp"/>
+  </pattern>
+  <action>
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes"><clip pos="3" side="tl" part="lemh"/><list n="vbambser"/></in>
+        </test>
+        <let><clip pos="2" side="tl" part="lem"/><lit v="èssere"/></let>
+        <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+        <let><clip pos="3" side="tl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></let>
+        <choose>
+          <when>
+            <test>
+                <or>
+                  <equal><var n="genero"/><lit-tag v="m"/></equal>
+                  <equal><var n="genero"/><lit-tag v="f"/></equal>
+                </or>
+            </test>
+            <let><clip pos="3" side="tl" part="gen"/><var n="genero"/></let>
+          </when>
+        </choose>
+      </when>
+      <otherwise>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            </test>
+            <let><clip pos="3" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+            </test>
+            <let><clip pos="3" side="tl" part="nbr"/><clip pos="1" side="sl" part="nbr"/></let>
+          </when>
+        </choose>
+      </otherwise>
+    </choose>
+    <out>
+      <chunk name="prn_aux_pp">
+        <tags>
+          <tag><lit-tag v="SV"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>  
+-->
 
 <rule comment="prnref haver pp > prnref èssere pp: s'ha incorporat > s'est achiridu, m'ha dit > mi at naradu, m'ha arribat > mi est arribadu"> 
   <pattern>
