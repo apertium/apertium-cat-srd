@@ -4029,6 +4029,7 @@
 <e>       <p><l>significar<s n="vblex"/></l>           <r>significare<s n="vblex"/></r></p></e>
 <e>       <p><l>to<s n="n"/><s n="m"/></l>             <r>tonu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>desaparèixer<s n="vblex"/></l>         <r>isparire<s n="vblex"/></r></p></e>
+<e>       <p><l>esvair<s n="vblex"/></l>               <r>isvanèssere<s n="vblex"/></r></p></e>
 <e>       <p><l>datar<s n="vblex"/></l>                <r>datare<s n="vblex"/></r></p></e>
 <e>       <p><l>capella<s n="n"/><s n="f"/></l>        <r>capella<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>inferior<s n="adj"/></l>               <r>inferiore<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -4470,8 +4471,8 @@
 <e>       <p><l>coincidir<s n="vblex"/></l>            <r>cointzìdere<s n="vblex"/></r></p></e>
 <e>       <p><l>fixar<s n="vblex"/></l>                <r>fissare<s n="vblex"/></r></p></e>
 <e>       <p><l>arxiu<s n="n"/><s n="m"/></l>          <r>archìviu<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>relleu<s n="n"/><s n="m"/></l>         <r>annotu<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>relleu<s n="n"/><s n="m"/></l>         <r>rilievu<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>relleu<s n="n"/><s n="m"/></l>         <r>annotu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>relleu<s n="n"/><s n="m"/></l>         <r>rilievu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l>       <r>María<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>farmàcia<s n="n"/><s n="f"/></l>       <r>potecaria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>episodi<s n="n"/><s n="m"/></l>        <r>episòdiu<s n="n"/><s n="m"/></r></p></e>
@@ -6209,6 +6210,7 @@
 <e>       <p><l>clergat<s n="n"/><s n="m"/></l>        <r>cleru<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>caçar<s n="vblex"/></l>                <r>catziare<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>caçar<s n="vblex"/></l>                <r>cassare<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>depredar<s n="vblex"/></l>             <r>catziare<s n="vblex"/></r></p></e>
 <e>       <p><l>Alps<s n="np"/><s n="loc"/></l>        <r>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>anunci<s n="n"/><s n="m"/></l>         <r>annùntziu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pobla<s n="n"/><s n="f"/></l>          <r>residèntzia<s n="n"/><s n="f"/></r></p></e>
@@ -23305,7 +23307,6 @@
 <e r="LR"><p><l>ametler<s n="n"/><s n="m"/></l>       <r>àrbore<g><b/>de<b/>mèndula</g><s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>força<s n="adv"/></l>       <r>a<b/>fortza<s n="adv"/></r></p></e>
 <e>       <p><l>Segrià<s n="np"/><s n="loc"/></l>      <r>Segrià<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>esvair<s n="vblex"/></l>               <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>expulsar<s n="vblex"/></l>             <r>catzare<s n="vblex"/></r></p></e>
 <e>       <p><l>corb<s n="n"/><s n="m"/></l>           <r>corbu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Suez<s n="np"/><s n="loc"/></l>        <r>Suez<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
