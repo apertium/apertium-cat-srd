@@ -1868,6 +1868,23 @@
      <match lemma="de" tags="pr"/>
   </rule>
 
+<!-- curs > cursu, annu -->
+
+  <rule weight="0.6">
+     <match lemma="curs" tags="n.*"><select lemma="cursu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="curs" tags="n.*"><select lemma="annu"/></match>
+     <or>
+       <match lemma="escolar" tags="adj.*"/>
+       <match lemma="acadèmic" tags="adj.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="curs" tags="n.*"><select lemma="annu"/></match>
+     <match tags="num"/>
+  </rule>
+
 <!-- dona > fèmina, mugere -->
 
   <rule weight="0.6">
@@ -2281,17 +2298,17 @@
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
   </rule>
 
-<!-- xic (n) > pizocu, pagu -->
+<!-- xic (n) > pitzocu, pagu -->
 
   <rule weight="0.6">
-     <match lemma="xic" tags="n.m.*"><select lemma="pizocu"/></match>
+     <match lemma="xic" tags="n.m.*"><select lemma="pitzocu"/></match>
   </rule>
   <rule weight="1.0">
      <match lemma="xic" tags="n.m.*"><select lemma="pagu"/></match>
      <match lemma="de" tags="pr"/>
   </rule>
   <rule weight="1.2">
-     <match lemma="xic" tags="n.m.*"><select lemma="pizocu"/></match>
+     <match lemma="xic" tags="n.m.*"><select lemma="pitzocu"/></match>
      <match lemma="de" tags="pr"/>
      <match tags="np.*"/>
   </rule>
