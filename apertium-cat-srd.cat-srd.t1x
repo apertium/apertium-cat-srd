@@ -4815,7 +4815,18 @@
           </chunk>
         </out>
       </when>
-      <otherwise>
+      <when>
+        <test>
+          <or>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="carchi"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="calicunu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="grandu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="àteru"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="diversu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="matessi"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="prus"/></equal>
+          </or>
+        </test>
         <out>
          <chunk name="det-adj-nom">
            <tags>
@@ -4835,6 +4846,30 @@
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="tags"/>
               <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+         <chunk name="det-nom-adj">
+           <tags>
+             <tag><lit-tag v="SN"/></tag>
+           </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>

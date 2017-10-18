@@ -251,6 +251,54 @@
        <match lemma="urdu" tags="n.*"/>
     </def-seq>
 
+    <def-seq n="verbs_ci">
+       <match lemma="afegir" tags="vblex.*"/>
+       <match lemma="agafar" tags="vblex.*"/>
+       <match lemma="atorgar" tags="vblex.*"/>
+       <match lemma="atribuir" tags="vblex.*"/>
+       <match lemma="comprar" tags="vblex.*"/>
+       <match lemma="comunicar" tags="vblex.*"/>
+       <match lemma="construir" tags="vblex.*"/>
+       <match lemma="contestar" tags="vblex.*"/>
+       <match lemma="cridar" tags="vblex.*"/> <!-- a les armes, a capítol -->
+       <match lemma="demanar" tags="vblex.*"/>
+       <match lemma="deixar" tags="vblex.*"/>
+       <match lemma="dir" tags="vblex.*"/>
+       <match lemma="disparar" tags="vblex.*"/>
+       <match lemma="donar" tags="vblex.*"/>
+       <match lemma="escriure" tags="vblex.*"/>
+       <match lemma="importar" tags="vblex.*"/>
+       <match lemma="lliurar" tags="vblex.*"/>
+       <match lemma="manllevar" tags="vblex.*"/>
+       <match lemma="oferir" tags="vblex.*"/>
+       <match lemma="ofertar" tags="vblex.*"/>
+       <match lemma="parlar" tags="vblex.*"/>
+       <match lemma="pegar" tags="vblex.*"/>
+       <match lemma="permetre" tags="vblex.*"/>
+       <match lemma="pispar" tags="vblex.*"/>
+       <match lemma="plaure" tags="vblex.*"/>
+       <match lemma="prendre" tags="vblex.*"/>
+       <match lemma="reconèixer" tags="vblex.*"/>
+       <match lemma="regalar" tags="vblex.*"/>
+       <match lemma="replicar" tags="vblex.*"/>
+       <match lemma="repugnar" tags="vblex.*"/>
+       <match lemma="respondre" tags="vblex.*"/>
+       <match lemma="robar" tags="vblex.*"/>
+       <match lemma="sobreviure" tags="vblex.*"/>
+       <match lemma="telefonar" tags="vblex.*"/>
+       <match lemma="trucar" tags="vblex.*"/>
+       <match lemma="vendre" tags="vblex.*"/>
+    </def-seq>
+
+    <def-seq n="verbs_mov_amb_a">
+       <match lemma="apropar" tags="vblex.*"/>
+       <match lemma="aproximar" tags="vblex.*"/>
+       <match lemma="llençar" tags="vblex.*"/>
+       <match lemma="llançar" tags="vblex.*"/>
+       <match lemma="ficar" tags="vblex.*"/>
+       <match lemma="posar" tags="vblex.*"/>
+    </def-seq>
+
   </def-seqs>
 
 <rules>
