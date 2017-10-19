@@ -167,6 +167,32 @@
    <cat-item lemma="haver" tags="vbhaver.pis.p3.sg"/>
    <cat-item lemma="haver" tags="vbhaver.imp.p3.sg"/>
 </def-cat>
+<def-cat n="seguir-tmp-srd-cnj">
+   <cat-item lemma="seguir" tags="vblex.pri.*"/>
+   <cat-item lemma="seguir" tags="vblex.prs.*"/>
+   <cat-item lemma="seguir" tags="vblex.pii.*"/>
+   <cat-item lemma="seguir" tags="vblex.pis.*"/>
+   <cat-item lemma="seguir" tags="vblex.imp.*"/>
+<!--
+   <cat-item lemma="seguir" tags="vblex.inf"/>
+   <cat-item lemma="seguir" tags="vblex.ger"/>
+   <cat-item lemma="seguir" tags="vblex.pp.*"/>
+-->
+   <cat-item lemma="continuar" tags="vblex.pri.*"/>
+   <cat-item lemma="continuar" tags="vblex.prs.*"/>
+   <cat-item lemma="continuar" tags="vblex.pii.*"/>
+   <cat-item lemma="continuar" tags="vblex.pis.*"/>
+   <cat-item lemma="continuar" tags="vblex.imp.*"/>
+<!--
+   <cat-item lemma="continuar" tags="vblex.inf"/>
+   <cat-item lemma="continuar" tags="vblex.ger"/>
+   <cat-item lemma="continuar" tags="vblex.pp.*"/>
+-->
+</def-cat>
+<def-cat n="seguir_inf">
+   <cat-item lemma="seguir" tags="vblex.inf"/>
+   <cat-item lemma="continuar" tags="vblex.inf"/>
+</def-cat>
 <def-cat n="anar_pri">
    <cat-item lemma="anar" tags="vblex.pri.*"/>
 </def-cat>
@@ -444,6 +470,9 @@
 </def-cat>
 <def-cat n="i">
    <cat-item lemma="i" tags="cnjcoo"/>
+</def-cat>
+<def-cat n="np">
+   <cat-item tags="np.*"/>
 </def-cat>
 </section-def-cats>
 
@@ -3622,6 +3651,30 @@
 </rule>
 
 
+<rule comment="regla: np">
+   <pattern>
+     <pattern-item n="np"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <out>
+       <chunk name="np">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: prn">
    <pattern>
      <pattern-item n="prn"/>
@@ -5476,7 +5529,7 @@
      <pattern-item n="pp"/>
    </pattern>
    <action>
-     <call-macro n="f_concord1">
+     <call-macro n="f_concord1"> <!-- amb això mantinc el gènere que tingui el pp: és massa exposat triar el que hi hagi a la var genero -->
        <with-param pos="2"/>
      </call-macro>     
      <call-macro n="f_set_sg2">
@@ -5484,6 +5537,7 @@
        <with-param pos="2"/>
      </call-macro>
      <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+     <call-macro n="set_gen_tmp_no_mf0"></call-macro>
      <out>
        <chunk name="èssere_pp">
          <tags>
@@ -5509,7 +5563,10 @@
            <b pos="1"/>
            <lu>
              <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="a_verb"/>
+             <lit-tag v="pp"/>
+             <var n="genero_tmp"/>
+             <clip pos="2" side="tl" part="nbr"/>
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
        </chunk>
@@ -6018,6 +6075,7 @@ S'ha de millorar:
 	     </and>
            </or>
          </test>
+         <call-macro n="set_gen_tmp_no_mf0"></call-macro>
          <out>
            <chunk name="èssere_pp">
              <tags>
@@ -6036,7 +6094,7 @@ S'ha de millorar:
                  <clip pos="2" side="tl" part="lemh"/>
                  <clip pos="2" side="tl" part="a_verb"/>
                  <lit-tag v="pp"/>
-                 <clip pos="2" side="tl" part="gen"/>		<!-- FIXME -->
+                 <var n="genero_tmp"/>
                  <clip pos="1" side="tl" part="nbr"/>
                  <clip pos="2" side="tl" part="lemq"/>
                </lu>
@@ -8287,7 +8345,6 @@ S'ha de millorar:
    </action>
 </rule>
 
-
 <rule comment="regla: malgrat inf enc: malgrat dir-li > mancari narende·bi">
    <pattern>
      <pattern-item n="malgrat"/>
@@ -8324,7 +8381,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: malgrat inf enc enc: malgrat dir-li-ho > mancari narende·bi·lu">
    <pattern>
@@ -8369,7 +8425,6 @@ S'ha de millorar:
    </action>
 </rule>
 
-
 <rule comment="regla: malgrat adv inf: malgrat no voler > mancari non cherende">
    <pattern>
      <pattern-item n="malgrat"/>
@@ -8405,7 +8460,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: malgrat adv inf enc: malgrat no dir-li > mancari non narende·bi">
    <pattern>
@@ -8450,7 +8504,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: malgrat adv inf enc enc: malgrat no dir-li-ho > mancari non narende·bi·lu">
    <pattern>
@@ -8533,7 +8586,6 @@ S'ha de millorar:
    </action>
 </rule>
 
-
 <rule comment="regla: tot i inf enc: tot i dir-li > mancari narende·bi">
    <pattern>
      <pattern-item n="tot_prn"/>
@@ -8571,7 +8623,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: tot i inf enc enc: tot i dir-li-ho > mancari narende·bi·lu">
    <pattern>
@@ -8617,7 +8668,6 @@ S'ha de millorar:
    </action>
 </rule>
 
-
 <rule comment="regla: tot i adv inf: tot i no voler > mancari non cherende">
    <pattern>
      <pattern-item n="tot_prn"/>
@@ -8654,7 +8704,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: tot i adv inf enc: tot i no dir-li > mancari non narende·bi">
    <pattern>
@@ -8700,7 +8749,6 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
-
 
 <rule comment="regla: tot i adv inf enc enc: tot i no dir-li-ho > mancari non narende·bi·lu">
    <pattern>
@@ -8748,6 +8796,334 @@ S'ha de millorar:
            <clip pos="6" side="tl" part="lemq"/>
          </lu>
          </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: seguir ger: seguir dient > sighire a nàrrere">
+   <pattern>
+     <pattern-item n="seguir-tmp-srd-cnj"/>
+     <pattern-item n="ger"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <out>
+       <chunk name="seguir-a-inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: seguir ger enc: seguir dient-li > sighire a nàrrere">
+   <pattern>
+     <pattern-item n="seguir-tmp-srd-cnj"/>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <out>
+       <chunk name="seguir-a-inf-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: seguir ger enc enc: seguir dient-li-ho > sighire a nàrrere">
+   <pattern>
+     <pattern-item n="seguir-tmp-srd-cnj"/>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <out>
+       <chunk name="seguir-a-inf-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: anar_pri seguir_inf ger: va continuar dient > at continuadu a nàrrere">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="seguir_inf"/>
+     <pattern-item n="ger"/>
+   </pattern>
+   <action>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></equal>
+             <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+               <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
+           </and>
+         </test>
+         <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="aux_pp_a_inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lem"/>
+           <clip pos="1" side="tl" part="tags"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: anar_pri seguir_inf ger enc: va continuar dient-li > at continuadu a li nàrrere">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="seguir_inf"/>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></equal>
+             <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+               <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
+           </and>
+         </test>
+         <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="aux_pp_a_inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lem"/>
+           <clip pos="1" side="tl" part="tags"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: anar_pri seguir_inf ger enc enc: va continuar dient-li-ho > at continuadu a li lu nàrrere">
+   <pattern>
+     <pattern-item n="anar_pri"/>
+     <pattern-item n="seguir_inf"/>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_vaux_anar_inf">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_set_sg1">
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="inf"/></let>
+     <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <let><clip pos="5" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></equal>
+             <or>
+               <equal><var n="genero"/><lit-tag v="m"/></equal>
+               <equal><var n="genero"/><lit-tag v="f"/></equal>
+             </or>
+           </and>
+         </test>
+         <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="aux_pp_a_inf">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lem"/>
+           <clip pos="1" side="tl" part="tags"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <lit v="a"/>
+           <lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="5" side="tl" part="lemh"/>
+           <clip pos="5" side="tl" part="tags"/>
+           <clip pos="5" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
        </chunk>
      </out>
    </action>
