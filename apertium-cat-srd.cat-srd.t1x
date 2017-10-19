@@ -36,6 +36,9 @@
 <def-cat n="es">
    <cat-item lemma="es" tags="prn.pro.ref.p3.mf.sp"/>
 </def-cat>
+<def-cat n="tot_prn">
+   <cat-item lemma="tot" tags="prn.tn.m.sg"/>
+</def-cat>
 <def-cat n="estat_sigut">
    <cat-item lemma="estar" tags="vblex.pp.*"/>
    <cat-item lemma="ser" tags="vbser.pp.*"/>
@@ -116,6 +119,9 @@
 </def-cat>
 <def-cat n="en">
    <cat-item lemma="en" tags="pr"/>
+</def-cat>
+<def-cat n="malgrat">
+   <cat-item lemma="malgrat" tags="pr"/>
 </def-cat>
 <def-cat n="haver">
    <cat-item lemma="haver" tags="vbhaver.*"/>
@@ -432,6 +438,9 @@
 </def-cat>
 <def-cat n="que_cnjsub">
    <cat-item lemma="que" tags="cnjsub"/>
+</def-cat>
+<def-cat n="i">
+   <cat-item lemma="i" tags="cnjcoo"/>
 </def-cat>
 </section-def-cats>
 
@@ -8239,6 +8248,233 @@ S'ha de millorar:
              <clip pos="5" side="tl" part="tags"/>
              <clip pos="5" side="tl" part="lemq"/>
            </lu>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: malgrat inf: malgrat voler > mancari cherende">
+   <pattern>
+     <pattern-item n="malgrat"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: malgrat inf enc: malgrat dir-li > mancari narende·bi">
+   <pattern>
+     <pattern-item n="malgrat"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <mlu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: malgrat inf enc enc: malgrat dir-li-ho > mancari narende·bi·lu">
+   <pattern>
+     <pattern-item n="malgrat"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="2" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <mlu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: tot i inf: tot i voler > mancari cherende">
+   <pattern>
+     <pattern-item n="tot_prn"/>
+     <pattern-item n="i"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: tot i inf enc: tot i dir-li > mancari narende·bi">
+   <pattern>
+     <pattern-item n="tot_prn"/>
+     <pattern-item n="i"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <mlu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: tot i inf enc enc: tot i dir-li-ho > mancari narende·bi·lu">
+   <pattern>
+     <pattern-item n="tot_prn"/>
+     <pattern-item n="i"/>
+     <pattern-item n="inf"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <let><clip pos="3" side="tl" part="temps"/><lit-tag v="ger"/></let>
+     <out>
+       <chunk name="cnj-ger-enc-enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <get-case-from pos="1">
+             <lit v="mancari"/>
+           </get-case-from>
+           <lit-tag v="cnjadv"/>
+         </lu>
+         <b pos="1"/>
+         <mlu>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="5" side="tl" part="lemh"/>
+           <clip pos="5" side="tl" part="tags"/>
+           <clip pos="5" side="tl" part="lemq"/>
+         </lu>
          </mlu>
        </chunk>
      </out>
