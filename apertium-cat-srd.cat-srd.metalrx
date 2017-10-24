@@ -1840,6 +1840,22 @@
   </rule>
 
 
+<!-- **************** ADV **************** -->
+
+<!-- més > prus, de prus -->
+
+  <rule weight="0.6">
+     <match lemma="més" tags="adv"><select lemma="prus"/></match>
+  </rule>
+  <rule weight="1.0"> <!--  apropar més metges als usuaris > acurtziare de prus dotores a sos utentes -->
+     <match tags="vblex.*"/>
+     <or>
+       <match lemma="més" tags="adv"><select lemma="de prus"/></match>
+       <match lemma="més" tags="adj.*"><select lemma="de prus"/></match>
+     </or>
+     <match tags="n.*"/>
+  </rule>
+
 <!-- **************** ADJ **************** -->
 
 <!-- gran > mannu, grandu -->

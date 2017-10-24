@@ -4625,7 +4625,7 @@
           <with-param pos="2"/>
         </call-macro>
         <out>
-       <chunk name="det-nom-adj-adj-pos">
+       <chunk name="det-adj-nom-adj-pos">
          <tags>
            <tag><lit-tag v="SN"/></tag>
          </tags>
@@ -4890,6 +4890,10 @@
             <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="diversu"/></equal>
             <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="matessi"/></equal>
             <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="prus"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="primu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="segundu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="pagu"/></equal>
+            <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="cantu"/></equal>
           </or>
         </test>
         <out>
