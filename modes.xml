@@ -8,8 +8,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -38,7 +36,6 @@
       <program name="lt-proc $1">
         <file name="cat-srd.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="cat-srd.autopgen.bin"/>
       </program>
@@ -50,8 +47,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -105,8 +100,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -121,8 +114,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -138,8 +129,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -158,8 +147,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -181,8 +168,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -208,8 +193,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -239,8 +222,6 @@
       <program name="lt-proc -w">
         <file name="cat-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="cat-srd.rlx.bin"/>
       </program>
@@ -276,8 +257,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -306,7 +285,6 @@
       <program name="lt-proc $1">
         <file name="srd-cat.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="srd-cat.autopgen.bin"/>
       </program>
@@ -318,8 +296,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -373,8 +349,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -389,8 +363,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -406,8 +378,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -426,8 +396,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -449,8 +417,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -473,8 +439,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -501,8 +465,6 @@
       <program name="lt-proc -w">
         <file name="srd-cat.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-cat.rlx.bin"/>
       </program>
@@ -546,4 +508,3 @@
   </mode>
 
 </modes>
-

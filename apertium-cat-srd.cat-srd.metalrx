@@ -261,6 +261,7 @@
        <match lemma="construir" tags="vblex.*"/>
        <match lemma="contestar" tags="vblex.*"/>
        <match lemma="cridar" tags="vblex.*"/> <!-- a les armes, a capítol -->
+       <match lemma="dar" tags="vblex.*"/>
        <match lemma="demanar" tags="vblex.*"/>
        <match lemma="deixar" tags="vblex.*"/>
        <match lemma="dir" tags="vblex.*"/>
