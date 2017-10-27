@@ -2,7 +2,8 @@
 ## Makefile for Catalan--Sardinian
 ###############################################################################
 
-VERSION=0.9.0
+RELEASE=1.0
+VERSION=1.0.0
 LANG1=cat
 LANG2=srd
 PREFIX1=$(LANG1)-$(LANG2)
@@ -210,8 +211,8 @@ test: all
 	echo "casa" | apertium -d . cat-srd | tee .test-mt
 	@echo "domo" > .test-ref
 	@diff .test-ref .test-mt
-	echo "casa" | apertium -d . srd-cat | tee .test-mt
-	@echo "domo" > .test-ref
+	echo "domo" | apertium -d . srd-cat | tee .test-mt
+	@echo "casa" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
