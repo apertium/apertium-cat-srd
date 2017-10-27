@@ -15,6 +15,12 @@
       <match lemma="universitat"/>
       <match lemma="escola"/>
       <match lemma="facultat"/>
+      <match lemma="escola"/>
+      <match lemma="col·legi"/>
+      <match lemma="institut"/>
+      <match lemma="hospital"/>
+      <match lemma="clínica"/>
+      <match lemma="policlínica"/>
 
       <match lemma="casa"/>
       <match lemma="pis"/>
@@ -36,6 +42,30 @@
       <match lemma="saló"/>
       <match lemma="teulada"/>
       <match lemma="terrat"/>
+
+      <match lemma="presó"/>
+    </def-seq>
+
+    <def-seq n="lloc_abstracte">
+      <match lemma="vida"/>
+      <match lemma="mort"/>
+      <match lemma="estudi"/>
+      <match lemma="curs"/>
+      <match lemma="claase"/>
+      <match lemma="investigació"/>
+      <match lemma="recerca"/>
+      <match lemma="cerca"/>
+      <match lemma="anàlisi"/>
+    </def-seq>
+
+    <def-seq n="mitja_comunicacio">
+      <match lemma="televisió"/>
+      <match lemma="ràdio"/>
+      <match lemma="diari"/>
+      <match lemma="periòdic" tags="n.m.*"/>
+      <match lemma="revista"/>
+      <match lemma="xarxa"/>
+      <match lemma="internet"/>
     </def-seq>
 
     <def-seq n="punt_cardinal">
@@ -79,6 +109,19 @@
       <match lemma="muntanya"/>
       <match lemma="puig"/>
       <match lemma="turó"/>
+
+      <match lemma="mar"/>
+      <match lemma="oceà"/>
+      <match lemma="riu"/>
+      <match lemma="llac"/>
+      <match lemma="illa"/>
+      <match lemma="platja"/>
+      <match lemma="sorra"/>
+
+      <match lemma="bosc"/>
+      <match lemma="camp"/>
+      <match lemma="aiguamoll"/>
+
     </def-seq>
 
     <def-seq n="part_ciutat">
@@ -153,12 +196,26 @@
       <match lemma="cama"/>
       <match lemma="peu"/>
       <match lemma="cap"/>
+      <match lemma="coll"/>
       <match lemma="cos"/>
       <match lemma="coll"/>
       <match lemma="pit"/>
       <match lemma="panxa"/>
+      <match lemma="cintura"/>
       <match lemma="cul"/>
       <match lemma="maluc"/>
+      <match lemma="front"/>
+      <match lemma="nas"/>
+      <match lemma="galta"/>
+      <match lemma="boca"/>
+      <match lemma="barbeta"/>
+      <match lemma="mentó"/>
+      <match lemma="ull"/>
+      <match lemma="orella"/>
+      <match lemma="cabell"/>
+      <match lemma="genoll"/>
+      <match lemma="turmell"/>
+
       <match lemma="fetge"/>
       <match lemma="estòmac"/>
       <match lemma="cor"/>
@@ -199,6 +256,14 @@
       <match lemma="estiu"/>
       <match lemma="tardor"/>
       <match lemma="hivern"/>
+    </def-seq>
+
+    <def-seq n="baralla">
+      <match lemma="guerra"/>
+      <match lemma="batalla"/>
+      <match lemma="lluita"/>
+      <match lemma="combat"/>
+      <match lemma="baralla"/>
     </def-seq>
 
     <def-seq n="num_trencat">
@@ -328,8 +393,10 @@
     <or>
       <seq n="punt_cardinal"/>
       <seq n="lloc_concret"/>
+      <seq n="lloc_abstracte"/>
       <seq n="territori"/>
       <seq n="accident_geogr"/>
+      <seq n="baralla"/>
       <seq n="part_ciutat"/>
       <seq n="escrit"/>
       <seq n="periode"/>
@@ -338,17 +405,29 @@
       <seq n="part_cos"/>
       <seq n="vestit"/>
       <seq n="num_trencat"/>
-
-      <match lemma="mar"/>
-      <match lemma="oceà"/>
-      <match lemma="riu"/>
-      <match lemma="llac"/>
-      <match lemma="illa"/>
-
-      <match lemma="bosc"/>
-
-      <match lemma="televisió"/>
-      <match lemma="ràdio"/>
+      <seq n="mitja_comunicacio"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="predet.*"/>
+    <match tags="det.*"/>
+    <or>
+      <seq n="punt_cardinal"/>
+      <seq n="lloc_concret"/>
+      <seq n="lloc_abstracte"/>
+      <seq n="territori"/>
+      <seq n="accident_geogr"/>
+      <seq n="baralla"/>
+      <seq n="part_ciutat"/>
+      <seq n="escrit"/>
+      <seq n="periode"/>
+      <seq n="mes"/>
+      <seq n="estacio"/>
+      <seq n="part_cos"/>
+      <seq n="vestit"/>
+      <seq n="num_trencat"/>
+      <seq n="mitja_comunicacio"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -359,17 +438,6 @@
       <seq n="accident_geogr"/>
       <seq n="part_ciutat"/>
       <seq n="periode"/>
-
-      <match lemma="mar"/>
-      <match lemma="oceà"/>
-      <match lemma="riu"/>
-      <match lemma="llac"/>
-      <match lemma="illa"/>
-
-      <match lemma="bosc"/>
-
-      <match lemma="televisió"/>
-      <match lemma="ràdio"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -379,27 +447,19 @@
     <or>
       <seq n="punt_cardinal"/>
       <seq n="lloc_concret"/>
+      <seq n="lloc_abstracte"/>
       <seq n="territori"/>
       <seq n="accident_geogr"/>
+      <seq n="baralla"/>
       <seq n="part_ciutat"/>
       <seq n="escrit"/>
-      <seq n="periode"/>
+      <seq n="període"/>
       <seq n="part_cos"/>
       <seq n="vestit"/>
       <seq n="mes"/>
       <seq n="estacio"/>
       <seq n="num_trencat"/>
-
-      <match lemma="mar"/>
-      <match lemma="oceà"/>
-      <match lemma="riu"/>
-      <match lemma="llac"/>
-      <match lemma="illa"/>
-
-      <match lemma="bosc"/>
-
-      <match lemma="televisió"/>
-      <match lemma="ràdio"/>
+      <seq n="mitja_comunicacio"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2020,7 +2080,7 @@
   </rule>
   <rule weight="1.0">
      <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
-     <match lemma="al" tags="pr"/>
+     <match lemma="a" tags="pr"/>
   </rule>
   <rule weight="1.0">
      <match lemma="cop" tags="n.*"><select lemma="corfu"/></match>
