@@ -163,9 +163,9 @@ $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 ###############################################################################
 
 EXTRA_DIST=					\
-		$(BASENAME).$(PREFIX1).lrx	\
+		.deps/$(BASENAME).$(PREFIX1).lrx	\
 		$(BASENAME).$(PREFIX1).dix	\
-		$(BASENAME).$(PREFIX2).lrx	\
+		.deps/$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).t1x	\
 		$(BASENAME).$(PREFIX1).t2x	\
 		$(BASENAME).$(PREFIX1).t3x	\
