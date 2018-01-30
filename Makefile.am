@@ -107,8 +107,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.lrx: metalrx-to-lrx.xslt %.metalrx
-	if [[ ! -d .deps ]]; then mkdir .deps; fi
+.deps/%.metalrx: %.metalrx .deps/.d
+	python3 metalrx.py $< $@
+
+.deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
 	xsltproc $^ > $@.tmp
 	@xmllint --format $@.tmp > $@
 	@rm $@.tmp
@@ -118,6 +120,7 @@ $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 
 $(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
 	lrx-comp $< $@
+
 
 ###############################################################################
 ## Structural transfer rules
