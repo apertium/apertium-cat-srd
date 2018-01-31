@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <!--
 Copyright (C) 2016 Universitat d'Alacant / Universidad de Alicante
+Copyright (C) 2018 Xavi Ivars <xavi.ivars@gmail.com>
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License as
@@ -19,7 +20,7 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
   <xsl:template match="metalrx">
-    <xsl:apply-templates select="./rules"/>
+    <xsl:apply-templates select="./rules" />
   </xsl:template>
 
   <xsl:template match="seq">
@@ -37,6 +38,7 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
       <xsl:when test="not(./following-sibling::repeat[1])">
         <xsl:call-template name="repeat1">
           <xsl:with-param name="upto" select="@upto" />
+          <xsl:with-param name="from" select="@from" />
         </xsl:call-template>
       </xsl:when>
       <xsl:otherwise>
@@ -48,6 +50,7 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
   <!-- Actually output the stuff, and recurse: -->
   <xsl:template name="repeat1">
     <xsl:param name="upto" />
+    <xsl:param name="from" select="1" />
     <xsl:choose><xsl:when test="$upto &gt; 0">
       <rule>
         <xsl:copy-of select="./../@*"/>
@@ -55,19 +58,30 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
         <xsl:call-template name="repeatElts">
           <xsl:with-param name="elts" select="./*" />
           <xsl:with-param name="upto" select="$upto" />
+          <xsl:with-param name="from" select="$from" />
         </xsl:call-template>
         <xsl:apply-templates select="./following-sibling::*"/>
       </rule>
       <xsl:variable name="next">
         <repeat>
           <xsl:attribute name="upto"><xsl:value-of select="@upto - 1"/></xsl:attribute>
+          <xsl:attribute name="from"><xsl:value-of select="@from"/></xsl:attribute>
           <xsl:copy-of select="./*"/>
         </repeat>
       </xsl:variable>
       <xsl:call-template name="repeat1">
         <xsl:with-param name="upto" select="$upto - 1" />
+        <xsl:with-param name="from" select="$from" />
       </xsl:call-template>
-    </xsl:when></xsl:choose>
+    </xsl:when>
+    <xsl:when test="$upto = 0 and $from = 0">
+		<rule>
+			<xsl:copy-of select="./../@*"/>
+			<xsl:apply-templates select="./preceding-sibling::*"/>
+			<xsl:apply-templates select="./following-sibling::*"/>
+		</rule>
+    </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="repeat"> <!-- if no upto, you get zero repeats! -->
@@ -77,15 +91,16 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
   <xsl:template name="repeatElts">
     <xsl:param name="elts" />
     <xsl:param name="upto" />
+    <xsl:param name="from" />
     <xsl:if test="$upto &gt; 0">
       <xsl:apply-templates select="$elts" />
       <xsl:call-template name="repeatElts">
         <xsl:with-param name="elts" select="$elts" />
         <xsl:with-param name="upto" select="$upto - 1" />
+        <xsl:with-param name="from" select="$from" />
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
-
 
   <!-- catch-all -->
   <xsl:template match="@* | node()">
