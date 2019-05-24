@@ -780,7 +780,7 @@
     <or>
       <match lemma="carta" tags="n.*"/>
       <match lemma="missatge" tags="n.*"/>
-      <match lemma="salutaciö" tags="n.*"/>
+      <match lemma="salutació" tags="n.*"/>
       <match lemma="epístola" tags="n.*"/>
       <match lemma="ordre" tags="n.f.*"/>
       <match lemma="comiat" tags="n.*"/>
@@ -792,7 +792,7 @@
     <or>
       <match lemma="carta" tags="n.*"/>
       <match lemma="missatge" tags="n.*"/>
-      <match lemma="salutaciö" tags="n.*"/>
+      <match lemma="salutació" tags="n.*"/>
       <match lemma="epístola" tags="n.*"/>
       <match lemma="ordre" tags="n.f.*"/>
       <match lemma="comiat" tags="n.*"/>
@@ -883,7 +883,7 @@
   <rule weight="1.0">
     <or>
       <match lemma="anar" tags="vblex.*"/>
-      <match lemma="cörrer" tags="vblex.*"/>
+      <match lemma="córrer" tags="vblex.*"/>
       <match lemma="volar" tags="vblex.*"/>
       <match lemma="viatjar" tags="vblex.*"/>
       <match lemma="tornar" tags="vblex.*"/>
@@ -914,7 +914,7 @@
   <rule weight="1.0">
     <or>
       <match lemma="anar" tags="vblex.*"/>
-      <match lemma="cörrer" tags="vblex.*"/>
+      <match lemma="córrer" tags="vblex.*"/>
       <match lemma="volar" tags="vblex.*"/>
       <match lemma="viatjar" tags="vblex.*"/>
       <match lemma="tornar" tags="vblex.*"/>
@@ -1187,7 +1187,7 @@
     <match lemma="al llarg de" tags="pr"><select lemma="durante" tags="pr"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="al llarg de" tags="pr"><select lemma="al llarg de" tags="pr"/></match>
+    <match lemma="al llarg de" tags="pr"><select lemma="a largu de" tags="pr"/></match>
     <match tags="np.*"/>
   </rule>
 
