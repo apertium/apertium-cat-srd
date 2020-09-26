@@ -2306,6 +2306,44 @@
 
 <!-- **************** N **************** -->
 
+<!-- divisió > partzidura, divisione -->
+
+  <rule weight="0.6">
+    <match lemma="divisió" tags="n.*"><select lemma="partzidura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="general" tags="n.*"/>
+      <match lemma="exèrcit" tags="n.*"/>
+      <match lemma="batalla" tags="n.*"/>
+      <match lemma="guerra" tags="n.*"/>
+      <match lemma="infanteria" tags="n.*"/>
+      <match lemma="cavalleria" tags="n.*"/>
+      <match lemma="artilleria" tags="n.*"/>
+      <match lemma="blindat"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <match lemma="divisió" tags="n.*"><select lemma="divisione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="divisió" tags="n.*"><select lemma="divisione"/></match>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="general" tags="n.*"/>
+      <match lemma="exèrcit" tags="n.*"/>
+      <match lemma="batalla" tags="n.*"/>
+      <match lemma="guerra" tags="n.*"/>
+      <match lemma="infanteria" tags="n.*"/>
+      <match lemma="cavalleria" tags="n.*"/>
+      <match lemma="artilleria" tags="n.*"/>
+      <match lemma="blindat"/>
+    </or>
+  </rule>
+
 <!-- tassa > tassa, tassu -->
 
   <rule weight="0.6">
