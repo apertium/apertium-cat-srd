@@ -315,6 +315,9 @@
       <match lemma="acer" tags="n.*"/>
       <match lemma="niquel" tags="n.*"/>
       <match lemma="alumini" tags="n.*"/>
+      <match lemma="cristall" tags="n.*"/>
+      <match lemma="diamant" tags="n.*"/>
+      <match lemma="pedra" tags="n.*"/>
     </def-seq>
 
     <def-seq n="lloc_concret">
@@ -1140,6 +1143,7 @@
        <match lemma="factoria" tags="n.*"/>
        <match lemma="mina" tags="n.*"/>
        <match lemma="explotació" tags="n.*"/>
+       <match lemma="àtom" tags="n.*"/>
      </or>
      <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
      <or>
@@ -2942,8 +2946,16 @@
 
 <!-- **************** NP **************** -->
 
-<!-- Virgili > Virgili, Virgìliu -->
+  <!-- Abraham > Abraham, Abramu -->
+  <rule weight="0.6">
+     <match lemma="Abraham" tags="np.*"><select lemma="Abramu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Abraham" tags="np.*"><select lemma="Abraham"/></match>
+     <or><match tags="np.cog.*"/><match tags=""/></or>
+  </rule>
 
+  <!-- Virgili > Virgili, Virgìliu -->
   <rule weight="0.6">
      <match lemma="Virgili" tags="np.*"><select lemma="Virgìliu"/></match>
   </rule>
