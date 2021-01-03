@@ -1578,6 +1578,26 @@
   </rule>
 
 
+<!-- **************** REL **************** -->
+
+  <!-- qui > chi, chie -->
+  <rule weight="0.6">
+     <match lemma="qui" tags="rel.*"><select lemma="chie"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match tags="det.*"/>
+       <match tags="n.*"/>
+       <match tags="np.*"/>
+       <match tags="adj.*"/>
+       <match tags=""/>
+     </or>
+    <repeat from="0" upto="1">
+      <match tag=","/>
+    </repeat>
+     <match lemma="qui" tags="rel.*"><select lemma="chi"/></match>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
 <!-- hi > nche, bi (hi ha > b'at) -->
