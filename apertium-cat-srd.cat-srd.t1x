@@ -3256,9 +3256,9 @@
 </rule>
 
 
-<rule comment="regla: un ord nom: Una tercera família. → Una de tres famìlias.">
+<rule comment="regla: det ord nom: Una tercera família. → Una de tres famìlias.">
    <pattern>
-     <pattern-item n="un"/>
+     <pattern-item n="det"/>
      <pattern-item n="tercer_quart_etc"/>
      <pattern-item n="nom"/>
    </pattern>
@@ -3305,9 +3305,9 @@
 </rule>
 
 
-<rule comment="regla: un ord nom adj: Un tercer component variable. → Unu de tres cumponentes variàbiles.">
+<rule comment="regla: det ord nom adj: Un tercer component variable. → Unu de tres cumponentes variàbiles.">
    <pattern>
-     <pattern-item n="un"/>
+     <pattern-item n="det"/>
      <pattern-item n="tercer_quart_etc"/>
      <pattern-item n="nom"/>
      <pattern-item n="adjec"/>
