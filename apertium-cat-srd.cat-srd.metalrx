@@ -225,6 +225,9 @@
 		   <match lemma="regnat" tags="n.*"/>
 		   <match lemma="regència" tags="n.*"/>
 		   <match lemma="viregnat" tags="n.*"/>
+
+		   <match lemma="evangeli" tags="n.*"/>
+		   <match lemma="apocalipsi" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
@@ -274,6 +277,21 @@
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
 	  </rule>
 	</def-macro>
+
+    <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
+    <def-macro name="ant_antcog">
+      <rule weight="0.6">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <or>
+           <match tags="np.*"/>
+           <match tags=""/>
+         </or>
+      </rule>
+    </def-macro>
+
   </def-macros>
 
   <def-seqs>
@@ -1219,6 +1237,19 @@
      <match tags="np.*"/>
   </rule>
 
+
+<!-- **************** CNJCOO **************** -->
+
+  <!-- i > e, i (cognoms catalans) -->
+  <rule weight="0.6">
+     <match lemma="i" tags="cnjcoo"><select lemma="e"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="np.ant.*"/>
+     <match tags="np.cog.*"/>
+     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
+     <match tags="np.cog.*"/>
+  </rule>
 
 <!-- **************** CNJSUB **************** -->
 
@@ -2330,8 +2361,33 @@
 
 <!-- **************** N **************** -->
 
-<!-- divisió > partzidura, divisione -->
+  <!-- plana > pranu, pagina -->
+  <rule weight="0.6">
+     <match lemma="plana" tags="n.*"><select lemma="pranu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.ord.*"/>
+     <match lemma="plana" tags="n.*"><select lemma="pagina"/></match>
+  </rule>
 
+  <!-- golf > golfu, golf -->
+  <rule weight="0.6">
+     <match lemma="golf" tags="n.*"><select lemma="golfu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="jugar" tags="vblex"/>
+     <match lemma="a" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <match lemma="golf" tags="n.*"><select lemma="golf"/></match>
+  </rule>
+
+  <!-- divisió > partzidura, divisione -->
   <rule weight="0.6">
     <match lemma="divisió" tags="n.*"><select lemma="partzidura"/></match>
   </rule>
@@ -2966,28 +3022,40 @@
 
 <!-- **************** NP **************** -->
 
-  <!-- Abraham > Abraham, Abramu -->
-  <rule weight="0.6">
-     <match lemma="Abraham" tags="np.*"><select lemma="Abramu"/></match>
-  </rule>
+  <macro name="ant_antcog" p1="Abraham" p2="Abramu" />
+  <macro name="ant_antcog" p1="August" p2="Augustu" />
+  <macro name="ant_antcog" p1="Cèsar" p2="Tzèsare" />
+  <macro name="ant_antcog" p1="Ciceró" p2="Tzitzerone" />
+  <macro name="ant_antcog" p1="Constantí" p2="Costantinu" />
+  <macro name="ant_antcog" p1="Horaci" p2="Oràtziu" />
+  <macro name="ant_antcog" p1="Jesús" p2="Gesùs" />
+  <macro name="ant_antcog" p1="Moisès" p2="Moses" />
+  <macro name="ant_antcog" p1="Virgili" p2="Virgìliu" />
+  <macro name="ant_antcog" p1="Terenci" p2="Terènziu" />
+
   <rule weight="1.0">
-     <match lemma="Abraham" tags="np.*"><select lemma="Abraham"/></match>
-     <or><match tags="np.cog.*"/><match tags=""/></or>
+    <match tags="np.ant.*"/>
+    <match lemma="Jesús" tags="np.ant.*"><select lemma="Jesús"/></match>
   </rule>
 
-  <!-- Virgili > Virgili, Virgìliu -->
-  <rule weight="0.6">
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgìliu"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
-  </rule>
   <rule weight="1.0">
      <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
-     <match lemma="i" tags="pr"/>
+     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
+
+  <rule weight="1.0">
+     <or><match tags="np.cog.*"/><match lemma="Puig"/></or>
+     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
+     <match lemma="Cadafalch" tags="np.*"/>
+  </rule>
+
+  <rule weight="1.0">
+     <or><match tags="np.cog.*"/><match lemma="Roca"/></or>
+     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
+     <match lemma="Junyent" tags="np.*"/>
+  </rule>
+
 
   <macro name="noms_propis" p1="Alexandre" p2="Lisandru" />
   <macro name="noms_propis" p1="Alfons" p2="Alfonsu" />
@@ -3011,10 +3079,10 @@
   <macro name="noms_propis" p1="Innocenci" p2="Innocentzu" />
   <macro name="noms_propis" p1="Isabel" p2="Isabella" />
   <macro name="noms_propis" p1="Jaume" p2="Giacu" />
+  <macro name="noms_propis" p1="Joan" p2="Giuanne" />
   <macro name="noms_propis" p1="Joana" p2="Giuanna" />
   <macro name="noms_propis" p1="Joan Carles" p2="Giuanne Càralu" />
   <macro name="noms_propis" p1="Joan Manuel" p2="Giuanne Manuelle" />
-  <macro name="noms_propis" p1="Joan" p2="Giuanne" />
   <macro name="noms_propis" p1="Joan Pau" p2="Giuanne Pàule" />
   <macro name="noms_propis" p1="Josep" p2="Giosepe" />
   <macro name="noms_propis" p1="Juli" p2="Giùliu" />
