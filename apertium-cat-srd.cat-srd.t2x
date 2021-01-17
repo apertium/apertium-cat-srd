@@ -4,12 +4,212 @@
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
+      <cat-item tags="SN_top.*"/>
+    </def-cat>
+
+    <def-cat n="SA">
+      <cat-item tags="SA"/>
+      <cat-item tags="SA.*"/>
+    </def-cat>
+
+    <def-cat n="SV">
+      <cat-item tags="SV"/>
+      <cat-item tags="SV.*"/>
+    </def-cat>
+
+    <def-cat n="SD">	<!-- determinant sol -->
+      <cat-item tags="SD"/>
+      <cat-item tags="SD.*"/>
+    </def-cat>
+
+    <def-cat n="pais_regio">
+      <cat-item tags="SN_top.Afganistàn.*"/>
+      <cat-item tags="SN_top.Algeria.*"/>
+      <cat-item tags="SN_top.Anatòlia.*"/>
+      <cat-item tags="SN_top.Andalusia.*"/>
+      <cat-item tags="SN_top.Andorra.*"/>
+      <cat-item tags="SN_top.Angola.*"/>
+      <cat-item tags="SN_top.Aràbia.*"/>
+      <cat-item tags="SN_top.Aràbia Saudita.*"/>
+      <cat-item tags="SN_top.Aragona.*"/>
+      <cat-item tags="SN_top.Armènia.*"/>
+      <cat-item tags="SN_top.Àustria.*"/>
+      <cat-item tags="SN_top.Austràlia.*"/>
+      <cat-item tags="SN_top.Azerbaigiàn.*"/>
+      <cat-item tags="SN_top.Bahrain.*"/>
+      <cat-item tags="SN_top.Bangladèsh.*"/>
+      <cat-item tags="SN_top.Bashkortostàn.*"/>
+      <cat-item tags="SN_top.Baviera.*"/>
+      <cat-item tags="SN_top.Bèlgiu.*"/>
+      <cat-item tags="SN_top.Belize.*"/>
+      <cat-item tags="SN_top.Benìn.*"/>
+      <cat-item tags="SN_top.Bhutàn.*"/>
+      <cat-item tags="SN_top.Bielorùssia.*"/>
+      <cat-item tags="SN_top.Bolìvia.*"/>
+      <cat-item tags="SN_top.Brasile.*"/>
+      <cat-item tags="SN_top.Bretagna.*"/>
+      <cat-item tags="SN_top.Bulgaria.*"/>
+      <cat-item tags="SN_top.Burundi.*"/>
+      <cat-item tags="SN_top.Calàbria.*"/>
+      <cat-item tags="SN_top.Cambògia.*"/>
+      <cat-item tags="SN_top.Canadà.*"/>
+      <cat-item tags="SN_top.Castìllia.*"/>
+      <cat-item tags="SN_top.Catalugna.*"/>
+      <cat-item tags="SN_top.Colòmbia.*"/>
+      <cat-item tags="SN_top.Corea.*"/>
+      <cat-item tags="SN_top.Corea de su Nord.*"/>
+      <cat-item tags="SN_top.Corea de su Sud.*"/>
+      <cat-item tags="SN_top.Còrsica.*"/>
+      <cat-item tags="SN_top.Croàtzia.*"/>
+      <cat-item tags="SN_top.Danimarca.*"/>
+      <cat-item tags="SN_top.Dalmàtzia.*"/>
+      <cat-item tags="SN_top.Egitu.*"/>
+      <cat-item tags="SN_top.Eritrea.*"/>
+      <cat-item tags="SN_top.Estònia.*"/>
+      <cat-item tags="SN_top.Etiòpia.*"/>
+      <cat-item tags="SN_top.Finlàndia.*"/>
+      <cat-item tags="SN_top.Frantza.*"/>
+      <cat-item tags="SN_top.Galles.*"/>
+      <cat-item tags="SN_top.Germània.*"/>
+      <cat-item tags="SN_top.Giapone.*"/>
+      <cat-item tags="SN_top.Giordània.*"/>
+      <cat-item tags="SN_top.Grètzia.*"/>
+      <cat-item tags="SN_top.Groenlàndia.*"/>
+      <cat-item tags="SN_top.Indonèsia.*"/>
+      <cat-item tags="SN_top.Indotzina.*"/>
+      <cat-item tags="SN_top.Irlanda.*"/>
+      <cat-item tags="SN_top.Iràn.*"/>
+      <cat-item tags="SN_top.Iràq.*"/>
+      <cat-item tags="SN_top.Iscòtzia.*"/>
+      <cat-item tags="SN_top.Islàndia.*"/>
+      <cat-item tags="SN_top.Ispagna.*"/>
+      <cat-item tags="SN_top.Islovàchia.*"/>
+      <cat-item tags="SN_top.Islovènia.*"/>
+      <cat-item tags="SN_top.Isvètzia.*"/>
+      <cat-item tags="SN_top.Isvìtzera.*"/>
+      <cat-item tags="SN_top.Itàlia.*"/>
+      <cat-item tags="SN_top.Jemen.*"/>
+      <cat-item tags="SN_top.Jugoslàvia.*"/>
+      <cat-item tags="SN_top.Kènia.*"/>
+      <cat-item tags="SN_top.Kirghisistàn.*"/>
+      <cat-item tags="SN_top.Kurdistàn.*"/>
+      <cat-item tags="SN_top.Letònia.*"/>
+      <cat-item tags="SN_top.Lìbanu.*"/>
+      <cat-item tags="SN_top.Lìbia.*"/>
+      <cat-item tags="SN_top.Lituània.*"/>
+      <cat-item tags="SN_top.Lussemburgu.*"/>
+      <cat-item tags="SN_top.Marocu.*"/>
+      <cat-item tags="SN_top.Matzedònia.*"/>
+      <cat-item tags="SN_top.Mauritània.*"/>
+      <cat-item tags="SN_top.Moldàvia.*"/>
+      <cat-item tags="SN_top.Mongòlia.*"/>
+      <cat-item tags="SN_top.Montenegru.*"/>
+      <cat-item tags="SN_top.Mozambicu.*"/>
+      <cat-item tags="SN_top.Namìbia.*"/>
+      <cat-item tags="SN_top.Nepàl.*"/>
+      <cat-item tags="SN_top.Nicaràgua.*"/>
+      <cat-item tags="SN_top.Niger.*"/>
+      <cat-item tags="SN_top.Nigèria.*"/>
+      <cat-item tags="SN_top.Noa Caledònia.*"/>
+      <cat-item tags="SN_top.Noa Zelanda.*"/>
+      <cat-item tags="SN_top.Normandia.*"/>
+      <cat-item tags="SN_top.Norvègia.*"/>
+      <cat-item tags="SN_top.Omàn.*"/>
+      <cat-item tags="SN_top.Otzitània.*"/>
+      <cat-item tags="SN_top.Pakistàn.*"/>
+      <cat-item tags="SN_top.Panamà.*"/>
+      <cat-item tags="SN_top.Paraguai.*"/>
+      <cat-item tags="SN_top.Pèrsia.*"/>
+      <cat-item tags="SN_top.Perù.*"/>
+      <cat-item tags="SN_top.Polònia.*"/>
+      <cat-item tags="SN_top.Portugallu.*"/>
+      <cat-item tags="SN_top.Portu Ricu.*"/>
+      <cat-item tags="SN_top.Prùssia.*"/>
+      <cat-item tags="SN_top.Qatàr.*"/>
+      <cat-item tags="SN_top.Romania.*"/>
+      <cat-item tags="SN_top.Ruanda.*"/>
+      <cat-item tags="SN_top.Rùssia.*"/>
+      <cat-item tags="SN_top.Sardigna.*"/>
+      <cat-item tags="SN_top.Sèrbia.*"/>
+      <cat-item tags="SN_top.Siàm.*"/>
+      <cat-item tags="SN_top.Sibèria.*"/>
+      <cat-item tags="SN_top.Silèsia.*"/>
+      <cat-item tags="SN_top.Sìria.*"/>
+      <cat-item tags="SN_top.Sitzìlia.*"/>
+      <cat-item tags="SN_top.Somàlia.*"/>
+      <cat-item tags="SN_top.Swazilàndia.*"/>
+      <cat-item tags="SN_top.Tagikistàn.*"/>
+      <cat-item tags="SN_top.Tailàndia.*"/>
+      <cat-item tags="SN_top.Taiwàn.*"/>
+      <cat-item tags="SN_top.Tanzània.*"/>
+      <cat-item tags="SN_top.Tatarstàn.*"/>
+      <cat-item tags="SN_top.Tràtzia.*"/>
+      <cat-item tags="SN_top.Turchia.*"/>
+      <cat-item tags="SN_top.Turkmenistàn.*"/>
+      <cat-item tags="SN_top.Tzèchia.*"/>
+      <cat-item tags="SN_top.Tzecoslovàchia.*"/>
+      <cat-item tags="SN_top.Tzetzènia.*"/>
+      <cat-item tags="SN_top.Tzina.*"/>
+      <cat-item tags="SN_top.Tzipru.*"/>
+      <cat-item tags="SN_top.Tzisgiordània.*"/>
+      <cat-item tags="SN_top.Tzuvàscia.*"/>
+      <cat-item tags="SN_top.Ucràina.*"/>
+      <cat-item tags="SN_top.Uganda.*"/>
+      <cat-item tags="SN_top.Ungheria.*"/>
+      <cat-item tags="SN_top.Uruguai.*"/>
+      <cat-item tags="SN_top.Uzbekistàn.*"/>
+      <cat-item tags="SN_top.Zàmbia.*"/>
+      <cat-item tags="SN_top.Zànzibar.*"/>
+      <cat-item tags="SN_top.Zimbawe.*"/>
+
+      <cat-item tags="SN_top.Àfrica.*"/>
+      <cat-item tags="SN_top.Amèrica.*"/>
+      <cat-item tags="SN_top.Amèrica de su Nord.*"/>
+      <cat-item tags="SN_top.Amèrica de su Sud.*"/>
+      <cat-item tags="SN_top.Àsia.*"/>
+      <cat-item tags="SN_top.Europa.*"/>
+      <cat-item tags="SN_top.Antàrtide.*"/>
+
+      <cat-item tags="SN_top.Alhabama.*"/>
+      <cat-item tags="SN_top.Arkansas.*"/>
+      <cat-item tags="SN_top.Iowa.*"/>
+      <cat-item tags="SN_top.Califòrnia.*"/>
+      <cat-item tags="SN_top.Carolina de su Nord.*"/>
+      <cat-item tags="SN_top.Carolina de su Sud.*"/>
+      <cat-item tags="SN_top.Florida.*"/>
+      <cat-item tags="SN_top.Geòrgia.*"/>
+      <cat-item tags="SN_top.Idaho.*"/>
+      <cat-item tags="SN_top.Ohio.*"/>
+      <cat-item tags="SN_top.Pennsylvania.*"/>
+      <cat-item tags="SN_top.Texas.*"/>
+      <cat-item tags="SN_top.Wisconsin.*"/>
+    </def-cat>
+
+    <def-cat n="a_de_in">
+      <cat-item lemma="a" tags="pr"/>
+      <cat-item lemma="de" tags="pr"/>
+      <cat-item lemma="in" tags="pr"/>
+    </def-cat>
+
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="punt">
+      <cat-item lemma="." tags="sent"/>
     </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
-    <def-attr n="a_nbr">
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+    </def-attr>
+
+    <def-attr n="nbr">
       <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
     </def-attr>
   </section-def-attrs>
 
@@ -27,6 +227,143 @@
   </section-def-macros>
 
   <section-rules>
+    <rule comment="REGLA: punt pais_regio > punt det.def pais_regio">
+      <pattern>
+        <pattern-item n="punt"/>
+        <pattern-item n="pais_regio"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <lit-tag v="det"/>
+            <lit v="{^"/>
+            <lit v="Su"/>
+            <lit-tag v="det.def"/>
+            <clip pos="2" part="gen"/>
+            <clip pos="2" part="nbr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: de pais_regio > de pais_regio (evita la generació de l'article en 'Pedru de Aragona')">
+      <pattern>
+        <pattern-item n="a_de_in"/>
+        <pattern-item n="pais_regio"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: det pais_regio > det pais_regio (evita la generació de l'article en 's'Aragona')">
+      <pattern>
+        <pattern-item n="SD"/>
+        <pattern-item n="pais_regio"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: det adj pais_regio > det adj pais_regio (evita la generació de l'article en 's'antiga Grètzia')">
+      <pattern>
+        <pattern-item n="SD"/>
+        <pattern-item n="SA"/>
+        <pattern-item n="pais_regio"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: pais_regio SV > det.def pais_regio SV">
+      <pattern>
+        <pattern-item n="pais_regio"/>
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <lit-tag v="det"/>
+            <lit v="{^"/>
+            <lit v="su"/>
+            <lit-tag v="det.def"/>
+            <clip pos="1" part="gen"/>
+            <clip pos="1" part="nbr"/>
+            <lit v="$}"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SN">
       <pattern>
         <pattern-item n="SN"/>

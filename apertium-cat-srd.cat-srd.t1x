@@ -474,6 +474,21 @@
 <def-cat n="np">
    <cat-item tags="np.*"/>
 </def-cat>
+<def-cat n="top">
+   <cat-item tags="np.top.*"/>
+</def-cat>
+<def-cat n="cnjsub">
+   <cat-item tags="cnjsub"/>
+</def-cat>
+<def-cat n="cnjcoo">
+   <cat-item tags="cnjcoo"/>
+</def-cat>
+<def-cat n="cnjadv">
+   <cat-item tags="cnjadv"/>
+</def-cat>
+<def-cat n="sent">
+   <cat-item tags="sent"/>
+</def-cat>
 </section-def-cats>
 
 <section-def-attrs>
@@ -571,6 +586,7 @@
 <def-var n="concSegundo"/>
 <def-var n="concTercero"/>
 <def-var n="set_sg"/>
+<def-var n="lemma"/>
 </section-def-vars>
 
 <section-def-lists>
@@ -3697,6 +3713,34 @@
 </rule>
 
 
+<rule comment="regla: top">
+   <pattern>
+     <pattern-item n="top"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>     
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
+         <tags>
+           <tag><lit-tag v="SN_top"/></tag>
+           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
+           <tag><clip pos="1" side="tl" part="gen"/></tag>
+           <tag><clip pos="1" side="tl" part="nbr"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: np">
    <pattern>
      <pattern-item n="np"/>
@@ -3714,6 +3758,106 @@
          <clip pos="1" side="tl" part="lemh"/>
          <clip pos="1" side="tl" part="tags"/>
          <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: pr">
+   <pattern>
+     <pattern-item n="pr"/>
+   </pattern>
+   <action>
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">
+         <tags>
+           <tag><lit-tag v="pr"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="whole"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: cnjsub">
+   <pattern>
+     <pattern-item n="cnjsub"/>
+   </pattern>
+   <action>
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">
+         <tags>
+           <tag><lit-tag v="cnjsub"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="whole"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: cnjadv">
+   <pattern>
+     <pattern-item n="cnjadv"/>
+   </pattern>
+   <action>
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">
+         <tags>
+           <tag><lit-tag v="cnjadv"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="whole"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: cnjcoo">
+   <pattern>
+     <pattern-item n="cnjcoo"/>
+   </pattern>
+   <action>
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">
+         <tags>
+           <tag><lit-tag v="cnjcoo"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="whole"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: sent">
+   <pattern>
+     <pattern-item n="sent"/>
+   </pattern>
+   <action>
+     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="lemma">
+         <tags>
+           <tag><lit-tag v="sent"/></tag>
+         </tags>
+       <lu>
+         <clip pos="1" side="tl" part="whole"/>
        </lu>
      </chunk>
      </out>
