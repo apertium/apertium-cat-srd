@@ -38,7 +38,7 @@ for i in "${!modes[@]}"; do
     if [[ $sl = "srd" ]]; then
         monodix="../../../apertium-srd/apertium-srd.srd.dix"
     else
-        monodix="../../../apertium-ita/apertium-ita.ita.dix"
+        monodix="../../../apertium-cat/apertium-cat.cat.metadix"
     fi
 
     if [[ $ENCLITICS = true ]] && [[ $TRIMMED = false ]]; then
