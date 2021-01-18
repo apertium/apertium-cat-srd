@@ -2934,6 +2934,7 @@
     </def-macro>
 
 <def-macro n="f_vaux_anar_inf" npar="2">
+   <let><clip pos="1" side="tl" part="temps"/><lit-tag v="pii"/></let>
    <let><clip pos="2" side="tl" part="temps"/><lit-tag v="pp.m.sg"/></let>	<!-- FIXME: depèn del gènere i nombre del subjecte -->
    <choose> <!-- vaux + vlex: es canvia el vaux a èssere o àere i es posa el segon en pp -->
      <when>
@@ -5971,7 +5972,7 @@
                  <get-case-from pos="1">
                    <lit v="èssere"/>
                  </get-case-from>
-                 <lit-tag v="vbser.pri"/>
+                 <lit-tag v="vbser.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
@@ -5997,7 +5998,7 @@
                  <get-case-from pos="1">
                    <lit v="àere"/>
                  </get-case-from>
-                 <lit-tag v="vbhaver.pri"/>
+                 <lit-tag v="vbhaver.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
@@ -6040,7 +6041,7 @@
              <get-case-from pos="1">
                <lit v="èssere"/>
              </get-case-from>
-             <lit-tag v="vbser.pri"/>
+             <lit-tag v="vbser.pii"/>
              <clip pos="1" side="tl" part="pers"/>
              <clip pos="1" side="tl" part="nbr"/>
            </lu>
@@ -6464,7 +6465,7 @@ S'ha de millorar:
 </rule>  
 
 
-<rule comment="prnref ifi > prnref èssere pp: s'incorporà > s'est achiridu, em digué > mi at naradu, m'arribà > mi est arribadu"> 
+<rule comment="prnref ifi > prnref èssere pp: s'incorporà > si fiat achiridu, em digué > m'aiat naradu, m'arribà > mi fiat arribadu"> 
   <pattern>
     <pattern-item n="prnproref"/>
      <pattern-item n="ifi"/>
@@ -6498,7 +6499,7 @@ S'ha de millorar:
             <b pos="1"/>
             <lu>
               <lit v="èssere"/>
-              <lit-tag v="vbser.pri"/>
+              <lit-tag v="vbser.pii"/>
               <clip pos="2" side="tl" part="pers"/>
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
@@ -6528,7 +6529,7 @@ S'ha de millorar:
             <b pos="1"/>
             <lu>
               <lit v="àere"/>
-              <lit-tag v="vbhaver.pri"/>
+              <lit-tag v="vbhaver.pii"/>
               <clip pos="2" side="tl" part="pers"/>
               <clip pos="2" side="tl" part="nbr"/>
             </lu>
@@ -7333,7 +7334,7 @@ S'ha de millorar:
 </rule>
 
 
-<rule comment="regla: hi va haver npl: hi va haver nens > b'ant àpidu pitzinnos">
+<rule comment="regla: hi va haver npl: hi va haver nens > b'aiant àpidu pitzinnos">
    <pattern>
      <pattern-item n="hi"/>
      <pattern-item n="anar_pri_p3sg"/>
@@ -7953,7 +7954,7 @@ S'ha de millorar:
                <get-case-from pos="2">
                  <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vbhaver.pri"/>
+               <lit-tag v="vbhaver.pii"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="nbr"/>
              </lu>
@@ -8006,7 +8007,7 @@ S'ha de millorar:
                <get-case-from pos="2">
                  <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vblex.pri"/>
+               <lit-tag v="vblex.pii"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -8140,7 +8141,7 @@ S'ha de millorar:
                <get-case-from pos="2">
                  <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vbhaver.pri"/>
+               <lit-tag v="vbhaver.pii"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="nbr"/>
              </lu>
