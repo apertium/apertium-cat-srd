@@ -2361,6 +2361,37 @@
 
 <!-- **************** N **************** -->
 
+  <!-- macedònia > matzedònia, matzèdone -->
+  <rule weight="0.6">
+    <match lemma="macedònia" tags="n.*"><select lemma="matzedònia"/></match>
+  </rule>
+
+  <!-- maniquí > manichinu, modellu -->
+  <rule weight="0.6">
+    <match lemma="maniquí" tags="n.*"><select lemma="manichinu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="*.f.*"/>
+    <match lemma="maniquí" tags="n.*"><select lemma="modellu" tags="n.f.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="maniquí" tags="n.*"><select lemma="modellu" tags="n.f.*"/></match>
+    <match tags="*.f.*"/>
+  </rule>
+
+  <!-- germanastre > frade# de un'ala, sorre# de un'ala -->
+  <rule weight="0.6">
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="frade# de un'ala"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="*.f.*"/>
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# de un'ala"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# de un'ala"/></match>
+     <match tags="*.f.*"/>
+  </rule>
+
   <!-- plana > pranu, pagina -->
   <rule weight="0.6">
      <match lemma="plana" tags="n.*"><select lemma="pranu"/></match>
@@ -3023,10 +3054,13 @@
 <!-- **************** NP **************** -->
 
   <macro name="ant_antcog" p1="Abraham" p2="Abramu" />
+  <macro name="ant_antcog" p1="Aquil·les" p2="Achile" />
   <macro name="ant_antcog" p1="August" p2="Augustu" />
   <macro name="ant_antcog" p1="Cèsar" p2="Tzèsare" />
   <macro name="ant_antcog" p1="Ciceró" p2="Tzitzerone" />
   <macro name="ant_antcog" p1="Constantí" p2="Costantinu" />
+  <macro name="ant_antcog" p1="Hèctor" p2="Ètore" />
+  <macro name="ant_antcog" p1="Hipòlit" p2="Ipòlitu" />
   <macro name="ant_antcog" p1="Horaci" p2="Oràtziu" />
   <macro name="ant_antcog" p1="Jesús" p2="Gesùs" />
   <macro name="ant_antcog" p1="Moisès" p2="Moses" />
