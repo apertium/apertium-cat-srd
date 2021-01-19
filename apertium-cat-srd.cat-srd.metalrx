@@ -995,24 +995,27 @@
     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
   </rule>
   <rule weight="1.0"> <!-- complement agent introduït per "dae" en sard -->
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
-  </rule>
-  <rule weight="1.0">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match tags="adv"/>
-     <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
-  </rule>
-  <rule weight="1.2">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+    <or>
+      <match tags="vblex.pp.*"/>
+      <match tags="vbmod.pp.*"/>
+      <match lemma="*at" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
   <rule weight="1.2">
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match tags="adv"/>
-     <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
-     <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
+    <or>
+      <match tags="vblex.pp.*"/>
+      <match tags="vbmod.pp.*"/>
+      <match lemma="*at" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"><select lemma="pro" tags="pr"/></match>
+    <or><match tags="vblex.inf"/><match tags="vbmod.inf"/><match tags="vbhaver.inf"/><match tags="vbser.inf"/></or>
   </rule>
 
 
@@ -1624,7 +1627,7 @@
        <match tags=""/>
      </or>
     <repeat from="0" upto="1">
-      <match tag=","/>
+      <match tags=","/>
     </repeat>
      <match lemma="qui" tags="rel.*"><select lemma="chi"/></match>
   </rule>
@@ -2734,8 +2737,7 @@
      <match lemma="cambra" tags="n.*"><select lemma="càmera"/></match>
   </rule>
 
-<!-- mosso > camerieri, mosso -->
-
+  <!-- mosso > camerieri, mosso -->
   <rule weight="0.6">
      <match lemma="mosso" tags="n.*"><select lemma="camerieri"/></match>
   </rule>
@@ -2746,6 +2748,15 @@
      <match lemma="mosso" tags="n.*"><select lemma="mosso"/></match>
      <match lemma="de" tags="pr"/>
      <match lemma="esquadra" tags="n.*"/>
+  </rule>
+
+  <!-- mosso# d'esquadra > politzia, politziotu -->
+  <rule weight="0.6">
+     <match lemma="mosso# d'esquadra" tags="n.m.*"><select lemma="politziotu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.def.*"/>
+     <match lemma="mosso# d'esquadra" tags="n.m.pl"><select lemma="politzia" tags="n.f.sg"/></match>
   </rule>
 
 <!-- costat > costàgiu, ala -->
@@ -2865,8 +2876,7 @@
      <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/></or>
   </rule>
 
-<!-- guàrdia > guàrdia, guardianu -->
-
+  <!-- guàrdia > guàrdia, guardianu -->
   <rule weight="0.6">
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
   </rule>
@@ -2893,6 +2903,35 @@
   <rule weight="1.2">
      <match tags="det.*.m.*"/>
      <match lemma="guàrdia" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+
+  <!-- guarda > guàrdia, guardianu -->
+  <rule weight="0.6">
+     <match lemma="guarda" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guarda" tags="n.*"><select lemma="guàrdia"/></match>
+     <match tags="adj.f.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.f.*"/>
+     <match lemma="guarda" tags="n.*"><select lemma="guàrdia"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match tags="det.*.f.*"/>
+     <match lemma="guarda" tags="n.*"><select lemma="guàrdia"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="guarda" tags="n.*"><select lemma="guardianu"/></match>
+     <match tags="adj.m.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match tags="adj.m.*"/>
+     <match lemma="guarda" tags="n.*"><select lemma="guardianu"/></match>
+  </rule>
+  <rule weight="1.2">
+     <match tags="det.*.m.*"/>
+     <match lemma="guarda" tags="n.*"><select lemma="guardianu"/></match>
   </rule>
 
 <!-- xic (n) > pitzocu, pagu -->
