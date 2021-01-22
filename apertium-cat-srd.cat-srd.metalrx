@@ -2382,16 +2382,16 @@
     <match tags="*.f.*"/>
   </rule>
 
-  <!-- germanastre > frade# de un'ala, sorre# de un'ala -->
+  <!-- germanastre > frade# a un'ala, sorre# a un'ala -->
   <rule weight="0.6">
-     <match lemma="germanastre" tags="n.mf.*"><select lemma="frade# de un'ala"/></match>
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="frade# a un'ala"/></match>
   </rule>
   <rule weight="1.0">
      <match tags="*.f.*"/>
-     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# de un'ala"/></match>
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# a un'ala"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# de un'ala"/></match>
+     <match lemma="germanastre" tags="n.mf.*"><select lemma="sorre# a un'ala"/></match>
      <match tags="*.f.*"/>
   </rule>
 
