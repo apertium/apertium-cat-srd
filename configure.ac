@@ -1,36 +1,21 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-cat-srd], [1.1.0], [francis.tyers@uit.no])
-AM_INIT_AUTOMAKE([apertium-cat-srd], [1.1.0], no-define)
-AC_PROG_LN_S
+AC_INIT([Apertium Catalan-Sardinian], [1.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-cat-srd], [https://wiki.apertium.org/wiki/Apertium-cat-srd])
+AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.7.1])
-PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM, apertium-3.7.1 >= required_apertium_version)])
-
-
-
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
-
-AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
-AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
-
-AC_PATH_PROG([LRXCOMP], [lrx-comp], [false], [$PATH$PATH_SEPARATOR$with_lrx_comp/bin])
-AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installed])])
-
-AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
-AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.7.1)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.7)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.2)
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
 
-m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
+m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: https://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
-AP_CHECK_LING([1], [apertium-cat], [1.10.2])
-AP_CHECK_LING([2], [apertium-srd], [1.3.1])     
+AP_CHECK_LING([1], [apertium-cat], [2.10.2])
+AP_CHECK_LING([2], [apertium-srd], [1.3.1])
 
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
-

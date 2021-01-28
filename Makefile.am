@@ -2,8 +2,6 @@
 ## Makefile for Catalan--Sardinian
 ###############################################################################
 
-RELEASE=1.0
-VERSION=1.0.0
 LANG1=cat
 LANG2=srd
 PREFIX1=$(LANG1)-$(LANG2)
@@ -108,12 +106,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 .deps/%.metalrx: %.metalrx .deps/.d
-	python3 metalrx.py $< $@
+	apertium-metalrx $< $@
 
-.deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
-	xsltproc $^ > $@.tmp
-	@xmllint --format $@.tmp > $@
-	@rm $@.tmp
+.deps/%.lrx: .deps/%.metalrx
+	apertium-metalrx-to-lrx $< $@
 
 $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
@@ -218,4 +214,3 @@ test: all
 	@echo "casa" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
