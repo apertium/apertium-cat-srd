@@ -1,0 +1,18 @@
+{
+    "cat-srd-pending__cat-srd": {
+        "input": "cat-srd-pending__cat-srd-input.txt",
+        "mode": "cat-srd"
+    },
+    "srd-cat-pending__srd-cat": {
+        "input": "srd-cat-pending__srd-cat-input.txt",
+        "mode": "srd-cat"
+    },
+    "cat-srd": {
+        "input": "cat-srd-input.txt",
+        "mode": "cat-srd"
+    },
+    "srd-cat": {
+        "input": "srd-cat-input.txt",
+        "mode": "srd-cat"
+    }
+}

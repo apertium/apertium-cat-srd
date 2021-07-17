@@ -207,10 +207,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "Apertium és una plataforma de traducció automàtica" | apertium -d . cat-srd | tee .test-mt
-	@echo "Apertium est una prataforma de tradutzione automàtica" > .test-ref
-	@diff .test-ref .test-mt
-	echo "domo" | apertium -d . srd-cat | tee .test-mt
-	@echo "casa" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
