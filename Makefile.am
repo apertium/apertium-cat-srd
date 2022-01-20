@@ -105,11 +105,8 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.metalrx: %.metalrx .deps/.d
+.deps/%.lrx: %.metalrx .deps/.d
 	apertium-metalrx $< $@
-
-.deps/%.lrx: .deps/%.metalrx
-	apertium-metalrx-to-lrx $< $@
 
 $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
