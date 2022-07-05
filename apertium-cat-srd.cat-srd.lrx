@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<metalrx>
+<lrx>
 
   <def-macros>
-	<def-macro name="noms_propis">
+	<def-macro n="noms_propis" npar="2">
 	  <rule weight="0.6">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="1"/></match>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match lemma="de" tags="pr"/>
 		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="np.ant.*"/>
 		 <match lemma="de" tags="pr"/>
 		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="det.*"/>
 		 <or>
 		   <match tags="adj.*"/>
@@ -27,7 +27,7 @@
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="np.ant.*"/>
 		 <match tags="det.*"/>
 		 <or>
@@ -36,7 +36,7 @@
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <or>
 		   <match tags="num.*"/>
 		   <match lemma="I" tags="adj.*"/>
@@ -72,7 +72,7 @@
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="np.ant.*"/>
 		 <or>
 		   <match tags="num.*"/>
@@ -132,7 +132,7 @@
 		   <match lemma="marquès" tags="n.*"/>
 		   <match lemma="baró" tags="n.*"/>
 		 </or>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
@@ -159,10 +159,10 @@
 		   <match lemma="baró" tags="n.*"/>
 		 </or>
 		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="cm"/>
 		 <or>
 		   <match lemma="papa" tags="n.*"/>
@@ -190,7 +190,7 @@
 	  </rule>
 	  <rule weight="1.0">
 		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="cm"/>
 		 <or>
 		   <match lemma="papa" tags="n.*"/>
@@ -230,7 +230,7 @@
 		   <match lemma="apocalipsi" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
@@ -244,17 +244,17 @@
 		 </or>
 		 <match lemma="de" tags="pr"/>
 		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <or>
 		   <match lemma="regnar" tags="vblex.*"/>
 		   <match lemma="governar" tags="vblex.*"/>
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="np.ant.*"/>
 		 <or>
 		   <match lemma="regnar" tags="vblex.*"/>
@@ -266,7 +266,7 @@
 		   <match lemma="regnar" tags="vblex.ger"/>
 		   <match lemma="governar" tags="vblex.ger"/>
 		 </or>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
@@ -274,17 +274,17 @@
 		   <match lemma="governar" tags="vblex.ger"/>
 		 </or>
 		 <match tags="np.ant.*"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	</def-macro>
 
     <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
-    <def-macro name="ant_antcog">
+    <def-macro n="ant_antcog" npar="2">
       <rule weight="0.6">
-         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.ant.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <match plemma="1" tags="np.ant.*"><select plemma="1"/></match>
          <or>
            <match tags="np.*"/>
            <match tags=""/>
@@ -3197,19 +3197,19 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="ant_antcog" p1="Abraham" p2="Abramu" />
-  <macro name="ant_antcog" p1="Aquil·les" p2="Achile" />
-  <macro name="ant_antcog" p1="August" p2="Augustu" />
-  <macro name="ant_antcog" p1="Cèsar" p2="Tzèsare" />
-  <macro name="ant_antcog" p1="Ciceró" p2="Tzitzerone" />
-  <macro name="ant_antcog" p1="Constantí" p2="Costantinu" />
-  <macro name="ant_antcog" p1="Hèctor" p2="Ètore" />
-  <macro name="ant_antcog" p1="Hipòlit" p2="Ipòlitu" />
-  <macro name="ant_antcog" p1="Horaci" p2="Oràtziu" />
-  <macro name="ant_antcog" p1="Jesús" p2="Gesùs" />
-  <macro name="ant_antcog" p1="Moisès" p2="Moses" />
-  <macro name="ant_antcog" p1="Virgili" p2="Virgìliu" />
-  <macro name="ant_antcog" p1="Terenci" p2="Terènziu" />
+  <macro n="ant_antcog"><with-param v="Abraham"/><with-param v="Abramu"/></macro>
+  <macro n="ant_antcog"><with-param v="Aquil·les"/><with-param v="Achile"/></macro>
+  <macro n="ant_antcog"><with-param v="August"/><with-param v="Augustu"/></macro>
+  <macro n="ant_antcog"><with-param v="Cèsar"/><with-param v="Tzèsare"/></macro>
+  <macro n="ant_antcog"><with-param v="Ciceró"/><with-param v="Tzitzerone"/></macro>
+  <macro n="ant_antcog"><with-param v="Constantí"/><with-param v="Costantinu"/></macro>
+  <macro n="ant_antcog"><with-param v="Hèctor"/><with-param v="Ètore"/></macro>
+  <macro n="ant_antcog"><with-param v="Hipòlit"/><with-param v="Ipòlitu"/></macro>
+  <macro n="ant_antcog"><with-param v="Horaci"/><with-param v="Oràtziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Jesús"/><with-param v="Gesùs"/></macro>
+  <macro n="ant_antcog"><with-param v="Moisès"/><with-param v="Moses"/></macro>
+  <macro n="ant_antcog"><with-param v="Virgili"/><with-param v="Virgìliu"/></macro>
+  <macro n="ant_antcog"><with-param v="Terenci"/><with-param v="Terènziu"/></macro>
 
   <rule weight="1.0">
     <match tags="np.ant.*"/>
@@ -3235,51 +3235,51 @@
   </rule>
 
 
-  <macro name="noms_propis" p1="Alexandre" p2="Lisandru" />
-  <macro name="noms_propis" p1="Alfons" p2="Alfonsu" />
-  <macro name="noms_propis" p1="Benet" p2="Beneitu" />
-  <macro name="noms_propis" p1="Berenguer" p2="Berengàriu" />
-  <macro name="noms_propis" p1="Bernat" p2="Bernardu" />
-  <macro name="noms_propis" p1="Blanca" p2="Bianca" />
-  <macro name="noms_propis" p1="Carles" p2="Càralu" />
-  <macro name="noms_propis" p1="Caterina" p2="Callina" />
-  <macro name="noms_propis" p1="Elisabet" p2="Elisabeta" />
-  <macro name="noms_propis" p1="Enric" p2="Erricu" />
-  <macro name="noms_propis" p1="Felip" p2="Tilipu" />
-  <macro name="noms_propis" p1="Ferran" p2="Ferrante" />
-  <macro name="noms_propis" p1="Francesc" p2="Frantziscu" />
-  <macro name="noms_propis" p1="Francesc Xavier" p2="Frantziscu Savèriu" />
-  <macro name="noms_propis" p1="Frederic" p2="Federicu" />
-  <macro name="noms_propis" p1="Gregori" p2="Gregòriu" />
-  <macro name="noms_propis" p1="Guifré" p2="Gofredu" />
-  <macro name="noms_propis" p1="Guillem" p2="Gullielmu" />
-  <macro name="noms_propis" p1="Humbert" p2="Umbertu" />
-  <macro name="noms_propis" p1="Innocenci" p2="Innocentzu" />
-  <macro name="noms_propis" p1="Isabel" p2="Isabella" />
-  <macro name="noms_propis" p1="Jaume" p2="Giacu" />
-  <macro name="noms_propis" p1="Joan" p2="Giuanne" />
-  <macro name="noms_propis" p1="Joana" p2="Giuanna" />
-  <macro name="noms_propis" p1="Joan Carles" p2="Giuanne Càralu" />
-  <macro name="noms_propis" p1="Joan Manuel" p2="Giuanne Manuelle" />
-  <macro name="noms_propis" p1="Joan Pau" p2="Giuanne Pàule" />
-  <macro name="noms_propis" p1="Josep" p2="Giosepe" />
-  <macro name="noms_propis" p1="Juli" p2="Giùliu" />
-  <macro name="noms_propis" p1="Lleó" p2="Leone" />
-  <macro name="noms_propis" p1="Llúcia" p2="Lughia" />
-  <macro name="noms_propis" p1="Lluc" p2="Luca" />
-  <macro name="noms_propis" p1="Lluís" p2="Luisi" />
-  <macro name="noms_propis" p1="Manuel" p2="Manuelle" />
-  <macro name="noms_propis" p1="Marc" p2="Marcu" />
-  <macro name="noms_propis" p1="Martí" p2="Martine" />
-  <macro name="noms_propis" p1="Maximilià" p2="Massimilianu" />
-  <macro name="noms_propis" p1="Miró" p2="Mirò" />
-  <macro name="noms_propis" p1="Nicolau" p2="Nigola" />
-  <macro name="noms_propis" p1="Pau" p2="Pàule" />
-  <macro name="noms_propis" p1="Pere" p2="Pedru" />
-  <macro name="noms_propis" p1="Ramir" p2="Ramiru" />
-  <macro name="noms_propis" p1="Ramon" p2="Raimundu" />
-  <macro name="noms_propis" p1="Ricard" p2="Ricardu" />
-  <macro name="noms_propis" p1="Sixt" p2="Sistu" />
+  <macro n="noms_propis"><with-param v="Alexandre"/><with-param v="Lisandru"/></macro>
+  <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonsu"/></macro>
+  <macro n="noms_propis"><with-param v="Benet"/><with-param v="Beneitu"/></macro>
+  <macro n="noms_propis"><with-param v="Berenguer"/><with-param v="Berengàriu"/></macro>
+  <macro n="noms_propis"><with-param v="Bernat"/><with-param v="Bernardu"/></macro>
+  <macro n="noms_propis"><with-param v="Blanca"/><with-param v="Bianca"/></macro>
+  <macro n="noms_propis"><with-param v="Carles"/><with-param v="Càralu"/></macro>
+  <macro n="noms_propis"><with-param v="Caterina"/><with-param v="Callina"/></macro>
+  <macro n="noms_propis"><with-param v="Elisabet"/><with-param v="Elisabeta"/></macro>
+  <macro n="noms_propis"><with-param v="Enric"/><with-param v="Erricu"/></macro>
+  <macro n="noms_propis"><with-param v="Felip"/><with-param v="Tilipu"/></macro>
+  <macro n="noms_propis"><with-param v="Ferran"/><with-param v="Ferrante"/></macro>
+  <macro n="noms_propis"><with-param v="Francesc"/><with-param v="Frantziscu"/></macro>
+  <macro n="noms_propis"><with-param v="Francesc Xavier"/><with-param v="Frantziscu Savèriu"/></macro>
+  <macro n="noms_propis"><with-param v="Frederic"/><with-param v="Federicu"/></macro>
+  <macro n="noms_propis"><with-param v="Gregori"/><with-param v="Gregòriu"/></macro>
+  <macro n="noms_propis"><with-param v="Guifré"/><with-param v="Gofredu"/></macro>
+  <macro n="noms_propis"><with-param v="Guillem"/><with-param v="Gullielmu"/></macro>
+  <macro n="noms_propis"><with-param v="Humbert"/><with-param v="Umbertu"/></macro>
+  <macro n="noms_propis"><with-param v="Innocenci"/><with-param v="Innocentzu"/></macro>
+  <macro n="noms_propis"><with-param v="Isabel"/><with-param v="Isabella"/></macro>
+  <macro n="noms_propis"><with-param v="Jaume"/><with-param v="Giacu"/></macro>
+  <macro n="noms_propis"><with-param v="Joan"/><with-param v="Giuanne"/></macro>
+  <macro n="noms_propis"><with-param v="Joana"/><with-param v="Giuanna"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Carles"/><with-param v="Giuanne Càralu"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Manuel"/><with-param v="Giuanne Manuelle"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Pau"/><with-param v="Giuanne Pàule"/></macro>
+  <macro n="noms_propis"><with-param v="Josep"/><with-param v="Giosepe"/></macro>
+  <macro n="noms_propis"><with-param v="Juli"/><with-param v="Giùliu"/></macro>
+  <macro n="noms_propis"><with-param v="Lleó"/><with-param v="Leone"/></macro>
+  <macro n="noms_propis"><with-param v="Llúcia"/><with-param v="Lughia"/></macro>
+  <macro n="noms_propis"><with-param v="Lluc"/><with-param v="Luca"/></macro>
+  <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Luisi"/></macro>
+  <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Manuelle"/></macro>
+  <macro n="noms_propis"><with-param v="Marc"/><with-param v="Marcu"/></macro>
+  <macro n="noms_propis"><with-param v="Martí"/><with-param v="Martine"/></macro>
+  <macro n="noms_propis"><with-param v="Maximilià"/><with-param v="Massimilianu"/></macro>
+  <macro n="noms_propis"><with-param v="Miró"/><with-param v="Mirò"/></macro>
+  <macro n="noms_propis"><with-param v="Nicolau"/><with-param v="Nigola"/></macro>
+  <macro n="noms_propis"><with-param v="Pau"/><with-param v="Pàule"/></macro>
+  <macro n="noms_propis"><with-param v="Pere"/><with-param v="Pedru"/></macro>
+  <macro n="noms_propis"><with-param v="Ramir"/><with-param v="Ramiru"/></macro>
+  <macro n="noms_propis"><with-param v="Ramon"/><with-param v="Raimundu"/></macro>
+  <macro n="noms_propis"><with-param v="Ricard"/><with-param v="Ricardu"/></macro>
+  <macro n="noms_propis"><with-param v="Sixt"/><with-param v="Sistu"/></macro>
 
 </rules>
-</metalrx>
+</lrx>
