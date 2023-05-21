@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <!-- scn → spa -->
+  <!-- cat → srd -->
 
   <mode name="cat-srd" install="yes">
     <pipeline>
@@ -250,7 +250,7 @@
     </pipeline>
   </mode>
 
-  <!-- spa → scn -->
+  <!-- srd →  cat -->
 
   <mode name="srd-cat" install="no">
     <pipeline>
