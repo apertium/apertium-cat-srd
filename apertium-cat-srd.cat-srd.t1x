@@ -2792,22 +2792,6 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_li2bi" npar="1">
-      <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
-	<when> 
-	  <test>
-	    <equal caseless="yes">
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <lit v="li"/>
-	    </equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="1"><lit v="bi"/></get-case-from></let>
-	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
-	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
- 	</when> 
-     </choose>
-    </def-macro>
-
     <def-macro n="f_pr_tn-pers" npar="2">
       <choose>	<!-- To change to personal pronoun depending on the preposition -->
 	<when> 
