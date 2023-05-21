@@ -3710,7 +3710,8 @@
      <out>
        <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
          <tags>
-           <tag><lit-tag v="SN_top"/></tag>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="top"/></tag>
            <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
            <tag><clip pos="1" side="tl" part="gen"/></tag>
            <tag><clip pos="1" side="tl" part="nbr"/></tag>
