@@ -7784,9 +7784,6 @@ S'ha de millorar:
      <call-macro n="f_set_sg1">
        <with-param pos="1"/>
      </call-macro>
-     <call-macro n="f_li2bi">
-       <with-param pos="3"/>
-     </call-macro>
      <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
      <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
      <call-macro n="f_vaux_anar_inf">
@@ -7939,9 +7936,6 @@ S'ha de millorar:
          <pattern-item n="enc"/>
        </pattern>
        <action>
-         <call-macro n="f_li2bi">
-           <with-param pos="2"/>
-         </call-macro>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
@@ -8039,9 +8033,6 @@ S'ha de millorar:
        <action>
          <call-macro n="f_set_sg1">
            <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="f_li2bi">
-           <with-param pos="3"/>
          </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
@@ -8269,9 +8260,6 @@ S'ha de millorar:
          <call-macro n="f_set_sg1">
            <with-param pos="1"/>
          </call-macro>
-         <call-macro n="f_li2bi">
-           <with-param pos="3"/>
-         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
       <choose>
@@ -8342,9 +8330,6 @@ S'ha de millorar:
        <action>
          <call-macro n="f_set_sg1">
            <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="f_li2bi">
-           <with-param pos="3"/>
          </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
@@ -8422,9 +8407,6 @@ S'ha de millorar:
        <action>
          <call-macro n="f_set_sg1">
            <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="f_li2bi">
-           <with-param pos="3"/>
          </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
