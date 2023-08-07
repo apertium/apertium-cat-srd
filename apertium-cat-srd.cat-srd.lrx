@@ -290,6 +290,13 @@
            <match tags=""/>
          </or>
       </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="senyor" tags="n.*"/>
+           <match lemma="senyoret" tags="n.*"/>
+         </or>
+         <match plemma="1" tags="np.*"><select plemma="1"/></match>
+      </rule>
     </def-macro>
 
   </def-macros>
@@ -3254,7 +3261,7 @@
   <macro n="noms_propis"><with-param v="Guifré"/><with-param v="Gofredu"/></macro>
   <macro n="noms_propis"><with-param v="Guillem"/><with-param v="Gullielmu"/></macro>
   <macro n="noms_propis"><with-param v="Humbert"/><with-param v="Umbertu"/></macro>
-  <macro n="noms_propis"><with-param v="Innocenci"/><with-param v="Innocentzu"/></macro>
+  <macro n="noms_propis"><with-param v="Innocenci"/><with-param v="Innotzentzu"/></macro>
   <macro n="noms_propis"><with-param v="Isabel"/><with-param v="Isabella"/></macro>
   <macro n="noms_propis"><with-param v="Jaume"/><with-param v="Giacu"/></macro>
   <macro n="noms_propis"><with-param v="Joan"/><with-param v="Giuanne"/></macro>
