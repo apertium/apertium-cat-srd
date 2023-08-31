@@ -2412,6 +2412,16 @@
 
 <!-- **************** ADJ **************** -->
 
+<!-- majúscul > enorme, majùsculu -->
+
+  <rule weight="0.6">
+     <match lemma="majúscul" tags="adj.*"><select lemma="enorme"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="lletra" tags="n.*"/>
+     <match lemma="majúscul" tags="adj.*"><select lemma="majùsculu"/></match>
+  </rule>
+
 <!-- gran > mannu, grandu -->
 
   <rule weight="0.6">
