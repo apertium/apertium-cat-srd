@@ -2486,6 +2486,27 @@
 
 <!-- **************** N **************** -->
 
+  <!-- cap > capu, conca -->
+  <rule weight="0.6">
+    <match lemma="cap" tags="n.*"><select lemma="capu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cap" tags="n.*"><select lemma="conca"/></match>
+     <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <or>
+       <seq n="animal"/>
+       <match lemma="nen" tags="n.*"/>
+       <match lemma="xic" tags="n.*"/>
+       <match lemma="xiquet" tags="n.*"/>
+       <match lemma="infant" tags="n.*"/>
+       <match lemma="bebè" tags="n.*"/>
+       <match lemma="nounat" tags="n.*"/>
+     </or>
+  </rule>
+
   <!-- macedònia > matzedònia, matzèdone -->
   <rule weight="0.6">
     <match lemma="macedònia" tags="n.*"><select lemma="matzedònia"/></match>
