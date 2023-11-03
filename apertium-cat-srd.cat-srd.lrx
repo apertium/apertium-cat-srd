@@ -947,11 +947,17 @@
   </rule>
 
 
-<!-- de > de, dae -->
+<!-- de > de, dae, [remove] -->
 <!-- pp dae -->
 
   <rule weight="0.6">
     <match lemma="de" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="pr"/>
+    <match lemma="de" tags="pr"><remove tags="pr"/></match>
+    <match lemma="altre"/>
   </rule>
 
   <rule weight="1.0">
@@ -2212,8 +2218,12 @@
 
 <!-- **************** ADV **************** -->
 
-<!-- més > prus, de prus -->
+  <!-- entre altres > intre àteros, intre àteras -->
+  <rule weight="0.6">
+     <match lemma="entre altres" tags="adv"><select lemma="intre àteros"/></match>
+  </rule>
 
+  <!-- més > prus, de prus -->
   <rule weight="0.6">
      <match lemma="més" tags="adv"><select lemma="prus"/></match>
   </rule>
@@ -3154,6 +3164,11 @@
      <match lemma="tret" tags="n.*"><select lemma="disparu"/></match>
      <match lemma="a" tags="pr"/>
   </rule>
+  <rule weight="1.0">
+     <match lemma="tret" tags="n.*"><select lemma="disparu"/></match>
+     <match lemma="de" tags="pr"/>
+     <match lemma="sortida" tags="n.*"/>
+  </rule>
 
 <!-- taula > caraterìstica, tabella -->
 
@@ -3254,11 +3269,20 @@
     <match lemma="Jesús" tags="np.ant.*"><select lemma="Jesús"/></match>
   </rule>
 
+  <rule weight="0.6">
+     <match lemma="Plantagenet" tags="np.*"><select lemma="Plantagenet"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*.pl"/>
+     <match lemma="Plantagenet" tags="np.*"><select lemma="Plantagenetos"/></match>
+  </rule>
+
   <rule weight="1.0">
      <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
      <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
+
 
   <rule weight="1.0">
      <or><match tags="np.cog.*"/><match lemma="Puig"/></or>
