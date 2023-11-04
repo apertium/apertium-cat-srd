@@ -109,7 +109,7 @@
    <cat-item tags="n.*"/>
 </def-cat>
 <def-cat n="nom_pl">
-   <cat-item tags="n.*,pl"/>
+   <cat-item tags="n.*.pl"/>
 </def-cat>
 <def-cat n="èssere_pri">
    <cat-item lemma="èssere" tags="vblex.pri.*"/>
