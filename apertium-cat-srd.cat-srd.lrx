@@ -3332,7 +3332,7 @@
   <macro n="noms_propis"><with-param v="Lleó"/><with-param v="Leone"/></macro>
   <macro n="noms_propis"><with-param v="Llúcia"/><with-param v="Lughia"/></macro>
   <macro n="noms_propis"><with-param v="Lluc"/><with-param v="Luca"/></macro>
-  <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Luisi"/></macro>
+  <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Ludovicu"/></macro>
   <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Manuelle"/></macro>
   <macro n="noms_propis"><with-param v="Marc"/><with-param v="Marcu"/></macro>
   <macro n="noms_propis"><with-param v="Martí"/><with-param v="Martine"/></macro>
@@ -3345,6 +3345,54 @@
   <macro n="noms_propis"><with-param v="Ramon"/><with-param v="Raimundu"/></macro>
   <macro n="noms_propis"><with-param v="Ricard"/><with-param v="Ricardu"/></macro>
   <macro n="noms_propis"><with-param v="Sixt"/><with-param v="Sistu"/></macro>
+  <macro n="noms_propis"><with-param v="Victòria"/><with-param v="Vitòria"/></macro>
+
+  <rule weight="2.0">
+    <match lemma="Lluís" tags="np.*"><select lemma="Luisi"/></match>
+	 <or>
+	  <match lemma="VII" tags="num.*"/>
+	  <match lemma="VIII" tags="num.*"/>
+	  <match lemma="IX" tags="num.*"/>
+	  <match lemma="X" tags="num.*"/>
+	  <match lemma="XI" tags="num.*"/>
+	  <match lemma="XII" tags="num.*"/>
+	  <match lemma="XIII" tags="num.*"/>
+	  <match lemma="XIV" tags="num.*"/>
+	  <match lemma="XV" tags="num.*"/>
+	  <match lemma="XVI" tags="num.*"/>
+	  <match lemma="XVII" tags="num.*"/>
+	  <match lemma="XVIII" tags="num.*"/>
+	</or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="Lluís" tags="np.*"><select lemma="Luisi"/></match>
+    <repeat from="0" upto="1">
+      <match tags="num.*"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="n.*"/>
+    </repeat>
+	<match lemma="de" tags="pr"/>
+	<or>
+	  <match lemma="França" tags="np.*"/>
+	  <match lemma="Borbó" tags="np.*"/>
+	  <match lemma="Valois" tags="np.*"/>
+	  <match lemma="Orleans" tags="np.*"/>
+	  <match lemma="Borgonya" tags="np.*"/>
+	  <match lemma="Espanya" tags="np.*"/>
+	</or>
+  </rule>
+  <rule weight="2.0">
+	<match lemma="sant"/>
+    <match lemma="Lluís" tags="np.*"><select lemma="Luisi"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="Lluís" tags="np.*"><select lemma="Luisi"/></match>
+	<match lemma="Capet" tags="np.*"/>
+  </rule>
 
 </rules>
 </lrx>
