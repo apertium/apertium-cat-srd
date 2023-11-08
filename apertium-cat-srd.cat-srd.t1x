@@ -696,11 +696,11 @@
 <section-def-macros>
 
     <def-macro n="f_concord1" npar="1">
-      
+
       <choose><!--To determine value of variables of gender and
 		  number and propagate to other rules.  Variables are
 		  not used again in this rule -->
-	<when> 
+	<when>
 	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="gen"/>
@@ -718,9 +718,9 @@
 	  </test>
 	  <let><var n="genero"/><lit-tag v="f"/></let>
 	</when>
-      </choose> 
+      </choose>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
@@ -729,7 +729,7 @@
 	  </test>
 	  <let><var n="numero"/><lit-tag v="sg"/></let>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
@@ -750,7 +750,7 @@
 	      <lit-tag v="GD"/>
 	    </equal>
 	  </test>
-	  <choose> 
+	  <choose>
 	    <when>
 	      <test>
 		<equal>
@@ -768,13 +768,13 @@
       </choose>
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <lit-tag v="ND"/>
 	    </equal>
 	  </test>
-	  <choose> 
+	  <choose>
 	    <when>
 	      <test>
 		<equal>
@@ -782,14 +782,14 @@
 		  <lit-tag v="pl"/>
 		</equal>
 	      </test>
-	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>                   
+	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	    </when>
 	    <otherwise>
 	      <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
 	    </otherwise>
 	  </choose>
 	</when>
-      </choose>    
+      </choose>
     </def-macro>
 
 
@@ -830,11 +830,11 @@
 	  </test>
 	  <let><var n="concPrimero"/><lit v="true"/></let><!-- there is gender and number agreement-->
 	</when>
-	<otherwise> 
+	<otherwise>
 	  <let><var n="concPrimero"/><lit v="false"/></let><!-- there isn't gender and number agreement-->
 	</otherwise>
       </choose>
-      
+
       <choose>
 	<when>
 	  <test> <!-- Propagate the main parameter gender if it has been modified during the translation  -->
@@ -888,15 +888,15 @@
 		    <lit v="true"/>
 		  </equal>
 		</and>
-	      </test>		 	       
+	      </test>		 	
 	      <let>
 		<clip pos="2" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
+		<clip pos="1" side="tl" part="gen"/>
 	      </let>
 	    </when>
 	  </choose>
 	</when>
-      </choose>  
+      </choose>
       <choose>
 	<when>
 	  <test> <!-- Propagate the main parameter number if it has been modified during the translation  -->
@@ -953,13 +953,13 @@
 	      </test>
 	      <let>
 		<clip pos="2" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
 	</when>
       </choose>
-      
+
       <choose>
 	<when>
 	  <test> <!-- Which is the rule general gender? -->
@@ -1026,7 +1026,7 @@
 	  </test>
 	  <let>
 	    <var n="genero"/>
-	    <clip pos="1" side="sl" part="gen"/> 
+	    <clip pos="1" side="sl" part="gen"/>
 	  </let>
 	</when>
 	<when>
@@ -1046,7 +1046,7 @@
 	  </test>
 	  <let>
 	    <var n="genero"/>
-	    <clip pos="2" side="sl" part="gen"/> 
+	    <clip pos="2" side="sl" part="gen"/>
 	  </let>
 	</when>
 	<otherwise>
@@ -1061,7 +1061,7 @@
 
       <choose>
 	<when><!-- Which is the rule general number? -->
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <lit-tag v="sg"/>
@@ -1125,7 +1125,7 @@
 	  </test>
 	  <let>
 	    <var n="numero"/>
-	    <clip pos="1" side="sl" part="nbr"/> 
+	    <clip pos="1" side="sl" part="nbr"/>
 	  </let>
 	</when>
 	<when>
@@ -1145,7 +1145,7 @@
 	  </test>
 	  <let>
 	    <var n="numero"/>
-	    <clip pos="2" side="sl" part="nbr"/> 
+	    <clip pos="2" side="sl" part="nbr"/>
 	  </let>
 	</when>
 	<when>
@@ -1237,10 +1237,10 @@
     </def-macro>
 
 
-    <def-macro n="f_concord3" npar="3"> 
+    <def-macro n="f_concord3" npar="3">
       <choose><!-- Look whether in source language there is concordance between first and second element -->
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <or>
 		<equal>
@@ -1274,13 +1274,13 @@
 	  </test>
 	  <let><var n="concPrimero"/><lit v="true"/></let>
 	</when>
-	<otherwise> 
+	<otherwise>
 	  <let><var n="concPrimero"/><lit v="false"/></let>
 	</otherwise>
       </choose>
       <choose><!-- Look whether in source language there is concordance between second and third element -->
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <or>
 		<equal>
@@ -1313,8 +1313,8 @@
 	    </and>
 	  </test>
 	  <let><var n="concSegundo"/><lit v="true"/></let>
-	</when>	 
-	<otherwise> 
+	</when>	
+	<otherwise>
 	  <let><var n="concSegundo"/><lit v="false"/></let>
 	</otherwise>
       </choose>
@@ -1322,7 +1322,7 @@
 
       <choose><!-- Propagate the main parameter gender if it has been modified during the translation -->
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <not>
 		<equal>
@@ -1376,13 +1376,13 @@
 	      </test>
 	      <let>
 		<clip pos="2" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
+		<clip pos="1" side="tl" part="gen"/>
 	      </let>
-	    </when> 
-	  </choose>   
+	    </when>
+	  </choose>
 	  <choose>
 	    <when>
-	      <test> 
+	      <test>
 		<and>
 		  <not>
 		    <equal>
@@ -1412,16 +1412,16 @@
 	      </test>
 	      <let>
 		<clip pos="3" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
-	      </let> 
-	    </when> 
+		<clip pos="1" side="tl" part="gen"/>
+	      </let>
+	    </when>
 	  </choose>
 	</when>
       </choose>
 
       <choose><!-- Propagate the main parameter number if it has been modified during the translation -->
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <not>
 		<equal>
@@ -1475,7 +1475,7 @@
 	      </test>
 	      <let>
 		<clip pos="2" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
@@ -1511,7 +1511,7 @@
 	      </test>
 	      <let>
 		<clip pos="3" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
@@ -1522,7 +1522,7 @@
 
       <choose> <!-- Determine the rule general gender. Priority order: main, second and third element -->
 	<when>
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="gen"/>
 	      <lit-tag v="m"/>
@@ -1592,7 +1592,7 @@
 	    <var n="genero"/>
 	    <lit-tag v="f"/>
 	  </let>
-	</when> 
+	</when>
 	<when>
 	  <test>
 	    <and>
@@ -1610,7 +1610,7 @@
 	  </test>
 	  <let>
 	    <var n="genero"/>
-	    <clip pos="1" side="sl" part="gen"/> 
+	    <clip pos="1" side="sl" part="gen"/>
 	  </let>
 	</when>
 	<when>
@@ -1630,7 +1630,7 @@
 	  </test>
 	  <let>
 	    <var n="genero"/>
-	    <clip pos="2" side="sl" part="gen"/> 
+	    <clip pos="2" side="sl" part="gen"/>
 	  </let>
 	</when>
 	<when>
@@ -1650,9 +1650,9 @@
 	  </test>
 	  <let>
 	    <var n="genero"/>
-	    <clip pos="3" side="sl" part="gen"/> 
+	    <clip pos="3" side="sl" part="gen"/>
 	  </let>
-	</when>               
+	</when>
 	<otherwise>
 	  <let>
 	    <var n="genero"/>
@@ -1660,10 +1660,10 @@
 	  </let>
 	</otherwise>
       </choose>
-      
+
       <choose><!-- Determine the rule general number. Priority order: main, second and third element -->
 	<when>
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <lit-tag v="sg"/>
@@ -1733,7 +1733,7 @@
 	    <var n="numero"/>
 	    <lit-tag v="pl"/>
 	  </let>
-	</when>     
+	</when>
 	<when>
 	  <test>
 	    <and>
@@ -1751,7 +1751,7 @@
 	  </test>
 	  <let>
 	    <var n="numero"/>
-	    <clip pos="1" side="sl" part="nbr"/> 
+	    <clip pos="1" side="sl" part="nbr"/>
 	  </let>
 	</when>
 	<when>
@@ -1771,7 +1771,7 @@
 	  </test>
 	  <let>
 	    <var n="numero"/>
-	    <clip pos="2" side="sl" part="nbr"/> 
+	    <clip pos="2" side="sl" part="nbr"/>
 	  </let>
 	</when>
 	<when>
@@ -1791,7 +1791,7 @@
 	  </test>
 	  <let>
 	    <var n="numero"/>
-	    <clip pos="3" side="sl" part="nbr"/> 
+	    <clip pos="3" side="sl" part="nbr"/>
 	  </let>
 	</when>
 	<when>
@@ -1907,14 +1907,14 @@
 	    <var n="numero"/>
 	  </let>
 	</when>
-      </choose>      
-    </def-macro>     
-    
-    
+      </choose>
+    </def-macro>
+
+
     <def-macro n="f_concord4" npar="4">
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <or>
 		<equal>
@@ -1948,14 +1948,14 @@
 	  </test>
 	  <let><var n="concPrimero"/><lit v="true"/></let>
 	</when>
-	<otherwise> 
+	<otherwise>
 	  <let><var n="concPrimero"/><lit v="false"/></let>
 	</otherwise>
       </choose>
-      
+
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <or>
 		<equal>
@@ -1988,7 +1988,7 @@
 	    </and>
 	  </test>
 	  <let><var n="concSegundo"/><lit v="true"/></let>
-	</when>	 
+	</when>	
 	<otherwise>
 	  <let><var n="concSegundo"/><lit v="false"/></let>
 	</otherwise>
@@ -1996,7 +1996,7 @@
 
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <or>
 		<equal>
@@ -2029,16 +2029,16 @@
 	    </and>
 	  </test>
 	  <let><var n="concTercero"/><lit v="true"/></let>
-	</when>	 
-	<otherwise> 
+	</when>	
+	<otherwise>
 	  <let><var n="concTercero"/><lit v="false"/></let>
 	</otherwise>
       </choose>
-      
+
 
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <not>
 		<equal>
@@ -2092,9 +2092,9 @@
 	      </test>
 	      <let>
 		<clip pos="2" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
+		<clip pos="1" side="tl" part="gen"/>
 	      </let>
-	    </when> 
+	    </when>
 	  </choose>
 	  <choose>
 	    <when>
@@ -2128,13 +2128,13 @@
 	      </test>
 	      <let>
 		<clip pos="3" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
+		<clip pos="1" side="tl" part="gen"/>
 	      </let>
-	    </when> 
-	  </choose>  
+	    </when>
+	  </choose>
 	  <choose>
 	    <when>
-	      <test>  
+	      <test>
 		<and>
 		  <not>
 		    <equal>
@@ -2164,16 +2164,16 @@
 	      </test>
 	      <let>
 		<clip pos="4" side="tl" part="gen"/>
-		<clip pos="1" side="tl" part="gen"/> 
-	      </let> 
-	    </when> 
+		<clip pos="1" side="tl" part="gen"/>
+	      </let>
+	    </when>
 	  </choose>
 	</when>
       </choose>
 
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <and>
 	      <not>
 		<equal>
@@ -2227,7 +2227,7 @@
 	      </test>
 	      <let>
 		<clip pos="2" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
@@ -2263,7 +2263,7 @@
 	      </test>
 	      <let>
 		<clip pos="3" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
@@ -2299,16 +2299,16 @@
 	      </test>
 	      <let>
 		<clip pos="4" side="tl" part="nbr"/>
-		<clip pos="1" side="tl" part="nbr"/> 
+		<clip pos="1" side="tl" part="nbr"/>
 	      </let>
 	    </when>
 	  </choose>
 	</when>
       </choose>
-      
+
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="gen"/>
 	      <lit-tag v="m"/>
@@ -2378,7 +2378,7 @@
 	    <var n="genero"/>
 	    <lit-tag v="f"/>
 	  </let>
-	</when> 
+	</when>
 	<when>
 	  <test>
 	    <equal>
@@ -2411,10 +2411,10 @@
 	</otherwise>
 
       </choose>
-      
+
       <choose>
 	<when>
-	  <test> 
+	  <test>
 	    <equal>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <lit-tag v="sg"/>
@@ -2508,7 +2508,7 @@
 	    <var n="numero"/>
 	    <lit-tag v="pl"/>
 	  </let>
-	</when> 
+	</when>
 	<otherwise>
 	  <let>
 	    <var n="numero"/>
@@ -2517,7 +2517,7 @@
 	</otherwise>
       </choose>
 
-      <choose> 
+      <choose>
 	<when>
 	  <test>
 	    <equal>
@@ -2571,7 +2571,7 @@
 	    <clip pos="4" side="tl" part="gen"/>
 	    <var n="genero"/>
 	  </let>
-	</when> 
+	</when>
       </choose>
       <choose>
 	<when>
@@ -2628,8 +2628,8 @@
 	    <var n="numero"/>
 	  </let>
 	</when>
-      </choose>      
-    </def-macro>      
+      </choose>
+    </def-macro>
 
 
     <def-macro n="f_carchi2" npar="2">
@@ -2645,7 +2645,7 @@
               </test>
               <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
             </when>
-          </choose>      
+          </choose>
           <!-- si comença amb consonant, entenc que és subjecte i el verb haurà de passar a singular si va en plural -->
           <choose>
             <when>
@@ -2657,21 +2657,21 @@
             <otherwise>
               <let><var n="set_sg"/><lit v="0"/></let>
             </otherwise>
-          </choose>      
+          </choose>
         </when>
-      </choose>      
-    </def-macro>      
+      </choose>
+    </def-macro>
 
     <def-macro n="f_carchi3" npar="3">
       <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="3"/></call-macro>
-    </def-macro>      
+    </def-macro>
 
     <def-macro n="f_carchi4" npar="4">
       <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="2"/></call-macro>
       <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="3"/></call-macro>
       <call-macro n="f_carchi2"><with-param pos="1"/><with-param pos="4"/></call-macro>
-    </def-macro>      
+    </def-macro>
 
     <def-macro n="f_set_sg1" npar="1">
       <choose>
@@ -2684,14 +2684,14 @@
           </test>
           <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
         </when>
-      </choose>      
+      </choose>
       <let><var n="set_sg"/><lit v="0"/></let>
-    </def-macro>      
+    </def-macro>
 
     <def-macro n="f_set_sg2" npar="2">
       <call-macro n="f_set_sg1"><with-param pos="1"/></call-macro>
       <call-macro n="f_set_sg1"><with-param pos="2"/></call-macro>
-    </def-macro>      
+    </def-macro>
 
 
     <def-macro n="f_det_to_adj_pos1" npar="1">
@@ -2833,12 +2833,12 @@
 
     <def-macro n="f_pr_tn-pers" npar="2">
       <choose>	<!-- To change to personal pronoun depending on the preposition -->
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="mi"/></equal>
 	  </test>
           <choose>
-	    <when> 
+	    <when>
 	      <test>
 	        <or>
 	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
@@ -2867,7 +2867,7 @@
 	      </test>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mie"/></get-case-from></let>
 	    </when>
-	    <when> 
+	    <when>
 	      <test>
 	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
 	      </test>
@@ -2878,12 +2878,12 @@
 	    </otherwise>
           </choose>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="tu"/></equal>
 	  </test>
           <choose>
-	    <when> 
+	    <when>
 	      <test>
 	        <or>
 	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
@@ -2912,7 +2912,7 @@
 	      </test>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tie"/></get-case-from></let>
 	    </when>
-	    <when> 
+	    <when>
 	      <test>
 	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
 	      </test>
@@ -2923,31 +2923,31 @@
 	    </otherwise>
           </choose>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="ell"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="nosaltres"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="nois"/></get-case-from></let>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="vosaltres"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="bois"/></get-case-from></let>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="ells"/></equal>
 	  </test>
 	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="si"/></equal>
 	  </test>
@@ -3086,10 +3086,10 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <call-macro n="f_det_to_adj_pos1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="poss">
          <tags>
@@ -3115,7 +3115,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="det">
          <tags>
@@ -3140,7 +3140,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="adj">
          <tags>
@@ -3166,7 +3166,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="adj">
          <tags>
@@ -3198,7 +3198,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="2"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="adj_meda">
          <tags>
@@ -3234,7 +3234,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="2"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="adj_comente_a">
          <tags>
@@ -3267,7 +3267,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="2"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="adj_n_comente_a">
          <tags>
@@ -3417,7 +3417,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
     <out>
        <chunk name="num">
          <tags>
@@ -3720,7 +3720,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="rel">
          <tags>
@@ -3744,7 +3744,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
      <out>
        <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
@@ -3777,7 +3777,7 @@
      <call-macro n="f_concord2">
        <with-param pos="2"/>
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
      <out>
        <chunk name="det">
@@ -3824,7 +3824,7 @@
        <with-param pos="2"/>
        <with-param pos="3"/>
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
      <out>
        <chunk name="det">
@@ -3873,7 +3873,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="np">
          <tags>
@@ -4029,7 +4029,7 @@
    <action>
      <call-macro n="f_concord1">
        <with-param pos="1"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="prn">
          <tags>
@@ -4122,7 +4122,7 @@
   <action>
     <call-macro n="f_concord1">
       <with-param pos="1"/>
-    </call-macro>     
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -4329,7 +4329,7 @@
   </action>
 </rule>
 
-<rule comment="regla: nom adjec adjec"> 
+<rule comment="regla: nom adjec adjec">
   <pattern>
     <pattern-item n="nom"/>
     <pattern-item n="adjec"/>
@@ -4368,7 +4368,7 @@
   </action>
 </rule>
 
-<rule comment="regla: det_pos nom: : mon pare > babbu meu, les seves urelles > sas origras suas, llurs orelles > sas origras issoro"> 
+<rule comment="regla: det_pos nom: : mon pare > babbu meu, les seves urelles > sas origras suas, llurs orelles > sas origras issoro">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -4459,7 +4459,7 @@
 </rule>
 
 
-<rule comment="regla: det nom: la casa > sa domo, el terç > su tres unu, un terç > su tres unu"> 
+<rule comment="regla: det nom: la casa > sa domo, el terç > su tres unu, un terç > su tres unu">
   <pattern>
     <pattern-item n="det"/>
     <pattern-item n="nom"/>
@@ -4538,7 +4538,7 @@
 </rule>
 
 
-<rule comment="regla: det_pos nom adjec: la meva ciutat estimada > sa tzitade amada mea, llurs orelles grans > sas origras mannas issoro"> 
+<rule comment="regla: det_pos nom adjec: la meva ciutat estimada > sa tzitade amada mea, llurs orelles grans > sas origras mannas issoro">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -4603,7 +4603,7 @@
   </action>
 </rule>
 
-<rule comment="regla: det_pos nom adjecsup: les meves orelles grandíssimes > sas origras meas mannas a beru, llurs orelles grans > sas origras issoro mannas a beru"> 
+<rule comment="regla: det_pos nom adjecsup: les meves orelles grandíssimes > sas origras meas mannas a beru, llurs orelles grans > sas origras issoro mannas a beru">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="nom"/>
@@ -4673,7 +4673,7 @@
   </action>
 </rule>
 
-<rule comment="regla: det_pos adjec nom: : el meu gran amic > su grandu amigu meu, el meu tercer matrimoni > su de tres de sos cojuios meos"> 
+<rule comment="regla: det_pos adjec nom: : el meu gran amic > su grandu amigu meu, el meu tercer matrimoni > su de tres de sos cojuios meos">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="adjec"/>
@@ -4801,7 +4801,7 @@
   </action>
 </rule>
 
-    <rule comment="regla: det_pos adjsup nom: : llurs grandíssimes orelles > sas mannas a beru origras issoro"> 
+    <rule comment="regla: det_pos adjsup nom: : llurs grandíssimes orelles > sas mannas a beru origras issoro">
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="adjsup"/>
@@ -4871,7 +4871,7 @@
       </action>
     </rule>
 
-<rule comment="regla: det_pos adv adjec nom: : el meu molt gran amic > su grandu meda amigu meu"> 
+<rule comment="regla: det_pos adv adjec nom: : el meu molt gran amic > su grandu meda amigu meu">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="adv_preadv"/>
@@ -4943,7 +4943,7 @@
   </action>
 </rule>
 
-    <rule comment="regla: det_pos nom adjec adjec"> 
+    <rule comment="regla: det_pos nom adjec adjec">
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="nom"/>
@@ -5018,7 +5018,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det_pos nom adjec i adjec"> 
+    <rule comment="regla: det_pos nom adjec i adjec">
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="nom"/>
@@ -5099,7 +5099,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det_pos adjec nom adjec"> 
+    <rule comment="regla: det_pos adjec nom adjec">
       <pattern>
         <pattern-item n="det_pos"/>
         <pattern-item n="adjec"/>
@@ -5175,7 +5175,7 @@
     </rule>
 
 
-<rule comment="regla: det_pos adjec adjec nom: : el meu gran bon amic > su grandu bonu amigu meu, el meu tercer gran viatje > su de tres de sos grandos biàgiu meos"> 
+<rule comment="regla: det_pos adjec adjec nom: : el meu gran bon amic > su grandu bonu amigu meu, el meu tercer gran viatje > su de tres de sos grandos biàgiu meos">
   <pattern>
     <pattern-item n="det_pos"/>
     <pattern-item n="adjec"/>
@@ -5321,7 +5321,7 @@
   </action>
 </rule>
 
-    <rule comment="regla: det nom adjec"> 
+    <rule comment="regla: det nom adjec">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
@@ -5363,7 +5363,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det nom adjsup"> 
+    <rule comment="regla: det nom adjsup">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
@@ -5410,7 +5410,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: det nom adjec adjec"> 
+    <rule comment="regla: det nom adjec adjec">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom"/>
@@ -5461,7 +5461,7 @@
       </action>
     </rule>
 
-<rule comment="regla: det adjec nom"> 
+<rule comment="regla: det adjec nom">
   <pattern>
     <pattern-item n="det"/>
     <pattern-item n="adjec"/>
@@ -5593,7 +5593,7 @@
   </action>
 </rule>
 
-    <rule comment="regla: det adjsup nom"> 
+    <rule comment="regla: det adjsup nom">
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="adjsup"/>
@@ -5644,7 +5644,7 @@
       </action>
     </rule>
 
-<rule comment="regla: det adjec nom adjec"> 
+<rule comment="regla: det adjec nom adjec">
   <pattern>
     <pattern-item n="det"/>
     <pattern-item n="adjec"/>
@@ -5971,7 +5971,7 @@
 </rule>
 
 
-    <rule comment="regla: predet det nom"> 
+    <rule comment="regla: predet det nom">
       <pattern>
         <pattern-item n="predet"/>
         <pattern-item n="det"/>
@@ -6347,7 +6347,7 @@
    <action>
      <call-macro n="f_concord1"> <!-- amb això mantinc el gènere que tingui el pp: és massa exposat triar el que hi hagi a la var genero -->
        <with-param pos="2"/>
-     </call-macro>     
+     </call-macro>
      <call-macro n="f_set_sg2">
        <with-param pos="1"/>
        <with-param pos="2"/>
@@ -6431,7 +6431,7 @@
 S'ha de millorar:
 - "tapa" la regla del reflexiu (l'ha d'incloure)
 - ha de tenir en compte si els pronoms són de CD (no "li", per exemple). El problema és que "ens", "us" i "els" poden ser CD i CI - millor no fer canvis amb ells... o tenir una llista de verbs transitius o que (no) admetin CI (per evitar "els ha dit > los at narrados").
-<rule comment="pro haver pp > pro aux pp: els ha unit > los at unidos, m'ha arribat > mi est arribadu"> 
+<rule comment="pro haver pp > pro aux pp: els ha unit > los at unidos, m'ha arribat > mi est arribadu">
   <pattern>
     <pattern-item n="pro"/>
     <pattern-item n="haver"/>
@@ -6502,10 +6502,10 @@ S'ha de millorar:
       </chunk>
     </out>
   </action>
-</rule>  
+</rule>
 -->
 
-<rule comment="prnref haver pp > prnref èssere pp: s'ha incorporat > s'est achiridu, m'ha dit > mi at naradu, m'ha arribat > mi est arribadu"> 
+<rule comment="prnref haver pp > prnref èssere pp: s'ha incorporat > s'est achiridu, m'ha dit > mi at naradu, m'ha arribat > mi est arribadu">
   <pattern>
     <pattern-item n="prnproref"/>
     <pattern-item n="haver"/>
@@ -6567,10 +6567,10 @@ S'ha de millorar:
       </chunk>
     </out>
   </action>
-</rule>  
+</rule>
 
 
-<rule comment="prnref prnpro haver pp > prnref prnpro èssere pp: s'hi ha incorporat > si nch'est achiridu, m'ho ha dit > mi l'at naradu, m'hi ha arribat > mi nch'est arribadu"> 
+<rule comment="prnref prnpro haver pp > prnref prnpro èssere pp: s'hi ha incorporat > si nch'est achiridu, m'ho ha dit > mi l'at naradu, m'hi ha arribat > mi nch'est arribadu">
   <pattern>
     <pattern-item n="prnproref"/>
     <pattern-item n="prnpro"/>
@@ -6639,10 +6639,10 @@ S'ha de millorar:
       </chunk>
     </out>
   </action>
-</rule>  
+</rule>
 
 
-<rule comment="prnref anar_pri inf > prnref èssere pp: es va incorporar > s'est achiridu, em va dir > mi at naradu, em va arribar > mi est arribadu"> 
+<rule comment="prnref anar_pri inf > prnref èssere pp: es va incorporar > s'est achiridu, em va dir > mi at naradu, em va arribar > mi est arribadu">
   <pattern>
     <pattern-item n="prnproref"/>
     <pattern-item n="anar_pri"/>
@@ -6708,10 +6708,10 @@ S'ha de millorar:
       </chunk>
     </out>
   </action>
-</rule>  
+</rule>
 
 
-<rule comment="prnref prnpro anar_pri inf > prnref èssere pp: s'hi va incorporar > s nch'est achiridu, m'ho va dir > mi l'at naradu, m'hi va arribar > mi nch'est arribadu"> 
+<rule comment="prnref prnpro anar_pri inf > prnref èssere pp: s'hi va incorporar > s nch'est achiridu, m'ho va dir > mi l'at naradu, m'hi va arribar > mi nch'est arribadu">
   <pattern>
     <pattern-item n="prnproref"/>
     <pattern-item n="prnpro"/>
@@ -6784,10 +6784,10 @@ S'ha de millorar:
       </chunk>
     </out>
   </action>
-</rule>  
+</rule>
 
 
-<rule comment="prnref ifi > prnref èssere pp: s'incorporà > si fiat achiridu, em digué > m'aiat naradu, m'arribà > mi fiat arribadu"> 
+<rule comment="prnref ifi > prnref èssere pp: s'incorporà > si fiat achiridu, em digué > m'aiat naradu, m'arribà > mi fiat arribadu">
   <pattern>
     <pattern-item n="prnproref"/>
      <pattern-item n="ifi"/>
@@ -6867,7 +6867,7 @@ S'ha de millorar:
       </otherwise>
     </choose>
   </action>
-</rule>  
+</rule>
 
 
 <rule comment="regla: haver-ifi pp">
@@ -7136,7 +7136,7 @@ S'ha de millorar:
    <action>
      <call-macro n="f_concord1">
        <with-param pos="3"/>
-     </call-macro>     
+     </call-macro>
      <call-macro n="f_set_sg2">
        <with-param pos="1"/>
        <with-param pos="3"/>
@@ -7185,9 +7185,9 @@ S'ha de millorar:
    <action>
      <call-macro n="f_concord1">
        <with-param pos="4"/>
-     </call-macro>     
+     </call-macro>
      <choose>
-       <when> 
+       <when>
          <test>
            <or>
              <equal><clip pos="4" side="sl" part="gen"/><lit-tag v="m"/></equal>
@@ -7195,7 +7195,7 @@ S'ha de millorar:
            </or>
          </test>
            <let><clip pos="3" side="tl" part="gen"/><clip pos="4" side="sl" part="gen"/></let>
-       </when> 
+       </when>
      </choose>
      <out>
        <chunk name="prn_aux_pp_adj">
@@ -7246,7 +7246,7 @@ S'ha de millorar:
    <action>
      <call-macro n="f_concord1">
        <with-param pos="4"/>
-     </call-macro>     
+     </call-macro>
      <call-macro n="f_set_sg2">
        <with-param pos="1"/>
        <with-param pos="4"/>
@@ -7302,9 +7302,9 @@ S'ha de millorar:
    <action>
      <call-macro n="f_concord1">
        <with-param pos="5"/>
-     </call-macro>     
+     </call-macro>
      <choose>
-       <when> 
+       <when>
          <test>
            <or>
              <equal><clip pos="5" side="sl" part="gen"/><lit-tag v="m"/></equal>
@@ -7312,7 +7312,7 @@ S'ha de millorar:
            </or>
          </test>
            <let><clip pos="3" side="tl" part="gen"/><clip pos="5" side="sl" part="gen"/></let>
-       </when> 
+       </when>
      </choose>
      <out>
        <chunk name="prn_aux_pp_adv_aj">
@@ -8097,14 +8097,14 @@ S'ha de millorar:
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
          <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
 	  </test>
 	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
          <let><clip pos="3" side="tl" part="lem"/><lit v="lu"/></let>
          <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when> 
+	</when>
       </choose>
          <out>
            <chunk name="inf_enc">
@@ -8193,14 +8193,14 @@ S'ha de millorar:
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
 	  </test>
 	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
          <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
          <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when> 
+	</when>
       </choose>
          <out>
            <chunk name="pro_vbmod_inf">
@@ -8419,14 +8419,14 @@ S'ha de millorar:
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
 	  </test>
 	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
          <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
          <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when> 
+	</when>
       </choose>
          <out>
            <chunk name="pro_pro_aere_vbmodpp_inf">
@@ -8490,14 +8490,14 @@ S'ha de millorar:
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
 	  </test>
 	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
          <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
          <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when> 
+	</when>
       </choose>
          <out>
            <chunk name="pro_aux-a-inf">
@@ -8567,14 +8567,14 @@ S'ha de millorar:
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
 	  </test>
 	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
          <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
          <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when> 
+	</when>
       </choose>
          <out>
            <chunk name="pro_aux-inf">
@@ -8660,7 +8660,7 @@ S'ha de millorar:
    </pattern>
    <action>
       <choose>
-	<when> 
+	<when>
 	  <test>
 	    <or>
 	      <equal><clip pos="3" side="sl" part="lem"/><lit v="en"/></equal>
@@ -8689,7 +8689,7 @@ S'ha de millorar:
             </chunk>
           </out>
 	</when>
-	<when> 
+	<when>
 	  <test>
 	    <and>
 	      <equal><clip pos="3" side="sl" part="lem"/><lit v="hi"/></equal>
@@ -8721,14 +8721,14 @@ S'ha de millorar:
 	</when>
 	<otherwise>
           <choose>
-	    <when> 
+	    <when>
 	      <test>
 	        <equal><clip pos="3" side="sl" part="lem"/><lit v="li"/></equal>
 	      </test>
 	     <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
              <let><clip pos="3" side="tl" part="lem"/><lit v="lu"/></let>
              <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
-	    </when> 
+	    </when>
           </choose>
           <out>
             <chunk name="imp-ger-enc-enc">
@@ -9939,7 +9939,7 @@ S'ha de millorar:
    <action>
      <call-macro n="f_concord1">
        <with-param pos="4"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="SN">
          <tags>
@@ -9974,7 +9974,7 @@ S'ha de millorar:
      <call-macro n="f_concord2">
        <with-param pos="5"/>
        <with-param pos="4"/>
-     </call-macro>     
+     </call-macro>
      <out>
        <chunk name="SN">
          <tags>
