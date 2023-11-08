@@ -238,10 +238,6 @@
 <def-cat n="anar_pri_p3sg">
    <cat-item lemma="anar" tags="vblex.pri.p3.sg"/>
 </def-cat>
-<def-cat n="nptop">
-   <cat-item tags="np.top.*"/>
-   <cat-item tags="np.top"/>
-</def-cat>
 <def-cat n="predet">
    <cat-item tags="predet.*"/>
 </def-cat>
@@ -518,6 +514,7 @@
 </def-cat>
 <def-cat n="top">
    <cat-item tags="np.top.*"/>
+   <cat-item tags="np.top"/>
 </def-cat>
 <def-cat n="cnjsub">
    <cat-item tags="cnjsub"/>
@@ -3124,13 +3121,13 @@
          <tags>
            <tag><lit-tag v="SD"/></tag>
          </tags>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="a_det"/>
-         <clip pos="1" side="tl" part="gen"/>
-         <clip pos="1" side="tl" part="nbr"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_det"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
        </chunk>
      </out>
    </action>
@@ -3758,15 +3755,115 @@
            <tag><clip pos="1" side="tl" part="gen"/></tag>
            <tag><clip pos="1" side="tl" part="nbr"/></tag>
          </tags>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="tags"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
-     </chunk>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
      </out>
    </action>
 </rule>
+
+
+
+
+<rule comment="regla: det top">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="top"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>     
+     <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+     <out>
+       <chunk name="det">
+         <tags>
+           <tag><lit-tag v="SD"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_det"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+       <b pos="1"/>
+       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="top"/></tag>
+           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
+           <tag><clip pos="2" side="tl" part="gen"/></tag>
+           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+         </tags>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+
+<rule comment="regla: det top adj">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="top"/>
+     <pattern-item n="adjec"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord3">
+       <with-param pos="2"/>
+       <with-param pos="3"/>
+       <with-param pos="1"/>
+     </call-macro>     
+     <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
+     <out>
+       <chunk name="det">
+         <tags>
+           <tag><lit-tag v="SD"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_det"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+       <b pos="1"/>
+       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="top"/></tag>
+           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
+           <tag><clip pos="2" side="tl" part="gen"/></tag>
+           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+         </tags>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
 
 
 <rule comment="regla: np">
