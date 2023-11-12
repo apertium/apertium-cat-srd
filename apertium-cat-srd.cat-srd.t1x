@@ -68,42 +68,6 @@
 <def-cat n="num_lettere">
    <cat-item tags="num.*"/>
 </def-cat>
-<!-- not working
-<def-cat n="numrom">
-   <cat-item lemma="I" tags="num.*"/>
-   <cat-item lemma="II" tags="num.*"/>
-   <cat-item lemma="III" tags="num.*"/>
-   <cat-item lemma="IV" tags="num.*"/>
-   <cat-item lemma="V" tags="num.*"/>
-   <cat-item lemma="VI" tags="num.*"/>
-   <cat-item lemma="VII" tags="num.*"/>
-   <cat-item lemma="VIII" tags="num.*"/>
-   <cat-item lemma="IX" tags="num.*"/>
-   <cat-item lemma="X" tags="num.*"/>
-   <cat-item lemma="XI" tags="num.*"/>
-   <cat-item lemma="XI" tags="num.*"/>
-   <cat-item lemma="XII" tags="num.*"/>
-   <cat-item lemma="XIII" tags="num.*"/>
-   <cat-item lemma="XIV" tags="num.*"/>
-   <cat-item lemma="XV" tags="num.*"/>
-   <cat-item lemma="XVI" tags="num.*"/>
-   <cat-item lemma="XVII" tags="num.*"/>
-   <cat-item lemma="XVIII" tags="num.*"/>
-   <cat-item lemma="XIX" tags="num.*"/>
-   <cat-item lemma="XX" tags="num.*"/>
-   <cat-item lemma="XXI" tags="num.*"/>
-   <cat-item lemma="XXII" tags="num.*"/>
-   <cat-item lemma="XXII" tags="num.*"/>
-   <cat-item lemma="XXIII" tags="num.*"/>
-   <cat-item lemma="XXIV" tags="num.*"/>
-   <cat-item lemma="XXV" tags="num.*"/>
-   <cat-item lemma="XXVI" tags="num.*"/>
-   <cat-item lemma="XXVII" tags="num.*"/>
-   <cat-item lemma="XXVIII" tags="num.*"/>
-   <cat-item lemma="XXIX" tags="num.*"/>
-   <cat-item lemma="XXX" tags="num.*"/>
-</def-cat>
--->
 <def-cat n="nom">
    <cat-item tags="abbr"/>
    <cat-item tags="n.*"/>
@@ -465,6 +429,39 @@
    <cat-item lemma="norantè" tags="adj.*"/>
    <cat-item lemma="centè" tags="adj.*"/>
 </def-cat>
+	<def-cat n="num_roma"> <!-- algun error fa que els lemes s'hagin de posar en minúscules, o bé no es reconeixen -->
+	   <cat-item lemma="i" tags="num.*"/>
+	   <cat-item lemma="ii" tags="num.*"/>
+	   <cat-item lemma="iii" tags="num.*"/>
+	   <cat-item lemma="iv" tags="num.*"/>
+	   <cat-item lemma="v" tags="num.*"/>
+	   <cat-item lemma="vi" tags="num.*"/>
+	   <cat-item lemma="vii" tags="num.*"/>
+	   <cat-item lemma="viii" tags="num.*"/>
+	   <cat-item lemma="ix" tags="num.*"/>
+	   <cat-item lemma="x" tags="num.*"/>
+	   <cat-item lemma="xi" tags="num.*"/>
+	   <cat-item lemma="xii" tags="num.*"/>
+	   <cat-item lemma="xiii" tags="num.*"/>
+	   <cat-item lemma="xiv" tags="num.*"/>
+	   <cat-item lemma="xv" tags="num.*"/>
+	   <cat-item lemma="xvi" tags="num.*"/>
+	   <cat-item lemma="xvii" tags="num.*"/>
+	   <cat-item lemma="xviii" tags="num.*"/>
+	   <cat-item lemma="xix" tags="num.*"/>
+	   <cat-item lemma="xx" tags="num.*"/>
+	   <cat-item lemma="xxi" tags="num.*"/>
+	   <cat-item lemma="xxi" tags="num.*"/>
+	   <cat-item lemma="xxii" tags="num.*"/>
+	   <cat-item lemma="xxiii" tags="num.*"/>
+	   <cat-item lemma="xxiv" tags="num.*"/>
+	   <cat-item lemma="xxv" tags="num.*"/>
+	   <cat-item lemma="xxvi" tags="num.*"/>
+	   <cat-item lemma="xxvii" tags="num.*"/>
+	   <cat-item lemma="xxviii" tags="num.*"/>
+	   <cat-item lemma="xxix" tags="num.*"/>
+	   <cat-item lemma="xxx" tags="num.*"/>
+	</def-cat>
 <def-cat n="III_IV_etc"> <!-- algun error fa que els lemes s'hagin de posar en minúscules, o bé no es reconeixen -->
    <cat-item lemma="iii" tags="num.*"/>
    <cat-item lemma="iv" tags="num.*"/>
@@ -500,6 +497,54 @@
    <cat-item lemma="segle" tags="n.*"/>
    <cat-item lemma="any" tags="n.*"/>
 </def-cat>
+	<def-cat n="regne_rei">
+	   <cat-item lemma="imperi" tags="n.*"/>
+	   <cat-item lemma="regne" tags="n.*"/>
+	   <cat-item lemma="corona" tags="n.*"/>
+	   <cat-item lemma="sultanat" tags="n.*"/>
+	   <cat-item lemma="califat" tags="n.*"/>
+	   <cat-item lemma="emirat" tags="n.*"/>
+	   <cat-item lemma="virregnat" tags="n.*"/>
+	   <cat-item lemma="principat" tags="n.*"/>
+	   <cat-item lemma="comtat" tags="n.*"/>
+	   <cat-item lemma="vescomtat" tags="n.*"/>
+	   <cat-item lemma="ducat" tags="n.*"/>
+	   <cat-item lemma="gran ducat" tags="n.*"/>
+	   <cat-item lemma="arxiducat" tags="n.*"/>
+	   <cat-item lemma="marquesat" tags="n.*"/>
+	   <cat-item lemma="marcgravinat" tags="n.*"/>
+	   <cat-item lemma="baronia" tags="n.*"/>
+	   <cat-item lemma="voivodat" tags="n.*"/>
+	   <cat-item lemma="bisbat" tags="n.*"/>
+	   <cat-item lemma="arquebisbat" tags="n.*"/>
+	   <cat-item lemma="casal" tags="n.*"/>
+	   <cat-item lemma="papa" tags="n.*"/>
+	   <cat-item lemma="patriarca" tags="n.*"/>
+	   <cat-item lemma="bisbe" tags="n.*"/>
+	   <cat-item lemma="arquebisbe" tags="n.*"/>
+	   <cat-item lemma="apòstol" tags="n.*"/>
+	   <cat-item lemma="emperador" tags="n.*"/>
+	   <cat-item lemma="rei" tags="n.*"/>
+	   <cat-item lemma="tsar" tags="n.*"/>
+	   <cat-item lemma="sultà" tags="n.*"/>
+	   <cat-item lemma="califa" tags="n.*"/>
+	   <cat-item lemma="emir" tags="n.*"/>
+	   <cat-item lemma="virrei" tags="n.*"/>
+	   <cat-item lemma="regent" tags="n.*"/>
+	   <cat-item lemma="príncep" tags="n.*"/>
+	   <cat-item lemma="infant" tags="n.*"/>
+	   <cat-item lemma="delfí" tags="n.*"/>
+	   <cat-item lemma="comte" tags="n.*"/>
+	   <cat-item lemma="vescomte" tags="n.*"/>
+	   <cat-item lemma="duc" tags="n.*"/>
+	   <cat-item lemma="arxiduc" tags="n.*"/>
+	   <cat-item lemma="marquès" tags="n.*"/>
+	   <cat-item lemma="marcgravi" tags="n.*"/>
+	   <cat-item lemma="marcgravina" tags="n.*"/>
+	   <cat-item lemma="baró" tags="n.*"/>
+	   <cat-item lemma="voivoda" tags="n.*"/>
+	   <cat-item lemma="elector" tags="n.*"/>
+	</def-cat>
 <def-cat n="que_cnjsub">
    <cat-item lemma="que" tags="cnjsub"/>
 </def-cat>
@@ -524,6 +569,15 @@
 </def-cat>
 <def-cat n="cnjadv">
    <cat-item tags="cnjadv"/>
+</def-cat>
+<def-cat n="cm">
+   <cat-item tags="cm"/>
+</def-cat>
+<def-cat n="lpar">
+   <cat-item tags="lpar"/>
+</def-cat>
+<def-cat n="rpar">
+   <cat-item tags="rpar"/>
 </def-cat>
 <def-cat n="sent">
    <cat-item tags="sent"/>
@@ -602,8 +656,10 @@
    <attr-item tags="abbr"/>
    <attr-item tags="n.acr"/>
    <attr-item tags="np.ant"/>
-   <attr-item tags="np.top"/>
    <attr-item tags="np.cog"/>
+   <attr-item tags="np.top"/>
+   <attr-item tags="np.hyd"/>
+   <attr-item tags="np.org"/>
    <attr-item tags="np.al"/>
 </def-attr>
 <def-attr n="a_det">
@@ -670,220 +726,231 @@
 
 <section-def-lists>
    <def-list n="verbs_estat">
-      <list-item v="estar"/>
-      <list-item v="ser"/>
-      <list-item v="quedar"/>
-    </def-list>
+	  <list-item v="estar"/>
+	  <list-item v="ser"/>
+	  <list-item v="quedar"/>
+	</def-list>
    <def-list n="vbambser">
-      <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
-      <list-item v="achirrare"/>
-      <list-item v="andare"/>
-      <list-item v="arribare"/>
-      <list-item v="arribbare"/>
-      <list-item v="artziare"/>
-      <list-item v="bàlere"/>
-      <list-item v="bènnere"/>
-      <list-item v="colare"/>
-      <list-item v="crèschere"/>
-      <list-item v="divenire"/>
-      <list-item v="èssere"/>
-      <list-item v="essire"/>
-      <list-item v="falare"/>
-      <list-item v="frenare"/>
-      <list-item v="fuire"/>
-      <list-item v="intrare"/>
-      <list-item v="isfugire"/>
-      <list-item v="istare"/>
-      <list-item v="nàschere"/>
-      <list-item v="partire"/>
-      <list-item v="restare"/>
-      <list-item v="pèndere"/>
-      <list-item v="sèere"/>
-      <list-item v="bìvere"/>
-      <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
+	  <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
+	  <list-item v="achirrare"/>
+	  <list-item v="andare"/>
+	  <list-item v="arribare"/>
+	  <list-item v="arribbare"/>
+	  <list-item v="artziare"/>
+	  <list-item v="bàlere"/>
+	  <list-item v="bènnere"/>
+	  <list-item v="colare"/>
+	  <list-item v="crèschere"/>
+	  <list-item v="divenire"/>
+	  <list-item v="èssere"/>
+	  <list-item v="essire"/>
+	  <list-item v="falare"/>
+	  <list-item v="frenare"/>
+	  <list-item v="fuire"/>
+	  <list-item v="intrare"/>
+	  <list-item v="isfugire"/>
+	  <list-item v="istare"/>
+	  <list-item v="nàschere"/>
+	  <list-item v="partire"/>
+	  <list-item v="restare"/>
+	  <list-item v="pèndere"/>
+	  <list-item v="sèere"/>
+	  <list-item v="bìvere"/>
+	  <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
 <!--      <list-item v="torrare"/> cas especial -->
-    </def-list>
-    <def-list n="familiars">
-      <list-item v="fill"/>
-      <list-item v="pare"/>
-      <list-item v="mare"/>
-      <list-item v="papa"/>
-      <list-item v="mama"/>
-      <list-item v="avi"/>
-      <list-item v="iaia"/>
-      <list-item v="besavi"/>
-      <list-item v="oncle"/>
-      <list-item v="tia"/>
-      <list-item v="nét"/>
-      <list-item v="besnét"/>
-    </def-list>
-    <def-list n="primer_segon">
-      <list-item v="primer"/>
-      <list-item v="segon"/>
-    </def-list>
+	</def-list>
+	<def-list n="familiars">
+	  <list-item v="fill"/>
+	  <list-item v="pare"/>
+	  <list-item v="mare"/>
+	  <list-item v="papa"/>
+	  <list-item v="mama"/>
+	  <list-item v="avi"/>
+	  <list-item v="iaia"/>
+	  <list-item v="besavi"/>
+	  <list-item v="oncle"/>
+	  <list-item v="tia"/>
+	  <list-item v="nét"/>
+	  <list-item v="besnét"/>
+	</def-list>
+	<def-list n="primer_segon">
+	  <list-item v="primer"/>
+	  <list-item v="segon"/>
+	</def-list>
    <def-list n="trencats">
-      <list-item v="terç"/>
-      <list-item v="quart"/>
-      <list-item v="quint"/>
-      <list-item v="cinquè"/>
-      <list-item v="sisè"/>
-      <list-item v="setè"/>
-      <list-item v="vuitè"/>
-      <list-item v="novè"/>
-    </def-list>
-    <def-list n="paisos_regions"> <!-- per a afegir un article si no el porten -->
-      <list-item v="Europa"/>
-      <list-item v="Àsia"/>
-      <list-item v="Euràsia"/>
-      <list-item v="Àfrica"/>
-      <list-item v="Àfrica de su Sud"/>
-      <list-item v="Amèrica"/>
-      <list-item v="Amèrica Tzentrale"/>
-      <list-item v="Amèrica de su Nord"/>
-      <list-item v="Amèrica de su Sud"/>
-      <list-item v="Nord Amèrica"/>
-      <list-item v="Nord-Amèrica"/>
-      <list-item v="Sud Amèrica"/>
-      <list-item v="Sud-Amèrica"/>
-      <list-item v="Otzeania"/>
-      <list-item v="Iscandinàvia"/>
-      <list-item v="Afganistàn"/>
-      <list-item v="Algeria"/>
-      <list-item v="Angola"/>
-      <list-item v="Antìgua e Barbuda"/>
-      <list-item v="Aràbia"/>
-      <list-item v="Aràbia Saudita"/>
-      <list-item v="Argentina"/>
-      <list-item v="Armènia"/>
-      <list-item v="Austràlia"/>
-      <list-item v="Samoa"/>
-      <list-item v="Àustria"/>
-      <list-item v="Azerbaigiàn"/>
-      <list-item v="Bahamas"/>
-      <list-item v="Bahrain"/>
-      <list-item v="Ìndia"/>
-      <list-item v="Bengala"/>
-      <list-item v="Tamil Nadu"/>
-      <list-item v="Bangladèsh"/>
-      <list-item v="Barbados"/>
-      <list-item v="Bèlgiu"/>
-      <list-item v="Belize"/>
-      <list-item v="Benìn"/>
-      <list-item v="Bhutàn"/>
-      <list-item v="Bielorùssia"/>
-      <list-item v="Bolìvia"/>
-      <list-item v="Bòrneo"/>
-      <list-item v="Botswana"/>
-      <list-item v="Brasile"/>
-      <list-item v="Britànnia Manna"/>
-      <list-item v="Brunei"/>
-      <list-item v="Bulgaria"/>
-      <list-item v="Burkina Faso"/>
-      <list-item v="Burundi"/>
-      <list-item v="Cabu Birde"/>
-      <list-item v="Noa Caledonia"/>
-      <list-item v="Camerùn"/>
-      <list-item v="Canadà"/>
-      <list-item v="Cèlebes"/>
-      <list-item v="Ciàd"/>
-      <list-item v="Colòmbia"/>
-      <list-item v="Comoras"/>
-      <list-item v="Congo"/>
-      <list-item v="Corea"/>
-      <list-item v="Corea de su Nord"/>
-      <list-item v="Corea de su Sud"/>
-      <list-item v="Costa de Marfilu"/>
-      <list-item v="Costa Rica"/>
-      <list-item v="Cuba"/>
-      <list-item v="Danimarca"/>
-      <list-item v="Dominica"/>
-      <list-item v="Ecuadòr"/>
-      <list-item v="Egitu"/>
-      <list-item v="Ellesmere"/>
+	  <list-item v="terç"/>
+	  <list-item v="quart"/>
+	  <list-item v="quint"/>
+	  <list-item v="cinquè"/>
+	  <list-item v="sisè"/>
+	  <list-item v="setè"/>
+	  <list-item v="vuitè"/>
+	  <list-item v="novè"/>
+	</def-list>
+	<def-list n="paisos_regions"> <!-- per a afegir un article si no el porten -->
+	  <list-item v="Europa"/>
+	  <list-item v="Àsia"/>
+	  <list-item v="Euràsia"/>
+	  <list-item v="Àfrica"/>
+	  <list-item v="Àfrica de su Sud"/>
+	  <list-item v="Amèrica"/>
+	  <list-item v="Amèrica Tzentrale"/>
+	  <list-item v="Amèrica de su Nord"/>
+	  <list-item v="Amèrica de su Sud"/>
+	  <list-item v="Nord Amèrica"/>
+	  <list-item v="Nord-Amèrica"/>
+	  <list-item v="Sud Amèrica"/>
+	  <list-item v="Sud-Amèrica"/>
+	  <list-item v="Otzeania"/>
+	  <list-item v="Iscandinàvia"/>
+	  <list-item v="Afganistàn"/>
+	  <list-item v="Algeria"/>
+	  <list-item v="Angola"/>
+	  <list-item v="Antìgua e Barbuda"/>
+	  <list-item v="Aràbia"/>
+	  <list-item v="Aràbia Saudita"/>
+	  <list-item v="Argentina"/>
+	  <list-item v="Armènia"/>
+	  <list-item v="Austràlia"/>
+	  <list-item v="Samoa"/>
+	  <list-item v="Àustria"/>
+	  <list-item v="Azerbaigiàn"/>
+	  <list-item v="Bahamas"/>
+	  <list-item v="Bahrain"/>
+	  <list-item v="Ìndia"/>
+	  <list-item v="Bengala"/>
+	  <list-item v="Tamil Nadu"/>
+	  <list-item v="Bangladèsh"/>
+	  <list-item v="Barbados"/>
+	  <list-item v="Bèlgiu"/>
+	  <list-item v="Belize"/>
+	  <list-item v="Benìn"/>
+	  <list-item v="Bhutàn"/>
+	  <list-item v="Bielorùssia"/>
+	  <list-item v="Bolìvia"/>
+	  <list-item v="Bòrneo"/>
+	  <list-item v="Botswana"/>
+	  <list-item v="Brasile"/>
+	  <list-item v="Britànnia Manna"/>
+	  <list-item v="Brunei"/>
+	  <list-item v="Bulgaria"/>
+	  <list-item v="Burkina Faso"/>
+	  <list-item v="Burundi"/>
+	  <list-item v="Cabu Birde"/>
+	  <list-item v="Noa Caledonia"/>
+	  <list-item v="Camerùn"/>
+	  <list-item v="Canadà"/>
+	  <list-item v="Cèlebes"/>
+	  <list-item v="Ciàd"/>
+	  <list-item v="Colòmbia"/>
+	  <list-item v="Comoras"/>
+	  <list-item v="Congo"/>
+	  <list-item v="Corea"/>
+	  <list-item v="Corea de su Nord"/>
+	  <list-item v="Corea de su Sud"/>
+	  <list-item v="Costa de Marfilu"/>
+	  <list-item v="Costa Rica"/>
+	  <list-item v="Croàtzia"/>
+	  <list-item v="Bòsnia"/>
+	  <list-item v="Bòsnia e Erzegòvina"/>
+	  <list-item v="Erzegòvina"/>
+	  <list-item v="Montenegro"/>
+	  <list-item v="Albània"/>
+	  <list-item v="Dalmàtzia"/>
+	  <list-item v="Danimarca"/>
+	  <list-item v="Dominica"/>
+	  <list-item v="Ecuadòr"/>
+	  <list-item v="Egitu"/>
+	  <list-item v="Ellesmere"/>
 <!--      <list-item v="El Salvadòr"/> -->
-      <list-item v="Eritrea"/>
-      <list-item v="Estònia"/>
-      <list-item v="Etiòpia"/>
-      <list-item v="Fer-Oer"/>
-      <list-item v="Filipinas"/>
-      <list-item v="Finlàndia"/>
-      <list-item v="Frantza"/>
-      <list-item v="Gabòn"/>
-      <list-item v="Gàmbia"/>
-      <list-item v="Geòrgia"/>
-      <list-item v="Germània"/>
-      <list-item v="Ghana"/>
-      <list-item v="Noa Guinea"/>
-      <list-item v="Giamàica"/>
-      <list-item v="Giapone"/>
-      <list-item v="Giava"/>
-      <list-item v="Gibuti"/>
-      <list-item v="Giordània"/>
-      <list-item v="Granada"/>
-      <list-item v="Grètzia"/>
-      <list-item v="Beòtzia"/>
-      <list-item v="Tessàllia"/>
-      <list-item v="Lacònia"/>
-      <list-item v="Arcàdia"/>
-      <list-item v="Eòlia"/>
-      <list-item v="Eòlida"/>
-      <list-item v="Iònia"/>
-      <list-item v="Frìgia"/>
-      <list-item v="Bitìnia"/>
-      <list-item v="Licia"/>
-      <list-item v="Tzilìtzia"/>
-      <list-item v="Capadòtzia"/>
-      <list-item v="Tròade"/>
-      <list-item v="Bactria"/>
-      <list-item v="Bactriana"/>
-      <list-item v="Groenlàndia"/>
-      <list-item v="Guadalupa"/>
-      <list-item v="Guajana Frantzesa"/>
-      <list-item v="Guàm"/>
-      <list-item v="Guatemala"/>
-      <list-item v="Guinea"/>
-      <list-item v="Guinea-Bissau"/>
-      <list-item v="Guinea Ecuatoriale"/>
-      <list-item v="Guyana"/>
-      <list-item v="Haiti"/>
-      <list-item v="Honduras"/>
-      <list-item v="Indonèsia"/>
-      <list-item v="Iràn"/>
-      <list-item v="Iràq"/>
-      <list-item v="Irlanda"/>
-      <list-item v="Irlanda de su Nord"/>
-      <list-item v="Islanda"/>
-      <list-item v="Ispagna"/>
-      <list-item v="Israele"/>
-      <list-item v="Isvètzia"/>
-      <list-item v="Isvìtzera"/>
-      <list-item v="Itàlia"/>
-      <list-item v="Jemen"/>
-      <list-item v="Kazachistàn"/>
-      <list-item v="Kènia"/>
-      <list-item v="Kirghisistàn"/>
-      <list-item v="Kiribati"/>
-      <list-item v="Kuwait"/>
-      <list-item v="Laos"/>
-      <list-item v="Lesotho"/>
-      <list-item v="Letònia"/>
-      <list-item v="Lìbanu"/>
-      <list-item v="Libèria"/>
-      <list-item v="Lìbia"/>
-      <list-item v="Lituània"/>
-      <list-item v="Lussemburgu"/>
-      <list-item v="Luzon"/>
-      <list-item v="Matzedònia"/>
-      <list-item v="Matzedònia de su Nord"/>
-      <list-item v="Madagascàr"/>
-      <list-item v="Malèsia"/>
-      <list-item v="Malawi"/>
-      <list-item v="Malì"/>
-      <list-item v="Malpelo"/>
-      <list-item v="Malta"/>
-      <list-item v="Marocu"/>
-      <list-item v="Mauritània"/>
-      <list-item v="Maurìtziu"/>
+	  <list-item v="Eritrea"/>
+	  <list-item v="Estònia"/>
+	  <list-item v="Etiòpia"/>
+      <list-item v="Abissinia"/>
+	  <list-item v="Fer-Oer"/>
+	  <list-item v="Filipinas"/>
+	  <list-item v="Finlàndia"/>
+	  <list-item v="Frantza"/>
+	  <list-item v="Gabòn"/>
+	  <list-item v="Gàmbia"/>
+	  <list-item v="Geòrgia"/>
+	  <list-item v="Germània"/>
+	  <list-item v="Ghana"/>
+	  <list-item v="Noa Guinea"/>
+	  <list-item v="Giamàica"/>
+	  <list-item v="Giapone"/>
+	  <list-item v="Giava"/>
+	  <list-item v="Gibuti"/>
+	  <list-item v="Giordània"/>
+	  <list-item v="Granada"/>
+	  <list-item v="Grètzia"/>
+	  <list-item v="Beòtzia"/>
+	  <list-item v="Tessàllia"/>
+	  <list-item v="Lacònia"/>
+	  <list-item v="Arcàdia"/>
+	  <list-item v="Eòlia"/>
+	  <list-item v="Eòlida"/>
+	  <list-item v="Iònia"/>
+	  <list-item v="Frìgia"/>
+	  <list-item v="Bitìnia"/>
+	  <list-item v="Licia"/>
+	  <list-item v="Tzilìtzia"/>
+	  <list-item v="Capadòtzia"/>
+	  <list-item v="Tròade"/>
+	  <list-item v="Bactria"/>
+	  <list-item v="Bactriana"/>
+	  <list-item v="Groenlàndia"/>
+	  <list-item v="Guadalupa"/>
+	  <list-item v="Guajana Frantzesa"/>
+	  <list-item v="Guàm"/>
+	  <list-item v="Guatemala"/>
+	  <list-item v="Guinea"/>
+	  <list-item v="Guinea-Bissau"/>
+	  <list-item v="Guinea Ecuatoriale"/>
+	  <list-item v="Guyana"/>
+	  <list-item v="Haiti"/>
+	  <list-item v="Honduras"/>
+	  <list-item v="Indonèsia"/>
+	  <list-item v="Iràn"/>
+	  <list-item v="Iràq"/>
+	  <list-item v="Irlanda"/>
+	  <list-item v="Irlanda de su Nord"/>
+	  <list-item v="Islanda"/>
+	  <list-item v="Islovènia"/>
+	  <list-item v="Islovàchia"/>
+	  <list-item v="Ispagna"/>
+	  <list-item v="Israele"/>
+	  <list-item v="Istìria"/>
+	  <list-item v="Burgenlànd"/>
+	  <list-item v="Isvètzia"/>
+	  <list-item v="Isvìtzera"/>
+	  <list-item v="Itàlia"/>
+	  <list-item v="Jemen"/>
+	  <list-item v="Kazachistàn"/>
+	  <list-item v="Kènia"/>
+	  <list-item v="Kirghisistàn"/>
+	  <list-item v="Kiribati"/>
+	  <list-item v="Kuwait"/>
+	  <list-item v="Laos"/>
+	  <list-item v="Lesotho"/>
+	  <list-item v="Letònia"/>
+	  <list-item v="Lìbanu"/>
+	  <list-item v="Libèria"/>
+	  <list-item v="Lìbia"/>
+	  <list-item v="Lituània"/>
+	  <list-item v="Lussemburgu"/>
+	  <list-item v="Luzon"/>
+	  <list-item v="Matzedònia"/>
+	  <list-item v="Matzedònia de su Nord"/>
+	  <list-item v="Madagascàr"/>
+	  <list-item v="Malèsia"/>
+	  <list-item v="Malawi"/>
+	  <list-item v="Malì"/>
+	  <list-item v="Malpelo"/>
+	  <list-item v="Malta"/>
+	  <list-item v="Marocu"/>
+	  <list-item v="Mauritània"/>
+	  <list-item v="Maurìtziu"/>
       <list-item v="Melville"/>
       <list-item v="Mèssicu"/>
       <list-item v="Mindanao"/>
@@ -4301,32 +4368,58 @@
 </rule>
 
 
-<rule comment="regla: top">
-   <pattern>
-     <pattern-item n="top"/>
-   </pattern>
-   <action>
-     <call-macro n="f_concord1">
-       <with-param pos="1"/>
-     </call-macro>
-     <let><var n="lemma"/><clip pos="1" side="tl" part="lem"/></let>
-     <out>
-       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
-         <tags>
-           <tag><lit-tag v="SN"/></tag>
-           <tag><lit-tag v="top"/></tag>
-           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
-           <tag><clip pos="1" side="tl" part="gen"/></tag>
-           <tag><clip pos="1" side="tl" part="nbr"/></tag>
-         </tags>
-         <lu>
-           <clip pos="1" side="tl" part="lemh"/>
-           <clip pos="1" side="tl" part="tags"/>
-           <clip pos="1" side="tl" part="lemq"/>
-         </lu>
-       </chunk>
-     </out>
-   </action>
+   <!-- REGLES PER POSAR O NO POSAR ARTICLE DAVANT DE TOPÒNIM -->
+
+<rule comment="REGLA: top">
+  <pattern>
+    <pattern-item n="top"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>
+    <choose>
+      <when>
+        <test>
+          <in><clip pos="1" side="tl" part="lem"/><list n="paisos_regions"/></in>
+        </test>
+        <out>
+          <chunk name="top_potser_det">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="np" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
 </rule>
 
 
@@ -4340,7 +4433,6 @@
        <with-param pos="2"/>
        <with-param pos="1"/>
      </call-macro>
-     <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
      <out>
        <chunk name="det">
          <tags>
@@ -4355,11 +4447,10 @@
          </lu>
        </chunk>
        <b pos="1"/>
-       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
+       <chunk name="np">
          <tags>
            <tag><lit-tag v="SN"/></tag>
            <tag><lit-tag v="top"/></tag>
-           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
            <tag><clip pos="2" side="tl" part="gen"/></tag>
            <tag><clip pos="2" side="tl" part="nbr"/></tag>
          </tags>
@@ -4386,7 +4477,6 @@
        <with-param pos="3"/>
        <with-param pos="1"/>
      </call-macro>
-     <let><var n="lemma"/><clip pos="2" side="tl" part="lem"/></let>
      <out>
        <chunk name="det">
          <tags>
@@ -4401,11 +4491,10 @@
          </lu>
        </chunk>
        <b pos="1"/>
-       <chunk namefrom="lemma">		<!-- no sé perquè ho posa en minúscules -->
+       <chunk name="np">
          <tags>
            <tag><lit-tag v="SN"/></tag>
            <tag><lit-tag v="top"/></tag>
-           <tag><concat><lit v="&lt;"/><var n="lemma"/><lit v="&gt;"/></concat></tag>	<!-- poso aquí el nom (en majúscules) -->
            <tag><clip pos="2" side="tl" part="gen"/></tag>
            <tag><clip pos="2" side="tl" part="nbr"/></tag>
          </tags>
@@ -4425,6 +4514,328 @@
    </action>
 </rule>
 
+
+<rule comment="regla: det adj top">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="adjec"/>
+     <pattern-item n="top"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord3">
+       <with-param pos="3"/>
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <out>
+       <chunk name="det">
+         <tags>
+           <tag><lit-tag v="SD"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="a_det"/>
+           <clip pos="1" side="tl" part="gen"/>
+           <clip pos="1" side="tl" part="nbr"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+       <b pos="1"/>
+       <chunk name="np">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><lit-tag v="top"/></tag>
+           <tag><clip pos="3" side="tl" part="gen"/></tag>
+           <tag><clip pos="3" side="tl" part="nbr"/></tag>
+         </tags>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="tags"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+    <rule comment="REGLA: PREP TOP">
+      <pattern>
+        <pattern-item n="pr"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <in><clip pos="2" side="tl" part="lem"/><list n="paisos_regions"/></in>
+            </test>
+            <out>
+              <chunk name="pr_top">
+                <tags>
+                  <tag><lit-tag v="SAdv"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="tags"/>
+                </lu>
+                <b/>
+                <lu>
+                  <lit v="su"/>
+                  <lit-tag v="det.def"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="tags"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="pr_top">
+                <tags>
+                  <tag><lit-tag v="SAdv"/></tag>
+                  <tag><var n="genero"/></tag>
+                  <tag><var n="numero"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <clip pos="1" side="tl" part="tags"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="tags"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ANT DE TOP">
+      <pattern>
+        <pattern-item n="ant"/>
+        <pattern-item n="de"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="np">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ANT NUM DE TOP">
+      <pattern>
+        <pattern-item n="ant"/>
+        <pattern-item n="num_roma"/>
+        <pattern-item n="de"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="np">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="tags"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="gen"/>
+              <clip pos="4" side="tl" part="nbr"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: REGNE DE TOP">
+      <pattern>
+        <pattern-item n="regne_rei"/>
+        <pattern-item n="de"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="nom_de_NP">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: DET REGNE DE TOP">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="regne_rei"/>
+        <pattern-item n="de"/>
+        <pattern-item n="top"/>
+      </pattern>
+      <action>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_de_NP">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="1" side="tl" part="gen_mf"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lem"/>
+              <clip pos="3" side="tl" part="tags"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="gen"/>
+              <clip pos="4" side="tl" part="nbr"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   <!-- FI REGLES PER POSAR O NO POSAR ARTICLE DAVANT DE TOPÒNIM -->
 
 <rule comment="regla: np">
    <pattern>
@@ -4568,6 +4979,60 @@
    </action>
 </rule>
 
+
+<rule comment="regla: cm">
+  <pattern>
+    <pattern-item n="cm"/>
+  </pattern>
+  <action>
+    <out>
+      <chunk name="cm">
+        <tags>
+          <tag><lit-tag v="cm"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="whole"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: lpar">
+  <pattern>
+    <pattern-item n="lpar"/>
+  </pattern>
+  <action>
+    <out>
+      <chunk name="lpar">
+        <tags>
+          <tag><lit-tag v="lpar"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="whole"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: rpar">
+  <pattern>
+    <pattern-item n="rpar"/>
+  </pattern>
+  <action>
+    <out>
+      <chunk name="rpar">
+        <tags>
+          <tag><lit-tag v="rpar"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="whole"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
 
 <rule comment="regla: sent">
    <pattern>
