@@ -2539,6 +2539,45 @@
 
 <!-- **************** N **************** -->
 
+  <!-- flamenc > gente arrùbia, fiamingu -->
+  <rule weight="0.6">
+    <match lemma="flamenc" tags="n.*"><select lemma="gente arrùbia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"/>
+    <match lemma="flamenc" tags="n.*"><select lemma="fiamingu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="flamenc" tags="n.*"><select lemma="fiamingu"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="való" tags="n.*"/>
+      <match lemma="Bèlgica" tags="np.*"/>
+      <match lemma="belga" tags="n.*"/>
+      <match lemma="belga" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="való" tags="n.*"/>
+      <match lemma="Bèlgica" tags="np.*"/>
+      <match lemma="belga" tags="n.*"/>
+      <match lemma="belga" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="flamenc" tags="n.*"><select lemma="fiamingu"/></match>
+  </rule>
+
   <!-- cap > capu, conca -->
   <rule weight="0.6">
     <match lemma="cap" tags="n.*"><select lemma="capu"/></match>
@@ -3378,6 +3417,7 @@
   <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Ludovicu"/></macro>
   <macro n="noms_propis"><with-param v="Manuel"/><with-param v="Manuelle"/></macro>
   <macro n="noms_propis"><with-param v="Marc"/><with-param v="Marcu"/></macro>
+  <macro n="noms_propis"><with-param v="Margarida"/><with-param v="Margherita"/></macro>
   <macro n="noms_propis"><with-param v="Martí"/><with-param v="Martine"/></macro>
   <macro n="noms_propis"><with-param v="Maximilià"/><with-param v="Massimilianu"/></macro>
   <macro n="noms_propis"><with-param v="Miró"/><with-param v="Mirò"/></macro>
