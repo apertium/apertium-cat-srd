@@ -4202,7 +4202,7 @@
    </action>
 </rule>
 
-<rule comment="regla: det nom III_IV_etc: el segle III su de III sèculos ">
+<rule comment="regla: det nom III_IV_etc: el segle III > su de III sèculos">
    <pattern>
      <pattern-item n="det"/>
      <pattern-item n="periode"/>
@@ -4235,6 +4235,57 @@
            <clip pos="3" side="tl" part="lemq"/>
          </lu>
          <b pos="2"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: det nom III_IV_etc cnjcoo III_IV_etc: els segles III i IV > sos de III e IV sèculos">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="periode"/>
+     <pattern-item n="III_IV_etc"/>
+     <pattern-item n="cnjcoo"/>
+     <pattern-item n="III_IV_etc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+     <out>
+       <chunk name="det_adjord_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <lit v="de"/><lit-tag v="pr"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="3" side="tl" part="whole"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="4" side="tl" part="whole"/>
+         </lu>
+         <b pos="3"/>
+         <lu>
+           <clip pos="5" side="tl" part="whole"/>
+         </lu>
+         <b pos="4"/>
          <lu>
            <clip pos="2" side="tl" part="lemh"/>
            <clip pos="2" side="tl" part="tags"/>
