@@ -3581,20 +3581,27 @@
        <test>
          <or>
            <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
-	   <and>
-	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
-	     <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
-	   </and>
+           <and>
+             <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
+             <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+           </and>
          </or>
        </test>
        <let><clip pos="1" side="tl" part="lem"/><lit v="èssere"/></let>
        <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
-       <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+       <choose>
+         <when>
+           <test>
+             <not><equal><clip pos="1" side="tl" part="nbr"/><lit v=""/></equal></not>
+           </test>
+           <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
+         </when>
+       </choose>
        <!-- el gènere, l'agafem en primer lloc del tercer membre (adj) o altrament de la variable "genero", però només en 3a persona i si genero no es mf -->
        <choose>
          <when>
            <test>
-	     <or>
+             <or>
                <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></equal>
                <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
              </or>
@@ -3606,8 +3613,8 @@
              <when>
                <test>
                <and>
-	         <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
-	         <or>
+                 <equal><clip pos="1" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+                 <or>
                    <equal><var n="genero"/><lit-tag v="m"/></equal>
                    <equal><var n="genero"/><lit-tag v="f"/></equal>
                  </or>
