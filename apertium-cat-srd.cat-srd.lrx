@@ -2463,6 +2463,16 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- jònic >> iònicu, iòniu -->
+  <rule weight="0.8">
+    <match lemma="jònic" tags="adj.*"><select lemma="iònicu"/></match>
+  </rule>
+
+  <!-- dòric >> dòricu, dòriu -->
+  <rule weight="0.8">
+    <match lemma="dòric" tags="adj.*"><select lemma="dòricu"/></match>
+  </rule>
+
   <!-- d'ultramar > dae s'àtera ala de mare, de s'àtera ala de mare -->
   <rule weight="0.6">
      <match lemma="d'ultramar" tags="adj.*"><select lemma="dae s'àtera ala de mare"/></match>
@@ -2540,6 +2550,22 @@
 
 
 <!-- **************** N **************** -->
+
+  <!-- jònic >> iònicu, iòniu -->
+  <rule weight="0.8">
+    <match lemma="jònic" tags="n.*"><select lemma="iònicu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="jònic" tags="n.*.pl"><select lemma="iòniu"/></match>
+  </rule>
+
+  <!-- dòric >> dòricu, dòriu -->
+  <rule weight="0.8">
+    <match lemma="dòric" tags="n.*"><select lemma="dòricu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dòric" tags="n.*.pl"><select lemma="dòriu"/></match>
+  </rule>
 
   <!-- assetjament >> assèdiu, bullismu -->
   <rule weight="0.8">
