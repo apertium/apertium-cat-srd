@@ -498,6 +498,7 @@
    <cat-item lemma="any" tags="n.*"/>
 </def-cat>
 	<def-cat n="regne_rei">
+	   <cat-item lemma="república" tags="n.*"/>
 	   <cat-item lemma="imperi" tags="n.*"/>
 	   <cat-item lemma="regne" tags="n.*"/>
 	   <cat-item lemma="corona" tags="n.*"/>
@@ -544,6 +545,9 @@
 	   <cat-item lemma="baró" tags="n.*"/>
 	   <cat-item lemma="voivoda" tags="n.*"/>
 	   <cat-item lemma="elector" tags="n.*"/>
+
+       <cat-item lemma="golf" tags="n.*"/>
+       <cat-item lemma="badia" tags="n.*"/>
 	</def-cat>
 <def-cat n="que_cnjsub">
    <cat-item lemma="que" tags="cnjsub"/>
