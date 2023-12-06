@@ -458,7 +458,6 @@
       <match lemma="bosc"/>
       <match lemma="camp"/>
       <match lemma="aiguamoll"/>
-
     </or></def-seq>
 
     <def-seq n="part_ciutat"><or>
@@ -593,6 +592,31 @@
       <match lemma="estiu"/>
       <match lemma="tardor"/>
       <match lemma="hivern"/>
+    </or></def-seq>
+
+    <def-seq n="familiar"><or>
+       <match lemma="pare" tags="n.*"/>
+       <match lemma="mare" tags="n.*"/>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="mama" tags="n.*"/>
+       <match lemma="papà" tags="n.*"/>
+       <match lemma="mamà" tags="n.*"/>
+       <match lemma="fill" tags="n.*"/>
+       <match lemma="germà" tags="n.*"/>
+       <match lemma="avi" tags="n.*"/>
+       <match lemma="nét" tags="n.*"/>
+       <match lemma="oncle" tags="n.*"/>
+       <match lemma="tia" tags="n.*"/>
+       <match lemma="cosi" tags="n.*"/>
+       <match lemma="nebot" tags="n.*"/>
+       <match lemma="sogre" tags="n.*"/>
+       <match lemma="gendre" tags="n.*"/>
+       <match lemma="nora" tags="n.*"/>
+       <match lemma="cunyat" tags="n.*"/>
+       <match lemma="besavi" tags="n.*"/>
+       <match lemma="besnét" tags="n.*"/>
+       <match lemma="besoncle" tags="n.*"/>
+       <match lemma="bestia" tags="n.*"/>
     </or></def-seq>
 
     <def-seq n="baralla"><or>
@@ -1588,6 +1612,44 @@
 
 
 <!-- **************** V VBLEX **************** -->
+
+  <!-- acomiadar > lissentziare, dispatzare -->
+  <rule weight="0.6">
+    <match lemma="acomiadar" tags="vblex.*"><select lemma="lissentziare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="acomiadar" tags="vblex.*"><select lemma="dispatzare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="convidat" tags="n.*"/>
+      <match lemma="invitat" tags="n.*"/>
+      <seq n="familiar"/>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="acomiadar" tags="vblex.pp.*"><select lemma="dispatzare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="per" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="convidat" tags="n.*"/>
+      <match lemma="invitat" tags="n.*"/>
+      <seq n="familiar"/>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
 
   <!-- doblar > addopiare, dopiare -->
   <rule weight="0.6">
@@ -3417,6 +3479,7 @@
 
   <macro n="ant_antcog"><with-param v="Abraham"/><with-param v="Abramu"/></macro>
   <macro n="ant_antcog"><with-param v="Aquil·les"/><with-param v="Achile"/></macro>
+  <macro n="ant_antcog"><with-param v="Alexandre"/><with-param v="Lisandru"/></macro>
   <macro n="ant_antcog"><with-param v="August"/><with-param v="Augustu"/></macro>
   <macro n="ant_antcog"><with-param v="Cèsar"/><with-param v="Tzèsare"/></macro>
   <macro n="ant_antcog"><with-param v="Ciceró"/><with-param v="Tzitzerone"/></macro>
@@ -3464,7 +3527,6 @@
   </rule>
 
 
-  <macro n="noms_propis"><with-param v="Alexandre"/><with-param v="Lisandru"/></macro>
   <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Benet"/><with-param v="Beneitu"/></macro>
   <macro n="noms_propis"><with-param v="Berenguer"/><with-param v="Berengàriu"/></macro>
@@ -3507,6 +3569,7 @@
   <macro n="noms_propis"><with-param v="Nicolau"/><with-param v="Nigola"/></macro>
   <macro n="noms_propis"><with-param v="Pau"/><with-param v="Pàule"/></macro>
   <macro n="noms_propis"><with-param v="Pere"/><with-param v="Pedru"/></macro>
+  <macro n="noms_propis"><with-param v="Pius"/><with-param v="Piu"/></macro>
   <macro n="noms_propis"><with-param v="Ramir"/><with-param v="Ramiru"/></macro>
   <macro n="noms_propis"><with-param v="Ramon"/><with-param v="Raimundu"/></macro>
   <macro n="noms_propis"><with-param v="Ricard"/><with-param v="Ricardu"/></macro>
