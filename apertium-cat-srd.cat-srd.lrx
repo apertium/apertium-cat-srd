@@ -3491,8 +3491,10 @@
   <macro n="ant_antcog"><with-param v="Horaci"/><with-param v="Oràtziu"/></macro>
   <macro n="ant_antcog"><with-param v="Jesús"/><with-param v="Gesùs"/></macro>
   <macro n="ant_antcog"><with-param v="Moisès"/><with-param v="Moses"/></macro>
-  <macro n="ant_antcog"><with-param v="Virgili"/><with-param v="Virgìliu"/></macro>
+  <macro n="ant_antcog"><with-param v="Nèstor"/><with-param v="Nèstore"/></macro>
+  <macro n="ant_antcog"><with-param v="Raquel"/><with-param v="Rachele"/></macro>
   <macro n="ant_antcog"><with-param v="Terenci"/><with-param v="Terènziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Virgili"/><with-param v="Virgìliu"/></macro>
 
   <rule weight="1.0">
     <match tags="np.ant.*"/>
