@@ -3516,6 +3516,21 @@
   </rule>
 
 
+  <rule weight="0.6">
+     <match lemma="Habsburg" tags="np.*"><select lemma="Asburgu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*.pl"/>
+     <match lemma="Habsburg" tags="np.*"><select lemma="Asburgos"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
+     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
+     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
+  </rule>
+
+
   <rule weight="1.0">
      <or><match tags="np.cog.*"/><match lemma="Puig"/></or>
      <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
@@ -3529,6 +3544,7 @@
   </rule>
 
 
+  <macro n="noms_propis"><with-param v="Adrià"/><with-param v="Adrianu"/></macro>
   <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Benet"/><with-param v="Beneitu"/></macro>
   <macro n="noms_propis"><with-param v="Berenguer"/><with-param v="Berengàriu"/></macro>
