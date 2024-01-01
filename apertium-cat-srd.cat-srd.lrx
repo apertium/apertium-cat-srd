@@ -8,13 +8,13 @@
 	  <rule weight="1.0">
 		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match lemma="de" tags="pr"/>
-		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
 	  </rule>
 	  <rule weight="1.0">
 		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="np.ant.*"/>
 		 <match lemma="de" tags="pr"/>
-		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
 	  </rule>
 	  <rule weight="1.0">
 		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
@@ -22,6 +22,8 @@
 		 <or>
 		   <match tags="adj.*"/>
 		   <match lemma="conqueridor" tags="n.*"/>
+		   <match lemma="apòstata" tags="n.*"/>
+		   <match lemma="rei" tags="n.*"/>
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
@@ -31,6 +33,8 @@
 		 <or>
 		   <match tags="adj.*"/>
 		   <match lemma="conqueridor" tags="n.*"/>
+		   <match lemma="apòstata" tags="n.*"/>
+		   <match lemma="rei" tags="n.*"/>
 		 </or>
 	  </rule>
 	  <rule weight="1.0">
@@ -300,6 +304,27 @@
   </def-macros>
 
   <def-seqs>
+    <def-seq n="cognomen"><or>
+      <match lemma="Mèdici" tags="np.cog.*"/>
+      <match lemma="Medici" tags="np.cog.*"/>
+      <match lemma="Este" tags="np.cog.*"/>
+      <match lemma="Habsburg" tags="np.cog.*"/>
+      <match lemma="Borbó" tags="np.*"/>
+      <match lemma="Valois" tags="np.cog.*"/>
+      <match lemma="Capet" tags="np.cog.*"/>
+      <match lemma="Plantagenet" tags="np.cog.*"/>
+      <match lemma="Braganza" tags="np.cog.*"/>
+      <match lemma="Orange" tags="np.cog.*"/>
+      <match lemma="Orange-Nassau" tags="np.cog.*"/>
+      <match lemma="Comnè" tags="np.cog.*"/>
+      <match lemma="Comnena" tags="np.cog.*"/>
+      <match lemma="Paleòleg" tags="np.cog.*"/>
+      <match lemma="Jagelló" tags="np.cog.*"/>
+      <match lemma="Lacon" tags="np.cog.*"/>
+      <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+      <match lemma="Lacon-Massa" tags="np.cog.*"/>
+    </or></def-seq>
+
     <def-seq n="animal"><or>
       <match lemma="animal" tags="n.*"/>
       <match lemma="peix" tags="n.*"/>
@@ -2613,6 +2638,174 @@
 
 <!-- **************** N **************** -->
 
+  <!-- diari > cuotidianu, diàriu -->
+  <rule weight="0.6">
+    <match lemma="diari" tags="n.*"><select lemma="cuotidianu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="diari" tags="n.*"><select lemma="diàriu"/></match>
+    <match lemma="de" tags="pr"/>
+    <or><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escriure" tags="vblex.*"/>
+    <or>
+      <match lemma="un" tags="det.*"/>
+      <match tags="det.pos.*"/>
+    </or>
+    <match lemma="diari" tags="n.*"><select lemma="diàriu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escriure" tags="vblex.*"/>
+    <match lemma="en" tags="pr"/>
+    <match tags="det.pos.*"/>
+    <match lemma="diari" tags="n.*"><select lemma="diàriu"/></match>
+  </rule>
+
+  <!-- estany > istagnu, lagu -->
+  <rule weight="0.6">
+     <match lemma="estany" tags="n.*"><select lemma="istagnu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="un" tags="det.*"/>
+     <match lemma="estany" tags="n.*"><select lemma="lagu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estany" tags="n.*"><select lemma="lagu"/></match>
+     <match tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="estany" tags="n.*"><select lemma="lagu"/></match>
+     <match lemma="de" tags="pr"/>
+  </rule>
+
+  <!-- falla >> farta, ispacu, falla -->
+  <rule weight="0.8">
+    <match lemma="falla" tags="n.*"><select lemma="farta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="falla" tags="n.*"><select lemma="ispacu"/></match>
+    <or>
+      <match lemma="geològic" tags="adj.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="falla" tags="n.*"><select lemma="ispacu"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="Falla" tags="n.*"><select lemma="falla"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="València" tags="np.*"/>
+      <match lemma="Alacant" tags="np.*"/>
+      <match lemma="Sant"/>
+      <match lemma="sant"/>
+    </or>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="falla" tags="n.*"><select lemma="ispacu"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="sant"/>
+    <match lemma="Andreu" tags="np.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="falla" tags="n.*"><select lemma="ispacu"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="placa" tags="n.*"/>
+      <match lemma="terratrèmol" tags="n.*"/>
+      <match lemma="vall" tags="n.*"/>
+      <match lemma="fossa" tags="n.*"/>
+      <match lemma="volcà" tags="n.*"/>
+      <match lemma="volcànic" tags="adj.*"/>
+      <match lemma="tectònica" tags="n.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="terratrèmol" tags="n.*"/>
+      <match lemma="vall" tags="n.*"/>
+      <match lemma="fossa" tags="n.*"/>
+      <match lemma="volcà" tags="n.*"/>
+      <match lemma="volcànic" tags="adj.*"/>
+      <match lemma="tectònica" tags="n.*"/>
+      <match lemma="tectònic" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="falla" tags="n.*"><select lemma="ispacu"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="cremar" tags="vblex.*"/>
+      <match lemma="festa" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="cremar" tags="vblex.*"/>
+      <match lemma="festa" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="falla" tags="n.*"><select lemma="falla"/></match>
+  </rule>
+
+  <!-- cúmul >> muntone, ammassu -->
+  <rule weight="0.8">
+    <match lemma="cúmul" tags="n.*"><select lemma="muntone"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cúmul" tags="n.*"><select lemma="ammassu"/></match>
+    <match lemma="globular" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="cúmul" tags="n.*"><select lemma="ammassu"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="galàxia" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Cúmul" tags="n.*"><select lemma="ammassu"/></match>
+    <match lemma="de" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match case="Aa"/>
+  </rule>
+
   <!-- jònic >> iònicu, iòniu -->
   <rule weight="0.8">
     <match lemma="jònic" tags="n.*"><select lemma="iònicu"/></match>
@@ -2838,8 +3031,7 @@
     </or>
   </rule>
 
-<!-- tassa > tassa, tassu -->
-
+  <!-- tassa > tassa, tassu -->
   <rule weight="0.6">
      <match lemma="tassa" tags="n.*"><select lemma="tassa"/></match>
   </rule>
@@ -2848,8 +3040,7 @@
      <match lemma="de" tags="pr"/>
   </rule>
 
-<!-- curs > cursu, annu -->
-
+  <!-- curs > cursu, annu -->
   <rule weight="0.6">
      <match lemma="curs" tags="n.*"><select lemma="cursu"/></match>
   </rule>
@@ -2865,8 +3056,7 @@
      <match tags="num"/>
   </rule>
 
-<!-- dona > fèmina, mugere -->
-
+  <!-- dona > fèmina, mugere -->
   <rule weight="0.6">
      <match lemma="dona" tags="n.*"><select lemma="fèmina"/></match>
   </rule>
@@ -2886,8 +3076,7 @@
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
-<!-- home > òmine, maridu -->
-
+  <!-- home > òmine, maridu -->
   <rule weight="0.6">
      <match lemma="home" tags="n.*"><select lemma="òmine"/></match>
   </rule>
@@ -2907,8 +3096,7 @@
      <or><match tags="np.ant"/><match tags="np.ant.*"/><match tags="np.cog.*"/></or>
   </rule>
 
-<!-- eixida > essida, corte -->
-
+  <!-- eixida > essida, corte -->
   <rule weight="0.6">
      <match lemma="eixida" tags="n.*"><select lemma="essida"/></match>
   </rule>
@@ -2924,8 +3112,7 @@
 # cops forts, cop molt dur, cops al pit
 -->
 
-<!-- cop > corfu, bia -->
-
+  <!-- cop > corfu, bia -->
   <rule weight="0.6">
      <match lemma="cop" tags="n.*"><select lemma="bia"/></match>
   </rule>
@@ -2947,8 +3134,7 @@
      <match tags="adj.*"/>
   </rule>
 
-<!-- paper > pabiru, ruolu -->
-
+  <!-- paper > pabiru, ruolu -->
   <rule weight="0.6">
      <match lemma="paper" tags="n.*"><select lemma="pabiru"/></match>
   </rule>
@@ -2967,6 +3153,10 @@
        <match lemma="blanc" tags="adj.*"/>
        <match lemma="groc" tags="adj.*"/>
        <match lemma="blau" tags="adj.*"/>
+       <match lemma="vermell" tags="adj.*"/>
+       <match lemma="verd" tags="adj.*"/>
+       <match lemma="taronja" tags="adj.*"/>
+       <match lemma="rosa" tags="adj.*"/>
 
        <match lemma="gran" tags="adj.*"/>
        <match lemma="petit" tags="adj.*"/>
