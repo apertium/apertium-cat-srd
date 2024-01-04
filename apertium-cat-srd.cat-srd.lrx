@@ -3667,6 +3667,15 @@
 
 <!-- **************** NP **************** -->
 
+  <!-- Conca > Cuenca, Conca -->
+  <rule weight="0.6">
+     <match lemma="Conca" tags="np.*"><select lemma="Cuenca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="det.*"/>
+     <match lemma="Conca" tags="np.*"><select lemma="Conca"/></match>
+  </rule>
+
   <macro n="ant_antcog"><with-param v="Abraham"/><with-param v="Abramu"/></macro>
   <macro n="ant_antcog"><with-param v="Aquil·les"/><with-param v="Achile"/></macro>
   <macro n="ant_antcog"><with-param v="Alexandre"/><with-param v="Lisandru"/></macro>
@@ -3691,6 +3700,7 @@
     <match lemma="Jesús" tags="np.ant.*"><select lemma="Jesús"/></match>
   </rule>
 
+  <!-- Plantagenet > Plantagenet, Plantagenetos -->
   <rule weight="0.6">
      <match lemma="Plantagenet" tags="np.*"><select lemma="Plantagenet"/></match>
   </rule>
@@ -3699,13 +3709,7 @@
      <match lemma="Plantagenet" tags="np.*"><select lemma="Plantagenetos"/></match>
   </rule>
 
-  <rule weight="1.0">
-     <or><match tags="np.cog.*"/><match lemma="Rovira"/></or>
-     <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
-     <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
-  </rule>
-
-
+  <!-- Habsburg > Asburgu, Asburgos -->
   <rule weight="0.6">
      <match lemma="Habsburg" tags="np.*"><select lemma="Asburgu"/></match>
   </rule>
@@ -3719,7 +3723,6 @@
      <match lemma="i" tags="cnjcoo"><select lemma="i"/></match>
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
-
 
   <rule weight="1.0">
      <or><match tags="np.cog.*"/><match lemma="Puig"/></or>
@@ -3735,7 +3738,9 @@
 
 
   <macro n="noms_propis"><with-param v="Adrià"/><with-param v="Adrianu"/></macro>
+  <macro n="noms_propis"><with-param v="Agustí"/><with-param v="Austinu"/></macro>
   <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonsu"/></macro>
+  <macro n="noms_propis"><with-param v="Basili"/><with-param v="Basilio"/></macro>
   <macro n="noms_propis"><with-param v="Benet"/><with-param v="Beneitu"/></macro>
   <macro n="noms_propis"><with-param v="Berenguer"/><with-param v="Berengàriu"/></macro>
   <macro n="noms_propis"><with-param v="Bernat"/><with-param v="Bernardu"/></macro>
@@ -3783,6 +3788,7 @@
   <macro n="noms_propis"><with-param v="Ramon"/><with-param v="Raimundu"/></macro>
   <macro n="noms_propis"><with-param v="Ricard"/><with-param v="Ricardu"/></macro>
   <macro n="noms_propis"><with-param v="Sixt"/><with-param v="Sistu"/></macro>
+  <macro n="noms_propis"><with-param v="Tomàs"/><with-param v="Tomasu"/></macro>
   <macro n="noms_propis"><with-param v="Victòria"/><with-param v="Vitòria"/></macro>
 
   <rule weight="2.0">
