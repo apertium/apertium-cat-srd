@@ -755,11 +755,13 @@
 	  <list-item v="isfugire"/>
 	  <list-item v="istare"/>
 	  <list-item v="nàschere"/>
+	  <list-item v="mòrrere"/>
 	  <list-item v="partire"/>
 	  <list-item v="restare"/>
 	  <list-item v="pèndere"/>
 	  <list-item v="sèere"/>
 	  <list-item v="bìvere"/>
+	  <list-item v="traballare"/>
 	  <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
 <!--      <list-item v="torrare"/> cas especial -->
 	</def-list>
@@ -907,8 +909,8 @@
       <list-item v="Pisìdia"/>
       <list-item v="Panfìlia"/>
       <list-item v="Còlchide"/>
-	  <list-item v="Bàctria"/>
-	  <list-item v="Bactriana"/>
+	  <list-item v="Bàtria"/>
+	  <list-item v="Batriana"/>
       <list-item v="Sogdiana"/>
       <list-item v="Sògdia"/>
       <list-item v="Transoxiana"/>
@@ -1029,6 +1031,8 @@
       <list-item v="Turchia"/>
       <list-item v="Anatòlia"/>
       <list-item v="Turkmenistàn"/>
+      <list-item v="Turkestàn"/>
+      <list-item v="Turchestàn"/>
       <list-item v="Tuvalu"/>
       <list-item v="Tzile"/>
       <list-item v="Tzina"/>
