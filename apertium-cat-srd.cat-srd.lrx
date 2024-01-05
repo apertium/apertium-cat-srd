@@ -2550,6 +2550,18 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- mongòlic >> mongolòidu, mongòlicu -->
+  <rule weight="0.8">
+    <match lemma="mongòlic" tags="adj.*"><select lemma="mongolòidu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="llengua" tags="n.*"/>
+       <match lemma="poble" tags="n.*"/>
+     </or>
+    <match lemma="mongòlic" tags="adj.*"><select lemma="mongòlicu"/></match>
+  </rule>
+
   <!-- jònic >> iònicu, iòniu -->
   <rule weight="0.8">
     <match lemma="jònic" tags="adj.*"><select lemma="iònicu"/></match>
