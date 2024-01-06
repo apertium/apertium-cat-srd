@@ -1,6 +1,6 @@
-[-VDquUp27tpl#0] ^su<det><def>$ ^ses<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[-VDquUp27tpl#0] ^su<det><def><m><sg>$ ^ses<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/-VDquUp27tpl]
-[0YoBhID-bjth#0] ^Dare<vblex><pri><p3><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^!<sent>$
+[0YoBhID-bjth#0] ^Dare<vblex><pri><p3><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^!<sent>$
 [/0YoBhID-bjth]
 [0aJ7kYkU5ffW#0] ^Dare<vblex><prs><p3><sg>$ ^àere<vbhaver><inf>$ ^cantare<vblex><pp><m><sg>$^.<sent>$
 [/0aJ7kYkU5ffW]
@@ -12,7 +12,7 @@
 [/1z_L1_MxBAGg]
 [3O0i8lBoaN7z#0] ^Unu<det><ind><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^famìlia<n><f><pl>$^.<sent>$
 [/3O0i8lBoaN7z]
-[45elK3gcCZPn#0] ^In<pr>$ ^Marcu<n><m><sg>$ ^si<prn><pro><ref><p3><mf><sp>$ ^mancu<adv>$ ^istudiosu<adj><m><sg>$ ^chi<rel><an><mf><sp>$ ^in<pr>$ ^Carles<np><ant><m><sg>$^.<sent>$
+[45elK3gcCZPn#0] ^In<pr>$ ^Marcu<n><m><sg>$ ^si<prn><pro><ref><p3><mf><sp>$ ^de mancu<adj><mf><sp>$ ^istudiosu<n><m><sg>$ ^chi<cnjsub>$ ^Carles<np><ant><m><sg>$^.<sent>$
 [/45elK3gcCZPn]
 [4A6qpsxSSUa5#0] ^Èssere<vbser><pii><p3><sg>$ ^andare<vblex><pp><m><sg>$^.<sent>$
 [/4A6qpsxSSUa5]
@@ -24,7 +24,7 @@
 [/54dYtV0rvd25]
 [5O_Gx7H6zYW9#0] ^Àere<vbhaver><pii><p1><sg>$ ^cumbàtere<vblex><pp><m><sg>$^.<sent>$
 [/5O_Gx7H6zYW9]
-[6bsg0US-LC5V#0] ^su<det><def>$ ^oto<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[6bsg0US-LC5V#0] ^su<det><def><m><sg>$ ^oto<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/6bsg0US-LC5V]
 [6pj8FCJZMhqP#0] ^Unu<det><ind><m><sg>$ ^amigu<n><m><sg>$ ^tuo<adj><pos><m><sg>$^.<sent>$
 [/6pj8FCJZMhqP]
@@ -60,7 +60,7 @@
 [/C2DcT7Tx6d66]
 [C8URUBg5GY0E#0] ^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>$ ^pane<n><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
 [/C8URUBg5GY0E]
-[E-c8E9abG5ng#0] ^Dare<vblex><imp><p2><sg>+nde<prn><enc><adv>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
+[E-c8E9abG5ng#0] ^Dare<vblex><imp><p2><sg>+nde<prn><enc><adv>$ ^a<pr>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
 [/E-c8E9abG5ng]
 [E67x-I_OIjeF#0] ^Èssere<vbser><pri><p3><sg>$ ^prus<adj><mf><sp>$ ^amigu<n><m><sg>$ ^de<pr>$ ^fàghere<vblex><inf>$ ^su<det><def><f><pl>$ ^cosa<n><f><pl>$ ^a pagu a pagu<adv>$^.<sent>$
 [/E67x-I_OIjeF]
@@ -90,11 +90,11 @@
 [/HkAsHbj5fjmZ]
 [HyV9UGXDOBVC#0] ^Cale<prn><itg><mf><sg>$ ^caratza<n><f><sg>$ ^àere<vbhaver><pri><p2><sg>$ ^comporare<vblex><pp><m><sg>$^?<sent>$
 [/HyV9UGXDOBVC]
-[ICtpBLBl6gHw#0] ^Nche<prn><pro><adv>$ ^dare<vblex><pri><p3><sg>$ ^su<det><def><m><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$^.<sent>$
+[ICtpBLBl6gHw#0] ^Nche<prn><pro><adv>$ ^dare<vblex><pri><p3><sg>$ ^su<det><def><m><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^Joan<np><ant><m><sg>$^.<sent>$
 [/ICtpBLBl6gHw]
 [II6bFoKV6ZbJ#0] ^Su<det><def><f><sg>$ ^istima<n><f><sg>$^.<sent>$
 [/II6bFoKV6ZbJ]
-[IJZqKgtCx9ai#0] ^su<det><def>$ ^sete<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[IJZqKgtCx9ai#0] ^su<det><def><m><sg>$ ^sete<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/IJZqKgtCx9ai]
 [IdapKm7wdzcG#0] ^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/IdapKm7wdzcG]
@@ -110,7 +110,7 @@
 [/JbdKPXvrfjmB]
 [JvpjQhcuEXLC#0] ^de deghe<adj><ord><mf><sp>$^.<sent>$
 [/JvpjQhcuEXLC]
-[K3jwvF4fc7i_#0] ^Fìgiu<n><m><sg>$ ^tuo<adj><pos><m><sg>$ ^si<prn><pro><ref><p3><mf><sp>$ ^prus<adv>$ ^inteligente<adj><mf><sg>$ ^chi<cnjsub>$ ^istudiosu<adj><m><sg>$^.<sent>$
+[K3jwvF4fc7i_#0] ^Fìgiu<n><m><sg>$ ^tuo<adj><pos><m><sg>$ ^si<prn><pro><ref><p3><mf><sp>$ ^prus<adv>$ ^abbistu<adj><m><sg>$ ^chi<cnjsub>$ ^no<adv>$ ^istudiosu<adj><m><sg>$^.<sent>$
 [/K3jwvF4fc7i_]
 [KNjdcyFSEimq#0] ^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/KNjdcyFSEimq]
@@ -118,13 +118,13 @@
 [/KU5dOB4mk7KM]
 [Ke0QoY1i2vtN#0] ^Babbu<n><m><sg>$ ^tuo<adj><pos><m><sg>$^.<sent>$
 [/Ke0QoY1i2vtN]
-[KlarQMmPGkXe#0] ^su<det><def>$ ^nou<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[KlarQMmPGkXe#0] ^su<det><def><m><sg>$ ^nou<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/KlarQMmPGkXe]
 [Kltvnjd2B2Le#0] ^Chèrrere<vblex><pri><p3><sg>$ ^faeddare<vblex><inf>$ ^prus<adv>$ ^de<pr>$ ^su<det><def><f><sg>$ ^bighinu<n><f><sg>$ ^meu<adj><pos><f><sg>$^.<sent>$
 [/Kltvnjd2B2Le]
 [LI_2S9OjHKFc#0] ^Li<prn><pro><p3><mf><sg>$ ^dare<vblex><inf>$^.<sent>$
 [/LI_2S9OjHKFc]
-[LKvhUsm5eiom#0] ^Èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^inteligente<adj><mf><sg>$ ^de<pr>$ ^fìgiu<n><m><sg>$ ^meu<adj><pos><m><sg>$^.<sent>$
+[LKvhUsm5eiom#0] ^Èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^abbistu<adj><m><sg>$ ^de<pr>$ ^fìgiu<n><m><sg>$ ^meu<adj><pos><m><sg>$^.<sent>$
 [/LKvhUsm5eiom]
 [LMLCVq6pIlHJ#0] ^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/LMLCVq6pIlHJ]
@@ -212,13 +212,13 @@
 [/XsoMD4NS44c5]
 [YH5bv7TGw7Xo#0] ^Èssere<vbser><pii><p3><sg>$ ^arribare<vblex><pp><m><sg>$^.<sent>$
 [/YH5bv7TGw7Xo]
-[YXjsjNy9Uo_0#0] ^su<det><def>$ ^chimbe<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[YXjsjNy9Uo_0#0] ^su<det><def><m><sg>$ ^chimbe<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/YXjsjNy9Uo_0]
 [ZBVV6eZAh4wO#0] ^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^nàrrere<vblex><pri><p3><sg>$^.<sent>$
 [/ZBVV6eZAh4wO]
 [ZTErbFmLwyOE#0] ^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/ZTErbFmLwyOE]
-[ZhNX4yLUOEHI#0] ^Dare<vblex><imp><p2><sg>+lu<prn><enc><p3><m><sg>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
+[ZhNX4yLUOEHI#0] ^Dare<vblex><imp><p2><sg>+lu<prn><enc><p3><m><sg>$ ^a<pr>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
 [/ZhNX4yLUOEHI]
 [_EIVfzwr46C4#0] ^In<pr>$ ^Carles<np><ant><m><sg>$ ^èssere<vbser><pri><p3><sg>$ ^mègius<adj><mf><sp>$^.<sent>$
 [/_EIVfzwr46C4]
@@ -258,11 +258,11 @@
 [/fCIdD-7YJu4R]
 [frTI9o3SMX1t#0] ^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/frTI9o3SMX1t]
-[fyBQRgmu_OHE#0] ^su<det><def>$ ^chimbe<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[fyBQRgmu_OHE#0] ^su<det><def><m><sg>$ ^chimbe<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/fyBQRgmu_OHE]
 [gEacws5jlm_e#0] ^Su<det><def><f><sg>$ ^domo<n><f><sg>$ ^bostru<adj><pos><f><sg>$^.<sent>$
 [/gEacws5jlm_e]
-[gRB6CjrNL1FM#0] ^In<pr>$ ^Carles<np><ant><m><sg>$ ^èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^sèriu<adj><m><sg>$ ^chi<cnjsub>$ ^in<pr>$ ^Marcu<n><m><sg>$^.<sent>$
+[gRB6CjrNL1FM#0] ^Carles<np><ant><m><sg>$ ^èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^sèriu<adj><m><sg>$ ^de<pr>$ ^in<pr>$ ^Marcu<n><m><sg>$^.<sent>$
 [/gRB6CjrNL1FM]
 [gqysUInNRoys#0] ^Mi<prn><pro><p1><mf><sg>$ ^dare<vblex><pri><p3><sg>$ ^unu<det><ind><m><sg>$ ^libru<n><m><sg>$^.<sent>$
 [/gqysUInNRoys]
@@ -310,7 +310,7 @@
 [/pyTdAmGehVC-]
 [q1Ivz8uMKBA8#0] ^Àere<vbhaver><pii><p3><sg>$ ^connòschere<vblex><pp><m><sg>$^.<sent>$
 [/q1Ivz8uMKBA8]
-[qKPP4sCK815a#0] ^su<det><def>$ ^bator<n><mf><sp>$ ^unu<num><sp>$^.<sent>$
+[qKPP4sCK815a#0] ^su<det><def><m><sg>$ ^bator<n><mf><sp>$ ^unu<num><m><sp>$^.<sent>$
 [/qKPP4sCK815a]
 [qLfUbeoh1iOO#0] ^Issu<prn><tn><p3><f><sg>$ ^èssere<vbser><pii><p3><sg>$ ^bènnere<vblex><pp><f><sg>$^.<sent>$
 [/qLfUbeoh1iOO]
@@ -328,7 +328,7 @@
 [/ts1tT1Bb5REB]
 [tvVRoH1OVtwx#0] ^Lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$^.<sent>$
 [/tvVRoH1OVtwx]
-[u2td98gKu2u7#0] ^Dare<vblex><pri><p3><sg>$ ^su<det><def><m><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^!<sent>$
+[u2td98gKu2u7#0] ^Dare<vblex><pri><p3><sg>$ ^su<det><def><m><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^!<sent>$
 [/u2td98gKu2u7]
 [uAg6bqZBY95_#0] ^Su<det><def><f><sg>$ ^segundu<adj><ord><f><sg>$ ^domo<n><f><sg>$^.<sent>$
 [/uAg6bqZBY95_]
@@ -336,7 +336,7 @@
 [/uxVv4uMOvvlm]
 [v5Ov1k_xgLbf#0] ^Àere<vblex><pri><p1><sg>$ ^a<pr>$ ^èssere<vbser><inf>$ ^andare<vblex><pp><m><sg>$^.<sent>$
 [/v5Ov1k_xgLbf]
-[vBZEWGKjLGyJ#0] ^Èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^inteligente<adj><mf><sg>$ ^de<pr>$ ^mene<prn><tn><p1><mf><sg>$^.<sent>$
+[vBZEWGKjLGyJ#0] ^Èssere<vbser><pri><p3><sg>$ ^prus<adv>$ ^abbistu<adj><m><sg>$ ^de<pr>$ ^deo<prn><tn><p1><mf><sg>$^.<sent>$
 [/vBZEWGKjLGyJ]
 [vF1Y9H1K5kTw#0] ^Issu<prn><tn><p3><f><sg>$ ^èssere<vbser><pii><p3><sg>$ ^bènnere<vblex><pp><f><sg>$^.<sent>$
 [/vF1Y9H1K5kTw]
@@ -346,7 +346,7 @@
 [/vgaZBHFpew_p]
 [viRVXU1Y8Hry#0] ^Èssere<vbser><pii><p3><sg>$ ^bènnere<vblex><pp><m><sg>$^.<sent>$
 [/viRVXU1Y8Hry]
-[vjXxuMF__ngt#0] ^Dare<vblex><pri><p3><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^su<det><def><m><sg>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
+[vjXxuMF__ngt#0] ^Dare<vblex><pri><p3><sg>$ ^pane<n><m><sg>$ ^a<pr>$ ^Joan<np><ant><m><sg>$ ^in<pr>$ ^domo<n><f><sg>$^.<sent>$
 [/vjXxuMF__ngt]
 [w8KxL2YxPxyH#0] ^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><pri><p3><sg>$^.<sent>$
 [/w8KxL2YxPxyH]

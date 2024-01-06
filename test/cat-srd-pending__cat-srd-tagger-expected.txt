@@ -12,7 +12,7 @@
 [/1z_L1_MxBAGg]
 [3O0i8lBoaN7z#0] ^Un<det><ind><f><sg>$ ^tercer<adj><ord><f><sg>$ ^família<n><f><sg>$^.<sent>$
 [/3O0i8lBoaN7z]
-[45elK3gcCZPn#0] ^En<pr>$ ^Marc<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>$ ^menys<adv>$ ^estudiós<adj><m><sg>$ ^que<rel><an><mf><sp>$ ^en<pr>$ ^Carles<np><ant><m><sg>$^.<sent>$
+[45elK3gcCZPn#0] ^En<pr>$ ^Marc<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>$ ^menys<adj><mf><sp>$ ^estudiós<n><m><sg>$ ^que<cnjsub>$ ^el<det><def><m><sg>$ ^Carles<np><ant><m><sg>$^.<sent>$
 [/45elK3gcCZPn]
 [4A6qpsxSSUa5#0] ^Anar<vblex><pri><p3><sg>$ ^haver<vbhaver><inf>$ ^anar<vblex><pp><m><sg>$^.<sent>$
 [/4A6qpsxSSUa5]
@@ -262,7 +262,7 @@
 [/fyBQRgmu_OHE]
 [gEacws5jlm_e#0] ^El vostre<det><pos><f><sg>$ ^casa<n><f><sg>$^.<sent>$
 [/gEacws5jlm_e]
-[gRB6CjrNL1FM#0] ^En<pr>$ ^Carles<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^més<adv>$ ^seriós<adj><m><sg>$ ^que<cnjsub>$ ^en<pr>$ ^Marc<n><m><sg>$^.<sent>$
+[gRB6CjrNL1FM#0] ^El<det><def><m><sg>$ ^Carles<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>$ ^més<adv>$ ^seriós<adj><m><sg>$ ^que<cnjsub>$ ^en<pr>$ ^Marc<n><m><sg>$^.<sent>$
 [/gRB6CjrNL1FM]
 [gqysUInNRoys#0] ^Em<prn><pro><p1><mf><sg>$ ^donar<vblex><pri><p3><sg>$ ^un<det><ind><m><sg>$ ^llibre<n><m><sg>$^.<sent>$
 [/gqysUInNRoys]

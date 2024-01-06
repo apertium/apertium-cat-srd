@@ -12,7 +12,7 @@
 [/1z_L1_MxBAGg]
 [3O0i8lBoaN7z#0] ^Un<det><ind><f><sg>/Unu<det><ind><f><sg>$ ^tercer<adj><ord><f><sg>/de tres<adj><ord><mf><sp>$ ^família<n><f><sg>/famìlia<n><f><sg>$^.<sent>/.<sent>$
 [/3O0i8lBoaN7z]
-[45elK3gcCZPn#0] ^En<pr>/In<pr>$ ^Marc<n><m><sg>/Marcu<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^menys<adv>/mancu<adv>$ ^estudiós<adj><m><sg>/istudiosu<adj><m><sg>$ ^que<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^en<pr>/in<pr>$ ^Carles<np><ant><m><sg>/Carles<np><ant><m><sg>$^.<sent>/.<sent>$
+[45elK3gcCZPn#0] ^En<pr>/In<pr>$ ^Marc<n><m><sg>/Marcu<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^menys<adj><mf><sp>/de mancu<adj><mf><sp>$ ^estudiós<n><m><sg>/istudiosu<n><m><sg>$ ^que<cnjsub>/chi<cnjsub>$ ^el<det><def><m><sg>/su<det><def><m><sg>$ ^Carles<np><ant><m><sg>/Carles<np><ant><m><sg>$^.<sent>/.<sent>$
 [/45elK3gcCZPn]
 [4A6qpsxSSUa5#0] ^Anar<vblex><pri><p3><sg>/Andare<vblex><pri><p3><sg>$ ^haver<vbhaver><inf>/àere<vbhaver><inf>$ ^anar<vblex><pp><m><sg>/andare<vblex><pp><m><sg>$^.<sent>/.<sent>$
 [/4A6qpsxSSUa5]
@@ -110,7 +110,7 @@
 [/JbdKPXvrfjmB]
 [JvpjQhcuEXLC#0] ^desè<adj><ord><m><sg>/de deghe<adj><ord><mf><sp>$^.<sent>/.<sent>$
 [/JvpjQhcuEXLC]
-[K3jwvF4fc7i_#0] ^El teu<det><pos><m><sg>/Tuo<adj><pos><m><sg>$ ^fill<n><m><sg>/fìgiu<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/inteligente<adj><mf><sg>$ ^que<cnjsub>/chi<cnjsub>$ ^estudiós<adj><m><sg>/istudiosu<adj><m><sg>$^.<sent>/.<sent>$
+[K3jwvF4fc7i_#0] ^El teu<det><pos><m><sg>/Tuo<adj><pos><m><sg>$ ^fill<n><m><sg>/fìgiu<n><m><sg>$ ^es<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/abbistu<adj><GD><sg>$ ^que<cnjsub>/chi<cnjsub>$ ^estudiós<adj><m><sg>/istudiosu<adj><m><sg>$^.<sent>/.<sent>$
 [/K3jwvF4fc7i_]
 [KNjdcyFSEimq#0] ^Li<prn><pro><p3><mf><sg>/Li<prn><pro><p3><mf><sg>$ ^el<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^donar<vblex><pri><p3><sg>/dare<vblex><pri><p3><sg>$^.<sent>/.<sent>$
 [/KNjdcyFSEimq]
@@ -124,7 +124,7 @@
 [/Kltvnjd2B2Le]
 [LI_2S9OjHKFc#0] ^Donar<vblex><inf>/Dare<vblex><inf>$ ^li<prn><enc><p3><mf><sg>/li<prn><enc><p3><mf><sg>$^.<sent>/.<sent>$
 [/LI_2S9OjHKFc]
-[LKvhUsm5eiom#0] ^Ser<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/inteligente<adj><mf><sg>$ ^que<cnjsub>/de<pr>$ ^el meu<det><pos><m><sg>/meu<adj><pos><m><sg>$ ^fill<n><m><sg>/fìgiu<n><m><sg>$^.<sent>/.<sent>$
+[LKvhUsm5eiom#0] ^Ser<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/abbistu<adj><GD><sg>$ ^que<cnjsub>/de<pr>$ ^el meu<det><pos><m><sg>/meu<adj><pos><m><sg>$ ^fill<n><m><sg>/fìgiu<n><m><sg>$^.<sent>/.<sent>$
 [/LKvhUsm5eiom]
 [LMLCVq6pIlHJ#0] ^Em<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^el<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^donar<vblex><pri><p3><sg>/dare<vblex><pri><p3><sg>$^.<sent>/.<sent>$
 [/LMLCVq6pIlHJ]
@@ -262,7 +262,7 @@
 [/fyBQRgmu_OHE]
 [gEacws5jlm_e#0] ^El vostre<det><pos><f><sg>/Bostru<adj><pos><f><sg>$ ^casa<n><f><sg>/domo<n><f><sg>$^.<sent>/.<sent>$
 [/gEacws5jlm_e]
-[gRB6CjrNL1FM#0] ^En<pr>/In<pr>$ ^Carles<np><ant><m><sg>/Carles<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^seriós<adj><m><sg>/sèriu<adj><m><sg>$ ^que<cnjsub>/chi<cnjsub>$ ^en<pr>/in<pr>$ ^Marc<n><m><sg>/Marcu<n><m><sg>$^.<sent>/.<sent>$
+[gRB6CjrNL1FM#0] ^El<det><def><m><sg>/Su<det><def><m><sg>$ ^Carles<np><ant><m><sg>/Carles<np><ant><m><sg>$ ^ser<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^seriós<adj><m><sg>/sèriu<adj><m><sg>$ ^que<cnjsub>/chi<cnjsub>$ ^en<pr>/in<pr>$ ^Marc<n><m><sg>/Marcu<n><m><sg>$^.<sent>/.<sent>$
 [/gRB6CjrNL1FM]
 [gqysUInNRoys#0] ^Em<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^donar<vblex><pri><p3><sg>/dare<vblex><pri><p3><sg>$ ^un<det><ind><m><sg>/unu<det><ind><m><sg>$ ^llibre<n><m><sg>/libru<n><m><sg>$^.<sent>/.<sent>$
 [/gqysUInNRoys]
@@ -336,7 +336,7 @@
 [/uxVv4uMOvvlm]
 [v5Ov1k_xgLbf#0] ^Haver<vbhaver><fti><p1><sg>/Àere<vbhaver><fti><p1><sg>$ ^anar<vblex><pp><m><sg>/andare<vblex><pp><m><sg>$^.<sent>/.<sent>$
 [/v5Ov1k_xgLbf]
-[vBZEWGKjLGyJ#0] ^Ser<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/inteligente<adj><mf><sg>$ ^que<cnjsub>/de<pr>$ ^jo<prn><tn><p1><mf><sg>/deo<prn><tn><p1><mf><sg>$^.<sent>/.<sent>$
+[vBZEWGKjLGyJ#0] ^Ser<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^més<adv>/prus<adv>$ ^intel·ligent<adj><mf><sg>/abbistu<adj><GD><sg>$ ^que<cnjsub>/de<pr>$ ^jo<prn><tn><p1><mf><sg>/deo<prn><tn><p1><mf><sg>$^.<sent>/.<sent>$
 [/vBZEWGKjLGyJ]
 [vF1Y9H1K5kTw#0] ^Ell<prn><tn><p3><f><sg>/Issu<prn><tn><p3><f><sg>$ ^anar<vblex><pri><p3><sg>/andare<vblex><pri><p3><sg>$ ^venir<vblex><inf>/bènnere<vblex><inf>$^.<sent>/.<sent>$
 [/vF1Y9H1K5kTw]
