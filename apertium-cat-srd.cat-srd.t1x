@@ -383,11 +383,18 @@
    <cat-item lemma="molt" tags="adv"/>
    <cat-item lemma="molt" tags="preadv"/>
 </def-cat>
+<def-cat n="mes_menys">
+  <cat-item lemma="més" tags="adv"/>
+  <cat-item lemma="menys" tags="adv"/>
+  <cat-item lemma="molt més" tags="adv"/>
+  <cat-item lemma="molt menys" tags="adv"/>
+</def-cat>
 <def-cat n="tan">
    <cat-item lemma="tan" tags="preadv"/>
 </def-cat>
 <def-cat n="com">
    <cat-item lemma="com" tags="rel.adv"/>
+   <cat-item lemma="com" tags="adv"/>
 </def-cat>
 <def-cat n="mes">
    <cat-item lemma="gener" tags="n.*"/>
@@ -11448,6 +11455,177 @@ S'ha de millorar:
      </out>
    </action>
 </rule>
+
+    <!--  REGLES DE COMPARACIÓ -->
+
+    <rule comment="REGLA: més/menys adj que (més ràpid que > più veloce di)">
+      <pattern>
+        <pattern-item n="mes_menys"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="que_cnjsub"/>
+      </pattern>
+      <action>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="prus_adj">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="de">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: més/menys adv que (més ràpid que > più veloce di)">
+      <pattern>
+        <pattern-item n="mes_menys"/>
+        <pattern-item n="adv"/>
+        <pattern-item n="que_cnjsub"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prus_adv">
+            <tags>
+              <tag><lit-tag v="SAdv"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="de">
+            <tags>
+              <tag><lit-tag v="pr"/></tag>
+            </tags>
+            <lu>
+              <lit v="de"/>
+              <lit-tag v="pr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: més/menys adj que adj (més més intel·ligent que estudiós > più abbistu chi non istudiosu)">
+      <pattern>
+        <pattern-item n="mes_menys"/>
+        <pattern-item n="adjec"/>
+        <pattern-item n="que_cnjsub"/>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="prus_adj">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_adj"/>
+              <clip pos="2" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="2" side="tl" part="gen_mf"/>
+              <clip pos="2" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr_sp"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+          <b pos="2"/>
+          <chunk name="chi">
+            <tags>
+              <tag><lit-tag v="chi"/></tag>
+            </tags>
+            <lu>
+              <lit v="chi"/>
+              <lit-tag v="cnjsub"/>
+            </lu>
+          </chunk>
+          <b/>
+        </out>
+        <call-macro n="f_chunk_tags">
+          <with-param pos="4"/>
+        </call-macro>
+        <call-macro n="f_concord1">
+          <with-param pos="4"/>
+        </call-macro>
+        <out>
+          <chunk name="non_adj">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+              <tag><var n="genero"/></tag>
+              <tag><var n="numero"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
+            </tags>
+            <lu>
+              <lit v="no"/>
+              <lit-tag v="adv"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_adj"/>
+              <clip pos="4" side="tl" part="gen_sense_mf" link-to="2"/>
+              <clip pos="4" side="tl" part="gen_mf"/>
+              <clip pos="4" side="tl" part="nbr_sense_sp" link-to="3"/>
+              <clip pos="4" side="tl" part="nbr_sp"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <!--  FI REGLES DE COMPARACIÓ -->
 
 </section-rules>
 
