@@ -2326,30 +2326,29 @@
      <or><match tags="vblex.*.p3.pl"/><match tags="vbhaver.*.p3.pl"/><match tags="vbser.*.p3.pl"/><match tags="vbmod.*.p3.pl"/></or>
   </rule>
 
-<!-- com > comente, comente a (comparacions) -->
-
-  <rule weight="0.6">
-     <match lemma="com" tags="rel.adv"><select lemma="comente"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="tan" tags="preadv"/>
-     <or><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="adv"/></or>
-     <match lemma="com" tags="rel.adv"><select lemma="comente a"/></match>
-  </rule>
-  <rule weight="1.0"> <!-- tan bon/mal amic com -->
-     <match lemma="tan" tags="preadv"/>
-     <match tags="adj.*"/>
-     <or><match tags="adj.*"/><match tags="n.*"/></or>
-     <match lemma="com" tags="rel.adv"><select lemma="comente a"/></match>
-  </rule>
-
-
 <!-- **************** ADV **************** -->
 
   <!-- entre altres > intre àteros, intre àteras -->
   <rule weight="0.6">
      <match lemma="entre altres" tags="adv"><select lemma="intre àteros"/></match>
   </rule>
+
+  <!-- com > comente, comente a (comparacions) -->
+  <rule weight="0.6">
+     <match lemma="com" tags="adv"><select lemma="comente"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="tan" tags="preadv"/>
+     <or><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="adv"/></or>
+     <match lemma="com" tags="adv"><select lemma="comente a"/></match>
+  </rule>
+  <rule weight="1.0"> <!-- tan bon/mal amic com -->
+     <match lemma="tan" tags="preadv"/>
+     <match tags="adj.*"/>
+     <or><match tags="adj.*"/><match tags="n.*"/></or>
+     <match lemma="com" tags="adv"><select lemma="comente a"/></match>
+  </rule>
+
 
   <!-- més > prus, de prus -->
   <rule weight="0.6">
