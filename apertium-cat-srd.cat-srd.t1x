@@ -46,6 +46,9 @@
 <def-cat n="det">
    <cat-item tags="det.*"/>
 </def-cat>
+<def-cat n="det_def">
+   <cat-item tags="det.def.*"/>
+</def-cat>
 <def-cat n="det_pos">
    <cat-item tags="det.pos.*"/>
 </def-cat>
@@ -5043,6 +5046,38 @@
 
    <!-- FI REGLES PER POSAR O NO POSAR ARTICLE DAVANT DE TOPÒNIM -->
 
+<rule comment="regla: det.def ant > ant (en Marc > Marc)">
+   <pattern>
+     <pattern-item n="det_def"/>
+     <pattern-item n="ant"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="2"/>
+     </call-macro>
+     <out>
+       <chunk name="np">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><var n="genero"/></tag>
+           <tag><var n="numero"/></tag>
+           <tag><var n="genero_sl"/></tag>
+           <tag><var n="numero_sl"/></tag>
+         </tags>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
 <rule comment="regla: np">
    <pattern>
      <pattern-item n="np"/>
@@ -5063,12 +5098,12 @@
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="tags"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
-     </chunk>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
      </out>
    </action>
 </rule>
